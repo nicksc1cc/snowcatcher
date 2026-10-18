@@ -5,7 +5,7 @@
   "region": "Tarentaise",
   "description": "Val Thorens is the highest ski resort in Europe at 2,300m. It sits in a huge sun-trap cirque crowned with six glaciers at the head of the Belleville Valley. 99% of its slopes are above 2,000m, making it one of the most snow-reliable resorts in the Alps. The architecture is purpose-built but the skiing is world-class \u2014 direct access to the 600km Les Trois Vall\u00e9es domain, lively apres (La Folie Douce, Malaysia Club, 40+ bars), and genuine ski-in/ski-out convenience.",
 
-  "research_status": "properly_sourced",
+  "research_status": "legacy_unverified",
   "source_url": "https://www.snowmagazine.com/ski-resort-guide/france/val-thorens-ski-resort",
   "research_sources": [
     {"url": "https://www.snowmagazine.com/ski-resort-guide/france/val-thorens-ski-resort", "type": "review", "author": "Roger Fulton", "retrieved": "2026-10-14"},
