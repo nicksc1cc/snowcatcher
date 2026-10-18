@@ -1,0 +1,1051 @@
+{
+  "meta": {
+    "record_type": "country",
+    "slug": "france",
+    "spec_version": 1,
+    "verification": {
+      "status": "unverified"
+    }
+  },
+  "01_industry": {
+    "skier_days_latest": {
+      "expects": "number",
+      "questions": [
+        "C002",
+        "C085"
+      ],
+      "seasonal": true,
+      "guidance": "Millions of skier days for the latest completed season",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "skier_days_history": {
+      "expects": "table",
+      "questions": [
+        "C085"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: season, skier_days_millions. Back to 2008/09",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "world_rank": {
+      "expects": "integer",
+      "questions": [
+        "C002"
+      ],
+      "seasonal": true,
+      "guidance": "Rank by skier days",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "peer_comparison": {
+      "expects": "table",
+      "questions": [
+        "C002"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: country, skier_days_millions, season",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "ski_area_count": {
+      "expects": "integer",
+      "questions": [
+        "C003"
+      ],
+      "seasonal": true,
+      "guidance": "scope_note MUST state the definition used",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "lift_count": {
+      "expects": "integer",
+      "questions": [
+        "C086"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "lift_count_history": {
+      "expects": "table",
+      "questions": [
+        "C086"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: year, lifts",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "drag_lift_count": {
+      "expects": "integer",
+      "questions": [
+        "C086"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "average_lift_age_years": {
+      "expects": "number",
+      "questions": [
+        "C086"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "snowmaking_coverage_pct": {
+      "expects": "number",
+      "questions": [
+        "C087"
+      ],
+      "seasonal": true,
+      "guidance": "Share of pistes covered",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "foreign_visitor_share_pct": {
+      "expects": "number",
+      "questions": [
+        "C088"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "visitor_origin": {
+      "expects": "table",
+      "questions": [
+        "C089"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: nationality, share_pct",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "top_resorts_by_attendance": {
+      "expects": "list",
+      "questions": [
+        "C090"
+      ],
+      "seasonal": true,
+      "guidance": "In rank order",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "attendance_share_by_range": {
+      "expects": "table",
+      "questions": [
+        "C085"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: range, share_pct",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "attendance_concentration": {
+      "expects": "text",
+      "questions": [
+        "C085"
+      ],
+      "seasonal": true,
+      "guidance": "e.g. share of attendance in the 15 largest resorts",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "lift_revenue_eur": {
+      "expects": "number",
+      "questions": [
+        "C085"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "employment_direct": {
+      "expects": "integer",
+      "questions": [
+        "C091"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "employment_total": {
+      "expects": "integer",
+      "questions": [
+        "C091"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "tourist_beds_total": {
+      "expects": "integer",
+      "questions": [
+        "C085"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "02_geography": {
+    "ranges": {
+      "expects": "table",
+      "questions": [
+        "C007",
+        "C008"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: name, departments, highest_point_m, character, ski_area_count",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "northern_vs_southern_alps": {
+      "expects": "text",
+      "questions": [
+        "C008"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "cross_border_domains": {
+      "expects": "table",
+      "questions": [
+        "C026"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: domain, linked_country, link_type",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "03_history_culture": {
+    "plan_neige": {
+      "expects": "text",
+      "questions": [
+        "C009"
+      ],
+      "seasonal": false,
+      "guidance": "What it was, dates, resorts it created",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "timeline": {
+      "expects": "table",
+      "questions": [
+        "C009"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: year, event",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "savoyard_culture": {
+      "expects": "text",
+      "questions": [
+        "C079"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "dishes": {
+      "expects": "table",
+      "questions": [
+        "C072"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: name, region, description",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "cheeses": {
+      "expects": "table",
+      "questions": [
+        "C073"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: name, aop_status, region",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "drinks": {
+      "expects": "table",
+      "questions": [
+        "C074"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: name, region, description",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "meal_times": {
+      "expects": "text",
+      "questions": [
+        "C075"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "tipping_norms": {
+      "expects": "text",
+      "questions": [
+        "C076"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "shop_hours": {
+      "expects": "text",
+      "questions": [
+        "C077"
+      ],
+      "seasonal": false,
+      "guidance": "Including Sundays in resorts",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "english_spoken": {
+      "expects": "text",
+      "questions": [
+        "C078"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "04_calendar": {
+    "season_general": {
+      "expects": "text",
+      "questions": [
+        "C028"
+      ],
+      "seasonal": true,
+      "guidance": "Typical opening and closing by altitude",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "school_holiday_zones": {
+      "expects": "table",
+      "questions": [
+        "C029"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: zone, academies, winter_start, winter_end",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "uk_half_term_dates": {
+      "expects": "table",
+      "questions": [
+        "C030"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: nation, start, end",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "peak_weeks": {
+      "expects": "text",
+      "questions": [
+        "C031"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "summer_glacier_skiing": {
+      "expects": "table",
+      "questions": [
+        "C033"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: resort, glacier, months",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "snow_trends": {
+      "expects": "text",
+      "questions": [
+        "C034"
+      ],
+      "seasonal": false,
+      "guidance": "Name the study and period",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "05_access": {
+    "airports": {
+      "expects": "table",
+      "questions": [
+        "C036"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: code, name, ranges_served, uk_routes",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "rail_routes": {
+      "expects": "table",
+      "questions": [
+        "C037"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: route, changes, duration, seasonal",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "coach_services": {
+      "expects": "table",
+      "questions": [
+        "C043"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: operator, from, to",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "skis_on_planes": {
+      "expects": "text",
+      "questions": [
+        "C044"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "06_driving": {
+    "calais_to_alps_hours": {
+      "expects": "number",
+      "questions": [
+        "C038"
+      ],
+      "seasonal": false,
+      "guidance": "scope_note states the destination used",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "routes": {
+      "expects": "table",
+      "questions": [
+        "C038"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: route, via, distance_km",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "tolls": {
+      "expects": "table",
+      "questions": [
+        "C039"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: route, cost_eur",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "winter_equipment_law": {
+      "expects": "text",
+      "questions": [
+        "C040"
+      ],
+      "seasonal": true,
+      "guidance": "Dates, number of departments, penalty",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "low_emission_zones": {
+      "expects": "table",
+      "questions": [
+        "C041"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: city, rules",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "required_kit": {
+      "expects": "list",
+      "questions": [
+        "C042"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "speed_limits": {
+      "expects": "table",
+      "questions": [
+        "C042"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: road, dry_kmh, wet_kmh",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "blood_alcohol_limit": {
+      "expects": "text",
+      "questions": [
+        "C042"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "07_entry_practical": {
+    "uk_passport_rules": {
+      "expects": "text",
+      "questions": [
+        "C045"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "uk_days_rule": {
+      "expects": "text",
+      "questions": [
+        "C045"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "ees_status": {
+      "expects": "text",
+      "questions": [
+        "C045"
+      ],
+      "seasonal": true,
+      "guidance": "Entry/Exit System",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "etias_status": {
+      "expects": "text",
+      "questions": [
+        "C045"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "ghic_coverage": {
+      "expects": "text",
+      "questions": [
+        "C046"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "currency_and_cards": {
+      "expects": "text",
+      "questions": [
+        "C047"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "mobile_roaming": {
+      "expects": "text",
+      "questions": [
+        "C048"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "plugs_and_time_zone": {
+      "expects": "text",
+      "questions": [
+        "C049"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "emergency_numbers": {
+      "expects": "table",
+      "questions": [
+        "C066"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: number, service",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "08_costs": {
+    "average_day_pass_eur": {
+      "expects": "number",
+      "questions": [
+        "C051"
+      ],
+      "seasonal": true,
+      "guidance": "scope_note states how the average was calculated",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "pricing_patterns": {
+      "expects": "text",
+      "questions": [
+        "C053"
+      ],
+      "seasonal": true,
+      "guidance": "Online discounts, dynamic pricing, family offers",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "ancv_acceptance": {
+      "expects": "text",
+      "questions": [
+        "C056"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "multi_resort_passes": {
+      "expects": "table",
+      "questions": [
+        "C055"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: pass, french_resorts",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "week_cost_estimates": {
+      "expects": "table",
+      "questions": [
+        "C054"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: resort_type, item, cost_eur",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "09_ski_schools": {
+    "esf": {
+      "expects": "text",
+      "questions": [
+        "C057"
+      ],
+      "seasonal": true,
+      "guidance": "Founding, number of schools, number of instructors",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "esf_levels": {
+      "expects": "table",
+      "questions": [
+        "C058"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: level, audience, what_it_means",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "independent_schools": {
+      "expects": "text",
+      "questions": [
+        "C059"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "minimum_ages": {
+      "expects": "table",
+      "questions": [
+        "C060"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: school_type, min_age",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "uk_instructor_rules": {
+      "expects": "text",
+      "questions": [
+        "C061"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "10_safety": {
+    "helmet_rules": {
+      "expects": "text",
+      "questions": [
+        "C062"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "carre_neige": {
+      "expects": "text",
+      "questions": [
+        "C063"
+      ],
+      "seasonal": true,
+      "guidance": "Cover and daily price",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "rescue_costs": {
+      "expects": "text",
+      "questions": [
+        "C064"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "insurance_guidance": {
+      "expects": "text",
+      "questions": [
+        "C065"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "piste_grading": {
+      "expects": "table",
+      "questions": [
+        "C067"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: colour, meaning",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "off_piste_law": {
+      "expects": "text",
+      "questions": [
+        "C068"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "avalanche_bulletin": {
+      "expects": "text",
+      "questions": [
+        "C069"
+      ],
+      "seasonal": false,
+      "guidance": "Name, scale, where published",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "alcohol_rules": {
+      "expects": "text",
+      "questions": [
+        "C070"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "drone_rules": {
+      "expects": "text",
+      "questions": [
+        "C071"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "11_accommodation": {
+    "accommodation_types": {
+      "expects": "table",
+      "questions": [
+        "C080"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: type, description, typical_inclusions",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "apartment_norms": {
+      "expects": "text",
+      "questions": [
+        "C081"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "self_catering_inclusions": {
+      "expects": "text",
+      "questions": [
+        "C082"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "tourist_tax": {
+      "expects": "text",
+      "questions": [
+        "C083"
+      ],
+      "seasonal": true,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "changeover_norms": {
+      "expects": "text",
+      "questions": [
+        "C084"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "12_climate_sustainability": {
+    "closed_resorts": {
+      "expects": "table",
+      "questions": [
+        "C092"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: resort, closed_year, reason",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "climate_projections": {
+      "expects": "text",
+      "questions": [
+        "C034",
+        "C092"
+      ],
+      "seasonal": false,
+      "guidance": "Name the study",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "national_commitments": {
+      "expects": "text",
+      "questions": [
+        "C093"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "labels": {
+      "expects": "table",
+      "questions": [
+        "C094"
+      ],
+      "seasonal": true,
+      "guidance": "Rows: label, criteria, number_of_resorts",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  },
+  "13_beyond_living": {
+    "cross_country_overview": {
+      "expects": "text",
+      "questions": [
+        "C095"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "thermal_spas": {
+      "expects": "table",
+      "questions": [
+        "C096"
+      ],
+      "seasonal": false,
+      "guidance": "Rows: town, nearest_resort",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "summer_offer": {
+      "expects": "text",
+      "questions": [
+        "C097"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "season_work_rules": {
+      "expects": "text",
+      "questions": [
+        "C098"
+      ],
+      "seasonal": true,
+      "guidance": "Including rules for UK nationals",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    },
+    "property_buying": {
+      "expects": "text",
+      "questions": [
+        "C099"
+      ],
+      "seasonal": false,
+      "guidance": "",
+      "value": null,
+      "status": "not_researched",
+      "sources": []
+    }
+  }
+}
