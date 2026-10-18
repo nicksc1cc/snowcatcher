@@ -1,39 +1,44 @@
 {
-  "resort": "Bar\u00e8ges",
+  "name": "Barèges",
   "slug": "bareges",
   "domain": "Grand Tourmalet",
   "region": "Pyrenees",
-  "altitude": 1240,
-  "character": "One of France's oldest thermal spa towns (since 17th century). Authentic Pyrenean mountain village. Western gateway to Grand Tourmalet \u2014 largest ski domain in the French Pyrenees (100km). Lienz forest runs provide sheltered skiing in bad weather. On the Route des Cols (Col du Tourmalet).",
-  "research_status": "properly_sourced",
-  "description": "Bar\u00e8ges is one of France's oldest thermal spa towns \u2014 the Thermes de Bar\u00e8ges have operated continuously since the 17th century, using natural sulphur-rich spring waters (32-48\u00b0C) for rheumatological, orthopaedic, and respiratory treatments. Three-week cures are reimbursable by French health insurance. Shorter 3-6 day wellness stays available without prescription. As the western gateway to Grand Tourmalet, the ski area is accessed from the Tournaboup sector 3km above the village (free shuttle). The Lienz forest runs offer sheltered skiing in bad weather \u2014 a wilder, more intimate atmosphere than La Mongie. Spa village charm with stone houses along the Bastan river. Gateway to N\u00e9ouvielle Nature Reserve and the Col du Tourmalet cycling route.",
-  "sources": [
-    "https://alti-mag.com/en/stations/bareges",
-    "https://opentravelguide.com/france/occitanie/wellness/thermes-de-bareges",
-    "https://ecoledeski.fr/en/stations/bareges"
-  ],
-  "stats": {
-    "altitude_resort": 1240,
-    "altitude_top": 2877,
+  "statistics": {
+    "base_altitude": 1240,
+    "top_altitude": 2877,
     "domain_pistes_km": 100
   },
-  "non_ski_activities": {
-    "thermal_baths": "Thermes de Bar\u00e8ges \u2014 one of France's oldest continuously operating thermal stations (since 17th century). Natural sulphur-rich spring water (32-48\u00b0C). Thermal baths, underwater jet massage (baln\u00e9oth\u00e9rapie), affusion showers, ENT inhalation therapy, mud poultice. French health insurance reimbursable 3-week cures. Shorter 3-6 day wellness stays.",
-    "lienz_forest": "Sheltered skiing through Lienz forest \u2014 protected in bad weather, wild and intimate atmosphere. Unique in the Pyrenees.",
-    "neouvielle": "Gateway to N\u00e9ouvielle National Nature Reserve \u2014 grandiose landscapes, numerous mountain lakes. Hiking and snowshoeing.",
-    "col_du_tourmalet": "On the Route des Cols. Famous cycling climb. Direct access from the village.",
-    "other": "Snowshoeing, sledding, hiking in Pyrenees National Park, mountain biking, fishing. Traditional village atmosphere with stone houses."
+  "description": "Barèges is one of France's oldest thermal spa towns — the Thermes de Barèges have operated continuously since the 17th century, using natural sulphur-rich spring waters (32-48°C) for rheumatological, orthopaedic, and respiratory treatments. Three-week cures are reimbursable by French health insurance. Shorter 3-6 day wellness stays available without prescription. As the western gateway to Grand Tourmalet, the ski area is accessed from the Tournaboup sector 3km above the village (free shuttle). The Lienz forest runs offer sheltered skiing in bad weather — a wilder, more intimate atmosphere than La Mongie. Spa village charm with stone houses along the Bastan river. Gateway to Néouvielle Nature Reserve and the Col du Tourmalet cycling route.",
+  "overview": {
+    "atmosphere": "One of France's oldest thermal spa towns (since 17th century). Authentic Pyrenean mountain village. Western gateway to Grand Tourmalet — largest ski domain in the French Pyrenees (100km). Lienz forest runs provide sheltered skiing in bad weather. On the Route des Cols (Col du Tourmalet)."
   },
-  "best_for": {
-    "spa_seekers": 10,
-    "peace": 9,
-    "authenticity": 9,
-    "families": 7
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, sledding, hiking in Pyrenees National Park, mountain biking, fishing. Traditional village atmosphere with stone houses."
   },
   "honest_drawbacks": [
     "Requires shuttle to Tournaboup for ski access (3km)",
-    "Small village \u2014 limited dining/restaurants",
+    "Small village — limited dining/restaurants",
     "Quiet evening apres",
     "Lower altitude for the Pyrenees"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://alti-mag.com/en/stations/bareges",
+      "https://opentravelguide.com/france/occitanie/wellness/thermes-de-bareges",
+      "https://ecoledeski.fr/en/stations/bareges"
+    ],
+    "best_for": {
+      "spa_seekers": 10,
+      "peace": 9,
+      "authenticity": 9,
+      "families": 7
+    },
+    "honest_drawbacks": [
+      "Requires shuttle to Tournaboup for ski access (3km)",
+      "Small village — limited dining/restaurants",
+      "Quiet evening apres",
+      "Lower altitude for the Pyrenees"
+    ]
+  }
 }

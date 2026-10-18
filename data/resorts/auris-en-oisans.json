@@ -1,46 +1,47 @@
 {
-  "resort": "Auris-en-Oisans",
+  "name": "Auris-en-Oisans",
   "slug": "auris-en-oisans",
   "domain": "Grand Domaine",
   "region": "Oisans",
-  "altitude": 1600,
-  "character": "Sunny south-facing family resort at 1,600m on the Grandes Rousses. Own 19-run ski area + linked to Alpe d'Huez Grand Domaine (250km) via Alpauris chairlift. Indoor pool, 3 spas, highest spruce forest in Europe for snowshoeing. Eco-museum in Roman-era hamlet.",
-  "research_status": "properly_sourced",
-  "description": "Auris-en-Oisans sits on a south-facing slope of the Grandes Rousses massif at 1,600m, facing the \u00c9crins peaks. 300 days of sunshine per year. Own ski area with 19 runs and 12 lifts, linked to the 250km Alpe d'Huez Grand Domaine via the Alpauris chairlift. Glass-enclosed indoor pool with views of the \u00c9crins. 3 spas. Pi\u00e9gut forest \u2014 the highest spruce forest in Europe \u2014 offers magical snowshoeing. Eco-museum in the hamlet of Cours (traditional barn with rural exhibits). Traditional hamlets with stone houses dating back to Roman times. Family-friendly with kids' club (18 months-12 years). Night sledging, cinema, concerts. Good value satellite of Alpe d'Huez.",
-  "sources": [
-    "https://www.auris-en-oisans.co.uk/winter-activities/alpe-dhuez-grand-domaine-ski",
-    "https://www.auris-en-oisans.co.uk/winter-activities/the-resort",
-    "https://en.oisans.com/loisans/stations-et-villages/auris-en-oisans"
-  ],
-  "stats": {
-    "altitude_resort": 1600,
-    "altitude_top": 3330,
+  "statistics": {
+    "base_altitude": 1600,
+    "top_altitude": 3330,
     "domain_pistes_km": 250,
-    "own_runs": 19,
     "own_lifts": 12,
-    "domain_lifts": 80,
-    "domain_runs": 111,
-    "sunny_days": 300
+    "domain_lifts": 80
   },
-  "non_ski_activities": {
-    "indoor_pool": "Glass-enclosed indoor pool with views of \u00c9crins mountain range. Perfect all-weather swimming.",
-    "spas": "3 spas with mountain views and \u00c9crins panorama.",
-    "snowshoeing": "Pi\u00e9gut forest \u2014 highest spruce forest in Europe. Fairytale snowshoe trails through frost-glazed spruce, glistening branches. Wildlife spotting possible.",
-    "eco_museum": "Rural Museum in the hamlet of Cours \u2014 traditional Oisans barn with exhibits on mountain past. Roman-era stone houses in hamlets.",
-    "kids_club": "Les Marmottes \u2014 18 months to 12 years. Secure beginner area. Liaison between ski school and kids' club so parents ski uninterrupted.",
-    "evenings": "Night sledging, torch-lit descents, shows, cinema, concerts, snow-golf, football tournaments in snow.",
-    "other": "Dog sledding, laser game, orienteering, paragliding. Central Oisans location \u2014 25 min to Bourg-d'Oisans, 36 min to Alpe d'Huez, 36 min to Les 2 Alpes."
+  "description": "Auris-en-Oisans sits on a south-facing slope of the Grandes Rousses massif at 1,600m, facing the Écrins peaks. 300 days of sunshine per year. Own ski area with 19 runs and 12 lifts, linked to the 250km Alpe d'Huez Grand Domaine via the Alpauris chairlift. Glass-enclosed indoor pool with views of the Écrins. 3 spas. Piégut forest — the highest spruce forest in Europe — offers magical snowshoeing. Eco-museum in the hamlet of Cours (traditional barn with rural exhibits). Traditional hamlets with stone houses dating back to Roman times. Family-friendly with kids' club (18 months-12 years). Night sledging, cinema, concerts. Good value satellite of Alpe d'Huez.",
+  "overview": {
+    "atmosphere": "Sunny south-facing family resort at 1,600m on the Grandes Rousses. Own 19-run ski area + linked to Alpe d'Huez Grand Domaine (250km) via Alpauris chairlift. Indoor pool, 3 spas, highest spruce forest in Europe for snowshoeing. Eco-museum in Roman-era hamlet."
   },
-  "best_for": {
-    "families": 10,
-    "value": 9,
-    "sun_seekers": 9,
-    "beginners": 9
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "snowshoeing": "Piégut forest — highest spruce forest in Europe. Fairytale snowshoe trails through frost-glazed spruce, glistening branches. Wildlife spotting possible.",
+    "non_ski_activities": "Dog sledding, laser game, orienteering, paragliding. Central Oisans location — 25 min to Bourg-d'Oisans, 36 min to Alpe d'Huez, 36 min to Les 2 Alpes."
   },
   "honest_drawbacks": [
-    "Quiet apres \u2014 limited evening activities beyond family entertainment",
-    "Small village \u2014 limited dining/restaurants",
+    "Quiet apres — limited evening activities beyond family entertainment",
+    "Small village — limited dining/restaurants",
     "Requires Alpauris chairlift to reach full Grand Domaine",
     "Limited advanced terrain locally"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.auris-en-oisans.co.uk/winter-activities/alpe-dhuez-grand-domaine-ski",
+      "https://www.auris-en-oisans.co.uk/winter-activities/the-resort",
+      "https://en.oisans.com/loisans/stations-et-villages/auris-en-oisans"
+    ],
+    "best_for": {
+      "families": 10,
+      "value": 9,
+      "sun_seekers": 9,
+      "beginners": 9
+    },
+    "honest_drawbacks": [
+      "Quiet apres — limited evening activities beyond family entertainment",
+      "Small village — limited dining/restaurants",
+      "Requires Alpauris chairlift to reach full Grand Domaine",
+      "Limited advanced terrain locally"
+    ]
+  }
 }

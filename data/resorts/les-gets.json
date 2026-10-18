@@ -1,37 +1,30 @@
 {
-  "resort": "Les Gets",
-  "altitude": 1172,
+  "name": "Les Gets",
+  "slug": "les-gets",
   "domain": "Portes du Soleil",
   "region": "Mont Blanc/Chablais",
-  "character": "Traditional market town, slower-paced than Morzine. Family-friendly, wooded setting, quieter Portes du Soleil base.",
+  "statistics": {
+    "base_altitude": 1172,
+    "top_altitude": 2000,
+    "domain_pistes_km": 600
+  },
   "description": "Les Gets is the quieter, more sedate neighbour to Morzine. A traditional market town at 1,172m with a slower pace and family-friendly vibe. Wooded mountainside terrain. Linked to Morzine via the Chavannes gondola. Weekly market on Wednesday mornings. Year-round destination known as 'the village of 100 chalets'.",
-  "stats": {
-    "altitude_resort": 1172,
-    "altitude_top": 2000,
-    "domain_pistes_km": 600,
-    "note": "Linked to Morzine via Chavannes gondola"
+  "overview": {
+    "atmosphere": "Traditional market town, slower-paced than Morzine. Family-friendly, wooded setting, quieter Portes du Soleil base."
   },
-  "non_ski_activities": {
-    "multi_pass": "\u20ac4/day or \u20ac15/day gives access to 70+ activities across 12 Portes du Soleil resorts",
-    "museum": "Museum of Mechanical Music \u2014 900+ instruments, unique in the Alps",
-    "cheese_dairy": "Fruiti\u00e8re des Perri\u00e8res cheese dairy tours \u2014 see Abondance cheese being made",
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
     "ice_skating": "Outdoor ice rink, open October to April",
-    "bowling": "Bowling des Gets",
-    "cinema": "Le Club cinema \u2014 one screening per day per person included in Multi Pass",
-    "night_experience": "Alta Lumina \u2014 night-time sensory experience unique in Europe",
-    "spas": "Multiple spa and wellness centres in the village with facials, massages, saunas, hammams",
-    "other": "Lac des \u00c9coles (summer swimming), pottery workshop, carousel, library, 70+ Multi Pass activities, pedestrian lift access"
+    "non_ski_activities": "Bowling des Gets. Le Club cinema — one screening per day per person included in Multi Pass. Lac des Écoles (summer swimming), pottery workshop, carousel, library, 70+ Multi Pass activities, pedestrian lift access"
   },
-  "best_for": {
-    "families": 9,
-    "beginners": 8,
-    "peace": 9
+  "food_and_drink": {
+    "best_restaurants": [
+      "La Biskatcha (mountain brasserie and grill, centre)",
+      "La Piste Noire (foot of slopes, French cuisine, fresh market produce)",
+      "L'As des Neiges (gourmet, homemade)",
+      "Le Flambeau"
+    ]
   },
-  "honest_drawbacks": [
-    "Lower altitude (1,172m) \u2014 snow variable",
-    "Quieter apres than Morzine",
-    "Limited advanced terrain locally"
-  ],
   "access": {
     "nearest_airports": [
       {
@@ -40,19 +33,26 @@
       }
     ]
   },
-  "slug": "les-gets",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.lesgets.com/en/fun/things-to-do-in-les-gets/",
-    "https://www.lesgets.com/en/well-being/",
-    "https://www.intersport-lesgets.com/en/guide/les-gets/"
+  "honest_drawbacks": [
+    "Lower altitude (1,172m) — snow variable",
+    "Quieter apres than Morzine",
+    "Limited advanced terrain locally"
   ],
-  "dining_guide": {
-    "signature": [
-      "La Biskatcha (mountain brasserie and grill, centre)",
-      "La Piste Noire (foot of slopes, French cuisine, fresh market produce)",
-      "L'As des Neiges (gourmet, homemade)",
-      "Le Flambeau"
+  "_preserved_unmapped": {
+    "best_for": {
+      "families": 9,
+      "beginners": 8,
+      "peace": 9
+    },
+    "honest_drawbacks": [
+      "Lower altitude (1,172m) — snow variable",
+      "Quieter apres than Morzine",
+      "Limited advanced terrain locally"
+    ],
+    "sources": [
+      "https://www.lesgets.com/en/fun/things-to-do-in-les-gets/",
+      "https://www.lesgets.com/en/well-being/",
+      "https://www.intersport-lesgets.com/en/guide/les-gets/"
     ]
   }
 }

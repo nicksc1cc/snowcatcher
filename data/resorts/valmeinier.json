@@ -1,19 +1,23 @@
 {
-  "resort": "Valmeinier",
+  "name": "Valmeinier",
   "slug": "valmeinier",
   "domain": "Galibier-Thabor",
   "region": "Maurienne",
-  "altitude": 1500,
-  "character": "Purpose-built resort at 1,500m linked to Valloire via Galibier-Thabor (160km). Quieter, more modern, family-friendly base with direct slope access. 94% visitor satisfaction.",
-  "research_status": "properly_sourced",
+  "statistics": {
+    "base_altitude": 1500
+  },
   "description": "Valmeinier is the more modern, purpose-built counterpart to traditional Valloire in the Galibier-Thabor domain. At 1,500m it has better snow reliability. Compact, family-oriented, quiet evenings. Linked to Valloire by piste and lift to form 160km. 30 lifts, 90 runs, 70% above 2,000m. Selles blue run (6.8km) is a highlight. One of the best-value domains in Savoie.",
-  "sources": [
-    "https://www.weski.com/ski-resorts/france/galibier-thabor",
-    "https://www.valmeinier.com/en/decouvrir/un-domaine-skiable-fantastique/"
-  ],
-  "non_ski_activities": {
-    "spa": "Wellness centre",
-    "ski_area": "4 slalom courses, 3 international competition courses, 1 modular snowpark, 1 ski cross, VALKID space, several easyparks, 4 picnic areas.",
-    "other": "Snowshoeing, sledging, ice skating, market"
+  "overview": {
+    "atmosphere": "Purpose-built resort at 1,500m linked to Valloire via Galibier-Thabor (160km). Quieter, more modern, family-friendly base with direct slope access. 94% visitor satisfaction."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, sledging, ice skating, market"
+  },
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.weski.com/ski-resorts/france/galibier-thabor",
+      "https://www.valmeinier.com/en/decouvrir/un-domaine-skiable-fantastique/"
+    ]
   }
 }

@@ -1,27 +1,57 @@
 {
-  "resort": "Chamonix-Mont-Blanc",
-  "altitude": 1035,
+  "name": "Chamonix-Mont-Blanc",
+  "slug": "chamonix",
   "domain": "Chamonix Valley",
   "region": "Mont Blanc",
-  "character": "Off-piste capital of the Alps. Real mountain town at the foot of Mont Blanc. 5 separate ski areas, legendary Vallee Blanche, mountaineering history since 1821.",
-  "description": "Chamonix is a real year-round alpine town (population 10,000), not a purpose-built resort. It sits in the shadow of Mont Blanc (4,808m) \u2014 the highest peak in Western Europe. Skiing is split across 5 separate sectors (Brevent/Flegere, Grands Montets, Le Tour/Balme, Les Houches, and the Vallee Blanche glacier descent from Aiguille du Midi). The piste total is modest (~150km) but the off-piste is the best in the Alps. The Compagnie des Guides de Chamonix (founded 1821) is the most prestigious guiding company in the Alps. The Vallee Blanche (20km, 2,800m vertical) is the most famous ski run in the world.",
-  "stats": {
-    "altitude_resort": 1035,
-    "altitude_top": 3842,
+  "statistics": {
+    "base_altitude": 1035,
+    "top_altitude": 3842,
     "vertical_drop": 2807,
-    "own_pistes_km": 150,
-    "lifts": 49,
-    "cross_country_km": 30,
-    "snowparks": 2,
-    "glacier": "Mer de Glace glacier accessible via Montenvers railway",
-    "heli_skiing": true
+    "own_pistes_km": 150
   },
-  "weather_snow": {
-    "season_typical": "December to early May",
-    "annual_snowfall": "~8m (315 inches) at altitude",
-    "snow_reliability_rating": "7/10 at valley floor, 10/10 on glacier",
-    "note": "Valley floor altitude (1,035m) means lower runs can be slushy. High glacier terrain holds snow into summer. Best snow Jan-Mar.",
-    "glacier": "Mer de Glace \u2014 accessible via Montenvers cog railway"
+  "description": "Chamonix is a real year-round alpine town (population 10,000), not a purpose-built resort. It sits in the shadow of Mont Blanc (4,808m) — the highest peak in Western Europe. Skiing is split across 5 separate sectors (Brevent/Flegere, Grands Montets, Le Tour/Balme, Les Houches, and the Vallee Blanche glacier descent from Aiguille du Midi). The piste total is modest (~150km) but the off-piste is the best in the Alps. The Compagnie des Guides de Chamonix (founded 1821) is the most prestigious guiding company in the Alps. The Vallee Blanche (20km, 2,800m vertical) is the most famous ski run in the world.",
+  "overview": {
+    "atmosphere": "Off-piste capital of the Alps. Real mountain town at the foot of Mont Blanc. 5 separate ski areas, legendary Vallee Blanche, mountaineering history since 1821."
+  },
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "December to early May",
+    "snow_reliability_detail": "7/10 at valley floor, 10/10 on glacier"
+  },
+  "beyond_skiing": {
+    "swimming_pool_or_spa": "Indoor pool at Centre Sportif Richard Bozon",
+    "ice_skating": "Indoor ice rink at Centre Sportif",
+    "paragliding": "Tandem flights from Brevent and other launch points — stunning Mont Blanc views",
+    "dog_sledding": "Excursions in the valley",
+    "snowshoeing": "Trails throughout the valley",
+    "non_ski_activities": "Cinema (some English screenings). Fitness centre at Centre Sportif",
+    "events_during_stay": "World Mountain Bike Championships, Marathon du Mont Blanc"
+  },
+  "food_and_drink": {
+    "best_restaurants": [
+      "Le Passon (creative French mountain cuisine)",
+      "Atmosphere (veranda over river, exceptional carpaccio, espresso martinis)",
+      "Le Cap Horn (French-Japanese fusion, hushed alpine cabin)",
+      "Le Matafan (Hotel Mont Blanc, elevated, exceptional service)",
+      "Rose du Pont (oysters, caviar, Mont Blanc views, terrace)"
+    ]
+  },
+  "apres_and_nightlife": {
+    "nightlife_clubbing": "Micro Brasserie, Le Vermont (live music), diverse options across town. Several nightclubs for late-night dancing",
+    "quiet_evenings": "Most varied nightlife of any French ski town. Rowdy bars, quiet wine bars, microbrewery, casino. Social and unpretentious — suits the mountaineering crowd. Not a champagne terrace scene."
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 70
+      }
+    ],
+    "by_train": {
+      "station": "Chamonix-Mont-Blanc (direct from Paris)",
+      "tgv_from_paris": "5.5 hours",
+      "eurostar_london": "London to Chamonix via Paris, ~8h"
+    }
   },
   "villages": [
     {
@@ -43,119 +73,96 @@
       "best_for": "Budget, peace"
     }
   ],
-  "separate_ski_areas": {
-    "Brevent-Flegere": "Linked via cable car. Brevent has excellent intermediate cruising and the iconic Chamonix views of Mont Blanc. Flegere hides incredible off-piste couloirs with a guide.",
-    "Grands Montets (Argentiere)": "Best advanced/expert terrain \u2014 steep couloirs, off-piste bowls, the famous 'Bochon' 'Chard' 'Yorkshire' and the 'Pas de Chevre' glacier run. Bluebird powder day here = best day of skiing of your life.",
-    "Le Tour / Balme": "Higher and more snow-sure. Good for intermediates, family-friendly. L'Alpage mountain farmhouse restaurant (old farmhouse, excellent cuisine).",
-    "Les Houches": "South-facing, sunny, lower altitude, family-friendly. Linked to Saint-Gervais. Good for beginners and sunny spring days.",
-    "Vallee Blanche": "20km off-piste glacier descent from Aiguille du Midi (3,842m). The most famous ski run in the world. Guide essential. Requires fitness and good technique. Down to the valley floor at Chamonix.",
-    "Courmayeur (Italy)": "Ski to Italy via the Vallee Blanche or heliski. Courmayeur is accessible from Chamonix for a day trip."
-  },
-  "non_ski_activities": {
-    "aiguille_du_midi": "Highest cable car in France (3,842m). Step into the Void \u2014 glass box suspended over 1,000m drop. Panoramic views of Mont Blanc, the Alps, Italy. Book early to avoid queues.",
-    "mer_de_glace": "Montenvers cog railway \u2014 train to the Mer de Glace glacier. Ice cave inside the glacier (carved annually).",
-    "spas": [
-      "Heliopic Hotel & Spa (Mont Blanc views, sauna, steam room, cold plunge, hot tub, pool, massages)",
-      "QC Terme Spa (Italian-style thermal spa, outdoor pools with mountain views, hammam, relaxation areas)",
-      "Le Majestic spa"
-    ],
-    "swimming": "Indoor pool at Centre Sportif Richard Bozon",
-    "ice_skating": "Indoor ice rink at Centre Sportif",
-    "fitness": "Fitness centre at Centre Sportif",
-    "cinema": "Cinema (some English screenings)",
-    "climbing": "Indoor climbing wall + outdoor mountaineering routes",
-    "paragliding": "Tandem flights from Brevent and other launch points \u2014 stunning Mont Blanc views",
-    "dog_sledding": "Excursions in the valley",
-    "snowshoeing": "Trails throughout the valley",
-    "heliski": "Heliski to/from Italy \u2014 Gran Paradiso and Vallee Blanche",
-    "ski_touring": "Haute Route from Chamonix to Zermatt (5-7 day classic traverse)",
-    "shopping": "Full year-round town shopping \u2014 outdoor gear to luxury brands, patisseries, fromageries",
-    "casino": "Casino de Chamonix",
-    "museums": "Musee Alpin (mountain history), Mont Blanc exhibition",
-    "events": "World Mountain Bike Championships, Marathon du Mont Blanc"
-  },
-  "dining_guide": {
-    "signature": [
-      "Le Passon (creative French mountain cuisine)",
-      "Atmosphere (veranda over river, exceptional carpaccio, espresso martinis)",
-      "Le Cap Horn (French-Japanese fusion, hushed alpine cabin)",
-      "Le Matafan (Hotel Mont Blanc, elevated, exceptional service)",
-      "Rose du Pont (oysters, caviar, Mont Blanc views, terrace)"
-    ],
-    "traditional": "La Caleche (40 years, fondue/raclette/tartiflette, warm characterful dining room)",
-    "microbrewery": "Micro Brasserie de Chamonix (craft beer brewed on-site, lively informal setting, best apres stop)"
-  },
-  "apres_guide": {
-    "vibe": "Most varied nightlife of any French ski town. Rowdy bars, quiet wine bars, microbrewery, casino. Social and unpretentious \u2014 suits the mountaineering crowd. Not a champagne terrace scene.",
-    "bars": "Micro Brasserie, Le Vermont (live music), diverse options across town",
-    "clubs": "Several nightclubs for late-night dancing"
-  },
-  "best_for": {
-    "off_piste": 10,
-    "advanced": 10,
-    "expert": 10,
-    "non_skiers": 9,
-    "foodies": 9,
-    "intermediates": 5,
-    "beginners": 5,
-    "families": 6
-  },
   "honest_drawbacks": [
-    "Piste skiing is patchy \u2014 only ~150km across 5 disconnected sectors",
-    "Not ski-in/ski-out \u2014 each sector is a bus or drive away",
+    "Piste skiing is patchy — only ~150km across 5 disconnected sectors",
+    "Not ski-in/ski-out — each sector is a bus or drive away",
     "Limited beginner/intermediate terrain on piste",
     "Crowded lift queues at Brevent and Aiguille du Midi",
     "Slower gondolas compared to modern systems",
     "Valley floor altitude (1,035m) means lower snow can be thin",
-    "Can feel overwhelming \u2014 complex transport between areas"
+    "Can feel overwhelming — complex transport between areas"
   ],
-  "access": {
-    "nearest_airports": [
+  "_preserved_unmapped": {
+    "villages": [
       {
-        "airport": "Geneva",
-        "min": 70
+        "name": "Chamonix Centre",
+        "alt": 1035,
+        "character": "Real town with banks, supermarkets, shops, 100+ restaurants, bars, clubs, casino. Aiguille du Midi cable car starts from town centre. Historic quarter, 19th-century architecture.",
+        "best_for": "Off-piste, foodies, non-skiers, everyone"
+      },
+      {
+        "name": "Les Praz",
+        "alt": 1060,
+        "character": "Quiet hamlet at foot of Flegere, more peaceful, closer to Grands Montets",
+        "best_for": "Peace, couples"
+      },
+      {
+        "name": "Le Lavancher",
+        "alt": 1100,
+        "character": "Small hamlet, limited amenities, very quiet",
+        "best_for": "Budget, peace"
       }
     ],
-    "by_train": {
-      "station": "Chamonix-Mont-Blanc (direct from Paris)",
-      "tgv_from_paris": "5.5 hours",
-      "eurostar_london": "London to Chamonix via Paris, ~8h"
-    }
-  },
-  "ski_school": "Compagnie des Guides de Chamonix (founded 1821, most prestigious in Alps). Also Evolution 2 and Ski Sensations for on-piste instruction.",
-  "cross_border": "Ski to Italy via Vallee Blanche or heliski to Courmayeur. Easy day trip to Courmayeur for Italian food and different terrain.",
-  "slug": "chamonix",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.seechamonix.com/chamonix/bars/bar",
-    "https://en.chamonix.com/usual-information-services/bars-and-nightlife",
-    "https://en.chamonix.com/activities/indoors/spa-wellness-and-fitness",
-    "https://guide.michelin.com/gb/en/auvergne-rhone-alpes/chamonix-mont-blanc/restaurants"
-  ],
-  "spas_specific": [
-    "Nuxe Spa \u2014 Heliopic Hotel & Spa (Mont Blanc views, indoor-outdoor pool, sauna, steam room, cold plunge, hot tub, massages)",
-    "QC Terme Spa & Resorts (Italian-style thermal spa, outdoor pools, mountain views, hammam)",
-    "Cinq Monde Spa \u2014 H\u00f4tel le Prieur\u00e9",
-    "Spa By Clarins \u2014 H\u00f4tel Mont-Blanc",
-    "Spa Deep Nature \u2014 Les Aiglons",
-    "Feel Good Club Sports & Spa"
-  ],
-  "bars_specific": [
-    "MBC Pub (Canadian, craft beer brewed in-house with glacier water)",
-    "La Folie Douce Chamonix (vibrant terrace, panoramic Mont Blanc views)",
-    "Brev'Bar (Br\u00e9vent slopes, front-row Mont Blanc views)",
-    "Le Shack Restaurant & Bar (Asian-fusion snacking, cocktails)",
-    "Bistrot des Sports (traditional bistro + sports bar)",
-    "Elevation 1904 (lively bar-restaurant, mountain views)",
-    "Le Janssen Cocktail Club",
-    "Club 1969 (nightclub)"
-  ],
-  "michelin_restaurants": [
-    "Albert 1er (\u2605\u2605\u2605 modern)",
-    "Le Comptoir des Alpes (modern)",
-    "Auberge du Bois Prin (modern)",
-    "Le Matafan (modern)",
-    "Akashon (modern, Heliopic Hotel)",
-    "Atmosph\u00e8re (traditional, riverside veranda)"
-  ]
+    "separate_ski_areas": {
+      "Brevent-Flegere": "Linked via cable car. Brevent has excellent intermediate cruising and the iconic Chamonix views of Mont Blanc. Flegere hides incredible off-piste couloirs with a guide.",
+      "Grands Montets (Argentiere)": "Best advanced/expert terrain — steep couloirs, off-piste bowls, the famous 'Bochon' 'Chard' 'Yorkshire' and the 'Pas de Chevre' glacier run. Bluebird powder day here = best day of skiing of your life.",
+      "Le Tour / Balme": "Higher and more snow-sure. Good for intermediates, family-friendly. L'Alpage mountain farmhouse restaurant (old farmhouse, excellent cuisine).",
+      "Les Houches": "South-facing, sunny, lower altitude, family-friendly. Linked to Saint-Gervais. Good for beginners and sunny spring days.",
+      "Vallee Blanche": "20km off-piste glacier descent from Aiguille du Midi (3,842m). The most famous ski run in the world. Guide essential. Requires fitness and good technique. Down to the valley floor at Chamonix.",
+      "Courmayeur (Italy)": "Ski to Italy via the Vallee Blanche or heliski. Courmayeur is accessible from Chamonix for a day trip."
+    },
+    "best_for": {
+      "off_piste": 10,
+      "advanced": 10,
+      "expert": 10,
+      "non_skiers": 9,
+      "foodies": 9,
+      "intermediates": 5,
+      "beginners": 5,
+      "families": 6
+    },
+    "honest_drawbacks": [
+      "Piste skiing is patchy — only ~150km across 5 disconnected sectors",
+      "Not ski-in/ski-out — each sector is a bus or drive away",
+      "Limited beginner/intermediate terrain on piste",
+      "Crowded lift queues at Brevent and Aiguille du Midi",
+      "Slower gondolas compared to modern systems",
+      "Valley floor altitude (1,035m) means lower snow can be thin",
+      "Can feel overwhelming — complex transport between areas"
+    ],
+    "ski_school": "Compagnie des Guides de Chamonix (founded 1821, most prestigious in Alps). Also Evolution 2 and Ski Sensations for on-piste instruction.",
+    "cross_border": "Ski to Italy via Vallee Blanche or heliski to Courmayeur. Easy day trip to Courmayeur for Italian food and different terrain.",
+    "sources": [
+      "https://www.seechamonix.com/chamonix/bars/bar",
+      "https://en.chamonix.com/usual-information-services/bars-and-nightlife",
+      "https://en.chamonix.com/activities/indoors/spa-wellness-and-fitness",
+      "https://guide.michelin.com/gb/en/auvergne-rhone-alpes/chamonix-mont-blanc/restaurants"
+    ],
+    "spas_specific": [
+      "Nuxe Spa — Heliopic Hotel & Spa (Mont Blanc views, indoor-outdoor pool, sauna, steam room, cold plunge, hot tub, massages)",
+      "QC Terme Spa & Resorts (Italian-style thermal spa, outdoor pools, mountain views, hammam)",
+      "Cinq Monde Spa — Hôtel le Prieuré",
+      "Spa By Clarins — Hôtel Mont-Blanc",
+      "Spa Deep Nature — Les Aiglons",
+      "Feel Good Club Sports & Spa"
+    ],
+    "bars_specific": [
+      "MBC Pub (Canadian, craft beer brewed in-house with glacier water)",
+      "La Folie Douce Chamonix (vibrant terrace, panoramic Mont Blanc views)",
+      "Brev'Bar (Brévent slopes, front-row Mont Blanc views)",
+      "Le Shack Restaurant & Bar (Asian-fusion snacking, cocktails)",
+      "Bistrot des Sports (traditional bistro + sports bar)",
+      "Elevation 1904 (lively bar-restaurant, mountain views)",
+      "Le Janssen Cocktail Club",
+      "Club 1969 (nightclub)"
+    ],
+    "michelin_restaurants": [
+      "Albert 1er (★★★ modern)",
+      "Le Comptoir des Alpes (modern)",
+      "Auberge du Bois Prin (modern)",
+      "Le Matafan (modern)",
+      "Akashon (modern, Heliopic Hotel)",
+      "Atmosphère (traditional, riverside veranda)"
+    ]
+  }
 }

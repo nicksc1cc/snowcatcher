@@ -1,0 +1,99 @@
+{
+  "resort": "Tignes",
+  "altitude": 2100,
+  "domain": "Espace Killy",
+  "region": "Tarentaise",
+  "character": "High-altitude, snow-sure, purpose-built. Europe's largest glacier for summer skiing. The no-nonsense freeride partner to Val d'Isere's polish.",
+  "description": "Tignes sits at 2,100m in the Tarentaise valley, linked with Val d'Isere via the Espace Killy (300km). It has the largest glacier ski area in Europe (Grande Motte, 3,456m) for 11 months of summer skiing. Tignes is more purpose-built and less polished than Val d'Isere \u2014 less expensive, more functional, and with a passionate freeride and snowboarding culture. Hosted the 1992 Albertville speed-skiing events. Lively and young at heart.",
+  "stats": {
+    "altitude_resort": 2100,
+    "altitude_top": 3456,
+    "vertical_drop": 1356,
+    "own_pistes_km": 150,
+    "domain_pistes_km": 300,
+    "own_lifts": 50,
+    "domain_lifts": 89,
+    "beginner_pct": 10,
+    "intermediate_pct": 60,
+    "advanced_pct": 30,
+    "glacier": "Grande Motte -- largest glacier ski area in Europe (summer skiing May-Oct)"
+  },
+  "weather_snow": {
+    "season_typical": "Oct to early May, plus summer skiing",
+    "snow_reliability_rating": "10/10 -- highest in the Alps with glacier",
+    "summer_skiing": "Europe's largest glacier area for summer skiing (June-October)"
+  },
+  "villages": [
+    {
+      "name": "Tignes-le-Lac",
+      "alt": 2100,
+      "character": "Main village, car-free centre, lake (frozen in winter), shops, restaurants, apres",
+      "best_for": "Mixed groups, families"
+    },
+    {
+      "name": "Tignes-Val Claret",
+      "alt": 2100,
+      "character": "Higher satellite, quieter, closer to Grande Motte glacier lift",
+      "best_for": "Snow seekers, budget"
+    },
+    {
+      "name": "Le Lavachet",
+      "alt": 2100,
+      "character": "Quiet wooden-clad village, family-friendly",
+      "best_for": "Families, peace"
+    },
+    {
+      "name": "Les Brevieres",
+      "alt": 1550,
+      "character": "Valley floor, traditional hamlet, quiet, lower altitude",
+      "best_for": "Budget, peace"
+    }
+  ],
+  "non_ski_activities": {
+    "ice_diving": "Lac de Tignes \u2014 ice diving in frozen lake. Guided with full equipment. Unique bucket-list activity.",
+    "ice_driving": "Ice driving on Lac de Tignes \u2014 drive a BMW/4x4 on frozen lake track (December-March). Book at Tignespace.",
+    "tignespace": "Wellness centre \u2014 pool, jacuzzi, sauna, hammam, ice bath, fitness, cinema",
+    "glacier": "Grande Motte glacier \u2014 Europe's largest skiable glacier. Summer skiing June-October. 6km long, 1,200m vertical.",
+    "other": "Paragliding from Grande Motte, snowpark, speed-skiing heritage, X Games qualifiers"
+  },
+  "best_for": {
+    "advanced": 9,
+    "off_piste": 9,
+    "snow_reliability": 10,
+    "summer_skiing": 10,
+    "budget": 8,
+    "young_groups": 8
+  },
+  "honest_drawbacks": [
+    "Purpose-built -- lacks traditional village charm",
+    "Architecture is 1970s functional",
+    "High altitude affects sleep/energy",
+    "Winter conditions can be harsh (cold, windy)",
+    "Limited luxury compared to Courchevel/Val d'Isere"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 180
+      },
+      {
+        "airport": "Lyon",
+        "min": 220
+      },
+      {
+        "airport": "Chambery",
+        "min": 130
+      }
+    ],
+    "by_train": {
+      "station": "Bourg-St-Maurice (45 min shuttle)"
+    }
+  },
+  "slug": "tignes",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://en.tignes.net/activities/winter",
+    "https://www.skibutlers.com/blog/tignes-local-guide"
+  ]
+}

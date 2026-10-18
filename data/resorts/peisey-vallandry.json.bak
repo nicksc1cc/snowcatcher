@@ -1,0 +1,31 @@
+{
+  "resort": "Peisey-Vallandry",
+  "slug": "peisey-vallandry",
+  "domain": "Paradiski (Les Arcs sector)",
+  "region": "Tarentaise",
+  "altitude": 1650,
+  "character": "Forested intermediate sector of Les Arcs with direct access to Paradiski (425 km). Tree-lined runs, quieter and more relaxed than the main Arc villages.",
+  "research_status": "properly_sourced",
+  "description": "Peisey-Vallandry sits in the western sector of Les Arcs, closest to the Vanoise Express link to La Plagne. Three sub-villages: Vallandry (main, 1,650m, shops/bars), Plan Peisey (1,900m, closer to main Les Arcs area), and Peisey-Nancroix (traditional hamlet, 1,600m). Forested slopes with long tree-lined intermediate runs. Excellent access to the full 425km Paradiski domain.",
+  "sources": [
+    "https://www.seelesarcs.com/peisey-vallandry-peisey-vallandry-nancroix-685919",
+    "https://en.peisey-vallandry.com/",
+    "https://girlgonelondon.com/ski-les-arcs-in-winter-guide/"
+  ],
+  "non_ski_activities": {
+    "spa": "Wellness centre at Vallandry",
+    "dog_sledding": "Nancroix valley excursions",
+    "snowshoeing": "Ponturin Gorge and Nancroix valley trails",
+    "other": "Cross-country skiing, biathlon, paragliding, heritage walks in Peisey-Nancroix traditional hamlet"
+  },
+  "best_for": {
+    "intermediates": 9,
+    "families": 8,
+    "peace": 9
+  },
+  "honest_drawbacks": [
+    "Quiet apres \u2014 limited bars/restaurants",
+    "Requires lifts to reach main Les Arcs ski area",
+    "Limited non-ski activities"
+  ]
+}

@@ -1,19 +1,23 @@
 {
-  "resort": "Mont-Dore",
+  "name": "Mont-Dore",
   "slug": "mont-dore",
   "domain": "Mont-Dore",
   "region": "Massif Central",
-  "altitude": 1050,
-  "character": "Historic thermal spa town in the Massif Central. Les Thermes du Mont-Dore. Val de Courre ski area above town (40km). Puy de Sancy nature area \u2014 highest peak in Massif Central (1,885m). Belle \u00c9poque architecture.",
-  "research_status": "properly_sourced",
-  "non_ski_activities": {
-    "thermal": "Les Thermes du Mont-Dore \u2014 historic thermal spa. Sulphur springs, wellness treatments, cures.",
-    "puy_de_sancy": "Highest peak in Massif Central (1,885m). Hiking, snowshoeing. Cable car to summit.",
-    "other": "Cross-country skiing, snowshoeing, sledging, hiking, Belle \u00c9poque architecture, casino."
+  "statistics": {
+    "base_altitude": 1050
   },
-  "best_for": {
-    "spa_seekers": 9,
-    "peace": 8,
-    "families": 7
+  "overview": {
+    "atmosphere": "Historic thermal spa town in the Massif Central. Les Thermes du Mont-Dore. Val de Courre ski area above town (40km). Puy de Sancy nature area — highest peak in Massif Central (1,885m). Belle Époque architecture."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Cross-country skiing, snowshoeing, sledging, hiking, Belle Époque architecture, casino."
+  },
+  "_preserved_unmapped": {
+    "best_for": {
+      "spa_seekers": 9,
+      "peace": 8,
+      "families": 7
+    }
   }
 }

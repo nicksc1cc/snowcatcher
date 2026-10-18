@@ -1,0 +1,41 @@
+{
+  "resort": "Oz-en-Oisans",
+  "slug": "oz-en-oisans",
+  "domain": "Grand Domaine",
+  "region": "Oisans",
+  "altitude": 1350,
+  "character": "Ski-in/ski-out family resort at 1,350m at the foot of Pic Blanc (3,330m \u2014 Michelin Green Guide 3-star panorama). Closest resort to Grenoble in the Grand Domaine (55km). 11 hamlets. Gateway to 250km Alpe d'Huez ski area.",
+  "research_status": "properly_sourced",
+  "description": "Oz 3300 is the ski-in/ski-out resort of Oz-en-Oisans, named after Pic Blanc (3,330m \u2014 classified 3-star panorama in the Michelin Green Guide). Part of the Alpe d'Huez Grand Domaine (250km). 11 hamlets make up the commune including Oz Village, Le Roberand, Le Bessey, Sardonne, L'Ile d'Oz, Le Boulangeard, Le Pontonnier, La Beurri\u00e8re, La Vo\u00fbte, Le Pr\u00e9 de l'Arche, and L'Enversin. Only 55km from Grenoble (1 hour drive) \u2014 the closest Grand Domaine access. The Alpette Plateau and Lower Lakes are accessible by cable car. Known for the Oz canyon \u2014 a top canyoning spot in Oisans. Family-friendly, ski-in/ski-out, timber and stone architecture. 19th-century church in Oz Village with square bell tower.",
+  "sources": [
+    "https://www.oz-en-oisans.com/winter/discover/oz-3300/",
+    "https://www.oz-en-oisans.com/winter/skiing-winter-sports-and-the-mountains/a-closer-look-at-our-activities/",
+    "https://en.oisans.com/loisans/stations-et-villages/oz-en-oisans/"
+  ],
+  "stats": {
+    "altitude_resort": 1350,
+    "altitude_top": 3330,
+    "domain_pistes_km": 250,
+    "hamlets": 11,
+    "closest_city": "Grenoble (55km / 1 hour)"
+  },
+  "non_ski_activities": {
+    "pic_blanc": "3,330m summit \u2014 classified 3-star panorama in Michelin Green Guide. Cable car access. Views of Grandes Rousses, Ecrins.",
+    "alpette_plateau": "Accessible by cable car. Azure lakes in alpine meadow setting. Easy snowshoe/walking trail. Pic Blanc backdrop.",
+    "canyoning": "Oz canyon \u2014 top canyoning spot in Oisans. Series of pools, small jumps, slides. Suitable for all levels.",
+    "heritage": "11 hamlets with traditional Oisans architecture \u2014 old barns, wash houses, fountains. 19th-century church in Oz Village with square bell tower and pyramid.",
+    "other": "Swimming pool and spa at Oz 3300. Snowpark. Cross-country skiing. Snowshoeing. Hiking trails. Mountain biking (summer). Canyoning."
+  },
+  "best_for": {
+    "families": 9,
+    "beginners": 9,
+    "peace": 8,
+    "value": 8
+  },
+  "honest_drawbacks": [
+    "Quiet apres \u2014 limited nightlife",
+    "Small village resort \u2014 limited shopping/restaurants",
+    "Requires cable car for full Grand Domaine access",
+    "Limited advanced/expert terrain locally"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "resort": "Combloux",
+  "slug": "combloux",
+  "domain": "Evasion Mont Blanc",
+  "region": "Mont Blanc",
+  "altitude": 1100,
+  "character": "Family-friendly village with the most spectacular Mont Blanc panorama in the Alps. Biotope swimming lake. One of the most beautiful baroque churches in Haute-Savoie. Linked to Meg\u00e8ve and La Giettaz via Portes du Mont-Blanc ski area (100km).",
+  "research_status": "properly_sourced",
+  "description": "Combloux is famous for its extraordinary 360\u00b0 panorama of Mont Blanc \u2014 arguably the best viewpoint in the entire region. The village has the first biotope swimming lake in France (ecologically treated, naturally heated). Saint-Nicolas church with double-bulb bell tower is one of the most beautiful baroque churches in Haute-Savoie. The Portes du Mont-Blanc ski area (100km, 1,200-1,930m) links Combloux, Meg\u00e8ve-Jaillet, and La Giettaz. Evasion Mont-Blanc pass (445km) also available. A charming, authentic village ideal for families.",
+  "sources": [
+    "https://www.combloux.com/en/enjoy/ski/",
+    "https://www.combloux.com/decouvrir/immanquables/"
+  ],
+  "non_ski_activities": {
+    "biotope_lake": "First ecological biotope swimming lake in France. Naturally treated and solar-heated water. Swimming with Mont Blanc backdrop. Unique in France.",
+    "baroque_church": "Saint-Nicolas \u2014 45m double-bulb bell tower, one of the finest baroque churches in Haute-Savoie.",
+    "panorama": "360\u00b0 panoramic view of Mont Blanc, Aravis range, and Fiz mountains. Unforgettable viewpoint.",
+    "pumptrack": "210m pumptrack with two circuits, Mont Blanc backdrop. Free.",
+    "mtb_parc": "Mont-Blanc Bike Park \u2014 mountain biking trails.",
+    "ski_area": "Portes du Mont-Blanc \u2014 100km, 10 green, 17 blue, 28 red, 8 black. Family-focused with play areas, boardercross, themed trails, big airbag.",
+    "hiking": "Forest trails, balcony walks facing Mont Blanc, alpine pastures. Petit and Grand Croisse Baulet, Col du Jaillet routes.",
+    "restaurants": "Le Cellier du Chalet Alpen Valley (hotel restaurant), Alexperience (gastronomic), Le Zip, Le C\u0153ur d'Or, Le Chalet des Bachais (terrace with Mont Blanc view), L'Alpage de l'Herney. Many mountain restaurants.",
+    "other": "Paragliding, snowshoeing, horse-drawn carriage, snowmobiling, handiski pioneer, guided off-piste"
+  },
+  "best_for": {
+    "families": 9,
+    "view_seekers": 10,
+    "peace": 8,
+    "beginners": 8
+  },
+  "honest_drawbacks": [
+    "Lower altitude (1,100m) \u2014 snow can be variable",
+    "Smaller ski area (100km local)",
+    "Quiet \u2014 limited apres",
+    "Requires car to reach main Evasion Mont Blanc domain"
+  ]
+}

@@ -1,24 +1,24 @@
 {
-  "resort": "Valloire",
+  "name": "Valloire",
   "slug": "valloire",
   "domain": "Galibier-Thabor",
   "region": "Maurienne",
-  "altitude": 1400,
-  "character": "Authentic Savoyard mountain village with a stunning Baroque church. Its own brewery \u2014 the highest in France \u2014 making Galibier beer with glacier water. 160km linked domain with Valmeinier. Short queues, great value.",
+  "statistics": {
+    "base_altitude": 1400
+  },
+  "description": "Valloire is a real working mountain village in the Maurienne valley. Stone-built chalets, a pedestrianised centre, 17th-century Baroque church (Notre-Dame de l'Assomption with ornate gilded interior). Home to the highest brewery in France — Galibier beer brewed with glacier water. Linked with Valmeinier to form Galibier-Thabor (160km, 90 runs, 70% above 2,000m). 30 lifts including high-speed quads and 2 gondolas — short queues even in school holidays. Selles blue run (6.8km, 2,410m to 1,725m) is one of the longest in Savoie.",
+  "overview": {
+    "atmosphere": "Authentic Savoyard mountain village with a stunning Baroque church. Its own brewery — the highest in France — making Galibier beer with glacier water. 160km linked domain with Valmeinier. Short queues, great value."
+  },
   "research_status": "properly_sourced",
-  "description": "Valloire is a real working mountain village in the Maurienne valley. Stone-built chalets, a pedestrianised centre, 17th-century Baroque church (Notre-Dame de l'Assomption with ornate gilded interior). Home to the highest brewery in France \u2014 Galibier beer brewed with glacier water. Linked with Valmeinier to form Galibier-Thabor (160km, 90 runs, 70% above 2,000m). 30 lifts including high-speed quads and 2 gondolas \u2014 short queues even in school holidays. Selles blue run (6.8km, 2,410m to 1,725m) is one of the longest in Savoie.",
-  "sources": [
-    "https://www.weski.com/ski-resorts/france/galibier-thabor",
-    "https://valloire.net/en/blog/Enjoy-plenty-of-activities-in-Valloire/"
-  ],
-  "non_ski_activities": {
-    "brewery": "Galibier \u2014 highest brewery in France. Beer brewed with glacier water. A must-try apr\u00e8s-ski.",
-    "baroque_church": "17th-century \u00c9glise Notre-Dame de l'Assomption. Ornate gilded interior. One of the finest in the Maurienne.",
-    "spa": "Village spa centre with pool, sauna, steam room. Hotel spas with massage treatments.",
+  "beyond_skiing": {
     "ice_skating": "Outdoor ice rink in village centre",
-    "market": "Weekly Friday market \u2014 local produce, cheeses (Beaufort, Tomme), charcuterie, artisan goods.",
-    "restaurants": "Le Gastilleur (refined Savoyard), L'Edelweiss (fondue, mountain), Le Grand Pic (terrace views), La Grange (creative regional), Le Tatami (Japanese-inspired), Le Petit Prince (cr\u00eaperie), Chalet des Verneys (slope-side grilled meats).",
-    "apres": "Le Caribou (buzzy terrace), Le Zinc (live music, craft beers), Le Chalet de la Setaz (sun terrace), Le Mouton Noir (wine bar), O'Galli's Pub (Irish-style).",
-    "other": "Cheese tastings at local fromageries, scenic gondola rides for pedestrians, Saint-Jean-de-Maurienne day trip (30 min), snowshoeing"
+    "non_ski_activities": "Cheese tastings at local fromageries, scenic gondola rides for pedestrians, Saint-Jean-de-Maurienne day trip (30 min), snowshoeing"
+  },
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.weski.com/ski-resorts/france/galibier-thabor",
+      "https://valloire.net/en/blog/Enjoy-plenty-of-activities-in-Valloire/"
+    ]
   }
 }

@@ -1,0 +1,41 @@
+{
+  "resort": "La Chapelle-d'Abondance",
+  "slug": "la-chapelle",
+  "domain": "Portes du Soleil",
+  "region": "Mont Blanc / Chablais",
+  "altitude": 1000,
+  "character": "Traditional village resort at the starting point of the Portes du Soleil. Linked to Ch\u00e2tel and Abondance. 75km runs \u2014 one of the finest cross-country areas in Haute-Savoie. Wild, sunny, authentic.",
+  "research_status": "properly_sourced",
+  "description": "La Chapelle d'Abondance sits in the Abondance valley, part of the Chablais massif. As the starting point of the Portes du Soleil domain, it offers direct access to Ch\u00e2tel and Abondance. 22 lifts, 75km of runs with exceptional cross-country skiing \u2014 one of the best Nordic areas in Haute-Savoie. Snowshoeing, dog sledding, biathlon. A quiet, traditional base for accessing the 600km Portes du Soleil. Sunny aspect, authentic village atmosphere.",
+  "sources": [
+    "https://en.portesdusoleil.com/les-portes-du-soleil/the-resorts/la-chapelle-dabondance",
+    "https://www.portesdusoleil.com/les-portes-du-soleil/les-stations/la-chapelle-dabondance"
+  ],
+  "stats": {
+    "altitude_resort": 1000,
+    "lifts": 22,
+    "pistes_km": 75,
+    "domain_pistes_km": 600,
+    "cross_country": "One of finest in Haute-Savoie"
+  },
+  "non_ski_activities": {
+    "cross_country": "One of the finest Nordic areas in Haute-Savoie \u2014 75km runs, biathlon courses",
+    "dog_sledding": "Excursions through fir forests",
+    "snowshoeing": "Trails through authentic valley landscapes",
+    "via_ferrata": "Via Ferrata des Saix de Miol\u00e8ne \u2014 guided by Bureau des Guides de la Vall\u00e9e d'Abondance",
+    "white_water": "Rafting and white-water activities in summer",
+    "link": "Directly linked to Ch\u00e2tel and Abondance \u2014 full 600km Portes du Soleil accessible"
+  },
+  "best_for": {
+    "cross_country": 10,
+    "peace": 10,
+    "families": 7,
+    "authenticity": 9
+  },
+  "honest_drawbacks": [
+    "Very quiet \u2014 limited evening apres",
+    "Lower altitude \u2014 snow variable at valley level",
+    "Small local ski area (75km) \u2014 need PDS pass for full domain",
+    "Limited non-ski activities compared to larger resorts"
+  ]
+}

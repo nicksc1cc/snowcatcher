@@ -1,32 +1,21 @@
 {
-  "resort": "Le Grand Bornand",
-  "altitude": 1000,
+  "name": "Le Grand Bornand",
+  "slug": "le-grand-bornand",
   "domain": "Le Grand Bornand",
   "region": "Aravis",
-  "character": "Charming Haute-Savoie village, traditional farming community, good family skiing. Home of Reblochon cheese.",
-  "description": "Le Grand Bornand is one of the most authentic villages in the Aravis range \u2014 a real farming community where cows still outnumber tourists. Known as the 'capital of Reblochon' cheese. The ski area (70km) is on the Chinaillon plateau above the village. Quiet, traditional, excellent value.",
-  "stats": {
-    "altitude_resort": 1000,
-    "altitude_top": 2000,
-    "own_pistes_km": 70,
-    "lifts": 25
+  "statistics": {
+    "base_altitude": 1000,
+    "top_altitude": 2000,
+    "own_pistes_km": 70
   },
-  "non_ski_activities": {
-    "reblochon": "Capital of Reblochon cheese \u2014 first agricultural commune in Haute-Savoie. Cheese farm visits, alpine fruiti\u00e8res.",
-    "chinaillon": "Vieux Chinaillon \u2014 beautiful preserved hamlet with 300-year-old chalets",
-    "other": "Sledging, snowshoeing, paragliding, weekly market, ice skating"
+  "description": "Le Grand Bornand is one of the most authentic villages in the Aravis range — a real farming community where cows still outnumber tourists. Known as the 'capital of Reblochon' cheese. The ski area (70km) is on the Chinaillon plateau above the village. Quiet, traditional, excellent value.",
+  "overview": {
+    "atmosphere": "Charming Haute-Savoie village, traditional farming community, good family skiing. Home of Reblochon cheese."
   },
-  "best_for": {
-    "families": 8,
-    "authenticity": 10,
-    "budget": 9,
-    "foodies": 8
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Sledging, snowshoeing, paragliding, weekly market, ice skating"
   },
-  "honest_drawbacks": [
-    "Lower altitude (1,000m) \u2014 snow variable",
-    "Small domain (70km)",
-    "Quiet apres"
-  ],
   "access": {
     "nearest_airports": [
       {
@@ -35,9 +24,25 @@
       }
     ]
   },
-  "slug": "le-grand-bornand",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.legrandbornand.com/decouvrir/le-village-station/le-grand-bornand-chinaillon/"
-  ]
+  "honest_drawbacks": [
+    "Lower altitude (1,000m) — snow variable",
+    "Small domain (70km)",
+    "Quiet apres"
+  ],
+  "_preserved_unmapped": {
+    "best_for": {
+      "families": 8,
+      "authenticity": 10,
+      "budget": 9,
+      "foodies": 8
+    },
+    "honest_drawbacks": [
+      "Lower altitude (1,000m) — snow variable",
+      "Small domain (70km)",
+      "Quiet apres"
+    ],
+    "sources": [
+      "https://www.legrandbornand.com/decouvrir/le-village-station/le-grand-bornand-chinaillon/"
+    ]
+  }
 }

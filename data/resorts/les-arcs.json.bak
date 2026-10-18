@@ -1,0 +1,115 @@
+{
+  "resort": "Les Arcs",
+  "slug": "les-arcs",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "altitude": 1800,
+  "character": "Avant-garde design resort, 5 Arc villages linked to Paradiski (425 km). Aiguille Rouge zip-line, Igloo Village, Mille8 aquatic centre. Birthplace of Ski Evolutif, spiritual home of European snowboarding.",
+  "research_status": "properly_sourced",
+  "description": "Les Arcs opened in 1968 as one of France's first designer ski resorts. 4 Arc villages (1600, 1800, 1950, 2000) plus Les Chapieux at different altitudes, car-free and ski-in/ski-out. Linked to La Plagne via the Vanoise Express to form Paradiski (425 km, 260 pistes). Home of the Aiguille Rouge (3,225 m) with 7 km black-to-red run, Apocalypse snowpark (one of Alps' best freestyle parks), and the Olympic KL Flying Kilometre speed-skiing piste. Night skiing on floodlit runs in Arc 1600 and 1800.",
+  "sources": [
+    "https://www.lesarcs.com/en/what-there-do-les-arcs/winter-activities-les-arcs/non-skiing-activities-les-arcs",
+    "https://www.seelesarcs.com/activities/",
+    "https://petit-montagnard.fr/en/les-arcs-resort-ski-area-ski-passes-activities-winter-guide-2025/",
+    "https://www.lesarcs.com/en/stay/all-shops-and-restaurants/bars"
+  ],
+  "stats": {
+    "altitude_resort": 1800,
+    "altitude_top": 3225,
+    "vertical_drop": 2025,
+    "own_pistes_km": 200,
+    "domain_pistes_km": 425,
+    "beginner_pct": 56,
+    "intermediate_pct": 29,
+    "advanced_pct": 15,
+    "snowparks": 2
+  },
+  "villages": [
+    {
+      "name": "Arc 1600 (Pierre Blanche)",
+      "alt": 1600,
+      "character": "Original 1968 village, 20th-Century Heritage Site, intimate, family-friendly, quiet, 7 min funicular from Bourg-St-Maurice station",
+      "best_for": "Architecture fans, families, quiet"
+    },
+    {
+      "name": "Arc 1800",
+      "alt": 1800,
+      "character": "Largest and liveliest, 4 sub-villages (Charvet, Villards, Chantel, Charmettoger), best apres, Mille8 aquatic centre, bowling, golf course, Le Carr\u00e9 nightclub",
+      "best_for": "Groups, apres, families"
+    },
+    {
+      "name": "Arc 1950 (Le Village)",
+      "alt": 1950,
+      "character": "Intrawest-built North American Alpine style, car-free, family zone, Deep Nature Spa, Mongolian yurt dining experience, Wool Socks Pub",
+      "best_for": "Families, couples, comfort"
+    },
+    {
+      "name": "Arc 2000",
+      "alt": 2000,
+      "character": "Highest Arc village, direct Aiguille Rouge access, light-up murals, bowling, Le 2134 panoramic restaurant, quiet evenings",
+      "best_for": "Snow seekers, advanced skiers"
+    },
+    {
+      "name": "Les Chapieux",
+      "alt": 1550,
+      "character": "The wild one \u2014 quietest and most remote Arc village",
+      "best_for": "Peace, nature"
+    }
+  ],
+  "non_ski_activities": {
+    "mille8_aquatic": "Arc 1800 \u2014 3,800 m\u00b2 centre with indoor/outdoor pool, water jets, bubble beds, massage jets, fitness/gym, 2 steam rooms, 2 saunas, relaxation room, showers",
+    "iglou_village": "Arc 1800 \u2014 180 m\u00b2 ice grotto, bar, restaurant and mini hotel. Savoyard cheese fondue in a unique ice setting",
+    "zip_line_aiguille_rouge": "1.8 km, 130+ km/h, 70 seconds of adrenalin. Open to skiers and pedestrians. Access from Aiguille Rouge summit (3,225 m)",
+    "deep_nature_spa": "Arc 1950 \u2014 jacuzzi, hammam, hot-cold circuit, multi-sensory shower, body treatments. Children's relaxation morning 10-12 daily",
+    "bowling": "Bowling at Arc 1800 and Arc 2000, open 5pm-2am",
+    "light_show": "Arc 2000 \u2014 sound and light show at Varet gondola garage, 500 m\u00b2 of illuminated seasonal frescoes",
+    "escape_game": "Free escape game 'Guardians of the Arcana' at Arc 1600, 1800, 2000",
+    "speedsailing": "Speed riding school at Arc 1950",
+    "mountain_kart": "Summer mountain karting from Arc 1800",
+    "paragliding": "Tandem flights all year round",
+    "snowshoeing": "Guided walks from Arc 1950 and Arc 2000"
+  },
+  "dining_guide": {
+    "signature": [
+      "Le 2134 (Arc 2000) \u2014 panoramic terrace, local produce, fine wine list",
+      "Le Chalet de Luigi (Arc 1950) \u2014 Italian cuisine, 400 m\u00b2 sunny terrace",
+      "Le Savoy (Arc 2000) \u2014 traditional Savoyard, open 8:30am-midnight",
+      "Le 7e Ciel (Arc 2000) \u2014 panoramic gastronomic",
+      "Le Chalet de l'Is\u00e8re (Arc 1800) \u2014 traditional mountain"
+    ]
+  },
+  "apres_guide": {
+    "bars": "Le Geneux (Arc 1600), Le J.O. Live Stage Bar (Arc 1800), The Wool Socks Pub (Arc 1950), O'Chaud (Arc 1950), Le 2134 (Arc 2000), Bulle Caf\u00e9 (Arc 2000)",
+    "clubs": "Le Carr\u00e9 Nightclub (Arc 1800)",
+    "night_skiing": "Floodlit pistes at Arc 1600 (1 km blue) and Arc 1800 (higher altitude) on select evenings"
+  },
+  "best_for": {
+    "families": 9,
+    "intermediates": 9,
+    "freestyle": 10,
+    "beginners": 9,
+    "advanced": 7
+  },
+  "honest_drawbacks": [
+    "Arc 1600 quiet \u2014 limited evening life",
+    "Some lift queues at peak times",
+    "Car-free means parking at valley entrance, shuttle required",
+    "5 separate villages can feel disconnected"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Chamb\u00e9ry",
+        "min": 100
+      },
+      {
+        "airport": "Geneva",
+        "min": 160
+      }
+    ],
+    "by_train": {
+      "station": "Bourg-St-Maurice (7 min funicular to Arc 1600)",
+      "tgv_from_paris": "4.5 hours"
+    }
+  }
+}

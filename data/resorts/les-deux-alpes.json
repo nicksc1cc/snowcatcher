@@ -1,82 +1,30 @@
 {
-  "resort": "Les Deux Alpes",
-  "altitude": 1650,
+  "name": "Les Deux Alpes",
+  "slug": "les-deux-alpes",
   "domain": "Les Deux Alpes",
   "region": "Oisans",
-  "character": "Glacier skiing capital of the Alps. Europe's largest skiable glacier (summer skiing June-Sept). Legendary snowpark, lively young crowd, purpose-built.",
-  "description": "Les Deux Alpes has the largest skiable glacier in Europe (6km long, 1,200m vertical) \u2014 one of the few resorts in the world with summer skiing from June to September. The resort sits on a plateau between two valleys ('Deux Alpes'), purpose-built in the 1960s but now one of the best snowparks in Europe. Lively, young, vibrant. The glacier offers year-round skiing, the snowpark is legendary (boardercross, halfpipe, kickers), and there's a huge range of non-ski activities.",
-  "stats": {
-    "altitude_resort": 1650,
-    "altitude_top": 3600,
+  "statistics": {
+    "base_altitude": 1650,
+    "top_altitude": 3600,
     "vertical_drop": 1950,
     "own_pistes_km": 220,
-    "lifts": 53,
-    "green": 22,
-    "blue": 38,
-    "red": 33,
-    "black": 7,
     "beginner_pct": 28,
     "intermediate_pct": 42,
-    "advanced_pct": 30,
-    "glacier": "Largest skiable glacier in Europe (6km long, summer June-Sept)",
-    "snowparks": 2
+    "advanced_pct": 30
   },
-  "weather_snow": {
-    "season_typical": "Late Nov to early May + summer skiing June-Sept",
-    "snow_reliability_rating": "10/10 with glacier",
-    "summer_skiing": "Europe's most reliable accessible summer glacier skiing"
+  "description": "Les Deux Alpes has the largest skiable glacier in Europe (6km long, 1,200m vertical) — one of the few resorts in the world with summer skiing from June to September. The resort sits on a plateau between two valleys ('Deux Alpes'), purpose-built in the 1960s but now one of the best snowparks in Europe. Lively, young, vibrant. The glacier offers year-round skiing, the snowpark is legendary (boardercross, halfpipe, kickers), and there's a huge range of non-ski activities.",
+  "overview": {
+    "atmosphere": "Glacier skiing capital of the Alps. Europe's largest skiable glacier (summer skiing June-Sept). Legendary snowpark, lively young crowd, purpose-built."
   },
-  "villages": [
-    {
-      "name": "Les Deux Alpes",
-      "alt": 1650,
-      "character": "Main resort \u2014 lively, young, purpose-built with shops, bars, restaurants along main street",
-      "best_for": "Freestylers, young groups, summer skiers"
-    },
-    {
-      "name": "Mont-de-Lans",
-      "alt": 1650,
-      "character": "Smaller satellite, quieter",
-      "best_for": "Families, peace"
-    }
-  ],
-  "non_ski_activities": {
-    "jandri_3s": "Brand-new flagship lift \u2014 connects resort to glacier in 17 min. France's most advanced ski lift.",
-    "ice_caves": "200m gallery 30m below glacier surface at 3,200 m. Annual ice sculpture exhibition by expert sculptors. New theme every year. \u20ac7.50/adult. Accessible via ski lift + funicular.",
-    "step_into_void": "Skywalk at 3,400 m on Soreiller summit \u2014 7m long glass platform overlooking La Selle valley 1,500 m below.",
-    "glacier_dining": "Chalet de la Toura (2,600 m, sunny valley, festive atmosphere, popular, accessible to pedestrians)",
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Late Nov to early May + summer skiing June-Sept",
+    "snow_reliability_detail": "10/10 with glacier"
+  },
+  "beyond_skiing": {
     "ice_skating": "Open-air ice rink in the heart of resort, beside Saga Centre (Rue des Sagnes)",
-    "spas": [
-      "Chalet Mounier spa \u2014 Cinq Mondes certified, pool, hammam, sauna, jacuzzi, fitness",
-      "Les M\u00e9l\u00e8zes Hotel spa",
-      "Ibiza Hotel spa",
-      "Aqua Center \u2014 indoor/outdoor heated pool, sauna, hammam, spa"
-    ],
-    "dining_specific": [
-      "Le P'tit Polyte \u2014 H\u00f4tel Chalet Mounier (\u2605 Michelin, Chef Guillaume Barengo, highest starred restaurant in Is\u00e8re)",
-      "Yonder Caf\u00e9 (health-conscious, a\u00e7ai bowls, matcha, avocado toast)",
-      "Le Grain de Sel (French, local/seasonal, featured on France 3)",
-      "Le Raisin d'Ours (smoked burger, homemade brioche)",
-      "Smithy's Tavern (cavernous, Mexican, British crowd)",
-      "La Tro\u00efka (slope-side, night skiing dinners)",
-      "Monsieur K (new, upmarket hybrid \u2014 refined cuisine, rock'n'roll atmosphere, 5pm-2am)"
-    ],
-    "other": "Paragliding, ice climbing, speed riding, electric mountain biking, glacier hiking with guides (from March), 70+ restaurants, night skiing on Vall\u00e9e Blanche green run"
+    "non_ski_activities": "Paragliding, ice climbing, speed riding, electric mountain biking, glacier hiking with guides (from March), 70+ restaurants, night skiing on Vallée Blanche green run"
   },
-  "best_for": {
-    "freestyle": 10,
-    "summer_skiing": 10,
-    "budget": 8,
-    "young_groups": 9,
-    "intermediates": 8
-  },
-  "honest_drawbacks": [
-    "Purpose-built 1960s architecture \u2014 limited charm",
-    "Main street can feel crowded with young crowds",
-    "Apres is fun but limited to a handful of bars",
-    "High winds can close glacier (frequent in winter)",
-    "Long transfer from Grenoble (1h45 mountain road)"
-  ],
   "access": {
     "nearest_airports": [
       {
@@ -92,12 +40,61 @@
       "station": "Grenoble (1h15 shuttle)"
     }
   },
-  "glacier_note": "Largest accessible skiable glacier in Europe. 6km long, up to 1,200m vertical. Open June-September. Book accommodation in June/September for lowest prices.",
-  "slug": "les-deux-alpes",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://iloveski.org/en/2025/02/17/es-deux-alpes-skiing-family",
-    "https://see2alpes.com/winter/guide",
-    "https://thesnowchasers.com/blog/les-deux-alpes-ski-resort-review"
-  ]
+  "villages": [
+    {
+      "name": "Les Deux Alpes",
+      "alt": 1650,
+      "character": "Main resort — lively, young, purpose-built with shops, bars, restaurants along main street",
+      "best_for": "Freestylers, young groups, summer skiers"
+    },
+    {
+      "name": "Mont-de-Lans",
+      "alt": 1650,
+      "character": "Smaller satellite, quieter",
+      "best_for": "Families, peace"
+    }
+  ],
+  "honest_drawbacks": [
+    "Purpose-built 1960s architecture — limited charm",
+    "Main street can feel crowded with young crowds",
+    "Apres is fun but limited to a handful of bars",
+    "High winds can close glacier (frequent in winter)",
+    "Long transfer from Grenoble (1h45 mountain road)"
+  ],
+  "_preserved_unmapped": {
+    "villages": [
+      {
+        "name": "Les Deux Alpes",
+        "alt": 1650,
+        "character": "Main resort — lively, young, purpose-built with shops, bars, restaurants along main street",
+        "best_for": "Freestylers, young groups, summer skiers"
+      },
+      {
+        "name": "Mont-de-Lans",
+        "alt": 1650,
+        "character": "Smaller satellite, quieter",
+        "best_for": "Families, peace"
+      }
+    ],
+    "best_for": {
+      "freestyle": 10,
+      "summer_skiing": 10,
+      "budget": 8,
+      "young_groups": 9,
+      "intermediates": 8
+    },
+    "honest_drawbacks": [
+      "Purpose-built 1960s architecture — limited charm",
+      "Main street can feel crowded with young crowds",
+      "Apres is fun but limited to a handful of bars",
+      "High winds can close glacier (frequent in winter)",
+      "Long transfer from Grenoble (1h45 mountain road)"
+    ],
+    "glacier_note": "Largest accessible skiable glacier in Europe. 6km long, up to 1,200m vertical. Open June-September. Book accommodation in June/September for lowest prices.",
+    "sources": [
+      "https://iloveski.org/en/2025/02/17/es-deux-alpes-skiing-family",
+      "https://see2alpes.com/winter/guide",
+      "https://thesnowchasers.com/blog/les-deux-alpes-ski-resort-review"
+    ]
+  }
 }

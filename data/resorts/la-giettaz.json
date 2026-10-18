@@ -1,34 +1,43 @@
 {
-  "resort": "La Giettaz",
+  "name": "La Giettaz",
   "slug": "la-giettaz",
   "domain": "Evasion Mont Blanc / Aravis",
   "region": "Mont Blanc",
-  "altitude": 1100,
-  "character": "Authentic Savoyard village in the Aravis mountains. Part of Portes du Mont-Blanc ski area. One of the best freeride spots in the Alps \u2014 kept quiet. 360\u00b0 panorama of Mont Blanc from T\u00eate du Torraz (1,930m). Peaceful, traditional, unspoilt.",
-  "research_status": "properly_sourced",
-  "description": "La Giettaz is a small pearl in the Aravis mountains. Authentic, friendly, familiar. The Portes du Mont-Blanc ski area links it to Meg\u00e8ve-Jaillet and Combloux (100km, 28 red runs, 8 black). Known as one of the best freeride spots in the Alps \u2014 but kept quiet by those in the know. The 360\u00b0 panorama from T\u00eate du Torraz summit is breathtaking. Quieter and more affordable than nearby Meg\u00e8ve.",
-  "sources": [
-    "https://www.valdarly-montblanc.com/en/our-resort-villages/our-ski-areas/les-portes-du-mont-blanc",
-    "https://www.esf-lagiettaz.com/en",
-    "https://www.lesportesdumontblanc.fr/"
-  ],
-  "non_ski_activities": {
-    "freeride": "One of the best freeride spots in the Alps \u2014 powder paradise, big slopes, big sensations. Guide recommended.",
-    "panorama": "360\u00b0 from T\u00eate du Torraz (1,930m) \u2014 Mont Blanc, Aravis, Fiz. One of the most beautiful panoramas in the Alps.",
-    "snowshoeing": "ESF-guided snowshoeing, biathlon, laser challenge",
-    "ski_touring": "Off-piste and ski touring with ESF instructors",
-    "other": "Hiking, mountain biking, giant swing at Jaillet (Meg\u00e8ve side), playground at gondola top"
+  "statistics": {
+    "base_altitude": 1100
   },
-  "best_for": {
-    "freeride": 9,
-    "peace": 10,
-    "authenticity": 9,
-    "families": 7
+  "description": "La Giettaz is a small pearl in the Aravis mountains. Authentic, friendly, familiar. The Portes du Mont-Blanc ski area links it to Megève-Jaillet and Combloux (100km, 28 red runs, 8 black). Known as one of the best freeride spots in the Alps — but kept quiet by those in the know. The 360° panorama from Tête du Torraz summit is breathtaking. Quieter and more affordable than nearby Megève.",
+  "overview": {
+    "atmosphere": "Authentic Savoyard village in the Aravis mountains. Part of Portes du Mont-Blanc ski area. One of the best freeride spots in the Alps — kept quiet. 360° panorama of Mont Blanc from Tête du Torraz (1,930m). Peaceful, traditional, unspoilt."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "snowshoeing": "ESF-guided snowshoeing, biathlon, laser challenge",
+    "non_ski_activities": "Hiking, mountain biking, giant swing at Jaillet (Megève side), playground at gondola top"
   },
   "honest_drawbacks": [
-    "Very quiet \u2014 minimal apres/dining",
-    "Lower altitude \u2014 snow variable",
+    "Very quiet — minimal apres/dining",
+    "Lower altitude — snow variable",
     "Small village with limited services",
     "Requires car for access"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.valdarly-montblanc.com/en/our-resort-villages/our-ski-areas/les-portes-du-mont-blanc",
+      "https://www.esf-lagiettaz.com/en",
+      "https://www.lesportesdumontblanc.fr/"
+    ],
+    "best_for": {
+      "freeride": 9,
+      "peace": 10,
+      "authenticity": 9,
+      "families": 7
+    },
+    "honest_drawbacks": [
+      "Very quiet — minimal apres/dining",
+      "Lower altitude — snow variable",
+      "Small village with limited services",
+      "Requires car for access"
+    ]
+  }
 }

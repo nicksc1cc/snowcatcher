@@ -1,56 +1,26 @@
 {
-  "resort": "Brides-les-Bains",
-  "altitude": 600,
-  "domain": "Les Trois Vall\u00e9es",
-  "character": "Thermal spa town in the valley. 30-50% cheaper than altitude resorts. Access to 3V via Olympe gondola.",
-  "description": "Brides-les-Bains is the budget secret of the Three Valleys. A thermal spa town at 600m in the valley floor, it's 30-50% cheaper than staying in M\u00e9ribel or Courchevel. The Olympe gondola whisks you up to M\u00e9ribel in 20 minutes. The Grand Spa Thermal (2,700 sqm) is one of France's largest \u2014 hammam, sauna, steam baths, 18m pool, 4 jacuzzis. 50+ hours/week of free entertainment.",
-  "stats": {
-    "altitude_resort": 600,
-    "altitude_top": 2950,
+  "name": "Brides-les-Bains",
+  "slug": "brides-les-bains",
+  "domain": "Les Trois Vallées",
+  "region": "Tarentaise",
+  "statistics": {
+    "base_altitude": 600,
+    "top_altitude": 2950,
     "own_pistes_km": 0,
     "domain_pistes_km": 600
   },
-  "weather_snow": {
-    "season_typical": "Mid-Dec to late Apr",
-    "note": "Skiing is at altitude via gondola. Brides itself is low-altitude."
+  "description": "Brides-les-Bains is the budget secret of the Three Valleys. A thermal spa town at 600m in the valley floor, it's 30-50% cheaper than staying in Méribel or Courchevel. The Olympe gondola whisks you up to Méribel in 20 minutes. The Grand Spa Thermal (2,700 sqm) is one of France's largest — hammam, sauna, steam baths, 18m pool, 4 jacuzzis. 50+ hours/week of free entertainment.",
+  "overview": {
+    "atmosphere": "Thermal spa town in the valley. 30-50% cheaper than altitude resorts. Access to 3V via Olympe gondola."
   },
-  "villages": [
-    {
-      "name": "Brides-les-Bains",
-      "altitude": 600,
-      "character": "Thermal spa town, budget accommodation, funicular to M\u00e9ribel",
-      "best_for": "Budget, spa seekers, wellness"
-    }
-  ],
-  "non_ski_activities": {
-    "grand_spa_thermal": "2,700 m\u00b2 \u2014 one of largest thermal spas in the Alps. 170 years of spa tradition. Hammam, sauna, steam baths, 18m leisure pool, 25m swimming corridor, 4 jacuzzis (2 indoor/2 outdoor), bubble beds, underwater jets, swan necks. Specialises in weight management, rheumatic care.",
-    "wellness_breaks": "3-5 day wellness breaks available. Dietetic conferences, healthy cooking workshops, adapted sports, health education. France's only Label Di\u00e9t\u00e9tique certified destination.",
-    "dining": [
-      "Le Bis'Trop Savoyard (Savoyard specialities)",
-      "La Fabrik (pizzas, live sport)",
-      "Le 26 (bistro)",
-      "Le Val Vert (gastronomic + diet-friendly)",
-      "Relief (craft beer bar \u2014 craft beers, tapas, cocktails)"
-    ],
-    "entertainment": "50+ hours/week free: yoga, pilates, guided walks, open-air cinema, concerts, DJ sets",
-    "casino": "Casino de Brides",
-    "access": "Olympe gondola to M\u00e9ribel in 20 mins (newly renovated 2021). 30-50% cheaper than altitude resorts."
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Mid-Dec to late Apr"
   },
-  "best_for": {
-    "budget": 10,
-    "spa": 10,
-    "wellness": 10,
-    "families": 8
-  },
-  "honest_drawbacks": [
-    "Must take gondola to reach skiing \u2014 can't ski to/from accommodation",
-    "Valley floor can be wet when snow is low",
-    "Quiet evening atmosphere"
-  ],
   "access": {
     "nearest_airports": [
       {
-        "airport": "Chamb\u00e9ry",
+        "airport": "Chambéry",
         "min": 70
       },
       {
@@ -59,15 +29,46 @@
       }
     ],
     "by_train": {
-      "station": "Mo\u00fbtiers (10 min shuttle)",
+      "station": "Moûtiers (10 min shuttle)",
       "tgv_from_paris": "4 hours"
     }
   },
-  "slug": "brides-les-bains",
-  "region": "Tarentaise",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.les3vallees.com/en/guide/summer/brides-les-bains",
-    "https://www.brides-les-bains.com/ete/en/spa-well-being/well-being-break/"
-  ]
+  "villages": [
+    {
+      "name": "Brides-les-Bains",
+      "altitude": 600,
+      "character": "Thermal spa town, budget accommodation, funicular to Méribel",
+      "best_for": "Budget, spa seekers, wellness"
+    }
+  ],
+  "honest_drawbacks": [
+    "Must take gondola to reach skiing — can't ski to/from accommodation",
+    "Valley floor can be wet when snow is low",
+    "Quiet evening atmosphere"
+  ],
+  "_preserved_unmapped": {
+    "villages": [
+      {
+        "name": "Brides-les-Bains",
+        "altitude": 600,
+        "character": "Thermal spa town, budget accommodation, funicular to Méribel",
+        "best_for": "Budget, spa seekers, wellness"
+      }
+    ],
+    "best_for": {
+      "budget": 10,
+      "spa": 10,
+      "wellness": 10,
+      "families": 8
+    },
+    "honest_drawbacks": [
+      "Must take gondola to reach skiing — can't ski to/from accommodation",
+      "Valley floor can be wet when snow is low",
+      "Quiet evening atmosphere"
+    ],
+    "sources": [
+      "https://www.les3vallees.com/en/guide/summer/brides-les-bains",
+      "https://www.brides-les-bains.com/ete/en/spa-well-being/well-being-break/"
+    ]
+  }
 }

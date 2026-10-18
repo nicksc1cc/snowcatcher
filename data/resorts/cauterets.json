@@ -1,42 +1,44 @@
 {
-  "resort": "Cauterets",
+  "name": "Cauterets",
   "slug": "cauterets",
   "domain": "Cauterets",
   "region": "Pyrenees",
-  "altitude": 900,
-  "character": "Belle \u00c9poque thermal spa town in the Pyrenees. Sulphur thermal springs since the 19th century. Belle \u00c9poque architecture \u2014 listed wooden railway station, grand hotels, casino. Pont d'Espagne and Lac de Gaube. Berlingot sweets. Flocon Vert 2-flocon certified.",
-  "research_status": "properly_sourced",
-  "description": "Cauterets is a Belle \u00c9poque thermal spa town in the Pyrenees. The golden age of thermalism left it with elegant villas, grand hotels (Angleterre, Continental), a listed wooden railway station, and a casino. The Thermes de Cauterets offer sulphur-spring cures and mini-cures. Les Bains du Rocher (34\u00b0C naturally warm water) has indoor/outdoor pools, bubble baths, swan necks, spa. The Lys cable car takes you to 2,400m for views of Vignemale and Pic du Midi. Pont d'Espagne is the gateway to Pyrenees National Park, Lac de Gaube (turquoise waters, accessible by cable car), and Marcadau refuge. The fruiti\u00e8re valley offers easy hiking. Bike park in summer. Famous for berlingot sweets. Flocon Vert (2 flocons) certified. Small ski area (36km) at Pont d'Espagne above the village.",
-  "sources": [
-    "https://www.cauterets.com/en/the-destination/a-typical-pyrenean-village",
-    "https://www.cauterets.com/en/wellness-thermal-spring-water",
-    "https://www.cauterets.com/en/top-experiences"
-  ],
-  "stats": {
-    "altitude_resort": 900,
-    "altitude_top": 2450,
+  "statistics": {
+    "base_altitude": 900,
+    "top_altitude": 2450,
     "own_pistes_km": 36
   },
-  "non_ski_activities": {
-    "thermal_baths": "Les Bains du Rocher \u2014 naturally warm water 34\u00b0C. Indoor/outdoor pools, bubble baths, swan necks, spa. Les Thermes de Cauterets \u2014 sulphur spring cures, mini-cures, medical treatments. Belle \u00c9poque setting.",
-    "pont_d_espagne": "Gateway to Pyrenees National Park. Cable car to Lac de Gaube (turquoise lake, Vignemale views). Marcadau refuge overnight hikes. GR10 trail passes through.",
-    "lys_cable_car": "To 2,400m. Panorama of Cirque du Lys, Vignemale, Pic du Midi. Grand Barbat chairlift. Lake Ilh\u00e9ou hike.",
-    "belle_epoque": "Listed wooden railway station (historic monument). Grand hotels (Angleterre, Continental). Casino. Boulevard Latapie Flurin \u2014 only flat street, site of historic flower festivals.",
-    "berlingots": "Famous Cauterets sweets \u2014 berlingot, iconic Pyrenean sweet. Various colours and flavours. Local heritage since spa era.",
-    "bike_park": "Summer mountain biking with lift access. Trails for all abilities.",
-    "labels": "Flocon Vert (2 flocons), Villes et Villages Fleuris, Terre d'Alpinisme UNESCO.",
-    "other": "Snowshoeing, hiking, paragliding, canyoning, Fruiti\u00e8re valley walks, Lake Estom hike."
+  "description": "Cauterets is a Belle Époque thermal spa town in the Pyrenees. The golden age of thermalism left it with elegant villas, grand hotels (Angleterre, Continental), a listed wooden railway station, and a casino. The Thermes de Cauterets offer sulphur-spring cures and mini-cures. Les Bains du Rocher (34°C naturally warm water) has indoor/outdoor pools, bubble baths, swan necks, spa. The Lys cable car takes you to 2,400m for views of Vignemale and Pic du Midi. Pont d'Espagne is the gateway to Pyrenees National Park, Lac de Gaube (turquoise waters, accessible by cable car), and Marcadau refuge. The fruitière valley offers easy hiking. Bike park in summer. Famous for berlingot sweets. Flocon Vert (2 flocons) certified. Small ski area (36km) at Pont d'Espagne above the village.",
+  "overview": {
+    "atmosphere": "Belle Époque thermal spa town in the Pyrenees. Sulphur thermal springs since the 19th century. Belle Époque architecture — listed wooden railway station, grand hotels, casino. Pont d'Espagne and Lac de Gaube. Berlingot sweets. Flocon Vert 2-flocon certified."
   },
-  "best_for": {
-    "spa_seekers": 10,
-    "culture": 9,
-    "nature": 9,
-    "peace": 8
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, hiking, paragliding, canyoning, Fruitière valley walks, Lake Estom hike."
   },
   "honest_drawbacks": [
     "Small ski area (36km)",
-    "Lower altitude base \u2014 snow variable",
+    "Lower altitude base — snow variable",
     "Very quiet evenings",
     "Limited non-spa activities"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.cauterets.com/en/the-destination/a-typical-pyrenean-village",
+      "https://www.cauterets.com/en/wellness-thermal-spring-water",
+      "https://www.cauterets.com/en/top-experiences"
+    ],
+    "best_for": {
+      "spa_seekers": 10,
+      "culture": 9,
+      "nature": 9,
+      "peace": 8
+    },
+    "honest_drawbacks": [
+      "Small ski area (36km)",
+      "Lower altitude base — snow variable",
+      "Very quiet evenings",
+      "Limited non-spa activities"
+    ]
+  }
 }

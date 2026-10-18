@@ -1,17 +1,23 @@
 {
-  "resort": "Le Lioran",
+  "name": "Le Lioran",
   "slug": "le-lioran",
   "domain": "Le Lioran",
   "region": "Massif Central",
-  "altitude": 1250,
-  "character": "Largest Massif Central ski area (25km). Family-friendly, peaceful, uncrowded. Forested runs at 1,250m. Good for beginners and families.",
-  "research_status": "properly_sourced",
-  "non_ski_activities": {
-    "other": "Cross-country skiing, snowshoeing, sledging. Quiet, family atmosphere. Nearest city: Aurillac."
+  "statistics": {
+    "base_altitude": 1250
   },
-  "best_for": {
-    "families": 8,
-    "beginners": 8,
-    "peace": 9
+  "overview": {
+    "atmosphere": "Largest Massif Central ski area (25km). Family-friendly, peaceful, uncrowded. Forested runs at 1,250m. Good for beginners and families."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Cross-country skiing, snowshoeing, sledging. Quiet, family atmosphere. Nearest city: Aurillac."
+  },
+  "_preserved_unmapped": {
+    "best_for": {
+      "families": 8,
+      "beginners": 8,
+      "peace": 9
+    }
   }
 }

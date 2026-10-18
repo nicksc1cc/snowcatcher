@@ -1,38 +1,41 @@
 {
-  "resort": "Les Contamines",
+  "name": "Les Contamines",
   "slug": "les-contamines",
   "domain": "Chamonix Valley / Evasion Mont Blanc area",
   "region": "Mont Blanc",
-  "altitude": 1164,
-  "character": "Authentic Haute-Savoie village in the Val Montjoie, at the foot of Mont Blanc. Notre-Dame de la Gorge sanctuary (18th-century). 120km linked ski area. Quieter, more traditional alternative to Chamonix.",
+  "statistics": {
+    "base_altitude": 1164,
+    "top_altitude": 2500,
+    "own_pistes_km": 120
+  },
+  "description": "Les Contamines-Montjoie sits in the Val Montjoie at the foot of the Mont Blanc massif. Traditional village with old farmhouses, hamlets, and a peaceful mountain atmosphere. The Notre-Dame de la Gorge sanctuary (18th-century) is a major pilgrimage site. 14 oratories line the approach. Samivel Garden with open-air reproductions of works by the writer/artist. The ski area (120km, 1,200-2,500m) is part of the Evasion Mont Blanc domain but not linked by piste to Megève/Saint-Gervais. Well-known for the Tour du Mont Blanc hiking route passing through.",
+  "overview": {
+    "atmosphere": "Authentic Haute-Savoie village in the Val Montjoie, at the foot of Mont Blanc. Notre-Dame de la Gorge sanctuary (18th-century). 120km linked ski area. Quieter, more traditional alternative to Chamonix."
+  },
   "research_status": "properly_sourced",
-  "description": "Les Contamines-Montjoie sits in the Val Montjoie at the foot of the Mont Blanc massif. Traditional village with old farmhouses, hamlets, and a peaceful mountain atmosphere. The Notre-Dame de la Gorge sanctuary (18th-century) is a major pilgrimage site. 14 oratories line the approach. Samivel Garden with open-air reproductions of works by the writer/artist. The ski area (120km, 1,200-2,500m) is part of the Evasion Mont Blanc domain but not linked by piste to Meg\u00e8ve/Saint-Gervais. Well-known for the Tour du Mont Blanc hiking route passing through.",
-  "sources": [
-    "https://www.france-voyage.com/tourism/contamines-montjoie-461.htm",
-    "https://www.lescontamines.com/winter/discover/as-a-family"
-  ],
-  "stats": {
-    "altitude_resort": 1164,
-    "altitude_top": 2500,
-    "own_pistes_km": 120,
-    "lifts": 30
-  },
-  "non_ski_activities": {
-    "notre_dame_de_la_gorge": "18th-century sanctuary, major pilgrimage site. 14 oratories along approach. Guided visits Thursdays. Starting point for Tour du Mont Blanc hikes, Nant-Borrant, La Balme, Jovet Lakes.",
-    "samivel_garden": "Open-air reproductions of works by Samivel (writer, watercolourist, mountain conservationist) behind the bell tower.",
-    "baroque_trail": "20km marked route linking Combloux, Saint-Nicolas de V\u00e9roce and Notre-Dame de la Gorge via Les Contamines.",
-    "nature_reserve": "Contamines-Montjoie Nature Reserve \u2014 spruce forests, peat bogs, alpine pastures, lakes, glaciers. Dogs on leash, no swimming in reserve waters.",
-    "other": "Snowshoeing, cross-country skiing (25km), ski touring, guided heritage walks, swimming"
-  },
-  "best_for": {
-    "families": 8,
-    "authenticity": 9,
-    "nature": 9,
-    "peace": 8
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, cross-country skiing (25km), ski touring, guided heritage walks, swimming"
   },
   "honest_drawbacks": [
-    "Not linked by piste to Meg\u00e8ve/St-Gervais \u2014 separate lift pass needed",
-    "Lower altitude base \u2014 snow variable at season edges",
-    "Quiet \u2014 limited apres and nightlife"
-  ]
+    "Not linked by piste to Megève/St-Gervais — separate lift pass needed",
+    "Lower altitude base — snow variable at season edges",
+    "Quiet — limited apres and nightlife"
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.france-voyage.com/tourism/contamines-montjoie-461.htm",
+      "https://www.lescontamines.com/winter/discover/as-a-family"
+    ],
+    "best_for": {
+      "families": 8,
+      "authenticity": 9,
+      "nature": 9,
+      "peace": 8
+    },
+    "honest_drawbacks": [
+      "Not linked by piste to Megève/St-Gervais — separate lift pass needed",
+      "Lower altitude base — snow variable at season edges",
+      "Quiet — limited apres and nightlife"
+    ]
+  }
 }

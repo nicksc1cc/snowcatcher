@@ -1,31 +1,51 @@
 {
-  "resort": "La Plagne",
+  "name": "La Plagne",
   "slug": "la-plagne",
   "domain": "Paradiski",
   "region": "Tarentaise",
-  "altitude": 1970,
-  "character": "World's largest single ski resort (225 km) \u2014 11 villages across the plateau. France's only Olympic bobsleigh track. Family-friendly, hidden freeride paradise. Linked to Les Arcs via Vanoise Express to complete 425 km Paradiski.",
-  "research_status": "properly_sourced",
-  "description": "La Plagne is 11 villages spread across a high-altitude plateau, paired with Les Arcs via the Vanoise Express to form Paradiski (425 km). The terrain spans two huge bowls from glacier (Bellec\u00f4te, 3,250 m) to wooded valley runs. 7 core villages (Plagne Centre, Belle Plagne, Plagne-Soleil, Plagne-Villages, Plagne-Bellec\u00f4te, Plagne 1800, Aime 2000) plus 4 outlying villages (Champagny-en-Vanoise, Montalbert, Les Coches, Montchavin). Home to France's only Olympic bobsleigh track (1.5 km, 19 bends, 124.5 m drop). Family-friendly with 61% beginner terrain.",
-  "sources": [
-    "https://en.la-plagne.com/discover/the-resort/plagne-centre",
-    "https://en.la-plagne.com/explore-the-multitude-of-activities-on-offer/enjoy-la-plagne-in-all-weather/bowling-alleys",
-    "https://www.inthesnow.com/la-plagne/non-skiing-activities"
-  ],
-  "stats": {
-    "altitude_resort": 1970,
-    "altitude_top": 3250,
+  "statistics": {
+    "base_altitude": 1970,
+    "top_altitude": 3250,
     "vertical_drop": 2000,
     "own_pistes_km": 225,
     "domain_pistes_km": 425,
     "own_lifts": 80,
+    "snow_cannons": 350,
     "beginner_pct": 61,
     "intermediate_pct": 25,
-    "advanced_pct": 14,
-    "snowparks": 4,
-    "cross_country_km": 150,
-    "snow_cannons": 350,
-    "glacier": "Bellec\u00f4te glacier (3,250 m)"
+    "advanced_pct": 14
+  },
+  "description": "La Plagne is 11 villages spread across a high-altitude plateau, paired with Les Arcs via the Vanoise Express to form Paradiski (425 km). The terrain spans two huge bowls from glacier (Bellecôte, 3,250 m) to wooded valley runs. 7 core villages (Plagne Centre, Belle Plagne, Plagne-Soleil, Plagne-Villages, Plagne-Bellecôte, Plagne 1800, Aime 2000) plus 4 outlying villages (Champagny-en-Vanoise, Montalbert, Les Coches, Montchavin). Home to France's only Olympic bobsleigh track (1.5 km, 19 bends, 124.5 m drop). Family-friendly with 61% beginner terrain.",
+  "overview": {
+    "atmosphere": "World's largest single ski resort (225 km) — 11 villages across the plateau. France's only Olympic bobsleigh track. Family-friendly, hidden freeride paradise. Linked to Les Arcs via Vanoise Express to complete 425 km Paradiski."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Super Tyro — from Plagne Aime 2000 to Plagne Centre. Colorado Park — 1,500 m run with Mont Blanc views. Plagne Centre: Le Holidays (14:00-02:00, 6 lanes, arcade, bar). Belle Plagne: Cosy bar, cocktails, beers, tapas, oysters, billiards, pinball, arcade games.. Cinema at Plagne Centre. Paragliding (Air La Plagne), dog sledding, ice climbing, biathlon, snowshoeing, ice skating, squash, escape games, handiski"
+  },
+  "food_and_drink": {
+    "best_restaurants": [
+      "Le Genépi (local)",
+      "Le Mille-8 (bistro)",
+      "La Bergerie (piste-side, Savoyard)",
+      "Araucaria Hotel restaurant (gastronomic)"
+    ]
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Chambéry",
+        "min": 100
+      },
+      {
+        "airport": "Geneva",
+        "min": 160
+      }
+    ],
+    "by_train": {
+      "station": "Aime (10-15 min bus)",
+      "tgv_from_paris": "4.5 hours"
+    }
   },
   "villages": [
     {
@@ -37,7 +57,7 @@
     {
       "name": "Belle Plagne",
       "alt": 2050,
-      "character": "Highest core village, 360\u00b0 panorama, Deep Nature Premium Spa (1,500 m\u00b2, hammam, nordic baths, saunas), Family SPA (35\u00b0 outdoor pool, aqua trail), Bellec\u00f4te glacier access",
+      "character": "Highest core village, 360° panorama, Deep Nature Premium Spa (1,500 m², hammam, nordic baths, saunas), Family SPA (35° outdoor pool, aqua trail), Bellecôte glacier access",
       "best_for": "Snow reliability, wellness"
     },
     {
@@ -77,53 +97,82 @@
       "best_for": "Access both valleys"
     }
   ],
-  "non_ski_activities": {
-    "olympic_bobsleigh": "France's only Olympic bobsleigh track (1992 Albertville). 1.5 km, 19 bends, 124.5 m drop. 4 options: classic ride, drive a bobsleigh, sleep in a piste basher (\u20ac459+, private whirlpool, home cinema, champagne, breakfast). Near Plagne 1800 (shuttle from Plagne Centre).",
-    "deep_nature_spa": "Belle Plagne \u2014 1,500 m\u00b2 wellness area, hammams, nordic baths, saunas, specialised treatments, 170 m\u00b2 Family Area, children's treatments",
-    "family_spa": "Belle Plagne \u2014 35\u00b0 outdoor pool, aqua trail, wellness treatments",
-    "bowling": "Plagne Centre: Le Holidays (14:00-02:00, 6 lanes, arcade, bar). Belle Plagne: Cosy bar, cocktails, beers, tapas, oysters, billiards, pinball, arcade games.",
-    "zip_line": "Super Tyro \u2014 from Plagne Aime 2000 to Plagne Centre",
-    "toboggan": "Colorado Park \u2014 1,500 m run with Mont Blanc views",
-    "cinema": "Cinema at Plagne Centre",
-    "museum": "Espace Glacialis \u2014 Glacier Museum, Champagny-en-Vanoise",
-    "other": "Paragliding (Air La Plagne), dog sledding, ice climbing, biathlon, snowshoeing, ice skating, squash, escape games, handiski"
-  },
-  "dining_guide": {
-    "signature": [
-      "Le Gen\u00e9pi (local)",
-      "Le Mille-8 (bistro)",
-      "La Bergerie (piste-side, Savoyard)",
-      "Araucaria Hotel restaurant (gastronomic)"
-    ]
-  },
-  "best_for": {
-    "families": 9,
-    "beginners": 10,
-    "intermediates": 8,
-    "freeride": 8,
-    "budget": 8
-  },
   "honest_drawbacks": [
-    "Fragmented villages \u2014 no single resort atmosphere",
+    "Fragmented villages — no single resort atmosphere",
     "Flat areas between sectors (snowboarders beware)",
-    "Lifts get crowded \u2014 queues are common",
+    "Lifts get crowded — queues are common",
     "1970s architecture functional not charming",
     "Long transfer from Geneva (2h40)"
   ],
-  "access": {
-    "nearest_airports": [
+  "_preserved_unmapped": {
+    "sources": [
+      "https://en.la-plagne.com/discover/the-resort/plagne-centre",
+      "https://en.la-plagne.com/explore-the-multitude-of-activities-on-offer/enjoy-la-plagne-in-all-weather/bowling-alleys",
+      "https://www.inthesnow.com/la-plagne/non-skiing-activities"
+    ],
+    "villages": [
       {
-        "airport": "Chamb\u00e9ry",
-        "min": 100
+        "name": "Plagne Centre",
+        "alt": 1970,
+        "character": "Largest, liveliest, best shops, restaurants, bars, cinema, bowling (Le Holidays, 14:00-02:00), Colorado toboggan run (1,500 m), hub of La Plagne events",
+        "best_for": "Groups, nightlife, families"
       },
       {
-        "airport": "Geneva",
-        "min": 160
+        "name": "Belle Plagne",
+        "alt": 2050,
+        "character": "Highest core village, 360° panorama, Deep Nature Premium Spa (1,500 m², hammam, nordic baths, saunas), Family SPA (35° outdoor pool, aqua trail), Bellecôte glacier access",
+        "best_for": "Snow reliability, wellness"
+      },
+      {
+        "name": "Plagne-Soleil",
+        "alt": 2050,
+        "character": "Sun-trapped, quiet, car-free",
+        "best_for": "Families, sun seekers"
+      },
+      {
+        "name": "Plagne 1800",
+        "alt": 1800,
+        "character": "Traditional stone-built, market town feel, near bobsleigh track",
+        "best_for": "Traditionalists"
+      },
+      {
+        "name": "Aime 2000",
+        "alt": 2000,
+        "character": "High-altitude, direct lift access, quiet evenings",
+        "best_for": "Budget, snow"
+      },
+      {
+        "name": "Champagny-en-Vanoise",
+        "alt": 1250,
+        "character": "Traditional Savoyard village, valley floor, Glacier Museum (Espace Glacialis)",
+        "best_for": "Traditionalists, nature"
+      },
+      {
+        "name": "Les Coches",
+        "alt": 1450,
+        "character": "Wooded hamlet, tree skiing, near Vanoise Express",
+        "best_for": "Peace, tree skiing"
+      },
+      {
+        "name": "Montchavin",
+        "alt": 1250,
+        "character": "Stone village below Vanoise Express, closest to Les Arcs link",
+        "best_for": "Access both valleys"
       }
     ],
-    "by_train": {
-      "station": "Aime (10-15 min bus)",
-      "tgv_from_paris": "4.5 hours"
-    }
+    "best_for": {
+      "families": 9,
+      "beginners": 10,
+      "intermediates": 8,
+      "freeride": 8,
+      "budget": 8
+    },
+    "honest_drawbacks": [
+      "Fragmented villages — no single resort atmosphere",
+      "Flat areas between sectors (snowboarders beware)",
+      "Lifts get crowded — queues are common",
+      "1970s architecture functional not charming",
+      "Long transfer from Geneva (2h40)"
+    ]
   }
 }

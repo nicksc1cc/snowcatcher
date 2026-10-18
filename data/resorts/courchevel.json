@@ -1,220 +1,22 @@
 {
-  "resort": "Courchevel",
+  "name": "Courchevel",
   "slug": "courchevel",
-  "domain": "Les Trois Vall\u00e9es",
+  "domain": "Les Trois Vallées",
   "region": "Tarentaise",
-  "altitude": 1850,
-  "character": "Glamour, luxury, Michelin stars, designer shopping \u2014 but also genuinely excellent skiing in the world's largest linked domain.",
-  "description": "Courchevel is not one resort but four villages, each at a different altitude with a different personality. The collective name covers 1850 (luxury, designer boutiques, Michelin stars), 1650/Moriond (family-friendly, more relaxed), 1550/Village (quiet, traditional, lower prices), and 1300/Le Praz (oldest, most authentic). The higher you go, the more prestigious \u2014 and expensive \u2014 it gets.",
-  "stats": {
+  "statistics": {
+    "base_altitude": 1850,
+    "vertical_drop": 2130,
     "own_pistes_km": 150,
     "domain_pistes_km": 600,
-    "own_pistes": 93,
-    "domain_pistes": 336,
     "own_lifts": 62,
     "domain_lifts": 183,
-    "base_altitude": 1100,
-    "resort_altitude": 1850,
-    "top_altitude": 3230,
-    "vertical_drop": 2130,
     "beginner_pct": 45,
     "intermediate_pct": 43,
-    "advanced_pct": 12,
-    "snowparks": 1,
-    "michelin_stars": "11 in Les 3 Vall\u00e9es, highest concentration in Courchevel 1850"
+    "advanced_pct": 12
   },
-  "villages": [
-    {
-      "name": "Courchevel 1850",
-      "altitude": 1850,
-      "character": "The flagship. Designer boutiques (Chanel, LV, Prada, Valentino, Cartier, Saint Laurent), 5-star hotels (Aman Le M\u00e9l\u00e9zin, Cheval Blanc, L'Apog\u00e9e), 3 Michelin-starred restaurants, private jet airport (Altiport). Ultra-luxury, glamorous, and expensive \u2014 but the ski-in/ski-out access and central location are genuinely excellent.",
-      "best_for": "Luxury seekers, foodies, shoppers, couples",
-      "vibe": "Glamorous, exclusive, polished",
-      "architecture": "Mix of luxury chalets and 1970s purpose-built blocks \u2014 bling covers the concrete",
-      "ski_in_ski_out": true,
-      "shopping": "Chanel, Valentino, Louis Vuitton, Prada, Cartier, Saint Laurent, Dior \u2014 rivals Paris boutiques. Forum Centre has supermarket, pharmacy, sports shops.",
-      "dining": {
-        "michelin": [
-          "Baumani\u00e8re 1850 \u2014 \u2605\u2605 Michelin, Chef Thomas Prod'homme, Alpine-Provencal, \u20ac\u20ac\u20ac\u20ac",
-          "Le Sarkara \u2014 \u2605\u2605 Michelin, Chef S\u00e9bastien Vauxion, haute vegetarian p\u00e2tisserie, \u20ac\u20ac\u20ac\u20ac",
-          "Aman Le M\u00e9l\u00e9zin \u2014 \u2605\u2605 Michelin (Nama), Japanese, \u20ac\u20ac\u20ac\u20ac"
-        ],
-        "signature": [
-          "Le Tremplin \u2014 iconic slope-side bar/restaurant at piste base, see-and-be-seen",
-          "La Cave des Creux \u2014 piste-side, run by local ski instructors, great terrace with Mont Blanc view"
-        ]
-      },
-      "apres": "La Folie Douce (iconic afternoon party), Les Caves (nightclub), Le Tremplin (slope-side), Bar des Pistes (Aman), piano bars"
-    },
-    {
-      "name": "Courchevel 1650 (Moriond)",
-      "altitude": 1650,
-      "character": "Family-friendly, more relaxed, less expensive than 1850. Hosts the Aquamotion water park \u2014 a major draw for families with children.",
-      "best_for": "Families, intermediates, budget-conscious luxury seekers",
-      "vibe": "Relaxed, family-oriented, sporty",
-      "ski_in_ski_out": true,
-      "attractions": [
-        "Aquamotion \u2014 indoor/outdoor water park with heated pools, slides, spa, fitness"
-      ],
-      "dining": "Good selection of mid-range restaurants, less formal than 1850"
-    },
-    {
-      "name": "Courchevel 1550 (Village)",
-      "altitude": 1550,
-      "character": "The original hamlet of Courchevel. Quieter, more traditional, lower prices. Good for those who want Courchevel access without the 1850 price tag.",
-      "best_for": "Couples, budget, peace seekers",
-      "vibe": "Quiet, traditional, residential",
-      "ski_in_ski_out": true
-    },
-    {
-      "name": "Courchevel 1300 (Le Praz)",
-      "altitude": 1300,
-      "character": "The oldest and most authentic of the Courchevel villages. Traditional Savoyard architecture, quiet, charming. Home to Le Far\u00e7on (\u2605 Michelin) and La Tania next door.",
-      "best_for": "Traditionalists, foodies, peace",
-      "vibe": "Authentic, historic, peaceful",
-      "ski_in_ski_out": false,
-      "dining": "Le Far\u00e7on \u2014 \u2605 Michelin, rustic-chic, ski-in/ski-out accessible from slopes",
-      "note": "Most authentic architecture in the Courchevel valley"
-    }
-  ],
-  "non_ski_activities": {
-    "spas_and_wellness": [
-      "Aman Le M\u00e9l\u00e9zin Spa \u2014 767 sqm over 2 floors, hammam, cold plunge pool, 14m indoor lap pool, yoga studio, TRX fitness, 5 treatment rooms, Thai massage suite, Himalayan salt scrub, Japanese tea ceremony",
-      "Cheval Blanc Spa \u2014 Guerlain beauty treatments, hammam, sauna, Russian banya, outdoor jacuzzi",
-      "Spa des Neiges by Clarins \u2014 facials, massages, makeup",
-      "Aquamotion \u2014 water park with indoor/outdoor heated pools, slides, spa (1650)",
-      "L'Apog\u00e9e Spa \u2014 Oxygene spa, indoor pool, treatment rooms"
-    ],
-    "shopping": "Chanel, Valentino, Louis Vuitton, Prada, Cartier, Saint Laurent, Dior, plus Forum Centre with supermarket, pharmacy, sports equipment, art galleries",
-    "ice_skating": "Olympic-standard indoor ice rink (built for 1992 Albertville Games) at Forum Centre, skate rental on site",
-    "sledging": "2 km night-lit sledging run from 1850 (near Forum) to 1550 (Village), open day and night, 300m vertical drop",
-    "swimming": "Aquamotion water park + indoor pools at several 5-star hotels",
-    "cinema": "Cinema in 1850, some screenings in English with subtitles",
-    "bowling": "Bowling 3000 \u2014 6 lanes, child-friendly, at Forum Centre",
-    "climbing": "Indoor climbing wall at Forum Centre + ice climbing on 18m artificial wall + guided ice climbing on natural waterfalls",
-    "paragliding": "Tandem paragliding flights from Saulire summit (2,700m) \u2014 \u20ac\u20ac\u20ac",
-    "scenic_flights": "Helicopter tours from Altiport (private jet airport), hot air balloon rides",
-    "horse_drawn": "Horse-drawn sleigh rides through forest trails",
-    "dog_sledding": "Multiple providers \u2014 half-day and full-day excursions with huskies",
-    "snowshoeing": "Marked trails through forests and Vanoise National Park",
-    "fat_biking": "Fat bike hire and guided rides on snow trails",
-    "snowmobiling": "Guided snowmobile excursions after lift closure",
-    "via_ferrata": "Winter via ferrata on ice (guided)",
-    "fitness": "Gym and fitness centre at Forum + yoga classes at multiple venues",
-    "events": "Winter Legacy by Alexis Pinturault, weekly street market, concerts, piano bars"
-  },
-  "dining_guide": {
-    "stars_2": [
-      {
-        "name": "Baumani\u00e8re 1850",
-        "chef": "Thomas Prod'homme",
-        "cuisine": "Alpine-Provencal",
-        "setting": "Chalet, fireplace, valley views"
-      },
-      {
-        "name": "Le Sarkara",
-        "chef": "S\u00e9bastien Vauxion",
-        "cuisine": "High vegetarian p\u00e2tisserie",
-        "setting": "Elegant, fireplace"
-      },
-      {
-        "name": "Nama (Aman Le M\u00e9l\u00e9zin)",
-        "chef": "",
-        "cuisine": "Japanese \u2014 sushi, wagyu, otoro",
-        "setting": "Hotel restaurant"
-      }
-    ],
-    "stars_1": [
-      {
-        "name": "Le Far\u00e7on",
-        "location": "Le Praz",
-        "cuisine": "Rustic-chic local",
-        "note": "Ski-in/ski-out accessible"
-      },
-      {
-        "name": "L'Atelier d'Edmond",
-        "location": "1850",
-        "cuisine": "Modern French"
-      }
-    ],
-    "traditional": [
-      "La Cave des Creux \u2014 piste-side, by local ski instructors Boris and Florian Glise",
-      "Le Tremplin \u2014 iconic slope-side see-and-be-seen spot",
-      "La Grand'table \u2014 traditional Savoyard, excellent tartiflette",
-      "Le Bistrot du Praz \u2014 relaxed, good value, Le Praz"
-    ],
-    "apres_snacks": "La Folie Douce (iconic music terrace), Le Tremplin (piste base), Bar des Pistes (Aman Le M\u00e9l\u00e9zin)"
-  },
-  "piste_guide": {
-    "best_for_beginners": "Pralong area above Jardin Alpin, dedicated nursery zones near all villages",
-    "best_for_intermediates": "Saulire-Creux upper sectors, Chanrossa above Moriond, long blues and reds",
-    "best_for_advanced": "Grand Couloir (marked black couloir), steep mogul pistes under Saulire, off-piste in Bel Aire area",
-    "off_piste": "Col du Fruit, Vall\u00e9e des Avals (guide essential), Grand Couloir area, Bel Aire tree runs",
-    "crowding": "Verdons/Jardin Alpin area gets very busy. Early starts recommended.",
-    "snowpark": "1 snowpark in Verdons area. Major parks on M\u00e9ribel side (Le Park, Moon Park)"
-  },
-  "apres_guide": {
-    "iconic": "La Folie Douce \u2014 live music, dancing on tables, starts 2pm slope-side",
-    "bars": "Le Tremplin (piste base), La Cave des Creux (terrace), Les Caves (nightclub), piano bars in luxury hotels",
-    "note": "Polarised \u2014 ultra-luxury slope-side venues vs relaxed pubs. Something for both crowds."
-  },
-  "honest_drawbacks": [
-    "Expensive \u2014 1850 is one of the most expensive resorts in the Alps",
-    "Purpose-built 1970s architecture under the luxury veneer \u2014 some areas are dated concrete",
-    "Verdons/Jardin Alpin area gets uncomfortably busy",
-    "Nouveau-riche reputation can be off-putting",
-    "February school holidays are packed and prices spike",
-    "Vehicles are restricted \u2014 Altiport private jet traffic can be noisy",
-    "Lower villages (1300, 1550) need lifts to reach the main ski area"
-  ],
-  "access": {
-    "nearest_airports": [
-      {
-        "airport": "Chamb\u00e9ry",
-        "code": "CMF",
-        "transfer_min": 90,
-        "distance_km": 100
-      },
-      {
-        "airport": "Geneva",
-        "code": "GVA",
-        "transfer_min": 150,
-        "distance_km": 180
-      },
-      {
-        "airport": "Lyon",
-        "code": "LYS",
-        "transfer_min": 180,
-        "distance_km": 210
-      },
-      {
-        "airport": "Private",
-        "code": "Altiport Courchevel",
-        "transfer_min": 0,
-        "note": "Private jets only \u2014 short runway, famous challenging approach"
-      }
-    ],
-    "by_train": {
-      "station": "Mo\u00fbtiers (25km)",
-      "tgv_from_paris": "4-5 hours",
-      "eurostar": "London to Mo\u00fbtiers direct in winter (from \u00a399 each way)",
-      "shuttle": "Regular bus services from Mo\u00fbtiers to all Courchevel villages"
-    },
-    "by_car": {
-      "from_calais_hours": 9,
-      "from_lyon_hours": 2.5,
-      "toll_cost_euro": "~45 from Lyon",
-      "parking": "Heated underground parking in 1850 (expensive)"
-    }
-  },
-  "practical_info": {
-    "tourist_office": "https://www.courchevel.com/en/",
-    "lift_pass_6day_2025_26": 390,
-    "ski_school": "ESF Courchevel + several independent schools",
-    "ski_rental": "Multiple shops in all villages \u2014 ski hire from ~\u20ac25/day",
-    "supermarket": "Forum Centre (1850), smaller shops in other villages",
-    "medical": "Medical centre in 1850, hospital in Mo\u00fbtiers (25km)",
-    "altiport_landing": "Courchevel Altiport has one of the most challenging approaches in Europe \u2014 steep uphill landing strip"
+  "description": "Courchevel is not one resort but four villages, each at a different altitude with a different personality. The collective name covers 1850 (luxury, designer boutiques, Michelin stars), 1650/Moriond (family-friendly, more relaxed), 1550/Village (quiet, traditional, lower prices), and 1300/Le Praz (oldest, most authentic). The higher you go, the more prestigious — and expensive — it gets.",
+  "overview": {
+    "atmosphere": "Glamour, luxury, Michelin stars, designer shopping — but also genuinely excellent skiing in the world's largest linked domain."
   },
   "research_sources": [
     {
@@ -244,5 +46,219 @@
       "retrieved": "2026-10-14"
     }
   ],
-  "research_status": "properly_sourced"
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "swimming_pool_or_spa": "Aquamotion water park + indoor pools at several 5-star hotels",
+    "ice_skating": "Olympic-standard indoor ice rink (built for 1992 Albertville Games) at Forum Centre, skate rental on site",
+    "paragliding": "Tandem paragliding flights from Saulire summit (2,700m) — €€€",
+    "dog_sledding": "Multiple providers — half-day and full-day excursions with huskies",
+    "snowshoeing": "Marked trails through forests and Vanoise National Park",
+    "snowmobiling": "Guided snowmobile excursions after lift closure",
+    "non_ski_activities": "Bowling 3000 — 6 lanes, child-friendly, at Forum Centre. Cinema in 1850, some screenings in English with subtitles. Gym and fitness centre at Forum + yoga classes at multiple venues",
+    "events_during_stay": "Winter Legacy by Alexis Pinturault, weekly street market, concerts, piano bars"
+  },
+  "food_and_drink": {
+    "michelin_starred": [
+      {
+        "name": "Le Farçon",
+        "location": "Le Praz",
+        "cuisine": "Rustic-chic local",
+        "note": "Ski-in/ski-out accessible"
+      },
+      {
+        "name": "L'Atelier d'Edmond",
+        "location": "1850",
+        "cuisine": "Modern French"
+      }
+    ]
+  },
+  "off_piste": {
+    "off_piste_detail": "Col du Fruit, Vallée des Avals (guide essential), Grand Couloir area, Bel Aire tree runs"
+  },
+  "ski_area": {
+    "snowpark_note": "1 snowpark in Verdons area. Major parks on Méribel side (Le Park, Moon Park)",
+    "lift_queues": "Verdons/Jardin Alpin area gets very busy. Early starts recommended."
+  },
+  "apres_and_nightlife": {
+    "apres_ski_description": "La Folie Douce — live music, dancing on tables, starts 2pm slope-side",
+    "nightlife_clubbing": "Le Tremplin (piste base), La Cave des Creux (terrace), Les Caves (nightclub), piano bars in luxury hotels"
+  },
+  "services": {
+    "tourist_office_url": "https://www.courchevel.com/en/",
+    "ski_school": "ESF Courchevel + several independent schools",
+    "ski_hire_info": "Multiple shops in all villages — ski hire from ~€25/day",
+    "supermarket_notes": "Forum Centre (1850), smaller shops in other villages",
+    "medical_centre_notes": "Medical centre in 1850, hospital in Moûtiers (25km)"
+  },
+  "pricing": {
+    "lift_pass_6day_euro": 390
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Chambéry",
+        "code": "CMF",
+        "transfer_min": 90,
+        "distance_km": 100
+      },
+      {
+        "airport": "Geneva",
+        "code": "GVA",
+        "transfer_min": 150,
+        "distance_km": 180
+      },
+      {
+        "airport": "Lyon",
+        "code": "LYS",
+        "transfer_min": 180,
+        "distance_km": 210
+      },
+      {
+        "airport": "Private",
+        "code": "Altiport Courchevel",
+        "transfer_min": 0,
+        "note": "Private jets only — short runway, famous challenging approach"
+      }
+    ],
+    "by_train": {
+      "station": "Moûtiers (25km)",
+      "tgv_from_paris": "4-5 hours",
+      "eurostar": "London to Moûtiers direct in winter (from £99 each way)",
+      "shuttle": "Regular bus services from Moûtiers to all Courchevel villages"
+    },
+    "by_car": {
+      "from_calais_hours": 9,
+      "from_lyon_hours": 2.5,
+      "toll_cost_euro": "~45 from Lyon",
+      "parking": "Heated underground parking in 1850 (expensive)"
+    }
+  },
+  "villages": [
+    {
+      "name": "Courchevel 1850",
+      "altitude": 1850,
+      "character": "The flagship. Designer boutiques (Chanel, LV, Prada, Valentino, Cartier, Saint Laurent), 5-star hotels (Aman Le Mélézin, Cheval Blanc, L'Apogée), 3 Michelin-starred restaurants, private jet airport (Altiport). Ultra-luxury, glamorous, and expensive — but the ski-in/ski-out access and central location are genuinely excellent.",
+      "best_for": "Luxury seekers, foodies, shoppers, couples",
+      "vibe": "Glamorous, exclusive, polished",
+      "architecture": "Mix of luxury chalets and 1970s purpose-built blocks — bling covers the concrete",
+      "ski_in_ski_out": true,
+      "shopping": "Chanel, Valentino, Louis Vuitton, Prada, Cartier, Saint Laurent, Dior — rivals Paris boutiques. Forum Centre has supermarket, pharmacy, sports shops.",
+      "dining": {
+        "michelin": [
+          "Baumanière 1850 — ★★ Michelin, Chef Thomas Prod'homme, Alpine-Provencal, €€€€",
+          "Le Sarkara — ★★ Michelin, Chef Sébastien Vauxion, haute vegetarian pâtisserie, €€€€",
+          "Aman Le Mélézin — ★★ Michelin (Nama), Japanese, €€€€"
+        ],
+        "signature": [
+          "Le Tremplin — iconic slope-side bar/restaurant at piste base, see-and-be-seen",
+          "La Cave des Creux — piste-side, run by local ski instructors, great terrace with Mont Blanc view"
+        ]
+      },
+      "apres": "La Folie Douce (iconic afternoon party), Les Caves (nightclub), Le Tremplin (slope-side), Bar des Pistes (Aman), piano bars"
+    },
+    {
+      "name": "Courchevel 1650 (Moriond)",
+      "altitude": 1650,
+      "character": "Family-friendly, more relaxed, less expensive than 1850. Hosts the Aquamotion water park — a major draw for families with children.",
+      "best_for": "Families, intermediates, budget-conscious luxury seekers",
+      "vibe": "Relaxed, family-oriented, sporty",
+      "ski_in_ski_out": true,
+      "attractions": [
+        "Aquamotion — indoor/outdoor water park with heated pools, slides, spa, fitness"
+      ],
+      "dining": "Good selection of mid-range restaurants, less formal than 1850"
+    },
+    {
+      "name": "Courchevel 1550 (Village)",
+      "altitude": 1550,
+      "character": "The original hamlet of Courchevel. Quieter, more traditional, lower prices. Good for those who want Courchevel access without the 1850 price tag.",
+      "best_for": "Couples, budget, peace seekers",
+      "vibe": "Quiet, traditional, residential",
+      "ski_in_ski_out": true
+    },
+    {
+      "name": "Courchevel 1300 (Le Praz)",
+      "altitude": 1300,
+      "character": "The oldest and most authentic of the Courchevel villages. Traditional Savoyard architecture, quiet, charming. Home to Le Farçon (★ Michelin) and La Tania next door.",
+      "best_for": "Traditionalists, foodies, peace",
+      "vibe": "Authentic, historic, peaceful",
+      "ski_in_ski_out": false,
+      "dining": "Le Farçon — ★ Michelin, rustic-chic, ski-in/ski-out accessible from slopes",
+      "note": "Most authentic architecture in the Courchevel valley"
+    }
+  ],
+  "honest_drawbacks": [
+    "Expensive — 1850 is one of the most expensive resorts in the Alps",
+    "Purpose-built 1970s architecture under the luxury veneer — some areas are dated concrete",
+    "Verdons/Jardin Alpin area gets uncomfortably busy",
+    "Nouveau-riche reputation can be off-putting",
+    "February school holidays are packed and prices spike",
+    "Vehicles are restricted — Altiport private jet traffic can be noisy",
+    "Lower villages (1300, 1550) need lifts to reach the main ski area"
+  ],
+  "_preserved_unmapped": {
+    "villages": [
+      {
+        "name": "Courchevel 1850",
+        "altitude": 1850,
+        "character": "The flagship. Designer boutiques (Chanel, LV, Prada, Valentino, Cartier, Saint Laurent), 5-star hotels (Aman Le Mélézin, Cheval Blanc, L'Apogée), 3 Michelin-starred restaurants, private jet airport (Altiport). Ultra-luxury, glamorous, and expensive — but the ski-in/ski-out access and central location are genuinely excellent.",
+        "best_for": "Luxury seekers, foodies, shoppers, couples",
+        "vibe": "Glamorous, exclusive, polished",
+        "architecture": "Mix of luxury chalets and 1970s purpose-built blocks — bling covers the concrete",
+        "ski_in_ski_out": true,
+        "shopping": "Chanel, Valentino, Louis Vuitton, Prada, Cartier, Saint Laurent, Dior — rivals Paris boutiques. Forum Centre has supermarket, pharmacy, sports shops.",
+        "dining": {
+          "michelin": [
+            "Baumanière 1850 — ★★ Michelin, Chef Thomas Prod'homme, Alpine-Provencal, €€€€",
+            "Le Sarkara — ★★ Michelin, Chef Sébastien Vauxion, haute vegetarian pâtisserie, €€€€",
+            "Aman Le Mélézin — ★★ Michelin (Nama), Japanese, €€€€"
+          ],
+          "signature": [
+            "Le Tremplin — iconic slope-side bar/restaurant at piste base, see-and-be-seen",
+            "La Cave des Creux — piste-side, run by local ski instructors, great terrace with Mont Blanc view"
+          ]
+        },
+        "apres": "La Folie Douce (iconic afternoon party), Les Caves (nightclub), Le Tremplin (slope-side), Bar des Pistes (Aman), piano bars"
+      },
+      {
+        "name": "Courchevel 1650 (Moriond)",
+        "altitude": 1650,
+        "character": "Family-friendly, more relaxed, less expensive than 1850. Hosts the Aquamotion water park — a major draw for families with children.",
+        "best_for": "Families, intermediates, budget-conscious luxury seekers",
+        "vibe": "Relaxed, family-oriented, sporty",
+        "ski_in_ski_out": true,
+        "attractions": [
+          "Aquamotion — indoor/outdoor water park with heated pools, slides, spa, fitness"
+        ],
+        "dining": "Good selection of mid-range restaurants, less formal than 1850"
+      },
+      {
+        "name": "Courchevel 1550 (Village)",
+        "altitude": 1550,
+        "character": "The original hamlet of Courchevel. Quieter, more traditional, lower prices. Good for those who want Courchevel access without the 1850 price tag.",
+        "best_for": "Couples, budget, peace seekers",
+        "vibe": "Quiet, traditional, residential",
+        "ski_in_ski_out": true
+      },
+      {
+        "name": "Courchevel 1300 (Le Praz)",
+        "altitude": 1300,
+        "character": "The oldest and most authentic of the Courchevel villages. Traditional Savoyard architecture, quiet, charming. Home to Le Farçon (★ Michelin) and La Tania next door.",
+        "best_for": "Traditionalists, foodies, peace",
+        "vibe": "Authentic, historic, peaceful",
+        "ski_in_ski_out": false,
+        "dining": "Le Farçon — ★ Michelin, rustic-chic, ski-in/ski-out accessible from slopes",
+        "note": "Most authentic architecture in the Courchevel valley"
+      }
+    ],
+    "honest_drawbacks": [
+      "Expensive — 1850 is one of the most expensive resorts in the Alps",
+      "Purpose-built 1970s architecture under the luxury veneer — some areas are dated concrete",
+      "Verdons/Jardin Alpin area gets uncomfortably busy",
+      "Nouveau-riche reputation can be off-putting",
+      "February school holidays are packed and prices spike",
+      "Vehicles are restricted — Altiport private jet traffic can be noisy",
+      "Lower villages (1300, 1550) need lifts to reach the main ski area"
+    ]
+  }
 }

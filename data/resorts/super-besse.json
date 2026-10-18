@@ -1,17 +1,23 @@
 {
-  "resort": "Super Besse",
+  "name": "Super Besse",
   "slug": "super-besse",
   "domain": "Super Besse",
   "region": "Massif Central",
-  "altitude": 1350,
-  "character": "Highest resort in the Massif Central (1,350m). Small family domain (25km). Quiet, uncrowded. Good snow record by Massif Central standards.",
-  "research_status": "properly_sourced",
-  "non_ski_activities": {
-    "other": "Cross-country skiing, snowshoeing, sledging. Peaceful mountain atmosphere. Nearest town: Besse-et-Saint-Anastaise."
+  "statistics": {
+    "base_altitude": 1350
   },
-  "best_for": {
-    "families": 8,
-    "beginners": 7,
-    "peace": 9
+  "overview": {
+    "atmosphere": "Highest resort in the Massif Central (1,350m). Small family domain (25km). Quiet, uncrowded. Good snow record by Massif Central standards."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Cross-country skiing, snowshoeing, sledging. Peaceful mountain atmosphere. Nearest town: Besse-et-Saint-Anastaise."
+  },
+  "_preserved_unmapped": {
+    "best_for": {
+      "families": 8,
+      "beginners": 7,
+      "peace": 9
+    }
   }
 }

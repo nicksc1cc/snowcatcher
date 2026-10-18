@@ -1,35 +1,41 @@
 {
-  "resort": "Ch\u00e2tel",
+  "name": "Châtel",
   "slug": "chatel",
   "domain": "Portes du Soleil",
   "region": "Mont Blanc / Chablais",
-  "altitude": 1200,
-  "character": "Authentic Savoyard farming village in the Portes du Soleil. Working farms producing Abondance cheese. 3 ski sectors (Super-Ch\u00e2tel, Linga, Pr\u00e9-la-Joux). Fantasticable zip line. Gourmet destination with 2 Michelin-recommended restaurants.",
-  "research_status": "properly_sourced",
-  "description": "Ch\u00e2tel is a real farming village on the French-Swiss border in the Portes du Soleil. Its own Espace Libert\u00e9 ski area has 120 km of pistes across 3 sectors: Super-Ch\u00e2tel (beginner bowl), Linga (advanced, 800m vertical, snowpark), and Pr\u00e9-la-Joux (link to Avoriaz). Also connected to the Swiss resorts of Morgins and Torgon. 56 lifts, 69 pistes. Gourmet destination with Abondance cheese from local farms. Fantasticable giant zip line (100 km/h, 140m high). Forme d'O aquatic centre. 60+ restaurants across the villages and slopes.",
-  "sources": [
-    "https://www.chatel.com/en",
-    "https://en.chatel.com/",
-    "https://en.chatelreservation.com/holidays-in-chatel-what-to-do-when-you-re-not-skiing.html"
-  ],
-  "non_ski_activities": {
-    "fantasticable": "Giant zip line \u2014 100 km/h, 140m high over Plaine-Dranse. Solo or tandem. Departure from Rochassons chairlift.",
-    "forme_do": "Aquatic centre \u2014 pool, water games, aquagym sessions. Multi Pass access available. Oc\u00e9ane spa for treatments.",
-    "ice_skating": "Outdoor ice skating rink",
-    "cheese": "Abondance AOP cheese \u2014 visit working farms, alpine fruiti\u00e8res, La Maison de l'Abondance (cheese museum). Berthoud cheese speciality.",
-    "multi_pass": "\u20ac4/day gives 70+ activities across 12 Portes du Soleil resorts",
-    "restaurants": "60+ restaurants. 2 Michelin recommended. Chez Cr\u00e9py (mountain), La Folie des Neiges, Le Comptoir, Le Bistro M, L'Empreinte, L'Edelweiss, La Poya. 28 traditional cooking, 24 Savoyard, 23 slope-side.",
-    "other": "Snowshoeing, paragliding, hot air balloon, escape game, cinema, bobsled run at Pr\u00e9-la-Joux, guided snowshoe trails, e-MTB on snow, treasure hunt, Abondance Abbey"
+  "statistics": {
+    "base_altitude": 1200
   },
-  "best_for": {
-    "intermediates": 9,
-    "families": 8,
-    "foodies": 8,
-    "authenticity": 9
+  "description": "Châtel is a real farming village on the French-Swiss border in the Portes du Soleil. Its own Espace Liberté ski area has 120 km of pistes across 3 sectors: Super-Châtel (beginner bowl), Linga (advanced, 800m vertical, snowpark), and Pré-la-Joux (link to Avoriaz). Also connected to the Swiss resorts of Morgins and Torgon. 56 lifts, 69 pistes. Gourmet destination with Abondance cheese from local farms. Fantasticable giant zip line (100 km/h, 140m high). Forme d'O aquatic centre. 60+ restaurants across the villages and slopes.",
+  "overview": {
+    "atmosphere": "Authentic Savoyard farming village in the Portes du Soleil. Working farms producing Abondance cheese. 3 ski sectors (Super-Châtel, Linga, Pré-la-Joux). Fantasticable zip line. Gourmet destination with 2 Michelin-recommended restaurants."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "ice_skating": "Outdoor ice skating rink",
+    "non_ski_activities": "Snowshoeing, paragliding, hot air balloon, escape game, cinema, bobsled run at Pré-la-Joux, guided snowshoe trails, e-MTB on snow, treasure hunt, Abondance Abbey"
   },
   "honest_drawbacks": [
-    "Spread across 11 hamlets \u2014 car/shuttle often needed",
-    "Lower altitude base (1,200m) \u2014 snow variable in valley",
+    "Spread across 11 hamlets — car/shuttle often needed",
+    "Lower altitude base (1,200m) — snow variable in valley",
     "Quieter apres than Morzine/Avoriaz"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.chatel.com/en",
+      "https://en.chatel.com/",
+      "https://en.chatelreservation.com/holidays-in-chatel-what-to-do-when-you-re-not-skiing.html"
+    ],
+    "best_for": {
+      "intermediates": 9,
+      "families": 8,
+      "foodies": 8,
+      "authenticity": 9
+    },
+    "honest_drawbacks": [
+      "Spread across 11 hamlets — car/shuttle often needed",
+      "Lower altitude base (1,200m) — snow variable in valley",
+      "Quieter apres than Morzine/Avoriaz"
+    ]
+  }
 }

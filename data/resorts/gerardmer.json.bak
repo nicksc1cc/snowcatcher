@@ -1,0 +1,30 @@
+{
+  "resort": "G\u00e9rardmer",
+  "slug": "gerardmer",
+  "domain": "G\u00e9rardmer",
+  "region": "Vosges",
+  "altitude": 660,
+  "character": "Vosges lake resort. Lac de G\u00e9rardmer freezes in winter for ice skating and curling. La Mauselaine ski area (20 runs). Belle \u00c9poque architecture. Family-friendly Vosges atmosphere. Night skiing.",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://vacances-la-bresse.fr/en/actualites/ski-la-bresse-hohneck-guide-complet"
+  ],
+  "stats": {
+    "altitude_resort": 660,
+    "altitude_top": 1150,
+    "pistes_km": 20,
+    "runs": 20
+  },
+  "non_ski_activities": {
+    "lake": "Lac de G\u00e9rardmer freezes in winter for skating, curling, ice sports. Lake promenade. Belle \u00c9poque architecture.",
+    "winter": "La Mauselaine ski area, cross-country skiing, ice skating, curling, snowshoeing.",
+    "summer": "Swimming in lake, hiking, mountain biking, water sports, beach.",
+    "other": "Night skiing, casino, cinema, weekly market, spa."
+  },
+  "best_for": {
+    "families": 8,
+    "beginners": 7,
+    "cross_country": 8,
+    "lake_activities": 9
+  }
+}

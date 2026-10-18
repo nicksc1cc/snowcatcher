@@ -1,61 +1,45 @@
 {
-  "resort": "Isola 2000",
+  "name": "Isola 2000",
   "slug": "isola-2000",
   "domain": "Isola 2000",
   "region": "Alpes-Maritimes",
-  "altitude": 2000,
-  "character": "One of the highest resorts in the southern Alps at 2,000m. Mercantour National Park neighbour. 120km pistes, 90 min from Nice. Created by a British Olympic skier in 1971. Tour de France stage finish (1993, 2024). Craft brewery on site.",
-  "research_status": "properly_sourced",
-  "description": "Isola 2000 was created in 1971 by British ex-army officer and Olympic skier Peter Boumphrey, who discovered the basin on a map. 120km of pistes, 43 runs (7 green, 21 blue, 11 red, 4 black), 22 lifts including 2 gondolas and 1 funicular. 75% snowmaking coverage. 2,610m summit, 1,840m base. Night skiing twice weekly during French holidays. 36 restaurants including Asian, creperie, pizza, mountain specialties \u2014 and a craft brewery (Brasserie du Kamous). 90 min from Nice C\u00f4te d'Azur Airport via regular 100% Neige express bus. Tour de France stage finishes in 1993 and 2024. French Alpine Ski Championships 2008.",
-  "sources": [
-    "https://en.wikipedia.org/wiki/Isola_2000",
-    "https://isola2000.com/wp-content/uploads/2025/12/guide-pratique-hiver-web.pdf",
-    "https://isola2000.com/wp-content/uploads/2026/06/guide-pratique-ete-2026-online-1.pdf"
-  ],
-  "stats": {
-    "altitude_resort": 2000,
-    "altitude_top": 2610,
+  "statistics": {
+    "base_altitude": 2000,
+    "top_altitude": 2610,
     "vertical_drop": 770,
-    "pistes_km": 120,
-    "skiable_km2": 20,
-    "runs": 43,
-    "green": 7,
-    "blue": 21,
-    "red": 11,
-    "black": 4,
-    "lifts": 22,
-    "gondolas": 2,
-    "chairlifts": 9,
-    "button": 10,
-    "funicular": 1,
-    "lift_capacity_pph": 20000,
-    "snowmaking_pct": 75,
-    "snow_cannons": 210,
-    "cross_country_km": 3,
-    "snowpark": true,
-    "night_skiing": "Twice weekly during French holidays"
+    "snow_cannons": 210
   },
-  "non_ski_activities": {
-    "restaurants": "36 total including: La Gu\u00e9rite (home cooking, pizzeria, Tel: 06 82 57 15 61), Dos Hermanos (bar-lounge, Tel: 04 93 02 48 36), Les Gavouats (restaurant, Tel: 04 93 23 17 47), L'Avalanche (mountain specialities, Tel: 09 83 73 27 13), Le Chalet Belv\u00e9d\u00e8re (grilled meat, homemade desserts, Tel: 04 93 23 91 32), Cow Club (mountain specialities, Tel: 04 93 23 12 01), L'ALP1 (Asian cuisine, Tel: 06 33 75 41 59), La Sarrazine (creperie), Le Petit Chamois (mountain gastronomy, Tel: 09 53 53 83 33), O'Sommet (pizzeria, open 7/7), The Rendez-Vous (brewery, beer bar, pizzas), Le Schuss (altitude restaurant at top of Pelevos gondola).",
-    "brewery": "Brasserie du Kamous \u2014 Isola craft beer. Discovery and tasting workshops. Tel: 06 11 52 11 01.",
-    "nightlife": "Le Crocodile Pub (nightclub, Tel: 04 93 23 18 80), Le Txupito (nightclub, Le Saint Pierre, Tel: 06 58 40 43 03).",
-    "activities": "Battle Archery Paintball, White Wolf sled dog kennel, beach volleyball, pumptrack, tennis, mini-golf, climbing wall, Parc Aventure Isoliane (adventure park), bike park, via ferrata, snowshoeing, cross-country skiing (3km).",
-    "mercantour": "Next to Mercantour National Park \u2014 exceptional biodiversity, guided wildlife walks, snowshoe trails.",
-    "tour_de_france": "Stage finish 1993 and 2024. French Alpine Ski Championships 2008.",
-    "access": "90 min from Nice C\u00f4te d'Azur Airport. 100% Neige express bus service in winter. Regular bus from Nice, \u20ac1.00 tickets for locals."
+  "description": "Isola 2000 was created in 1971 by British ex-army officer and Olympic skier Peter Boumphrey, who discovered the basin on a map. 120km of pistes, 43 runs (7 green, 21 blue, 11 red, 4 black), 22 lifts including 2 gondolas and 1 funicular. 75% snowmaking coverage. 2,610m summit, 1,840m base. Night skiing twice weekly during French holidays. 36 restaurants including Asian, creperie, pizza, mountain specialties — and a craft brewery (Brasserie du Kamous). 90 min from Nice Côte d'Azur Airport via regular 100% Neige express bus. Tour de France stage finishes in 1993 and 2024. French Alpine Ski Championships 2008.",
+  "overview": {
+    "atmosphere": "One of the highest resorts in the southern Alps at 2,000m. Mercantour National Park neighbour. 120km pistes, 90 min from Nice. Created by a British Olympic skier in 1971. Tour de France stage finish (1993, 2024). Craft brewery on site."
   },
-  "best_for": {
-    "families": 8,
-    "beginners": 8,
-    "intermediates": 8,
-    "sun_seekers": 9,
-    "value": 8
-  },
+  "research_status": "properly_sourced",
   "honest_drawbacks": [
-    "Purpose-built 1970s architecture \u2014 concrete main building considered ugly",
+    "Purpose-built 1970s architecture — concrete main building considered ugly",
     "Small compared to northern Alps giants (120km)",
     "Limited nightlife (a handful of bars/clubs)",
-    "Southern Alps \u2014 snow less reliable than Tarentaise despite 2,000m altitude",
+    "Southern Alps — snow less reliable than Tarentaise despite 2,000m altitude",
     "Tree line means limited tree-skiing at resort altitude"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://en.wikipedia.org/wiki/Isola_2000",
+      "https://isola2000.com/wp-content/uploads/2025/12/guide-pratique-hiver-web.pdf",
+      "https://isola2000.com/wp-content/uploads/2026/06/guide-pratique-ete-2026-online-1.pdf"
+    ],
+    "best_for": {
+      "families": 8,
+      "beginners": 8,
+      "intermediates": 8,
+      "sun_seekers": 9,
+      "value": 8
+    },
+    "honest_drawbacks": [
+      "Purpose-built 1970s architecture — concrete main building considered ugly",
+      "Small compared to northern Alps giants (120km)",
+      "Limited nightlife (a handful of bars/clubs)",
+      "Southern Alps — snow less reliable than Tarentaise despite 2,000m altitude",
+      "Tree line means limited tree-skiing at resort altitude"
+    ]
+  }
 }

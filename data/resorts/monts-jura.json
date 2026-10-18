@@ -1,23 +1,27 @@
 {
-  "resort": "Monts Jura",
+  "name": "Monts Jura",
   "slug": "monts-jura",
   "domain": "Monts Jura",
   "region": "Jura",
-  "altitude": 1000,
-  "character": "Jura mountain ski area with 36km downhill, 130km cross-country. 4 sites: Lelex, Mijoux, Lamoura, La Faucille. Cross-country paradise with rolling forested terrain. Family-friendly, peaceful, excellent value. Geneva 40 min.",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.paysdegex-montsjura.com/en/monts-jura-resort/getting-ready/ski-areas/"
-  ],
-  "non_ski_activities": {
-    "nordic": "130km cross-country trails \u2014 one of France's best Nordic areas. Forested rolling terrain.",
-    "downhill": "36km downhill runs, 4 sites, vertical drops up to 800m.",
-    "other": "Snowshoeing, sledging, winter hiking. 40 min from Geneva. Family-friendly atmosphere."
+  "statistics": {
+    "base_altitude": 1000
   },
-  "best_for": {
-    "cross_country": 10,
-    "families": 8,
-    "beginners": 8,
-    "value": 9
+  "overview": {
+    "atmosphere": "Jura mountain ski area with 36km downhill, 130km cross-country. 4 sites: Lelex, Mijoux, Lamoura, La Faucille. Cross-country paradise with rolling forested terrain. Family-friendly, peaceful, excellent value. Geneva 40 min."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, sledging, winter hiking. 40 min from Geneva. Family-friendly atmosphere."
+  },
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.paysdegex-montsjura.com/en/monts-jura-resort/getting-ready/ski-areas/"
+    ],
+    "best_for": {
+      "cross_country": 10,
+      "families": 8,
+      "beginners": 8,
+      "value": 9
+    }
   }
 }

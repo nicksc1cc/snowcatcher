@@ -1,0 +1,57 @@
+{
+  "resort": "Morzine",
+  "altitude": 1000,
+  "domain": "Portes du Soleil",
+  "region": "Mont Blanc/Chablais",
+  "character": "Authentic Haute-Savoie village, charming chalet architecture, lively and traditional. The heart of the French side of Portes du Soleil.",
+  "description": "Morzine is the most charming base village on the French side of Portes du Soleil. Traditional wooden chalets, a lively central square, genuine Haute-Savoie culture and traditions. Linked to Avoriaz via a cable car from its centre, giving access to the full 600km Portes du Soleil. Excellent year-round destination with mountain biking in summer. Balanced apres \u2014 lively but not wild. A real village, not a purpose-built resort.",
+  "stats": {
+    "altitude_resort": 1000,
+    "altitude_top": 2466,
+    "domain_pistes_km": 600,
+    "note": "Linked to Avoriaz via gondola from village centre"
+  },
+  "weather_snow": {
+    "season_typical": "Mid-Dec to late Apr",
+    "note": "Valley floor at 1,000m \u2014 snow can be variable at low altitude. Skiing is at altitude via Avoriaz link."
+  },
+  "non_ski_activities": {
+    "aquariaz": "5,000 m\u00b2 tropical water park in Avoriaz (20 min via Prodains gondola). 180m lazy river, 3 slides, tropical lagoon 32\u00b0C, kids zone, spa. \u20ac32 adult.",
+    "parc_der\u00eaches": "Morzine aquatic centre \u2014 Olympic pool (25m, 6 lanes), leisure pool with water jets/slides, kids wading, wellness area (3 saunas, 2 hammams, sensory showers, relaxation deck). \u20ac9 adult / \u20ac6 child.",
+    "spas": [
+      "Deep Nature Spa (massages, facials, hammam, sauna, from \u20ac80)",
+      "Le Dahu Spa (jacuzzi, relaxing massages, from \u20ac65)",
+      "Institut Beaut\u00e9 des Neiges (face/body, nails, from \u20ac50)",
+      "IVY Spa town centre (60-90min massage, \u20ac70-110)"
+    ],
+    "ski_joering": "Horse-pulled skiing above Super Morzine \u2014 book via Avoriaz Ski Jo\u00ebring",
+    "market": "Wednesday and Sunday mornings \u2014 local produce, crafts",
+    "other": "Indoor climbing, ice skating, cinema, bowling, Montriond Lake (summer swimming), farm visits, mini golf"
+  },
+  "best_for": {
+    "families": 9,
+    "groups": 9,
+    "apres": 8,
+    "traditionalists": 9
+  },
+  "honest_drawbacks": [
+    "Valley floor altitude (1,000m) \u2014 snow variable at base",
+    "Busy in peak weeks \u2014 crowded village streets",
+    "Cable car queue to Avoriaz can be long"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 75
+      }
+    ]
+  },
+  "slug": "morzine",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://morzinn.com/en/blog/morzine-pluie-activites",
+    "https://thefarmhouse.fr/13-activities-morzine-non-skiers",
+    "https://morzinn.com/en/blog/morzine-ete-activites"
+  ]
+}

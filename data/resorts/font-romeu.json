@@ -1,39 +1,43 @@
 {
-  "resort": "Font-Romeu",
+  "name": "Font-Romeu",
   "slug": "font-romeu",
   "domain": "Font-Romeu",
   "region": "Pyrenees",
-  "altitude": 1800,
-  "character": "One of the oldest ski resorts in France, oldest in the Pyrenees. World's largest solar furnace at Odeillo (3,500\u00b0C). National Altitude Training Centre for Olympic athletes. 300+ sunny days per year. Yellow Train historic railway. 3 villages: Font-Romeu, Odeillo, Via.",
+  "statistics": {
+    "base_altitude": 1800,
+    "top_altitude": 2500,
+    "own_pistes_km": 60
+  },
+  "description": "Font-Romeu-Odeillo-Via is one of the oldest ski resorts in France and the oldest in the Pyrenees, founded in the early 20th century. Its name comes from Catalan 'font of the pilgrim'. At 1,800m with 300+ days of sun per year, it's the sunniest resort in France. Home to the world's largest solar furnace at Odeillo (3,500°C, built 1970) and THEMIS solar research centre. The National Altitude Training Centre has hosted Olympic athletes from around the world (athletics, cycling, swimming, race walking). The Yellow Train (Train Jaune, built 1903-1910) is a historic narrow-gauge railway running from Villefranche-de-Conflent to Latour-de-Carol at 1,593m. Ski area of 60km linked with Bolquère. Catalan culture, cross-country skiing, hiking.",
+  "overview": {
+    "atmosphere": "One of the oldest ski resorts in France, oldest in the Pyrenees. World's largest solar furnace at Odeillo (3,500°C). National Altitude Training Centre for Olympic athletes. 300+ sunny days per year. Yellow Train historic railway. 3 villages: Font-Romeu, Odeillo, Via."
+  },
   "research_status": "properly_sourced",
-  "description": "Font-Romeu-Odeillo-Via is one of the oldest ski resorts in France and the oldest in the Pyrenees, founded in the early 20th century. Its name comes from Catalan 'font of the pilgrim'. At 1,800m with 300+ days of sun per year, it's the sunniest resort in France. Home to the world's largest solar furnace at Odeillo (3,500\u00b0C, built 1970) and THEMIS solar research centre. The National Altitude Training Centre has hosted Olympic athletes from around the world (athletics, cycling, swimming, race walking). The Yellow Train (Train Jaune, built 1903-1910) is a historic narrow-gauge railway running from Villefranche-de-Conflent to Latour-de-Carol at 1,593m. Ski area of 60km linked with Bolqu\u00e8re. Catalan culture, cross-country skiing, hiking.",
-  "sources": [
-    "https://en.wikipedia.org/wiki/Font-Romeu-Odeillo-Via",
-    "https://www.pyrenees-cerdagne.com/"
-  ],
-  "stats": {
-    "altitude_resort": 1800,
-    "altitude_top": 2500,
-    "own_pistes_km": 60,
-    "sunny_days": "300+"
-  },
-  "non_ski_activities": {
-    "solar_furnace": "World's largest solar furnace at Odeillo \u2014 3,500\u00b0C. Built 1970, 54 mirror heliostats, parabolic concentrator. Tours available. THEMIS solar research centre 3km away in Targasonne.",
-    "altitude_training": "National Altitude Training Centre (1,800m). Used by Olympic athletes: athletics, cycling, race walking, swimming. Altitude improves red blood cell production.",
-    "yellow_train": "Train Jaune \u2014 historic narrow-gauge railway (built 1903-1910). Villefranche-de-Conflent to Latour-de-Carol. Yellow cars, 1,593m altitude at its highest. Iconic Pyrenean tourist railway.",
-    "catalan_culture": "Catalan heritage \u2014 language, cuisine (bullinada, trinxat), culture. Close to Spanish border.",
-    "other": "Cross-country skiing (extensive Nordic area), snowshoeing, hiking, mountain biking, arboretum. Bolqu\u00e8re and Les Angles linked ski areas nearby."
-  },
-  "best_for": {
-    "families": 8,
-    "beginners": 8,
-    "cross_country": 9,
-    "sun_seekers": 10
+  "beyond_skiing": {
+    "non_ski_activities": "Cross-country skiing (extensive Nordic area), snowshoeing, hiking, mountain biking, arboretum. Bolquère and Les Angles linked ski areas nearby."
   },
   "honest_drawbacks": [
-    "Modest ski area (60km) \u2014 needs link pass for more",
+    "Modest ski area (60km) — needs link pass for more",
     "Quiet apres",
     "Pyrenean snow less reliable than Alps",
     "Limited advanced/expert terrain"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://en.wikipedia.org/wiki/Font-Romeu-Odeillo-Via",
+      "https://www.pyrenees-cerdagne.com/"
+    ],
+    "best_for": {
+      "families": 8,
+      "beginners": 8,
+      "cross_country": 9,
+      "sun_seekers": 10
+    },
+    "honest_drawbacks": [
+      "Modest ski area (60km) — needs link pass for more",
+      "Quiet apres",
+      "Pyrenean snow less reliable than Alps",
+      "Limited advanced/expert terrain"
+    ]
+  }
 }

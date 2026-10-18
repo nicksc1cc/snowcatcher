@@ -1,44 +1,67 @@
 {
-  "resort": "Val d'Is\u00e8re",
+  "name": "Val d'Isère",
   "slug": "val-disere",
   "domain": "Espace Killy",
   "region": "Tarentaise",
-  "altitude": 1850,
-  "character": "Olympic pedigree, X Games venue, legendary off-piste, 60+ restaurants, locally-spirited village, genuine mountain character at 1,850 m. 6m+ average seasonal snowfall.",
-  "research_status": "properly_sourced",
-  "description": "Val d'Is\u00e8re is one of the world's great ski resorts \u2014 a genuine mountain village with Olympic heritage and world-class off-piste. Linked with Tignes to form Espace Killy (300 km). The terrain splits across 3 sectors: Le Fornet (quiet, snow-sure glacier sector), Solaise (wide blues/reds, sun-trap), and Bellevarde (Olympic Face black run, X Games venue). Host of the 1992 Albertville Olympics, 2009 World Alpine Ski Championships, and annual X Games. 60+ restaurants. Average seasonal snowfall exceeds 6m due to a unique micro-climate. The village has genuine Savoyard character with a historic quarter around the 14th-century church.",
-  "sources": [
-    "Snow Magazine \u2014 Roger Fulton, updated 25 Nov 2025",
-    "https://yseski.co.uk/apres-ski-and-non-skiers",
-    "https://simplyvaldisere.com/bars-and-clubs.htm",
-    "https://thechaletedit.com/blog/non-ski-activities-in-val-d-isere",
-    "https://valdisere.com/en/envies/apres-ski"
-  ],
-  "stats": {
-    "altitude_resort": 1850,
-    "altitude_top": 3456,
+  "statistics": {
+    "base_altitude": 1850,
+    "top_altitude": 3456,
     "vertical_drop": 1906,
     "own_pistes_km": 150,
     "domain_pistes_km": 300,
-    "lifts": 55,
     "domain_lifts": 89,
+    "snow_cannons": 450,
     "beginner_pct": 15,
     "intermediate_pct": 40,
-    "advanced_pct": 44,
-    "snow_cannons": 450,
-    "glacier": "Glacier de Pissaillas (3,200 m) \u2014 summer skiing",
-    "snowparks": 2
+    "advanced_pct": 44
   },
-  "weather_snow": {
-    "season_typical": "Late Nov to early May",
-    "avg_snowfall_cm": "600+ per season",
-    "microclimate": "Unique local micro-climate delivers 6m+ most winters",
-    "snow_reliability_rating": "9/10",
-    "glacier": "Pissaillas glacier for summer skiing (May-Oct)"
+  "description": "Val d'Isère is one of the world's great ski resorts — a genuine mountain village with Olympic heritage and world-class off-piste. Linked with Tignes to form Espace Killy (300 km). The terrain splits across 3 sectors: Le Fornet (quiet, snow-sure glacier sector), Solaise (wide blues/reds, sun-trap), and Bellevarde (Olympic Face black run, X Games venue). Host of the 1992 Albertville Olympics, 2009 World Alpine Ski Championships, and annual X Games. 60+ restaurants. Average seasonal snowfall exceeds 6m due to a unique micro-climate. The village has genuine Savoyard character with a historic quarter around the 14th-century church.",
+  "overview": {
+    "atmosphere": "Olympic pedigree, X Games venue, legendary off-piste, 60+ restaurants, locally-spirited village, genuine mountain character at 1,850 m. 6m+ average seasonal snowfall."
+  },
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Late Nov to early May",
+    "snow_reliability_detail": "9/10"
+  },
+  "beyond_skiing": {
+    "ice_skating": "Outdoor ice rink, open daily 14:00-20:00",
+    "events_during_stay": "X Games (January) — world's top freestyle event. Annual Wait and Ski week. Classical recitals in the church."
+  },
+  "food_and_drink": {
+    "best_restaurants": [
+      "Gigi's (Tête de Solaise, expensive, wonderful views)",
+      "Le Refuge bar (Tête de Solaise, cheese/meat boards, desserts, fire)",
+      "L'Ouillette (Solaise, sun-terrace, glass of rosé)",
+      "L'Etincelle (village level, sunny terrace, DJ, wine selection)",
+      "Crozets (village)",
+      "L'Alpin (Manchet valley)",
+      "Les Equinoxes (village)"
+    ]
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva (GVA)",
+        "min": 180
+      },
+      {
+        "airport": "Lyon (LYS)",
+        "min": 210
+      },
+      {
+        "airport": "Chambéry (CMF)",
+        "min": 120
+      }
+    ],
+    "by_train": {
+      "station": "Bourg-St-Maurice (45 min shuttle)",
+      "tgv_from_paris": "4.5 hours"
+    }
   },
   "villages": [
     {
-      "name": "Val d'Is\u00e8re Centre",
+      "name": "Val d'Isère Centre",
       "alt": 1850,
       "character": "Genuine mountain village, historic quarter (14th-century church), cobbled streets, 60+ restaurants, lively apres, luxury boutiques and sports shops intermixed. A real year-round community.",
       "best_for": "Everyone, foodies, off-piste"
@@ -56,85 +79,59 @@
       "best_for": "Budget, off-piste access"
     }
   ],
-  "non_ski_activities": {
-    "apres_bars_specific": [
-      "**Petit Danois** \u2014 best live apres music. Famous 'Red Eric' cocktail. Restaurant section too.",
-      "**Cocorico** \u2014 apres bar & club, live music on huge outdoor terrace right on piste. Huge apres and late-night venue.",
-      "**IMA (formerly Dicks Tea Bar)** \u2014 most famous club in the Alps. Large dance floor, two bars, champagne. Open from 11pm.",
-      "**Le Hibou** \u2014 local's bar, live music, tapas.",
-      "**Blue Note** \u2014 chilled bar popular with seasonaires, jazz and funk, apres specials 3-6pm.",
-      "**Les Fils \u00e0 Maman (formerly Bananas)** \u2014 popular chalet staff hangout, terrace, DJ nights.",
-      "**Bar Alexandra** \u2014 best snooker and pool venue, top sound system.",
-      "**La Folie Douce** \u2014 slope-side terrace bar at La Daille, iconic afternoon apres, cabaret show and DJs."
-    ],
-    "spas": [
-      "Le Blizzard \u2014 luxury spa",
-      "Aquasportif centre \u2014 pool with lane swimming, rapids, bubble area, water sprays, aqua aerobics, squash, table tennis, badminton, toddler soft-play caf\u00e9"
-    ],
-    "ice_skating": "Outdoor ice rink, open daily 14:00-20:00",
-    "ice_karting": "Ice karting circuit at La Daille \u2014 go-karting on ice, piste-basher driving experiences, family racing",
-    "other_activities": "Dog sledding, paragliding (tandem), snowshoe walking with helicopter return, speed riding (skiing with kite), helicopter rides over Espace Killy or Mont Blanc, ice climbing at La Daille, ice diving in Tignes le Lac, snowmobiling, winter walking trails",
-    "events": "X Games (January) \u2014 world's top freestyle event. Annual Wait and Ski week. Classical recitals in the church."
-  },
-  "dining_guide": {
-    "stars": [
-      {
-        "name": "Atelier d'Edmond",
-        "chef": "Edmond Rostaing",
-        "stars": 1,
-        "cuisine": "Creative, Arctic and Pyrenean ingredients"
-      }
-    ],
-    "signature": [
-      "Gigi's (T\u00eate de Solaise, expensive, wonderful views)",
-      "Le Refuge bar (T\u00eate de Solaise, cheese/meat boards, desserts, fire)",
-      "L'Ouillette (Solaise, sun-terrace, glass of ros\u00e9)",
-      "L'Etincelle (village level, sunny terrace, DJ, wine selection)",
-      "Crozets (village)",
-      "L'Alpin (Manchet valley)",
-      "Les Equinoxes (village)"
-    ],
-    "apres_restaurants": [
-      "Le Peau de Vache / formerly La Tani\u00e8re (Bellevarde)",
-      "La Ros\u00e9e Blanche, La Daille (terrace lunches)"
-    ]
-  },
-  "best_for": {
-    "off_piste": 10,
-    "advanced": 10,
-    "intermediates": 8,
-    "beginners": 6,
-    "apres": 9,
-    "foodies": 9,
-    "luxury": 8,
-    "families": 6
-  },
   "honest_drawbacks": [
-    "Expensive \u2014 one of the priciest in the Alps",
+    "Expensive — one of the priciest in the Alps",
     "Can be crowded with powder hunters after a dump",
     "High winds close Solaise and Bellevarde summits (50+ days per season)",
     "La Daille has little character compared to Val centre",
     "Limited beginner terrain (only 15%)",
     "Long transfer from Geneva (3 hours)"
   ],
-  "access": {
-    "nearest_airports": [
+  "_preserved_unmapped": {
+    "sources": [
+      "Snow Magazine — Roger Fulton, updated 25 Nov 2025",
+      "https://yseski.co.uk/apres-ski-and-non-skiers",
+      "https://simplyvaldisere.com/bars-and-clubs.htm",
+      "https://thechaletedit.com/blog/non-ski-activities-in-val-d-isere",
+      "https://valdisere.com/en/envies/apres-ski"
+    ],
+    "villages": [
       {
-        "airport": "Geneva (GVA)",
-        "min": 180
+        "name": "Val d'Isère Centre",
+        "alt": 1850,
+        "character": "Genuine mountain village, historic quarter (14th-century church), cobbled streets, 60+ restaurants, lively apres, luxury boutiques and sports shops intermixed. A real year-round community.",
+        "best_for": "Everyone, foodies, off-piste"
       },
       {
-        "airport": "Lyon (LYS)",
-        "min": 210
+        "name": "Le Fornet",
+        "alt": 1900,
+        "character": "Quiet glacier-access hamlet at the head of the valley. Snow-sure, peaceful, few amenities. Base of the Pissaillas glacier cable car.",
+        "best_for": "Peace, snow reliability"
       },
       {
-        "airport": "Chamb\u00e9ry (CMF)",
-        "min": 120
+        "name": "La Daille",
+        "alt": 1800,
+        "character": "Compact purpose-built satellite, budget-friendly, direct Bellevarde access. Base of the Folie Douce.",
+        "best_for": "Budget, off-piste access"
       }
     ],
-    "by_train": {
-      "station": "Bourg-St-Maurice (45 min shuttle)",
-      "tgv_from_paris": "4.5 hours"
-    }
+    "best_for": {
+      "off_piste": 10,
+      "advanced": 10,
+      "intermediates": 8,
+      "beginners": 6,
+      "apres": 9,
+      "foodies": 9,
+      "luxury": 8,
+      "families": 6
+    },
+    "honest_drawbacks": [
+      "Expensive — one of the priciest in the Alps",
+      "Can be crowded with powder hunters after a dump",
+      "High winds close Solaise and Bellevarde summits (50+ days per season)",
+      "La Daille has little character compared to Val centre",
+      "Limited beginner terrain (only 15%)",
+      "Long transfer from Geneva (3 hours)"
+    ]
   }
 }

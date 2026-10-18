@@ -1,13 +1,11 @@
 {
-  "resort": "Megeve",
-  "altitude": 1113,
+  "name": "Megeve",
+  "slug": "megeve",
   "domain": "Evasion Mont Blanc",
   "region": "Mont Blanc",
-  "character": "The French Riviera of the Alps. Refined, historic, built by the Rothschilds in the 1920s. Elegant chalet architecture, Michelin-starred dining, luxury boutiques.",
-  "description": "Megeve was built in the 1920s as a winter playground for European aristocracy \u2014 the Rothschild family created it as an alternative to St Moritz. It has genuine old-town charm, cobbled streets, a central square with a 12th-century church, horse-drawn carriages, and some of the best dining in the Alps (including Flocons de Sel \u2014 3 Michelin stars). The skiing is across two mountain sectors (Rochebrune and Mont d'Arbois) linked with Saint-Gervais for 325km total. Golf course in summer.",
-  "stats": {
-    "altitude_resort": 1113,
-    "altitude_top": 2350,
+  "statistics": {
+    "base_altitude": 1113,
+    "top_altitude": 2350,
     "vertical_drop": 1237,
     "own_pistes_km": 160,
     "domain_pistes_km": 325,
@@ -15,10 +13,37 @@
     "intermediate_pct": 45,
     "advanced_pct": 25
   },
-  "weather_snow": {
-    "season_typical": "Mid-Dec to mid-Apr",
-    "snow_reliability_rating": "6/10 \u2014 low altitude base (1,113m)",
-    "note": "Golf course in summer. Lower altitude means spring skiing limited."
+  "description": "Megeve was built in the 1920s as a winter playground for European aristocracy — the Rothschild family created it as an alternative to St Moritz. It has genuine old-town charm, cobbled streets, a central square with a 12th-century church, horse-drawn carriages, and some of the best dining in the Alps (including Flocons de Sel — 3 Michelin stars). The skiing is across two mountain sectors (Rochebrune and Mont d'Arbois) linked with Saint-Gervais for 325km total. Golf course in summer.",
+  "overview": {
+    "atmosphere": "The French Riviera of the Alps. Refined, historic, built by the Rothschilds in the 1920s. Elegant chalet architecture, Michelin-starred dining, luxury boutiques."
+  },
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Mid-Dec to mid-Apr",
+    "snow_reliability_detail": "6/10 — low altitude base (1,113m)"
+  },
+  "beyond_skiing": {
+    "ice_skating": "Outdoor rink under the stars + Palais Megève 1,800 m² Olympic rink. Curling, eisstock, broom ball",
+    "non_ski_activities": "50+ non-ski activities listed by tourist office. Paragliding, snowshoeing, dog sledding, helicopter tours, swimming, climbing, cinema, market"
+  },
+  "food_and_drink": {
+    "best_restaurants": "Le Saint Germain (traditional French), Le Prieure (river terrace), Les Enfants Terribles (playful, good value)",
+    "michelin_starred": [
+      "Le Bistrot du M (bistro, well-priced)",
+      "La Table de l'Alpaga (refined)"
+    ]
+  },
+  "apres_and_nightlife": {
+    "nightlife_clubbing": "Le Xenius (lively), La Folie Douce Megeve (seasonal)",
+    "quiet_evenings": "Sophisticated, elegant, less rowdy than Val Thorens. Champagne crowd rather than beer crowd."
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 75
+      }
+    ]
   },
   "villages": [
     {
@@ -34,65 +59,45 @@
       "best_for": "Peace, snow"
     }
   ],
-  "non_ski_activities": {
-    "palais_megeve": "One of largest sports complexes in the Alps. Olympic-size ice rink, free skating, curling, climbing walls, indoor pool, wellness facilities, fitness centre",
-    "spas": [
-      "Les Fermes de Marie (indoor pool, hot tubs, bespoke massages)",
-      "Four Seasons Meg\u00e8ve spa (hammams, saunas, outdoor hot tubs)",
-      "Le Chalet Zannier (understated elegance, personalised care)",
-      "Palais Meg\u00e8ve wellness area"
-    ],
-    "ice_skating": "Outdoor rink under the stars + Palais Meg\u00e8ve 1,800 m\u00b2 Olympic rink. Curling, eisstock, broom ball",
-    "horse_drawn": "Horse-drawn carriage rides \u2014 a Meg\u00e8ve signature experience",
-    "shopping": "Cobbled streets (Rue Charles Feige), luxury boutiques (Dior, Louis Vuitton, Herm\u00e8s), patisseries, fromageries",
-    "dining": "Flocons de Sel \u2605\u2605\u2605 (Emmanuel Renaut), Vous (Jean Pastre, modern), La Table de l'Alpaga (\u2605), Brasserie Benjamin (seasonal), Le Prieur\u00e9 (traditional)",
-    "other": "50+ non-ski activities listed by tourist office. Paragliding, snowshoeing, dog sledding, helicopter tours, swimming, climbing, cinema, market"
-  },
-  "dining_guide": {
-    "stars_3": [
-      {
-        "name": "Flocons de Sel",
-        "chef": "Emmanuel Renault",
-        "cuisine": "Three Michelin Star, inventive alpine cuisine \u2014 one of the best restaurants in the Alps"
-      }
-    ],
-    "stars_1": [
-      "Le Bistrot du M (bistro, well-priced)",
-      "La Table de l'Alpaga (refined)"
-    ],
-    "signature": "Le Saint Germain (traditional French), Le Prieure (river terrace), Les Enfants Terribles (playful, good value)"
-  },
-  "apres_guide": {
-    "bars": "Le Xenius (lively), La Folie Douce Megeve (seasonal)",
-    "vibe": "Sophisticated, elegant, less rowdy than Val Thorens. Champagne crowd rather than beer crowd."
-  },
-  "best_for": {
-    "foodies": 10,
-    "luxury": 10,
-    "couples": 9,
-    "non_skiers": 9,
-    "families": 7,
-    "intermediates": 8
-  },
   "honest_drawbacks": [
-    "Low altitude (1,113m) \u2014 snow reliability is a concern early/late season",
-    "Expensive \u2014 one of the priciest resorts",
+    "Low altitude (1,113m) — snow reliability is a concern early/late season",
+    "Expensive — one of the priciest resorts",
     "Limited advanced/expert terrain",
     "Chic crowd can feel exclusive"
   ],
-  "access": {
-    "nearest_airports": [
+  "_preserved_unmapped": {
+    "villages": [
       {
-        "airport": "Geneva",
-        "min": 75
+        "name": "Megeve Centre",
+        "alt": 1113,
+        "character": "Historic old town, cobbled streets, 12th-century church, luxury boutiques, Michelin dining, horse-drawn carriages. The anti-purpose-built resort.",
+        "best_for": "Foodies, luxury, couples, non-skiers"
+      },
+      {
+        "name": "Le Mont d'Arbois",
+        "alt": 1350,
+        "character": "Higher satellite, quieter, closer to slopes",
+        "best_for": "Peace, snow"
       }
+    ],
+    "best_for": {
+      "foodies": 10,
+      "luxury": 10,
+      "couples": 9,
+      "non_skiers": 9,
+      "families": 7,
+      "intermediates": 8
+    },
+    "honest_drawbacks": [
+      "Low altitude (1,113m) — snow reliability is a concern early/late season",
+      "Expensive — one of the priciest resorts",
+      "Limited advanced/expert terrain",
+      "Chic crowd can feel exclusive"
+    ],
+    "sources": [
+      "https://www.megeve-tourisme.fr/en/en-hiver-sans-skier/",
+      "https://www.leotrippi.com/magazine/resort-guides/megeve-things-to-do-non-skiers/",
+      "https://guide.michelin.com/gb/en/auvergne-rhone-alpes/chamonix-mont-blanc/restaurants"
     ]
-  },
-  "slug": "megeve",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.megeve-tourisme.fr/en/en-hiver-sans-skier/",
-    "https://www.leotrippi.com/magazine/resort-guides/megeve-things-to-do-non-skiers/",
-    "https://guide.michelin.com/gb/en/auvergne-rhone-alpes/chamonix-mont-blanc/restaurants"
-  ]
+  }
 }

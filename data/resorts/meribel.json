@@ -1,177 +1,24 @@
 {
-  "resort": "M\u00e9ribel",
+  "name": "Méribel",
   "slug": "meribel",
-  "domain": "Les Trois Vall\u00e9es",
+  "domain": "Les Trois Vallées",
   "region": "Tarentaise",
-  "altitude": 1450,
-  "character": "The heart of the Three Valleys. Chalet-architecture, British favourite, excellent intermediates terrain, wooded setting.",
-  "description": "M\u00e9ribel is the central resort of the Three Valleys \u2014 literally and spiritually. It occupies the middle valley, giving it the fastest access to all three valleys (Courchevel, Belleville, and M\u00e9ribel itself). Founded by British army officer Peter Lindsay in 1938 and developed with a strict wood-clad, stone-tiled chalet-style architectural policy, it is one of the more attractive purpose-built resorts in the Alps. The wooded setting distinguishes it from the treeless high-altitude resorts. A perennial favourite with British skiers.",
-  "stats": {
-    "altitude_resort": 1450,
-    "altitude_base": 1100,
-    "altitude_top": 2950,
+  "statistics": {
+    "base_altitude": 1450,
+    "top_altitude": 2950,
     "vertical_drop": 1850,
     "own_pistes_km": 150,
     "domain_pistes_km": 600,
     "own_lifts": 61,
     "domain_lifts": 183,
-    "own_pistes": 77,
-    "green": 10,
-    "blue": 34,
-    "red": 24,
-    "black": 9,
+    "snow_cannons": 220,
     "beginner_pct": 45,
     "intermediate_pct": 43,
-    "advanced_pct": 12,
-    "cross_country_km": 33,
-    "snowparks": 2,
-    "snow_cannons": 220
+    "advanced_pct": 12
   },
-  "weather_snow": {
-    "season_typical": "Mid-December to late April",
-    "average_snow_depth_mid_season": "2m (200cm)",
-    "snow_reliability_rating": "8/10",
-    "snow_reliability_note": "Lower altitude base (1,450m) means snow can be thin in early December and late April. But the ski area extends to 2,950m with reliable snow above 2,000m. M\u00e9ribel's wooded setting holds snow well.",
-    "typical_temperature_range": "-2\u00b0C to -12\u00b0C (mid-winter)",
-    "sun_exposure": "Good south-east aspect. Wooded slopes hold snow and provide shelter.",
-    "best_time_for_snow": "January to March",
-    "best_time_for_sun": "March to April",
-    "weakness": "Lower altitude base means valley snow can be variable at season edges"
-  },
-  "villages": [
-    {
-      "name": "M\u00e9ribel Centre",
-      "altitude": 1450,
-      "character": "The main resort. Best restaurants and bars, Olympic Park sports complex, lively apres, central lift access. Wooded chalet-style architecture is the most attractive in the Three Valleys.",
-      "best_for": "Groups, skiers, families, apres",
-      "vibe": "Lively, chalet-style, British-friendly",
-      "ski_in_ski_out": true,
-      "dining": "Le Resto (Hotel Savoy, meat/fish cuisine), La Cave des Creux (piste-side), Le C\u00e8pe (refined), Le Kintessence"
-    },
-    {
-      "name": "M\u00e9ribel Mottaret",
-      "altitude": 1700,
-      "character": "Higher satellite village. Quieter, ski-in/ski-out, closer to Val Thorens link. Good for intermediate skiers who want quick access to the Belleville valley.",
-      "best_for": "Intermediate skiers, couples, peace seekers",
-      "vibe": "Quieter, sports-oriented, higher altitude",
-      "ski_in_ski_out": true
-    },
-    {
-      "name": "M\u00e9ribel Village",
-      "altitude": 1400,
-      "character": "Traditional hamlet, peaceful, lower prices. Wooded setting, authentic charm. A quieter base for accessing the M\u00e9ribel valley.",
-      "best_for": "Families, budget, peace seekers",
-      "vibe": "Traditional, quiet, residential",
-      "ski_in_ski_out": true
-    },
-    {
-      "name": "Les Allues",
-      "altitude": 1100,
-      "character": "Original farming village at valley floor. Lower altitude, cheaper accommodation, shuttle required to reach main lifts.",
-      "best_for": "Budget, large groups, traditionalists",
-      "vibe": "Authentic, quiet, local",
-      "ski_in_ski_out": false,
-      "note": "Shuttle bus to M\u00e9ribel Centre lifts (10 min)"
-    }
-  ],
-  "non_ski_activities": {
-    "olympic_park": "Parc Olympique \u2014 central sports complex with: 25m swimming pool (indoor, waterslides, aqua aerobics), ice skating rink (outdoor, evening sessions), fitness centre, 14m climbing wall, bowling (6 lanes with child barriers), spa/wellness area (2 saunas, 2 steam rooms, jacuzzi, relaxation room)",
-    "spas": [
-      "Le Kaila Nuxe Spa (Mottaret) \u2014 Nuxe products, ski-in/ski-out, 6 treatment rooms, double suites for couples",
-      "Adray T\u00e9l\u00e9bar Spa \u2014 sauna, hammam, bespoke massages (residents only)",
-      "Spa des Neiges by Clarins (Hotel Allodis) \u2014 facials, massages, makeup"
-    ],
-    "cinema": "The Auditorium (310 seats, Dolby surround) + Cinema Le Mottaret",
-    "swimming": "25m indoor pool at Olympic Park with paddling pool and flume",
-    "ice_skating": "Outdoor ice rink at Olympic Park, open daily winter and summer",
-    "bowling": "Bowling de M\u00e9ribel \u2014 6 lanes, safety barriers for children 3+, bar area, open daily",
-    "climbing": "14m indoor climbing wall at Olympic Park",
-    "paragliding": "Tandem paragliding flights from Saulire and surrounding peaks",
-    "dog_sledding": "Multiple providers \u2014 half-day and full-day husky excursions",
-    "snowshoeing": "Marked trails including Plan des Mains walking paths above Mottaret",
-    "biathlon": "ESF Introduction to Biathlon \u2014 try ski-shooting with laser rifles",
-    "tubing": "Snowtubing zone \u2014 inflatable ring sliding, afternoon/evening sessions",
-    "horse_drawn": "Horse-drawn sleigh rides through forest trails",
-    "events": "Weekly events calendar: live music, farmer's market, wellness classes"
-  },
-  "dining_guide": {
-    "stars_1": [
-      {
-        "name": "L'Ekrin by Laurent Azoulay",
-        "cuisine": "Provence meets Savoie, seasonal tasting menus",
-        "setting": "Intimate, chef's table option"
-      }
-    ],
-    "signature": [
-      "Le Resto (Hotel Savoy) \u2014 elegant, meat and fish, fireplace, convivial tables",
-      "La Cave des Creux \u2014 piste-side, run by locals Boris and Florian Glise, Mont Blanc views from terrace",
-      "Le C\u00e8pe \u2014 popular, refined, charming setting, reservations essential",
-      "Le Kintessence \u2014 modern French, tasting menus",
-      "Cookie's Club \u2014 ski-in/ski-out, international dishes, sunny terrace, apres"
-    ]
-  },
-  "piste_guide": {
-    "beginners": "Dedicated beginner zones at M\u00e9ribel Centre and Mottaret. Green runs from the Olympic Park area.",
-    "intermediates": "Exceptional \u2014 43% blue, 24% red. Platti\u00e8res to Tougn\u00e8te area is paradise for cruisers. Long red runs from top of Saulire. Best intermediates terrain in the Three Valleys.",
-    "advanced": "Limited blacks locally (9). Best advanced runs are off-piste or accessed via Courchevel/Val Thorens sectors.",
-    "off_piste": "Excellent off-piste from Mont Vallon, Tougn\u00e8te, and Saulire sectors. Powder fields above M\u00e9ribel Valley. Guide recommended (Bureau des Guides).",
-    "snowparks": "2 parks \u2014 Le Park and Moon Park. Le Park is one of the better parks in the Three Valleys.",
-    "crowding": "Central location means all Three Valleys traffic passes through \u2014 the main lift areas can get busy. Courchevel link especially busy.",
-    "cross_country": "33km of cross-country trails \u2014 good network through wooded valley"
-  },
-  "apres_guide": {
-    "bars": "Le Rond Point (piste-side), La Cavorite (cocktail bar), Les Enfants Terribles, Le Jack's Bar",
-    "clubs": "Le Dick's Bar (iconic apres pub, live music), Le Loft (nightclub)",
-    "vibe": "Lively but not as extreme as Val Thorens. British-heavy crowd. Pub atmosphere.",
-    "slope_side": "La Folie Douce M\u00e9ribel (afternoon music), Le Rond Point (piste base)"
-  },
-  "comparison": {
-    "vs_courchevel": "Less expensive, less flashy, less luxury shopping, better chalet architecture, more wooded",
-    "vs_val_thorens": "More charm, less snow-sure, less apres intensity, better for intermediates, tree-lined runs"
-  },
-  "honest_drawbacks": [
-    "Lower altitude base (1,450m) \u2014 snow can be thin at season edges",
-    "Central location means all Three Valleys traffic passes through \u2014 busy lift stations",
-    "Spread over 10km of valley \u2014 shuttle often required between villages",
-    "British-heavy crowd may feel less 'French' than Courchevel",
-    "Limited advanced terrain locally",
-    "Apres is good but doesn't match Val Thorens intensity",
-    "Can feel congested during school holidays"
-  ],
-  "access": {
-    "nearest_airports": [
-      {
-        "airport": "Chamb\u00e9ry",
-        "code": "CMF",
-        "transfer_min": 80,
-        "distance_km": 100
-      },
-      {
-        "airport": "Geneva",
-        "code": "GVA",
-        "transfer_min": 140,
-        "distance_km": 170
-      },
-      {
-        "airport": "Lyon",
-        "code": "LYS",
-        "transfer_min": 170,
-        "distance_km": 200
-      }
-    ],
-    "by_train": {
-      "station": "Mo\u00fbtiers (20km)",
-      "tgv_from_paris": "4 hours",
-      "shuttle": "Frequent buses from Mo\u00fbtiers to M\u00e9ribel (30 min)"
-    }
-  },
-  "practical_info": {
-    "tourist_office": "https://www.meribel.net/en/",
-    "lift_pass_6day_2025_26": 390,
-    "ski_school": "ESF M\u00e9ribel + multiple independent schools",
-    "ski_rental": "Dozens of shops \u2014 from \u20ac18/day (basic) to premium",
-    "supermarket": "Supermarket in M\u00e9ribel Centre + smaller shops in each village",
-    "parking": "Multiple underground car parks in M\u00e9ribel Centre (paid). Free parking at resort edges."
+  "description": "Méribel is the central resort of the Three Valleys — literally and spiritually. It occupies the middle valley, giving it the fastest access to all three valleys (Courchevel, Belleville, and Méribel itself). Founded by British army officer Peter Lindsay in 1938 and developed with a strict wood-clad, stone-tiled chalet-style architectural policy, it is one of the more attractive purpose-built resorts in the Alps. The wooded setting distinguishes it from the treeless high-altitude resorts. A perennial favourite with British skiers.",
+  "overview": {
+    "atmosphere": "The heart of the Three Valleys. Chalet-architecture, British favourite, excellent intermediates terrain, wooded setting."
   },
   "research_sources": [
     {
@@ -192,7 +39,7 @@
     },
     {
       "url": "https://www.meribel.net/en/indoor-activities/olympic-park",
-      "type": "official \u2014 Olympic Park",
+      "type": "official — Olympic Park",
       "retrieved": "2026-10-14"
     },
     {
@@ -201,5 +48,188 @@
       "retrieved": "2026-10-14"
     }
   ],
-  "research_status": "properly_sourced"
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Mid-December to late April",
+    "snow_reliability_detail": "8/10",
+    "snow_reliability_note": "Lower altitude base (1,450m) means snow can be thin in early December and late April. But the ski area extends to 2,950m with reliable snow above 2,000m. Méribel's wooded setting holds snow well.",
+    "best_time_to_ski": "January to March",
+    "how_cold_gets": "-2°C to -12°C (mid-winter)",
+    "north_facing_slopes": "Good south-east aspect. Wooded slopes hold snow and provide shelter.",
+    "high_wind_lift_closures": "Lower altitude base means valley snow can be variable at season edges",
+    "average_snow_depth_mid_season": "2m (200cm)",
+    "best_time_for_sun": "March to April"
+  },
+  "beyond_skiing": {
+    "swimming_pool_or_spa": "25m indoor pool at Olympic Park with paddling pool and flume",
+    "ice_skating": "Outdoor ice rink at Olympic Park, open daily winter and summer",
+    "paragliding": "Tandem paragliding flights from Saulire and surrounding peaks",
+    "dog_sledding": "Multiple providers — half-day and full-day husky excursions",
+    "snowshoeing": "Marked trails including Plan des Mains walking paths above Mottaret",
+    "non_ski_activities": "Bowling de Méribel — 6 lanes, safety barriers for children 3+, bar area, open daily. The Auditorium (310 seats, Dolby surround) + Cinema Le Mottaret",
+    "events_during_stay": "Weekly events calendar: live music, farmer's market, wellness classes"
+  },
+  "food_and_drink": {
+    "best_restaurants": [
+      "Le Resto (Hotel Savoy) — elegant, meat and fish, fireplace, convivial tables",
+      "La Cave des Creux — piste-side, run by locals Boris and Florian Glise, Mont Blanc views from terrace",
+      "Le Cèpe — popular, refined, charming setting, reservations essential",
+      "Le Kintessence — modern French, tasting menus",
+      "Cookie's Club — ski-in/ski-out, international dishes, sunny terrace, apres"
+    ],
+    "michelin_starred": [
+      {
+        "name": "L'Ekrin by Laurent Azoulay",
+        "cuisine": "Provence meets Savoie, seasonal tasting menus",
+        "setting": "Intimate, chef's table option"
+      }
+    ]
+  },
+  "ski_area": {
+    "beginners_note": "Dedicated beginner zones at Méribel Centre and Mottaret. Green runs from the Olympic Park area.",
+    "intermediates_note": "Exceptional — 43% blue, 24% red. Plattières to Tougnète area is paradise for cruisers. Long red runs from top of Saulire. Best intermediates terrain in the Three Valleys.",
+    "advanced_note": "Limited blacks locally (9). Best advanced runs are off-piste or accessed via Courchevel/Val Thorens sectors.",
+    "lift_queues": "Central location means all Three Valleys traffic passes through — the main lift areas can get busy. Courchevel link especially busy."
+  },
+  "off_piste": {
+    "off_piste_detail": "Excellent off-piste from Mont Vallon, Tougnète, and Saulire sectors. Powder fields above Méribel Valley. Guide recommended (Bureau des Guides)."
+  },
+  "apres_and_nightlife": {
+    "nightlife_clubbing": "Le Rond Point (piste-side), La Cavorite (cocktail bar), Les Enfants Terribles, Le Jack's Bar. Le Dick's Bar (iconic apres pub, live music), Le Loft (nightclub)",
+    "quiet_evenings": "Lively but not as extreme as Val Thorens. British-heavy crowd. Pub atmosphere."
+  },
+  "comparisons": {
+    "comparison_within_domain": "Less expensive, less flashy, less luxury shopping, better chalet architecture, more wooded"
+  },
+  "services": {
+    "tourist_office_url": "https://www.meribel.net/en/",
+    "ski_school": "ESF Méribel + multiple independent schools",
+    "ski_hire_info": "Dozens of shops — from €18/day (basic) to premium",
+    "supermarket_notes": "Supermarket in Méribel Centre + smaller shops in each village"
+  },
+  "pricing": {
+    "lift_pass_6day_euro": 390
+  },
+  "getting_around": {
+    "parking_cost": "Multiple underground car parks in Méribel Centre (paid). Free parking at resort edges."
+  },
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Chambéry",
+        "code": "CMF",
+        "transfer_min": 80,
+        "distance_km": 100
+      },
+      {
+        "airport": "Geneva",
+        "code": "GVA",
+        "transfer_min": 140,
+        "distance_km": 170
+      },
+      {
+        "airport": "Lyon",
+        "code": "LYS",
+        "transfer_min": 170,
+        "distance_km": 200
+      }
+    ],
+    "by_train": {
+      "station": "Moûtiers (20km)",
+      "tgv_from_paris": "4 hours",
+      "shuttle": "Frequent buses from Moûtiers to Méribel (30 min)"
+    }
+  },
+  "villages": [
+    {
+      "name": "Méribel Centre",
+      "altitude": 1450,
+      "character": "The main resort. Best restaurants and bars, Olympic Park sports complex, lively apres, central lift access. Wooded chalet-style architecture is the most attractive in the Three Valleys.",
+      "best_for": "Groups, skiers, families, apres",
+      "vibe": "Lively, chalet-style, British-friendly",
+      "ski_in_ski_out": true,
+      "dining": "Le Resto (Hotel Savoy, meat/fish cuisine), La Cave des Creux (piste-side), Le Cèpe (refined), Le Kintessence"
+    },
+    {
+      "name": "Méribel Mottaret",
+      "altitude": 1700,
+      "character": "Higher satellite village. Quieter, ski-in/ski-out, closer to Val Thorens link. Good for intermediate skiers who want quick access to the Belleville valley.",
+      "best_for": "Intermediate skiers, couples, peace seekers",
+      "vibe": "Quieter, sports-oriented, higher altitude",
+      "ski_in_ski_out": true
+    },
+    {
+      "name": "Méribel Village",
+      "altitude": 1400,
+      "character": "Traditional hamlet, peaceful, lower prices. Wooded setting, authentic charm. A quieter base for accessing the Méribel valley.",
+      "best_for": "Families, budget, peace seekers",
+      "vibe": "Traditional, quiet, residential",
+      "ski_in_ski_out": true
+    },
+    {
+      "name": "Les Allues",
+      "altitude": 1100,
+      "character": "Original farming village at valley floor. Lower altitude, cheaper accommodation, shuttle required to reach main lifts.",
+      "best_for": "Budget, large groups, traditionalists",
+      "vibe": "Authentic, quiet, local",
+      "ski_in_ski_out": false,
+      "note": "Shuttle bus to Méribel Centre lifts (10 min)"
+    }
+  ],
+  "honest_drawbacks": [
+    "Lower altitude base (1,450m) — snow can be thin at season edges",
+    "Central location means all Three Valleys traffic passes through — busy lift stations",
+    "Spread over 10km of valley — shuttle often required between villages",
+    "British-heavy crowd may feel less 'French' than Courchevel",
+    "Limited advanced terrain locally",
+    "Apres is good but doesn't match Val Thorens intensity",
+    "Can feel congested during school holidays"
+  ],
+  "_preserved_unmapped": {
+    "villages": [
+      {
+        "name": "Méribel Centre",
+        "altitude": 1450,
+        "character": "The main resort. Best restaurants and bars, Olympic Park sports complex, lively apres, central lift access. Wooded chalet-style architecture is the most attractive in the Three Valleys.",
+        "best_for": "Groups, skiers, families, apres",
+        "vibe": "Lively, chalet-style, British-friendly",
+        "ski_in_ski_out": true,
+        "dining": "Le Resto (Hotel Savoy, meat/fish cuisine), La Cave des Creux (piste-side), Le Cèpe (refined), Le Kintessence"
+      },
+      {
+        "name": "Méribel Mottaret",
+        "altitude": 1700,
+        "character": "Higher satellite village. Quieter, ski-in/ski-out, closer to Val Thorens link. Good for intermediate skiers who want quick access to the Belleville valley.",
+        "best_for": "Intermediate skiers, couples, peace seekers",
+        "vibe": "Quieter, sports-oriented, higher altitude",
+        "ski_in_ski_out": true
+      },
+      {
+        "name": "Méribel Village",
+        "altitude": 1400,
+        "character": "Traditional hamlet, peaceful, lower prices. Wooded setting, authentic charm. A quieter base for accessing the Méribel valley.",
+        "best_for": "Families, budget, peace seekers",
+        "vibe": "Traditional, quiet, residential",
+        "ski_in_ski_out": true
+      },
+      {
+        "name": "Les Allues",
+        "altitude": 1100,
+        "character": "Original farming village at valley floor. Lower altitude, cheaper accommodation, shuttle required to reach main lifts.",
+        "best_for": "Budget, large groups, traditionalists",
+        "vibe": "Authentic, quiet, local",
+        "ski_in_ski_out": false,
+        "note": "Shuttle bus to Méribel Centre lifts (10 min)"
+      }
+    ],
+    "honest_drawbacks": [
+      "Lower altitude base (1,450m) — snow can be thin at season edges",
+      "Central location means all Three Valleys traffic passes through — busy lift stations",
+      "Spread over 10km of valley — shuttle often required between villages",
+      "British-heavy crowd may feel less 'French' than Courchevel",
+      "Limited advanced terrain locally",
+      "Apres is good but doesn't match Val Thorens intensity",
+      "Can feel congested during school holidays"
+    ]
+  }
 }

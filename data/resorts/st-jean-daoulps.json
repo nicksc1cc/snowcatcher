@@ -1,38 +1,43 @@
 {
-  "resort": "Saint-Jean-d'Aulps",
+  "name": "Saint-Jean-d'Aulps",
   "slug": "st-jean-daoulps",
   "domain": "Portes du Soleil",
   "region": "Mont Blanc / Chablais",
-  "altitude": 970,
-  "character": "Traditional village in the Aulps valley. Roc d'Enfer ski area (50km, 31 runs) in a wild setting at the foot of the majestic Roc d'Enfer. 11th-century Cistercian abbey. Linked by shuttle to the full Portes du Soleil. Peaceful, authentic, unspoilt.",
-  "research_status": "properly_sourced",
-  "description": "Saint-Jean-d'Aulps sits in the Vall\u00e9e d'Aulps at the foot of the Roc d'Enfer. Its own Roc d'Enfer ski area offers 50km of runs (31 slopes, 970-1,800m) in a wild, natural setting with forest runs, the Combe de Graydon cirque, and views of the Dents du Midi, Mont Blanc, and Lake Geneva. The 11th-century Abbey of Aulps (Cistercian) and the Vall\u00e9e d'Aulps Discovery Centre (in the former monastic farmhouse) provide cultural depth. A shuttle bus links to the full 600km Portes du Soleil. Quiet, convivial, unspoilt.",
-  "sources": [
-    "https://en.portesdusoleil.com/les-portes-du-soleil/the-resorts/saint-jean-daulps/"
-  ],
-  "stats": {
-    "altitude_resort": 970,
-    "altitude_top": 1800,
+  "statistics": {
+    "base_altitude": 970,
+    "top_altitude": 1800,
     "own_pistes_km": 50,
-    "own_runs": 31,
-    "domain_pistes_km": 600,
-    "link": "Shuttle bus to Portes du Soleil"
+    "domain_pistes_km": 600
   },
-  "non_ski_activities": {
-    "abbey": "11th-century Cistercian Abbey of Aulps \u2014 major heritage site. Vall\u00e9e d'Aulps Discovery Centre in former monastic farmhouse.",
-    "roc_denfer": "Roc d'Enfer ski area \u2014 50km, 31 runs, wild and natural setting. Forest runs, cirque de Graydon. Views of Dents du Midi, Mont Blanc, Lake Geneva.",
-    "other": "Snowshoeing, dog sledding, walking trails, heritage discovery. Peaceful, family-friendly atmosphere."
+  "description": "Saint-Jean-d'Aulps sits in the Vallée d'Aulps at the foot of the Roc d'Enfer. Its own Roc d'Enfer ski area offers 50km of runs (31 slopes, 970-1,800m) in a wild, natural setting with forest runs, the Combe de Graydon cirque, and views of the Dents du Midi, Mont Blanc, and Lake Geneva. The 11th-century Abbey of Aulps (Cistercian) and the Vallée d'Aulps Discovery Centre (in the former monastic farmhouse) provide cultural depth. A shuttle bus links to the full 600km Portes du Soleil. Quiet, convivial, unspoilt.",
+  "overview": {
+    "atmosphere": "Traditional village in the Aulps valley. Roc d'Enfer ski area (50km, 31 runs) in a wild setting at the foot of the majestic Roc d'Enfer. 11th-century Cistercian abbey. Linked by shuttle to the full Portes du Soleil. Peaceful, authentic, unspoilt."
   },
-  "best_for": {
-    "peace": 10,
-    "authenticity": 10,
-    "families": 7,
-    "nature": 9
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Snowshoeing, dog sledding, walking trails, heritage discovery. Peaceful, family-friendly atmosphere."
   },
   "honest_drawbacks": [
-    "Very quiet \u2014 limited apres",
-    "Small local ski area (50km) \u2014 shuttle needed for full PDS",
-    "Lower altitude \u2014 snow variable at valley level",
+    "Very quiet — limited apres",
+    "Small local ski area (50km) — shuttle needed for full PDS",
+    "Lower altitude — snow variable at valley level",
     "Limited dining/activities compared to larger resorts"
-  ]
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://en.portesdusoleil.com/les-portes-du-soleil/the-resorts/saint-jean-daulps/"
+    ],
+    "best_for": {
+      "peace": 10,
+      "authenticity": 10,
+      "families": 7,
+      "nature": 9
+    },
+    "honest_drawbacks": [
+      "Very quiet — limited apres",
+      "Small local ski area (50km) — shuttle needed for full PDS",
+      "Lower altitude — snow variable at valley level",
+      "Limited dining/activities compared to larger resorts"
+    ]
+  }
 }

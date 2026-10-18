@@ -1,0 +1,36 @@
+{
+  "resort": "Orelle",
+  "slug": "orelle",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Maurienne",
+  "altitude": 1800,
+  "character": "Quiet gateway village from the Maurienne valley. Cheapest access to Les 3 Vall\u00e9es (600 km). Direct gondola to Val Thorens at 3,200m. Free parking, no queues.",
+  "research_status": "properly_sourced",
+  "description": "Orelle sits in the Maurienne valley on the south side of the mountains \u2014 the 'fourth valley' access to Les 3 Vall\u00e9es. The 3 Vall\u00e9es Express gondola reaches Val Thorens in 13 minutes (new cable car in 2021). 85% of slopes above 1,800m. 3 peaks over 3,000m: Pointe du Bouchet (3,230m), Cime Caron (3,195m), Col de Rosa\u00ebl (3,000m). Free parking at gondola base. HOB Orelle (new 2024) \u2014 hotel, dormitories, restaurant. 740 covered parking spaces (2025). Direct shuttle from Saint-Michel-de-Maurienne station. Originally a mining village \u2014 transformed into a ski resort in 1996 with the 3 Vall\u00e9es Express gondola.",
+  "sources": [
+    "https://www.orelle.net/?_locale=en",
+    "https://orelle.net/village/histoire",
+    "https://www.valthorens.com/en/domaine-ski-vtt/val-thorens-orelle/"
+  ],
+  "non_ski_activities": {
+    "hob_orelle": "HOB Orelle (opened Nov 2024) \u2014 modern hybrid hotel/dorm/restaurant near gondola. Concept for solo travellers to families.",
+    "tyrolienne": "Orelle zip line \u2014 first in the world at this altitude (2014). Crosses the valley.",
+    "sunset_gondola": "Sunset rides in the gondola to 3,200m. Chill at Cime Caron summit.",
+    "snake_gliss": "Snow tubing on dedicated track",
+    "ski_touring": "La Trace du Loup \u2014 intermediate touring route, 650m ascent.",
+    "culture": "Mining heritage, baroque churches, farms. Visits to Turin, Italy (nearby).",
+    "other": "Snowshoeing, heritage walks, Chapelle Notre Dame des Anges, barrage de Bissorte"
+  },
+  "best_for": {
+    "budget": 10,
+    "advanced": 8,
+    "peace": 9,
+    "snow": 9
+  },
+  "honest_drawbacks": [
+    "Very quiet \u2014 limited restaurants and apres",
+    "Remote from other 3V resorts",
+    "Requires gondola to access main ski area",
+    "Limited shopping/dining in village"
+  ]
+}

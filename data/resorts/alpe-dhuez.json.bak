@@ -1,0 +1,91 @@
+{
+  "resort": "Alpe d'Huez",
+  "altitude": 1860,
+  "domain": "Grand Domaine",
+  "region": "Oisans",
+  "character": "Legendary 16km Sarenne black run, historic Tour de France stage, family-friendly, 2 ski areas (Alpe d'Huez + Vaujany/Oz/Auris). Biggest resort in the Oisans.",
+  "description": "Alpe d'Huez is the Oisans valley's flagship resort. Known for: the Sarenne (16km black run, longest in Europe), the 21-hairpin Tour de France road, and its 250km linked domain including Vaujany, Oz-en-Oisans, and Auris. The resort itself is purpose-built at 1,860m on a sun-exposed plateau. Two sectors: Pic Blanc (3,330m \u2014 glacier, Sarenne, off-piste) and Les Grandes Rousses (2,700m, wooded intermediate terrain). Family-friendly with excellent beginner zones.",
+  "stats": {
+    "altitude_resort": 1860,
+    "altitude_top": 3330,
+    "vertical_drop": 1470,
+    "own_pistes_km": 250,
+    "lifts": 84,
+    "domain_pistes_km": 250,
+    "green": 22,
+    "blue": 41,
+    "red": 30,
+    "black": 7,
+    "beginner_pct": 22,
+    "intermediate_pct": 50,
+    "advanced_pct": 28,
+    "snow_cannons": 270,
+    "glacier": "Pic Blanc glacier (3,330m) for spring/summer skiing",
+    "longest_run_km": 16
+  },
+  "weather_snow": {
+    "season_typical": "Early Dec to early May",
+    "snow_reliability_rating": "8/10",
+    "glacier": "Pic Blanc glacier extends season",
+    "sun_exposure": "South/south-west facing \u2014 excellent sun. Known as 'Ile au Soleil' (Island of Sun)."
+  },
+  "villages": [
+    {
+      "name": "Alpe d'Huez",
+      "alt": 1860,
+      "character": "Main resort, purpose-built but with alpine character, sun terrace restaurants, lively apres",
+      "best_for": "Everyone, families, apres"
+    },
+    {
+      "name": "L'Alpe du Grand Serre",
+      "alt": 1860,
+      "character": "Smaller hamlet, quieter, ski-in/ski-out",
+      "best_for": "Peace"
+    },
+    {
+      "name": "ZAC des Travers",
+      "alt": 1860,
+      "character": "Residential area, quieter",
+      "best_for": "Families"
+    }
+  ],
+  "non_ski_activities": {
+    "grandes_rousses_spa": "Grandes Rousses Hotel & Spa \u2014 77 rooms, 18 suites, 3 on-site restaurants, 2 wellness areas, direct lift access. La Ferme d'Hubert restaurant (sustainable gastronomy, short supply chain, Alpine ingredients).",
+    "ice_laser_game": "Unique ice laser game on snow \u2014 age 7+, team battles in the snow",
+    "la_folie_douce": "La Folie Douce \u2014 La Fruiti\u00e8re at 2,300 m, family-style cuisine, local produce, south-facing terrace, Oisans views. Skiers and pedestrians welcome.",
+    "dining": "Au Chamois d'Or (Michelin Guide, Chef Ga\u00ebl Bogourou, bistronomic Alpine cuisine, ski-in terrace). O'Baroudeur (gourmet canteen, homemade, vegan options, foot of slopes). Solar Coffee Shop (speciality coffee, brunch, juice bar)."
+  },
+  "dining_guide": {
+    "signature": [
+      "Le Passe-Montagne (piste-side at 3,300m, spectacular views)",
+      "La Cime des Neiges (gastronomic, mountain view terrace)",
+      "L'Authentique (traditional, good value)",
+      "L'Igloo (panoramic, family-friendly)"
+    ]
+  },
+  "piste_guide": {
+    "signature_run": "Sarenne \u2014 16km black run from Pic Blanc (3,330m) to valley floor at 1,500m. Longest black run in Europe. Ends at Le Freney d'Oisans (shuttle back).",
+    "off_piste": "Grandes Rousses and Pic Blanc off-piste. Guide recommended (Bureau des Guides de l'Oisans).",
+    "beginners": "Dedicated beginner zones at Alpe d'Huez and Bergers area."
+  },
+  "best_for": {
+    "intermediates": 9,
+    "families": 9,
+    "advanced": 8,
+    "apres": 8,
+    "sun": 9
+  },
+  "honest_drawbacks": [
+    "Resort architecture is 1960s/70s \u2014 functional but not charming",
+    "Sarenne run requires shuttle back \u2014 30 min bus ride",
+    "Crowded during school holidays",
+    "Long transfer from Grenoble (1h30 \u2014 mountain road)"
+  ],
+  "slug": "alpe-dhuez",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://emeraldstay.com/blog/french-alps-itinerary-first-edition",
+    "https://alpedhuez.com/en/winter/types-apidae/restauration-types-apidae/ephemere",
+    "https://petit-montagnard.fr/en/alpe-dhuez-ski-resort-ski-passes-activities-winter-guide-2025"
+  ]
+}

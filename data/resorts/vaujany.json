@@ -1,56 +1,22 @@
 {
-  "resort": "Vaujany",
+  "name": "Vaujany",
   "slug": "vaujany",
   "domain": "Grand Domaine",
   "region": "Oisans",
-  "altitude": 1250,
-  "character": "Quiet traditional village made wealthy by hydroelectric royalties. Surprising infrastructure \u2014 international ice rink, 25m pool, bowling. Linked to Alpe d'Huez Grand Domaine (250km) via gondola. Famille Plus certified. EMV museum with flight simulator.",
-  "research_status": "properly_sourced",
-  "description": "Vaujany is a traditional Oisans village at 1,250m with facilities far grander than its size suggests. Royalties from a major hydroelectric scheme funded an outsized gondola to Alpe d'Huez (built 1980s), a top-tier sports centre (Espace Loisirs), international ice rink used by French teams, 25m pool with slide, bowling alley, and spa. The EMV (Espace Musee de Vaujany) is an immersive multimedia museum with a flight simulator. Famille Plus certified with state-of-the-art nursery. Linked to the full 250km Grand Domaine including the Sarenne (16km black run). Quiet, calm, excellent value.",
-  "sources": [
-    "https://vaujanyskichalets.com/en/770905/vaujany1",
-    "https://skiresortsforkings.com/villages/france/vaujany",
-    "https://skierandsnowboarder.com/ski-like-a-local-in-vaujany"
-  ],
-  "stats": {
-    "altitude_resort": 1250,
-    "altitude_top": 3330,
-    "domain_pistes_km": 250,
+  "statistics": {
+    "base_altitude": 1250,
+    "top_altitude": 3330,
     "own_pistes_km": 70,
-    "own_runs_green": 7,
-    "blue": 11,
-    "red": 9,
-    "black": 3,
-    "lifts": "Gondola to Alpe d'Huez + local",
-    "hydroelectric": "Funded by Grand Maison hydro scheme"
+    "domain_pistes_km": 250
   },
-  "non_ski_activities": {
-    "espace_loisirs": "25m pool with slide and waterfall, paddling pool for toddlers. Tel: +33 (0)4 76 79 83 83.",
-    "ice_rink": "International indoor ice rink used by French national teams. Public skating sessions. Ice hockey matches.",
-    "bowling": "4-lane bowling alley next to leisure centre. Open daily mid-afternoon to late. Tel: +33 (0)4 76 11 11 92.",
-    "wellness": "Steam room, sauna, massage treatments at the leisure centre.",
-    "emv_museum": "Espace Musee de Vaujany \u2014 immersive multimedia museum. Interactive exhibits on local history, snowmaking, mushing. Pro flight simulator where you can 'fly over Vaujany'. Family-friendly.",
-    "restaurants": [
-      "Table de la Fare (French, near lift station)",
-      "Chalet Gourmand (traditional, homemade French, pizzas)",
-      "Shred' Burger (ski boot fitting + bar + homemade burgers)",
-      "Le Stou (above ice rink, traditional French, views of La Fare waterfall and black run)",
-      "Ida (fine dining, warm modern atmosphere)"
-    ],
-    "other": "Snowshoeing, guided walks, paragliding, mountain biking (summer). Quiet apres \u2014 couple of welcoming bars."
+  "description": "Vaujany is a traditional Oisans village at 1,250m with facilities far grander than its size suggests. Royalties from a major hydroelectric scheme funded an outsized gondola to Alpe d'Huez (built 1980s), a top-tier sports centre (Espace Loisirs), international ice rink used by French teams, 25m pool with slide, bowling alley, and spa. The EMV (Espace Musee de Vaujany) is an immersive multimedia museum with a flight simulator. Famille Plus certified with state-of-the-art nursery. Linked to the full 250km Grand Domaine including the Sarenne (16km black run). Quiet, calm, excellent value.",
+  "overview": {
+    "atmosphere": "Quiet traditional village made wealthy by hydroelectric royalties. Surprising infrastructure — international ice rink, 25m pool, bowling. Linked to Alpe d'Huez Grand Domaine (250km) via gondola. Famille Plus certified. EMV museum with flight simulator."
   },
-  "best_for": {
-    "families": 9,
-    "value": 10,
-    "peace": 10,
-    "intermediates": 8
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "4-lane bowling alley next to leisure centre. Open daily mid-afternoon to late. Tel: +33 (0)4 76 11 11 92.. Snowshoeing, guided walks, paragliding, mountain biking (summer). Quiet apres — couple of welcoming bars."
   },
-  "honest_drawbacks": [
-    "Very quiet evenings \u2014 limited nightlife",
-    "Requires gondola to reach main ski area (not ski-in/ski-out)",
-    "Limited dining choice (good but few options)",
-    "Small village \u2014 limited shopping"
-  ],
   "access": {
     "nearest_airports": [
       {
@@ -61,6 +27,31 @@
         "airport": "Lyon (LYS)",
         "min": 150
       }
+    ]
+  },
+  "honest_drawbacks": [
+    "Very quiet evenings — limited nightlife",
+    "Requires gondola to reach main ski area (not ski-in/ski-out)",
+    "Limited dining choice (good but few options)",
+    "Small village — limited shopping"
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://vaujanyskichalets.com/en/770905/vaujany1",
+      "https://skiresortsforkings.com/villages/france/vaujany",
+      "https://skierandsnowboarder.com/ski-like-a-local-in-vaujany"
+    ],
+    "best_for": {
+      "families": 9,
+      "value": 10,
+      "peace": 10,
+      "intermediates": 8
+    },
+    "honest_drawbacks": [
+      "Very quiet evenings — limited nightlife",
+      "Requires gondola to reach main ski area (not ski-in/ski-out)",
+      "Limited dining choice (good but few options)",
+      "Small village — limited shopping"
     ]
   }
 }

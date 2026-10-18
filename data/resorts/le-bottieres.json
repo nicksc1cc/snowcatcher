@@ -1,21 +1,24 @@
 {
-  "resort": "Le Botti\u00e8res",
+  "name": "Le Bottières",
   "slug": "le-bottieres",
   "domain": "Les Sybelles",
   "region": "Maurienne",
-  "altitude": 1450,
-  "character": "Authentic hamlet, very quiet, traditional, access to Les Sybelles",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.sybelles.ski/en/"
-  ],
-  "non_ski_activities": {
-    "domain_wide": "310km, 6 resorts. Activities across all: snowshoeing, paragliding, dog sledding, snowmobiling, snakegliss, swimming pools, spas, saunas, massage. Savoyard dining (raclette, fondue, tartiflette). Local produce shops. Guided snowmobile tours from La Toussuire, Le Corbier, St-Sorlin."
+  "statistics": {
+    "base_altitude": 1450
   },
-  "best_for": {
-    "families": 8,
-    "intermediates": 8,
-    "budget": 9,
-    "peace": 8
+  "overview": {
+    "atmosphere": "Authentic hamlet, very quiet, traditional, access to Les Sybelles"
+  },
+  "research_status": "properly_sourced",
+  "_preserved_unmapped": {
+    "sources": [
+      "https://www.sybelles.ski/en/"
+    ],
+    "best_for": {
+      "families": 8,
+      "intermediates": 8,
+      "budget": 9,
+      "peace": 8
+    }
   }
 }

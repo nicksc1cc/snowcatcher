@@ -1,59 +1,27 @@
 {
-  "resort": "La Clusaz",
-  "altitude": 1100,
+  "name": "La Clusaz",
+  "slug": "la-clusaz",
   "domain": "La Clusaz",
   "region": "Aravis",
-  "character": "Authentic Haute-Savoie village, traditional charm, excellent food scene, good intermediate terrain.",
-  "description": "La Clusaz is a beautiful traditional Haute-Savoie village with real alpine character \u2014 wooden chalets, a central church, narrow streets, and some of the best mountain restaurants in the north Alps. One of the prettiest purpose-grown resorts. The ski area is 130km across 4 mountain sectors (Les Confins, Cr\u00eat du Merle, Etale, Combe des Juments). Known for: traditional food, lively apres, authentic village atmosphere.",
-  "stats": {
-    "altitude_resort": 1100,
-    "altitude_top": 2600,
+  "statistics": {
+    "base_altitude": 1100,
+    "top_altitude": 2600,
     "vertical_drop": 1500,
-    "own_pistes_km": 130,
-    "lifts": 38,
-    "green": 18,
-    "blue": 42,
-    "red": 28,
-    "black": 12
+    "own_pistes_km": 130
   },
-  "weather_snow": {
-    "season_typical": "Mid-Dec to mid-Apr",
-    "snow_reliability_rating": "7/10"
+  "description": "La Clusaz is a beautiful traditional Haute-Savoie village with real alpine character — wooden chalets, a central church, narrow streets, and some of the best mountain restaurants in the north Alps. One of the prettiest purpose-grown resorts. The ski area is 130km across 4 mountain sectors (Les Confins, Crêt du Merle, Etale, Combe des Juments). Known for: traditional food, lively apres, authentic village atmosphere.",
+  "overview": {
+    "atmosphere": "Authentic Haute-Savoie village, traditional charm, excellent food scene, good intermediate terrain."
   },
-  "villages": [
-    {
-      "name": "La Clusaz centre",
-      "alt": 1100,
-      "character": "Beautiful traditional village with central square, church, and excellent restaurants and shops"
-    }
-  ],
-  "non_ski_activities": {
-    "ice_skating": "1,000 m\u00b2 covered outdoor rink in village heart. Skate rental from size 24. DJ nights (Thursday 8-10pm), broom ball, family sessions. \u20ac6.50 adult / \u20ac5 child.",
-    "bars": [
-      "Le Lion d'Or",
-      "Brasserie Centrale",
-      "Le Grenier",
-      "Le Bachal",
-      "Les Caves du Paccaly",
-      "Le Bal",
-      "La Scierie",
-      "La Grolle"
-    ],
-    "spas": "Bar St-Alban H\u00f4tel & Spa",
-    "dining_note": "Renowned mountain restaurants across 4 sectors \u2014 Les Confins, Cr\u00eat du Merle, Etale, Combe des Juments. Traditional Haute-Savoie cuisine.",
-    "other": "Cinema, swimming, snowshoeing, paragliding from Etale. Famous for excellent food scene."
+  "research_status": "properly_sourced",
+  "when_to_go": {
+    "season_open": "Mid-Dec to mid-Apr",
+    "snow_reliability_detail": "7/10"
   },
-  "best_for": {
-    "foodies": 9,
-    "intermediates": 8,
-    "authenticity": 9,
-    "apres": 8
+  "beyond_skiing": {
+    "ice_skating": "1,000 m² covered outdoor rink in village heart. Skate rental from size 24. DJ nights (Thursday 8-10pm), broom ball, family sessions. €6.50 adult / €5 child.",
+    "non_ski_activities": "Cinema, swimming, snowshoeing, paragliding from Etale. Famous for excellent food scene."
   },
-  "honest_drawbacks": [
-    "Lower altitude \u2014 snow variable at season edges",
-    "Crowded at weekends (Geneva proximity)",
-    "Parking can be difficult"
-  ],
   "access": {
     "nearest_airports": [
       {
@@ -62,10 +30,40 @@
       }
     ]
   },
-  "slug": "la-clusaz",
-  "research_status": "properly_sourced",
-  "sources": [
-    "https://www.laclusaz.com/en/the-resort/shops-and-services/bars-and-pubs",
-    "https://www.laclusaz.com/en/details/skating-rink"
-  ]
+  "villages": [
+    {
+      "name": "La Clusaz centre",
+      "alt": 1100,
+      "character": "Beautiful traditional village with central square, church, and excellent restaurants and shops"
+    }
+  ],
+  "honest_drawbacks": [
+    "Lower altitude — snow variable at season edges",
+    "Crowded at weekends (Geneva proximity)",
+    "Parking can be difficult"
+  ],
+  "_preserved_unmapped": {
+    "villages": [
+      {
+        "name": "La Clusaz centre",
+        "alt": 1100,
+        "character": "Beautiful traditional village with central square, church, and excellent restaurants and shops"
+      }
+    ],
+    "best_for": {
+      "foodies": 9,
+      "intermediates": 8,
+      "authenticity": 9,
+      "apres": 8
+    },
+    "honest_drawbacks": [
+      "Lower altitude — snow variable at season edges",
+      "Crowded at weekends (Geneva proximity)",
+      "Parking can be difficult"
+    ],
+    "sources": [
+      "https://www.laclusaz.com/en/the-resort/shops-and-services/bars-and-pubs",
+      "https://www.laclusaz.com/en/details/skating-rink"
+    ]
+  }
 }

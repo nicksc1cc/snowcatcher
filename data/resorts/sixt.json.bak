@@ -1,0 +1,27 @@
+{
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "slug": "sixt",
+  "domain": "Grand Massif",
+  "region": "Haute-Savoie",
+  "altitude": 765,
+  "character": "Classified 'Plus Beaux Villages de France'. 24 hamlets. 12th-century abbey. Cirque du Fer-\u00e0-Cheval \u2014 one of France's Grand Sites Naturels. Part of Grand Massif (265km). Peaceful, authentic, unspoilt gateway.",
+  "research_status": "properly_sourced",
+  "description": "Sixt-Fer-\u00e0-Cheval is classified as one of the 'Plus Beaux Villages de France', with 24 traditional hamlets spread across a pristine valley. The 12th-century abbey anchors the village. The Cirque du Fer-\u00e0-Cheval is a massive natural amphitheatre with waterfalls \u2014 one of France's Grand Sites Naturels. Part of the Grand Massif (265km, linked to Flaine, Samo\u00ebns, Les Carroz, Morillon). The quietest and most traditional base in the Grand Massif. 44 basins and fountains, 53 oratories, 9 chapelles dot the hamlets.",
+  "sources": [
+    "https://www.tourisme-haute-savoie.com/les-plus-beaux-villages/sixt-fer-a-cheval/",
+    "https://fr.wikipedia.org/wiki/Sixt-Fer-%C3%A0-Cheval"
+  ],
+  "non_ski_activities": {
+    "cirque": "Cirque du Fer-\u00e0-Cheval \u2014 one of France's Grand Sites Naturels. Massive natural amphitheatre ringed by waterfalls. Spectacular snowshoeing and winter walking.",
+    "abbey": "12th-century abbey. Heritage site.",
+    "hamlets": "24 traditional hamlets \u2014 Le Mont, Salvagny, Les Curtets, Passy, La Chapelle, etc. 44 basins/fountains, 53 oratories, 9 chapelles.",
+    "classification": "Plus Beaux Villages de France",
+    "other": "Snowshoeing, cross-country skiing (Haut-Giffre area), dog sledding, Grand Massif access"
+  },
+  "best_for": {
+    "peace": 10,
+    "nature": 10,
+    "authenticity": 10,
+    "cross_country": 9
+  }
+}

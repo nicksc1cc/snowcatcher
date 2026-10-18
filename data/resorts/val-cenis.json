@@ -1,37 +1,42 @@
 {
-  "resort": "Val Cenis",
+  "name": "Val Cenis",
   "slug": "val-cenis",
   "domain": "Val Cenis",
   "region": "Maurienne",
-  "altitude": 1400,
-  "character": "Authentic Haute Maurienne villages (Lanslebourg, Lanslevillard, Termignon) sharing 125km of sunny, uncrowded pistes. Europe's longest green run (L'Escargot, 10km). Best value in the Maurienne. Electric snow groomer \u2014 first in France.",
-  "research_status": "properly_sourced",
-  "description": "Val Cenis links the traditional villages of Lanslebourg, Lanslevillard, and Termignon in the Haute Maurienne valley. 125km of pistes rising to 2,800m. The signature run is L'Escargot \u2014 one of the longest green runs in Europe at 10km. First French resort to invest in an electric snow groomer (local hydroelectric power). First resort with 96% undeveloped land. 6-day pass gives 1 free day in 5 neighbouring resorts (350km total). 200km of cross-country. 4.5 million litres of milk produced locally for Beaufort cheese.",
-  "sources": [
-    "https://snowcarbon.co.uk/ski-resorts/val-cenis/restaurants-apres-ski-nightlife",
-    "https://skiresortsforkings.com/villages/france/val-cenis",
-    "https://www.valcenis.com/en/val-cenis-grand-ski-de-decembre-a-avril/"
-  ],
-  "non_ski_activities": {
-    "aqua_centre": "Piscine du Parc des Gli\u00e8res (Lanslevillard) \u2014 swimming pool, jacuzzi, wellbeing centre, ice skating rink. \u20ac4.60 adult.",
-    "spa": "\u00d4 des Cimes - Altitude SPA (R\u00e9sidence CGH les Chalets de Flambeau) \u2014 beauty treatments, massages, saunas, Turkish baths.",
-    "bowling": "Le 1480 \u2014 6 bowling lanes, bar lounge, games room, sports TV, restaurant, free WiFi. Open 9:30am-1am.",
-    "cinema": "Single-screen cinemas in both Lanslevillard and Lanslebourg. Open every night except Saturday.",
-    "electric_groomer": "First French resort with an electric snow groomer \u2014 powered by local hydroelectric dam.",
-    "restaurants": "Lanslebourg: La Vanoise (Savoyard), C2 Bar-restaurant, La Vieille Poste (gastronomic/Savoyard). Lanslevillard: Howard's Pub (homemade burgers), Le Bois du Cerf (wood-fired pizza). Mountain: Chalet La F\u00e9ma, Le Refuge, Le Relais du Col du Mont Cenis (classic roadside hotel-restaurant, traditional dishes), Chalet La Ran\u00f4va (homemade, ~\u20ac15 plat du jour), L'Arole (Termignon, self-serve).",
-    "multi_resort": "6-day Val Cenis pass gives 1 free day in each: Valfr\u00e9jus, La Norma, Aussois, Bonneval sur Arc. Total 350km downhill + 200km Nordic.",
-    "other": "Snowshoeing, ski touring, heritage walks, electric mountain biking, Nordic skiing (200km), Vanoise National Park"
+  "statistics": {
+    "base_altitude": 1400
   },
-  "best_for": {
-    "families": 10,
-    "beginners": 10,
-    "value": 10,
-    "peace": 9
+  "description": "Val Cenis links the traditional villages of Lanslebourg, Lanslevillard, and Termignon in the Haute Maurienne valley. 125km of pistes rising to 2,800m. The signature run is L'Escargot — one of the longest green runs in Europe at 10km. First French resort to invest in an electric snow groomer (local hydroelectric power). First resort with 96% undeveloped land. 6-day pass gives 1 free day in 5 neighbouring resorts (350km total). 200km of cross-country. 4.5 million litres of milk produced locally for Beaufort cheese.",
+  "overview": {
+    "atmosphere": "Authentic Haute Maurienne villages (Lanslebourg, Lanslevillard, Termignon) sharing 125km of sunny, uncrowded pistes. Europe's longest green run (L'Escargot, 10km). Best value in the Maurienne. Electric snow groomer — first in France."
+  },
+  "research_status": "properly_sourced",
+  "beyond_skiing": {
+    "non_ski_activities": "Le 1480 — 6 bowling lanes, bar lounge, games room, sports TV, restaurant, free WiFi. Open 9:30am-1am.. Single-screen cinemas in both Lanslevillard and Lanslebourg. Open every night except Saturday.. Snowshoeing, ski touring, heritage walks, electric mountain biking, Nordic skiing (200km), Vanoise National Park"
   },
   "honest_drawbacks": [
-    "Very quiet apres \u2014 settles down early",
+    "Very quiet apres — settles down early",
     "Limited advanced/expert terrain",
-    "Remote \u2014 long transfer from airports",
-    "Traditional villages \u2014 not ski-in/ski-out luxury"
-  ]
+    "Remote — long transfer from airports",
+    "Traditional villages — not ski-in/ski-out luxury"
+  ],
+  "_preserved_unmapped": {
+    "sources": [
+      "https://snowcarbon.co.uk/ski-resorts/val-cenis/restaurants-apres-ski-nightlife",
+      "https://skiresortsforkings.com/villages/france/val-cenis",
+      "https://www.valcenis.com/en/val-cenis-grand-ski-de-decembre-a-avril/"
+    ],
+    "best_for": {
+      "families": 10,
+      "beginners": 10,
+      "value": 10,
+      "peace": 9
+    },
+    "honest_drawbacks": [
+      "Very quiet apres — settles down early",
+      "Limited advanced/expert terrain",
+      "Remote — long transfer from airports",
+      "Traditional villages — not ski-in/ski-out luxury"
+    ]
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "resort": "La Mongie",
+  "slug": "la-mongie",
+  "domain": "Grand Tourmalet",
+  "region": "Pyrenees",
+  "altitude": 1800,
+  "character": "Eastern gateway to Grand Tourmalet \u2014 largest ski domain in the French Pyrenees (100km). Purpose-built resort at 1,800m with direct piste access. Pic du Midi cable car (2,877m) with panoramic terrace, planetarium, and glass walkway over 1,000m void.",
+  "research_status": "properly_sourced",
+  "description": "La Mongie is the modern, purpose-built eastern base of the Grand Tourmalet (shared with Bar\u00e8ges). 100km of pistes (54 runs: 12 green, 23 blue, 15 red, 4 black), 30 lifts including 3 cable cars. The Pic du Midi cable car (15min) takes you to 2,877m for a 360\u00b0 panorama of the Pyrenees, a museum, planetarium, and the Pontoon in the Sky \u2014 a 12m glass walkway over a 1,000m drop. La Grenouill\u00e8re square is the lively centre. Ice tyrolienne zip line over frozen waterfalls. Snowmobile tours on the Col du Tourmalet at sunset. Ice climbing on the Pic du Midi north face. 6 altitude restaurants. 2 balneotherapy centres. Livelier atmosphere and better snow record than Bar\u00e8ges.",
+  "sources": [
+    "https://en.tourisme-hautes-pyrenees.com/snow/places-to-stay-and-destinations-for-the-winter-holidays/grand-tourmalet-ski-resort/",
+    "https://neige.hautes-pyrenees.fr/uploads/2024/12/Guide-pratique-mongie-2025-.pdf"
+  ],
+  "stats": {
+    "altitude_resort": 1800,
+    "altitude_top": 2877,
+    "pistes_km": 100,
+    "runs": 54,
+    "green": 12,
+    "blue": 23,
+    "red": 15,
+    "black": 4,
+    "lifts": 30,
+    "cable_cars": 3,
+    "chairlifts": 15
+  },
+  "non_ski_activities": {
+    "pic_du_midi": "15min cable car to 2,877m. 360\u00b0 Pyrenean panorama. Museum and planetarium. Pontoon in the Sky \u2014 12m glass walkway over 1,000m void. Highest restaurant in the Pyrenees (Le 2877).",
+    "ice_tyrolienne": "Zip line over frozen waterfalls. Unique Pyrenean experience.",
+    "snowmobiling": "Guided tours on the Col du Tourmalet at sunset.",
+    "ice_climbing": "Ice waterfall on Pic du Midi north face. Guided by mountain guides. 1,000m of emptiness beneath.",
+    "balneotherapy": "2 balneotherapy/wellness centres in the resort.",
+    "lively_centre": "Place de la Grenouill\u00e8re \u2014 snow front with bars, restaurants, shops.",
+    "other": "Dog sledding, snowshoeing, paragliding, 6 altitude restaurants, free resort shuttle, shuttle to Bagn\u00e8res-de-Bigorre."
+  },
+  "best_for": {
+    "intermediates": 9,
+    "families": 8,
+    "beginners": 8,
+    "advanced": 7
+  },
+  "honest_drawbacks": [
+    "Purpose-built architecture \u2014 less charm than Bar\u00e8ges",
+    "Can feel crowded at peak times",
+    "Limited non-ski activities compared to larger Alps resorts",
+    "Weather-dependent \u2014 high winds close Pic du Midi cable car"
+  ]
+}
