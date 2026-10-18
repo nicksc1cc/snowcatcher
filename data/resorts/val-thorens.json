@@ -1,123 +1,255 @@
 {
-  "resort": "Val Thorens",
+  "name": "Val Thorens",
   "slug": "val-thorens",
   "domain": "Les Trois Vall\u00e9es",
   "region": "Tarentaise",
-  "altitude": 2300,
-  "character": "Europe's highest ski resort. Snow-sure, lively, purpose-built \u2014 99% of slopes above 2,000m, six glaciers, long season from late November to early May.",
   "description": "Val Thorens is the highest ski resort in Europe at 2,300m. It sits in a huge sun-trap cirque crowned with six glaciers at the head of the Belleville Valley. 99% of its slopes are above 2,000m, making it one of the most snow-reliable resorts in the Alps. The architecture is purpose-built but the skiing is world-class \u2014 direct access to the 600km Les Trois Vall\u00e9es domain, lively apres (La Folie Douce, Malaysia Club, 40+ bars), and genuine ski-in/ski-out convenience.",
-  "stats": {
-    "altitude_resort": 2300,
-    "altitude_base": 1850,
-    "altitude_top": 3230,
-    "vertical_drop": 1380,
+
+  "research_status": "properly_sourced",
+  "source_url": "https://www.snowmagazine.com/ski-resort-guide/france/val-thorens-ski-resort",
+  "research_sources": [
+    {"url": "https://www.snowmagazine.com/ski-resort-guide/france/val-thorens-ski-resort", "type": "review", "author": "Roger Fulton", "retrieved": "2026-10-14"},
+    {"url": "https://www.j2ski.com/ski_resorts/France/Val_Thorens.html", "type": "guide", "retrieved": "2026-10-14"},
+    {"url": "https://valthorensguide.com/history.html", "type": "guide", "retrieved": "2026-10-17"},
+    {"url": "https://www.les3vallees.com/en/", "type": "official", "retrieved": "2026-10-14"}
+  ],
+
+  "statistics": {
+    "base_altitude": 2300,
+    "top_altitude": 3230,
+    "vertical_drop": 930,
     "own_pistes_km": 150,
     "domain_pistes_km": 600,
-    "own_pistes_count": 78,
-    "domain_pistes_count": 336,
+    "own_pistes": 78,
+    "domain_pistes": 336,
     "own_lifts": 29,
     "domain_lifts": 183,
+    "green_count": 11,
+    "blue_count": 58,
+    "red_count": 8,
+    "black_count": 1,
+    "glacier_skiing": true,
+    "snow_reliability": "10/10 \u2014 99% of terrain above 2,000m, six glaciers, snow from late November to early May",
+    "snowmaking_coverage_pct": 80,
     "lift_capacity_per_hour": 53000,
     "snow_cannons": 395,
-    "snowmaking_km": 100,
-    "beginner_pct": 14,
-    "intermediate_pct": 74,
-    "advanced_pct": 12,
     "pct_above_2000m": 99,
-    "glaciers": 6,
     "longest_run_km": 12,
     "most_difficult_run": "Caron \u2014 3km black"
   },
-  "weather_snow": {
-    "season_typical": "Late November to early May",
-    "season_earliest": "Mid-November (glacier dependent)",
-    "season_latest": "Mid-May",
-    "average_snow_depth_mid_season": "2m (200cm)",
-    "snow_reliability_rating": "10/10 \u2014 highest in the Alps",
-    "snow_reliability_note": "99% of terrain above 2,000m. Six glaciers. Consistent snow from December through April.",
-    "typical_snowfall_note": "Heavy snowfall from December to March. Spring skiing reliable through April.",
-    "weather_pattern": "High alpine \u2014 can be cold and exposed. Treeless landscape means no sheltered spots. High winds can close lifts. When sun is out, stunning 360\u00b0 panoramas.",
-    "typical_temperature_range": "-5\u00b0C to -15\u00b0C (December-February), 0\u00b0C to -8\u00b0C (March-April)",
-    "sun_exposure": "Sun-trap cirque \u2014 good sun when weather is clear. South-facing slopes catch morning sun.",
-    "weakness": "Exposed position \u2014 high winds and heavy snowfall can force lift closures. Treeless, so no shelter on slopes.",
-    "average_annual_snowfall_cm": "600-800cm estimated",
-    "best_time_for_snow": "January to March",
-    "best_time_for_sun": "March to April"
-  },
-  "villages": [
-    {
-      "name": "Val Thorens Centre",
-      "altitude": 2300,
-      "character": "Compact, pedestrianised, purpose-built resort at the head of the Belleville Valley. Ski-in/ski-out throughout \u2014 you can ski from your accommodation to the lifts. Lively apres scene with 40+ bars, two nightclubs. The architecture is functional 1970s but recent renovations have added luxury hotels (Le Coucou, Hotel Pashmina).",
-      "best_for": "Partiers, families, intermediates, snow-reliability seekers",
-      "vibe": "Lively, sporty, functional, young-at-heart",
-      "architecture": "Purpose-built 1970s with recent luxury additions (Le Coucou, Altapura)",
-      "ski_in_ski_out": true,
-      "shopping": "Galerie Caron complex \u2014 supermarket, shops, pharmacy, sports equipment, rental",
-      "dining": "60+ restaurants. Range from piste-side to gourmet. Key: Chez P\u00e9p\u00e9 Nicolas, La Pause de Pierrette, Le Caron 3200 (summit wine bar)",
-      "apres": "La Folie Douce (iconic), Bar 360, 40+ bars, Malaysia Club (Europe's highest nightclub)"
-    }
-  ],
-  "non_ski_activities": {
-    "spas_and_wellness": [
-      "Le Coucou \u2014 Tata Harper spa, indoor/outdoor heated pool, 5-star hotel, Pierre Yovanovitch design",
-      "Altapura \u2014 Scandi-chic, ski-in/ski-out, outdoor deckchairs with mountain views",
-      "Hotel Pashmina \u2014 Les Explorateurs \u2605 Michelin restaurant, spa facilities",
-      "Oxygene spa at various hotels"
+
+  "overview": {
+    "location_description": "At the head of the Belleville Valley, Tarentaise, Savoie. 110km from Chamb\u00e9ry, 175km from Geneva. The highest ski resort in Europe.",
+    "known_for": "Europe's highest ski resort at 2,300m. Best snow reliability in the Alps (99% above 2,000m). Six glaciers. Lively apres. Direct access to the 600km Les Trois Vall\u00e9es domain.",
+    "luxury_destination": true,
+    "luxury_detail": "Le Coucou (5-star, Tata Harper spa, Pierre Yovanovitch interiors), Altapura (ski-in/ski-out, spa), Hotel Pashmina (1 Michelin star restaurant Les Explorateurs). 60+ restaurants including piste-side fine dining.",
+    "founded_year": 1971,
+    "founded_history": "Developed from 1971 by visionary pioneers. Jean B\u00e9ranger (former French women's ski team trainer) and his wife Christine Goitschel (Olympic ski champion) arrived in the early days \u2014 at the outset just four or five families lived there; Goitschel called it 'a snowy version of the Far West'. In 1972 B\u00e9ranger founded the ESF ski school, Club des Sports, and the tourist office. The lift company SETAM was founded the same year. First apartment buildings went up in the P\u00e9clet sector; the first restaurant Le Gloulou (now Le Panda) opened.",
+    "awards": [
+      "World Ski Awards \u2014 Best Resort in the World 2013",
+      "World Ski Awards \u2014 Best Resort in the World 2014",
+      "World Ski Awards \u2014 Best Resort in the World 2016",
+      "World Ski Awards \u2014 Best Resort in France 2013",
+      "World Ski Awards \u2014 Best Resort in France 2015",
+      "World Snow Awards \u2014 Most Improved European Resort 2013",
+      "European Best Destinations \u2014 Best European Ski Resort 2014"
     ],
-    "swimming": "Large indoor swimming pool at Galerie Caron leisure centre",
-    "ice_skating": "Ice skating rink (outdoor, in resort centre)",
-    "zip_line": "Double zip line \u2014 two lines side-by-side, 65m above ground",
-    "toboggan": "6km toboggan run from top of Peclet gondola \u2014 epic descent, lit sections",
-    "paragliding": "Tandem paragliding from Cime de Caron (3,230m)",
-    "dog_sledding": "Multiple operators offering half-day and full-day excursions",
-    "snowshoeing": "Guided and self-guided trails \u2014 marked itineraries from tourist office",
-    "snowmobiling": "Guided snowmobile excursions (after lift hours)",
-    "ice_climbing": "Guided ice climbing on natural icefalls in the Vanoise",
-    "bowling": "Ten-pin bowling at Galerie Caron",
-    "cinema": "Cinema in resort centre (some screenings in English)",
-    "fitness": "Gym, fitness classes, squash courts at Galerie Caron leisure centre",
-    "paintball": "Paintball in snow \u2014 dedicated course",
-    "events": "Weekly concerts, DJ sets, Cime de Caron 3,200m wine bar experience"
+    "atmosphere": "Lively, sporty, functional, young-at-heart. Party crowd draws fewer families than M\u00e9ribel but more energy than Courchevel.",
+    "pretty_or_concrete": "Concrete purpose-built 1970s architecture with recent luxury renovations (Le Coucou, Pashmina, Altapura). Functional rather than pretty, but the mountain views compensate.",
+    "british_visitors": true,
+    "british_visitors_detail": "Strong UK presence \u2014 one of the most popular resorts for British skiers seeking snow reliability and lively apres.",
+    "real_french_village": "No \u2014 a purpose-built resort that empties when lifts close in May. Not a year-round village.",
+    "history_culture": "Born in 1971 as a purpose-built high-altitude project. Named after Maurice Thorens, local poet. Vanoise National Park surrounds the valley. Traditional farming culture of the Belleville valley existed below (St-Martin-de-Belleville baroque heritage)."
   },
-  "dining_guide": {
-    "stars_1": [
-      {
-        "name": "Les Explorateurs",
-        "location": "Hotel Pashmina",
-        "cuisine": "Inventive alpine cuisine, excellent desserts",
-        "note": "Ski-in/ski-out access"
-      }
-    ],
-    "signature": [
-      "Chez P\u00e9p\u00e9 Nicolas \u2014 piste-side, Savoyard specialities, local producers",
-      "La Pause de Pierrette \u2014 Hotel Le Portillo, fresh produce, sunny south-facing terrace",
-      "Le Caron 3200 \u2014 wine bar at summit of Cime de Caron gondola (3,200m), 360\u00b0 panoramas, book ahead",
-      "L'Alpin \u2014 traditional mountain restaurant, good value"
-    ],
-    "mountain": "Caron 3200 (summit), La Fruiti\u00e8re (Folie Douce area), Chez P\u00e9p\u00e9 Nicolas (piste-side)"
+
+  "access": {
+    "how_to_get_there": "Fly to Chamb\u00e9ry (1.5h transfer), Geneva (2.5h), or Lyon (3h). Train to Mo\u00fbtiers (35km, TGV from Paris 4.5h) then shuttle. Drive from Lyon 2.5h. Car recommended for exploring the valley, not essential in resort.",
+    "nearest_airport": "Chamb\u00e9ry",
+    "airport_code": "CMF",
+    "transfer_minutes": 90,
+    "transfer_options": "Ben's Bus, Alpine Fleet, Mountain Rescue Ski Transfers between \u20ac25-40 per person (shared) or \u20ac150-250 (private). Book in advance for Saturday arrivals.",
+    "nearest_train_station": "Mo\u00fbtiers (35km) with regular bus connections",
+    "train_from_london": "Eurostar to Paris, TGV to Mo\u00fbtiers (4.5h), bus to resort. ~11-12 hours door to door from London.",
+    "driving_from_calais_hours": 9,
+    "snow_chains_required": true,
+    "snow_chains_purchase_location": "Petrol stations in Mo\u00fbtiers and at the valley entrance. Car rental agencies provide chains with winter tyres \u2014 request when booking.",
+    "road_conditions_saturday": "Saturday is the busiest changeover day \u2014 expect delays on the A43 to Albertville and the climb from Mo\u00fbtiers. Depart early (before 10am) or late (after 7pm).",
+    "snow_on_road_april": "Roads clear by April except after fresh snow. Chains required occasionally even in spring after snowfall. Resort at 2,300m so the final climb can be snowy any month.",
+    "tolls_on_route": "~\u20ac45 from Lyon on the A43. ~\u20ac55-70 from Calais.",
+    "ev_charging": "Chargers in the main car parks (Galerie Caron area, resort entrance). Booking sites and some hotels have destination chargers. Check Chargemap for live availability."
   },
-  "piste_guide": {
-    "beginners": "Nursery slopes at front of resort with covered conveyor belts (sheltered from wind). Green runs from Col de la Chambre. Dedicated beginner zones.",
-    "intermediates": "Exceptional \u2014 74% of terrain. Wide blues and reds across Cime de Caron, Rosael, Pointe de Thorens. Long cruise runs with stunning views.",
-    "advanced": "Limited steep terrain locally \u2014 12% black. Best advanced skiing is accessed via Orelle sector (Maurienne valley) or off-piste routes.",
-    "off_piste": "World-class. Gebroulaz glacier towards M\u00e9ribel/Pralognan, Maurienne side, Lac du Lou from Combe de Rosael, Vall\u00e9e des Encombres. Guide essential.",
-    "snowpark": "Fun park and advanced park \u2014 good for freestyle. Major snowparks on M\u00e9ribel side for serious freestylers.",
-    "crowding": "Busy in February and school holidays. Best skiing early morning and late afternoon. Orelle sector quieter.",
-    "longest_run": "12km from Cime de Caron down to resort",
-    "key_run": "Caron \u2014 3km black run, most difficult in the domain"
+
+  "getting_around": {
+    "car_free": true,
+    "parking_compulsory": true,
+    "parking_cost": "Underground parking ~\u20ac15-20/day. Free parking at resort entrance (Plein Sud) with shuttle.",
+    "parking_in_out_allowed": "Yes \u2014 underground car parks allow in/out with ticket. Free entrance parking is long-stay only.",
+    "shuttle_bus_info": "Free internal shuttle bus runs every 10-15 minutes connecting the resort areas, P\u00e9clet sector, and parking zones.",
+    "car_needed": "No \u2014 everything is walkable or reachable by free shuttle. Ski-in/ski-out accommodation throughout. A car is only useful for day trips outside the domain.",
+    "walkable_in_ski_boots": true,
+    "luggage_storage": "Lockers at Galerie Caron and the tourist office. Most accommodation offers luggage storage on arrival/departure day."
   },
-  "apres_guide": {
-    "iconic": "La Folie Douce \u2014 live music, dancing on tables, starts 2pm slope-side. Europe's iconic afternoon apres.",
-    "bars": "Bar 360 \u2014 mid-mountain, music until lifts close. 40+ bars in resort including Caf\u00e9 Face, Le TONIC, Le Monde",
-    "clubs": "Malaysia \u2014 Europe's highest nightclub, subterranean, live gigs, open until late",
-    "vibe": "Lively and young \u2014 Val Thorens attracts a party crowd. More low-key than Les Arcs 1950, more fun than Courchevel 1850."
+
+  "when_to_go": {
+    "season_open": "Late November (2025: 22 November)",
+    "season_close": "Early May (2025/26: 3 May)",
+    "best_time_to_ski": "January and March \u2014 best snow quality and quieter slopes. February breaks are very busy.",
+    "snow_reliability_detail": "10/10. 99% of terrain above 2,000m, six glaciers, 395 snow cannons covering 100km of pistes. Snow depth mid-season averages 2m.",
+    "snow_by_month": {
+      "december": 80,
+      "january": 92,
+      "february": 85,
+      "march": 70,
+      "april": 45
+    },
+    "april_skiing": "Excellent \u2014 with 99% of terrain above 2,000m, April skiing is reliable while lower resorts are closing. The resort is open to early May.",
+    "christmas_new_year_skiing": "Excellent snow record but very busy. Book restaurants well in advance \u2014 Friday nights especially.",
+    "weather_by_month": {
+      "december": {"temp_min_c": -12, "temp_max_c": -2, "snow_days_avg": 10, "sunshine_hours_avg": 4},
+      "january": {"temp_min_c": -15, "temp_max_c": -3, "snow_days_avg": 11, "sunshine_hours_avg": 4},
+      "february": {"temp_min_c": -14, "temp_max_c": -2, "snow_days_avg": 9, "sunshine_hours_avg": 5},
+      "march": {"temp_min_c": -8, "temp_max_c": 2, "snow_days_avg": 8, "sunshine_hours_avg": 6},
+      "april": {"temp_min_c": -4, "temp_max_c": 6, "snow_days_avg": 6, "sunshine_hours_avg": 8}
+    },
+    "how_cold_gets": "-5\u00b0C to -15\u00b0C in December-February. 0\u00b0C to -8\u00b0C March-April. Wind chill is significant above 2,500m \u2014 exposed treeless terrain.",
+    "north_facing_slopes": "The Pl\u00e9nair and Rosael sectors hold snow longest in spring. The Cime de Caron north face retains powder for days after fresh snow.",
+    "feb_half_term_busy": "Very busy \u2014 February half term (French week 8 and UK weeks 7/8) brings the heaviest crowds. Queue at main lifts from 9-10am. Book everything: lessons, restaurants, transfers.",
+    "french_school_holidays_impact": "French zone A/B/C holidays split over 3 weeks in February. The weeks between zones are slightly quieter. Easter moveable.",
+    "quietest_times": "Early December (pre-Christmas), January after the 6th, and April after Easter. Late November opening weeks are quiet.",
+    "high_wind_lift_closures": "Yes \u2014 exposed position means high winds close upper lifts (Cime de Caron frequent). Weather forecasts and lift status on Val Thorens app. Plan indoor alternatives on storm days."
   },
-  "comparison": {
-    "vs_courchevel": "Younger, livelier, more casual. Less luxury, less expensive, better snow, more exposed.",
-    "vs_meribel": "Higher, more snow-sure, livelier apres. Less charm, less tree-lined skiing.",
-    "vs_tignes": "Comparable altitude and snow reliability. Tignes has glacier/summer skiing. VT has better apres."
+
+  "ski_area": {
+    "best_runs": ["Cime de Caron summit route", "Plein Sud from Rosael", "Piste No. 2 from P\u00e9clet", "The Glaciers blue", "Caron black"],
+    "longest_run": "12km from Cime de Caron (3,230m) back to resort",
+    "steepest_run": "Caron \u2014 3km black with steep sections",
+    "connection_to_domain": "Direct lifts to Les Menuires, St-Martin, M\u00e9ribel, Courchevel. The 600km Les Trois Vall\u00e9es is reachable on skis \u2014 no bus required.",
+    "last_lift_time": "~4:30pm returning from the domain. Last lift back from M\u00e9ribel/Courchevel via the C\u00ceMES gondola ~5pm. Check daily times on app.",
+    "miss_last_lift_info": "You can ski down to Les Menuires and take the free shuttle back to Val Thorens (30-40 min). Worst case, taxi from M\u00e9ribel ~\u20ac100.",
+    "night_skiing": "No on-piste night skiing at Val Thorens. Night sledging (6km toboggan run) and torch-light descents organised weekly.",
+    "drag_lifts_many": false,
+    "tree_runs_bad_weather": "None \u2014 Val Thorens is above the treeline. For bad weather days, ski lower into the forest runs at St-Martin or M\u00e9ribel valley (reachable by lift).",
+    "lift_queues": "Moderate \u2014 modern lift system handles crowds well. Expect queues 15-30 min at the main gondola in February half-term and at La Folie Douce access lifts at 3-4pm.",
+    "pedestrian_lifts": "The Galerie Caron gondola (Village) and the Plein Sud gondola accept pedestrians. The Orelle valley gondola is the scenic route for non-skiers.",
+    "lifts_modern": "Yes \u2014 consistently modernised. 29 lifts, mostly high-speed detachable gondolas and chairs. Recent upgrades include the 10-person gondolas.",
+    "piste_map_url": "https://www.valthorens.com/en/ski-area/piste-map"
   },
+
+  "beginners": {
+    "beginner_detail": "Excellent reputed beginner area despite high altitude. Nursery slopes at the front of the resort with covered conveyor belts \u2014 sheltered from wind. Green runs from Col de la Chambre.",
+    "beginner_slopes": "Front de Neige nursery slopes, Col de la Chambre greens, Plein Sud area blues. Start sheltered, progress to the 12km Cime de Caron route.",
+    "free_beginner_lifts": "The two nursery conveyor belts are NOT free. A beginner area pass (~\u20ac20/day) covers the front de neige lifts.",
+    "long_green_run": "There is no long green run back to the village \u2014 the resort is above the treeline. Beginners progress on the blue network.",
+    "beginner_jump": "Smooth \u2014 the blue network connects seamlessly. The nursery area leads directly to Plein Sud blues.",
+    "ski_lesson_booking": "ESF, ESI, and independent schools. Book online at skipass/valthorens.com. Group lessons from ~\u20ac60/half-day. Private ~\u20ac65-80/hour.",
+    "english_speaking_instructors": true,
+    "private_vs_group_lessons": "Group lessons are excellent value and the ESF keeps groups small (max 8). Private lessons worth it for nervous beginners or specific skill development \u2014 2x cost but tailored.",
+    "ski_school_booking_half_term": "Book at least 3 months ahead for February half term \u2014 ESF group places and private instructors fill up by October."
+  },
+
+  "off_piste": {
+    "off_piste_detail": "World-class off-piste in the Vanoise. Gebroulaz glacier towards M\u00e9ribel/Pralognan, the Maurienne side, Lac du Lou from Combe de Rosael, Vall\u00e9e des Encombres. Snow-sure all season.",
+    "guide_needed": true,
+    "ski_touring_routes": "Extensive ski touring in the Vanoise National Park. Popular routes from Col de la Chambre, Pointe de Thorens, and the Gebroulaz sector. Guide essential for safety.",
+    "heliskiing": false,
+    "avalanche_risk_check": "French avalanche bulletin (meteofrance.fr/neige), avalanche warnings in the Val Thorens app, and the PIDA (piste information) boards at lift bases. Off-piste check-in recommended."
+  },
+
+  "families": {
+    "family_detail": "Good but not M\u00e9ribel's level. At 2,300m, children need careful acclimatisation. The nursery area is sheltered and purpose-built. Family Flex pass saves money. Early-season and late-season are quiet for beginners.",
+    "childcare_options": "L'Espace des Neiges (ages 3+): ski school with nursery care. Club des Sports (ages 4+): full-day group care with activities. Private nannies available via tourist office.",
+    "ski_school_min_age": 3,
+    "kids_club_evening": false,
+    "babysitters": false,
+    "four_year_old_activities": "Sledging (6km toboggan), pedestrian walks in the village, swimming pool (Galerie Caron), ice rink, and the beginner conveyor area.",
+    "teen_activities": "Snowpark, paintball, bowling, cinema, ice climbing, zip line, and the snowmobiling excursions. Teen-friendly apres atmosphere in village.",
+    "family_hotels_with_kids_club": "Le Coucou (kids club), Altapura, Hotel Pashmina, and Les Chalets de la Fontaine have family programmes.",
+    "safe_with_young_children": "Generally safe \u2014 car-free, ski-in/ski-out, nursery slopes at the resort front. Be aware of the 2,300m altitude: acclimatise carefully.",
+    "toboggan_runs": "6km toboggan run from the top of the P\u00e9clet gondola \u2014 one of Europe's best, with lit sections and a dedicated sledging area in resort.",
+    "altitude_children_effects": "Altitude affects children more than adults. At 2,300m: watch for headaches, loss of appetite, unusual tiredness. Descend and hydrate. Most families adapt within 2 days."
+  },
+
+  "where_to_stay": {
+    "which_village_to_stay": "Val Thorens Centre for everything. P\u00e9clet sector for cheaper self-catering (shuttle to centre). Le Coucou/Altapura for luxury. Stay at the front de neige for ski-out convenience \u2014 the resort is compact so all locations work.",
+    "ski_in_ski_out": true,
+    "best_hotels": ["Le Coucou (5-star, design)", "Altapura (5-star, spa)", "Hotel Pashmina (5-star, Michelin restaurant)", "Hotel Le Portillo (4-star, friendly)", "Les Chalets de la Fontaine (chalet hotel)"],
+    "accommodation_types": "Purpose-built residences, ski-in/ski-out apartments, hotels, and a few chalet hotels. Majority self-catering apartments.",
+    "large_group_accommodation": "Yes \u2014 several large residences and Brit-run catered chalets handle groups. Book early for February.",
+    "hotels_with_pools_spas": "Le Coucou (outdoor pool + spa), Altapura (spa, outdoor deck), Pashmina (spa). Most 4-5 star hotels have wellness areas. Public pool at Galerie Caron.",
+    "official_reservation_service": "valthorens.com/en/booking \u2014 official central reservation. Also check the tourist office for last-minute deals.",
+    "french_self_catering_includes": "Typically: kitchen, basic utensils, bedroom linens, TV. Not included: wifi in older residences, towel changes mid-week, end-of-stay cleaning (bookable).",
+    "saturday_changeover": "Changeover day is Saturday. Check-in from 4-5pm, check-out by 10am. Heavy traffic on transfer roads. Ski lockers at accommodation accept gear before check-in."
+  },
+
+  "food_and_drink": {
+    "best_restaurants": ["Les Explorateurs (1 Michelin star)", "Chez P\u00e9p\u00e9 Nicolas", "La Pause de Pierrette", "L'Alpin", "Le Caron 3200 (summit wine bar)"],
+    "michelin_starred": ["Les Explorateurs (1 star) \u2014 Hotel Pashmina"],
+    "cheap_mountain_lunch": "Le Globe, La Fruiti\u00e8re (self-service, hot dishes), and L'Altitude cafeterias. Self-service ski area restaurants \u20ac12-15 with mountain views.",
+    "picnic_options": "Pick up supplies at the Galerie Caron supermarket and picnic on the sunny terraces of Cime de Caron, or at the Les Vallons picnic area.",
+    "local_dishes": "Fondue Savoyarde, raclette, tartiflette, diots with polenta, croziflette. Local Beaufort and Reblochon cheeses. Farcement Savoyard for dessert.",
+    "dietary_options": "Most restaurants offer vegetarian options. Vegan and gluten-free are limited \u2014 tell the restaurant in advance. La Fruiti\u00e8re has the widest options.",
+    "restaurant_booking_needed": "Yes \u2014 book dinner hotspots 2-3 days ahead in high season, especially Friday nights. Mountain restaurants busy at lunch \u2014 book by 10am.",
+    "booking_advice": "Use valthorens.com booking or call directly. Ask for piste-side tables for lunch. La Folie Douce and Le Caron 3200 need advance bookings.",
+    "meal_cost": "\u20ac20-30 piste-side lunch main course. \u20ac45-70 for 2-course dinner in resort restaurants. \u20ac90-150 per person at Les Explorateurs.",
+    "bakeries": "Pause Gourmande (village centre) and the Galerie Caron boulangerie \u2014 fresh croissants and baguettes daily."
+  },
+
+  "apres_and_nightlife": {
+    "apres_ski_description": "One of the liveliest in the Alps. La Folie Douce slope-side dancing from 2pm, Bar 360 mid-mountain, and 40+ village bars. Party atmosphere attracts a young crowd.",
+    "folie_douce": "Yes \u2014 La Folie Douce de Val Thorens, slope-side, dancing on tables, live music/DJs from 2pm to 5pm. Free access, drinks pricey.",
+    "nightlife_clubbing": "Excellent by alpine standards. Malaysia Club (Europe's highest nightclub) is subterranean, open until 2am weekdays, later weekends. Live acts and DJs.",
+    "quiet_evenings": false,
+    "bar_club_closing_times": "Bars close 1-2am weekdays, later at weekends. Malaysia Club runs to 3-4am in high season. La Folie Douce closes at 5pm sharp."
+  },
+
+  "beyond_skiing": {
+    "non_ski_activities": ["Tandem paragliding from Cime de Caron (3,230m)", "6km toboggan run from P\u00e9clet", "Double zip line", "Dog sledding half/full-day excursions", "Snowmobiling tours after lift hours", "Guided snowshoeing trails", "Ice climbing on natural icefalls", "Ten-pin bowling at Galerie Caron", "Cinema (some English screenings)", "Paintball in snow"],
+    "events_during_stay": "Weekly concerts and DJ sets, Cime de Caron summit wine bar evenings, torch-light descents, snowman contest for kids. Check valthorens.com events calendar.",
+    "snowshoeing": "Marked itineraries from the tourist office \u2014 guided half-day and sunset snowshoe tours. Nordique area at Lac des 3 Vall\u00e9es.",
+    "pedestrian_walking_paths": "Village is walkable. Winter walking trails around the resort and Lac des 3 Vall\u00e9es. Summer is a hiking paradise around the six glaciers.",
+    "swimming_pool_or_spa": "Public indoor pool at Galerie Caron leisure centre. Hotel spas: Le Coucou (Tata Harper), Altapura, Pashmina. Squash and fitness at Galerie Caron.",
+    "ice_skating": "Outdoor ice rink in the resort centre \u2014 free with own skates, rental available.",
+    "dog_sledding": "Multiple operators (Alaska-style Mushing, Grand Nord experience) offering half-day and full-day excursions along the Belleville valley.",
+    "snowmobiling": "Guided excursions after lift hours \u2014 book at the tourist office. Sunset and full-moon rides are spectacular.",
+    "paragliding": "Tandem paragliding from Cime de Caron \u2014 the highest take-off in Europe operated daily, weather permitting. Landing in the resort.",
+    "bad_weather_activities": "Pool, spa, bowling, cinema, museum-visit in M\u00e9ribel, and the indoor sports centre. Restaurant long-lunch days at La Pause de Pierrette.",
+    "shopping": "Galerie Caron: supermarket, pharmacy, ski shops (Rossignol, Atomic, Salomon), fashion boutiques, souvenirs. Limited high-end retail vs Courchevel.",
+    "summer_activities": "Hiking (Vanoise National Park), mountain biking, via ferrata, paragliding, golf at the resort's mountain course, summer luge."
+  },
+
+  "services": {
+    "ski_hire_info": "20+ rental shops across the resort including Skiset, Skimium, and local specialists. Ski hire from \u20ac20/day or \u20ac60/week. Boot fitting vital \u2014 go to a recommended shop.",
+    "pre_book_ski_hire": "Yes \u2014 Skiset/Skimium online booking saves 10-20% and guarantees availability in high season. Collect gear from the shop near your accommodation (ski-in/ski-out delivery available at major shops).",
+    "medical_centre_notes": "Medical centre at the resort (Pl\u00e9nair area) \u2014 doctors and physio. Emergency number: +33 (0)4 79 00 01 80 (piste patrol). Hospital in Mo\u00fbtiers (35km).",
+    "pharmacy_notes": "Pharmacy in Galerie Caron \u2014 standard hours, closed Sunday afternoons.",
+    "nurses_on_duty": true,
+    "nearby_hospital": "Mo\u00fbtiers hospital (35km, 50 min by ambulance). Annecy or Grenoble for major trauma.",
+    "coworking_spaces": false,
+    "ski_patrol_collection": "Ski patrol base at the resort front. If injured and your skis go with patrol, collect with ID from the piste security office near the main lifts.",
+    "supermarket_notes": "Supermarket at Galerie Caron (largest) + smaller shops in the village. Prices higher than valley \u2014 stock up in Mo\u00fbtiers if driving."
+  },
+
+  "safety_and_access": {
+    "ski_insurance_carre_neige": "Carr\u00e9 Neige available at the lift pass office: \u20ac3.50/day or \u20ac21/6 days. Covers rescue, medical, and pass refunds. Also get travel insurance with winter sports cover.",
+    "wheelchair_accessible": false,
+    "adaptive_skiing": false,
+    "altitude_sickness_risk": "Moderate \u2014 resort at 2,300m. Most visitors unaffected, but headaches and sleep disturbance possible. Symptoms: headache, fatigue, nausea. Descend if severe. Hydration is key.",
+    "dogs_allowed": "Dogs on slopes: no. Dogs in resort: yes, but many hotels don't accept. Check when booking. Local vet in Mo\u00fbtiers."
+  },
+
+  "sustainability": {
+    "sustainability_efforts": "Flocon Vert certified and Villes et Villages Floris. Focus on snowmaking efficiency (100km covered), free resort shuttle reduces car use, renewable electricity for lifts, eco-responsible accommodation push.",
+    "climate_change_risk": "Low-medium \u2014 the highest resort in Europe is one of the most climate-resilient in the Alps thanks to altitude (2,300m) and glacier presence. But 2/3 of the domain's economic value depends on the snow season; warming shortens margins at the edges."
+  },
+
+  "comparisons": {
+    "comparison_within_domain": "Higher, snow-sure-er, livelier than Courchevel and M\u00e9ribel. Less luxury, less charm, more energy. Best for party crowds and snow guarantees; Courchevel for glamour; M\u00e9ribel for families.",
+    "rival_comparison": "Tignes: comparable altitude and snow reliability, but Tignes has glacier summer skiing and a more functional vibe. VT has the better apres and 600km domain access.",
+    "comparable_resorts": ["Tignes", "Les Deux Alpes (glacier)", "Zermatt (altitude, Switzerland)", "Obergurgl (Austria)"],
+    "smaller_vs_larger": "VT is within the largest domain in the world (600km) \u2014 scale is the point. Smaller resorts give character; VT gives endless terrain."
+  },
+
+  "best_for": ["Partiers", "Snow-reliability seekers", "Intermediates", "Early/late season skiers", "Groups"],
   "honest_drawbacks": [
     "Exposed \u2014 treeless landscape, high winds can close lifts",
     "Purpose-built architecture \u2014 lacks traditional charm",
@@ -127,65 +259,6 @@
     "Long transfer from Geneva (2.5 hrs) \u2014 further than Courchevel/M\u00e9ribel",
     "Altitude can affect sleep and energy for some visitors"
   ],
-  "access": {
-    "nearest_airports": [
-      {
-        "airport": "Chamb\u00e9ry",
-        "code": "CMF",
-        "transfer_min": 90,
-        "distance_km": 110
-      },
-      {
-        "airport": "Geneva",
-        "code": "GVA",
-        "transfer_min": 150,
-        "distance_km": 175
-      },
-      {
-        "airport": "Lyon",
-        "code": "LYS",
-        "transfer_min": 180,
-        "distance_km": 210
-      }
-    ],
-    "by_train": {
-      "station": "Mo\u00fbtiers (35km)",
-      "tgv_from_paris": "4.5 hours",
-      "shuttle": "Regular buses from Mo\u00fbtiers station"
-    },
-    "by_car": {
-      "from_lyon_hours": 2.5,
-      "toll_cost_euro": "~45 from Lyon",
-      "snow_chains": "Occasionally required at resort entrance"
-    }
-  },
-  "practical_info": {
-    "tourist_office": "https://www.valthorens.com/en/",
-    "lift_pass_6day_2025_26": 390,
-    "lift_pass_vt_only_6day": 300,
-    "ski_school": "ESF Val Thorens + several independent schools",
-    "ski_rental": "Multiple shops \u2014 ski hire from ~\u20ac20/day",
-    "supermarket": "Supermarket at Galerie Caron + smaller shops",
-    "medical": "Medical centre in resort. Hospital in Mo\u00fbtiers (35km)",
-    "parking": "Underground parking (paid). Free parking at resort entrance (shuttle required)"
-  },
-  "research_sources": [
-    {
-      "url": "https://www.snowmagazine.com/ski-resort-guide/france/val-thorens-ski-resort",
-      "type": "review",
-      "author": "Roger Fulton",
-      "retrieved": "2026-10-14"
-    },
-    {
-      "url": "https://www.j2ski.com/ski_resorts/France/Val_Thorens.html",
-      "type": "guide",
-      "retrieved": "2026-10-14"
-    },
-    {
-      "url": "https://www.les3vallees.com/en/",
-      "type": "official",
-      "retrieved": "2026-10-14"
-    }
-  ],
-  "research_status": "properly_sourced"
+
+  "villages": ["Val Thorens Centre", "La Grande Masse"]
 }
