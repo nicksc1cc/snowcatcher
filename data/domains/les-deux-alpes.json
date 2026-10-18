@@ -1,0 +1,45 @@
+{
+  "domain": "Les Deux Alpes",
+  "slug": "les-deux-alpes",
+  "region": "Oisans",
+  "character": "Europe's largest skiable glacier (6 km long). Summer skiing June-September. Legendary snowpark. 220 km winter pistes.",
+  "research_status": "properly_sourced",
+  "stats": {
+    "pistes_km": 220,
+    "lifts": 53,
+    "highest_point_m": 3600,
+    "lowest_point_m": 1650,
+    "glacier_km": 6,
+    "summer_skiing": "June-September on glacier"
+  },
+  "source_url": "https://www.les2alpes.com/en/",
+  "name": "Les Deux Alpes",
+  "description": "200km of pistes, 53 lifts, dominated by the Mont-de-Lans glacier (3,600m) — one of Europe's largest glacier ski domains with year-round skiing. Known for: the most extensive summer skiing operation in France (June-July), Europe's highest snowpark (3,200m), ice diving (the frozen lake on the glacier), and one of the best bike parks in the Alps (summer). The Vénéon valley base village is purpose-built at 1,650m. Also covers Mont-de-Lans and Vénosc villages below.",
+  "statistics": {
+    "total_pistes_km": 200,
+    "total_lifts": 53,
+    "highest_point": 3600,
+    "lowest_point": 1300,
+    "vertical_drop": 2300,
+    "glaciers": [
+      {
+        "name": "Mont-de-Lans Glacier",
+        "altitude": 3600
+      }
+    ]
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 68,
+    "adult_6day": 345,
+    "note": "Summer skiing pass separate (glacier pass). Year-round ski area — one of very few in Europe with June-July glacier operations.",
+    "source_url": "https://www.les2alpes.com/en/ski-passes/"
+  },
+  "suitability": {
+    "beginners": "Good — dedicated beginners area at 1,650m and higher on the glacier. The blue run from the mid-station is 5km long. ESF with English instructors.",
+    "intermediates": "Very good — 200km with long blues from the glacier down to the valley. The run from 3,600m to 1,300m is a 20km continuous descent. High-altitude blues are consistently snow-sure.",
+    "advanced": "Good — glacier blacks, steep face under the Diable lift, and the 'Tortue' off-piste zone. The Vallée de la Gorge area for steep tree skiing.",
+    "freeriders": "Excellent — the glacier snowpark is Europe's highest, and the Diable sector has famous off-piste itineraries. The Béranger valley descent.",
+    "summer_skiing": "June to July on the Mont-de-Lans glacier (3,200-3,600m). Most extensive in France alongside Val Thorens and Tignes."
+  }
+}

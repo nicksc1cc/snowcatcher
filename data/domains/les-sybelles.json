@@ -1,0 +1,33 @@
+{
+  "domain": "Les Sybelles",
+  "slug": "les-sybelles",
+  "region": "Maurienne",
+  "character": "310 km domain in the Maurienne valley. 6 villages, family-friendly, budget-conscious. Quieter alternative to the Tarentaise.",
+  "research_status": "properly_sourced",
+  "stats": {
+    "pistes_km": 310,
+    "lifts": 80,
+    "highest_point_m": 2800,
+    "lowest_point_m": 1100,
+    "villages": 6
+  },
+  "source_url": "https://www.sybelles.ski/en/",
+  "name": "Les Sybelles",
+  "description": "310km of linked pistes across 6 Maurienne valley resorts: Le Corbier, La Toussuire, St-Jean-d'Arves, St-Sorlin-d'Arves, Les Karellis, and Le Bottières. 62 lifts. Known as 'La Sybelle' — a quiet, uncrowded alternative to the big Tarentaise domains. Family-friendly, excellent value, significantly cheaper than neighbouring Les 3 Vallées. Good intermediate terrain with a reputation for quiet slopes even in French school holidays.",
+  "statistics": {
+    "total_pistes_km": 310,
+    "total_lifts": 62,
+    "highest_point": 2800,
+    "lowest_point": 1100
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 295,
+    "note": "One of the cheapest large domain passes in France. Excellent value for 310km."
+  },
+  "suitability": {
+    "beginners": "Good — each village has dedicated beginner zones. Le Corbier has a good nursery slope.",
+    "intermediates": "Very good — the bulk of the terrain is blue/red mid-altitude cruising.",
+    "families": "Excellent value — uncrowded, cheap passes, family run"
+  }
+}

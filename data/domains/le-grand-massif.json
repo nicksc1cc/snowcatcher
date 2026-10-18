@@ -1,0 +1,39 @@
+{
+  "domain": "Le Grand Massif",
+  "slug": "le-grand-massif",
+  "region": "Grand Massif",
+  "character": "265 km linking Flaine, Samoens, Morillon, Sixt, Les Carroz. Flaine controversial brutalist architecture, Samoens beautiful market town at valley floor.",
+  "research_status": "properly_sourced",
+  "stats": {
+    "pistes_km": 265,
+    "lifts": 73,
+    "highest_point_m": 2500,
+    "lowest_point_m": 700,
+    "villages": 5
+  },
+  "source_url": "https://www.grand-massif.com/en/",
+  "name": "Le Grand Massif",
+  "description": "265km of pistes, 71 lifts across 4 Haute-Savoie resorts: Flaine, Samoëns, Les Carroz, Morillon, and Sixt-Fer-à-Cheval. Uniquely connected — 80% of the domain is north-facing, holding snow exceptionally well. Known for: Flaine's modernist architecture (Marcel Breuer), the longest chairlift in Europe (Coulouvrier 2.9km at Morillon), Aquacime pool/spa (Les Carroz), and the Cirque du Fer-à-Cheval (one of France's Grand Sites Naturels at Sixt). Particularly strong for mixed-ability groups — 80% north-facing slopes and excellent beginner/intermediate terrain.",
+  "statistics": {
+    "total_pistes_km": 265,
+    "total_lifts": 71,
+    "total_pistes": 134,
+    "highest_point": 2480,
+    "lowest_point": 720,
+    "vertical_drop": 1760,
+    "snow_reliable_above": 1500,
+    "north_facing_pct": 80
+  },
+  "suitability": {
+    "beginners": "Excellent — Flaine Forum has dedicated green/blue area at 1,600m. Samoëns gondola takes non-skiers up to the beginner zone. Grand Massif Village pass available for beginners.",
+    "intermediates": "The Grand Massif is built for intermediates — 80% north-facing slopes keep snow in excellent condition. The runs from Tête des Saix down to Les Carroz and Morillon are perfect blue cruisers.",
+    "advanced": "Limited — there's good off-piste in the Cirque de Flaine on big snow days, but the domain is not known for steep black runs. More challenging terrain in the Cascades sector. Sixt area has some steeps.",
+    "families": "Excellent — Flaine's pedestrian car-free centre, Aquacime (heated pool, spa, slide), rail toboggan at Les Carroz, ice rinks in Flaine and Morillon.",
+    "snow_reliability": "Exceptionally good for the altitude — 80% north-facing aspect preserves snow better than south-facing domains at similar elevations. This matters in March and April."
+  },
+  "piste_map_url": "https://www.grand-massif.com/en/piste-map",
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 330
+  }
+}

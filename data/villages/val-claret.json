@@ -1,0 +1,26 @@
+{
+  "village": "Val Claret",
+  "slug": "val-claret",
+  "altitude": 2100,
+  "resort": "Tignes",
+  "domain": "Espace Killy",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas",
+    "ice_diving",
+    "ice_driving",
+    "toboggan",
+    "paragliding",
+    "snorkelling",
+    "fat_biking",
+    "cinema",
+    "snowpark",
+    "events"
+  ],
+  "character": "Highest Tignes village, same altitude as Le Lac. More modern, purpose-built. 5* hotel. Direct access to Grande Motte glacier. Snow-sure. Good for cheap accommodation.",
+  "dining": "Village restaurants, pizza, Chinese option.",
+  "shopping": "Small supermarket, bakery, rental.",
+  "activities_nearby": "Grande Motte glacier cable car (year-round skiing to 3,456m). Espace Killy. Snowpark.",
+  "source_url": "https://www.valdisere.com/en/village-guide/"
+}

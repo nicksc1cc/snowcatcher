@@ -1,0 +1,17 @@
+{
+  "village": "Les Tovets",
+  "slug": "les-tovets",
+  "resort": "La Tania",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "dining",
+    "dog_sledding",
+    "snowshoeing",
+    "sledging"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1500,
+  "character": "La Tania area hamlet. Upper neighbourhood.",
+  "source_url": "https://www.seechamonix.com/"
+}

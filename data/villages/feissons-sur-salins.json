@@ -1,0 +1,21 @@
+{
+  "village": "Feissons-sur-Salins",
+  "slug": "feissons-sur-salins",
+  "resort": "Brides-les-Bains",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "thermal_spa",
+    "entertainment",
+    "casino",
+    "dining",
+    "diet_cuisine"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 750,
+  "character": "Small valley-floor hamlet between Brides and Mo\u00fbtiers. Traditional Savoyard farming village. Homemade cheese production (Beaufort, Tomme). Quiet, authentic, remote from ski slopes.",
+  "dining": "Local Savoyard. Ferme-auberge cheese producers.",
+  "shopping": "Very limited.",
+  "activities_nearby": "Hiking, cheese farm visits, snowshoeing in low-altitude forests.",
+  "source_url": "https://www.lesmenuires.com/en/"
+}

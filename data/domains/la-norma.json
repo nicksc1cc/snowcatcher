@@ -1,0 +1,31 @@
+{
+  "domain": "La Norma",
+  "slug": "la-norma",
+  "region": "Maurienne",
+  "character": "50 km family-friendly domain. Quiet, uncrowded, good for beginners.",
+  "stats": {
+    "pistes_km": 50,
+    "highest_point_m": 2300
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.la-norma.com/en/",
+  "name": "La Norma",
+  "description": "45km of pistes, 12 lifts, linked with Valfréjus to create a 65km combined area. Purpose-built but low-rise village at 1,350m, built around the old hamlet of Le Charmaix. Known for: uncrowded slopes, excellent value, and being a 'freerider's gem' — Powderhounds rated it for superb off-piste with easy exit onto groomed trails. 5 min from Modane TGV station (Paris-Lyon-Turin line).",
+  "statistics": {
+    "total_pistes_km": 45,
+    "total_lifts": 12,
+    "highest_point": 2500,
+    "lowest_point": 1350
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 38,
+    "adult_6day": 210,
+    "note": "One of the cheapest in the Alps."
+  },
+  "suitability": {
+    "intermediates": "Good",
+    "families": "Good",
+    "value": "Excellent — one of the cheapest domains in the Alps"
+  }
+}

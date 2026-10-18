@@ -1,0 +1,19 @@
+{
+  "village": "Mathonex",
+  "slug": "mathonex",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 900,
+  "character": "Small Samoens hamlet in the Giffre valley. Peaceful rural setting. Traditional Savoyard farming.",
+  "activities_nearby": "Hiking. Snowshoeing.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

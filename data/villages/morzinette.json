@@ -1,0 +1,18 @@
+{
+  "village": "Morzinette",
+  "slug": "morzinette",
+  "resort": "Morzine",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "ice_skating",
+    "spas",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1100,
+  "character": "Lower residential area of Morzine. Suburban quiet.",
+  "source_url": "https://www.seechamonix.com/"
+}

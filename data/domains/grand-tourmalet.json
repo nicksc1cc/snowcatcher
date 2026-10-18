@@ -1,0 +1,31 @@
+{
+  "domain": "Grand Tourmalet",
+  "slug": "grand-tourmalet",
+  "region": "Pyrénées",
+  "character": "100 km — largest domain in the French Pyrenees. Barèges (thermal spa) and La Mongie (high-altitude). Pic du Midi cable car.",
+  "stats": {
+    "pistes_km": 100,
+    "lifts": 35,
+    "highest_point_m": 2877
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.grandtourmalet.com/",
+  "name": "Grand Tourmalet",
+  "description": "160km of pistes, 34 lifts, linking Barèges and La Mongie across the Col du Tourmalet — the highest paved pass in the Pyrenees (2,115m) and an iconic Tour de France climb. The largest ski domain in the French Pyrenees. Known for: the Pic du Midi cable car (2,877m) with its panoramic terrace, planetarium, and glass walkway (Pontoon in the Sky — 12m over a 1,000m void). Barèges = traditional thermal spa village. La Mongie = purpose-built resort with direct piste access.",
+  "statistics": {
+    "total_pistes_km": 160,
+    "total_lifts": 34,
+    "highest_point": 2877,
+    "lowest_point": 1240
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 290
+  },
+  "suitability": {
+    "beginners": "Good at La Mongie",
+    "intermediates": "Good",
+    "families": "Good",
+    "advanced": "Moderate — Pic du Midi cable car for views, not extreme terrain"
+  }
+}

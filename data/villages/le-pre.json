@@ -1,0 +1,18 @@
+{
+  "village": "Le Pr\u00e9",
+  "slug": "le-pre",
+  "resort": "Valloire",
+  "domain": "Galibier-Thabor",
+  "region": "Maurienne",
+  "nearby_activities": [
+    "spa",
+    "swimming",
+    "ice_skating",
+    "market",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1350,
+  "character": "Lower Valloire hamlet near the valley floor.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

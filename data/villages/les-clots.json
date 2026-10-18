@@ -1,0 +1,18 @@
+{
+  "village": "Les Clots",
+  "slug": "les-clots",
+  "resort": "Valloire",
+  "domain": "Galibier-Thabor",
+  "region": "Maurienne",
+  "nearby_activities": [
+    "spa",
+    "swimming",
+    "ice_skating",
+    "market",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1400,
+  "character": "Valloire hamlet near the village centre. Small farming settlement.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

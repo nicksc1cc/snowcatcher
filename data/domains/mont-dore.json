@@ -1,0 +1,29 @@
+{
+  "domain": "Mont-Dore",
+  "slug": "mont-dore",
+  "region": "Massif Central",
+  "character": "40 km. Historic thermal spa town, Val de Courre ski area above town.",
+  "stats": {
+    "pistes_km": 40,
+    "highest_point_m": 1850
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.mont-dore.com/",
+  "name": "Mont-Dore",
+  "description": "42km of pistes, 11 lifts, at the base of Puy de Sancy (1,885m) — the highest peak in the Massif Central. Historic Belle Époque thermal spa town with grand hotels and the Thermes du Mont-Dore sulphur springs. Val de Courre ski area above town. Good for families, spa-seekers.",
+  "statistics": {
+    "total_pistes_km": 42,
+    "total_lifts": 11,
+    "highest_point": 1885,
+    "lowest_point": 1050
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 210
+  },
+  "suitability": {
+    "spa_seekers": "Excellent — Thermes du Mont-Dore",
+    "families": "Good",
+    "beginners": "Good"
+  }
+}

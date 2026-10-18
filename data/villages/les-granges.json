@@ -1,0 +1,18 @@
+{
+  "village": "Les Granges",
+  "slug": "les-granges",
+  "resort": "Morzine",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "ice_skating",
+    "spas",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1100,
+  "character": "Common hamlet name (the barns). Several exist across different resorts. This one: Morzine area.",
+  "source_url": "https://www.seechamonix.com/"
+}

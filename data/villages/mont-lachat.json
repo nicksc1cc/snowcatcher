@@ -1,0 +1,17 @@
+{
+  "village": "Mont Lachat",
+  "slug": "mont-lachat",
+  "altitude": 1200,
+  "resort": "Le Grand Bornand",
+  "domain": "Le Grand Bornand",
+  "region": "Aravis",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "cheese",
+    "market",
+    "culture"
+  ],
+  "character": "Hamlet on the slopes of Mont Lachat in Grand Bornand.",
+  "activities_nearby": "Hiking. Mountain views.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

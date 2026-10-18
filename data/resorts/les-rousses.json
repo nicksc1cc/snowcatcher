@@ -1,0 +1,22 @@
+{
+  "resort": "Les Rousses",
+  "slug": "les-rousses",
+  "domain": "Monts Jura",
+  "region": "Jura",
+  "altitude": 1100,
+  "character": "Main Jura ski village on the Swiss border. 35km downhill, 100km+ cross-country. Cross-country paradise. Forested, peaceful, family-friendly. Access to Swiss ski areas nearby.",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.paysdegex-montsjura.com/en/monts-jura-resort/getting-ready/ski-areas/"
+  ],
+  "non_ski_activities": {
+    "nordic": "100km+ cross-country trails. Jura Nordic area. Classic and skate skiing.",
+    "downhill": "35km downhill runs, forested slopes.",
+    "other": "Snowshoeing, sledging, winter hiking, Swiss border location, Lac des Rousses."
+  },
+  "best_for": {
+    "cross_country": 10,
+    "families": 8,
+    "peace": 9
+  }
+}

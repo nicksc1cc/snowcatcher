@@ -1,0 +1,29 @@
+{
+  "village": "Arc 1600",
+  "slug": "arc-1600",
+  "altitude": 1600,
+  "resort": "Les Arcs",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "ice_skating",
+    "swimming",
+    "wellness",
+    "spas",
+    "toboggan_run",
+    "ice_cave",
+    "paragliding",
+    "dog_sledding",
+    "snowmobiling",
+    "helicopter",
+    "snowshoeing",
+    "pedestrian_lifts"
+  ],
+  "character": "Original Les Arcs village, designed by Charlotte Perriand (1968). Lowest of the 4 Arcs. 7-min funicular to Bourg-St-Maurice. Pedestrian-only, wooded, family-friendly. Le Cairn (pizza), Le Sanglier Qui Fume (piste-side), L'Arpette (iconic apres above village). Best for quiet family base, train arrivals.",
+  "dining": "Le Cairn (pizza). Le Sanglier Qui Fume (piste-side, terrace, fire). Le Panoramic (Mont Blanc view). Snowdwich (best chips). L'Arpette (above village, DJ apres).",
+  "shopping": "Grocery, bakery, rental shops, sports retail. Friendly village atmosphere.",
+  "apres_scene": "L'Arpette Bar (DJ afternoon apres above village). Abreuvoir pub (happy hour, live music). Quiet village evenings. King Mad (popular bar).",
+  "activities_nearby": "7-min funicular to Bourg-St-Maurice (TGV station, shops, Tuesday market). Direct piste access. Ski school (ESF) at snow front. Igloo village above Arc 2000.",
+  "source_url": "https://cirkelsupply.com/blogs/news/a-village-by-village-guide-to-les-arcs"
+}

@@ -1,0 +1,28 @@
+{
+  "domain": "Ax 3 Domaines",
+  "slug": "ax-3-domaines",
+  "region": "Pyrénées",
+  "character": "80 km in the Ariege Pyrenees. Natural thermal hot springs in Ax-les-Thermes village (rue des Thermes, free public, 36-78C).",
+  "stats": {
+    "pistes_km": 80
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.ax.ski/en/",
+  "name": "Ax 3 Domaines",
+  "description": "95km of pistes, 22 lifts, across 3 sectors (Bonascre, Saquet, Campels) above the thermal town of Ax-les-Thermes in the Ariège Pyrenees. Known for: the free natural thermal hot springs in Ax (36-78°C on rue des Thermes), being the largest ski resort in Ariège, and the unique snake gliss (4.5km toboggan descent).",
+  "statistics": {
+    "total_pistes_km": 95,
+    "total_lifts": 22,
+    "highest_point": 2400,
+    "lowest_point": 1400
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 260
+  },
+  "suitability": {
+    "beginners": "Good at Bonascre sector",
+    "intermediates": "Good",
+    "families": "Good — Ax thermal baths are a unique family draw"
+  }
+}

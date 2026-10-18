@@ -1,0 +1,14 @@
+{
+  "village": "Francin",
+  "slug": "francin",
+  "resort": "Orelle",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "ski_touring"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1200,
+  "character": "Orelle commune hamlet. Traditional Maurienne valley.",
+  "source_url": "https://www.seechamonix.com/"
+}

@@ -1,0 +1,105 @@
+{
+  "resort": "Serre Chevalier",
+  "altitude": 1400,
+  "domain": "Serre Chevalier",
+  "region": "Brianconnais",
+  "character": "Sun-soaked, tree-lined runs across 250km. 13th-century Briancon (UNESCO) valley town. Highest and sunniest city in France.",
+  "description": "Serre Chevalier stretches across 4 valley villages between Briancon (UNESCO-listed, highest city in France) and La Salle-les-Alpes. The ski area is 250km across larch-forested mountainsides with a southeast aspect \u2014 excellent sun, snow preservation, and tree-lined skiing that's rare in the southern Alps. Best value in the southern Alps. The village of Briancon is a fortified city founded in the 13th century, a UNESCO World Heritage site.",
+  "stats": {
+    "altitude_resort": 1400,
+    "altitude_top": 2800,
+    "vertical_drop": 1400,
+    "own_pistes_km": 250,
+    "lifts": 61,
+    "green": 23,
+    "blue": 31,
+    "red": 33,
+    "black": 13,
+    "beginner_pct": 17,
+    "intermediate_pct": 53,
+    "advanced_pct": 30,
+    "cross_country_km": 35,
+    "snow_cannons": 255,
+    "note": "Forest-sheltered runs. Larch trees. Southeast aspect for maximum sun."
+  },
+  "weather_snow": {
+    "season_typical": "Mid-Dec to mid-Apr",
+    "snow_reliability_rating": "8/10 with snowmaking",
+    "sun_exposure": "Southeast-facing = maximum winter sun. Briancon is the highest and sunniest city in France (300+ sunny days/year)."
+  },
+  "villages": [
+    {
+      "name": "Briancon",
+      "alt": 1320,
+      "character": "UNESCO World Heritage fortified city (founded 13th century). Highest city in France. Full services \u2014 shops, restaurants, bars, hospitals, train station. Historic old town with cobbled streets.",
+      "best_for": "Non-skiers, culture, groups"
+    },
+    {
+      "name": "Serre Chevalier 1400",
+      "alt": 1400,
+      "character": "Main resort base, ski-in/ski-out, shops and restaurants",
+      "best_for": "Skiers"
+    },
+    {
+      "name": "Le Monnetier-les-Bains",
+      "alt": 1400,
+      "character": "Quieter base, thermal spa access",
+      "best_for": "Peace, spa"
+    },
+    {
+      "name": "La Salle-les-Alpes",
+      "alt": 1350,
+      "character": "Village base with good access to both Briancon and main lifts",
+      "best_for": "Families"
+    }
+  ],
+  "non_ski_activities": {
+    "note": "4 sectors: Brian\u00e7on (UNESCO, highest city in France, 1,320 m), Chantemerle (Saint-Chaffrey, 1,350 m), Villeneuve (La Salle-les-Alpes, 1,420 m), Le Mon\u00eatier-les-Bains (1,500 m, thermal spa)",
+    "briancon": "UNESCO World Heritage fortified city (Vauban fortifications). Highest city in France (1,320 m). Full services, historic old town, cobbled streets, shops, restaurants, train station.",
+    "thermal_spa": "Le Mon\u00eatier-les-Bains \u2014 natural thermal springs, wellness centre",
+    "other": "Paragliding, via ferrata, whitewater sports (spring), yoga, massage, snowshoeing through larch forests"
+  },
+  "best_for": {
+    "intermediates": 9,
+    "sun_seekers": 10,
+    "families": 8,
+    "budget": 9,
+    "culture": 9
+  },
+  "honest_drawbacks": [
+    "Lower altitude than Tarentaise resorts",
+    "Southern Alps = less snow than northern Alps",
+    "Some sectors lack tree cover above tree line",
+    "Long transfers (Grenoble 2h, Marseille 2h30)",
+    "Limited extreme/expert terrain"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Turin (Italy)",
+        "min": 100
+      },
+      {
+        "airport": "Marseille",
+        "min": 150
+      },
+      {
+        "airport": "Grenoble",
+        "min": 120
+      },
+      {
+        "airport": "Lyon",
+        "min": 180
+      }
+    ],
+    "by_train": {
+      "station": "Briancon (TGV from Paris, direct in winter)"
+    }
+  },
+  "slug": "serre-chevalier",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.serre-chevalier.com/en",
+    "https://www.serre-chevalier.com/en/blog/top-10-spring-activities-mountains"
+  ]
+}

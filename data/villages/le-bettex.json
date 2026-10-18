@@ -1,0 +1,17 @@
+{
+  "village": "Le Bettex",
+  "slug": "le-bettex",
+  "altitude": 1350,
+  "resort": "St Gervais",
+  "domain": "Chamonix Valley",
+  "region": "Mont Blanc",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "thermal_baths"
+  ],
+  "character": "Ski station above St-Gervais. Gondola from St-Gervais up to Le Bettex. Family-friendly beginner area. Quiet, snow-sure.",
+  "dining": "Mountain restaurant at gondola top.",
+  "shopping": "Minimal.",
+  "activities_nearby": "Le Bettex ski area. Access to Evasion Mont Blanc (400km). Snowshoeing.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

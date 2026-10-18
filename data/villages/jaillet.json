@@ -1,0 +1,18 @@
+{
+  "village": "Jaillet",
+  "slug": "jaillet",
+  "resort": "Meg\u00e8ve",
+  "domain": "Evasion Mont Blanc",
+  "region": "Mont Blanc",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "shopping",
+    "horse_drawn"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1250,
+  "character": "Meg\u00e8ve ski sector. Mountain restaurant.",
+  "source_url": "https://www.seechamonix.com/"
+}

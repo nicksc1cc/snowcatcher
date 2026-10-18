@@ -1,0 +1,21 @@
+{
+  "village": "Le Mon\u00eatier-les-Bains",
+  "slug": "le-monetier-les-bains",
+  "resort": "Serre Chevalier",
+  "domain": "Serre Chevalier",
+  "region": "Alpes du Sud",
+  "nearby_activities": [
+    "spas",
+    "ice_skating",
+    "swimming",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1450,
+  "character": "Thermal spa village at 1,450m in the Serre Chevalier valley. Grands Bains du Mon\u00eatier \u2014 thermal spa with 34\u00b0C outdoor pool fed by natural springs. Part of Serre Chevalier (250km). Traditional village atmosphere, stone houses, narrow streets. Gondola to ski area. Quiet, charming.",
+  "dining": "Savoyard and French restaurants. Spa-oriented dining options.",
+  "shopping": "Bakery, grocery, pharmacy, spa products.",
+  "activities_nearby": "Grands Bains du Mon\u00eatier (thermal spa, 34\u00b0C outdoor pool, sauna, hammam). Serre Chevalier 250km. Snowshoeing, hiking. Via ferrata. Guided ski touring.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

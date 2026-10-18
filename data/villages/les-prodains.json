@@ -1,0 +1,21 @@
+{
+  "village": "Les Prodains",
+  "slug": "les-prodains",
+  "resort": "Morzine",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "ice_skating",
+    "spas",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1150,
+  "character": "Lower cable car station for Avoriaz. Car parking, rental shops, and ticket office. Small cluster of accommodation. Quickest access to Avoriaz slopes.",
+  "dining": "Limited \u2014 top of cable car has restaurant.",
+  "shopping": "Ski rental, parking.",
+  "activities_nearby": "Prodains cable car (15 min to Avoriaz 1,800m). Access to Portes du Soleil.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

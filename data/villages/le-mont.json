@@ -1,0 +1,16 @@
+{
+  "village": "Le Mont",
+  "slug": "le-mont",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1100,
+  "character": "Sixt hamlet on the mountain side above the valley.",
+  "activities_nearby": "Hiking, snowshoeing.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

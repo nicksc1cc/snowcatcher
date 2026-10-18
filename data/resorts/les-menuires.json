@@ -1,0 +1,66 @@
+{
+  "resort": "Les Menuires",
+  "slug": "les-menuires",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "altitude": 1850,
+  "character": "Best-value base in Les 3 Vall\u00e9es. Functional 1970s architecture with newer chalet-style additions. Awarded Famille Plus label. 94% visitor satisfaction.",
+  "research_status": "properly_sourced",
+  "description": "Les Menuires is the most affordable base in Les 3 Vall\u00e9es at 1,850m. Purpose-built in the 1970s with functional concrete architecture, newer chalet-style hotels (Reberty, Les Bruy\u00e8res) have improved the look. 94% visitor satisfaction. Famille Plus label. Unpretentious, cosmopolitan, family-friendly. Good links to M\u00e9ribel and the full 600km 3V domain.",
+  "sources": [
+    "Les Menuires official press kit 2026-2027 PDF",
+    "https://www.findingouradventure.com/travel-diaries/les-menuires-guide-and-activities",
+    "https://static.lesmenuires.com/files/guide-activites-hiver-fr-en.pdf"
+  ],
+  "stats": {
+    "altitude_resort": 1850,
+    "altitude_top": 3230,
+    "domain_pistes_km": 600,
+    "beginner_pct": 45,
+    "intermediate_pct": 43,
+    "expert_pct": 12
+  },
+  "villages": [
+    {
+      "name": "Les Menuires Centre (Croisette)",
+      "alt": 1850,
+      "character": "Central area, functional 1970s architecture, shops, restaurants, services, Le Break sports centre",
+      "best_for": "Families, budget"
+    },
+    {
+      "name": "Reberty",
+      "alt": 1850,
+      "character": "Quieter satellite, newer chalet-style buildings, ski-in/ski-out",
+      "best_for": "Peace, couples"
+    },
+    {
+      "name": "Les Bruy\u00e8res",
+      "alt": 1750,
+      "character": "Quiet suburb, La Bulle aquatic centre, modern chalets",
+      "best_for": "Peace, wellness"
+    }
+  ],
+  "non_ski_activities": {
+    "la_belle_vie": "Unique wellness centre in St-Martin area. Indoor pool, waterfalls, massage jets, heated Nordic pool, hammam, themed saunas, Cosy Bar. \u20ac9.50 pool / \u20ac29 wellness / \u20ac42.80 6-day pass.",
+    "le_break": "Croisette \u2014 water park with pool, waterfalls, paddling pool, wellness (saunas, hammam, jacuzzis). \u20ac9.50/\u20ac42.80.",
+    "la_bulle": "Les Bruy\u00e8res \u2014 aquatic play area, lazy river, water games, balneo pool, sauna, hammam, jacuzzi, tea room. \u20ac9.50/\u20ac42.80.",
+    "roc_seven": "Highest Italian restaurant in 3V at 2,300m. Live music at 2pm daily. Panoramic valley views. Pizzas, lasagne.",
+    "fahrenheit_seven": "New 4-star ski-in/ski-out hotel (opened Dec 2026). 51 rooms, neo-vintage design. Heated indoor pool, sauna, steam room. Italian/Mediterranean cuisine. 200m\u00b2 south-facing terrace with DJs. From \u20ac300/night incl breakfast.",
+    "chez_pepe_nicolas": "Family farm \u2014 cheese cellar dining at altitude. 4 generations of alpine farmers. Alpine cheese tasting (tommes, raclette, s\u00e9rac). Thursdays 6pm, \u20ac50/2hrs incl tastings.",
+    "la_marmite": "Ma\u00eetre Restaurateur certified. Igloo dining \u2014 raclette/fondue in transformed gondola cabins. Set menu \u20ac52 / child \u20ac22.",
+    "yogiski_week": "11th edition 4-9 April 2027. Yoga at 2,800m, sound baths, Ayurveda, cold yoga, Tai Chi. Skiing included.",
+    "other": "Boukty Camp tobogganing, snow groomer rides, snowmobiling, dog sledding, meeting an alpine farmer, cinema, ski touring, cross-country skiing, heritage trail, Notre-Dame-de-la-Vie baroque sanctuary"
+  },
+  "best_for": {
+    "families": 10,
+    "beginners": 9,
+    "budget": 10,
+    "intermediates": 8
+  },
+  "honest_drawbacks": [
+    "1970s concrete architecture \u2014 not charming",
+    "Fragmented layout across 3 neighbourhoods",
+    "Quieter apres than M\u00e9ribel/VT (but Roc Seven lively)",
+    "Limited advanced terrain"
+  ]
+}

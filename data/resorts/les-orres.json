@@ -1,0 +1,56 @@
+{
+  "resort": "Les Orres",
+  "slug": "les-orres",
+  "domain": "Les Orres",
+  "region": "Hautes-Alpes",
+  "altitude": 1550,
+  "character": "Sunny southern Alps resort in a larch forest overlooking Lac de Serre-Pon\u00e7on. 100km pistes, 3 snow fronts (1550, 1650, 1800), family-friendly, 10 hamlets. Southern climate with reliable snow from NW exposure.",
+  "research_status": "properly_sourced",
+  "description": "Les Orres sits in a larch forest in the Hautes-Alpes with panoramic views of Lac de Serre-Pon\u00e7on and the \u00c9crins National Park. 3 snow fronts at different altitudes (1550, 1650, 1800). 100km of pistes, 36 runs (9 green, 5 blue, 17 red, 5 black), 17 lifts. North-western exposure preserves snow quality despite southern climate. Open 5 December 2026 to 11 April 2027.",
+  "sources": [
+    "https://www.lesorres.com/en/skiing-in-les-orres/the-ski-area",
+    "https://www.lesorres.com/en/activities-and-entertainment/going-out-in-les-orres",
+    "https://www.lesorres.com/en/activities-and-entertainment/activities-in-les-orres",
+    "https://www.lesorres.com/en"
+  ],
+  "stats": {
+    "altitude_resort": 1550,
+    "altitude_top": 2720,
+    "pistes_km": 100,
+    "runs": 36,
+    "green": 9,
+    "blue": 5,
+    "red": 17,
+    "black": 5,
+    "lifts": 17,
+    "chairlifts": 7,
+    "drag_lifts": 8,
+    "magic_carpets": 2,
+    "snowparks": 1,
+    "toboggan_areas": 2,
+    "open_from": "5 December 2026",
+    "open_until": "11 April 2027"
+  },
+  "non_ski_activities": {
+    "snow_fronts": "3 altitude levels: Les Orres 1550, 1650, and 1800 \u2014 each with different character and access.",
+    "bars_and_restaurants": "Le G\u00eete 05 (dinner-shows, traditional, open 7/7), Le Lieu (bistronomic, views of larch forest), Le Curious (lounge bar and tapas), Carrefour Montagne bakery.",
+    "entertainment": "Free evening entertainment programme, drone show (24 December), torchlight descents (30 December), New Year celebrations.",
+    "activities": "Snowpark, 2 toboggan areas (1650 and 1800), snowshoeing, paragliding, fitness, climbing, virtual reality, guided walks.",
+    "kids": "2 snow gardens, Kids Park, free activities, ESF and ESI ski schools.",
+    "events": "Winter Opening weekend (5-6 Dec), Magic Christmas (19-25 Dec), Drone Show (24 Dec), New Year celebrations, Mountain Film Library Encounters.",
+    "location_note": "Near Embrun and Lac de Serre-Pon\u00e7on. Easy reach from Marseille, Aix-en-Provence, Gap, Brian\u00e7on."
+  },
+  "best_for": {
+    "families": 9,
+    "beginners": 8,
+    "intermediates": 8,
+    "sun_seekers": 9,
+    "budget": 8
+  },
+  "honest_drawbacks": [
+    "Smaller domain than Tarentaise giants (100km)",
+    "Southern Alps \u2014 less reliable snow than northern Alps despite good exposure",
+    "Quiet apres compared to big-name resorts",
+    "Limited expert/advanced terrain"
+  ]
+}

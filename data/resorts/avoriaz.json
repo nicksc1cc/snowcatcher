@@ -1,0 +1,64 @@
+{
+  "resort": "Avoriaz",
+  "altitude": 1800,
+  "domain": "Portes du Soleil",
+  "region": "Mont Blanc/Chablais",
+  "character": "Car-free, snow-sure, purpose-built resort at 1,800m. Europe's only fully pedestrian resort \u2014 horse-drawn sleighs for transport. Central to the Portes du Soleil 600km domain.",
+  "description": "Avoriaz is unique in Europe \u2014 a completely car-free pedestrian resort at 1,800m. Access is by cable car from Les Prodains or by road (cars park at the entrance). Streets are snow-covered, transport is by horse-drawn sleigh or on skis. Ski-in/ski-out from every accommodation \u2014 even the bakery is accessible on skis. The architecture is striking 1960s modernism, designed by Jean-Marcel Aubert. Central to the 600km Portes du Soleil domain with direct access to Switzerland. Famous for the Avoriaz Fantastic Film Festival and the Stash snowpark.",
+  "stats": {
+    "altitude_resort": 1800,
+    "altitude_top": 2466,
+    "own_pistes_km": 0,
+    "domain_pistes_km": 600,
+    "own_lifts": 35,
+    "own_pistes": 53,
+    "snowparks": 2,
+    "note": "Central Portes du Soleil. Two snowparks, boardercross, secure freeride zones. Stash snowpark is famous."
+  },
+  "weather_snow": {
+    "season_typical": "Mid-Dec to late Apr",
+    "snow_reliability_rating": "8/10 \u2014 resort at 1,800m, most terrain above 1,800m"
+  },
+  "villages": [
+    {
+      "name": "Avoriaz",
+      "alt": 1800,
+      "character": "Car-free pedestrian resort, horse-drawn sleighs, striking modernist architecture, snow-covered streets, ski-in/ski-out throughout",
+      "best_for": "Freestylers, families, architecture fans"
+    }
+  ],
+  "non_ski_activities": {
+    "horse_drawn_sleighs": "Free snow taxi \u2014 Avoriaz is fully pedestrian, horse-drawn sleighs are primary transport. Magical for children.",
+    "aquariaz": "5,000 m\u00b2 indoor tropical water park at Avoriaz. 180m lazy river (29-32\u00b0C), 3 giant slides, tropical lagoon, kids zone, Deep Nature Spa area. \u20ac32 adult / \u20ac26 child / ~\u20ac100 family pass.",
+    "spas": "Deep Nature Spa at Aquariaz (sauna, hammam, jacuzzi)",
+    "other": "Paragliding, dog sledding, snowshoeing, cinema, events (Fantastic Film Festival)"
+  },
+  "best_for": {
+    "freestyle": 10,
+    "families": 9,
+    "intermediates": 9,
+    "beginners": 8,
+    "advanced": 7
+  },
+  "honest_drawbacks": [
+    "Unique architecture divides opinion \u2014 loved or hated",
+    "Car-free means parking at entrance and using sleigh transport",
+    "Can feel quiet compared to Morzine",
+    "Limited non-ski activities for non-skiers without car access"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 90
+      }
+    ],
+    "note": "Access via cable car from Les Prodains or road from Morzine"
+  },
+  "slug": "avoriaz",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.avoriaz.com/en/staying/access-and-transport/sleighs-and-snow-vehicules/",
+    "https://www.seeavoriaz.com/guide/avo-and-its-surroundings"
+  ]
+}

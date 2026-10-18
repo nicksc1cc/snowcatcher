@@ -1,0 +1,29 @@
+{
+  "village": "Arc 1950",
+  "slug": "arc-1950",
+  "altitude": 1950,
+  "resort": "Les Arcs",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "ice_skating",
+    "swimming",
+    "wellness",
+    "spas",
+    "toboggan_run",
+    "ice_cave",
+    "paragliding",
+    "dog_sledding",
+    "snowmobiling",
+    "helicopter",
+    "snowshoeing",
+    "pedestrian_lifts"
+  ],
+  "character": "Newest Les Arcs village. Built by Canadian developer Intrawest (same team as Whistler), completed 2008. Car-free, ski-in/ski-out. Polished alpine style \u2014 traditional-looking low-rise chalets. Luxury anchor of Les Arcs. Deep Nature Spa (largest wellness centre in the Alps). Chalet de Luigi, Les Belles Pintes, Nonna Lisa.",
+  "dining": "Chalet de Luigi (pasta, Italian delicatessen, large terrace). Nonna Lisa (Italian). Hemingway's (French cuisine). Le Chalet de Candice (duck).",
+  "shopping": "Boutique shops, concept stores, designer ski gear, sports rental. More upscale than other villages. Concept Board Shop for board gear.",
+  "apres_scene": "Les Belles Pintes (Irish bar, live music, sports TVs). George's wine bar. Chalet de Luigi (apres on terrace). Nightly live music roster across village bars. Free shuttle and gondola to Arc 2000.",
+  "activities_nearby": "Deep Nature Spa (largest wellness complex in the Alps). Cinema. Ski-in/ski-out. Free gondola to Arc 2000. Access to Arc 1800 via ski. Paradiski (425km).",
+  "source_url": "https://cirkelsupply.com/blogs/news/a-village-by-village-guide-to-les-arcs"
+}

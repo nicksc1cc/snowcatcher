@@ -1,0 +1,49 @@
+{
+  "resort": "La Grave",
+  "slug": "la-grave",
+  "domain": "La Grave",
+  "region": "Oisans",
+  "altitude": 1450,
+  "character": "The most extreme lift-served skiing in the Alps. No groomed pistes, no avalanche control, no patrol. One 2-stage pulse gondola (since 1958) accessing 2,150m vertical on La Meije (3,982m). 'Plus Beaux Villages de France'. For experts only, guide essential.",
+  "research_status": "properly_sourced",
+  "description": "La Grave is classified as one of 'Les Plus Beaux Villages de France' and is the most extreme lift-served ski destination in the Alps. The Vallons de la Meije offer 2,150m vertical of entirely unpisted, unpatrolled terrain with no formal avalanche control. Access is via a single 2-stage pulse gondola (built 1958): village (1,450m) \u2192 P1 (1,800m) \u2192 Peyrou d'Amont (2,400m) \u2192 Col des Ruillans (3,200m). A world-unique suspended T-bar reaches the Girose Glacier (3,550m). La Meije summit is 3,982m. Not a resort for beginners or even most intermediates \u2014 this is serious high-alpine terrain requiring a guide. A small beginner area exists at Le Chazelet. Also a major ice climbing destination in winter. Pop. 479.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/La_Grave",
+    "https://57hours.com/review/skiing-la-grave/",
+    "https://www.powderhounds.com/Europe/France/La-Grave.aspx"
+  ],
+  "stats": {
+    "altitude_resort": 1450,
+    "altitude_top": 3550,
+    "vertical_drop": 2150,
+    "pistes_km": 0,
+    "groomed_runs": 0,
+    "lifts": "1 pulse gondola (2-stage) + 1 suspended T-bar",
+    "gondola": "Built 1958. 1,450m to 3,200m via 3 stations",
+    "glacier": "Girose Glacier (3,550m)",
+    "peak": "La Meije (3,982m)",
+    "classification": "Plus Beaux Villages de France"
+  },
+  "non_ski_activities": {
+    "off_piste_only": "Vallons de la Meije \u2014 no pistes, no grooming, no avalanche control. Descents via Trifides couloirs, Chancel route (Banane, Patou, Couloir du Lac), Fr\u00e9aux Couloir. Guide essential. Glacier travel required at top.",
+    "ice_climbing": "Major ice climbing destination. Routes from <100m to >300m. La Gorge (II/3) to Diabolobite (II/5+). Little winter sun = stable ice.",
+    "beginner_area": "Le Chazelet \u2014 small beginner ski area separate from the main gondola.",
+    "mountain_restaurants": "Peyrou d'Amont (2,400m), Col des Ruillans (3,200m), Refuge Evariste Chancel (food and beds).",
+    "history": "Doug Coombs died here April 2006 attempting to save a friend in Couloir de Polichinelle.",
+    "village": "Classified 'Plus Beaux Villages de France'. Population 479. Traditional mountain village with stone houses."
+  },
+  "best_for": {
+    "expert": 10,
+    "off_piste": 10,
+    "ice_climbing": 9,
+    "peace": 9
+  },
+  "honest_drawbacks": [
+    "Extremely dangerous \u2014 not suitable without guide",
+    "No groomed pistes at all",
+    "No avalanche control or ski patrol",
+    "One cable car = queues and wind closures",
+    "No beginners, no intermediates, no families",
+    "Very quiet village \u2014 limited restaurants/apres"
+  ]
+}

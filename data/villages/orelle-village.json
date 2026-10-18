@@ -1,0 +1,17 @@
+{
+  "village": "Orelle Village",
+  "slug": "orelle-village",
+  "resort": "Orelle",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "ski_touring"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 900,
+  "character": "Original Orelle commune village at 900m. Traditional Maurienne valley architecture. Orelle 3 Vall\u00e9es gondola (10 min to ski area). Small shops, bakery, post office, church (17th C).",
+  "dining": "Local village restaurant. Mountain restaurant at Orelle gondola top station.",
+  "shopping": "Village shops, bakery, grocery.",
+  "activities_nearby": "Orelle gondola to 3 Vall\u00e9es (highest lift in Europe \u2014 1,790m vertical to 3,230m). Via ferrata (Maurienne valley). Hiking, snowshoeing.",
+  "source_url": "https://www.lesmenuires.com/en/"
+}

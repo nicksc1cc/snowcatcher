@@ -1,0 +1,19 @@
+{
+  "village": "Flaine Montsoleil",
+  "slug": "flaine-montsoleil",
+  "altitude": 1700,
+  "resort": "Flaine",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "art",
+    "swimming",
+    "ice_skating",
+    "spa",
+    "cinema"
+  ],
+  "character": "Higher neighbourhood of Flaine at 1,700m. Ski-in/ski-out. 5* hotel. Sunlit terraces. Quieter than Forum.",
+  "activities_nearby": "Direct Grand Massif access. Theatre. Shuttle to Forum.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

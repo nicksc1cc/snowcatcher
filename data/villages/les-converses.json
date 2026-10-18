@@ -1,0 +1,19 @@
+{
+  "village": "Les Converses",
+  "slug": "les-converses",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1350,
+  "character": "Upper La Clusaz hamlet. Cross-country centre.",
+  "activities_nearby": "Nordic skiing, snowshoeing. Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

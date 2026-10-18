@@ -1,0 +1,164 @@
+{
+  "country": {
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "description": "Switzerland is the birthplace of modern ski tourism — the first T-bar lift was installed in Davos in 1934. It recorded 25.7 million skier visits in 2025/26 (down 2.3% from record 2024/25 but 9.7% above the five-year average). Switzerland ranks 4th in Europe by skier visits (behind France, Austria, Italy) but is the most expensive ski destination in the Alps. Known for staggering scenery, impeccable infrastructure, and eye-watering prices. Swiss resorts are split across 153-176 ski areas with 1,364 lifts. Foreign visitors make up 38.5% of skier visits. Zermatt is the most popular resort (1.54 million skier visits in 2025/26), followed by Arosa Lenzerheide, Davos-Klosters, Verbier, and St. Moritz. Seven resorts each topped 1 million skier visits in 2025/26.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "~7th globally",
+      "european_rank": "4th (behind France, Austria, Italy)",
+      "annual_skier_visits": "25.7 million (2025/26 season, -2.3% from record 2024/25 but +9.7% above 5-year avg)",
+      "previous_season": "26.3 million (2024/25 — strongest in 15 years, +13.7% above 5-year avg)",
+      "total_ski_areas": "153-176 (depending on definition; SBS trade group represents 174 operators)",
+      "total_lift_installations": "1,364",
+      "total_pistes_km": "~5,500+ km (across all areas)",
+      "top_10_resorts_share": "Top 10 account for ~38.5% of total visits",
+      "foreign_visitors_share": "38.5% (up from 36.6% in previous year)",
+      "swiss_skiers_share": "61.5% (15.8 million visits, -5.3% from prior season)",
+      "transport_revenue_2025_26": "CHF 1.1 billion+ (industry-wide, down just 0.7% YoY despite 2.3% visit decline — resorts extracting more per visitor)",
+      "top_resorts_2025_26_by_visits": [
+        {
+          "rank": 1,
+          "name": "Zermatt",
+          "skier_visits_millions": 1.539,
+          "revenue_chf_millions": 78
+        },
+        {
+          "rank": 2,
+          "name": "Arosa Lenzerheide",
+          "skier_visits_millions": 1.418
+        },
+        {
+          "rank": 3,
+          "name": "Davos-Klosters",
+          "skier_visits_millions": 1.337
+        },
+        {
+          "rank": 4,
+          "name": "Verbier",
+          "skier_visits_millions": 1.276
+        },
+        {
+          "rank": 5,
+          "name": "St. Moritz",
+          "skier_visits_millions": 1.182
+        },
+        {
+          "rank": 6,
+          "name": "Jungfrauregion",
+          "skier_visits_millions": 1.085
+        },
+        {
+          "rank": 7,
+          "name": "Adelboden-Lenk",
+          "skier_visits_millions": 1.062
+        },
+        {
+          "rank": 8,
+          "name": "Aletsch Arena",
+          "skier_visits_millions": 0.941
+        },
+        {
+          "rank": 9,
+          "name": "Laax",
+          "skier_visits_millions": 0.935
+        },
+        {
+          "rank": 10,
+          "name": "Engelberg-Titlis",
+          "skier_visits_millions": 0.758
+        }
+      ],
+      "source_figures": "Seilbahnen Schweiz (SBS) final report 2025/26; Laurent Vanat International Report 2025; SkiAllDay"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "CHF",
+        "name": "Swiss Franc",
+        "symbol": "CHF (also SFr.)",
+        "notes": "Switzerland does NOT use the Euro despite being surrounded by Eurozone countries. The Swiss Franc trades at roughly parity to the Euro (CHF 1 ≈ €1.05-1.10, but can vary widely). Cash is still very widely used — many mountain restaurants, small shops, and even some ticket offices are cash-only or charge card surcharges. ATMs widely available. Carry CHF 100-200. Prices are the highest in the Alps — expect to pay double French prices for equivalent meals and accommodation."
+      },
+      "language": {
+        "official": "German (63%), French (23%), Italian (8%), Romansh (0.5%)",
+        "english_in_resorts": "Excellent — Swiss resorts are among the most internationally oriented. English spoken fluently at ticket offices, ski schools, hotels, and restaurants in all major resorts (Zermatt, Verbier, St. Moritz, Davos, Engelberg, Laax).",
+        "regional_breakdown": "German: Bernese Oberland, Central Switzerland, Graubünden, Valais (upper). French: Valais (lower), Vaud, Geneva. Italian: Ticino. Romansh: parts of Graubünden."
+      },
+      "power_plugs": {
+        "type": "Type J (3-pin round, 230V, 50Hz) — unique to Switzerland and Liechtenstein",
+        "adapter_needed": "Yes for UK visitors. Type J is different from standard EU Type C/E/F. A standard EU adapter may NOT fit Type J sockets — get a dedicated Switzerland adapter or one that includes Type J. Many modern Swiss hotels have universal sockets or USB.",
+        "note": "If you bring a standard EU adapter, it may not work in Switzerland. Don't assume 'Europe adapter' = Switzerland."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as France/Italy. 1 hour ahead of UK."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_verbier_zermat": "~8-9 hours via Reims-Basel-Bern or Geneva. Fastest route through France, not via Germany.",
+        "calais_to_davos_st_moritz": "~10-11 hours via Reims-Strasbourg-Basel-Zürich-Chur.",
+        "calais_to_engelberg": "~9-10 hours via Reims-Basel-Luzern.",
+        "motorway_vignette": {
+          "cost": "CHF 40 (fixed annual price for the calendar year, runs 1 Dec–31 Jan of following year — no short-term option)",
+          "where_to_buy": "Border crossings, Swiss petrol stations, post offices, online (byoTicket). Must be affixed to windscreen. Digital vignette (number-plate based) available since 2024.",
+          "enforcement": "No vignette = CHF 200 fine. Driving without a valid vignette on motorways is strictly enforced with cameras and police checks."
+        },
+        "tolls": "Switzerland has a flat motorway vignette system (CHF 40/year) — no per-km tolls. Mountain pass roads are toll-free. Major tunnel tolls: Grand St Bernard CHF 30, Munt la Schera CHF 15. Mont Blanc tunnel approach is French/Italian side toll.",
+        "fuel_stops": "Swiss fuel is typically CHF 1.80-2.20/litre. Cheaper in France — fill up before crossing the border."
+      },
+      "winter_driving_law": {
+        "legal_requirement": "Switzerland has NO legal winter tyre requirement. No fixed dates, no mandatory calendar period. However:",
+        "practical_reality": "1. If driving without winter tyres obstructs traffic or endangers others in winter conditions, you can still be fined under Article 29 SVG (roadworthiness duty). 2. If you cause an accident on summer tyres in winter conditions, your insurer may NOT fully cover the damage (can treat it as negligence). 3. Police can turn you back on mountain access roads if your car is not winter-ready, even without a specific law. In practice: winter tyres are just as necessary as in countries with explicit laws. Don't risk finding out if your European insurer will actually pay.",
+        "snow_chains": "Mandatory ONLY where the 'Schneeketten obligatorisch' blue sign is posted (mountain passes, steep access roads after heavy snow). Metal chains required on at least 2 drive wheels of one axle. Textile snow socks do NOT count unless specifically approved by ASTRA (Swiss roads office). Sign lifts with 'Ende des Schneeketten-Obligatoriums'.",
+        "speed_limits": {
+          "motorway": "120 km/h",
+          "semi_motorway": "100 km/h",
+          "main_roads": "80 km/h",
+          "urban": "50 km/h",
+          "fines": "Speeding fines start at CHF 40. Switzerland is notorious for HIGH speeding fines — income-based for serious offences. Cameras everywhere (both fixed and mobile). Cross-border enforcement with EU countries."
+        }
+      },
+      "ev_charging": {
+        "availability": "Excellent — Switzerland has one of the densest fast-charging networks in Europe. Every resort has public charging in car parks. Swissgrid and third-party providers cover the country well.",
+        "networks": "Swisscharge, Ionity, Fastned. Local resort chargers via ewz, CKW, or local utilities.",
+        "tips": "Download Swisscharge app. Chargemap works well in Switzerland too. Many hotels in major resorts have destination chargers — ask when booking."
+      }
+    },
+    "ski_insurance": {
+      "rega": {
+        "what_it_is": "Rega (Swiss Air-Rescue) is the helicopter rescue service. For CHF 40/year you become a Rega patron, ensuring helicopter rescue without out-of-pocket costs. Rega covers rescue within Switzerland only.",
+        "patron_cost": "CHF 40/year for a household. Incredible value.",
+        "helicopter_mission_cost_without": "~CHF 4,500 average (complex missions CHF 10,000-30,000+)",
+        "rega_app": "Emergency number 1414 or Rega app (with automatic GPS coordinates) — for helicopter rescue in Switzerland.",
+        "from_abroad": "+41 333 333 333",
+        "limitations": "Covered only in Switzerland. If you're a Rega patron and ski in Italy or France, you need separate cover."
+      },
+      "travel_insurance": "Essential. UK travel insurance with winter sports cover is the standard solution. Check it covers: piste rescue (patrouille des pistes), helicopter evacuation (costs easily CHF 4,500), mountain rescue, repatriation. Rega patronage supplements but does NOT replace travel insurance — Rega covers helicopter rescue only, not medical treatment, hospital stays, or repatriation."
+    },
+    "emergency_services": {
+      "european_emergency": "112 (works alongside Swiss numbers from any phone)",
+      "swiss_numbers": {
+        "rega_helicopter_rescue": "1414",
+        "ambulance_medical": "144 (also for mountain/terrain rescue coordination)",
+        "police": "117",
+        "fire": "118",
+        "rega_from_abroad": "+41 333 333 333",
+        "psychological_support": "143 (Die Dargebotene Hand)",
+        "poison_control": "145 (Tox Info Suisse)"
+      },
+      "mountain_rescue": {
+        "swiss_alpine_rescue": "Swiss Alpine Rescue (SAR) — national mountain rescue organisation. Works with Rega for helicopter missions. Can be reached via 1414 (Rega) or 144 (ambulance) for coordination.",
+        "cost_without_insurance": "Rescue mission CHF 4,500+. Complex helicopter missions CHF 10,000-30,000+.",
+        "piste_patrol": "Patrouille des pistes (piste patrol) handles on-piste incidents in each resort. Charged per rescue."
+      },
+      "piste_incident_procedure": {
+        "if_witness": "1. Call 112 or 1414 (for helicopter) or 144 (ambulance). 2. Mark spot with crossed skis. 3. Don't move casualty unless in immediate danger. 4. Keep them warm. 5. Note piste name and nearest lift number. 6. Stay on the line — staying contactable is critical.",
+        "landing_site": "Clear a 25x25m area for helicopter 100m from accident if possible. Remove loose objects. Kneel down when helicopter approaches. Don't approach until rotor stops."
+      }
+    },
+    "ski_customs_and_regulations": {
+      "helmet_law": "No legal requirement for adults or children in Switzerland. Strongly recommended. Some ski schools require helmets for children — check with the specific school.",
+      "carrying_own_gear": "Same as France — skis as special baggage. Airlines serving Zurich, Geneva, Basel, Bern check standard ski carriage rules.",
+      "swiss_lift_pass_pricing_note": "Swiss lift passes are the most expensive in the Alps. Zermatt 2025/26: CHF 109/day (CHF 545/6 days). Compare to Les 3 Vallées at €345/6 days. Swiss prices are roughly 40-60% higher than comparable French domains. This is why value-per-km metrics for Swiss resorts are poor despite superb quality and scenery.",
+      "etias_warning": "UK visitors will need ETIAS travel authorisation (from mid-2025, confirmed date TBC) for entering Schengen area including Switzerland for stays up to 90 days. €7 fee, valid 3 years. Check the official ETIAS website before travelling."
+    },
+    "price_positioning_vs_peers": "Switzerland is the most expensive ski destination in the Alps by a wide margin. Lift passes cost 40-60% more than equivalent French domains (Zermatt CHF 109/day vs Val Thorens €67/day). Accommodation, food, and drink are proportionally higher — a mountain lunch that costs €22 in France will be CHF 40-50 in Switzerland. Total weekly cost per person is typically 50-80% higher than a comparable French trip. The value proposition is quality of infrastructure, scenery, and service — not price. Budget-conscious skiers should choose France or Italy. Switzerland is for those prioritising luxury, reliability, and Alpine drama over cost.",
+    "season_general": "December to late April for most Alpine resorts (1,200m+ base). Earlier/later for high-altitude: Zermatt (1,620m base) late Nov–early May. Saas-Fee year-round glacier (2,300-3,600m). Engelberg-Titlis glacier November–May. Diavolezza/Morteratsch glaciers (St. Moritz area). Swiss season dates are generally tight — most resorts open from mid-Dec and close by late Apr. Christmas and February half-term peak. April skiing excellent at high altitude (Verbier, Zermatt, Saas-Fee, Davos)."
+  }
+}

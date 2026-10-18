@@ -1,0 +1,52 @@
+{
+  "domain": "Grand Domaine",
+  "slug": "grand-domaine",
+  "region": "Oisans",
+  "character": "250 km linking Alpe d'Huez, Vaujany, Oz-en-Oisans, and Auris. Home of the Sarenne — 16 km black run, longest in Europe.",
+  "research_status": "properly_sourced",
+  "description": "250km of linked pistes, 63 lifts, connecting Alpe d'Huez, Oz-en-Oisans, Vaujany, and Auris-en-Oisans. The domain sits on a massive south-facing plateau above the Romanche valley in the Oisans massif. Known for: the Sarenne run (16km black — Europe's longest single run), 300 days of sunshine per year, the Pic Blanc summit (3,330m), and the 21-turn 'Pas de la Confusion' off-piste route in the Sarenne valley. Sunny, snow-sure due to high altitude (Alpe d'Huez village at 1,860m).",
+  "stats": {
+    "pistes_km": 250,
+    "lifts": 84,
+    "highest_point_m": 3330,
+    "lowest_point_m": 1100,
+    "glacier": "Pic Blanc glacier (3,330 m)"
+  },
+  "source_url": "https://www.alpedhuez.com/en/",
+  "name": "Grand Domaine (Alpe d'Huez)",
+  "statistics": {
+    "total_pistes_km": 250,
+    "total_lifts": 63,
+    "highest_point": 3330,
+    "lowest_point": 1100,
+    "vertical_drop": 2230,
+    "glaciers": [
+      {
+        "name": "Sarenne Glacier",
+        "altitude": 3200
+      }
+    ]
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 68,
+    "adult_6day": 355,
+    "child_6day": 284,
+    "note": "Alpe d'Huez only pass cheaper. Oz/Vaujany/Auris local passes available. Glacier access included.",
+    "source_url": "https://www.alpedhuez.com/en/ski-passes/"
+  },
+  "suitability": {
+    "beginners": "Good — Alpe d'Huez village has a dedicated beginner area at the snow front. Oz 3300 and Vaujany have gentle greens. The Sarenne from mid-station down is a gentle blue that beginners can ski.",
+    "intermediates": "Excellent — the south-facing plateau gives endless blue/red combinations. The run from Signal de l'Homme (2,800m) back to Alpe d'Huez is a classic 6km red/blue cruiser. Vaujany's return run through the forest.",
+    "advanced": "Very good — the 21 black runs including the famous Sarenne (16km from 3,300m to 1,500m). The steep off-piste in the Sarenne couloirs. The Combe Charbonnière area."
+  },
+  "signature_runs": [
+    {
+      "name": "Sarenne",
+      "difficulty": "black",
+      "length_km": 16,
+      "vertical_m": 1800,
+      "description": "Europe's longest single run — 16km from Pic Blanc (3,330m) to the Sarenne valley. A true classic. Blue alternative from mid-station."
+    }
+  ]
+}

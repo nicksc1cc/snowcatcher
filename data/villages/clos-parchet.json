@@ -1,0 +1,19 @@
+{
+  "village": "Clos Parchet",
+  "slug": "clos-parchet",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 800,
+  "character": "Residential hamlet on the outskirts of Samoens. Quiet, family homes.",
+  "activities_nearby": "Shuttle to Samoens and Grand Massif.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

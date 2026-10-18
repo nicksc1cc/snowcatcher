@@ -1,0 +1,1060 @@
+{
+  "name": "France",
+  "slug": "france",
+  "regions": [
+    {
+      "name": "Tarentaise",
+      "slug": "tarentaise",
+      "character": "The engine room",
+      "domains": [
+        {
+          "name": "Les Trois Vall\u00e9es",
+          "slug": "les-trois-vallees",
+          "pistes_km": 600,
+          "lifts": 183,
+          "highest_point": 3230,
+          "lowest_point": 1300,
+          "resorts": [
+            {
+              "name": "Val Thorens",
+              "slug": "val-thorens",
+              "altitude": 2300,
+              "villages": [
+                "Val Thorens Centre",
+                "La Grande Masse"
+              ]
+            },
+            {
+              "name": "Courchevel",
+              "slug": "courchevel",
+              "altitude": 1850,
+              "villages": [
+                "Courchevel 1850",
+                "Courchevel 1650",
+                "Courchevel 1550",
+                "Le Praz"
+              ]
+            },
+            {
+              "name": "M\u00e9ribel",
+              "slug": "meribel",
+              "altitude": 1450,
+              "villages": [
+                "M\u00e9ribel Centre",
+                "M\u00e9ribel Mottaret",
+                "M\u00e9ribel Village",
+                "M\u00e9ribel-Les Allues"
+              ]
+            },
+            {
+              "name": "Les Menuires",
+              "slug": "les-menuires",
+              "altitude": 1850,
+              "villages": [
+                "Les Menuires",
+                "Reberty"
+              ]
+            },
+            {
+              "name": "St-Martin-de-Belleville",
+              "slug": "saint-martin-de-belleville",
+              "altitude": 1400,
+              "villages": [
+                "St-Martin",
+                "Villarlong"
+              ]
+            },
+            {
+              "name": "Brides-les-Bains",
+              "slug": "brides-les-bains",
+              "altitude": 600,
+              "villages": [
+                "Brides-les-Bains",
+                "La Vall\u00e9e",
+                "Feissons-sur-Salins"
+              ]
+            },
+            {
+              "name": "La Tania",
+              "slug": "la-tania",
+              "altitude": 1400,
+              "villages": [
+                "La Tania",
+                "Le Jardin Alpin",
+                "Les Tovets"
+              ]
+            },
+            {
+              "name": "Orelle",
+              "slug": "orelle",
+              "altitude": 1800,
+              "villages": [
+                "Orelle Village",
+                "Le Praz",
+                "Francin"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paradiski",
+          "slug": "paradiski",
+          "pistes_km": 425,
+          "lifts": 141,
+          "highest_point": 3417,
+          "lowest_point": 1200,
+          "resorts": [
+            {
+              "name": "La Plagne",
+              "slug": "la-plagne",
+              "altitude": 2000,
+              "villages": [
+                "Plagne Centre",
+                "Belle Plagne",
+                "Plagne 1800",
+                "Plagne Soleil",
+                "Plagne Villages",
+                "Plagne Bellec\u00f4te",
+                "Aime 2000",
+                "Montalbert",
+                "Les Coches",
+                "Montchavin",
+                "Champagny-en-Vanoise"
+              ]
+            },
+            {
+              "name": "Les Arcs",
+              "slug": "les-arcs",
+              "altitude": 1600,
+              "villages": [
+                "Arc 1600",
+                "Arc 1800",
+                "Arc 1950",
+                "Arc 2000",
+                "Les Chapieux",
+                "Villaroger"
+              ]
+            },
+            {
+              "name": "Peisey-Vallandry",
+              "slug": "peisey-vallandry",
+              "altitude": 1600,
+              "villages": [
+                "Peisey",
+                "Vallandry",
+                "Plan Peisey"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Espace Killy",
+          "slug": "espace-killy",
+          "pistes_km": 300,
+          "lifts": 78,
+          "highest_point": 3456,
+          "lowest_point": 1550,
+          "resorts": [
+            {
+              "name": "Val d'Is\u00e8re",
+              "slug": "val-disere",
+              "altitude": 1850,
+              "villages": [
+                "Val d'Is\u00e8re",
+                "Le Fornet",
+                "La Daille"
+              ]
+            },
+            {
+              "name": "Tignes",
+              "slug": "tignes",
+              "altitude": 2100,
+              "villages": [
+                "Le Lac",
+                "Les Br\u00e9vi\u00e8res",
+                "Val Claret",
+                "Le Lavachet"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maurienne",
+      "slug": "maurienne",
+      "character": "The quiet valley",
+      "domains": [
+        {
+          "name": "Les Sybelles",
+          "slug": "les-sybelles",
+          "pistes_km": 310,
+          "lifts": 62,
+          "highest_point": 2800,
+          "resorts": [
+            {
+              "name": "Le Corbier",
+              "slug": "le-corbier",
+              "villages": [
+                "Le Corbier"
+              ]
+            },
+            {
+              "name": "La Toussuire",
+              "slug": "la-toussuire",
+              "villages": [
+                "La Toussuire"
+              ]
+            },
+            {
+              "name": "St-Jean-d'Arves",
+              "slug": "st-jean-darves",
+              "villages": [
+                "St-Jean-d'Arves"
+              ]
+            },
+            {
+              "name": "St-Sorlin-d'Arves",
+              "slug": "st-sorlin-darves",
+              "villages": [
+                "St-Sorlin-d'Arves"
+              ]
+            },
+            {
+              "name": "Les Karellis",
+              "slug": "les-karellis",
+              "villages": [
+                "Les Karellis"
+              ]
+            },
+            {
+              "name": "Le Botti\u00e8res",
+              "slug": "le-bottieres",
+              "villages": [
+                "Le Botti\u00e8res"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Galibier-Thabor",
+          "slug": "galibier-thabor",
+          "pistes_km": 150,
+          "lifts": 35,
+          "resorts": [
+            {
+              "name": "Valloire",
+              "slug": "valloire",
+              "villages": [
+                "Valloire Centre",
+                "Les Verneys",
+                "Les Clots",
+                "Les Granges",
+                "Poingt Ravier",
+                "Bonnenuit",
+                "Le Pr\u00e9",
+                "La Vieille"
+              ]
+            },
+            {
+              "name": "Valmeinier",
+              "slug": "valmeinier",
+              "villages": [
+                "Valmeinier Station",
+                "Chef-Lieu",
+                "La L\u00e9ch\u00e8re",
+                "Les Deuch\u00e8res",
+                "La Torreli\u00e8re",
+                "Les M\u00e9l\u00e8zes",
+                "La Combaz",
+                "Ville-Dessus",
+                "Plan-Chauzeau",
+                "Les Granges",
+                "Pierre-Beno\u00eet",
+                "Buffard",
+                "Les D\u00e9serts",
+                "Les Combes",
+                "Le Putaret"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Val Cenis",
+          "slug": "val-cenis",
+          "pistes_km": 125,
+          "lifts": 27,
+          "resorts": [
+            {
+              "name": "Val Cenis",
+              "villages": [
+                "Val Cenis Lanslebourg",
+                "Val Cenis Lanslevillard",
+                "Val Cenis Termignon",
+                "Solli\u00e8res-Sardi\u00e8res",
+                "Bramans"
+              ],
+              "slug": "val-cenis"
+            }
+          ]
+        },
+        {
+          "name": "La Norma",
+          "slug": "la-norma",
+          "pistes_km": 45,
+          "lifts": 12,
+          "resorts": [
+            {
+              "name": "La Norma",
+              "villages": [
+                "La Norma Village",
+                "Le Charmaix",
+                "La Villette"
+              ],
+              "slug": "la-norma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mont Blanc",
+      "slug": "mont-blanc",
+      "character": "The theatre",
+      "domains": [
+        {
+          "name": "Chamonix Valley",
+          "slug": "chamonix",
+          "pistes_km": 170,
+          "lifts": 45,
+          "highest_point": 3842,
+          "resorts": [
+            {
+              "name": "Chamonix",
+              "slug": "chamonix",
+              "villages": [
+                "Chamonix Centre",
+                "Argenti\u00e8re",
+                "Les Praz",
+                "Les Bossons"
+              ]
+            },
+            {
+              "name": "St Gervais",
+              "slug": "st-gervais",
+              "villages": [
+                "St Gervais",
+                "Le Bettex"
+              ]
+            },
+            {
+              "name": "Les Contamines",
+              "slug": "les-contamines",
+              "villages": [
+                "Les Contamines Centre",
+                "Notre Dame de la Gorge",
+                "La Frasse",
+                "Les Loyers",
+                "Le Pontet",
+                "La Chapelle",
+                "Le Champel"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evasion Mont Blanc",
+          "slug": "evasion-mont-blanc",
+          "pistes_km": 420,
+          "lifts": 105,
+          "resorts": [
+            {
+              "name": "Meg\u00e8ve",
+              "slug": "megeve",
+              "villages": [
+                "Meg\u00e8ve Centre",
+                "Mont d'Arbois",
+                "Jaillet",
+                "Rochebrune"
+              ]
+            },
+            {
+              "name": "Combloux",
+              "slug": "combloux",
+              "villages": [
+                "Combloux Centre",
+                "Le Chinaillon",
+                "Les Plagnes"
+              ]
+            },
+            {
+              "name": "La Giettaz",
+              "slug": "la-giettaz",
+              "villages": [
+                "La Giettaz Village",
+                "La Giettaz en Aravis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aravis",
+      "slug": "aravis",
+      "character": "Sun and vertical",
+      "domains": [
+        {
+          "name": "La Clusaz",
+          "slug": "la-clusaz",
+          "pistes_km": 220,
+          "lifts": 55,
+          "resorts": [
+            {
+              "name": "La Clusaz",
+              "villages": [
+                "La Clusaz Centre",
+                "Le Nant",
+                "Paccaly",
+                "Les Confins",
+                "La Cluiseraz",
+                "Le Cr\u00eat Braffaz",
+                "Le Fernuy",
+                "Le Bossonnet",
+                "Les Verriers",
+                "Gotty",
+                "Les Converses",
+                "Les Aravis"
+              ],
+              "slug": "la-clusaz"
+            }
+          ]
+        },
+        {
+          "name": "Le Grand Bornand",
+          "slug": "le-grand-bornand",
+          "pistes_km": 90,
+          "lifts": 24,
+          "resorts": [
+            {
+              "name": "Le Grand Bornand",
+              "villages": [
+                "Le Grand Bornand Village",
+                "Chinaillon",
+                "Les Bouts",
+                "Cuillery",
+                "Mont Lachat"
+              ],
+              "slug": "le-grand-bornand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oisans",
+      "slug": "oisans",
+      "character": "The wild frontier",
+      "domains": [
+        {
+          "name": "Grand Domaine",
+          "slug": "grand-domaine",
+          "pistes_km": 250,
+          "lifts": 63,
+          "highest_point": 3330,
+          "resorts": [
+            {
+              "name": "Alpe d'Huez",
+              "slug": "alpe-dhuez",
+              "villages": [
+                "Alpe d'Huez",
+                "Huez Village",
+                "L'Alpe du Grand Serre"
+              ]
+            },
+            {
+              "name": "Oz-en-Oisans",
+              "slug": "oz-en-oisans",
+              "villages": [
+                "Oz-en-Oisans",
+                "Oz Station",
+                "Oz 3300"
+              ]
+            },
+            {
+              "name": "Vaujany",
+              "slug": "vaujany",
+              "villages": [
+                "Vaujany Village",
+                "Les Condamines",
+                "Le Carre"
+              ]
+            },
+            {
+              "name": "Auris-en-Oisans",
+              "slug": "auris-en-oisans",
+              "villages": [
+                "Auris-en-Oisans",
+                "Auris Station",
+                "Le Bessey"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Les Deux Alpes",
+          "slug": "les-deux-alpes",
+          "pistes_km": 200,
+          "lifts": 53,
+          "highest_point": 3600,
+          "resorts": [
+            {
+              "name": "Les Deux Alpes",
+              "villages": [
+                "Les Deux Alpes",
+                "Mont-de-Lans",
+                "V\u00e9nosc"
+              ],
+              "slug": "les-deux-alpes"
+            }
+          ]
+        },
+        {
+          "name": "La Grave",
+          "slug": "la-grave",
+          "pistes_km": 0,
+          "lifts": 3,
+          "resorts": [
+            {
+              "name": "La Grave",
+              "villages": [
+                "La Grave",
+                "Les Hi\u00e8res",
+                "Le Chazeau",
+                "Villar d'Ar\u00e8ne"
+              ],
+              "slug": "la-grave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grand Massif",
+      "slug": "grand-massif",
+      "character": "The connected plateau",
+      "domains": [
+        {
+          "name": "Le Grand Massif",
+          "slug": "le-grand-massif",
+          "pistes_km": 265,
+          "lifts": 71,
+          "resorts": [
+            {
+              "name": "Flaine",
+              "slug": "flaine",
+              "villages": [
+                "Flaine Forum",
+                "Flaine Montsoleil",
+                "Les G\u00e9rats"
+              ]
+            },
+            {
+              "name": "Samo\u00ebns",
+              "slug": "samoens",
+              "villages": [
+                "Samo\u00ebns Village",
+                "Vercland",
+                "Les Vallons",
+                "Chantemerle",
+                "B\u00e9rouze",
+                "Mathonex",
+                "Clos Parchet",
+                "Plampraz",
+                "Secouen"
+              ]
+            },
+            {
+              "name": "Les Carroz",
+              "slug": "les-carroz",
+              "villages": [
+                "Les Carroz Centre",
+                "Les Praz",
+                "Les Grands Pr\u00e9s"
+              ]
+            },
+            {
+              "name": "Sixt-Fer-\u00e0-Cheval",
+              "slug": "sixt",
+              "villages": [
+                "Sixt Centre",
+                "Salvagny",
+                "Le Mont",
+                "Les Curtets",
+                "Le Crot",
+                "L'Echarny",
+                "Le Brairet",
+                "Le Molliet",
+                "Nambride",
+                "Maison Neuve",
+                "Passy",
+                "Lavoisi\u00e8re",
+                "Le Fay",
+                "Hauterive",
+                "La Chapelle",
+                "Engl\u00e8ne"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Portes du Soleil",
+      "slug": "portes-du-soleil",
+      "character": "The cross-border domain",
+      "domains": [
+        {
+          "name": "Portes du Soleil",
+          "slug": "portes-du-soleil",
+          "pistes_km": 650,
+          "lifts": 196,
+          "highest_point": 2466,
+          "resorts": [
+            {
+              "name": "Avoriaz",
+              "slug": "avoriaz",
+              "villages": [
+                "Avoriaz",
+                "Les Ardoisi\u00e8res"
+              ]
+            },
+            {
+              "name": "Morzine",
+              "slug": "morzine",
+              "villages": [
+                "Morzine Centre",
+                "Les Prodains",
+                "Morzinette",
+                "Les Granges"
+              ]
+            },
+            {
+              "name": "Les Gets",
+              "slug": "les-gets",
+              "villages": [
+                "Les Gets Centre",
+                "Les Cornuts",
+                "Le Rocher",
+                "Chantemerle",
+                "Le Bouchet",
+                "La Corderie"
+              ]
+            },
+            {
+              "name": "Ch\u00e2tel",
+              "slug": "chatel",
+              "villages": [
+                "Ch\u00e2tel Village",
+                "Super-Ch\u00e2tel",
+                "Linga",
+                "Pr\u00e9-la-Joux",
+                "La Chapelle d'Abondance",
+                "Petit Ch\u00e2tel",
+                "Vonnes"
+              ]
+            },
+            {
+              "name": "Abondance",
+              "slug": "abondance",
+              "villages": [
+                "Abondance",
+                "La Chapelle",
+                "Le Corbier"
+              ]
+            },
+            {
+              "name": "La Chapelle-d'Abondance",
+              "slug": "la-chapelle",
+              "villages": [
+                "La Chapelle"
+              ]
+            },
+            {
+              "name": "St-Jean-d'Aulps",
+              "slug": "st-jean-daoulps",
+              "villages": [
+                "St-Jean-d'Aulps"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alpes du Sud",
+      "slug": "alpes-du-sud",
+      "character": "Sun and space",
+      "domains": [
+        {
+          "name": "Serre Chevalier",
+          "slug": "serre-chevalier",
+          "pistes_km": 250,
+          "lifts": 59,
+          "resorts": [
+            {
+              "name": "Serre Chevalier",
+              "villages": [
+                "Brian\u00e7on",
+                "Chantemerle",
+                "Villeneuve-La Salle les Alpes",
+                "Le Mon\u00eatier-les-Bains"
+              ],
+              "slug": "serre-chevalier"
+            }
+          ]
+        },
+        {
+          "name": "Les Orres",
+          "slug": "les-orres",
+          "pistes_km": 100,
+          "lifts": 20,
+          "resorts": [
+            {
+              "name": "Les Orres",
+              "villages": [
+                "Les Orres 1800",
+                "Les Orres 1650",
+                "Les M\u00e9ans",
+                "Les Verdets",
+                "Les Richards"
+              ],
+              "slug": "les-orres"
+            }
+          ]
+        },
+        {
+          "name": "Pra-Loup",
+          "slug": "pra-loup",
+          "pistes_km": 80,
+          "lifts": 22,
+          "resorts": [
+            {
+              "name": "Pra-Loup",
+              "villages": [
+                "Pra-Loup Station",
+                "Pra-Loup Village",
+                "Le Pied de la Maure",
+                "Les Chapeliers"
+              ],
+              "slug": "pra-loup"
+            }
+          ]
+        },
+        {
+          "name": "Isola 2000",
+          "slug": "isola-2000",
+          "pistes_km": 120,
+          "lifts": 28,
+          "resorts": [
+            {
+              "name": "Isola 2000",
+              "villages": [
+                "Isola 2000",
+                "Isola Village",
+                "Les Hameaux",
+                "La Genisserie"
+              ],
+              "slug": "isola-2000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pyr\u00e9n\u00e9es",
+      "slug": "pyrenees",
+      "character": "The wild frontier",
+      "domains": [
+        {
+          "name": "Grand Tourmalet",
+          "slug": "grand-tourmalet",
+          "pistes_km": 160,
+          "lifts": 34,
+          "resorts": [
+            {
+              "name": "Bar\u00e8ges",
+              "villages": [
+                "Bar\u00e8ges",
+                "Le Tourmalet",
+                "La Mongie"
+              ],
+              "slug": "bareges"
+            },
+            {
+              "name": "La Mongie",
+              "villages": [
+                "La Mongie",
+                "Tournaboup",
+                "Super Bar\u00e8ges"
+              ],
+              "slug": "la-mongie"
+            }
+          ]
+        },
+        {
+          "name": "Cauterets",
+          "slug": "cauterets",
+          "pistes_km": 76,
+          "lifts": 18,
+          "resorts": [
+            {
+              "name": "Cauterets",
+              "villages": [
+                "Cauterets Centre",
+                "Pont d'Espagne",
+                "Le Lisey",
+                "Cambasque"
+              ],
+              "slug": "cauterets"
+            }
+          ]
+        },
+        {
+          "name": "Font-Romeu",
+          "slug": "font-romeu",
+          "pistes_km": 115,
+          "lifts": 28,
+          "resorts": [
+            {
+              "name": "Font-Romeu",
+              "villages": [
+                "Font-Romeu Centre",
+                "Odeillo",
+                "Via",
+                "Bolqu\u00e8re",
+                "Les Ayguettes"
+              ],
+              "slug": "font-romeu"
+            }
+          ]
+        },
+        {
+          "name": "Ax 3 Domaines",
+          "slug": "ax-3-domaines",
+          "pistes_km": 95,
+          "lifts": 22,
+          "resorts": [
+            {
+              "name": "Ax-les-Thermes",
+              "villages": [
+                "Ax-les-Thermes",
+                "Ax 3 Domaines",
+                "Le Saquet",
+                "Campels",
+                "Orgeix"
+              ],
+              "slug": "ax-les-thermes"
+            }
+          ]
+        },
+        {
+          "name": "St-Lary",
+          "slug": "st-lary",
+          "pistes_km": 85,
+          "lifts": 20,
+          "resorts": [
+            {
+              "name": "St-Lary",
+              "villages": [
+                "Saint-Lary Village",
+                "Pla d'Adet (1700)",
+                "Espiaube (1900)",
+                "Le Soula",
+                "G\u00e9nos",
+                "Loudervielle"
+              ],
+              "slug": "st-lary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jura",
+      "slug": "jura",
+      "character": "The Nordic heartland",
+      "domains": [
+        {
+          "name": "Monts Jura",
+          "slug": "monts-jura",
+          "pistes_km": 110,
+          "lifts": 31,
+          "resorts": [
+            {
+              "name": "Monts Jura",
+              "villages": [
+                "Lamoura",
+                "Mijoux",
+                "L\u00e9lex"
+              ],
+              "slug": "monts-jura"
+            }
+          ]
+        },
+        {
+          "name": "Les Rousses",
+          "slug": "les-rousses",
+          "pistes_km": 50,
+          "lifts": 14,
+          "resorts": [
+            {
+              "name": "Les Rousses",
+              "villages": [
+                "Les Rousses"
+              ],
+              "slug": "les-rousses"
+            }
+          ]
+        },
+        {
+          "name": "M\u00e9tabief",
+          "slug": "metabief",
+          "pistes_km": 35,
+          "lifts": 10,
+          "resorts": [
+            {
+              "name": "M\u00e9tabief",
+              "villages": [
+                "M\u00e9tabief"
+              ],
+              "slug": "metabief"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vosges",
+      "slug": "vosges",
+      "character": "The Nordic heartland",
+      "domains": [
+        {
+          "name": "La Bresse Hohneck",
+          "slug": "la-bresse",
+          "pistes_km": 58,
+          "lifts": 18,
+          "resorts": [
+            {
+              "name": "La Bresse",
+              "villages": [
+                "La Bresse Hohneck"
+              ],
+              "slug": "la-bresse"
+            }
+          ]
+        },
+        {
+          "name": "G\u00e9rardmer",
+          "slug": "gerardmer",
+          "pistes_km": 40,
+          "lifts": 12,
+          "resorts": [
+            {
+              "name": "G\u00e9rardmer",
+              "villages": [
+                "G\u00e9rardmer"
+              ],
+              "slug": "gerardmer"
+            }
+          ]
+        },
+        {
+          "name": "Le Markstein",
+          "slug": "le-markstein",
+          "pistes_km": 20,
+          "lifts": 6,
+          "resorts": [
+            {
+              "name": "Le Markstein",
+              "villages": [
+                "Le Markstein"
+              ],
+              "slug": "le-markstein"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Massif Central",
+      "slug": "massif-central",
+      "character": "The Nordic heartland",
+      "domains": [
+        {
+          "name": "Le Lioran",
+          "slug": "le-lioran",
+          "pistes_km": 60,
+          "lifts": 16,
+          "resorts": [
+            {
+              "name": "Le Lioran",
+              "villages": [
+                "Le Lioran"
+              ],
+              "slug": "le-lioran"
+            }
+          ]
+        },
+        {
+          "name": "Super Besse",
+          "slug": "super-besse",
+          "pistes_km": 35,
+          "lifts": 10,
+          "resorts": [
+            {
+              "name": "Super Besse",
+              "villages": [
+                "Super Besse"
+              ],
+              "slug": "super-besse"
+            }
+          ]
+        },
+        {
+          "name": "Mont-Dore",
+          "slug": "mont-dore",
+          "pistes_km": 42,
+          "lifts": 11,
+          "resorts": [
+            {
+              "name": "Mont-Dore",
+              "villages": [
+                "Mont-Dore"
+              ],
+              "slug": "mont-dore"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "country_meta": {
+    "description": "France is the world's second-largest ski market, recording 54.8 million skier visits in 2024/25 (up 5.5% from the previous year). The country has approximately 282-350 ski resorts across seven mountain ranges, with 2,956 lift installations (15% of the world total). France ranks behind the United States (61.5 million) and ahead of Austria (51.8 million) in annual skier visits.",
+    "industry_overview_lift_count": 2956,
+    "industry_overview_annual_skier_visits": "54.8 million (2024/25 season, +5.5% YoY)",
+    "world_rank": "2nd (behind USA, ahead of Austria)",
+    "currency": "EUR",
+    "driving_rules": "Right-hand side (UK=left). UK drivers must adapt especially on mountain switchbacks.",
+    "speed_limits": "130 km/h autoroute toll / 110 km/h autoroute free / 80 km/h national roads / 50-70 km/h mountain roads in winter",
+    "emergency_number": "112 (European). Also 15 (SAMU medical), 17 (police), 18 (fire). PGHM mountain rescue: see country research file.",
+    "winter_tyre_law": "Mandatory 1 Nov\u201331 Mar in 34 mountain departments: either 4 winter tyres (3PMSF) OR standard tyres + chains/socks carried. Fine \u20ac135.",
+    "ski_insurance_carre_neige": "\u20ac3.50/day or \u20ac21/6 days. Covers rescue, medical costs, lift pass refund.",
+    "season_general": "Mid-Dec to late Apr (Alps 1,500m+). Earlier/later for high-altitude and glaciers.",
+    "power_plugs": "Type E (2-pin round, 230V, 50Hz). UK visitors need travel adapter.",
+    "price_positioning_vs_peers": "Mid-range. 6-day pass average \u20ac59/day. Cheaper than Austria (\u20ac67), more than Italy (\u20ac51). France best value for piste-km per euro among major Alpine countries (4.6 km/\u20ac).",
+    "total_regions": 12,
+    "total_domains": 34,
+    "total_resorts": 67
+  }
+}

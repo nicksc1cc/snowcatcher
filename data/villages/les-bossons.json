@@ -1,0 +1,33 @@
+{
+  "village": "Les Bossons",
+  "slug": "les-bossons",
+  "altitude": 1010,
+  "resort": "Chamonix",
+  "domain": "Chamonix Valley",
+  "region": "Mont Blanc",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "aiguille_du_midi",
+    "mer_de_glace",
+    "spas",
+    "swimming",
+    "ice_skating",
+    "fitness",
+    "cinema",
+    "climbing",
+    "paragliding",
+    "dog_sledding",
+    "snowshoeing",
+    "heliski",
+    "ski_touring",
+    "shopping",
+    "casino",
+    "museums",
+    "events"
+  ],
+  "character": "Sleepy village 5 min from central Chamonix on the road to Les Houches. Under its own glacier. Train station. Post office. Growing village.",
+  "dining": "Limited \u2014 Les Houches or Cham centre.",
+  "shopping": "Small convenience, bakery, post office.",
+  "activities_nearby": "Les Bossons glacier hiking. Train to Chamonix. Les Houches ski area nearby.",
+  "source_url": "https://www.seechamonix.com/"
+}

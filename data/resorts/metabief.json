@@ -1,0 +1,22 @@
+{
+  "resort": "M\u00e9tabief",
+  "slug": "metabief",
+  "domain": "Monts Jura",
+  "region": "Jura",
+  "altitude": 900,
+  "character": "Largest downhill in the Jura (40km). Cross-country paradise (100km+). On the Swiss border. Mont d'Or summit (1,463m). Family-friendly, forested, peaceful. Geneva 50 min.",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.paysdegex-montsjura.com/en/monts-jura-resort/getting-ready/ski-areas/"
+  ],
+  "non_ski_activities": {
+    "nordic": "100km+ cross-country trails.",
+    "downhill": "40km downhill \u2014 largest in Jura. Mont d'Or summit 1,463m.",
+    "other": "Snowshoeing, sledging, winter hiking. Swiss border proximity. Lac de Saint-Point nearby."
+  },
+  "best_for": {
+    "cross_country": 10,
+    "downhill": 7,
+    "families": 8
+  }
+}

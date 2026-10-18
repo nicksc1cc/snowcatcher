@@ -1,0 +1,23 @@
+{
+  "village": "Chantemerle",
+  "slug": "chantemerle",
+  "altitude": 1350,
+  "resort": "Serre Chevalier",
+  "domain": "Serre Chevalier",
+  "region": "Alpes du Sud",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas",
+    "ice_skating",
+    "swimming",
+    "cinema",
+    "bowling",
+    "climbing",
+    "paragliding",
+    "dog_sledding",
+    "snowshoeing",
+    "culture"
+  ],
+  "character": "Purpose-built Serre Chevalier village on the slopes. Ski-in/ski-out. Lively snow front, shops, rental, ESF. Direct access to Serre Chevalier.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

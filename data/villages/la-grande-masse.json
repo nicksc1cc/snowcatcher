@@ -1,0 +1,28 @@
+{
+  "village": "La Grande Masse",
+  "slug": "la-grande-masse",
+  "altitude": 1800,
+  "resort": "Val Thorens",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas_and_wellness",
+    "swimming",
+    "ice_skating",
+    "zip_line",
+    "toboggan",
+    "paragliding",
+    "dog_sledding",
+    "snowshoeing",
+    "snowmobiling",
+    "ice_climbing",
+    "bowling",
+    "cinema",
+    "fitness",
+    "paintball",
+    "events"
+  ],
+  "character": "Upper Val Thorens area. Remote mountain zone.",
+  "source_url": "https://www.seechamonix.com/"
+}

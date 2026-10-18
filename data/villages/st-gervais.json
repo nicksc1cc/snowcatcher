@@ -1,0 +1,18 @@
+{
+  "village": "St Gervais",
+  "slug": "st-gervais",
+  "altitude": 800,
+  "resort": "St Gervais",
+  "domain": "Chamonix Valley",
+  "region": "Mont Blanc",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "thermal_baths"
+  ],
+  "character": "Thermal spa town at the foot of Mont Blanc. Belle \u00c9poque architecture, casino, thermal baths. Linked to the Evasion Mont Blanc ski area via Le Bettex gondola. Mont Blanc views. Full town services year-round. Le Bettex has direct ski access.",
+  "dining": "Town restaurants \u2014 Savoyard, French, pizza. Casino restaurant. Chez P\u00e9p\u00e8re.",
+  "shopping": "Full town \u2014 supermarkets, bakeries, shops, pharmacy, post office, banks. Weekly market.",
+  "apres_scene": "Casino. Local bars. Quiet evenings. Le Bettex has mountain apres.",
+  "activities_nearby": "Thermes de St-Gervais (thermal baths, spa, wellness). Casino. Le Bettex gondola to 400km Evasion Mont Blanc. Mont Blanc views. Hiking trails.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

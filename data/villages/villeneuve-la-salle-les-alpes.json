@@ -1,0 +1,18 @@
+{
+  "village": "Villeneuve-La Salle les Alpes",
+  "slug": "villeneuve-la-salle-les-alpes",
+  "resort": "Serre Chevalier",
+  "domain": "Serre Chevalier",
+  "region": "Alpes du Sud",
+  "nearby_activities": [
+    "spas",
+    "ice_skating",
+    "swimming",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1400,
+  "character": "Sunny purpose-built satellite of Serre Chevalier. Ski-in/ski-out. Good for families. Supermarket, rental.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

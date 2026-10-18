@@ -1,0 +1,35 @@
+{
+  "domain": "Evasion Mont Blanc",
+  "slug": "evasion-mont-blanc",
+  "region": "Mont Blanc",
+  "character": "325km domain linking Megeve, Saint-Gervais, Combloux, La Giettaz. Megeve is the gastronomic capital of the Alps (Flocons de Sel ★★★).",
+  "research_status": "properly_sourced",
+  "description": "445km of linked pistes across the Mont Blanc massif — Megève, Combloux, Saint-Gervais, Les Contamines, Saint-Nicolas de Véroce, and La Giettaz. 105 lifts. The domain wraps around Mont Blanc between the Arve and Bon Nant valleys. Known for: Megève (Rothschild-founded Alpine chic), Combloux (Mont Blanc panoramic views), Saint-Gervais (thermal baths, Belle Époque), and Les Contamines (authentic valley village). All the charm of the Mont Blanc region without Chamonix's extreme prices. Evasion Mont Blanc pass covers all resorts except Chamonix itself.",
+  "stats": {
+    "pistes_km": 325,
+    "highest_point_m": 2350,
+    "note": "Megeve own sector: 160 km. Saint-Gervais: linked via lifts. Combloux and La Giettaz are smaller satellites."
+  },
+  "source_url": "https://forfait.megeve.com/hiver/en/our-skipass/",
+  "name": "Evasion Mont Blanc",
+  "statistics": {
+    "total_pistes_km": 445,
+    "total_lifts": 105,
+    "highest_point": 2500,
+    "lowest_point": 800
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 65,
+    "adult_6day": 324.5,
+    "child_6day": 276,
+    "senior_6day": 292.5,
+    "note": "Liberty pass (not consecutive days required) available. Holiday passes: 6 days for price of 5."
+  },
+  "suitability": {
+    "beginners": "Excellent — Megève has dedicated beginner areas at Rochebrune and Mont d'Arbois. Combloux is ideal for learning. Saint-Gervais gondola to Le Bettex for gentle runs with Mont Blanc views.",
+    "intermediates": "The domain is primarily intermediate-friendly. Megève's Rochebrune and Jaillet sectors offer long, well-groomed blues and reds. The Christomet run from Mont d'Arbois to Megève centre is a classic red cruiser.",
+    "advanced": "Limited — Evasion Mont Blanc is not known for steep terrain. The steepest runs are on Mont d'Arbois and some Contamines reds. For experts, stay on the Chamonix side.",
+    "families": "Excellent — Megève is the original alpine family resort. Palais Megève (ice rink, pool, cinema, spa), Quadrat spa, 18-hole golf course, dog sledding, and the best mountain restaurants in the region."
+  }
+}

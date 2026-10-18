@@ -1,0 +1,68 @@
+{
+  "domain": "Chamonix Valley",
+  "slug": "chamonix",
+  "region": "Mont Blanc",
+  "character": "Off-piste capital of the Alps. 5 separate ski sectors, 115 km pisted, unlimited off-piste. Aiguille du Midi (3,842 m), Vallee Blanche (20 km), Mont Blanc (4,808 m).",
+  "research_status": "properly_sourced",
+  "description": "170km of pistes across 5 separate ski areas in the Chamonix Valley — Brévent-Flégère (sunny, spectacular Aiguilles views), Le Tour (gentle, family-friendly), Les Grands Montets (high-altitude, expert-focused), Les Houches (linked with Saint-Gervais), and La Vormaine/Combloux. 45 lifts. Mont Blanc massif (4,809m) dominates the valley. Known for: the world capital of mountaineering, extreme off-piste (Vallée Blanche 20km off-piste run from Aiguille du Midi), Aiguille du Midi cable car (3,842m — Europe's highest vertical ascent), and Montenvers train to the Mer de Glace. NOT a single linked domain — each area requires bus or train connection between them. This is what keeps Chamonix uncrowded but also means you choose a sector each day.",
+  "sources": [
+    "https://www.snowmagazine.com/ski-resort-guide/france/chamonix-ski-resort",
+    "https://skiresortguide.info/chamonix",
+    "https://mychaletfinder.com/resorts/chamonix/resort-guide"
+  ],
+  "source_url": "https://www.chamonix.com/",
+  "name": "Chamonix Valley",
+  "statistics": {
+    "total_pistes_km": 170,
+    "total_lifts": 45,
+    "highest_point": 3842,
+    "lowest_point": 1035,
+    "vertical_drop": 2807,
+    "glaciers": [
+      {
+        "name": "Mer de Glace",
+        "altitude": 3569
+      },
+      {
+        "name": "Glacier des Bossons",
+        "altitude": 3800
+      }
+    ],
+    "note": "Not a single linked domain — 5 separate ski areas connected by free valley bus."
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 69,
+    "adult_6day_all_area": 380,
+    "adult_6day_one_valley": 310,
+    "note": "All-area pass covers: Brévent-Flégère, Grands Montets, Le Tour, Les Houches. Multi-day passes can mix areas. Le Tour is cheapest single valley.",
+    "source_url": "https://shop.chamonix.com/"
+  },
+  "season_dates": {
+    "grands_montets": "Mid-December to early May (glacier)",
+    "brevent_flegere": "Mid-December to mid-April",
+    "le_tour": "Mid-December to mid-April",
+    "les_houches": "Mid-December to mid-April"
+  },
+  "suitability": {
+    "beginners": "Moderate — Le Tour is the best beginner area with gentle greens. Grands Montets has limited beginners. Brévent is steep from the top but has blues lower down. Not a 'learn to ski' resort compared to Megève or Les Gets.",
+    "intermediates": "Good — Flégère has excellent blue/red runs with the best mountain views in the Alps. Les Houches is relaxed. Le Tour is perfect for intermediates. The issue is the 5 separate sectors — you spend time connecting.",
+    "advanced": "World-class — Grands Montets is one of the best expert ski areas in France (glacier to 3,275m). La Flégère has steep reds and blacks. Brévent has the famous 'Couvercle' black run. And then there's the off-piste...",
+    "freeriders": "Mecca — Vallée Blanche (20km off-piste from Aiguille du Midi 3,842m), Col de la Glière, Grands Montets off-piste, Col d'Argentière. Guide strongly recommended for off-piste. Most of the 170km marked piste is just the start — the real terrain is 'hors-piste'."
+  },
+  "signature_runs": [
+    {
+      "name": "Vallée Blanche",
+      "difficulty": "off-piste (black when marked)",
+      "length_km": 20,
+      "vertical_m": 2800,
+      "description": "The world's most famous off-piste run — 20km from Aiguille du Midi 3,842m to Chamonix 1,035m. Guide recommended."
+    },
+    {
+      "name": "Couvercle",
+      "difficulty": "black",
+      "vertical_m": 500,
+      "description": "Famous steep black on the Brévent side — moguls, exposure, Mont Blanc views"
+    }
+  ]
+}

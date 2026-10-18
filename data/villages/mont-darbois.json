@@ -1,0 +1,19 @@
+{
+  "village": "Mont d'Arbois",
+  "slug": "mont-darbois",
+  "resort": "Meg\u00e8ve",
+  "domain": "Evasion Mont Blanc",
+  "region": "Mont Blanc",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "shopping",
+    "horse_drawn"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1350,
+  "character": "Ski station above Megeve on Mont d'Arbois slope. La Folie Douce de Megeve. Ski-in/ski-out accommodation. Direct access to Evasion Mont Blanc (400km). Modern purpose-built village.",
+  "activities_nearby": "Evasion Mont Blanc (400km). La Folie Douce apres. Paragliding. Golf. Hiking.",
+  "source_url": "https://www.megeve.com/en/"
+}

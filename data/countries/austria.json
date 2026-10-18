@@ -1,0 +1,110 @@
+{
+  "country": {
+    "name": "Austria",
+    "slug": "austria",
+    "description": "Austria is the world's 3rd-largest ski market — 51.9 million first entries in 2024/25 (2025/26 estimated 54 million, +4% YoY, one of the best winters ever). The densest skiing country in the Alps: 250 cableway companies + ~400 drag-lift operators, 1,111 cableway installations, ~23,700 hectares of prepared piste in a country the size of Maine. Over two-thirds of visitors come from abroad (highest foreign share of any Alpine country). Germany is the largest source market, followed by the Netherlands, UK, and increasingly the US. Known for high-quality infrastructure, charming villages, excellent food (wurst, schnitzel, Kaiserschmarrn), and a uniquely accessible ski culture — Austria invented the modern ski holiday with Arlberg (St. Anton) and Kitzbühel. 2024/25 marked the 100th anniversary of the Austrian cable car industry.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "3rd globally (after USA and France)",
+      "european_rank": "2nd (behind France, just ahead at 51.9M vs France 51.9M in 2023/24)",
+      "annual_skier_visits_2024_25": "51.9 million first entries",
+      "annual_skier_visits_2025_26": "~54 million (est. +4%, one of best winters on record)",
+      "total_cableway_installations": 1111,
+      "total_drag_lift_operators": "~400",
+      "prepared_piste_hectares": "~23,700",
+      "cableway_companies": 250,
+      "nov_december_overnights_2025": "12.2 million (8.7M of which skiers — a record high)",
+      "international_visitors_share": "66%+ (highest in the Alps — only ~34% domestic Austrian)",
+      "top_source_markets": "Germany (#1 by wide margin), Netherlands, UK, USA (growing rapidly), Poland, Czech Republic",
+      "world_record_claim": "Highest revenue per skier visit globally outside Switzerland",
+      "lift_pass_price_positioning": "Average daily rate of a 6-day pass: €67/day (€402 total for 6 days). More expensive than France (€59/day, €354/6d) and Italy (€51/day, €306/6d), cheaper than Switzerland (CHF 109/day, CHF 545/6d)",
+      "source_figures": "Austrian Cable Car Association (Fachverband der Seilbahnen) 2025/26 reports; Laurent Vanat International Report 2025; SkiAllDay"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "notes": "Austria is fully Euro. Card (EC Card/Maestro/Visa/MC) is widely accepted in all major resorts, including mountain huts in larger areas. Cash still preferred in small mountain huts (Hütten) and for tips. ATMs in all village centres. Carry €50-100 cash for remote huts."
+      },
+      "language": {
+        "official": "German",
+        "dialect": "Austrian German (Österreichisch) — distinct from German German in vocabulary and pronunciation",
+        "english_in_resorts": "Excellent — Austria is the most English-friendly ski country in the Alps thanks to decades of British and international tourism. All tourist offices, lift ticket offices, ski schools, and major hotels speak fluent English. Germany remains the #1 source market so German is default, but English is second."
+      },
+      "power_plugs": {
+        "type": "Type F (2-pin round, 230V, 50Hz) — standard continental European",
+        "adapter_needed": "Yes for UK visitors. Standard EU travel adapter works.",
+        "notes": "Same as France. Many modern hotels have USB charging built in."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as France. 1 hour ahead of UK."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_tyrol": "~10-12 hours (Calais-Reims-Strasbourg-Karlsruhe-Munich-Innsbruck). Overnight stop recommended (Strasbourg or Munich).",
+        "calais_to_salzburg": "~10-11 hours via Reims-Strasbourg-Munich-Salzburg.",
+        "calais_to_carinthia": "~12-14 hours via same route then A10 Tauernautobahn south.",
+        "tolls": "Austria uses a vignette (toll sticker) system for motorways (Autobahn).",
+        "motorway_vignette": {
+          "cost_2025_26": "10-day €9.40-12.40, 2-month €27.40-31.10, annual €91.10 (varies slightly year to year)",
+          "digital_vignette": "Available since 2018. Number-plate based — no sticker. Buy online at asfinag.at.",
+          "where_to_buy": "Border crossings, Austrian petrol stations, tobacconists (Tabak-Trafik), online (asfinag.at).",
+          "enforcement": "No vignette = €120+ fine. Strictly enforced with both police checks and automatic cameras on motorways."
+        },
+        "fuel_stops": "Austrian fuel is typically €1.50-1.70/litre. Cheaper in Germany — fill up before crossing the border. Motorway service stations are 24-hour but more expensive."
+      },
+      "winter_driving_law": {
+        "legal_requirement": "YES — mandatory winter tyres (4 matching winter tyres, 3PMSF marked) from 1 November to 15 April. The most strictly enforced winter tyre law in the Alps.",
+        "what_you_need": "Four winter tyres with minimum 4mm tread depth. Chains are also recommended but do NOT substitute for winter tyres — you need BOTH the tyres AND chains carried. M+S tyres are no longer sufficient — must be 3PMSF alpine marked.",
+        "enforcement": "Fines €35-60 for not having winter tyres. More importantly, your insurance may REFUSE to pay for damages if you cause an accident without them — this is strictly enforced in Austrian courts.",
+        "speed_limits": {
+          "motorway": "130 km/h (but legally unlimited on certain Autobahn sections — NOT in winter conditions)",
+          "country_roads": "100 km/h",
+          "mountain_roads": "70-80 km/h, often reduced in snow/ice",
+          "urban": "50 km/h",
+          "fines": "Strictly enforced — cameras and police everywhere. Speeding fines from €30. Zero tolerance for alcohol (0.5‰ BAC limit). Austrian police have powers to impound vehicles for dangerous driving."
+        }
+      },
+      "ev_charging": {
+        "availability": "Excellent — Austria has one of Europe's densest charging networks relative to car density. Major resorts all have destination chargers in car parks and hotels.",
+        "networks": "SMATRICS, EnBW, Ionity. Resort chargers by local utilities.",
+        "tips": "Download SMATRICS app. Chargemap works well. Many alpine hotels offer free charging for guests."
+      }
+    },
+    "ski_insurance": {
+      "austrian_system": "No dedicated single product like Carré Neige. Ski rescue and medical costs are charged to the individual and claimed from insurance.",
+      "rescue_costs": {
+        "on_piste_patrol": "~€100-300",
+        "helicopter_rescue": "~€1,000-3,000 (mountain rescue helicopter — not automatically the same as REGA; Alpinrettung or ÖAMTC/ARBÖ air rescue)",
+        "notes": "If involved in a collision with another skier, the at-fault skier's liability insurance covers the other party's costs."
+      },
+      "travel_insurance": "Essential. UK travel insurance with winter sports cover. Must include winter sports cover in Austria — not just standard medical insurance. Check it covers on-piste rescue, helicopter evacuation (off-piste), mountain rescue, repatriation.",
+      "rega_note": "REGA is SWISS only. It does NOT cover Austria. Austria has its own air rescue: ÖAMTC (Austrian automobile club) and ARBÖ air rescue, plus alpine rescue organisations. These are activated via 112/140 and covered by your travel insurance."
+    },
+    "emergency_services": {
+      "european_emergency": "112 (works alongside Austrian numbers. Free from any phone.)",
+      "austrian_numbers": {
+        "ambulance_medical": "144 (Rettungsdienst/Notarzt)",
+        "police": "133",
+        "fire": "122",
+        "mountain_rescue": "140 (Alpine Notruf — direct to mountain rescue dispatch)",
+        "helicopter_rescue": "112 or 140 (dispatches ÖAMTC/ARBÖ air rescue)",
+        "roadside_assistance": "120 (ÖAMTC), 123 (ARBÖ)"
+      },
+      "mountain_rescue": {
+        "alpine_verein": "Alpenverein/Austrian Alpine Club — trains and coordinates mountain rescuers alongside the state services. Professionals + highly trained volunteers.",
+        "helicopter": "ÖAMTC air rescue (Christophorus fleet — named after the patron saint of travellers). Number: 144 or via 112.",
+        "piste_patrol": "Pistendienst/Flugrettung — each resort has its own piste patrol. Cost charged per rescue.",
+        "how_to_call": "Call 140 or 112. Give: exact location (GPS coordinates, mountain, valley, piste name), number of injured, type of injuries, weather conditions, your contact number."
+      },
+      "piste_incident_procedure": "1. Call 140 or 112. 2. Mark with crossed poles/skis. 3. Don't move casualty. 4. Keep warm. 5. Stay on line."
+    },
+    "ski_customs_and_regulations": {
+      "helmet_law": "Helmets mandatory for children under 15 in Austria. Strongly recommended for adults. Some Austrian federal states enforce stricter rules.",
+      "après_ski_culture": "Austria invented serious après-ski. Resorts like St. Anton, Ischgl, Sölden, Soll, and Mayrhofen are known for early-afternoon drinking, table dancing, and partying until late. This is NOT a myth — Austrian après-ski is a genuine cultural phenomenon, not just a marketing claim. Expect loud music, Jägermeister, and dancing in ski boots from 3pm in high-season resorts.",
+      "ski_area_etiquette": "Austrian pistes are less strictly zoned than French ones — there is more 'flow' between run difficulties and often less overt separation. Typically very well-pisted (groomed daily). Ski schools have priority zones for beginners — respect them.",
+      "carrying_own_gear": "Same as France — skis as special baggage on most airlines serving Innsbruck, Salzburg, Munich, Vienna."
+    },
+    "price_positioning_vs_peers": "Austria is mid-to-upper range in the Alps. 6-day lift pass: €67/day (€402 total for 6 days). More expensive than France (€59/day, €354/6d) and Italy (€51/day, €306/6d), cheaper than Switzerland (CHF 109/day, CHF 545/6d). Accommodation is comparable to France but significantly more than Italy. Food and drink: mountain hut meals €12-18 cheaper than Switzerland and comparable to French Alps. Beer (Stiegl, Gösser, Zipfer) is excellent and reasonable (€4-6). Accommodation costs vary wildly — St. Anton and Kitzbühel are premium-priced; Zillertal and Salzburgerland villages are mid-range. Best value regions: Zillertal, Ski Amadé, Saalbach-Hinterglemm, Obertauern. Best splurge: Arlberg (St. Anton/Lech/Zürs), Kitzbühel, Sölden.",
+    "season_general": "Early December to late April for most resorts (1,000-2,000m base). Some high-altitude: Sölden (1,377-3,340m) late Oct to early May. Hintertux Glacier (3,250m) year-round. Kaprun glacier year-round. Stubai glacier mid-Oct to June. Austrian season tends to start earlier than France (some resorts open November) and end slightly later for high-altitude terrain. February half-term is peak (German school holidays key)."
+  }
+}

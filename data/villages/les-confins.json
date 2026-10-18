@@ -1,0 +1,19 @@
+{
+  "village": "Les Confins",
+  "slug": "les-confins",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1400,
+  "character": "High-altitude La Clusaz hamlet. Snow-sure. Access to Aravis high plateau.",
+  "activities_nearby": "High altitude hiking. Cross-country skiing on Aravis plateau. Snowshoeing.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

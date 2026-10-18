@@ -1,0 +1,17 @@
+{
+  "village": "Les Bouts",
+  "slug": "les-bouts",
+  "resort": "Le Grand Bornand",
+  "domain": "Le Grand Bornand",
+  "region": "Aravis",
+  "nearby_activities": [
+    "cheese",
+    "market",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 950,
+  "character": "Quiet hamlet of Le Grand Bornand commune.",
+  "activities_nearby": "Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

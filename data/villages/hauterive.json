@@ -1,0 +1,16 @@
+{
+  "village": "Hauterive",
+  "slug": "hauterive",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 850,
+  "character": "Sixt hamlet near the village centre. Along the Giffre river.",
+  "activities_nearby": "Walking along the Giffre.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

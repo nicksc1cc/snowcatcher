@@ -1,0 +1,103 @@
+{
+  "country": {
+    "name": "Andorra",
+    "slug": "andorra",
+    "description": "Andorra is a tiny Pyrenean principality between France and Spain with a single unified ski pass (Andorra Pass) covering Grandvalira (Soldeu/El Tarter/Pas de la Casa/Grau Roig), Pal Arinsal, and Ordino Arcalís — a combined 308 km of pistes, 116 lifts, and the longest ski season in the Pyrenees. Grandvalira Resorts sold 2.32 million ski days in 2025/26 (+4% YoY). Andorra is positioned as the best-value ski destination in Europe — lift passes, accommodation, and food are significantly cheaper than the Alps. 53% of visitors are Spanish, 15% British/Irish (growing 3% YoY), with increasing US visitors via Ikon Pass reciprocity.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "Top 5 in sales ranking globally (Grandvalira Resorts claims top 5 in ski day sales among single ski groups)",
+      "annual_skier_visits": "~2.5 million ski days sold per season",
+      "2025_26_season": "2,320,786 ski days (-2.5M target but +4% YoY)",
+      "total_ski_areas": "3 (Grandvalira, Pal Arinsal, Ordino Arcalís — under single Andorra Pass)",
+      "combined_pistes_km": 308,
+      "total_lifts": 116,
+      "lift_capacity": "181,115 skiers/hour",
+      "total_slopes": "219 (across all ability levels)",
+      "snowmaking_coverage": "66% of skiable area",
+      "hectares": 3135,
+      "restaurants_on_mountain": 86,
+      "ski_instructors": "800+ (10 ski school centres)",
+      "ski_touring_routes_km": 81,
+      "snowshoeing_trails_km": 80,
+      "national_skiers": "~8% of Andorran population (77,000)",
+      "top_markets": {
+        "spain": "53% of visitors (Grandvalira), 49.5% (Pal Arinsal), 70% (Ordino Arcalís)",
+        "uk_ireland": "15% of total (21% at Pal Arinsal, growing 3% YoY)",
+        "andorran": "13% (Pal Arinsal), 20% (Ordino Arcalís)",
+        "us_growth": "Increasing — Ikon Pass reciprocity with Grandvalira Resorts"
+      },
+      "international_visitors_share": "~92% (only ~8% domestic Andorran residents)",
+      "season_days": "134 days uninterrupted (8 Dec 2025 – 20 Apr 2026)",
+      "peak_day_2025_26": "28 December 2025 — 33,418 skiers across all resorts",
+      "source_figures": "Grandvalira Resorts official season close press release 2026; Grandvalira corporate site"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "notes": "Andorra uses the Euro despite not being an EU member. It is a tax haven — no VAT (sales tax). This means shopping (electronics, alcohol, tobacco, perfume, ski gear) is up to 30-40% cheaper than in France or Spain. British skiers routinely stock up on alcohol, tobacco, and electronics. Duty-free allowances still apply when returning to EU countries. Cash widely used but card accepted in most places."
+      },
+      "language": {
+        "official": "Catalan",
+        "street_signs": "Catalan (first language), with Spanish, French, English on tourist signage",
+        "english_in_resorts": "Very good — all major resorts have English-speaking staff at ticket offices, ski schools, rental shops, and hotels. British and Irish are the second-largest market (15% of visitors)."
+      },
+      "power_plugs": {
+        "type": "Type G (UK-style 3-pin rectangular) — Andorra uses British standard plugs",
+        "adapter_needed": "NO if coming from UK — same as UK plug. YES if coming from continental Europe (US, France, Germany, etc.) — they need a UK adapter.",
+        "notes": "Andorra is one of very few non-Commonwealth countries using British-style sockets. A rare convenience for UK skiers."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as France and Spain. 1 hour ahead of UK."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_andorra": "~10-11 hours. Route: Calais-Reims-Dijon-Lyon-Orange-Perpignan then up the RN22/E9 into Andorra. Alternatively Calais-Bordeaux-Toulouse (longer).",
+        "driving_from_barcelona": "~2.5 hours (200 km north via C-16/E9). Park at the border (Andorra has limited parking — free parking at Grandvalira's car parks but fills fast in peak weeks).",
+        "driving_from_toulouse": "~2 hours via A61 to Foix then RN20/E9.",
+        "tolls": "French autoroutes from Calais to Perpignan ~€70-85 one-way. Spanish highways on return ~€10-15. No tolls in Andorra itself.",
+        "fuel": "Andorra has significantly cheaper fuel than France or Spain (tax haven). Fill up in Andorra before driving back. Expect €1.15-1.25/litre vs €1.60-1.80 in France."
+      },
+      "winter_driving_law": {
+        "legal_requirement": "Winter tyres or chains mandatory when weather conditions require (Andorran law mirrors French/Spanish mountain driving rules).",
+        "enforcement": "Police checks on mountain access roads (RN22/E9 into Andorra). Fines for inadequate winter equipment. Chains required on the steep approach to Pas de la Casa (Andorra's border with France at 2,400m).",
+        "speed_limits": {
+          "main_roads": "90 km/h",
+          "mountain_roads": "60 km/h (often reduced in snow — follow variable signs)",
+          "urban": "40 km/h in villages",
+          "fines": "Speeding fines from €60-600 depending on excess. Speed cameras on the main routes. Andorran police enforce strictly but fairly."
+        }
+      },
+      "ev_charging": {
+        "availability": "Good in the main axes (Andorra la Vella and resort car parks). Limited in remote areas. Most hotels now have destination chargers."
+      }
+    },
+    "ski_insurance": {
+      "andorran_system": "No single equivalent of France's Carré Neige. Rescue and medical costs are charged and claimed back from travel insurance.",
+      "rescue_costs": "Ski patrol rescue €100-500 for on-piste. Helicopter evacuation €1,000-3,000+. Travel insurance with winter sports cover is essential.",
+      "rega_note": "REGA does not cover Andorra (it's Swiss only).",
+      "travel_insurance": "Essential. UK travel insurance with European winter sports cover. Most UK policies cover Andorra under 'Europe' cover."
+    },
+    "emergency_services": {
+      "european_emergency": "112 (works across Andorra. Free from any phone. English-speaking operators available.)",
+      "andorran_numbers": {
+        "police": "110 (Policia Andorrana)",
+        "fire": "115",
+        "medical_ambulance": "116 (SAMU Andorra)",
+        "mountain_rescue": "112 (activates Andorran mountain rescue — Grup de Rescat de Muntanya)",
+        "roadside_assistance": "118 (Automòbil Club d'Andorra)"
+      },
+      "mountain_rescue": {
+        "grup_de_rescat": "Andorran Mountain Rescue Group — professional team. Activated via 112.",
+        "resort_patrol": "Each resort has its own piste patrol (Pistaires) — first responders for on-piste incidents.",
+        "cost": "Rescue incurs a charge. Claimable from travel insurance."
+      }
+    },
+    "ski_customs_and_regulations": {
+      "helmet_law": "Not legally required for adults or children. Strongly recommended. Some ski schools require them for children.",
+      "duty_free_shopping": "Andorra is a duty-free haven. No VAT. Electronics, alcohol, tobacco, perfume, and ski gear significantly cheaper than EU. Duty-free allowances apply when returning to France or Spain: 4 litres of spirits, 16 litres of beer, €430 value on other goods. Border customs checks can occur.",
+      "ikon_pass": "Grandvalira Resorts is on the Ikon Pass. US/Ikon pass holders get discounted access — a significant draw for North American visitors."
+    },
+    "price_positioning_vs_peers": "Andorra is the best-value ski destination in Europe for UK skiers. A 6-day lift pass in 2025/26: ~€270-310 total (€45-52/day, Andorra Pass). Cheaper than France (€354/6d, €59/day), Italy (€306/6d, €51/day), Austria (€402/6d, €67/day), and 60% cheaper than Switzerland. Accommodation is 30-50% cheaper than equivalent French Alpine resorts. Mountain restaurant lunch: €12-18 vs €22-35 in France. No VAT = shopping is 20-23% cheaper for everything from ski gear to electronics. The value comes with trade-offs: lower altitude (highest pistes at 2,640m Pas de la Casa), smaller total terrain (308km vs 600km in 3 Vallées), and more weather-dependent early/late season. But for budget-conscious groups, families, and intermediate skiers, Andorra offers the best bang-for-buck in Europe.",
+    "season_general": "Early December to mid-April (Grandvalira Resorts claims the longest season in the Pyrenees — 2025/26 ran 134 days, 8 Dec–20 Apr). Snowmaking on 66% of terrain. November opening possible in good snow years. April skiing can be variable — lower slopes suffer but upper Pas de la Casa sector often holds snow until late April."
+  }
+}

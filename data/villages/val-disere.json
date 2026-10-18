@@ -1,0 +1,31 @@
+{
+  "village": "Val d'Is\u00e8re",
+  "slug": "val-disere",
+  "altitude": 1850,
+  "resort": "Val d'Is\u00e8re",
+  "domain": "Espace Killy",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "cinema",
+    "bowling",
+    "fitness",
+    "paragliding",
+    "dog_sledding",
+    "snowshoeing",
+    "ice_climbing",
+    "fat_biking",
+    "horse_drawn",
+    "heliski",
+    "events"
+  ],
+  "character": "Legendary ski resort village with genuine alpine soul. One of France's oldest and most famous ski villages \u2014 'Village Pioneer' status. Stone and wood architecture, narrow streets, historic church. 300km Espace Killy. La Folie Douce apres. Michelin-starred dining (La Table de l'Ours). High-end boutiques, local Savoyard shops. Grown-up, stylish atmosphere.",
+  "dining": "La Table de l'Ours (Michelin). Le Coin Savoyard (Les Balmes de l'Ours). La Grande Ourse (since 1936, organic/local). La Rotisserie. Le Blizzard. Victor's (burgers, cocktails). Arctic Juice & Cafe (organic). La Barraque (live music). 50+ restaurants total.",
+  "shopping": "High-end boutiques, sports shops (including Quiksilver, Rossignol), bakeries, local food (fromage, charcuterie, wine), pharmacy, supermarket, post office, banks. Stone fa\u00e7ade village shops.",
+  "apres_scene": "La Folie Douce (Daille bubble, iconic apres). Bar Le Garage (craft beer). Victor's (happy hour, cocktails). Le Blizzard bar. La Peau de l'Ours (nightclub). La Grande Ourse (live music some nights).",
+  "activities_nearby": "Espace Killy (300km). Ice rink (olympic-sized, outdoor). Swimming pool complex. Cinema. Bowling. Paragliding, dog sledding, snowmobiling, snowshoeing. Luge (4-man toboggan). Via ferrata. Hiking. Bike park (summer).",
+  "source_url": "https://www.valdisere.com/en/village-guide/"
+}

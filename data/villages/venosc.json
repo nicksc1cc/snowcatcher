@@ -1,0 +1,18 @@
+{
+  "village": "V\u00e9nosc",
+  "slug": "venosc",
+  "resort": "Les Deux Alpes",
+  "domain": "Les Deux Alpes",
+  "region": "Oisans",
+  "nearby_activities": [
+    "spas",
+    "ice_skating",
+    "swimming",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1000,
+  "character": "Traditional village at the bottom of the V\u00e9n\u00e9on valley below Les Deux Alpes. Connected by gondola up to the resort. Quiet, authentic. Good value.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

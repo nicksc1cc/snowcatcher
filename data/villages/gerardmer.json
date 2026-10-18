@@ -1,0 +1,16 @@
+{
+  "village": "G\u00e9rardmer",
+  "slug": "gerardmer",
+  "altitude": 660,
+  "resort": "G\u00e9rardmer",
+  "domain": "G\u00e9rardmer",
+  "region": "Vosges",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "lake",
+    "spa",
+    "culture"
+  ],
+  "character": "Vosges lake resort. Lac de Geradmer (ice skating). La Mauselaine ski area (20 runs). Belle Epoque village. Casino.",
+  "source_url": "https://www.lespyrenees.com/"
+}

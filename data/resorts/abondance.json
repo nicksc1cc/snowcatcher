@@ -1,0 +1,34 @@
+{
+  "resort": "Abondance",
+  "slug": "abondance",
+  "domain": "Portes du Soleil",
+  "region": "Mont Blanc / Chablais",
+  "altitude": 930,
+  "character": "Classified 'Land of Art and History'. 12th-century abbey with Gothic cloister and 15th-century frescoes. Home of Abondance AOP cheese. Quiet valley village with 42km ski area linked to Portes du Soleil.",
+  "research_status": "properly_sourced",
+  "description": "Abondance is a rare destination that shares its name with a breed of cow and a famous AOP cheese. Classified 'Pays d'Art et d'Histoire'. The 12th-century Augustinian abbey with its Gothic cloister and 15th-century frescoes is one of the best-preserved in the Alps. The Maison du Fromage tells the story of the AOP cheese. Small ski area (42km, 13 runs) linked to the full 600km Portes du Soleil via the Torgon link. Traditional valley setting, quiet and unspoilt.",
+  "sources": [
+    "https://alpvisionresidences.com/blog/abondance",
+    "https://hotel-lestouristes.com/en/blog/3-jours-abondance-weekend"
+  ],
+  "non_ski_activities": {
+    "abbey": "12th-century Augustinian abbey. Gothic cloister with 15th-century frescoes \u2014 among best preserved in Alps. Guided tours. 'Les Rondes de Nuit' summer evening events. \u20ac6 entry / free with Multi Pass.",
+    "maison_du_fromage": "Abondance cheese museum \u2014 guided tour from raw milk to ageing cellar. Duo ticket (abbey + cheese) \u20ac10. Treasure hunt for children 'Abondance: tout un fromage'.",
+    "cheese": "Abondance AOP \u2014 farmhouse (green casein plate) vs dairy (red plate). Berthoud speciality (melted Abondance with garlic and Savoie wine, awarded TSG status 2020). Cro\u00fbte au fromage, fondue, raclette.",
+    "lac_des_plagnes": "Lake Plagnes \u2014 peaceful setting, Bar du Lac Chez R\u00e9my.",
+    "restaurants": "Le T\u00e9l\u00e9mark (brasserie), Le Mont de Grange (traditional, homemade), Bar du Lac Chez R\u00e9my (lakeside). Night market, Sunday morning market with local producers.",
+    "other": "Ice driving circuit, ski jo\u00ebring, dog sledding, natural outdoor ice rink, biathlon, snowshoeing, cross-country, via ferrata, Multi Pass 70+ activities"
+  },
+  "best_for": {
+    "culture": 10,
+    "foodies": 9,
+    "peace": 10,
+    "families": 7
+  },
+  "honest_drawbacks": [
+    "Very quiet \u2014 extremely limited apres",
+    "Small ski area (42km) \u2014 need Portes du Soleil pass for full domain",
+    "Low altitude \u2014 snow can be unreliable",
+    "Remote from main Portes du Soleil resorts"
+  ]
+}

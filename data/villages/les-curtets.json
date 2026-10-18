@@ -1,0 +1,16 @@
+{
+  "village": "Les Curtets",
+  "slug": "les-curtets",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1050,
+  "character": "Small Sixt hamlet in the Giffre valley.",
+  "activities_nearby": "Local hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

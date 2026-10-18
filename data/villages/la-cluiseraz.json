@@ -1,0 +1,19 @@
+{
+  "village": "La Cluiseraz",
+  "slug": "la-cluiseraz",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1250,
+  "character": "La Clusaz hamlet near the ski lifts.",
+  "activities_nearby": "Ski lifts within walking distance.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

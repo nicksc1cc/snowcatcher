@@ -1,0 +1,125 @@
+{
+  "domain": "Espace Killy",
+  "slug": "espace-killy",
+  "region": "Tarentaise",
+  "character": "300 km linked domain — Val d'Isère (Olympic heritage, X Games, 6m+ snowfall) and Tignes (largest European glacier, summer skiing, ice driving on frozen lake)",
+  "research_status": "properly_sourced",
+  "description": "300km of linked pistes between Val d'Isère and Tignes, named after legendary Olympic skier Jean-Claude Killy. Among the most snow-sure domains in Europe — both resorts are high-altitude (Val d'Isère 1,850m, Tignes 2,100m) with glaciers (Grande Motte 3,456m, Pisaillas 3,100m). Known for: exceptional off-piste, Olympic heritage (Val d'Isère hosted 1992 Olympics), year-round skiing at Tignes glacier, and consistent snow from late November to early May. Tignes has summer skiing operation June-July. 76 lifts.",
+  "sources": [
+    {
+      "url": "https://www.snowmagazine.com/ski-resort-guide/france/val-d-isere-ski-resort",
+      "type": "review",
+      "author": "Roger Fulton",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "url": "https://www.snowmagazine.com/ski-resort-guide/france/tignes-ski-resort",
+      "type": "review",
+      "retrieved": "2026-10-14"
+    }
+  ],
+  "stats": {
+    "pistes_km": 300,
+    "lifts": 89,
+    "highest_point_m": 3456,
+    "lowest_point_m": 1550,
+    "vertical_drop_m": 1906,
+    "cross_country_km": 89,
+    "snowparks": 2,
+    "val_disere_pistes_km": 150,
+    "tignes_pistes_km": 150,
+    "val_disere_lifts": 55,
+    "tignes_lifts": 50,
+    "val_disere_beginner_pct": 15,
+    "intermediate_pct": 40,
+    "advanced_pct": 44,
+    "glacier": "Grande Motte (Tignes) — largest skiable glacier in Europe, 6 km long, summer skiing May-Oct"
+  },
+  "snow_record": {
+    "val_disere_avg_snowfall": "6m+ per season — micro-climate delivers consistent heavy snow",
+    "snow_reliability": "10/10 — both resorts above 1,850 m, glacier in Tignes",
+    "glacier_summer_skiing": "Grande Motte (3,456 m) — Europe's largest accessible skiable glacier. Open June-October."
+  },
+  "resorts": [
+    {
+      "name": "Val d'Isère",
+      "altitude": 1850,
+      "character": "Olympic pedigree, X Games venue, legendary off-piste, 60+ restaurants, 6m+ snowfall, 3 sectors (Fornet/Solaise/Bellevarde). Most famous off-piste: Banana, Charvet Tour, Face du Charvet. Apres: Folie Douce, Cocorico, Dick's Tea Bar."
+    },
+    {
+      "name": "Tignes",
+      "altitude": 2100,
+      "character": "4 villages (Le Lac, Val Claret, Le Lavachet, Les Brévières). Ice driving on frozen lake, ice diving, Grande Motte glacier summer skiing. Purpose-built, functional, passionate freeride/snowboard culture."
+    }
+  ],
+  "non_ski_activities": {
+    "ice_driving": "Tignes — drive a BMW or 4x4 on the frozen Lac de Tignes (Dec-Mar, book at Tignespace)",
+    "ice_diving": "Tignes — ice diving in the frozen lake, guided with full equipment provided",
+    "swimming": "Val d'Isère: municipal centre with 2 pools, sauna, steam room, fitness. Tignes: Tignespace wellness centre",
+    "ice_skating": "Val d'Isère: Olympic outdoor ice rink. Tignes: ice rink",
+    "cinema": "Both resorts have cinemas"
+  },
+  "source_url": "https://www.valdisere.ski/en",
+  "name": "Espace Killy",
+  "statistics": {
+    "total_pistes_km": 300,
+    "total_lifts": 76,
+    "total_pistes": 152,
+    "highest_point": 3456,
+    "lowest_point": 1550,
+    "vertical_drop": 1906,
+    "snow_reliable_above": 1800,
+    "glaciers": [
+      {
+        "name": "Grande Motte Glacier",
+        "altitude": 3456
+      },
+      {
+        "name": "Pisaillas Glacier",
+        "altitude": 3100
+      }
+    ]
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day_high": 78,
+    "adult_6day_high": 468,
+    "child_6day_high": 378,
+    "senior_6day_high": 378,
+    "note": "6-day pass = 7 days of skiing (7th day free). Early season (Nov 28-Dec 11) adult 6-day €402.30.",
+    "child_age_range": "8-18",
+    "senior_age_range": "65-74",
+    "under_8": "Free",
+    "75_plus": "Free",
+    "season_pass": 1130,
+    "insurance": "Carré Neige available. Pool entries included: 2 entries with 6-day+ pass.",
+    "source_url": "https://www.valdisere.com/en/prepare-for-your-stay/buy-my-skipass/"
+  },
+  "season_dates": {
+    "winter_general": "29 November 2025 to 3 May 2026",
+    "tignes_opening": "22 November 2025",
+    "val_disere_opening": "29 November 2025",
+    "summer_tignes_glacier": "21 June to 20 July 2026"
+  },
+  "suitability": {
+    "beginners": "Good — dedicated beginner zones at Val d'Isère (La Daille beginner area) and Tignes (Le Lac). Green runs above Tignes and on the Solaise sector. Lessons available with ESF.",
+    "intermediates": "Excellent — the main Tignes-Val d'Isère link via the Tommeuses/Tovière pass opens up extensive blue/red cruising. Val d'Isère's Solaise sector has long blues. Tignes Val Claret to Le Lac is a gentle but fun valley run.",
+    "advanced": "Outstanding — Face de Bellevarde (Olympic downhill, 1992), Grande Motte glacier blacks, Pisaillas glacier off-piste. The 'Sache' area below Bellevarde is famous for steep powder.",
+    "freeriders": "World-class — Espace Killy is one of the world's great freeride destinations. Col de l'Iseran, Vallon de l'Iseran, La Sache, La Daille couloirs, and the run from Grande Motte to Tignes glacier."
+  },
+  "signature_runs": [
+    {
+      "name": "Face de Bellevarde (Olympic downhill)",
+      "difficulty": "black",
+      "vertical_m": 900,
+      "description": "Legendary Olympic downhill course from 1992 — steep, exposed, above Val d'Isère"
+    },
+    {
+      "name": "Grande Motte glacier descent",
+      "difficulty": "red",
+      "vertical_m": 1200,
+      "description": "3,456m to Tignes Le Lac via the glacier — snow-sure from November"
+    }
+  ],
+  "piste_map_url": "https://www.valdisere.ski/en/ski-area/piste-map"
+}

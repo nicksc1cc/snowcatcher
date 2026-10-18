@@ -1,0 +1,18 @@
+{
+  "village": "Le Rocher",
+  "slug": "le-rocher",
+  "resort": "Les Gets",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "market",
+    "swimming",
+    "spas",
+    "paragliding",
+    "dog_sledding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1150,
+  "character": "Les Gets hamlet. Quiet residential.",
+  "source_url": "https://www.seechamonix.com/"
+}

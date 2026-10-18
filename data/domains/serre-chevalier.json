@@ -1,0 +1,40 @@
+{
+  "domain": "Serre Chevalier",
+  "slug": "serre-chevalier",
+  "region": "Alpes du Sud",
+  "character": "250 km tree-lined runs through larch forest. Briancon (UNESCO fortified city, highest in France). Sun-soaked southern Alps.",
+  "research_status": "properly_sourced",
+  "stats": {
+    "pistes_km": 250,
+    "lifts": 61,
+    "highest_point_m": 2800,
+    "lowest_point_m": 1200,
+    "cross_country_km": 35,
+    "sunshine_days_per_year": "300+",
+    "note": "Briancon is the highest city in France (1,320 m). UNESCO World Heritage fortified city."
+  },
+  "source_url": "https://www.serre-chevalier.com/en/",
+  "name": "Serre Chevalier",
+  "description": "250km of pistes, 59 lifts, in the Guisane valley of the Hautes-Alpes. 4 resort villages: Briançon (UNESCO city, highest in France at 1,320m), Chantemerle (purpose-built ski-in/ski-out), Villeneuve-La Salle les Alpes (sunny, family), and Le Monêtier-les-Bains (thermal spa village). Known for: the southern Alps sun (300+ days per year), Briançon's Vauban fortifications (UNESCO), the highest concentration of black runs in France (many named after local wildlife), and the Grands Bains du Monêtier thermal spa. Lower altitude than the big northern domains but benefits from southern latitude and extensive snowmaking (60%+ coverage).",
+  "statistics": {
+    "total_pistes_km": 250,
+    "total_lifts": 59,
+    "highest_point": 2830,
+    "lowest_point": 1200,
+    "vertical_drop": 1630
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 62,
+    "adult_6day": 330,
+    "child_6day": 264,
+    "note": "Local passes available per village. Briançon is the cheapest base (real town prices, not resort prices).",
+    "source_url": "https://www.serre-chevalier.com/en/lift-passes/"
+  },
+  "suitability": {
+    "beginners": "Good — Chantemerle has the best beginner zone. Le Monêtier has gentle runs. The valley runs are wide and forgiving. Ski schools with English.",
+    "intermediates": "Very good — the valley layout means each side of the valley has long blues and reds dropping to the various villages. The Serre Chevalier pass is worth it for intermediate variety.",
+    "advanced": "Excellent — the highest concentration of black runs in France. The Yret, L'Escapade, and Grand Alp blacks. Off-piste in the Combe des Quiries.",
+    "families": "Good — Briançon is a real historic town (not just a resort) with full services all year. Monêtier thermal spa for parents. Chantemerle purpose-built for families."
+  }
+}

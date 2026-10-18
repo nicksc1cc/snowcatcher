@@ -1,0 +1,16 @@
+{
+  "village": "Le Brairet",
+  "slug": "le-brairet",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1150,
+  "character": "Small Sixt hamlet in the upper valley.",
+  "activities_nearby": "Hiking, nature.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

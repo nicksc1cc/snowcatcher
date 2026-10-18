@@ -1,0 +1,16 @@
+{
+  "village": "L'Echarny",
+  "slug": "lecharny",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 900,
+  "character": "Sixt hamlet on the valley floor. Small agricultural settlement.",
+  "activities_nearby": "Local hiking.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

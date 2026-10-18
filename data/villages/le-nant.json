@@ -1,0 +1,19 @@
+{
+  "village": "Le Nant",
+  "slug": "le-nant",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1150,
+  "character": "Lower hamlet of La Clusaz with traditional architecture.",
+  "activities_nearby": "Hiking. Shuttle to La Clusaz.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

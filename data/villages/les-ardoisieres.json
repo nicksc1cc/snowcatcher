@@ -1,0 +1,18 @@
+{
+  "village": "Les Ardoisi\u00e8res",
+  "slug": "les-ardoisieres",
+  "resort": "Avoriaz",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "horse_drawn_sleigh",
+    "spas",
+    "cinema",
+    "paragliding",
+    "dog_sledding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1750,
+  "character": "Higher neighbourhood of Avoriaz. Named after slate roofs.",
+  "source_url": "https://www.seechamonix.com/"
+}

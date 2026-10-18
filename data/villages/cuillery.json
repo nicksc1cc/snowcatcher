@@ -1,0 +1,17 @@
+{
+  "village": "Cuillery",
+  "slug": "cuillery",
+  "resort": "Le Grand Bornand",
+  "domain": "Le Grand Bornand",
+  "region": "Aravis",
+  "nearby_activities": [
+    "cheese",
+    "market",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1000,
+  "character": "Traditional hamlet of Le Grand Bornand with local cheese farms.",
+  "activities_nearby": "Cheese farm visits. Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

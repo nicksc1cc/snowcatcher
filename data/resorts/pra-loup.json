@@ -1,0 +1,52 @@
+{
+  "resort": "Pra-Loup",
+  "slug": "pra-loup",
+  "domain": "Pra-Loup",
+  "region": "Alpes-de-Haute-Provence",
+  "altitude": 1600,
+  "character": "Southern Alps resort in the Ubaye valley at the gates of Mercantour National Park. Linked to La Foux d'Allos for 180km Espace Lumi\u00e8re. Tour de France history (1975 \u2014 Merckx beaten here). Hosted 1999 Junior World Championships.",
+  "research_status": "properly_sourced",
+  "description": "Pra-Loup is a southern Alps resort in the Ubaye valley, 7km from Barcelonnette. 2 base areas: Pra-Loup 1600 (primary) and Pra-Loup 1500/Les Molan\u00e8s. Linked to La Foux d'Allos via the Agneliers valley to form 180km total. 39 runs (6 green, 13 blue, 17 red, 3 black), 53 lifts. 80% of terrain above 2,000m. Classified health resort since 1981. Hosted 1999 Junior World Alpine Ski Championships. Famous in cycling history \u2014 the 1975 Tour de France stage where Bernard Th\u00e9venet beat Eddy Merckx (the 'Merckx is beaten/Bastille has fallen' moment). Home of Fumeton \u2014 local cured mutton speciality.",
+  "sources": [
+    "https://www.praloup.com/en/",
+    "https://en.wikipedia.org/wiki/Pra_Loup"
+  ],
+  "stats": {
+    "altitude_resort": 1600,
+    "altitude_top": 2500,
+    "vertical_drop": 900,
+    "pistes_km": 180,
+    "runs": 39,
+    "green": 6,
+    "blue": 13,
+    "red": 17,
+    "black": 3,
+    "lifts": 53,
+    "pct_above_2000m": 80,
+    "open_from": "12 December 2026",
+    "open_until": "4 April 2027",
+    "linked_resort": "La Foux d'Allos",
+    "linked_area": "Espace Lumi\u00e8re"
+  },
+  "non_ski_activities": {
+    "mercantour_park": "At the gates of Mercantour National Park \u2014 9,000+ species, exceptional biodiversity. Guided wildlife walks (marmots, chamois, ibex). Astronomy sessions.",
+    "health_resort": "Classified health resort since 1981 \u2014 thalassotherapy and wellness programmes.",
+    "events": "Winter Opening, torchlight descents, firework displays (31 Dec), Chamallows Party (24 Dec), Halloween workshops, Wolf of Pra Loup mascot hunt, FIS races.",
+    "food": "Fumeton \u2014 local cured mutton speciality from Pra-Loup. Savoyard and Provencal cuisine.",
+    "history": "1975 Tour de France \u2014 stage 15 won by Bernard Th\u00e9venet. The famous 'Merckx is beaten/Bastille has fallen' sign moment. 1999 Junior World Alpine Ski Championships.",
+    "other": "Ski touring paradise (Ubaye/Mercantour), mountain biking, cycle tourism (Great Alpine Passes), astronomy, snowshoeing, paragliding"
+  },
+  "best_for": {
+    "intermediates": 9,
+    "families": 8,
+    "nature": 9,
+    "sun_seekers": 8,
+    "budget": 8
+  },
+  "honest_drawbacks": [
+    "Remote \u2014 long transfer (Lyon/Grenoble/Gap/Barcelonnette)",
+    "Southern Alps \u2014 less consistent snow than northern Alps",
+    "Quiet apres \u2014 limited nightlife",
+    "Smaller than Tarentaise giants"
+  ]
+}

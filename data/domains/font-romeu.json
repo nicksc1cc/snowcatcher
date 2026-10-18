@@ -1,0 +1,30 @@
+{
+  "domain": "Font-Romeu",
+  "slug": "font-romeu",
+  "region": "Pyrénées",
+  "character": "60 km. 300+ sunny days/year. National altitude training centre for Olympic athletes.",
+  "stats": {
+    "pistes_km": 60,
+    "highest_point_m": 2500,
+    "sunny_days": "300+"
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.pyrenees-cerdagne.com/",
+  "name": "Font-Romeu",
+  "description": "115km of pistes, 28 lifts, across Font-Romeu, Bolquère, and Les Angles in the Cerdagne/Cerdanya region. One of the oldest ski resorts in France and the oldest in the Pyrenees. Known for: 300+ sunny days per year (the sunniest resort in France), the world's largest solar furnace at Odeillo (3,500°C), and the National Altitude Training Centre (Olympic athletes). The Yellow Train historic railway from Villefranche-de-Conflent to Latour-de-Carol.",
+  "statistics": {
+    "total_pistes_km": 115,
+    "total_lifts": 28,
+    "highest_point": 2500,
+    "lowest_point": 1600
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 270
+  },
+  "suitability": {
+    "cross_country": "Excellent",
+    "families": "Good",
+    "sun_seekers": "Best in France — 300+ days sun"
+  }
+}

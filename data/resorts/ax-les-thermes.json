@@ -1,0 +1,43 @@
+{
+  "resort": "Ax-les-Thermes",
+  "slug": "ax-les-thermes",
+  "domain": "Ax 3 Domaines",
+  "region": "Pyrenees",
+  "altitude": 720,
+  "character": "Thermal spa town known since antiquity. Largest ski resort in Ari\u00e8ge \u2014 Ax 3 Domaines (80km, 37 runs, 3 sectors). Free natural thermal hot springs on rue des Thermes (36-78\u00b0C). Casino, cinema, ice rink. Lush Pyrenean valley setting.",
+  "research_status": "properly_sourced",
+  "description": "Ax-les-Thermes is a thermal spa town in the Ari\u00e8ge Pyrenees known since Roman times for its natural hot springs. The famous free public thermal springs on rue des Thermes (36-78\u00b0C) are a unique attraction. Ax 3 Domaines is the largest ski resort in Ari\u00e8ge: 80km of pistes across 3 sectors \u2014 Bonascre (village level), Saquet (mid-altitude), and Campels (high altitude, 2,400m). 37 runs. Snow activities: snake gliss (4.5km toboggan), fat bike on snow, igloo construction, ski touring. Bains du Couloubret for paid thermal bathing. Casino Joa, ice skating rink, cinema. Gateway to the Ari\u00e8ge Pyrenees \u2014 Orlu valley, Chioula pass, Beille plateau.",
+  "sources": [
+    "https://www.ax.ski/en/activites-station",
+    "https://www.ax.ski/en/activites-ax-les-thermes",
+    "https://www.ariegepyrenees.com/en/preparer/explorer/villages/ax-the-thermal-baths/"
+  ],
+  "stats": {
+    "altitude_resort": 720,
+    "altitude_top": 2400,
+    "pistes_km": 80,
+    "runs": 37,
+    "sectors": 3
+  },
+  "non_ski_activities": {
+    "hot_springs": "Free natural thermal springs on rue des Thermes \u2014 36-78\u00b0C water. Unique free public access. Bains du Couloubret (paid) for formal thermal bathing experience.",
+    "snake_gliss": "4.5km toboggan descent from 2,000m to 1,400m through fir trees. With Bureau des Guides.",
+    "fat_bike": "Fat bike on snow \u2014 wide-wheel bikes. Available through guides.",
+    "bonascre_baths": "Bonascre Baths \u2014 Scandinavian-style wellness evening at altitude.",
+    "igloo_village": "Igloo construction workshops. With Bureau des Guides.",
+    "casino": "Casino Joa \u2014 slot machines and gaming in a friendly setting.",
+    "other": "Ice skating rink, cinema (Cin\u00e9max), hiking (Laurenti pond, Comte pond, Dent d'Orlu), snowshoeing, ski touring, Orlu valley, Chioula pass, Beille plateau."
+  },
+  "best_for": {
+    "value": 9,
+    "peace": 8,
+    "families": 8,
+    "beginners": 8
+  },
+  "honest_drawbacks": [
+    "Smaller ski area (80km)",
+    "Low altitude village (720m) \u2014 snow variable at base",
+    "Quiet apres",
+    "Limited advanced/expert terrain"
+  ]
+}

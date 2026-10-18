@@ -1,0 +1,33 @@
+{
+  "domain": "La Grave",
+  "slug": "la-grave",
+  "region": "Oisans",
+  "character": "The most extreme ski resort in the Alps. No marked pistes, one cable car (G5, since 1958), entirely off-piste. Guide essential.",
+  "research_status": "properly_sourced",
+  "stats": {
+    "pistes_km": 0,
+    "lifts": 1,
+    "highest_point_m": 3200,
+    "note": "No marked pistes. Entirely off-piste terrain on La Meije massif. 1 cable car (G5). Only for experts with guides."
+  },
+  "source_url": "https://en.wikipedia.org/wiki/La_Grave",
+  "name": "La Grave",
+  "description": "Zero marked pistes, 3 lifts (1 cable car + 2 T-bars). The most extreme ski area in France — a single cable car (pulse gondola, 2-stage) from 1,450m to 3,200m (Col des Ruillans), then T-bar to Girose Glacier at 3,550m. The 'pistes' are the Vallons de la Meije — completely unpatrolled, uncontrolled, ungroomed off-piste terrain with a 2,150m vertical drop back to the road. Classified Plus Beaux Villages de France at the base. NOT for anyone who isn't an expert. Doug Coombs (legendary extreme skier) died here in 2006.",
+  "statistics": {
+    "total_pistes_km": 0,
+    "total_lifts": 3,
+    "highest_point": 3550,
+    "lowest_point": 1450,
+    "vertical_drop": 2150
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 35,
+    "adult_6day": 170,
+    "note": "One cable car — that's it. No beginners pass, no family ticket. You buy the ride up."
+  },
+  "suitability": {
+    "experts_only": "True — zero pistes, unpatrolled off-piste",
+    "requires_guide": "Strongly recommended — Vallons de la Meije is serious terrain"
+  }
+}

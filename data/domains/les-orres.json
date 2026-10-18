@@ -1,0 +1,29 @@
+{
+  "domain": "Les Orres",
+  "slug": "les-orres",
+  "region": "Alpes du Sud",
+  "character": "90 km sunny southern Alps resort at 1,780 m. Good snow record, family-friendly.",
+  "stats": {
+    "pistes_km": 90,
+    "highest_point_m": 2720
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.lesorres.com/en/",
+  "name": "Les Orres",
+  "description": "100km of pistes, 20 lifts, in the Ubaye valley (Southern Alps). The largest ski area in the Southern Alps. Known for: exceptional sunshine (300+ days/year), a heated outdoor pool at 1,800m, extensive snowmaking (95% coverage — among the highest in France), and being more affordable than the northern Alps. Good for families and intermediates.",
+  "statistics": {
+    "total_pistes_km": 100,
+    "total_lifts": 20,
+    "highest_point": 2720,
+    "lowest_point": 1550
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 280
+  },
+  "suitability": {
+    "families": "Very good — heated outdoor pool at 1,800m",
+    "intermediates": "Good",
+    "beginners": "Good"
+  }
+}

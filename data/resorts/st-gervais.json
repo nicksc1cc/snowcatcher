@@ -1,0 +1,77 @@
+{
+  "resort": "Saint-Gervais-les-Bains",
+  "slug": "st-gervais",
+  "domain": "Evasion Mont Blanc",
+  "region": "Mont Blanc",
+  "altitude": 850,
+  "character": "Belle \u00c9poque spa town at the foot of Mont Blanc. Home to the Mont Blanc Tramway \u2014 the highest rack railway in France (to Nid d'Aigle, 2,372m). Thermal baths with naturally warm mineral water (200+ years of tradition). Gateway to Evasion Mont-Blanc ski area (325km linked with Megeve).",
+  "research_status": "properly_sourced",
+  "description": "Saint-Gervais-les-Bains is a Belle \u00c9poque spa town at the foot of Mont Blanc, combining thermal bathing, skiing on the Evasion Mont-Blanc domain (linked to Megeve, Combloux, La Giettaz), and high-mountain access. The Mont Blanc Tramway (rack railway built 1913) climbs from Le Fayet station to Nid d'Aigle at 2,372m \u2014 the highest railway in France and the starting point for the normal route up Mont Blanc via the Go\u00fbter. The Bains du Mont Blanc thermal spa (renovated, open year-round) offers indoor and outdoor pools with naturally warm mineral water, saunas, steam baths, sensory spaces, and a wellness trail \u2014 all in a Belle \u00c9poque park at the foot of the Bonnant gorges. The Vall\u00e9en gondola connects Le Fayet station to Saint-Gervais village in 6 minutes. The ski area at Bettex (1,400-2,350m) is part of the 325km Evasion Mont-Blanc. Saint-Gervais Distillery produces Mont Blanc Gin with gin-making workshops (Gin School, \u20ac95/person). A quieter, more relaxed base than Chamonix, 1h05 from Geneva.",
+  "sources": [
+    "https://www.saintgervais.com/",
+    "https://www.saintgervais.com/app/uploads/saint-gervais/2026/03/Guide-pratique-ete-2026.pdf",
+    "https://www.lahautesavoie.com/en/destinations/saint-gervais-les-bains/",
+    "https://www.tourisme-haute-savoie.com/en/news-from-haute-savoie/to-visit-in-haute-savoie/what-to-do-and-what-to-visit-in-saint-gervais/"
+  ],
+  "stats": {
+    "altitude_village": 850,
+    "altitude_le_fayet": 580,
+    "altitude_top": 2350,
+    "domain_pistes_km": 325,
+    "rack_railway": "Mont Blanc Tramway to Nid d'Aigle (2,372m)",
+    "thermal_baths": "Bains du Mont Blanc \u2014 200+ year tradition"
+  },
+  "villages": [
+    {
+      "name": "Saint-Gervais Village",
+      "alt": 850,
+      "character": "Perched village with shops, restaurants, traditional architecture. Access via Vall\u00e9en gondola from Le Fayet (6 min)."
+    },
+    {
+      "name": "Le Fayet",
+      "alt": 580,
+      "character": "Valley floor \u2014 TGV station, thermal baths district, Belle \u00c9poque architecture. Mont Blanc Tramway departure."
+    },
+    {
+      "name": "Le Bettex",
+      "alt": 1400,
+      "character": "Ski area base station \u2014 direct access to Evasion Mont-Blanc pistes (325km). Ski-in/ski-out accommodation."
+    }
+  ],
+  "non_ski_activities": {
+    "thermal_baths": "Bains du Mont Blanc \u2014 naturally warm mineral thermal water (200+ years of tradition). Indoor and outdoor pools, saunas at different temperatures, steam baths, sensory spaces, wellness trail, tisanerie. In a Belle \u00c9poque park at the foot of the Bonnant gorges. Holistic approach combining visual, auditory and sensorial experiences.",
+    "mont_blanc_tramway": "Highest rack railway in France (built 1913). From Le Fayet to Nid d'Aigle (2,372m) \u2014 1hr journey. Starting point for Mont Blanc ascent (Go\u00fbter route) and high-mountain hikes. Stops at Bellevue, Mont Lachat, and Nid d'Aigle. Summer and winter operation.",
+    "distillery": "Distillerie de Saint-Gervais \u2014 Mont Blanc Gin. Visit and tasting \u20ac5/person (free with purchase). Gin School workshop \u20ac95/person \u2014 select botanicals, distil your own gin, take home your creation. Ages 18+. Book 48h ahead.",
+    "swimming": "Municipal pool \u2014 25m lane pool with submerged speakers, 17x10m outdoor pool with slide, 43m\u00b2 children's play area with water games, paddling pool. Relaxation area.",
+    "ice_skating": "Ice rink in Saint-Gervais (skate rental included)",
+    "leisure_pass": "PASS LOISIRS \u2014 unlimited access to Evasion Mont-Blanc lifts, Vall\u00e9en gondola, pool, ice rink, mini-golf, library, Maison Forte de Hautetour, Museum of Sacred Art, La Cure cultural centre.",
+    "climbing": "Le Topo climbing hall (year-round, routes, boulders, children's area, homemade food). Outdoor climbing in the Thermal Park. Mont Blanc Parc Aventure \u2014 tree-top adventure courses for ages 3+ including Bambins, 4 difficulty levels, zip line courses.",
+    "other": "Paragliding (Flying Light annual event), canyoning, rafting, via ferrata, mountain biking (bike park, pumptrack, skate park), mini-golf, trail running, hiking, 4 museums, baroque church at Saint-Nicolas-de-V\u00e9roce, guided heritage tours"
+  },
+  "best_for": {
+    "spa_seekers": 10,
+    "families": 8,
+    "value": 8,
+    "culture": 9,
+    "peace": 8
+  },
+  "honest_drawbacks": [
+    "Lower altitude village (850m) \u2014 snow variable at valley level",
+    "Quieter than Chamonix \u2014 limited apres/nightlife",
+    "Requires Vall\u00e9en gondola to reach main ski area at Bettex",
+    "Spreads across multiple villages \u2014 car/shuttle sometimes needed"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva (GVA)",
+        "min": 65
+      }
+    ],
+    "by_train": {
+      "station": "Saint-Gervais-Le Fayet (TGV direct from Paris)",
+      "mont_blanc_express": "To Chamonix (30 min)",
+      "tgv_from_paris": "5 hours"
+    }
+  }
+}

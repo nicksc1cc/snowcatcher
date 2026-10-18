@@ -1,0 +1,18 @@
+{
+  "village": "Pr\u00e9-la-Joux",
+  "slug": "pre-la-joux",
+  "resort": "Ch\u00e2tel",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "spas",
+    "farm_visits",
+    "paragliding",
+    "dog_sledding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1250,
+  "character": "Chatel hamlet. Quiet, traditional.",
+  "source_url": "https://www.seechamonix.com/"
+}

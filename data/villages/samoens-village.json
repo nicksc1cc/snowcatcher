@@ -1,0 +1,19 @@
+{
+  "village": "Samo\u00ebns Village",
+  "slug": "samoens-village",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 720,
+  "character": "Grand Massif valley village at 720m. One of France's Plus Beaux Villages \u2014 medieval market town with large cobbled square, 12th-century church. Full year-round services. Gondola to Grand Massif (30 min). Lively Wednesday market.",
+  "activities_nearby": "Grand Massif gondola (30 min). Medieval square and market (Wednesdays). Via ferrata (Grand Massif). Hiking. Paragliding. River swim in Giffre.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

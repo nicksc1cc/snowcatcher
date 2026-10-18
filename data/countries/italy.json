@@ -1,0 +1,107 @@
+{
+  "country": {
+    "name": "Italy",
+    "slug": "italy",
+    "description": "Italy is the world's 4th-largest ski market with 32 million skier visits in 2023/24 (+4% growth). It ranks 3rd in Europe behind France and Austria, and has overtaken Switzerland to become a major European ski destination. Italy recorded 54% foreign skier visits — the highest percentage of any ski country — popular with Polish, Czech, American, British, and German tourists. Known for excellent food, reasonable prices, dolce vita atmosphere, and unique multi-resort passes (Epic, Ikon) attracting American visitors. Italy's ski season runs December to April in the Alps, with the Dolomites offering 500km+ linked areas, and the Apennines serving day-trippers from Rome and Naples.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "4th globally (after USA, France, Austria)",
+      "european_rank": "3rd (behind France, Austria)",
+      "annual_skier_visits": "32 million (2023/24 season, +4% YoY)",
+      "total_ski_areas_mapped": "143 (SkiAllDay dataset), ~300 total ski areas nationwide",
+      "total_lift_installations": "~1,700 (ANEF, national cableway association)",
+      "total_pistes_km": "~4,988 km (across 143 mapped areas in SkiAllDay)",
+      "three_regions_hold_38pct_of_lifts": "Valle d'Aosta, Trentino, and Alto Adige hold 689 installations (38.3% of national total)",
+      "revenue_direct": "€1.3 billion direct lift ticket and services revenue",
+      "revenue_induced": "€8.9 billion local business turnover activated",
+      "jobs_supported": "75,236 direct and indirect jobs",
+      "tax_revenue_per_skier_day": "€15.50",
+      "multiplier": "5x on local tourist spending, 8x on local business turnover per lift ticket euro",
+      "international_visitors_share": "54% (highest of any ski country)",
+      "top_source_markets": "Poland, Czech Republic, USA, UK, Germany",
+      "lift_pass_price_positioning": "Average daily rate of a 6-day pass: €51/day (€306 total for 6 days). Cheaper than France (€59/day, €354/6d) and Austria (€67/day, €402/6d)",
+      "source_figures": "ANEF March 2026 economic study; Laurent Vanat International Report 2025; SkiAllDay"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "notes": "Italy is heavily cash-based in mountain areas. Many small restaurants, bars, and shops in the Dolomites do not accept card. ATMs are available in resort centres but can run out. Carry €100-200 cash. Card accepted at major ticket offices and rental shops."
+      },
+      "language": {
+        "official": "Italian",
+        "english_in_resorts": "Common in major Dolomites resorts (Cortina, Val Gardena, Livigno, Cervinia) and Aosta Valley. Less common in smaller Apennine resorts. South Tyrol (Alto Adige) is bilingual Italian/German — many speak English as third language. Learning 'buongiorno', 'grazie', 'il conto per favore' helps.",
+        "german_in_south_tyrol": "South Tyrol is majority German-speaking. Signs, menus, and staff often speak German first, Italian second."
+      },
+      "power_plugs": {
+        "type": "Type F/L (2-pin round, 230V, 50Hz) — same as continental Europe",
+        "adapter_needed": "Yes for UK visitors (UK plug is Type G). Standard EU travel adapter works.",
+        "notes": "Same as France. Type F plugs work in Type L sockets and vice versa. USB charging common in modern resorts."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as France. 1 hour ahead of UK."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_dolomites": "~11-13 hours via France/Switzerland (Freiburg-Basel-Zürich-Brenner Pass) or via Mont Blanc tunnel-Aosta-Brenner. Long drive — overnight stop recommended (Reims, Basel, or Innsbruck).",
+        "calais_to_aosta_valley": "~9-10 hours via Reims-Dijon-Mont Blanc tunnel (tunnel toll ~€50 each way) or Fréjus tunnel (€70).",
+        "calais_to_via_lattea": "~10 hours via Fréjus tunnel (A43 to Modane, then tunnel to Bardonecchia).",
+        "tolls": "Italian autostrada tolls for main routes (A4, A22, A23). Typical Calais to Dolomites: ~€60-80 one-way including French autoroutes and Swiss motorway vignette. Mont Blanc tunnel ~€49-60 each way. Italian tolls payable by card/cash at barrier. Telepass lanes (Italian equivalent of Dart Tag) — avoid unless you have a Telepass badge.",
+        "fuel_stops": "Autoroute service stations every 30-40km. Fuel more expensive on autostrade than supermarkets. Self-service stations common overnight."
+      },
+      "winter_driving_law": {
+        "period": "15 November to 15 April (in most mountain regions, but varies by comune decree — no single national date like France)",
+        "requirements": "Winter tyres OR snow chains must be carried and fitted when conditions require. Unlike France's clear national law, Italy uses a system of local ordinanze (decrees). In practice: winter tyres (3PMSF marked) strongly recommended Nov-Apr. If driving without them on snowy roads and stopped by police, you can be fined (€42-€175) and the car can be immobilised.",
+        "aosta_valley": "Strongly enforced — winter tyres or chains mandatory on all regional roads 15 Oct-15 Apr.",
+        "mont_bianc_tunnel": "Chains or winter tyres required for the tunnel approach in snowy conditions.",
+        "enforcement": "Local police (Polizia Locale) and Carabinieri check on mountain roads. Signs indicate where chains/tyres are mandatory. Fine €42-175 depending on the comune.",
+        "speed_limits": {
+          "autostrada_toll": "130 km/h (110 km/h in rain)",
+          "single_carriageway": "90 km/h",
+          "urban": "50 km/h",
+          "mountain_roads": "Often 60-80 km/h — follow signs",
+          "fines": "Speeding fines from €42. Automatic speed cameras (Autovelox) common. Cross-border enforcement with UK via bilateral agreements."
+        }
+      },
+      "ev_charging": {
+        "availability": "Growing rapidly on autostrade and in northern Italy. Dolomites and Aosta Valley have good coverage in resort car parks. Less coverage in Apennine resorts.",
+        "networks": "Enel X, Ionity, Fastned on main routes. Local networks in resorts vary.",
+        "tips": "Download App (Enel X Way, PlugShare) for live availability. Chargers in resort villages can be busy on Saturday changeover."
+      }
+    },
+    "ski_insurance": {
+      "italian_system": "Italy has no single equivalent of France's Carré Neige. Ski rescue and medical costs are charged to the individual and claimed back from travel insurance.",
+      "rescue_costs": "Ski patrol (piste soccorso) rescue incurs a charge — typically €200-600 for on-piste, €1,000+ for helicopter evacuation from off-piste.",
+      "travel_insurance": "Essential. UK travel insurance with winter sports cover is the standard solution. Check it covers: on-piste rescue, helicopter evacuation (off-piste), repatriation, mountain rescue, piste closure resulting in lift pass non-use (some policies).",
+      "rega_note": "For South Tyrol and Dolomites close to the Austrian border: if you're a Rega patron (CHF 40/year), REGA air rescue covers helicopter rescue in Switzerland ONLY. It does NOT cover Italy. Buy separate insurance for Italian ski trips."
+    },
+    "emergency_services": {
+      "european_emergency": {
+        "number": "112",
+        "notes": "Works across Italy. Free from any phone. English-speaking operators available in tourist areas."
+      },
+      "italian_numbers": {
+        "police": "113 (Polizia di Stato)",
+        "fire": "115 (Vigili del Fuoco)",
+        "medical_ambulance": "118 (also covers mountain/cave rescue — request CNSAS activation)",
+        "roadside_assistance": "803.116 (ACI — Automobile Club d'Italia)",
+        "forest_ranger": "1515",
+        "sea_rescue": "1530"
+      },
+      "mountain_rescue": {
+        "cnsas": "Corpo Nazionale Soccorso Alpino e Speleologico — Italian national mountain rescue service. Activated by calling 118 or 112 and requesting CNSAS intervention. Highly professional, covers both Alps and Apennines.",
+        "helicopter_rescue": "Available through CNSAS/118. Costs €1,000-3,000+ for helicopter evacuation — covered by good travel insurance.",
+        "regional_centres": "118 works nationwide. For direct CNSAS contact in specific regions, alpine rescue centres are listed on cnsas.it."
+      },
+      "piste_incident_procedure": {
+        "if_witness": "1. Call 112 or 118. 2. Mark the spot with crossed skis. 3. Don't move the casualty unless in immediate danger. 4. Keep them warm. 5. Note piste name and nearest lift number. 6. Stay until help arrives.",
+        "cost": "Rescue incurs a charge — claimable from travel insurance. Take a photo of the incident scene and keep receipts."
+      }
+    },
+    "ski_customs_and_regulations": {
+      "helmet_law": "Helmets are mandatory for children under 14 in Italy (Law 8/2021). Strongly recommended for adults but not legally required.",
+      "carrying_own_gear": "Same as France — skis as special baggage on most airlines serving Italian airports (Milan, Venice, Verona, Bergamo, Turin, Bolzano)."
+    },
+    "price_positioning_vs_peers": "Italy is the best-value major Alpine country for skiers. Average daily rate of a 6-day lift pass: €51/day (€306 total for 6 days). Cheaper than France (€59/day, €354/6d) and Austria (€67/day, €402/6d). Food and accommodation significantly cheaper than France and Switzerland. A meal in a Dolomites mountain restaurant costs €15-25 compared to €25-40 in similar French resorts. Accommodation is generally 20-30% cheaper than comparable French resorts. Best value in the major Alps, but Apennine resorts are even cheaper (aimed at day-trip local market).",
+    "season_general": "December to mid-April for most Alpine resorts. December to early May for higher resorts (Cervinia, Val Senales glacier). November to May for glacier skiing (Val Senales, Passo Stelvio summer). Dolomites (Sellaronda, Cortina) mid-Dec to mid-Apr. Apennines (Roccaraso, Abruzzo) dependent on natural snow — Dec-Feb is the reliable window."
+  }
+}

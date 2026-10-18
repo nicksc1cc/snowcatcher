@@ -1,0 +1,28 @@
+{
+  "domain": "Cauterets",
+  "slug": "cauterets",
+  "region": "Pyrénées",
+  "character": "36 km. Belle-Epoque thermal spa town. Beautiful architecture, small ski domain.",
+  "stats": {
+    "pistes_km": 36
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.cauterets.com/en/",
+  "name": "Cauterets",
+  "description": "76km of pistes, 18 lifts, in the Gave de Cauterets valley. Belle Époque thermal spa town — grand hotels, casino, and the famous Les Bains du Rocher (naturally warm 34°C pool fed by sulphur springs). The ski area sits above the town at Pont d'Espagne, gateway to the Pyrenees National Park. Known for: thermal spa experience, berlingot sweets, and access to the stunning Pont d'Espagne waterfalls and Lac de Gaube.",
+  "statistics": {
+    "total_pistes_km": 76,
+    "total_lifts": 18,
+    "highest_point": 2500,
+    "lowest_point": 900
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 240
+  },
+  "suitability": {
+    "spa_seekers": "Best in Pyrenees — Bains du Rocher 34°C",
+    "beginners": "Good",
+    "intermediates": "Moderate"
+  }
+}

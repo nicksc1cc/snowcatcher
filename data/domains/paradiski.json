@@ -1,0 +1,128 @@
+{
+  "domain": "Paradiski",
+  "slug": "paradiski",
+  "region": "Tarentaise",
+  "character": "3rd largest ski area in France — 425 km, 260 pistes, 3 resorts, 2 glaciers, 362 ha snowmaking, Vanoise Express link",
+  "research_status": "properly_sourced",
+  "description": "Second largest linked ski area in France — 425km, 141 lifts, 475 pistes across La Plagne, Les Arcs, and Peisey-Vallandry. Connected by the Vanoise Express — a double-decker cable car crossing the Ponturin gorge. Known for: the Bellecôte glacier (3,417m), Aiguille Rouge (3,226m — 2,000m vertical descent to Villaroger), the world-first AEROLIVE open-air cable car cabins to the glacier. Family-friendly but with serious expert terrain. Les Arcs has Charlotte Perriand's iconic modernist architecture. Snow guarantee is excellent above 1,800m.",
+  "stats": {
+    "pistes_km": 425,
+    "pistes_count": 260,
+    "lifts": 129,
+    "highest_point_m": 3250,
+    "lowest_point_m": 1200,
+    "vertical_drop_m": 2050,
+    "pct_above_2000m": 70,
+    "snowmaking_hectares": 362,
+    "snow_groomers": 60,
+    "glaciers": 2,
+    "resorts": 3,
+    "destinations": "20+",
+    "cross_country_km": 150,
+    "snowparks": 4,
+    "boardercross": 4,
+    "highest_peak": "Aiguille Rouge (Les Arcs) 3,225m",
+    "second_peak": "Bellecôte glacier (La Plagne) 3,250m"
+  },
+  "key_feature": "Vanoise Express — double-decker cable car, 200 people, 2 km span, 4 minutes travel time. Links La Plagne (east) and Les Arcs (west). Opened 2003-04 season, upgraded in subsequent years.",
+  "weather_snow": {
+    "pct_above_2000m": "70% — one of the highest proportions in the Alps",
+    "snowmaking_hectares": "362 ha of snow cannons",
+    "glaciers": "Bellecôte (La Plagne) and Aiguille Rouge area (Les Arcs)",
+    "key_note": "High-altitude domain. Les Arcs: Aiguille Rouge at 3,225m. La Plagne: Bellecôte glacier at 3,250m. Snow record is strong from December through April.",
+    "night_skiing": "Available at Les Arcs 1600 and 1800 on floodlit runs"
+  },
+  "sources": [
+    {
+      "url": "https://paradiski.com/en/domaine-paradiski/un-domaine-dexception",
+      "type": "official",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "url": "https://www.snowmagazine.com/features/focus-on/get-to-know-the-paradiski-ski-area",
+      "type": "review",
+      "author": "Roger Fulton",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "url": "https://www.igluski.com/ski-resorts/ski-areas/paradiski",
+      "type": "guide",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "url": "https://www.snowtrex.ie/france/la_plagne/ski-area.html",
+      "type": "guide",
+      "retrieved": "2026-10-14"
+    }
+  ],
+  "source_url": "https://www.alpinium.co.uk/blog/paradiski-lift-pass-prices",
+  "name": "Paradiski",
+  "statistics": {
+    "total_pistes_km": 425,
+    "total_lifts": 141,
+    "total_pistes": 475,
+    "highest_point": 3417,
+    "lowest_point": 1200,
+    "vertical_drop": 2217,
+    "snow_reliable_above": 1800,
+    "glaciers": [
+      {
+        "name": "Bellecôte Glacier",
+        "altitude": 3417
+      },
+      {
+        "name": "Aiguille Rouge Glacier",
+        "altitude": 3226
+      }
+    ]
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day_high": 78,
+    "adult_6day_high": 412,
+    "child_6day_high": 330,
+    "senior_6day_high": 321,
+    "child_age_range": "5-12 (under 5 free)",
+    "senior_age_range": "65-74 (75+ seniors €10)",
+    "family_discount": "Family Pack: €25pp discount on max 2 adult + min 2 child passes. Tribe Pack: €10 discount for 3+ identical passes.",
+    "local_pass_6day": "La Plagne only €370/6d. Les Arcs only €365/6d. Extension to full Paradiski €27/day.",
+    "discount_info": "6-day pass includes free afternoon skiing on arrival day (from 12:30). Early booking online discounts available.",
+    "insurance": "Carré Neige available — check resort-specific pricing.",
+    "source_url": "https://www.seelaplagne.com/ski-passes/"
+  },
+  "season_dates": {
+    "general": "Mid-December to late April",
+    "la_plagne_2025_26": "12 December 2025 to 24 April 2026",
+    "les_arcs_2025_26": "Mid-December 2025 to late April 2026"
+  },
+  "difficulty_split": {
+    "green_pct": 10,
+    "blue_pct": 40,
+    "red_pct": 35,
+    "black_pct": 15
+  },
+  "suitability": {
+    "beginners": "Good — dedicated green zones at Plagne Centre, Belle Plagne, Arc 1800 and 1950. Arc 1600 has gentle greens through the forest. Chill Ski pass €35/day for beginners at Les Coches/Montchavin.",
+    "intermediates": "Excellent — Paradiski is built for blue/red cruising. The Trif';ve run (Les Arcs) is a 7km red/blue with views of Mont Blanc. The connection between La Plagne and Les Arcs via the Vanoise Express opens up endless combinations.",
+    "advanced": "Very good — Aiguille Rouge summit (3,226m) has the famous 7km black descent with 2,000m vertical to Villaroger. Bellecôte glacier black runs. Off-piste in the Combe de la Chiaupe. La Plagne's Grand Méan area.",
+    "families": "Strong family credentials — each village has family zones, toboggan runs, ice rinks (La Plagne, Les Arcs 1800), cinema, bowling (Plagne Centre). Ski schools with English. Fun slopes in Montchavin-Les Coches sector.",
+    "freeriders": "Bellecôte glacier off-piste, Col de la Chal (Aiguille Rouge, 2,600m), and the Villaroger sector (exposed, steep, rarely groomed)."
+  },
+  "signature_runs": [
+    {
+      "name": "Aiguille Rouge descent to Villaroger",
+      "difficulty": "black",
+      "length_km": 7,
+      "vertical_m": 2000,
+      "description": "Iconic 7km black from 3,226m to 1,200m — 2,000m vertical, one of the longest single descents in the Alps"
+    },
+    {
+      "name": "Trifoulet to Arc 1800",
+      "difficulty": "red",
+      "length_km": 7,
+      "vertical_m": 1100,
+      "description": "Long red cruiser from the Trifoulet ridge down to Arc 1800, panoramic views of Mont Blanc"
+    }
+  ],
+  "piste_map_url": "https://www.paradiski.com/en/piste-map"
+}

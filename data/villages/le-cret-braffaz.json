@@ -1,0 +1,19 @@
+{
+  "village": "Le Cr\u00eat Braffaz",
+  "slug": "le-cret-braffaz",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1300,
+  "character": "Summit of Cret Braffaz above La Clusaz. Piste-side area.",
+  "activities_nearby": "Cret Braffaz ski area (blue/red runs). Summit views.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

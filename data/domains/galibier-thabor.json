@@ -1,0 +1,29 @@
+{
+  "domain": "Galibier-Thabor",
+  "slug": "galibier-thabor",
+  "region": "Maurienne",
+  "character": "160 km linking Valloire (Baroque church, authentic village) and Valmeinier (higher, quieter satellite). Good value.",
+  "stats": {
+    "pistes_km": 160,
+    "lifts": 35,
+    "highest_point_m": 2630
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.galibier-thabor.com/en/",
+  "name": "Galibier-Thabor",
+  "description": "150km linked between Valloire and Valmeinier in the upper Maurienne valley. 35 lifts. Named after the Col du Galibier (2,642m) and Mont Thabor (3,202m). Known for: the Galibier pass (iconic Tour de France climb), the baroque church at Valloire, and reliable snow at altitude (the domain sits above 1,400m). Quiet, family-focused, and more affordable than northern Alps.",
+  "statistics": {
+    "total_pistes_km": 150,
+    "total_lifts": 35,
+    "highest_point": 2700,
+    "lowest_point": 1400
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 280,
+    "note": "Local pass covers Valloire-Valmeinier linked area. Good value."
+  },
+  "suitability": {
+    "families": "Good — Valloire is a traditional village with character. Valmeinier newer."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "domain": "St-Lary",
+  "slug": "st-lary",
+  "region": "Pyrénées",
+  "character": "100 km Pyrenean domain with 3 altitude levels (830m village, 1,700m Pla d'Adet, 1,900m Espiaube).",
+  "stats": {
+    "pistes_km": 100,
+    "lifts": 36,
+    "highest_point_m": 2515
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.saintlary.com/en/",
+  "name": "St-Lary",
+  "description": "85km of pistes, 20 lifts, 3 sectors (Pla d'Adet 1,700m, Espiaube 1,900m, and Vallon du Portet). The first purpose-built ski resort in the Pyrenees (created 1957). Known for: Sensoria thermal spa in the village, the longest ski season in the Pyrenees (early Dec to late Apr), and the Col du Portet access for hiking in summer. Bike park. Good value.",
+  "statistics": {
+    "total_pistes_km": 85,
+    "total_lifts": 20,
+    "highest_point": 2515,
+    "lowest_point": 1700
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 45,
+    "adult_6day": 250
+  },
+  "suitability": {
+    "families": "Good — Sensoria spa, bike park",
+    "beginners": "Good",
+    "intermediates": "Good"
+  }
+}

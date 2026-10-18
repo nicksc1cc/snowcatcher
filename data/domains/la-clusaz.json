@@ -1,0 +1,31 @@
+{
+  "domain": "La Clusaz",
+  "slug": "la-clusaz",
+  "region": "Aravis",
+  "character": "130 km, beautiful Haute-Savoie village, excellent mountain restaurants, authentic. 45 min from Geneva.",
+  "stats": {
+    "pistes_km": 130,
+    "lifts": 38,
+    "highest_point_m": 2600
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.laclusaz.com/en/",
+  "name": "La Clusaz",
+  "description": "220km of linked pistes, 55 lifts, across the Aravis massif. A single-resort domain (La Clusaz town at 1,200m, with villages Les Confins, Paccaly, and Le Nant). Known for: one of the most beautiful church squares in the French Alps, consistent snow from Aravis altitude, and excellent cross-country skiing on the Aravis plateau (extensive Nordic area). 1 hour from Geneva. Popular with weekend skiers from Geneva. Lively apres, family-friendly.",
+  "statistics": {
+    "total_pistes_km": 220,
+    "total_lifts": 55,
+    "highest_point": 2600,
+    "lowest_point": 1100
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 340
+  },
+  "suitability": {
+    "beginners": "Good — village has gentle greens",
+    "intermediates": "Excellent — 220km is mostly blue/red",
+    "families": "Very good",
+    "advanced": "Good — some steep black runs"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "domain": "Isola 2000",
+  "slug": "isola-2000",
+  "region": "Alpes du Sud",
+  "character": "45 km purpose-built resort at 2,000 m. Good snow record for the southern Alps.",
+  "stats": {
+    "pistes_km": 45,
+    "highest_point_m": 2600
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://en.wikipedia.org/wiki/Isola_2000",
+  "name": "Isola 2000",
+  "description": "120km of pistes, 28 lifts, in the Alpes-Maritimes, 90 minutes from Nice. Purpose-built resort created by British ex-officer Peter Boumphrey (opened 1971). The closest high-altitude resort to the French Riviera. Known for: the widest easy cruisers in the Alps (21 blue runs), 75% snowmaking, night skiing twice weekly during French holidays, and the longest season in the Southern Alps. 36 mountain restaurants, snow park, via ferrata. Provencal food (tapenade, pissaladière, socca) in the mountains.",
+  "statistics": {
+    "total_pistes_km": 120,
+    "total_lifts": 28,
+    "highest_point": 2610,
+    "lowest_point": 1840,
+    "vertical_drop": 770
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 52,
+    "adult_6day": 290
+  },
+  "suitability": {
+    "beginners": "Excellent — 21 blue runs, widest cruisers in Alps",
+    "intermediates": "Excellent — the domain is mostly blue",
+    "families": "Good",
+    "advanced": "Limited — not an expert domain"
+  }
+}

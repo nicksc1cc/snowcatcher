@@ -1,0 +1,19 @@
+{
+  "village": "Peisey",
+  "slug": "peisey",
+  "altitude": 1350,
+  "resort": "Peisey-Vallandry",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spa",
+    "dog_sledding",
+    "snowshoeing"
+  ],
+  "character": "Traditional old mountain village below Vallandry. Original Savoyard stone hamlet. Linked to Vallandry by gondola. More authentic feel than purpose-built Arcs villages. Quiet, charming, good for families.",
+  "dining": "Local village restaurants, Savoyard cuisine, pizzerias.",
+  "shopping": "Small grocery, bakery, bar.",
+  "activities_nearby": "Gondola to Vallandry ski area. Access to Paradiski (425km). Hiking, snowshoeing.",
+  "source_url": "https://cirkelsupply.com/blogs/news/a-village-by-village-guide-to-les-arcs"
+}

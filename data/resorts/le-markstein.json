@@ -1,0 +1,20 @@
+{
+  "resort": "Le Markstein",
+  "slug": "le-markstein",
+  "domain": "Le Markstein",
+  "region": "Vosges",
+  "altitude": 1180,
+  "character": "Small Vosges ski area on the Markstein pass. 20km pistes. Cross-country skiing, snowkiting, tobogganing, snowshoeing. Forested, quiet, family-friendly. Near Oderen in the Saint-Amarin valley.",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.skiresort.com/en/ski-resort/le-markstein/"
+  ],
+  "non_ski_activities": {
+    "other": "Cross-country skiing network, snowkiting, tobogganing, snowshoeing, winter hiking, mountain biking (summer)"
+  },
+  "best_for": {
+    "beginners": 7,
+    "families": 7,
+    "peace": 9
+  }
+}

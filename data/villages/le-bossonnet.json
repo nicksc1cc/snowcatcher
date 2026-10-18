@@ -1,0 +1,19 @@
+{
+  "village": "Le Bossonnet",
+  "slug": "le-bossonnet",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1050,
+  "character": "Small hamlet below La Clusaz.",
+  "activities_nearby": "Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

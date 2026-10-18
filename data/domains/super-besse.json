@@ -1,0 +1,29 @@
+{
+  "domain": "Super Besse",
+  "slug": "super-besse",
+  "region": "Massif Central",
+  "character": "25 km, highest in Massif Central (1,350 m). Small, quiet.",
+  "stats": {
+    "pistes_km": 25,
+    "highest_point_m": 1350
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.skiallday.com/guides",
+  "name": "Super Besse",
+  "description": "35km of pistes, 10 lifts, in the Puy-de-Dôme. Highest resort in the Massif Central at 1,350m. Small family domain. Near the town of Besse-et-Saint-Anastaise.",
+  "statistics": {
+    "total_pistes_km": 35,
+    "total_lifts": 10,
+    "highest_point": 1850,
+    "lowest_point": 1350
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 195
+  },
+  "suitability": {
+    "families": "Good",
+    "beginners": "Good",
+    "peace": "Excellent"
+  }
+}

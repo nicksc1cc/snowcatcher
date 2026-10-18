@@ -1,0 +1,22 @@
+{
+  "village": "Morzine Centre",
+  "slug": "morzine-centre",
+  "resort": "Morzine",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "ice_skating",
+    "spas",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1000,
+  "character": "Traditional Haute-Savoie market town at the valley floor. Original alpine charm \u2014 church, square, stone buildings. Full year-round town with supermarket, shops, schools. Prodains cable car up to Avoriaz (1,800m). Lively weekly market. Good-value compared to Avoriaz.",
+  "dining": "L'Etale (Michelin-starred). La Perdrix. La Grange aux F\u00e9es. Le Petit \u00c9cossais. Numerous village restaurants from Turkish to Savoyard.",
+  "shopping": "Full town \u2014 supermarkets (Carrefour, Spar), bakeries, butchers, fromagerie, sports shops, fashion, pharmacy, post office. Weekly market (Saturday).",
+  "apres_scene": "Le Petit \u00c9cossais (pub). L'Etale. Bars near the church square. Le Clin d'Oeil. Less intense than Avoriaz but good choice.",
+  "activities_nearby": "Prodains cable car to Avoriaz/PDS (650km). Ice rink. Bowling. Cinema. Aquariaz in Avoriaz. Paragliding. Hiking. Lake Montriond.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

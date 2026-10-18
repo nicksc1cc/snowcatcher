@@ -1,0 +1,19 @@
+{
+  "village": "Gotty",
+  "slug": "gotty",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1200,
+  "character": "Small La Clusaz hamlet with lake.",
+  "activities_nearby": "Lac de Gotty. Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

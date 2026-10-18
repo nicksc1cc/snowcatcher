@@ -1,0 +1,22 @@
+{
+  "village": "Les Gets Centre",
+  "slug": "les-gets-centre",
+  "resort": "Les Gets",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "market",
+    "swimming",
+    "spas",
+    "paragliding",
+    "dog_sledding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1170,
+  "character": "Traditional Haute-Savoie village with authentic alpine charm and purpose-built ski access. 18-hole golf course in summer. Activities lake. Excellent beginner slopes. Good shops and restaurants. More family-oriented than Morzine. Weekly market.",
+  "dining": "Le Vieux Moulin. L'Atelier des Saveurs. La Pela (Savoyard). Mountain restaurants on Mont Ch\u00e9ry and Les Gets slopes.",
+  "shopping": "Bakery, supermarket, sports shops, pharmacy, post office. Weekly market (Wednesday).",
+  "apres_scene": "L'Ortie (live music, sports bar). Le Paravalanche. Bars in the village square. Family-friendly atmosphere. Ice bar.",
+  "activities_nearby": "18-hole golf course (summer). Activities lake (swimming, paddle, fishing). Ice rink. Cinema. Bowling. Luge on Chavannes slope. 650km Portes du Soleil. Mountain bike park.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

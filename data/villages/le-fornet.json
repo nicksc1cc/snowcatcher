@@ -1,0 +1,30 @@
+{
+  "village": "Le Fornet",
+  "slug": "le-fornet",
+  "altitude": 1930,
+  "resort": "Val d'Is\u00e8re",
+  "domain": "Espace Killy",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "cinema",
+    "bowling",
+    "fitness",
+    "paragliding",
+    "dog_sledding",
+    "snowshoeing",
+    "ice_climbing",
+    "fat_biking",
+    "horse_drawn",
+    "heliski",
+    "events"
+  ],
+  "character": "Highest village in the Val d'Is\u00e8re commune at 1,930m. Gets the most snow. Traditional hamlet with its own beginner area and gondola up the Glacier. Quirkier, quieter, more snow-sure. La Daille nearby. Good for early-season.",
+  "dining": "Mountain restaurants at glacier base. Bar-restaurant village.",
+  "shopping": "Minimal \u2014 bakery, small shop. Main shops in Val.",
+  "activities_nearby": "Fornet glacier skiing (Glacier du Pisaillas). Snow-sure \u2014 best early/late season. Shuttle bus to Val (5 min).",
+  "source_url": "https://www.valdisere.com/en/village-guide/"
+}

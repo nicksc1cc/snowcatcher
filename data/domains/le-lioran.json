@@ -1,0 +1,27 @@
+{
+  "domain": "Le Lioran",
+  "slug": "le-lioran",
+  "region": "Massif Central",
+  "character": "25 km — largest Massif Central ski area. Good for families.",
+  "stats": {
+    "pistes_km": 25
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.skiallday.com/guides",
+  "name": "Le Lioran",
+  "description": "60km of pistes, 16 lifts, in the Cantal. The largest ski area in the Massif Central. Forested runs at 1,250-1,800m. Good for families and beginners. Quiet, uncrowded. Nearest city: Aurillac.",
+  "statistics": {
+    "total_pistes_km": 60,
+    "total_lifts": 16,
+    "highest_point": 1850,
+    "lowest_point": 1250
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 200
+  },
+  "suitability": {
+    "families": "Good",
+    "beginners": "Good — forested runs, gentle"
+  }
+}

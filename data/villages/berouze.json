@@ -1,0 +1,19 @@
+{
+  "village": "B\u00e9rouze",
+  "slug": "berouze",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 950,
+  "character": "Samoens hamlet high on the mountain. Gateway to Grand Massif skiing. Quiet settlement.",
+  "activities_nearby": "Access to Grand Massif pistes. Snowshoeing.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

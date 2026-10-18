@@ -1,0 +1,16 @@
+{
+  "village": "Passy",
+  "slug": "passy",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 900,
+  "character": "Sixt hamlet on the valley road. Small farming.",
+  "activities_nearby": "Hiking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

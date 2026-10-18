@@ -1,0 +1,19 @@
+{
+  "village": "Plampraz",
+  "slug": "plampraz",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1050,
+  "character": "Samoens hamlet on the west side of the valley. Quiet, residential. Grand Massif access.",
+  "activities_nearby": "Hiking. Grand Massif shuttle.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

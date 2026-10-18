@@ -1,0 +1,28 @@
+{
+  "domain": "Pra-Loup",
+  "slug": "pra-loup",
+  "region": "Alpes du Sud",
+  "character": "70 km in the Provencal Alps. High altitude (1,630 m), sunny, good for families.",
+  "stats": {
+    "pistes_km": 70
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.praloup.com/en/",
+  "name": "Pra-Loup",
+  "description": "80km of pistes, 22 lifts, also in the Ubaye valley (Alpes-de-Haute-Provence). Sunny, family-friendly, and French-focused (fewer international visitors). Known for: the lake at 1,500m (frozen in winter for skating, summer swimming), the Espace Lumière wellness centre, and excellent snowmaking. Good value, quiet slopes.",
+  "statistics": {
+    "total_pistes_km": 80,
+    "total_lifts": 22,
+    "highest_point": 2600,
+    "lowest_point": 1500
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 260
+  },
+  "suitability": {
+    "families": "Good — lake, spa, sunny",
+    "beginners": "Good",
+    "intermediates": "Good"
+  }
+}

@@ -1,0 +1,3291 @@
+{
+  "schema": {
+    "name": "Project Snow \u2014 France Ski Data Schema",
+    "version": "3.1",
+    "description": "Hierarchical ski area data model from country level down to individual lifts and pistes. Extended with 173-question resort intelligence framework across 20 themes (Overview, Getting There, Getting Around, When To Go, Ski Area, Beginners, Lift Passes, Off Piste, Families, Where To Stay, Food, Apr\u00e8s, Beyond Skiing, Services, Costs, Safety & Access, Audiences, Comparisons, Character, Sustainability).",
+    "hierarchy": [
+      "country",
+      "region",
+      "domain",
+      "resort",
+      "village",
+      "lift",
+      "piste"
+    ],
+    "question_framework": {
+      "description": "The 173-question resort intelligence framework, mapped to schema fields and origin codes.",
+      "themes": [
+        {
+          "theme": "Overview",
+          "questions": [
+            {
+              "q": "Where is [resort]?",
+              "field": "resort.overview.location_description",
+              "origin": "TO"
+            },
+            {
+              "q": "What is [resort] known for?",
+              "field": "resort.overview.known_for",
+              "origin": "TO"
+            },
+            {
+              "q": "Which ski area or domain?",
+              "field": "resort.domain",
+              "origin": "TO"
+            },
+            {
+              "q": "Purpose built or traditional village?",
+              "field": "village.character.atmosphere",
+              "origin": "TO"
+            },
+            {
+              "q": "How high is [resort]?",
+              "field": "resort.statistics.base_altitude",
+              "origin": "TO"
+            },
+            {
+              "q": "How big is the ski area?",
+              "field": "resort.statistics.own_pistes_km",
+              "origin": "TO"
+            },
+            {
+              "q": "What makes [resort] a luxury destination?",
+              "field": "resort.overview.luxury_destination",
+              "origin": "TO"
+            },
+            {
+              "q": "Which villages make up [resort] and how do they differ?",
+              "field": "resort.villages",
+              "origin": "TO"
+            },
+            {
+              "q": "When was [resort] founded and how has it developed?",
+              "field": "resort.overview.founded_history",
+              "origin": "ADD"
+            },
+            {
+              "q": "What awards has [resort] won?",
+              "field": "resort.overview.awards",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Getting There",
+          "questions": [
+            {
+              "q": "How do I get to [resort]?",
+              "field": "resort.access.how_to_get_there",
+              "origin": "OF"
+            },
+            {
+              "q": "What airports are near?",
+              "field": "resort.access.nearest_airport",
+              "origin": "OF"
+            },
+            {
+              "q": "How long is the transfer?",
+              "field": "resort.access.transfer_minutes",
+              "origin": "OF"
+            },
+            {
+              "q": "Transfer options?",
+              "field": "resort.access.transfer_options",
+              "origin": "OF"
+            },
+            {
+              "q": "Nearest train station?",
+              "field": "resort.access.nearest_train_station",
+              "origin": "OF"
+            },
+            {
+              "q": "Train from London?",
+              "field": "resort.access.train_from_london",
+              "origin": "ADD"
+            },
+            {
+              "q": "Drive from Calais?",
+              "field": "resort.access.driving_from_calais_hours",
+              "origin": "ADD"
+            },
+            {
+              "q": "Snow chains required?",
+              "field": "resort.access.snow_chains_required",
+              "origin": "OF"
+            },
+            {
+              "q": "Where to buy/hire chains?",
+              "field": "resort.access.snow_chains_purchase_location",
+              "origin": "OF"
+            },
+            {
+              "q": "Saturday road conditions?",
+              "field": "resort.access.road_conditions_saturday",
+              "origin": "OF"
+            },
+            {
+              "q": "Snow on road in April?",
+              "field": "resort.access.snow_on_road_april",
+              "origin": "OF"
+            },
+            {
+              "q": "Tolls on the route?",
+              "field": "resort.access.tolls_on_route",
+              "origin": "ADD"
+            },
+            {
+              "q": "EV charging?",
+              "field": "resort.access.ev_charging",
+              "origin": "OF"
+            }
+          ]
+        },
+        {
+          "theme": "Getting Around",
+          "questions": [
+            {
+              "q": "Parking cost?",
+              "field": "resort.getting_around.parking_cost",
+              "origin": "OF"
+            },
+            {
+              "q": "Parking in/out?",
+              "field": "resort.getting_around.parking_in_out_allowed",
+              "origin": "OF"
+            },
+            {
+              "q": "Car free?",
+              "field": "resort.getting_around.car_free",
+              "origin": "ADD"
+            },
+            {
+              "q": "Free shuttle bus?",
+              "field": "resort.getting_around.shuttle_bus_info",
+              "origin": "OF"
+            },
+            {
+              "q": "Car needed?",
+              "field": "resort.getting_around.car_needed",
+              "origin": "FM"
+            },
+            {
+              "q": "Walkable in ski boots?",
+              "field": "resort.getting_around.walkable_in_ski_boots",
+              "origin": "ADD"
+            },
+            {
+              "q": "Luggage storage?",
+              "field": "resort.getting_around.luggage_storage",
+              "origin": "OF"
+            }
+          ]
+        },
+        {
+          "theme": "When To Go",
+          "questions": [
+            {
+              "q": "Season open/close?",
+              "field": "resort.when_to_go.season_open",
+              "origin": "TO"
+            },
+            {
+              "q": "Best time to ski?",
+              "field": "resort.when_to_go.best_time_to_ski",
+              "origin": "ADD"
+            },
+            {
+              "q": "Snow reliability?",
+              "field": "resort.statistics.snow_reliability",
+              "origin": "TO"
+            },
+            {
+              "q": "Snow by month?",
+              "field": "resort.when_to_go.snow_by_month",
+              "origin": "ADD"
+            },
+            {
+              "q": "Good for April skiing?",
+              "field": "resort.when_to_go.april_skiing",
+              "origin": "FM"
+            },
+            {
+              "q": "Christmas/New Year skiing?",
+              "field": "resort.when_to_go.christmas_new_year_skiing",
+              "origin": "FM"
+            },
+            {
+              "q": "Weather by month?",
+              "field": "resort.when_to_go.weather_by_month",
+              "origin": "OF"
+            },
+            {
+              "q": "How cold does it get?",
+              "field": "resort.when_to_go.how_cold_gets",
+              "origin": "ADD"
+            },
+            {
+              "q": "North-facing slopes?",
+              "field": "resort.when_to_go.north_facing_slopes",
+              "origin": "ADD"
+            },
+            {
+              "q": "February half-term busyness?",
+              "field": "resort.when_to_go.feb_half_term_busy",
+              "origin": "FM"
+            },
+            {
+              "q": "French school holidays impact?",
+              "field": "resort.when_to_go.french_school_holidays_impact",
+              "origin": "ADD"
+            },
+            {
+              "q": "Quietest times?",
+              "field": "resort.when_to_go.quietest_times",
+              "origin": "FM"
+            },
+            {
+              "q": "High wind lift closures?",
+              "field": "resort.when_to_go.high_wind_lift_closures",
+              "origin": "ADD"
+            },
+            {
+              "q": "Glacier/summer skiing?",
+              "field": "resort.statistics.glacier_skiing",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Ski Area",
+          "questions": [
+            {
+              "q": "Runs and lifts count?",
+              "field": "resort.statistics",
+              "origin": "TO"
+            },
+            {
+              "q": "Run difficulty split?",
+              "field": "domain.difficulty_split",
+              "origin": "TO"
+            },
+            {
+              "q": "Good for intermediates?",
+              "field": "domain.suitability.intermediates",
+              "origin": "TO"
+            },
+            {
+              "q": "Good for advanced/experts?",
+              "field": "domain.suitability.advanced",
+              "origin": "TO"
+            },
+            {
+              "q": "Best runs?",
+              "field": "resort.ski_area.best_runs",
+              "origin": "ADD"
+            },
+            {
+              "q": "Longest run?",
+              "field": "resort.ski_area.longest_run",
+              "origin": "ADD"
+            },
+            {
+              "q": "Steepest run?",
+              "field": "resort.ski_area.steepest_run",
+              "origin": "ADD"
+            },
+            {
+              "q": "Vertical drop?",
+              "field": "domain.statistics.vertical_drop",
+              "origin": "ADD"
+            },
+            {
+              "q": "Connection to domain?",
+              "field": "resort.ski_area.connection_to_domain",
+              "origin": "TO"
+            },
+            {
+              "q": "Last lift time?",
+              "field": "resort.ski_area.last_lift_time",
+              "origin": "OF"
+            },
+            {
+              "q": "Missed last lift?",
+              "field": "resort.ski_area.miss_last_lift_info",
+              "origin": "OF"
+            },
+            {
+              "q": "Piste map download?",
+              "field": "resort.ski_area.piste_map_url",
+              "origin": "TO"
+            },
+            {
+              "q": "Night skiing?",
+              "field": "resort.ski_area.night_skiing",
+              "origin": "ADD"
+            },
+            {
+              "q": "Good for snowboarders?",
+              "field": "domain.suitability.snowboarders",
+              "origin": "TO"
+            },
+            {
+              "q": "Drag lifts?",
+              "field": "resort.ski_area.drag_lifts_many",
+              "origin": "FM"
+            },
+            {
+              "q": "Tree runs for bad weather?",
+              "field": "resort.ski_area.tree_runs_bad_weather",
+              "origin": "ADD"
+            },
+            {
+              "q": "Cross country?",
+              "field": "domain.cross_country_km",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Beginners",
+          "questions": [
+            {
+              "q": "Good for beginners?",
+              "field": "domain.suitability.beginners",
+              "origin": "TO"
+            },
+            {
+              "q": "Which slopes for beginners?",
+              "field": "resort.beginners.beginner_slopes",
+              "origin": "OF"
+            },
+            {
+              "q": "Free beginner lifts?",
+              "field": "resort.beginners.free_beginner_lifts",
+              "origin": "ADD"
+            },
+            {
+              "q": "Long green run back?",
+              "field": "resort.beginners.long_green_run",
+              "origin": "FM"
+            },
+            {
+              "q": "Jump from nursery slopes?",
+              "field": "resort.beginners.beginner_jump",
+              "origin": "FM"
+            },
+            {
+              "q": "Beginner lift pass?",
+              "field": "domain.lift_pass_pricing.beginner_pass_available",
+              "origin": "ADD"
+            },
+            {
+              "q": "Ski lesson booking?",
+              "field": "resort.beginners.ski_lesson_booking",
+              "origin": "OF"
+            },
+            {
+              "q": "English-speaking instructors?",
+              "field": "resort.beginners.english_speaking_instructors",
+              "origin": "FM"
+            },
+            {
+              "q": "Private vs group lessons?",
+              "field": "resort.beginners.private_vs_group_lessons",
+              "origin": "FM"
+            },
+            {
+              "q": "Book ski school for half-term?",
+              "field": "resort.beginners.ski_school_booking_half_term",
+              "origin": "FM"
+            }
+          ]
+        },
+        {
+          "theme": "Lift Passes",
+          "questions": [
+            {
+              "q": "Lift pass price?",
+              "field": "domain.lift_pass_pricing.adult_6day_high",
+              "origin": "TO"
+            },
+            {
+              "q": "Full vs local pass?",
+              "field": "resort.pricing.local_pass_6day_euro",
+              "origin": "TO"
+            },
+            {
+              "q": "Discount on passes?",
+              "field": "domain.lift_pass_pricing.discount_info",
+              "origin": "OF"
+            },
+            {
+              "q": "Free for children/seniors?",
+              "field": "domain.lift_pass_pricing.child_6day_high",
+              "origin": "OF"
+            },
+            {
+              "q": "Family pass?",
+              "field": "domain.lift_pass_pricing.family_discount",
+              "origin": "ADD"
+            },
+            {
+              "q": "Online purchase?",
+              "field": "domain.lift_pass_pricing.online_purchase_info",
+              "origin": "OF"
+            },
+            {
+              "q": "Add neighbouring day?",
+              "field": "domain.lift_pass_pricing.add_day_info",
+              "origin": "OF"
+            },
+            {
+              "q": "ANCV holiday vouchers?",
+              "field": "domain.lift_pass_pricing.ancv_vouchers_accepted",
+              "origin": "OF"
+            },
+            {
+              "q": "Pass insurance?",
+              "field": "domain.lift_pass_pricing.pass_insurance_included",
+              "origin": "ADD"
+            },
+            {
+              "q": "Refund if lifts close?",
+              "field": "domain.lift_pass_pricing.refund_policy",
+              "origin": "OF"
+            },
+            {
+              "q": "Lift queues?",
+              "field": "resort.ski_area.lift_queues",
+              "origin": "TO"
+            },
+            {
+              "q": "Pedestrian lifts?",
+              "field": "resort.ski_area.pedestrian_lifts",
+              "origin": "OF"
+            },
+            {
+              "q": "Modern lifts?",
+              "field": "resort.ski_area.lifts_modern",
+              "origin": "TO"
+            }
+          ]
+        },
+        {
+          "theme": "Off Piste",
+          "questions": [
+            {
+              "q": "Good for off piste?",
+              "field": "domain.off_piste_zones",
+              "origin": "TO"
+            },
+            {
+              "q": "Guide needed?",
+              "field": "resort.off_piste.guide_needed",
+              "origin": "ADD"
+            },
+            {
+              "q": "Ski touring routes?",
+              "field": "resort.off_piste.ski_touring_routes",
+              "origin": "ADD"
+            },
+            {
+              "q": "Terrain parks?",
+              "field": "domain.terrain_parks",
+              "origin": "TO"
+            },
+            {
+              "q": "Heliskiing?",
+              "field": "resort.off_piste.heliskiing",
+              "origin": "ADD"
+            },
+            {
+              "q": "Avalanche risk check?",
+              "field": "resort.off_piste.avalanche_risk_check",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Families",
+          "questions": [
+            {
+              "q": "Good for families?",
+              "field": "domain.suitability.families",
+              "origin": "TO"
+            },
+            {
+              "q": "Childcare options?",
+              "field": "resort.families.childcare_options",
+              "origin": "OF"
+            },
+            {
+              "q": "Ski school minimum age?",
+              "field": "resort.families.ski_school_min_age",
+              "origin": "ADD"
+            },
+            {
+              "q": "Kids club evening?",
+              "field": "resort.families.kids_club_evening",
+              "origin": "FM"
+            },
+            {
+              "q": "Babysitters?",
+              "field": "resort.families.babysitters",
+              "origin": "FM"
+            },
+            {
+              "q": "4-year-old activities?",
+              "field": "resort.families.four_year_old_activities",
+              "origin": "FM"
+            },
+            {
+              "q": "Teen activities?",
+              "field": "resort.families.teen_activities",
+              "origin": "OF"
+            },
+            {
+              "q": "Family hotels with kids club?",
+              "field": "resort.families.family_hotels_with_kids_club",
+              "origin": "FM"
+            },
+            {
+              "q": "Safe with young children?",
+              "field": "resort.families.safe_with_young_children",
+              "origin": "ADD"
+            },
+            {
+              "q": "Tobogganing/sledging?",
+              "field": "resort.families.toboggan_runs",
+              "origin": "OF"
+            },
+            {
+              "q": "Altitude effects on children?",
+              "field": "resort.families.altitude_children_effects",
+              "origin": "FM"
+            }
+          ]
+        },
+        {
+          "theme": "Where To Stay",
+          "questions": [
+            {
+              "q": "Which village to stay in?",
+              "field": "resort.where_to_stay.which_village_to_stay",
+              "origin": "TO"
+            },
+            {
+              "q": "Ski-in/ski-out accommodation?",
+              "field": "resort.where_to_stay.ski_in_ski_out",
+              "origin": "FM"
+            },
+            {
+              "q": "Best hotels?",
+              "field": "resort.where_to_stay.best_hotels",
+              "origin": "TO"
+            },
+            {
+              "q": "Catered chalets/hotels/apartments?",
+              "field": "resort.where_to_stay.accommodation_types",
+              "origin": "FM"
+            },
+            {
+              "q": "Large group accommodation?",
+              "field": "resort.where_to_stay.large_group_accommodation",
+              "origin": "ADD"
+            },
+            {
+              "q": "Hotels with pools/spas?",
+              "field": "resort.where_to_stay.hotels_with_pools_spas",
+              "origin": "FM"
+            },
+            {
+              "q": "Official reservation service?",
+              "field": "resort.where_to_stay.official_reservation_service",
+              "origin": "OF"
+            },
+            {
+              "q": "French self catering includes?",
+              "field": "resort.where_to_stay.french_self_catering_includes",
+              "origin": "FM"
+            },
+            {
+              "q": "Saturday changeover routine?",
+              "field": "resort.where_to_stay.saturday_changeover",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Food & Drink",
+          "questions": [
+            {
+              "q": "Best restaurants?",
+              "field": "resort.food_and_drink.best_restaurants",
+              "origin": "TO"
+            },
+            {
+              "q": "Michelin-starred?",
+              "field": "resort.food_and_drink.michelin_starred",
+              "origin": "TO"
+            },
+            {
+              "q": "Best mountain restaurants?",
+              "field": "domain.mountain_restaurants",
+              "origin": "TO"
+            },
+            {
+              "q": "Non-skier mountain restaurants?",
+              "field": "village.dining.restaurants[].non_skier_accessible",
+              "origin": "OF"
+            },
+            {
+              "q": "Cheap mountain lunch?",
+              "field": "resort.food_and_drink.cheap_mountain_lunch",
+              "origin": "ADD"
+            },
+            {
+              "q": "Picnic options?",
+              "field": "resort.food_and_drink.picnic_options",
+              "origin": "ADD"
+            },
+            {
+              "q": "Local dishes?",
+              "field": "resort.food_and_drink.local_dishes",
+              "origin": "ADD"
+            },
+            {
+              "q": "Veg/vegan/GF options?",
+              "field": "resort.food_and_drink.dietary_options",
+              "origin": "ADD"
+            },
+            {
+              "q": "Bakeries and supermarkets?",
+              "field": "resort.food_and_drink.bakeries",
+              "origin": "OF"
+            },
+            {
+              "q": "Restaurant booking needed?",
+              "field": "resort.food_and_drink.booking_advice",
+              "origin": "ADD"
+            },
+            {
+              "q": "Meal and drink cost?",
+              "field": "resort.food_and_drink.meal_cost",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Apr\u00e8s & Nightlife",
+          "questions": [
+            {
+              "q": "Apr\u00e8s ski like?",
+              "field": "resort.apres_and_nightlife.apres_ski_description",
+              "origin": "TO"
+            },
+            {
+              "q": "Folie Douce?",
+              "field": "resort.apres_and_nightlife.folie_douce",
+              "origin": "OF"
+            },
+            {
+              "q": "Nightlife/clubbing?",
+              "field": "resort.apres_and_nightlife.nightlife_clubbing",
+              "origin": "ADD"
+            },
+            {
+              "q": "Quiet evenings?",
+              "field": "resort.apres_and_nightlife.quiet_evenings",
+              "origin": "FM"
+            },
+            {
+              "q": "Bar/club closing times?",
+              "field": "resort.apres_and_nightlife.bar_club_closing_times",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Beyond Skiing",
+          "questions": [
+            {
+              "q": "Non-skier activities?",
+              "field": "resort.beyond_skiing.non_ski_activities",
+              "origin": "FM"
+            },
+            {
+              "q": "Events during stay?",
+              "field": "resort.beyond_skiing.events_during_stay",
+              "origin": "OF"
+            },
+            {
+              "q": "Snowshoeing?",
+              "field": "resort.beyond_skiing.snowshoeing",
+              "origin": "OF"
+            },
+            {
+              "q": "Walking paths?",
+              "field": "resort.beyond_skiing.pedestrian_walking_paths",
+              "origin": "OF"
+            },
+            {
+              "q": "Swimming pool or spa?",
+              "field": "resort.beyond_skiing.swimming_pool_or_spa",
+              "origin": "FM"
+            },
+            {
+              "q": "Paragliding/ice skating/dog sledding/snowmobiling?",
+              "field": "resort.beyond_skiing.activity_highlights",
+              "origin": "TO"
+            },
+            {
+              "q": "Bad weather activities?",
+              "field": "resort.beyond_skiing.bad_weather_activities",
+              "origin": "ADD"
+            },
+            {
+              "q": "Shopping?",
+              "field": "resort.beyond_skiing.shopping",
+              "origin": "ADD"
+            },
+            {
+              "q": "Summer activities?",
+              "field": "resort.beyond_skiing.summer_activities",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Services",
+          "questions": [
+            {
+              "q": "Ski hire near accommodation?",
+              "field": "resort.services.ski_hire_info",
+              "origin": "OF"
+            },
+            {
+              "q": "Pre-book ski hire?",
+              "field": "resort.services.pre_book_ski_hire",
+              "origin": "ADD"
+            },
+            {
+              "q": "Medical centre?",
+              "field": "resort.services.medical_centre_location",
+              "origin": "OF"
+            },
+            {
+              "q": "Pharmacy?",
+              "field": "resort.services.pharmacy_location",
+              "origin": "OF"
+            },
+            {
+              "q": "Nurses on duty?",
+              "field": "resort.services.nurses_on_duty",
+              "origin": "OF"
+            },
+            {
+              "q": "Nearby hospital?",
+              "field": "resort.services.nearby_hospital",
+              "origin": "FM"
+            },
+            {
+              "q": "Free wifi?",
+              "field": "resort.services.free_wifi",
+              "origin": "OF"
+            },
+            {
+              "q": "Coworking spaces?",
+              "field": "resort.services.coworking_spaces",
+              "origin": "OF"
+            },
+            {
+              "q": "Lost property?",
+              "field": "resort.services.lost_property",
+              "origin": "OF"
+            },
+            {
+              "q": "Ski patrol collection?",
+              "field": "resort.services.ski_patrol_collection",
+              "origin": "OF"
+            },
+            {
+              "q": "Cash machine?",
+              "field": "resort.services.cash_machine",
+              "origin": "ADD"
+            },
+            {
+              "q": "Tourist office?",
+              "field": "village.practical_info.tourist_office_url",
+              "origin": "FM"
+            }
+          ]
+        },
+        {
+          "theme": "Costs",
+          "questions": [
+            {
+              "q": "Is it expensive?",
+              "field": "resort.pricing.expensive_rating",
+              "origin": "TO"
+            },
+            {
+              "q": "Weekly cost?",
+              "field": "resort.pricing.weekly_cost_estimate",
+              "origin": "ADD"
+            },
+            {
+              "q": "Save money tips?",
+              "field": "resort.pricing.save_money_tips",
+              "origin": "FM"
+            },
+            {
+              "q": "Good value vs similar?",
+              "field": "resort.pricing.value_comparison",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Safety & Access",
+          "questions": [
+            {
+              "q": "Emergency number on slopes?",
+              "field": "country.emergency_number",
+              "origin": "ADD"
+            },
+            {
+              "q": "Ski insurance/Carr\u00e9 Neige?",
+              "field": "resort.safety_and_access.ski_insurance_carre_neige",
+              "origin": "ADD"
+            },
+            {
+              "q": "Wheelchair accessible?",
+              "field": "resort.safety_and_access.wheelchair_accessible",
+              "origin": "ADD"
+            },
+            {
+              "q": "Adaptive skiing?",
+              "field": "resort.safety_and_access.adaptive_skiing",
+              "origin": "ADD"
+            },
+            {
+              "q": "Altitude sickness?",
+              "field": "resort.safety_and_access.altitude_sickness_risk",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Audiences",
+          "questions": [
+            {
+              "q": "Solo travellers?",
+              "field": "domain.suitability.solo_travellers",
+              "origin": "ADD"
+            },
+            {
+              "q": "Groups of friends?",
+              "field": "domain.suitability.groups_of_friends",
+              "origin": "ADD"
+            },
+            {
+              "q": "Couples?",
+              "field": "domain.suitability.couples",
+              "origin": "ADD"
+            },
+            {
+              "q": "Mixed ability groups?",
+              "field": "domain.suitability.mixed_ability_groups",
+              "origin": "FM"
+            },
+            {
+              "q": "Bring my dog?",
+              "field": "resort.safety_and_access.dogs_allowed",
+              "origin": "ADD"
+            },
+            {
+              "q": "Older skiers?",
+              "field": "domain.suitability.older_skiers",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Comparisons",
+          "questions": [
+            {
+              "q": "Compare within domain?",
+              "field": "resort.comparisons.comparison_within_domain",
+              "origin": "TO"
+            },
+            {
+              "q": "Rival: which is better?",
+              "field": "resort.comparisons.rival_comparison",
+              "origin": "ADD"
+            },
+            {
+              "q": "Smaller vs larger?",
+              "field": "resort.comparisons.smaller_vs_larger",
+              "origin": "FM"
+            },
+            {
+              "q": "Similar resorts?",
+              "field": "resort.comparisons.comparable_resorts",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Character",
+          "questions": [
+            {
+              "q": "Atmosphere?",
+              "field": "resort.overview.atmosphere",
+              "origin": "ADD"
+            },
+            {
+              "q": "Pretty or concrete?",
+              "field": "resort.overview.pretty_or_concrete",
+              "origin": "ADD"
+            },
+            {
+              "q": "British visitors?",
+              "field": "resort.overview.british_visitors",
+              "origin": "ADD"
+            },
+            {
+              "q": "Real French village?",
+              "field": "resort.overview.real_french_village",
+              "origin": "ADD"
+            },
+            {
+              "q": "History and culture?",
+              "field": "resort.overview.history_culture",
+              "origin": "ADD"
+            }
+          ]
+        },
+        {
+          "theme": "Sustainability",
+          "questions": [
+            {
+              "q": "Sustainability efforts?",
+              "field": "resort.sustainability.sustainability_efforts",
+              "origin": "ADD"
+            },
+            {
+              "q": "Climate change risk?",
+              "field": "resort.sustainability.climate_change_risk",
+              "origin": "ADD"
+            }
+          ]
+        }
+      ],
+      "origin_codes": {
+        "OF": "Official resort FAQ/site",
+        "TO": "Tour operator guide or FAQ",
+        "FM": "Parent/skier forum or community",
+        "ADD": "Added for coverage \u2014 not yet seen in a source"
+      }
+    },
+    "levels": {
+      "country": {
+        "name": "Country",
+        "description": "Top-level geographic grouping. France has 7 ski regions across ~148 resorts.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string",
+            "default": "EUR"
+          },
+          "driving_laws": {
+            "type": "string"
+          },
+          "speed_limits": {
+            "type": "string"
+          },
+          "emergency_number": {
+            "type": "string",
+            "description": "European emergency number 112; French mountain rescue 112 or 04...; Piste patrol emergency procedures"
+          },
+          "ep_auberge_de_la_route": {
+            "type": "string",
+            "description": "E.P. Auberge de la Route emergency contact info"
+          },
+          "season_general": {
+            "type": "string",
+            "example": "Mid-Dec to late Apr"
+          },
+          "price_positioning_vs_peers": {
+            "type": "string"
+          },
+          "regions": {
+            "type": "array",
+            "items": "string"
+          }
+        }
+      },
+      "region": {
+        "name": "Region / Massif",
+        "description": "Mountain range or massif \u2014 the primary geographical division.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "string",
+            "required": true
+          },
+          "country": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "character": {
+            "type": "string",
+            "example": "The engine room / The quiet valley / The theatre"
+          },
+          "image": {
+            "type": "string",
+            "format": "uri"
+          },
+          "geography": {
+            "type": "object",
+            "properties": {
+              "lat": {
+                "type": "number"
+              },
+              "lon": {
+                "type": "number"
+              },
+              "area_km2": {
+                "type": "number"
+              },
+              "min_altitude": {
+                "type": "number"
+              },
+              "max_altitude": {
+                "type": "number"
+              }
+            }
+          },
+          "closest_airports": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "transfer_minutes": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "domains": {
+            "type": "array",
+            "items": "string"
+          },
+          "total_resorts": {
+            "type": "number"
+          },
+          "total_pistes_km": {
+            "type": "number"
+          },
+          "total_lifts": {
+            "type": "number"
+          }
+        }
+      },
+      "domain": {
+        "name": "Linked Ski Domain",
+        "description": "Exists where multiple resorts share a single lift pass and connected piste network.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "string",
+            "required": true
+          },
+          "region": {
+            "type": "string",
+            "required": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "operating",
+              "partial",
+              "planned"
+            ]
+          },
+          "statistics": {
+            "type": "object",
+            "required": true,
+            "properties": {
+              "total_pistes_km": {
+                "type": "number",
+                "source_required": true
+              },
+              "total_lifts": {
+                "type": "number",
+                "source_required": true
+              },
+              "total_pistes": {
+                "type": "number"
+              },
+              "skiable_km": {
+                "type": "number"
+              },
+              "highest_point": {
+                "type": "number"
+              },
+              "lowest_point": {
+                "type": "number"
+              },
+              "vertical_drop": {
+                "type": "number"
+              },
+              "snow_reliable_above": {
+                "type": "number"
+              },
+              "glaciers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "altitude": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "difficulty_split": {
+            "type": "object",
+            "properties": {
+              "green_pct": {
+                "type": "number"
+              },
+              "blue_pct": {
+                "type": "number"
+              },
+              "red_pct": {
+                "type": "number"
+              },
+              "black_pct": {
+                "type": "number"
+              },
+              "green_count": {
+                "type": "number"
+              },
+              "blue_count": {
+                "type": "number"
+              },
+              "red_count": {
+                "type": "number"
+              },
+              "black_count": {
+                "type": "number"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          },
+          "lift_pass_pricing": {
+            "type": "object",
+            "properties": {
+              "currency": {
+                "type": "string",
+                "default": "EUR"
+              },
+              "adult_1day_high": {
+                "type": "number"
+              },
+              "adult_6day_high": {
+                "type": "number"
+              },
+              "child_6day_high": {
+                "type": "number"
+              },
+              "senior_6day_high": {
+                "type": "number"
+              },
+              "season_pass": {
+                "type": "number"
+              },
+              "family_discount": {
+                "type": "string"
+              },
+              "beginner_pass_available": {
+                "type": "boolean"
+              },
+              "pass_insurance_included": {
+                "type": "boolean"
+              },
+              "ancv_vouchers_accepted": {
+                "type": "boolean"
+              },
+              "refund_policy": {
+                "type": "string"
+              },
+              "online_purchase_info": {
+                "type": "string"
+              },
+              "discount_info": {
+                "type": "string"
+              },
+              "add_day_info": {
+                "type": "string"
+              },
+              "notes": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": "string"
+              },
+              "date_retrieved": {
+                "type": "string",
+                "format": "date"
+              }
+            }
+          },
+          "suitability": {
+            "type": "object",
+            "properties": {
+              "beginners": {
+                "type": "string"
+              },
+              "intermediates": {
+                "type": "string"
+              },
+              "advanced": {
+                "type": "string"
+              },
+              "families": {
+                "type": "string"
+              },
+              "freeriders": {
+                "type": "string"
+              },
+              "snowboarders": {
+                "type": "string"
+              }
+            }
+          },
+          "signature_runs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "difficulty": {
+                  "type": "string"
+                },
+                "length_km": {
+                  "type": "number"
+                },
+                "vertical_m": {
+                  "type": "number"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "mountain_restaurants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "altitude": {
+                  "type": "number"
+                },
+                "cuisine": {
+                  "type": "string"
+                },
+                "price_band": {
+                  "type": "string",
+                  "enum": [
+                    "budget",
+                    "mid",
+                    "premium"
+                  ]
+                },
+                "booking_required": {
+                  "type": "boolean"
+                },
+                "non_skier_accessible": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "off_piste_zones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "difficulty": {
+                  "type": "string"
+                },
+                "guide_required": {
+                  "type": "boolean"
+                },
+                "vertical_m": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "terrain_parks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "features": {
+                  "type": "string"
+                },
+                "difficulty": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "cross_country_km": {
+            "type": "number"
+          },
+          "honest_weak_points": {
+            "type": "string"
+          },
+          "resorts": {
+            "type": "array",
+            "items": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "sourced_fields": {
+            "type": "object",
+            "description": "Each published figure carries source_url and date_retrieved"
+          }
+        }
+      },
+      "resort": {
+        "name": "Resort / Station",
+        "description": "The commercial brand name people search for and book. One resort may contain multiple villages.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "string",
+            "required": true
+          },
+          "domain": {
+            "type": "string",
+            "description": "Which linked ski area or domain is this resort part of?"
+          },
+          "region": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "statistics": {
+            "type": "object",
+            "properties": {
+              "base_altitude": {
+                "type": "number"
+              },
+              "top_altitude": {
+                "type": "number"
+              },
+              "vertical_drop": {
+                "type": "number"
+              },
+              "own_pistes_km": {
+                "type": "number",
+                "source_required": true
+              },
+              "own_pistes": {
+                "type": "number"
+              },
+              "green_count": {
+                "type": "number"
+              },
+              "blue_count": {
+                "type": "number"
+              },
+              "red_count": {
+                "type": "number"
+              },
+              "black_count": {
+                "type": "number"
+              },
+              "own_lifts": {
+                "type": "number",
+                "source_required": true
+              },
+              "glacier_skiing": {
+                "type": "boolean"
+              },
+              "snow_reliability": {
+                "type": "string"
+              },
+              "snowmaking_coverage_pct": {
+                "type": "number"
+              }
+            }
+          },
+          "pricing": {
+            "type": "object",
+            "properties": {
+              "positioning": {
+                "type": "string",
+                "enum": [
+                  "budget",
+                  "mid",
+                  "premium",
+                  "luxury"
+                ]
+              },
+              "lift_pass_6day_euro": {
+                "type": "number"
+              },
+              "local_pass_6day_euro": {
+                "type": "number"
+              },
+              "weekly_cost_estimate": {
+                "type": "string",
+                "description": "Estimated total weekly cost per person including pass, accommodation, food"
+              },
+              "value_comparison": {
+                "type": "string",
+                "description": "How does this compare to similar resorts in value terms"
+              },
+              "save_money_tips": {
+                "type": "string",
+                "description": "Money-saving strategies for this resort"
+              },
+              "expensive_rating": {
+                "type": "string",
+                "description": "Is it expensive? Budget/mid/premium/luxury, with qualitative detail"
+              }
+            }
+          },
+          "overview": {
+            "type": "object",
+            "description": "Overview theme: identity, reputation, founding, awards",
+            "properties": {
+              "location_description": {
+                "type": "string",
+                "description": "Where is this resort \u2014 valley, region, near what landmarks"
+              },
+              "known_for": {
+                "type": "string",
+                "description": "What is this resort famous/known for"
+              },
+              "luxury_destination": {
+                "type": "boolean"
+              },
+              "luxury_detail": {
+                "type": "string",
+                "description": "What makes it luxury: 5* hotels, Michelin dining, boutiques etc"
+              },
+              "founded_year": {
+                "type": "number"
+              },
+              "founded_history": {
+                "type": "string",
+                "description": "When founded and how developed"
+              },
+              "awards": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "atmosphere": {
+                "type": "string",
+                "description": "What is the atmosphere like"
+              },
+              "pretty_or_concrete": {
+                "type": "string",
+                "description": "Aesthetic judgement: pretty traditional vs functional purpose-built"
+              },
+              "british_visitors": {
+                "type": "boolean"
+              },
+              "british_visitors_detail": {
+                "type": "string"
+              },
+              "real_french_village": {
+                "type": "string",
+                "description": "Does it feel like a real French village outside ski season"
+              },
+              "history_culture": {
+                "type": "string",
+                "description": "History and culture of the area"
+              }
+            }
+          },
+          "access": {
+            "type": "object",
+            "description": "Getting there: airports, transfers, train, drive, EV",
+            "properties": {
+              "how_to_get_there": {
+                "type": "string",
+                "description": "Overall getting-there summary"
+              },
+              "nearest_airport": {
+                "type": "string"
+              },
+              "airport_code": {
+                "type": "string"
+              },
+              "transfer_minutes": {
+                "type": "number"
+              },
+              "transfer_options": {
+                "type": "string",
+                "description": "Bus, shuttle, taxi, private transfer options and rough costs"
+              },
+              "nearest_train_station": {
+                "type": "string"
+              },
+              "train_from_london": {
+                "type": "string",
+                "description": "Eurostar/TGV to nearest station info"
+              },
+              "driving_from_calais_hours": {
+                "type": "number"
+              },
+              "snow_chains_required": {
+                "type": "boolean"
+              },
+              "snow_chains_purchase_location": {
+                "type": "string",
+                "description": "Where to buy/hire near resort"
+              },
+              "road_conditions_saturday": {
+                "type": "string",
+                "description": "Saturday traffic/conditions"
+              },
+              "snow_on_road_april": {
+                "type": "string"
+              },
+              "tolls_on_route": {
+                "type": "string",
+                "description": "Toll costs/routes from Calais/Paris"
+              },
+              "ev_charging": {
+                "type": "string",
+                "description": "EV charging info in resort"
+              }
+            }
+          },
+          "getting_around": {
+            "type": "object",
+            "description": "Getting around: parking, shuttles, walkability",
+            "properties": {
+              "car_free": {
+                "type": "boolean"
+              },
+              "parking_compulsory": {
+                "type": "boolean"
+              },
+              "parking_cost": {
+                "type": "string"
+              },
+              "parking_in_out_allowed": {
+                "type": "boolean",
+                "description": "Can you come and go during your stay"
+              },
+              "shuttle_bus_info": {
+                "type": "string",
+                "description": "Free shuttle bus info and schedule"
+              },
+              "car_needed": {
+                "type": "string",
+                "description": "Do you need a car once in resort"
+              },
+              "walkable_in_ski_boots": {
+                "type": "boolean"
+              },
+              "luggage_storage": {
+                "type": "string",
+                "description": "Luggage storage on arrival/departure day"
+              }
+            }
+          },
+          "when_to_go": {
+            "type": "object",
+            "description": "Season timing, snow, weather, crowds",
+            "properties": {
+              "season_open": {
+                "type": "string"
+              },
+              "season_close": {
+                "type": "string"
+              },
+              "best_time_to_ski": {
+                "type": "string"
+              },
+              "snow_reliability_detail": {
+                "type": "string"
+              },
+              "snow_by_month": {
+                "type": "object",
+                "description": "Average snowfall in cm per month",
+                "properties": {
+                  "november": {
+                    "type": "number"
+                  },
+                  "december": {
+                    "type": "number"
+                  },
+                  "january": {
+                    "type": "number"
+                  },
+                  "february": {
+                    "type": "number"
+                  },
+                  "march": {
+                    "type": "number"
+                  },
+                  "april": {
+                    "type": "number"
+                  },
+                  "may": {
+                    "type": "number"
+                  }
+                }
+              },
+              "april_skiing": {
+                "type": "string"
+              },
+              "christmas_new_year_skiing": {
+                "type": "string"
+              },
+              "weather_by_month": {
+                "type": "object",
+                "description": "Typical weather patterns per month: temperature ranges, precipitation days, sunshine",
+                "properties": {
+                  "november": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "december": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "january": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "february": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "march": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  },
+                  "april": {
+                    "type": "object",
+                    "properties": {
+                      "temp_min_c": {
+                        "type": "number"
+                      },
+                      "temp_max_c": {
+                        "type": "number"
+                      },
+                      "snow_days_avg": {
+                        "type": "number"
+                      },
+                      "sunshine_hours_avg": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              },
+              "how_cold_gets": {
+                "type": "string"
+              },
+              "north_facing_slopes": {
+                "type": "string",
+                "description": "Which slopes face north and hold snow longest"
+              },
+              "feb_half_term_busy": {
+                "type": "string"
+              },
+              "french_school_holidays_impact": {
+                "type": "string"
+              },
+              "quietest_times": {
+                "type": "string"
+              },
+              "high_wind_lift_closures": {
+                "type": "string",
+                "description": "Does high wind close lifts"
+              }
+            }
+          },
+          "ski_area": {
+            "type": "object",
+            "description": "Ski area: runs, standout features, connections, boarder-friendly",
+            "properties": {
+              "best_runs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "longest_run": {
+                "type": "string"
+              },
+              "steepest_run": {
+                "type": "string"
+              },
+              "connection_to_domain": {
+                "type": "string",
+                "description": "How does this resort connect to the rest of the domain"
+              },
+              "last_lift_time": {
+                "type": "string"
+              },
+              "miss_last_lift_info": {
+                "type": "string",
+                "description": "What happens if you miss the last lift back"
+              },
+              "night_skiing": {
+                "type": "string"
+              },
+              "drag_lifts_many": {
+                "type": "boolean"
+              },
+              "tree_runs_bad_weather": {
+                "type": "string",
+                "description": "Best tree runs for bad weather days"
+              },
+              "lift_queues": {
+                "type": "string"
+              },
+              "pedestrian_lifts": {
+                "type": "string",
+                "description": "Which lifts can pedestrians use"
+              },
+              "lifts_modern": {
+                "type": "string"
+              },
+              "piste_map_url": {
+                "type": "string"
+              }
+            }
+          },
+          "beginners": {
+            "type": "object",
+            "description": "Beginner terrain, progression, lessons",
+            "properties": {
+              "beginner_detail": {
+                "type": "string"
+              },
+              "beginner_slopes": {
+                "type": "string",
+                "description": "Which slopes should beginners ski"
+              },
+              "free_beginner_lifts": {
+                "type": "string"
+              },
+              "long_green_run": {
+                "type": "string",
+                "description": "Is there a long green run back to the village"
+              },
+              "beginner_jump": {
+                "type": "string",
+                "description": "Big jump from nursery slopes to next level"
+              },
+              "ski_lesson_booking": {
+                "type": "string"
+              },
+              "english_speaking_instructors": {
+                "type": "boolean"
+              },
+              "private_vs_group_lessons": {
+                "type": "string"
+              },
+              "ski_school_booking_half_term": {
+                "type": "string",
+                "description": "How early to book for half term"
+              }
+            }
+          },
+          "off_piste": {
+            "type": "object",
+            "description": "Off-piste, guided, touring, avalanche",
+            "properties": {
+              "off_piste_detail": {
+                "type": "string"
+              },
+              "guide_needed": {
+                "type": "boolean",
+                "description": "Do you need a guide for off piste"
+              },
+              "ski_touring_routes": {
+                "type": "string"
+              },
+              "heliskiing": {
+                "type": "boolean"
+              },
+              "avalanche_risk_check": {
+                "type": "string",
+                "description": "Where to check avalanche risk"
+              }
+            }
+          },
+          "families": {
+            "type": "object",
+            "description": "Family amenities, childcare, kids activities",
+            "properties": {
+              "family_detail": {
+                "type": "string"
+              },
+              "childcare_options": {
+                "type": "string"
+              },
+              "ski_school_min_age": {
+                "type": "number"
+              },
+              "kids_club_evening": {
+                "type": "boolean"
+              },
+              "babysitters": {
+                "type": "boolean"
+              },
+              "four_year_old_activities": {
+                "type": "string"
+              },
+              "teen_activities": {
+                "type": "string"
+              },
+              "family_hotels_with_kids_club": {
+                "type": "string"
+              },
+              "safe_with_young_children": {
+                "type": "string"
+              },
+              "toboggan_runs": {
+                "type": "string"
+              },
+              "altitude_children_effects": {
+                "type": "string"
+              }
+            }
+          },
+          "where_to_stay": {
+            "type": "object",
+            "description": "Accommodation guidance, village choice, booking",
+            "properties": {
+              "which_village_to_stay": {
+                "type": "string",
+                "description": "Which village is right for different types"
+              },
+              "ski_in_ski_out": {
+                "type": "boolean",
+                "description": "Is accommodation ski-in/ski-out"
+              },
+              "best_hotels": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "accommodation_types": {
+                "type": "string",
+                "description": "Catered chalets, hotels, apartments"
+              },
+              "large_group_accommodation": {
+                "type": "boolean"
+              },
+              "hotels_with_pools_spas": {
+                "type": "string"
+              },
+              "official_reservation_service": {
+                "type": "string"
+              },
+              "french_self_catering_includes": {
+                "type": "string"
+              },
+              "saturday_changeover": {
+                "type": "string",
+                "description": "Saturday changeover routine"
+              }
+            }
+          },
+          "food_and_drink": {
+            "type": "object",
+            "description": "Restaurants, cuisine, dining guidance",
+            "properties": {
+              "best_restaurants": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "michelin_starred": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "cheap_mountain_lunch": {
+                "type": "string"
+              },
+              "picnic_options": {
+                "type": "string"
+              },
+              "local_dishes": {
+                "type": "string"
+              },
+              "dietary_options": {
+                "type": "string",
+                "description": "Veg/vegan/GF options"
+              },
+              "restaurant_booking_needed": {
+                "type": "boolean"
+              },
+              "booking_advice": {
+                "type": "string",
+                "description": "Do I need to book in advance"
+              },
+              "meal_cost": {
+                "type": "string",
+                "description": "Typical meal and drink cost"
+              },
+              "bakeries": {
+                "type": "string",
+                "description": "Bakeries and where to find them"
+              }
+            }
+          },
+          "apres_and_nightlife": {
+            "type": "object",
+            "description": "Apr\u00e8s-ski, bars, clubs, evening atmosphere",
+            "properties": {
+              "apres_ski_description": {
+                "type": "string"
+              },
+              "folie_douce": {
+                "type": "string",
+                "description": "Is there a Folie Douce and where"
+              },
+              "nightlife_clubbing": {
+                "type": "string"
+              },
+              "quiet_evenings": {
+                "type": "boolean"
+              },
+              "bar_club_closing_times": {
+                "type": "string"
+              }
+            }
+          },
+          "beyond_skiing": {
+            "type": "object",
+            "description": "Non-ski activities, events, summer, bad weather",
+            "properties": {
+              "non_ski_activities": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "events_during_stay": {
+                "type": "string"
+              },
+              "snowshoeing": {
+                "type": "string"
+              },
+              "pedestrian_walking_paths": {
+                "type": "string"
+              },
+              "swimming_pool_or_spa": {
+                "type": "string"
+              },
+              "ice_skating": {
+                "type": "string"
+              },
+              "dog_sledding": {
+                "type": "string"
+              },
+              "snowmobiling": {
+                "type": "string"
+              },
+              "paragliding": {
+                "type": "string"
+              },
+              "bad_weather_activities": {
+                "type": "string"
+              },
+              "shopping": {
+                "type": "string"
+              },
+              "summer_activities": {
+                "type": "string"
+              },
+              "activity_highlights": {
+                "type": "string",
+                "description": "Highlight activities beyond skiing (paragliding, ice skating, dog sledding, etc)"
+              }
+            }
+          },
+          "services": {
+            "type": "object",
+            "description": "On-resort practical services",
+            "properties": {
+              "ski_hire_info": {
+                "type": "string",
+                "description": "Where are the hire shops near accommodation"
+              },
+              "pre_book_ski_hire": {
+                "type": "string"
+              },
+              "nurses_on_duty": {
+                "type": "boolean"
+              },
+              "nearby_hospital": {
+                "type": "string"
+              },
+              "coworking_spaces": {
+                "type": "boolean"
+              },
+              "ski_patrol_collection": {
+                "type": "string",
+                "description": "Where to collect skis taken by ski patrol after injury"
+              },
+              "medical_centre_notes": {
+                "type": "string",
+                "description": "Notes about medical cover (village level has precise location)"
+              },
+              "pharmacy_notes": {
+                "type": "string",
+                "description": "Notes about pharmacy access (village level has precise location)"
+              },
+              "supermarket_notes": {
+                "type": "boolean",
+                "description": "Supermarket info (village level has boolean presence)"
+              }
+            }
+          },
+          "safety_and_access": {
+            "type": "object",
+            "description": "Insurance, accessibility, medical, dogs",
+            "properties": {
+              "ski_insurance_carre_neige": {
+                "type": "string",
+                "description": "Do I need ski insurance or Carr\u00e9 Neige"
+              },
+              "wheelchair_accessible": {
+                "type": "boolean"
+              },
+              "adaptive_skiing": {
+                "type": "boolean"
+              },
+              "altitude_sickness_risk": {
+                "type": "string"
+              },
+              "dogs_allowed": {
+                "type": "boolean",
+                "description": "Can I bring my dog"
+              }
+            }
+          },
+          "sustainability": {
+            "type": "object",
+            "description": "Environmental efforts and climate risk",
+            "properties": {
+              "sustainability_efforts": {
+                "type": "string"
+              },
+              "climate_change_risk": {
+                "type": "string"
+              }
+            }
+          },
+          "comparisons": {
+            "type": "object",
+            "description": "Resort comparisons and similar resorts",
+            "properties": {
+              "comparison_within_domain": {
+                "type": "string",
+                "description": "How does it compare to other resorts in same domain"
+              },
+              "comparable_resorts": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "smaller_vs_larger": {
+                "type": "string",
+                "description": "Is a smaller resort better than huge linked area"
+              },
+              "rival_comparison": {
+                "type": "string",
+                "description": "How does this compare to a named rival resort"
+              }
+            }
+          },
+          "audience": {
+            "type": "object",
+            "description": "Audience suitability \u2014 who this resort works for (moved from domain level: these are resort-specific, not domain-wide)",
+            "properties": {
+              "solo_travellers": {
+                "type": "string"
+              },
+              "groups_of_friends": {
+                "type": "string"
+              },
+              "couples": {
+                "type": "string"
+              },
+              "older_skiers": {
+                "type": "string"
+              },
+              "mixed_ability_groups": {
+                "type": "string"
+              }
+            }
+          },
+          "resort_personality": {
+            "type": "array",
+            "items": "string"
+          },
+          "best_for": {
+            "type": "array",
+            "items": "string"
+          },
+          "honest_drawbacks": {
+            "type": "string"
+          },
+          "villages": {
+            "type": "array",
+            "items": "string"
+          },
+          "bed_capacity": {
+            "type": "number",
+            "description": "Total bed capacity across the resort (was accommodation.bed_capacity)"
+          },
+          "accommodation_type_mix": {
+            "type": "string",
+            "description": "Mix of hotels, chalets, apartments (was accommodation.type_mix)"
+          },
+          "body": {
+            "type": "string"
+          },
+          "sourced_fields": {
+            "type": "object"
+          }
+        }
+      },
+      "village": {
+        "name": "Village / Altitude Band",
+        "description": "The altitude band within a resort. Maximum differentiation between villages lives here.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "slug": {
+            "type": "string",
+            "required": true
+          },
+          "resort": {
+            "type": "string",
+            "required": true
+          },
+          "domain": {
+            "type": "string"
+          },
+          "altitude_m": {
+            "type": "number",
+            "required": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "character": {
+            "type": "object",
+            "properties": {
+              "atmosphere": {
+                "type": "string",
+                "enum": [
+                  "purpose_built",
+                  "traditional_charm",
+                  "mixed"
+                ]
+              },
+              "architecture": {
+                "type": "string"
+              },
+              "ski_in_ski_out": {
+                "type": "boolean"
+              },
+              "walkability": {
+                "type": "string",
+                "enum": [
+                  "excellent",
+                  "good",
+                  "fair",
+                  "car_required"
+                ]
+              },
+              "sun_exposure": {
+                "type": "string",
+                "description": "Which part of day does it get sun"
+              },
+              "lift_accessed": {
+                "type": "boolean"
+              },
+              "vibe": {
+                "type": "string",
+                "description": "Lively, sporty, functional, young-at-heart, exclusive, family"
+              }
+            }
+          },
+          "dining": {
+            "type": "object",
+            "properties": {
+              "restaurants": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string",
+                      "enum": [
+                        "town",
+                        "mountain",
+                        "altitude"
+                      ]
+                    },
+                    "cuisine": {
+                      "type": "string"
+                    },
+                    "price_band": {
+                      "type": "string",
+                      "enum": [
+                        "budget",
+                        "mid",
+                        "premium",
+                        "luxury"
+                      ]
+                    },
+                    "altitude": {
+                      "type": "number"
+                    },
+                    "booking_recommended": {
+                      "type": "boolean"
+                    },
+                    "michelin_stars": {
+                      "type": "number"
+                    },
+                    "non_skier_accessible": {
+                      "type": "boolean"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "speciality": {
+                      "type": "string",
+                      "description": "Signature dish or speciality"
+                    }
+                  }
+                }
+              },
+              "bakeries": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "supermarkets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "shopping": {
+            "type": "object",
+            "properties": {
+              "boutiques": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sports_shops": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "market_days": {
+                "type": "string"
+              }
+            }
+          },
+          "apres_scene": {
+            "type": "object",
+            "properties": {
+              "bars": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "nightclubs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "atmosphere": {
+                "type": "string",
+                "enum": [
+                  "quiet",
+                  "lively",
+                  "party"
+                ]
+              },
+              "folie_douce": {
+                "type": "boolean"
+              },
+              "folie_douce_location": {
+                "type": "string"
+              },
+              "closing_times": {
+                "type": "string"
+              },
+              "happy_hour_info": {
+                "type": "string"
+              }
+            }
+          },
+          "activities_nearby": {
+            "type": "object",
+            "properties": {
+              "ice_skating": {
+                "type": "boolean"
+              },
+              "ice_skating_type": {
+                "type": "string",
+                "enum": [
+                  "indoor",
+                  "outdoor",
+                  "natural_lake"
+                ]
+              },
+              "swimming_pool": {
+                "type": "string"
+              },
+              "spa_wellness": {
+                "type": "string"
+              },
+              "bowling": {
+                "type": "boolean"
+              },
+              "cinema": {
+                "type": "boolean"
+              },
+              "paragliding": {
+                "type": "boolean"
+              },
+              "dog_sledding": {
+                "type": "boolean"
+              },
+              "snowmobiling": {
+                "type": "boolean"
+              },
+              "snowshoeing_trails": {
+                "type": "boolean"
+              },
+              "pedestrian_walks": {
+                "type": "boolean"
+              },
+              "toboggan_run": {
+                "type": "boolean"
+              },
+              "toboggan_length_m": {
+                "type": "number"
+              },
+              "summer_activities": {
+                "type": "string"
+              },
+              "bad_weather_activities": {
+                "type": "string"
+              }
+            }
+          },
+          "practical_info": {
+            "type": "object",
+            "properties": {
+              "tourist_office_url": {
+                "type": "string"
+              },
+              "parking": {
+                "type": "string"
+              },
+              "ski_school": {
+                "type": "string"
+              },
+              "rental_shops": {
+                "type": "number"
+              },
+              "pre_book_rental": {
+                "type": "string"
+              },
+              "supermarket": {
+                "type": "boolean"
+              },
+              "medical_centre": {
+                "type": "boolean"
+              },
+              "medical_centre_location": {
+                "type": "string"
+              },
+              "pharmacy": {
+                "type": "boolean"
+              },
+              "cash_machine": {
+                "type": "boolean"
+              },
+              "free_wifi": {
+                "type": "boolean"
+              },
+              "coworking": {
+                "type": "boolean"
+              },
+              "lost_property": {
+                "type": "string"
+              },
+              "luggage_storage": {
+                "type": "boolean"
+              }
+            }
+          },
+          "home_network": {
+            "type": "object",
+            "description": "How much terrain is reachable without traverses or bus transfers",
+            "properties": {
+              "pistes_km": {
+                "type": "number"
+              },
+              "easiest_return_run": {
+                "type": "string"
+              },
+              "lifts_directly_accessible": {
+                "type": "array",
+                "items": "string"
+              }
+            }
+          },
+          "lifts": {
+            "type": "array",
+            "description": "Lifts departing from or arriving at this village",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "gondola",
+                    "cable_car",
+                    "chair_highspeed",
+                    "chair_fixed",
+                    "t_bar",
+                    "platter",
+                    "rope_tow",
+                    "magic_carpet",
+                    "funicular",
+                    "mixed"
+                  ]
+                },
+                "capacity_skiers_per_hour": {
+                  "type": "number"
+                },
+                "occupancy": {
+                  "type": "number",
+                  "description": "People per chair/cabin"
+                },
+                "length_m": {
+                  "type": "number"
+                },
+                "vertical_m": {
+                  "type": "number"
+                },
+                "duration_minutes": {
+                  "type": "number"
+                },
+                "speed_mps": {
+                  "type": "number"
+                },
+                "detachable": {
+                  "type": "boolean"
+                },
+                "bubble": {
+                  "type": "boolean"
+                },
+                "heating": {
+                  "type": "boolean"
+                },
+                "manufacturer": {
+                  "type": "string"
+                },
+                "year_built": {
+                  "type": "number"
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "operating",
+                    "seasonal",
+                    "closed",
+                    "removed"
+                  ]
+                },
+                "lower_terminal_altitude": {
+                  "type": "number"
+                },
+                "upper_terminal_altitude": {
+                  "type": "number"
+                },
+                "serves_runs": {
+                  "type": "array",
+                  "items": "string"
+                },
+                "notes": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "pistes": {
+            "type": "array",
+            "description": "Pistes reachable from this village",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "green",
+                    "blue",
+                    "red",
+                    "black",
+                    "double_black"
+                  ]
+                },
+                "length_m": {
+                  "type": "number"
+                },
+                "vertical_m": {
+                  "type": "number"
+                },
+                "groomed": {
+                  "type": "boolean"
+                },
+                "lit": {
+                  "type": "boolean"
+                },
+                "snowmaking": {
+                  "type": "boolean"
+                },
+                "gladed": {
+                  "type": "boolean"
+                },
+                "from_lift": {
+                  "type": "string"
+                },
+                "to_village": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "scores": {
+            "type": "object",
+            "properties": {
+              "family_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              },
+              "solo_traveller_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              },
+              "larger_group_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              },
+              "beginner_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              },
+              "intermediate_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              },
+              "advanced_fit": {
+                "type": "number",
+                "min": 0,
+                "max": 10
+              }
+            }
+          },
+          "nearest_airport": {
+            "type": "string"
+          },
+          "transfer_from_airport_min": {
+            "type": "number"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "research_status": {
+            "type": "string"
+          },
+          "sourced_fields": {
+            "type": "object"
+          }
+        }
+      },
+      "lift": {
+        "name": "Chairlift / Aerialway",
+        "description": "Individual lift infrastructure. One lift connects two points on the mountain.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "village": {
+            "type": "string"
+          },
+          "resort": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "required": true,
+            "enum": [
+              "gondola",
+              "cable_car",
+              "chair_highspeed",
+              "chair_fixed",
+              "t_bar",
+              "platter",
+              "rope_tow",
+              "magic_carpet",
+              "funicular",
+              "mixed"
+            ]
+          },
+          "capacity_skiers_per_hour": {
+            "type": "number"
+          },
+          "occupancy": {
+            "type": "number"
+          },
+          "length_m": {
+            "type": "number"
+          },
+          "vertical_m": {
+            "type": "number"
+          },
+          "duration_minutes": {
+            "type": "number"
+          },
+          "speed_mps": {
+            "type": "number"
+          },
+          "detachable": {
+            "type": "boolean"
+          },
+          "bubble": {
+            "type": "boolean"
+          },
+          "heating": {
+            "type": "boolean"
+          },
+          "manufacturer": {
+            "type": "string"
+          },
+          "year_built": {
+            "type": "number"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "operating",
+              "seasonal",
+              "closed",
+              "removed"
+            ]
+          },
+          "lower_altitude": {
+            "type": "number"
+          },
+          "upper_altitude": {
+            "type": "number"
+          },
+          "serves_runs": {
+            "type": "array",
+            "items": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "date_retrieved": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "piste": {
+        "name": "Piste / Ski Run",
+        "description": "A named ski run with difficulty rating.",
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true
+          },
+          "resort": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "string",
+            "required": true,
+            "enum": [
+              "green",
+              "blue",
+              "red",
+              "black",
+              "double_black"
+            ]
+          },
+          "length_m": {
+            "type": "number"
+          },
+          "vertical_m": {
+            "type": "number"
+          },
+          "groomed": {
+            "type": "boolean"
+          },
+          "lit": {
+            "type": "boolean"
+          },
+          "snowmaking": {
+            "type": "boolean"
+          },
+          "gladed": {
+            "type": "boolean"
+          },
+          "from_lift": {
+            "type": "string"
+          },
+          "to_village": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed",
+              "seasonal"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cross_cutting": {
+      "description": "Content types that apply across multiple levels",
+      "types": [
+        "snow_reliability_score",
+        "wow_factor",
+        "restaurant_score",
+        "apres_score",
+        "audience_fit_scores",
+        "derived_metrics",
+        "photo_essay",
+        "video",
+        "q_and_a_responses",
+        "generated_content_notes"
+      ]
+    },
+    "derived_metrics": {
+      "description": "Metrics computed from raw data",
+      "fields": {
+        "average_piste_length_km": {
+          "type": "number",
+          "formula": "total_pistes_km / total_pistes"
+        },
+        "value_index_per_km": {
+          "type": "number",
+          "formula": "pass_price / total_pistes_km"
+        },
+        "value_index_per_vertical_m": {
+          "type": "number",
+          "formula": "pass_price / vertical_drop"
+        },
+        "lift_density": {
+          "type": "number",
+          "formula": "total_lifts / total_pistes_km"
+        },
+        "crowding_index": {
+          "type": "number",
+          "formula": "bed_capacity / total_pistes_km"
+        },
+        "flat_terrain_ratio": {
+          "type": "number"
+        },
+        "snow_reliability_index": {
+          "type": "number"
+        },
+        "beginner_friendly_ratio": {
+          "type": "number",
+          "formula": "green_count / total_pistes"
+        },
+        "advanced_terrain_ratio": {
+          "type": "number",
+          "formula": "(red_count + black_count) / total_pistes"
+        }
+      }
+    },
+    "audience_fit": {
+      "description": "Standardised scores for key audience segments (0-10)",
+      "segments": [
+        "family",
+        "solo_traveller",
+        "larger_group",
+        "beginner",
+        "intermediate",
+        "advanced",
+        "snowboarder",
+        "freerider",
+        "couples",
+        "older_skiers"
+      ]
+    },
+    "cross_cutting_definitions": {
+      "description": "Defined metadata types for cross-cutting scoring, media, and provenance",
+      "definitions": {
+        "snow_reliability_score": {
+          "type": "object",
+          "description": "0-10 score measuring how reliably the resort holds snow through the season",
+          "fields": {
+            "score": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "methodology": {
+              "type": "string",
+              "description": "How this score is calculated: altitude, aspect, glacier, snowmaking combined"
+            },
+            "year_rated": {
+              "type": "number"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "wow_factor": {
+          "type": "object",
+          "description": "0-10 score for scenic beauty, mountain drama, and spectacle",
+          "fields": {
+            "score": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "highlights": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "restaurant_score": {
+          "type": "object",
+          "description": "0-10 dining quality score combining quality, variety, and value",
+          "fields": {
+            "score": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "best_bet": {
+              "type": "string",
+              "description": "The can't-miss dining experience"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "apres_score": {
+          "type": "object",
+          "description": "0-10 score for after-ski scene \u2014 bars, clubs, energy",
+          "fields": {
+            "score": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "vibe": {
+              "type": "string",
+              "enum": [
+                "quiet",
+                "lively",
+                "party"
+              ]
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        },
+        "audience_fit_scores": {
+          "type": "object",
+          "description": "Standardised 0-10 fit scores per audience segment",
+          "fields": {
+            "family": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "solo_traveller": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "larger_group": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "beginner": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "intermediate": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "advanced": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "snowboarder": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "freerider": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "couples": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            },
+            "older_skiers": {
+              "type": "number",
+              "min": 0,
+              "max": 10
+            }
+          }
+        },
+        "photo_essay": {
+          "type": "array",
+          "description": "Curated set of photos for editorial display",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "alt_text": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "credit": {
+                "type": "string"
+              },
+              "license": {
+                "type": "string"
+              },
+              "shooting_date": {
+                "type": "string"
+              },
+              "subject": {
+                "type": "string",
+                "description": "What this photo shows: piste, village, mountain, restaurant, activity"
+              }
+            }
+          }
+        },
+        "video": {
+          "type": "array",
+          "description": "Video content \u2014 POV runs, resort tours, drone footage",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "duration_seconds": {
+                "type": "number"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "pov_run",
+                  "resort_tour",
+                  "drone",
+                  "interview",
+                  "promo"
+                ]
+              },
+              "credit": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "q_and_a_responses": {
+          "type": "object",
+          "description": "Provenance-tracked answers to the 173-question framework per resort",
+          "fields": {
+            "answer_count": {
+              "type": "number",
+              "description": "How many of the 173 questions have been answered for this resort"
+            },
+            "last_updated": {
+              "type": "string"
+            },
+            "answered_by": {
+              "type": "string",
+              "description": "Human, AI, or automated pipeline that generated the answers"
+            },
+            "answers": {
+              "type": "object",
+              "description": "Map of question framework fields to answers with confidence"
+            }
+          }
+        },
+        "generated_content_notes": {
+          "type": "object",
+          "description": "Provenance tracking for AI-generated content \u2014 critical for editorial integrity",
+          "fields": {
+            "content_generated_by": {
+              "type": "string",
+              "enum": [
+                "human_expert",
+                "ai_research_agent",
+                "ai_summary",
+                "scraped_automated"
+              ]
+            },
+            "model_used": {
+              "type": "string",
+              "description": "Which model generated this content"
+            },
+            "date_generated": {
+              "type": "string"
+            },
+            "human_reviewed": {
+              "type": "boolean"
+            },
+            "reviewer": {
+              "type": "string"
+            },
+            "confidence": {
+              "type": "string",
+              "enum": [
+                "verified",
+                "high",
+                "medium",
+                "low",
+                "unverified"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

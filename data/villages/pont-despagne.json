@@ -1,0 +1,15 @@
+{
+  "village": "Pont d'Espagne",
+  "slug": "pont-despagne",
+  "resort": "Cauterets",
+  "domain": "Cauterets",
+  "region": "Pyr\u00e9n\u00e9es",
+  "nearby_activities": [
+    "thermal_spa",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1500,
+  "character": "Cauterets valley gateway to Pyrenees National Park. Cable car to Lac de Gaube. Waterfalls, hiking.",
+  "source_url": "https://www.lespyrenees.com/"
+}

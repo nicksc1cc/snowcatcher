@@ -1,0 +1,18 @@
+{
+  "village": "Poingt Ravier",
+  "slug": "poingt-ravier",
+  "resort": "Valloire",
+  "domain": "Galibier-Thabor",
+  "region": "Maurienne",
+  "nearby_activities": [
+    "spa",
+    "swimming",
+    "ice_skating",
+    "market",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1500,
+  "character": "Upper Valloire hamlet. Traditional Savoyard architecture.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

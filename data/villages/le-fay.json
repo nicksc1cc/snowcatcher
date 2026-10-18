@@ -1,0 +1,16 @@
+{
+  "village": "Le Fay",
+  "slug": "le-fay",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1080,
+  "character": "Small Sixt hamlet.",
+  "activities_nearby": "Local walking.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

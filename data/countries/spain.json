@@ -1,0 +1,94 @@
+{
+  "country": {
+    "name": "Spain",
+    "slug": "spain",
+    "description": "Spain has ~33 ski areas across 7 mountain ranges. The largest and best-known resorts are Baqueira Beret (Val d'Aran, Pyrenees) — 140km, 36 lifts, surpassing 1 million skier visits for the 4th time in 5 seasons (1,050,000 in 2025/26, second-best season ever) — and Sierra Nevada (Granada, Andalucia) — the southernmost ski resort in Europe and a major day-trip destination. Spain attracts 33% foreign visitors on average (Baqueira Beret has ~25% international, with rapid US growth tripling in 2025/26). Spanish ski areas are smaller than Alpine competitors — even the largest is 140km vs 600km in the Alps — but offer unique benefits: incredible food, late-season sun, uncrowded slopes, and some of the best value in Europe. The Pyrenees accounts for ~60% of Spanish skiing (Aragón, Catalonia, Val d'Aran). Sierra Nevada is the southern Europe outlier — skiing at 3,300m with views of the Mediterranean.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "Not in top 10 globally. Estimated ~5 million skier visits annually.",
+      "total_ski_areas": "~33 across 7 mountain ranges",
+      "largest_resort": "Baqueira Beret — 140km, 36 lifts, 1.05M skier visits (2025/26)",
+      "second_largest": "Sierra Nevada — ~100km, 20 lifts, ~800K visits (est.)",
+      "other_notable": "Formigal-Panticosa (Aramón group) — ~90km linked; Port del Comte (Catalonia); Masella/La Molina (Catalonia); Valdesquí (Madrid region); San Isidro (León); Alto Campoo (Cantabria)",
+      "international_visitors_share": "~33% (Baqueira: 25% international, Sierra Nevada: higher domestic)",
+      "top_source_markets": "Spain (domestic - primary), France, UK, Andorra, USA (3x growth 2025/26 at Baqueira Beret), Portugal, Nordic countries",
+      "baqueira_beret_2025_26": "1,050,000 ski days. Breakdown: Baqueira sector 45.1%, Beret 35.6%, Bonaigua 17.6%, Baciver 1.7%. Spanish 50%+, French 25%, UK/International 25%.",
+      "foreign_growth": "US skiers tripled at Baqueira Beret 2025/26 — the strongest long-haul growth. UK market second-largest source.",
+      "note": "Spanish ski areas are concentrated in two regions: Pyrenees (Catalonia, Aragon, Val d'Aran) for largest ski areas and most international visitors; Sierra Nevada (southern Spain) for high-altitude, late-season European sun skiing. Neither competes with the Alps on scale — they offer a different product: culture, food, sun, uncrowded runs.",
+      "source_figures": "Baqueira Beret official season reports 2026; ATUDEM (Asociación Turística de Estaciones de Esquí y Montaña); Spanish resort operator data"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "notes": "Spain is fully Euro. Card widely accepted in resorts and villages. Cash still preferred in small mountain bars and remote Pyrenean villages. ATMs in all resort centres."
+      },
+      "language": {
+        "official": "Spanish (Castellano)",
+        "regional_official": "Catalan (Catalonia, Val d'Aran), Aranese (Val d'Aran — a Gascon Occitan dialect co-official with Catalan and Spanish), Galician (Galicia), Basque (Basque Country)",
+        "english_in_resorts": "Good in major resorts (Baqueira Beret, Sierra Nevada, Formigal). Less common in small Pyrenean resorts. Spanish is the default. Learning basic phrases ('por favor', 'gracias', 'la cuenta' ) goes a long way."
+      },
+      "power_plugs": {
+        "type": "Type F (2-pin round, 230V, 50Hz) — same as France, standard continental European",
+        "adapter_needed": "Yes for UK visitors. Standard EU travel adapter works.",
+        "notes": "Same as France and Austria."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as France. Note: Spain runs on Central European Time despite being geographically west of the UK — winter sunsets at 5-6pm, late breakfast culture (9-10am ski school start typical)."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_pyrenees": "~9-11 hours to Baqueira Beret. Route: Calais-Reims-Dijon-Lyon-Orange-Montpellier-Toulouse, then A64 to Luchon/E9 into Val d'Aran.",
+        "calais_to_sierra_nevada": "~17-18 hours — impractical. Fly to Malaga/Granada instead.",
+        "from_barcelona": "Baqueira Beret 3.5 hours. La Molina/Masella 2 hours. Formigal 3 hours.",
+        "from_toulouse": "Baqueira Beret 2 hours (via A64 to Montréjeau then D125/E9 through Vielha tunnel).",
+        "tolls": "French autoroutes Calais to Toulouse ~€80-95. Spanish AP-2 toll dual carriageway from Zaragoza ~€15-20. Vielha tunnel (into Val d'Aran) free.",
+        "fuel": "Spanish fuel generally cheaper than France (€1.50-1.60/litre vs €1.70-1.85 in France). Fill up on the Spanish side."
+      },
+      "winter_driving_law": {
+        "legal_requirement": "Winter tyres OR chains MUST be carried from November to March (or when conditions require). Not a blanket calendar law like France — based on weather conditions and mountain road signs. Local authorities (Guardia Civil) enforce.",
+        "enforcement": "Guardia Civil and local police check on mountain passes. Fine €200 for not carrying winter equipment when required. Baqueira access via the N-230/E9 has dedicated police checks in snowy conditions.",
+        "speed_limits": {
+          "motorway": "120 km/h",
+          "national_roads": "90 km/h (100 km/h on dual carriageways)",
+          "mountain_roads": "60-80 km/h, often reduced in snow",
+          "urban": "50 km/h",
+          "fines": "Speeding fines from €100. Spanish police have roadside fine payment. Cross-border enforcement with UK."
+        }
+      },
+      "ev_charging": {
+        "availability": "Good on main Corredor Mediterráneo (AP-7) and routes to Pyrenees. Limited in remote Pyrenean valleys. Most hotels in Baqueira Beret and Sierra Nevada have chargers now.",
+        "networks": "Iberdrola, Endesa X, Repsol on main routes. Resort chargers by local install.",
+        "tips": "Download Electromaps or PlugShare. Val d'Aran has limited charging — charge in Luchon (France) or Vielha before heading up to Baqueira."
+      }
+    },
+    "ski_insurance": {
+      "spanish_system": "No dedicated ski insurance product. Rescue and medical costs charged and claimed from travel insurance.",
+      "rescue_costs": "Ski patrol rescue €80-300 on-piste. Helicopter rescue €1,000-3,000+. Most Spanish resorts have piste patrol (pisteros) on duty — English-speaking limited in smaller resorts.",
+      "travel_insurance": "Essential. UK travel insurance with European winter sports cover. Spain is generally covered under standard European travel insurance (not a separate 'Eastern Europe' policy)."
+    },
+    "emergency_services": {
+      "european_emergency": "112 (works across Spain. Free from any phone.)",
+      "spanish_numbers": {
+        "ambulance_medical": "061 (emergency medical services)",
+        "police": "112, also 091 (Policía Nacional), 062 (Guardia Civil)",
+        "local_police": "092 (Policía Local)",
+        "fire": "080",
+        "mountain_rescue": "112 or 062 (Guardia Civil SEPRONA/GEAS — mountain and cave rescue specialists)"
+      },
+      "mountain_rescue": {
+        "guardia_civil_seprona": "Servicio de Protección de la Naturaleza — Guardia Civil mountain rescue. The primary mountain rescue service. Activated via 112 or 062. Professional — covers Pyrenees, Picos de Europa, Sierra Nevada.",
+        "bomberos_mountain": "Regional fire services (Bomberos) in Catalonia and Aragon also operate mountain rescue.",
+        "piste_patrol": "Each resort has its own piste patrol (Pisteros, Servicio de Pistas). First responders for on-piste incidents.",
+        "geas": "Grupo Especial de Actividades Subacuáticas y Montaña — Guardia Civil special mountain and diving unit. Covers complex mountain rescues including crevasse and ice climbing incidents."
+      },
+      "piste_incident_procedure": "1. Call 112. 2. Mark with crossed skis. 3. Don't move casualty. 4. Keep warm. 5. Stay on line. English-speaking operators available in Pyrenean areas."
+    },
+    "ski_customs_and_regulations": {
+      "helmet_law": "Not legally required for adults or children in most of Spain. Catalonia has stronger recommendations in ski schools. Strongly recommended.",
+      "silence_on_slopes": "Spanish pistes are known for being quieter and more relaxed than the competitive atmosphere of the Alps. Ski schools and families dominate. Aggressive speed skiing is less common. A genuinely different social atmosphere.",
+      "carrying_own_gear": "Same as France — skis as special baggage. Airlines serving Barcelona, Lleida-Alguaire (direct to Val d'Aran), Zaragoza, Madrid, Malaga (for Sierra Nevada). Lleida-Alguaire is the nearest airport to Baqueira Beret (1.5 hours), year-round service from London Luton, Palma, and seasonally from other UK airports."
+    },
+    "price_positioning_vs_peers": "Spain is excellent value by European standards. Lift passes: Baqueira Beret €53/day (6-day pass €320 total). Similar to Italy for cost, but for smaller total terrain. Accommodation is cheaper than the French Alps — a week in Baqueira Beret costs 20-35% less than a similar standard in the French Pyrenees or Alps. Food and drink are significantly cheaper: mountain restaurant lunch €10-15, menu del día €12-16, coffee €1.50, beer €3. The trade-off is scale — even the biggest Spanish resort (Baqueira Beret at 140km) is modest compared to Paradiski (425km) or Les 3 Vallées (600km). Best for: UK skiers who prioritise value, sun, food, and uncrowded slopes over vertical drop and piste km.",
+    "season_general": "Early December to mid-April for most Pyrenean resorts. Baqueira Beret 2025/26 ran to late April. Sierra Nevada: December to early May (high altitude at 2,100-3,300m, the longest natural season in Spain). Lower Pyrenean resorts (Formigal, La Molina): December to March/April depending on snow. Spanish seasons are shorter and more weather-dependent than the Alps due to lower average altitude."
+  }
+}

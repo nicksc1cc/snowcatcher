@@ -1,0 +1,26 @@
+{
+  "domain": "Le Markstein",
+  "slug": "le-markstein",
+  "region": "Vosges",
+  "character": "20 km small Vosges ski area. Good for beginners and families.",
+  "stats": {
+    "pistes_km": 20
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.skiallday.com/guides",
+  "name": "Le Markstein",
+  "description": "20km of pistes, 6 lifts, in the Vosges. Small, family-friendly, forested. Cross-country walking. Quiet, local atmosphere.",
+  "statistics": {
+    "total_pistes_km": 20,
+    "total_lifts": 6
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day": 28,
+    "adult_6day": 140
+  },
+  "suitability": {
+    "cross_country": "Good",
+    "families": "Small and quiet"
+  }
+}

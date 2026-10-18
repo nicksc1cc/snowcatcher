@@ -1,0 +1,18 @@
+{
+  "village": "La Vall\u00e9e",
+  "slug": "la-vallee",
+  "resort": "Brides-les-Bains",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "thermal_spa",
+    "entertainment",
+    "casino",
+    "dining",
+    "diet_cuisine"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 700,
+  "character": "Brides-les-Bains lower valley area. Thermal spa access.",
+  "source_url": "https://www.seechamonix.com/"
+}

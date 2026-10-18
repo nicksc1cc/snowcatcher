@@ -1,0 +1,42 @@
+{
+  "resort": "Samoens",
+  "altitude": 700,
+  "domain": "Grand Massif",
+  "region": "Haute-Savoie",
+  "character": "Historic market town at valley floor. Gothic church, cobbled streets, Saturday market. Access to Grand Massif via gondola.",
+  "description": "Samoens is one of the most beautiful market towns in the Alps \u2014 15th-century Gothic church, cobbled market square, weekly Saturday market (one of the best in Haute-Savoie). The ski area is accessed via the Grand Massif gondola from the town. The valley floor altitude (700m) means the town itself has limited snow, but the ski area above (1,600m+) is reliable.",
+  "stats": {
+    "altitude_resort": 700,
+    "domain_pistes_km": 265
+  },
+  "non_ski_activities": {
+    "market_town": "One of the most beautiful market towns in Haute-Savoie. 15th-century Gothic church (Notre-Dame de l'Assomption), central square with Gros Tilleul (ancient lime tree).",
+    "market": "Saturday market \u2014 one of the best in Haute-Savoie. Local cheeses, charcuterie, crafts.",
+    "spas": [
+      "Alexane Hotel & Spa \u2014 1,000 m\u00b2 wellness area, Montagnes du Monde spa, Himalayan salt scrubs, Alpine fir oil massages",
+      "Les Couadzous chalet wellness (hot tub, sauna, boot dryer)",
+      "O Fil de l'O and \u00d4 des Cimes wellness temple \u2014 yoga, Pilates, sophrology, acupuncture, Ayurvedic massages"
+    ],
+    "ice_swimming": "Ice swimming at Lac aux Dames \u2014 hosted Ice Swimming World Championships. Mobile sauna available (Bastu74). From \u20ac75.",
+    "frozen_river_rafting": "Nunayak \u2014 France's first winter river descent (rafting on frozen Giffre river). From \u20ac55/person.",
+    "pastry_classes": "Ana De la Fuente \u2014 professional pastry chef (H\u00f4tel de Crillon, H\u00f4tel Lutetia). 3-hour classes, \u20ac40/person.",
+    "mountain_dining": "Grand Massif Express area: Au Pr\u00e9 d'Oscar, 1600 caf\u00e9, Lou Caboens. Vercland gondola area: 45.8, Demoiselles des Saix, Chalet l'A\u00e9ro. La Luge \u00e0 T\u00e9ran (along Dahu blue run). Brasserie des Saix, Grand Cr\u00eat 17, Gers refuge."
+  },
+  "best_for": {
+    "non_skiers": 9,
+    "culture": 9,
+    "foodies": 8,
+    "families": 7
+  },
+  "honest_drawbacks": [
+    "Valley floor altitude (700m) \u2014 no village snow",
+    "Requires shuttle/gondola to Grand Massif lifts",
+    "Quiet evenings"
+  ],
+  "slug": "samoens",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.samoens.com/en/samoens-grand-massif-area/",
+    "https://www.samoens.com/en/pratique/votre-sejour-hiver-en-10-questions/"
+  ]
+}

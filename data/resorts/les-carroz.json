@@ -1,0 +1,42 @@
+{
+  "resort": "Les Carroz",
+  "slug": "les-carroz",
+  "domain": "Grand Massif",
+  "region": "Haute-Savoie",
+  "altitude": 1140,
+  "character": "Authentic Haute-Savoie family resort on a sunny plateau. Part of Grand Massif (265km). Aquac\u00eeme wellness centre \u2014 1,500m\u00b2, heated outdoor pool (30\u00b0 in winter). Rail toboggan through spruce forest. Corbalanche freeride area. Family-friendly, authentic village charm.",
+  "research_status": "properly_sourced",
+  "description": "Les Carroz is a pioneer of winter sports in the Grand Massif, retaining its authentic village soul on a sunny plateau at 1,140m. Haute-Savoie architecture of cosy chalets. Part of the 265km Grand Massif area (linked to Flaine, Samo\u00ebns, Morillon, Sixt). The Aquac\u00eeme spa complex (1,500m\u00b2) features a large heated outdoor pool at 30\u00b0 in winter. Oasis Cool Zone has boardercross, snowpark, slalom. Corbalanche freeride area accessible from new T\u00eate des Saix chairlift. Rail toboggan \u2014 unique sledging on rails through spruce forest from K\u00e9deuze gondola. Bike Park with 7 downhill runs (14km). Easy access from A40 motorway (Cluses exit).",
+  "sources": [
+    "https://www.grand-massif.com/en/the-5-stations/les-carroz-in-winter/",
+    "https://www.lescarroz.com/activites/"
+  ],
+  "stats": {
+    "altitude_resort": 1140,
+    "altitude_top": 2120,
+    "domain_pistes_km": 265
+  },
+  "non_ski_activities": {
+    "aquacime": "1,500m\u00b2 wellness centre with large heated outdoor pool (30\u00b0 in winter). Mountain views. Relaxation area.",
+    "rail_toboggan": "Unique rail toboggan \u2014 sledging on rails through spruce forest. From K\u00e9deuze gondola. Year-round attraction.",
+    "oasis_cool_zone": "Boardercross, snowpark, slalom. Free for all levels. Video zone to film your exploits.",
+    "corbalanche_freeride": "Freeride area accessible from new T\u00eate des Saix chairlift.",
+    "bike_park": "7 downhill runs, 14km total. Summer mountain biking.",
+    "dog_sledding": "Musher experience \u2014 each person their own sled and dog team.",
+    "ice_activities": "Ice skating, ice climbing (cascades and goulottes).",
+    "night_activities": "Night snowshoeing, ice rink, bowling, cinema, arcade games.",
+    "other": "Paragliding, canyoning, mountain cart, ski touring, cross-country skiing, snowshoeing, mini-golf, golf at 1,900m."
+  },
+  "best_for": {
+    "families": 9,
+    "beginners": 8,
+    "intermediates": 8,
+    "peace": 8
+  },
+  "honest_drawbacks": [
+    "Lower altitude base (1,140m) \u2014 snow variable at village level",
+    "Quiet apres compared to Flaine",
+    "Small village \u2014 limited restaurant choice",
+    "Requires lifts for full Grand Massif access"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "village": "Abondance",
+  "slug": "abondance",
+  "altitude": 930,
+  "resort": "Abondance",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "cheese",
+    "culture"
+  ],
+  "character": "Beautiful valley village with baroque church and rich architectural heritage. Famous for Abondance cheese (AOP). Abbey and cloisters (14th C). Traditional alpine farming village. Linked to Portes du Soleil by ski lifts. Quiet, authentic, cultural.",
+  "dining": "Local ferme-auberge (farm inns). Abondance cheese dishes. Restaurant at abbey.",
+  "shopping": "Abondance cheese shops, small grocery, bakery. Weekly market.",
+  "activities_nearby": "Abondance ski area (linked to Portes du Soleil). Baroque church and cloisters. Abondance cheese caves. Snowshoeing, hiking.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

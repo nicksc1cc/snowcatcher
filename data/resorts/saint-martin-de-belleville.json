@@ -1,0 +1,40 @@
+{
+  "resort": "St-Martin-de-Belleville",
+  "slug": "saint-martin-de-belleville",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "altitude": 1400,
+  "character": "Traditional Savoyard village, authentic charm, La Bouitte \u2605\u2605 Michelin (Ren\u00e9 & Maxime Meilleur), Simple & Meilleur bistro (Bib Gourmand). Heritage trail, Sunday market, 17th-century Baroque sanctuary.",
+  "research_status": "properly_sourced",
+  "description": "Saint-Martin-de-Belleville is the most authentic village in the Belleville valley. Traditional stone architecture, narrow streets, a Sunday market, and a local atmosphere the purpose-built resorts lack. Home to La Bouitte \u2014 \u2605\u2605 Michelin gastronomic restaurant and 5-star Relais & Ch\u00e2teaux hotel run by father-son team Ren\u00e9 & Maxime Meilleur. The Simple & Meilleur bistro (Bib Gourmand) serves family recipes. Notre-Dame-de-la-Vie sanctuary (17th-century Baroque with frescoes by Nicolas Oud\u00e9ard, recently restored). Heritage trail (5km, 12 stops). Village museum in former farmhouse. Quiet, authentic, unspoilt.",
+  "sources": [
+    "https://www.la-bouitte.com/en/tourism-savoie.html",
+    "https://www.la-bouitte.com/en/bistro/in-the-heart-of-the-village.html",
+    "https://st-martin-belleville.com/en/restaurants",
+    "Les Menuires official press kit 2026-2027"
+  ],
+  "stats": {
+    "altitude_resort": 1400,
+    "domain_pistes_km": 600
+  },
+  "non_ski_activities": {
+    "la_bouitte": "La Bouitte \u2605\u2605 Michelin \u2014 Ren\u00e9 & Maxime Meilleur, father-son chef duo. 5-star Relais & Ch\u00e2teaux hotel. Mountain Nature Spa. La Table des Meilleurs gastronomic restaurant. Simple & Meilleur bistro (Bib Gourmand, family recipes, local specialties, wine cellar).",
+    "heritage_trail": "5km, 12 stops through the old village, monuments, and historic community sites. 2-hour walk.",
+    "museum": "Village museum in former farmhouse \u2014 traces over a century of valley history, from farming to international resort.",
+    "sanctuary": "Notre-Dame-de-la-Vie \u2014 magnificent recently restored 17th-century Baroque sanctuary. Frescoes by Nicolas Oud\u00e9ard, altarpiece by Jean-Marie Molino. Major pilgrimage destination. One of finest Baroque buildings in Savoie.",
+    "market": "Sunday market \u2014 local produce, Savoyard cheeses, crafts",
+    "other": "Snowshoeing, ski touring, mountain biking (summer)"
+  },
+  "best_for": {
+    "foodies": 10,
+    "couples": 9,
+    "culture": 10,
+    "peace": 9
+  },
+  "honest_drawbacks": [
+    "Lower altitude (1,400m) \u2014 requires lifts to reach main ski area",
+    "Very quiet \u2014 limited apres",
+    "Shuttle needed to Les Menuires/Val Thorens lifts",
+    "Small village \u2014 fewer restaurants than larger resorts"
+  ]
+}

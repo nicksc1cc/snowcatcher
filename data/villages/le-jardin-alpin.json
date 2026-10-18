@@ -1,0 +1,20 @@
+{
+  "village": "Le Jardin Alpin",
+  "slug": "le-jardin-alpin",
+  "resort": "La Tania",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "dining",
+    "dog_sledding",
+    "snowshoeing",
+    "sledging"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1700,
+  "character": "Higher-altitude neighbourhood above La Tania at 1,700m. Ski-in/ski-out with direct access to La Tania pistes. Small residential cluster of chalets and apartments. Quiet, snow-sure.",
+  "dining": "Mountain restaurants in close reach.",
+  "shopping": "None. Shops and services in La Tania (5 min walk).",
+  "activities_nearby": "Direct piste access. Hiking in summer.",
+  "source_url": "https://www.lesmenuires.com/en/"
+}

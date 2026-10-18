@@ -1,0 +1,16 @@
+{
+  "village": "Engl\u00e8ne",
+  "slug": "englene",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1200,
+  "character": "Highest Sixt hamlet. Remote mountain settlement.",
+  "activities_nearby": "Hiking, Cirque access.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

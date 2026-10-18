@@ -1,0 +1,19 @@
+{
+  "village": "Les G\u00e9rats",
+  "slug": "les-gerats",
+  "resort": "Flaine",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "art",
+    "swimming",
+    "ice_skating",
+    "spa",
+    "cinema"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1500,
+  "character": "Lower residential area of Flaine. Quiet, good value. Free shuttle to Forum.",
+  "activities_nearby": "Grand Massif access via Forum gondola.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

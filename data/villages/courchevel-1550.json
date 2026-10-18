@@ -1,0 +1,31 @@
+{
+  "village": "Courchevel 1550",
+  "slug": "courchevel-1550",
+  "altitude": 1550,
+  "resort": "Courchevel",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas_and_wellness",
+    "shopping",
+    "ice_skating",
+    "sledging",
+    "swimming",
+    "cinema",
+    "bowling",
+    "climbing",
+    "paragliding",
+    "scenic_flights",
+    "horse_drawn",
+    "dog_sledding",
+    "snowshoeing",
+    "fat_biking",
+    "snowmobiling",
+    "via_ferrata",
+    "fitness",
+    "events"
+  ],
+  "character": "Quiet residential village between Le Praz and Moriond. Good value. Shuttle to all Courchevel villages.",
+  "source_url": "https://www.seechamonix.com/"
+}

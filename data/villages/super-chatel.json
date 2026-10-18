@@ -1,0 +1,21 @@
+{
+  "village": "Super-Ch\u00e2tel",
+  "slug": "super-chatel",
+  "resort": "Ch\u00e2tel",
+  "domain": "Portes du Soleil",
+  "region": "Portes du Soleil",
+  "nearby_activities": [
+    "swimming",
+    "spas",
+    "farm_visits",
+    "paragliding",
+    "dog_sledding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1700,
+  "character": "High-altitude satellite of Ch\u00e2tel. Ski-in/ski-out purpose-built neighbourhood. Snow-sure, quiet, excellent access to Swiss side of PDS.",
+  "dining": "Piste-side restaurants, village restaurant.",
+  "shopping": "Ski rental, small grocery.",
+  "activities_nearby": "Access to Portes du Soleil (Swiss side). Snow-sure. Snowpark.",
+  "source_url": "https://www.avoriaz.com/en/"
+}

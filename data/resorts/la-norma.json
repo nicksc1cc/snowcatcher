@@ -1,0 +1,40 @@
+{
+  "resort": "La Norma",
+  "slug": "la-norma",
+  "domain": "La Norma",
+  "region": "Maurienne",
+  "altitude": 1350,
+  "character": "Certified Powderhounds Gem \u2014 hidden freeride paradise in the Haute Maurienne Vanoise. 65km uncrowded pistes, superb off-piste with guaranteed groomed exits. 5 min from Modane TGV station. Excellent value.",
+  "research_status": "properly_sourced",
+  "description": "La Norma is a hidden gem in the Haute Maurienne Vanoise, known by powder seekers for excellent off-piste with easy exits onto groomed trails. 65km of pistes, 1,350m-2,750m (1,400m vertical), 12 lifts. Part of a 5-resort valley (with Valfr\u00e9jus, Aussois, Val Cenis, Bonneval sur Arc) that can be ski-safaried in a week. Just 5 minutes from Modane \u2014 a TGV station on the Paris-Lyon-Turin-Milan high-speed line. Uncrowded, affordable, with a westerly aspect that gets more sun than the shaded village below.",
+  "sources": [
+    "https://www.powderhounds.com/Europe/France/La-Norma.aspx",
+    "https://www.uk.travelski.com/ski-resort/la-norma"
+  ],
+  "stats": {
+    "altitude_resort": 1350,
+    "altitude_top": 2750,
+    "vertical_drop": 1400,
+    "pistes_km": 65,
+    "lifts": 12
+  },
+  "non_ski_activities": {
+    "off_piste": "Certified freeride gem \u2014 long off-piste descents from any point on the mountain with guaranteed groomed trail exit. Norma II chair (2,750m) accesses extensive high-alpine terrain.",
+    "multi_resort": "Part of 5-resort Haute Maurienne Vanoise \u2014 ski safari to Valfr\u00e9jus, Aussois, Val Cenis, Bonneval sur Arc all within easy reach.",
+    "access": "5 min from Modane TGV station (Paris-Lyon-Turin-Milan line). Regular buses to all 5 Haute Maurienne resorts from Modane. 2.25h Geneva, 2.5h Lyon, 1.5h Turin.",
+    "other": "Snowshoeing, tobogganing, mountain restaurants (Plateau de la Repose), village dining"
+  },
+  "best_for": {
+    "freeride": 9,
+    "beginners": 7,
+    "intermediates": 8,
+    "value": 10,
+    "peace": 9
+  },
+  "honest_drawbacks": [
+    "Small ski area (65km local)",
+    "Quiet \u2014 limited apres/nightlife",
+    "Village shaded in winter (ski terrain has better sun)",
+    "Limited non-ski activities"
+  ]
+}

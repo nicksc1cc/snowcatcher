@@ -1,0 +1,52 @@
+{
+  "domain": "La Bresse Hohneck",
+  "region": "Vosges",
+  "character": "Largest Vosges ski area, forest skiing, 58 km",
+  "stats": {
+    "pistes_km": 58,
+    "lifts": 18,
+    "highest_point": 1348
+  },
+  "lift_pass_2025_26": {
+    "adult_6day": 140
+  },
+  "resorts": [
+    {
+      "name": "La Bresse",
+      "altitude": 900,
+      "villages": [
+        {
+          "name": "La Bresse Hohneck",
+          "character": "Forest setting, family-friendly, budget"
+        }
+      ],
+      "non_ski_activities": {
+        "other": "Cross-country skiing, sledging, snowshoeing"
+      }
+    }
+  ],
+  "best_for": {
+    "families": 8,
+    "beginners": 8,
+    "budget": 10
+  },
+  "slug": "la-bresse",
+  "research_status": "properly_sourced",
+  "source_url": "https://vacances-la-bresse.fr/en/",
+  "name": "La Bresse Hohneck",
+  "description": "58km of pistes (21km skiable, 30 runs), 18 lifts, on the Hohneck summit (1,363m). The largest ski resort in the Vosges mountains. Known for: night skiing (Tue/Fri 5-9pm, €15), excellent bike park (summer), the Hohneck summit views (Alps on clear days), blueberry picking in summer, and 70% snowmaking. Family-focused Vosges culture — tartiflette, tofailles, and local beer at La Corne du Diable.",
+  "statistics": {
+    "total_pistes_km": 58,
+    "total_lifts": 18,
+    "highest_point": 1363,
+    "lowest_point": 900
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 220
+  },
+  "suitability": {
+    "families": "Good — night skiing, bike park in summer",
+    "beginners": "Good"
+  }
+}

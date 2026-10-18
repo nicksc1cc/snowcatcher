@@ -1,0 +1,32 @@
+{
+  "domain": "Val Cenis",
+  "slug": "val-cenis",
+  "region": "Maurienne",
+  "character": "125 km, budget-friendly, excellent snow record (north-facing), uncrowded. Best value in the Maurienne valley.",
+  "stats": {
+    "pistes_km": 125,
+    "lifts": 32,
+    "highest_point_m": 2800,
+    "lowest_point_m": 1400,
+    "cross_country_km": 40
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.valcenis.com/en/",
+  "name": "Val Cenis",
+  "description": "125km of pistes, 27 lifts, in the Haute Maurienne valley on the Italian border. 5 villages: Lanslebourg, Lanslevillard, Termignon, Sollières-Sardières, and Bramans. The historic Mont Cenis pass (Hannibal's route). Known for: quiet slopes, excellent value, the Mont Cenis plateau, and being one of the snow-sure lower-altitude domains thanks to its north-easterly exposure. Snowmaking on all major runs.",
+  "statistics": {
+    "total_pistes_km": 125,
+    "total_lifts": 27,
+    "highest_point": 2800,
+    "lowest_point": 1300
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 250
+  },
+  "suitability": {
+    "families": "Good — quiet, uncrowded, value",
+    "intermediates": "Good",
+    "beginners": "Good"
+  }
+}

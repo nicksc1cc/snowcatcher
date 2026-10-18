@@ -1,0 +1,19 @@
+{
+  "village": "Les Aravis",
+  "slug": "les-aravis",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1400,
+  "character": "High Aravis plateau hamlet near La Clusaz. Nordic area.",
+  "activities_nearby": "Cross-country skiing. Snowshoeing. Views of Mont Blanc.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

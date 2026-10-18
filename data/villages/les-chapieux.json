@@ -1,0 +1,21 @@
+{
+  "village": "Les Chapieux",
+  "slug": "les-chapieux",
+  "resort": "Les Arcs",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "nearby_activities": [
+    "ice_skating",
+    "swimming",
+    "wellness",
+    "spas",
+    "toboggan_run"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1450,
+  "character": "Hamlet below Arc 2000. Traditional Savoyard housing. Quiet, serene, good for accessing the Aiguille Rouge area.",
+  "dining": "Very limited.",
+  "shopping": "None. Minimal services.",
+  "activities_nearby": "Access to Les Arcs ski area. Hiking, snowshoeing. Near Aiguille Rouge.",
+  "source_url": "https://cirkelsupply.com/blogs/news/a-village-by-village-guide-to-les-arcs"
+}

@@ -1,0 +1,19 @@
+{
+  "village": "Les Vallons",
+  "slug": "les-vallons",
+  "resort": "Samo\u00ebns",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "market",
+    "culture",
+    "spas",
+    "swimming",
+    "river"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 850,
+  "character": "Small hamlet near Samoens in the Giffre valley. Peaceful.",
+  "activities_nearby": "Local hiking.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

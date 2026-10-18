@@ -1,0 +1,15 @@
+{
+  "village": "Le Tourmalet",
+  "slug": "le-tourmalet",
+  "resort": "Bar\u00e8ges",
+  "domain": "Grand Tourmalet",
+  "region": "Pyr\u00e9n\u00e9es",
+  "nearby_activities": [
+    "thermal_baths",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 2115,
+  "character": "The Col du Tourmalet pass (2,115m). Iconic Tour de France climb. Restaurant and souvenir place at the summit between Bareges and La Mongie.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

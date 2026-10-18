@@ -1,0 +1,171 @@
+{
+  "country": {
+    "name": "France",
+    "slug": "france",
+    "description": "France is the world's second-largest ski market, recording 54.8 million skier visits in 2024/25 (up 5.5% from the previous year). The country has approximately 282-350 ski resorts across seven mountain ranges, with 2,956 lift installations (15% of the world total). France ranks behind the United States (61.5 million) and ahead of Austria (51.8 million) in annual skier visits.",
+    "industry_overview": {
+      "world_rank_by_skier_days": "2nd (behind USA, ahead of Austria)",
+      "annual_skier_visits": "54.8 million (2024/25 season, +5.5% YoY)",
+      "total_ski_resorts": "282–350 (depending on definition; ~250 commercially significant)",
+      "total_lift_installations": 2956,
+      "world_share_of_lift_park": "15%",
+      "total_pistes_km_estimated": "~7,600 km (across 140+ mapped areas in SkiAllDay)",
+      "pistes_km_per_domain_avg": "~2.5 km per lift (range: 1.3–1.73 km per lift km)",
+      "average_lift_age": "~30 years",
+      "lifts_in_2025": "2,956 (down from 3,700 in 2010 — a 25% drop as drag lifts replaced by carpets and high-speed chairs)",
+      "drag_lifts_remaining": 1837,
+      "lifts_awaiting_dismantling": "54 (51 drag lifts + 3 chairlifts across 38 sites, October 2025)",
+      "lift_network_capacity": "Holding steady despite count reduction — fewer but larger machines",
+      "regional_breakdown": {
+        "alps": "61% of resorts, 84% of lift capacity, 87% of attendance",
+        "pyrenees": "12% of resorts",
+        "jura": "11% of resorts",
+        "vosges": "10% of resorts",
+        "massif_central": "remaining"
+      },
+      "resort_size_split": {
+        "big_resorts_share": "81% of skier visits",
+        "top_15_resorts_share": "41% of skier visits",
+        "medium_resorts_share": "12% of skier visits",
+        "small_resorts_share": "7% of skier visits"
+      },
+      "top_resorts_by_attendance": [
+        "Val Thorens",
+        "Courchevel-Méribel",
+        "Les Arcs",
+        "La Plagne",
+        "Avoriaz",
+        "Chamonix",
+        "Le Grand Massif",
+        "Alpe d'Huez",
+        "Les Deux Alpes",
+        "Serre Chevalier",
+        "Tignes-Val d'Isère"
+      ],
+      "international_visitors_share": "35% of skier days",
+      "british_visitors_share": "~12% of skier days (largest international market for French resorts)",
+      "source_figures": "Domaines Skiables de France (DSF) industry report 2024/25; SkiAllDay app dataset"
+    },
+    "practical_info_for_skiers": {
+      "currency": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "notes": "Cash still widely used in mountain villages and for small transactions. Card (CB/Visa/MC) accepted at most ticket offices, ski rentals, and large restaurants. Some mountain restaurants are cash-only. ATMs available in most resort centres but can run out of cash on weekends. Carry at least €50-100 in cash."
+      },
+      "language": {
+        "official": "French",
+        "english_in_resorts": "Common in major resorts — most tourist offices, ski schools, and rental shops have English-speaking staff. Less common in small Pyrenean/Jura villages. Learning 'bonjour', 'merci', 'l'addition s'il vous plaît' goes a long way."
+      },
+      "power_plugs": {
+        "type": "Type E (2-pin round, 230V, 50Hz)",
+        "adapter_needed": "Yes for UK visitors (UK plug is Type G). UK-to-Europe travel adapter required.",
+        "compatibility": "Same as mainland Europe. 230V — compatible with UK voltage. USB charging standard in modern resorts."
+      },
+      "time_zone": "CET (UTC+1) winter; CEST (UTC+2) summer. Same as most of continental Europe. 1 hour ahead of UK."
+    },
+    "getting_there_and_driving": {
+      "driving_from_uk": {
+        "calais_to_alps": "~8–10 hours to northern Alps (Valmorel, La Plagne), ~9–11 hours to Tarentaise (Les 3 Vallées, Val d'Isère). Overnight stop recommended (Reims or Troyes).",
+        "calais_to_pyrenees": "~10–12 hours",
+        "tolls": "Most major routes from Calais to the Alps are tolled (A26, A5, A40, A43). Typical one-way toll Calais to Albertville: ~€55–70. Autoroute péage tickets at entry; pay by card/cash at exit. Sanef/APRR ticketing.",
+        "fuel_stops": "Autoroute service stations every 30-40km. Fuel ~15–25% more expensive on autoroutes than supermarkets."
+      },
+      "winter_driving_law": {
+        "period": "1 November to 31 March (mandatory in 34 mountain departments)",
+        "requirements": "Either (a) 4 winter tyres (3PMSF marked) OR (b) standard tyres + carrying snow chains/socks for at least 2 drive wheels",
+        "enforcement": "Signs (B58) mark the zones at entry/exit. Penalty: €135 fine. Chains must be fitted before entering signed zone when conditions require.",
+        "tips": "Rental cars from French agencies usually come with winter tyres and chains. UK rental cars crossing into France may not. Request winter equipment when booking. Practice fitting chains before you leave — not on a snowy pass at midnight.",
+        "speed_limits": {
+          "autoroute_toll": "130 km/h (110 km/h in rain/snow)",
+          "autoroute_free": "110 km/h",
+          "national_roads": "80 km/h (since July 2018, reduced from 90)",
+          "mountain_roads": "Often reduced to 50–70 km/h in snow/ice — follow variable signs",
+          "fines": "Speeding fines start at €68. Radar cameras common on all routes. UK speeders can be traced via EU cross-border enforcement."
+        }
+      },
+      "ev_charging": {
+        "availability": "Increasing rapidly. Major routes have fast chargers every 50km. Most resort villages now have at least one public charger (often in the main car park).",
+        "network": "Ionity, TotalEV, Fastned on autoroutes. Local networks in resorts vary (Freshmile, eborn, etc).",
+        "tips": "Download Chargemap or PlugShare for live availability. Chargers in resort car parks can be busy on Saturday changeover days. Reserve parking with charging at your accommodation in advance."
+      }
+    },
+    "ski_insurance": {
+      "carre_neige": {
+        "what_it_is": "Local ski insurance created by skiers for skiers, distributed across Savoie and French ski resorts. Covers rescue costs, medical expenses, lift pass refund, and ski lesson reimbursement.",
+        "coverage": {
+          "rescue_costs": "Covers ski patrol rescue (average rescue cost: €620+). No upfront payment if Carré Neige ticket presented at rescue.",
+          "medical": "Medical, pharmaceutical and hospitalisation costs beyond French social security reimbursement",
+          "lift_pass_refund": "Refunds unused lift pass if accident/illness cuts trip short (3+ days)",
+          "lesson_refund": "Refunds unused ski lessons",
+          "limit": "€50,000 global cover limit. €50 excess per claim.",
+          "repatriation": "Covers repatriation if immobilised by accident"
+        },
+        "2025_26_pricing": {
+          "1_day": "€3.50",
+          "6_days": "€21.00",
+          "8_to_21_days": "€28.00",
+          "season_savoie": "€49.00"
+        },
+        "how_to_buy": "Added to lift pass at the time of purchase (online or at ticket office). Same duration as lift pass. Daily rate for any stay from 1–21 days.",
+        "limitations": "Covers on-piste and off-piste accessible via lifts. Does NOT cover helicopter rescue for extreme off-piste/backcountry beyond the domaine skiable. Check your travel insurance — many UK policies include winter sports cover."
+      },
+      "travel_insurance_notes": "Many UK travel insurance policies offer winter sports add-ons. Check they cover (1) piste rescue, (2) helicopter evacuation, (3) off-piste/backcountry if that's your plan, (4) repatriation. Carré Neige can supplement but not replace comprehensive travel insurance."
+    },
+    "emergency_services": {
+      "european_emergency": {
+        "number": "112",
+        "description": "Free from any phone (including locked/SIM-free). English-speaking operator. Works in all EU countries. Best number to call.",
+        "when_calling": "Provide: (1) your name and phone, (2) exact location (mountain range, piste name/colour, nearest lift), (3) GPS coordinates if available, (4) what happened, how many injured, their condition, (5) your actions so far. Stay contactable on the same line."
+      },
+      "french_services": {
+        "samu_medical": "15",
+        "police": "17",
+        "fire": "18",
+        "hearing_impaired_sms": "114",
+        "poison_control_alps": "04 72 11 69 11 (Lyon centre)"
+      },
+      "mountain_rescue": {
+        "pghm": "Peloton de Gendarmerie de Haute Montagne — national police mountain rescue unit. Covers off-piste and high mountain.",
+        "crs_montagne": "Compagnies Républicaines de Sécurité (CRS Alpes) — civil police ski patrol. Covers on-piste.",
+        "piste_securite": "Resort-specific ski patrol (piste sécurité). First responders for on-piste incidents. Contactable via local resort number.",
+        "regional_pghm_contacts": {
+          "tarentaise_pghm": "+33 (0)4 79 08 29 30",
+          "maurienne_pghm": "+33 (0)4 79 05 11 88",
+          "chamonix_pghm": "+33 (0)4 50 53 16 89",
+          "grenoble_pghm": "+33 (0)4 76 77 57 70",
+          "briancon_pghm": "+33 (0)4 92 21 58 58"
+        }
+      },
+      "piste_incident_procedure": {
+        "if_witness": "1. Call 112 or resort piste patrol. 2. Mark the spot with crossed skis/snowboard above the casualty. 3. Don't move the casualty unless in immediate danger (avalanche path, crevasse edge). 4. Keep them warm — coats, survival blanket. 5. Stay with them until help arrives. 6. Note the nearest piste name/lift for the patrollers.",
+        "cost": "Rescue and medical treatment incurs a charge. Claimable from insurance (Carré Neige or travel policy).",
+        "if_your_skis_are_taken": "Ski patrol may take your equipment for evidence/safety. Collected from the piste sécurité office at the base of the relevant lift sector — show ID, describe the skis."
+      }
+    },
+    "ski_customs_and_regulations": {
+      "carrying_own_gear_on_planes": {
+        "skis": "Counted as special baggage on most airlines. Usually included or low-cost on ski routes (EasyJet, BA, Ryanair). Pre-book ski carriage. Max 1 pair of skis + 1 set of poles per passenger on most carriers.",
+        "boots": "Often can go in hand luggage or included in ski carriage allowance.",
+        "airlines_with_free_ski_carriage": "Jet2 includes in hold luggage — check allowance. BA charges £45-60 each way. EasyJet from £25 each way. Ryanair from £30 each way."
+      },
+      "ski_helmets": "Not legally required in France for adults. Strongly recommended. Some resorts require them for children in ski school (check with ESF/ESI). Goggles recommended — not just sunglasses."
+    },
+    "price_positioning_vs_peers": "France is generally mid-range compared to European peers. The cheapest European ski resorts are in the French Pyrenees (Artouste–Laruns at €43.50/person/day). Six-day lift passes in major French domains average €59/day (2025/26), cheaper than Austria (€67/day) but more expensive than Italy (€51/day). France offers the best value for piste-km per euro among major Alpine countries (4.6 km/€ vs Austria's 3.9). But high-end resorts (Courchevel 1850, Val d'Isère, Méribel) sit in the premium tier comparable to Swiss/Austrian luxury resorts. Accommodation costs vary wildly — the same resort can be €800 or €2,500 per person per week depending on village, hotel, and board basis.",
+    "season_general": "Mid-December to late April for most Alpine resorts (1,500m+ base). Early December to early May for high-altitude resorts (Val Thorens at 2,300m opens late November). November to May for glaciers (Tignes Grande Motte, Les Deux Alpes, Val Thorens). Lower-altitude resorts (Jura, Vosges, Massif Central) December to mid-March depending on snowfall. December opening depends on early snow — November snowmaking helps but natural base needed for most runs. February half-term is peak (French holidays weeks 7-9).",
+    "regions": [
+      "tarentaise",
+      "maurienne",
+      "mont-blanc",
+      "aravis",
+      "oisans",
+      "grand-massif",
+      "portes-du-soleil",
+      "alpes-du-sud",
+      "pyrenees",
+      "jura",
+      "vosges",
+      "massif-central"
+    ]
+  }
+}

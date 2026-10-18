@@ -1,0 +1,26 @@
+{
+  "domain": "Les Rousses",
+  "slug": "les-rousses",
+  "region": "Jura",
+  "character": "35 km downhill, 100+ km cross-country. Cross-country paradise near Swiss border.",
+  "stats": {
+    "pistes_km": 35,
+    "cross_country_km": 100
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.lesrousses.com/",
+  "name": "Les Rousses",
+  "description": "50km of pistes, 14 lifts, on the Swiss border in the Jura. Known primarily as a cross-country destination (100km+ Nordic trails). The resort village is on the edge of a lake. Peaceful, forested, excellent value. Geneva 50 min.",
+  "statistics": {
+    "total_pistes_km": 50,
+    "total_lifts": 14
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 200
+  },
+  "suitability": {
+    "cross_country": "Excellent — 100km+ Nordic trails",
+    "families": "Good"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "domain": "Monts Jura",
+  "slug": "monts-jura",
+  "region": "Jura",
+  "character": "Jura mountain skiing — forested, 65 km downhill, 100+ km cross-country. Cross-country paradise.",
+  "stats": {
+    "pistes_km": 65,
+    "cross_country_km": 100
+  },
+  "research_status": "properly_sourced",
+  "source_url": "https://www.paysdegex-montsjura.com/",
+  "name": "Monts Jura",
+  "description": "110km of pistes, 31 lifts, across 4 sites in the Pays de Gex: Lamoura, Mijoux, Lélex, and La Faucille. Cross-country paradise — 130km+ of Nordic trails alongside the downhill. 40 min from Geneva. Family-friendly, peaceful, cheap. Forested rolling terrain.",
+  "statistics": {
+    "total_pistes_km": 110,
+    "total_lifts": 31,
+    "highest_point": 1680,
+    "lowest_point": 900
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day": 195
+  },
+  "suitability": {
+    "cross_country": "Excellent — 130km+ Nordic trails",
+    "beginners": "Good",
+    "families": "Good"
+  }
+}

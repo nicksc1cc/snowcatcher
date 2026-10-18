@@ -1,0 +1,234 @@
+{
+  "domain": "Les Trois Vallées",
+  "slug": "les-trois-vallees",
+  "region": "Tarentaise",
+  "character": "The world's largest connected ski area — 600 km marketed, ~508 km independently measured. 8 resorts, 3 valleys, 2,823 snow cannons, 284,500 skiers per hour.",
+  "research_status": "properly_sourced",
+  "description": "The world's largest linked ski area — 600km of pistes, 183 lifts, 8 resorts across the Belleville, Courchevel, and Méribel valleys. Stretches from 1,300m (Brides) to 3,230m (Pointe du Bouchetin at Val Thorens). Includes Val Thorens (Europe's highest resort at 2,300m), Courchevel (glamour and Michelin dining), Méribel (family-friendly mid-valley), Les Menuires (value), Saint-Martin (authentic), Brides (thermal spa), La Tania (convenient), and Orelle (linked by gondola). Known for: scale, snow guarantee (high altitude), luxury options, and variety for all levels. The 6th day of skiing is free — all 6-day passes priced as 5.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Les_Trois_Vall%C3%A9es",
+    "https://skiallday.app/resorts/les-trois-vallees",
+    "https://inthesnow.com/resort/meribel",
+    "https://www.les3vallees.com/en/",
+    "https://www.j2ski.com/ski_resorts/France/Courchevel.html",
+    "https://francetravel.wiki/guides/three-valleys-or-paradiski"
+  ],
+  "stats": {
+    "pistes_km_marketed": 600,
+    "pistes_km_independent": 508,
+    "pistes_km_schrahe_2013": 493,
+    "lifts_total": 167,
+    "lift_capacity_per_hour": 284500,
+    "highest_point_m": 3230,
+    "lowest_point_m": 1100,
+    "vertical_drop_m": 2130,
+    "snow_cannons": 2823,
+    "snow_groomers": 73,
+    "grooming_crew_shift": 160,
+    "skiable_hectares": 1500,
+    "cross_country_km": 130,
+    "north_facing_pct": 61,
+    "median_piste_altitude_m": 2172,
+    "operators": "S3V, Méribel Alpina (Compagnie des Alpes), SEVABEL, SETAM/STOR",
+    "linked_since": 1971
+  },
+  "weather_snow": {
+    "season_opens_val_thorens_orelle": "21 November 2026",
+    "season_opens_full_domain": "5 December 2026",
+    "snow_cannons_2026": 2823,
+    "upgrade_1990s_to_2026": "~600 to 2,823 units",
+    "lift_capacity_1990s_vs_2026": "180k/h to 284.5k/h",
+    "snowmaking_meribel_coverage_pct": 50,
+    "key_note": "Val Thorens at 2,300 m is the snow-surest. Méribel mid-altitude (1,450 m) relies 50% on snowmaking. Courchevel and La Tania lower still. Orelle access from Maurienne side holds snow well at altitude."
+  },
+  "resorts": [
+    {
+      "name": "Courchevel",
+      "altitude": 1850,
+      "own_pistes_km": 150,
+      "own_lifts": 67,
+      "own_lift_capacity_h": 68350,
+      "own_snow_cannons": 617,
+      "pistes": "27 green, 40 blue, 42 red, 10 black",
+      "character": "Prestige, luxury, 4 altitude villages (1850/1650/1550/Le Praz), Michelin dining, designer shopping, Altiport",
+      "best_for": "Luxury, foodies, shoppers, intermediates"
+    },
+    {
+      "name": "Méribel",
+      "altitude": 1450,
+      "own_pistes_km": 150,
+      "own_lifts": 61,
+      "pistes": "34 blue, 24 red, 9 black, 10 green",
+      "character": "Heart of 3V, chalet architecture, British favourite, Olympic Park sports complex, 4 villages (Centre/Mottaret/Village/Les Allues)",
+      "best_for": "Families, intermediates, groups, apres"
+    },
+    {
+      "name": "Val Thorens",
+      "altitude": 2300,
+      "own_pistes_km": 150,
+      "own_lifts": 29,
+      "snow_cannons": 395,
+      "note": "Europe's highest resort at 2,300 m. 99% terrain above 2,000 m. 6 glaciers. Lively apres with La Folie Douce. Ski-in/ski-out throughout.",
+      "best_for": "Snow reliability, apres, intermediates"
+    },
+    {
+      "name": "Les Menuires",
+      "altitude": 1850,
+      "character": "Budget-friendly, functional architecture, good snow at 1,850 m",
+      "best_for": "Budget, families"
+    },
+    {
+      "name": "St-Martin-de-Belleville",
+      "altitude": 1400,
+      "character": "Traditional Savoyard village, La Bouitte ★★ Michelin, Sunday market",
+      "best_for": "Foodies, traditionalists, couples"
+    },
+    {
+      "name": "Brides-les-Bains",
+      "altitude": 600,
+      "character": "Thermal spa town, 30-50% cheaper than altitude, Olympe gondola to Méribel in 20 min",
+      "best_for": "Budget, spa seekers, wellness"
+    },
+    {
+      "name": "La Tania",
+      "altitude": 1400,
+      "character": "Compact family resort, built for 1992 Albertville Olympics, wooded setting",
+      "best_for": "Families, foodies (Le Farçon ★)"
+    },
+    {
+      "name": "Orelle",
+      "altitude": 1800,
+      "character": "Quiet Maurienne valley gateway, cheapest 3V access, Orelle gondola to Val Thorens sector at 3,200 m",
+      "best_for": "Budget, peace, advanced"
+    }
+  ],
+  "season_passes_2026_2027": {
+    "unlimited": {
+      "price_euro": 1329
+    },
+    "skiflex": {
+      "price_euro": 398
+    },
+    "two_of_seven": {
+      "price_euro": 795
+    },
+    "liberte_subscription": {
+      "price_euro": 30
+    },
+    "pedestrian": {
+      "price_euro": 284.3
+    }
+  },
+  "dining_highlights_3v": "11 Michelin-starred restaurants across the domain. Baumanière 1850 ★★, Le Sarkara ★★, La Bouitte ★★, Le Farçon ★, L'Ekrin ★.",
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Chambéry (CMF)",
+        "transfer_min_courchevel": "60-90",
+        "transfer_min_valthorens": "90-120"
+      },
+      {
+        "airport": "Geneva (GVA)",
+        "transfer_min_courchevel": "120-150",
+        "transfer_min_valthorens": "150-180"
+      },
+      {
+        "airport": "Lyon (LYS)",
+        "transfer_min": "150-210"
+      }
+    ],
+    "by_train": {
+      "stations": [
+        "Moûtiers (Méribel/Courchevel/Brides/Val Thorens)",
+        "Aime (La Plagne/Paradiski)",
+        "Bourg-St-Maurice (Les Arcs/Tignes/Val d'Isère)"
+      ],
+      "tgv_from_paris_hours": "4-4.5"
+    }
+  },
+  "best_for_audience": {
+    "families": 9,
+    "beginners": 8,
+    "intermediates": 10,
+    "advanced": 7,
+    "expert": 6,
+    "freeride": 7,
+    "apres": 8,
+    "foodies": 9,
+    "luxury": 9,
+    "budget": 5
+  },
+  "honest_drawbacks": [
+    "Marketed at 600 km but independently measured at ~508 km — ~18% gap",
+    "Highest prices in the Alps — Courchevel 1850 among world's most expensive",
+    "Crowded during school holidays — February peak, significant lift queues",
+    "3 valleys require lift transfers, not always direct between sectors",
+    "Limited expert/off-piste vs Chamonix or Espace Killy",
+    "Brides-les-Bains at 600 m valley floor requires gondola to skiing"
+  ],
+  "source_url": "https://press.les3vallees.com/en/guide/the-place-to-ski",
+  "name": "Les 3 Vallées",
+  "statistics": {
+    "total_pistes_km": 600,
+    "total_lifts": 183,
+    "total_pistes": 339,
+    "highest_point": 3230,
+    "lowest_point": 1300,
+    "vertical_drop": 1930,
+    "snow_reliable_above": 1800,
+    "glaciers": []
+  },
+  "difficulty_split": {
+    "green_pct": 12,
+    "blue_pct": 40,
+    "red_pct": 32,
+    "black_pct": 16,
+    "green_count": 41,
+    "blue_count": 135,
+    "red_count": 108,
+    "black_count": 55
+  },
+  "season_dates": {
+    "general": "6 December 2025 to 17 April 2026",
+    "val_thorens_orelle": "22 November 2025 to 3 May 2026",
+    "courchevel": "5 December 2025 to 19 April 2026",
+    "meribel_menuires_stmartin": "6 December 2025 to 17 April 2026",
+    "brides": "13 December 2025 to 10 April 2026"
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_1day_high": 81.8,
+    "adult_6day_high": 409,
+    "child_6day_high": 335,
+    "senior_6day_high": 102,
+    "child_age_range": "5–17 (under 5 free)",
+    "senior_age_range": "75+ (free in Courchevel/Méribel valleys)",
+    "family_discount": "Family Flex: all ski at child rate. Min 3 people (max 2 adults + 1 child aged 5-17). 6-day Family Flex: €301.50 early/late, €335 high season.",
+    "discount_info": "Early season (6-19 Dec) adult 6-day €368. Late season (11-17 Apr) adult 6-day €368. Main season 20 Dec-10 Apr €409. 6th day free.",
+    "insurance": "Carré Neige available at €3.50/day or €21/6 days.",
+    "source_url": "https://courchevel.com/en/a/les-3-vallees-551168"
+  },
+  "suitability": {
+    "beginners": "Excellent — dedicated nursery slopes in every resort. Green runs at each village base. Val Thorens has extensive gentle blues. Courchevel 1850 has nursery slopes at 1,850m. Family Flex pass saves money.",
+    "intermediates": "The world's best intermediate terrain — 40% blue, 32% red. The Cîmes gondola (Courchevel-Méribel link) opens up endless blue/red combinations. The 600km are largely blue/red cruising.",
+    "advanced": "Excellent — black runs from each summit. Les Menuires rock face area, Courchevel Grand Couloir, Val Thorens Fontaine Froide. Steep off-piste in the Combe de la Saulire. The Sarenne (Alpe d'Huez extension) is Europe's longest black at 16km.",
+    "families": "World-class for families. Dedicated kids' areas (Village des Enfants in Val Thorens, Méribel Olympic Park), ski schools with English instructors, Family Flex pass pricing. Toboggan runs, bowling, ice skating, and cinemas in every village."
+  },
+  "signature_runs": [
+    {
+      "name": "Grand Couloir",
+      "difficulty": "black",
+      "vertical_m": 600,
+      "description": "Iconic Courchevel black from Saulire summit — steep, narrow, often mogulled"
+    },
+    {
+      "name": "Cîmes du Vallon",
+      "difficulty": "blue",
+      "length_km": 6,
+      "vertical_m": 500,
+      "description": "Sublime Courchevel-Méribel link — long cruiser through larch forest"
+    }
+  ],
+  "piste_map_url": "https://www.les3vallees.com/en/ski-map",
+  "new_2025_26_age_categories": "Adult 18-74, Child 5-17, Veteran 75+. Free for under 5s."
+}

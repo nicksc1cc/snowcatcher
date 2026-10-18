@@ -1,0 +1,16 @@
+{
+  "village": "Salvagny",
+  "slug": "salvagny",
+  "resort": "Sixt-Fer-\u00e0-Cheval",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "nearby_activities": [
+    "nature",
+    "culture"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1100,
+  "character": "Sixt hamlet in the upper valley. Small settlement, traditional.",
+  "activities_nearby": "Hiking in Cirque du Fer-a-Cheval.",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

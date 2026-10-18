@@ -1,0 +1,30 @@
+{
+  "resort": "La Tania",
+  "slug": "la-tania",
+  "domain": "Les Trois Vall\u00e9es",
+  "region": "Tarentaise",
+  "altitude": 1400,
+  "character": "Compact family resort built for the 1992 Albertville Olympics. Wooded setting between Courchevel and M\u00e9ribel. Le Far\u00e7on \u2605 Michelin. Quiet, family-friendly.",
+  "research_status": "properly_sourced",
+  "description": "La Tania was built as the athletes' village for the 1992 Albertville Winter Olympics. Compact and car-free, set in a forest clearing at 1,400m. Direct access to both Courchevel and M\u00e9ribel sectors of the 600km 3V domain. Home to Le Far\u00e7on (\u2605 Michelin since 2006, Chef Julien Machet, 9-course tasting menu \u20ac180pp, seasonal Savoyard produce) and Bistrot Machet. Free shuttle to Aquamotion (Courchevel \u2014 indoor/outdoor pools, slides, spa, climbing wall, indoor surfing, gym). Quiet evening atmosphere \u2014 apres limited to a few bars.",
+  "sources": [
+    "https://skimagic.co.uk/5-unmissable-things-to-do-in-la-tania",
+    "https://thealpinegeneration.com/2024/02/04/courchevel-in-a-whiteout",
+    "https://worldtravelguide.net/guides/europe/france/la-tania/apres-ski"
+  ],
+  "non_ski_activities": {
+    "le_farcon": "\u2605 Michelin since 2006. Chef Julien Machet. Seasonal Savoyard produce, 3 tasting menus, 9-course 'surprise' menu \u20ac180pp. Bistrot Machet (brasserie, French classics).",
+    "aquamotion": "Free resort bus to Aquamotion, Courchevel (between 1550 and 1650). Indoor/outdoor pools, 2 large slides, kids area, diving pool, lazy river, power jets. Adults-only spa: 3 saunas, 2 steam rooms, plunge pool, saltwater pool, massages (hot stones, deep tissue, exfoliating). Climbing wall, indoor surfing, gym.",
+    "ice_skating": "Olympic-sized rink at Courchevel 1850 Forum. Disco night Wednesdays 8-10pm.",
+    "luge_runs": "Two dedicated runs: Courchevel Moriond (1650) and 1850 down to 1550 (lit at night).",
+    "bars_apres": "Le Chrome Bar (live music), Pub Le Ski Lodge (big screens, live music), La Ta\u00efga (cocktail lounge, food).",
+    "restaurants": "La Ferme de la Tania (slopeside, crepes, fondue, raclette). Telemark (Savoyard). Les Chanterelles (buckwheat crepes). Les Marmottons (pizza, takeaway).",
+    "other": "Cinema, swimming pool at Hotel Le Montana, gym, Chez Nounours kindergarten (from 4 months)"
+  },
+  "best_for": {
+    "families": 9,
+    "foodies": 8,
+    "peace": 9,
+    "intermediates": 8
+  }
+}

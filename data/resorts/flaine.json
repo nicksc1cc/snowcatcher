@@ -1,0 +1,77 @@
+{
+  "resort": "Flaine",
+  "altitude": 1600,
+  "domain": "Grand Massif",
+  "region": "Haute-Savoie",
+  "character": "Controversial brutalist architecture by Marcel Breuer (Bauhaus). Open-air museum with Dubuffet, Picasso, Vasarely. 2,000 m\u00b2 aquatic centre. Best snow record in the Grand Massif.",
+  "description": "Flaine is the most controversial-looking resort in the Alps \u2014 designed by Marcel Breuer in the brutalist style, all concrete. Love it or hate it, it works brilliantly as a ski resort: car-free, ski-in/ski-out, excellent snow at 1,600-2,500m. Best value in the Grand Massif (265km). The pedestrian square features a massive sculpture by Jean Dubuffet (Le Boiscour). Good for families, budget skiers, and intermediates.",
+  "stats": {
+    "altitude_resort": 1600,
+    "altitude_top": 2500,
+    "vertical_drop": 900,
+    "own_pistes_km": 140,
+    "domain_pistes_km": 265,
+    "lifts": 30,
+    "green": 10,
+    "blue": 27,
+    "red": 24,
+    "black": 7,
+    "beginner_pct": 40,
+    "intermediate_pct": 35,
+    "advanced_pct": 25
+  },
+  "weather_snow": {
+    "season_typical": "Mid-Dec to mid-Apr",
+    "snow_reliability_rating": "8/10"
+  },
+  "non_ski_activities": {
+    "aquatic_centre": "2,000 m\u00b2 \u2014 25 m pool, children's pool, 2 hot tubs, 2 saunas, 2 steam baths, fitness centre, massage. Open 10am-8pm. Located in Le Centaure residence, Flaine Forum.",
+    "spas": [
+      "RockyPop Flaine \u2014 Spa Nuxe, 400 sqm, pool, Kneipp path, sauna, hammam",
+      "Totem Spa (Totem Hotel) \u2014 3 cabins, Pure Altitude treatments, 2 saunas, relaxation area, jacuzzi terrace, fitness, yoga",
+      "Deep Nature Spa (Les Terrasses d'H\u00e9lios) \u2014 sauna, hammam, Norwegian shower",
+      "Spa Montagnes du Monde (Alh\u00e9na Hotel) \u2014 heated indoor pool, sauna, hammam, whirlpool, Nordic bath",
+      "Spa Nuxe (RockyPop Flaine)"
+    ],
+    "art": "Open-air museum: Jean Dubuffet 'Le Boqueteau', Pablo Picasso 'T\u00eate de Femme', Victor Vasarely 'Les Trois Hexagones', Pol Bury fountain in Auditorium. Ecumenical Chapel listed as Historic Monument since 2014. Guided art tours available.",
+    "architecture": "Designed by Marcel Breuer (Bauhaus). Brutalist concrete with diamond-point facades. Listed in French Historical Monuments Survey (1991). 'Architectural Heritage of the 20th Century' label (2008). First 8-seater high-speed chairlift in Europe. First snow cannons in Europe.",
+    "other": "Ice driving circuit, big air bag, snow kite, snowmobiling, natural ice rink, bowling, cinema, classical music concerts"
+  },
+  "best_for": {
+    "families": 9,
+    "budget": 10,
+    "intermediates": 8
+  },
+  "honest_drawbacks": [
+    "Brutalist architecture \u2014 strongly disliked by many",
+    "Quiet apres",
+    "Limited luxury/upmarket options"
+  ],
+  "access": {
+    "nearest_airports": [
+      {
+        "airport": "Geneva",
+        "min": 60
+      }
+    ]
+  },
+  "slug": "flaine",
+  "research_status": "properly_sourced",
+  "sources": [
+    "https://www.flaine.com/en/fiche/aquatic-centre",
+    "https://www.flaine.com/en/heritage",
+    "https://en.wikipedia.org/wiki/Flaine"
+  ],
+  "dining_guide": {
+    "restaurants": [
+      "La Pente \u00e0 Jules (piste-side, relaxed, local flavours, sunny terrace)",
+      "Sabaudia (Flaine For\u00eat, foodie surprise)",
+      "RockyPop Flaine \u2014 Buffet, Frometon (Savoyard), Sushi House, Brasserie Les Cimes",
+      "Chez Daniel (Savoyard specialities, local produce)",
+      "Le Bissac (bar, self-service, restaurant, non-stop snacking)",
+      "Les Chalets du Michet (refined inventive cuisine in 100-year-old sheepfold)",
+      "Le Bauhaus (bar & restaurant, Savoyard inspiration, seafood, grilled meats)",
+      "Le D\u00e9sert Blanc (2,500 m panoramic terrace, Mont Blanc views)"
+    ]
+  }
+}

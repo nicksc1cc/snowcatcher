@@ -1,0 +1,18 @@
+{
+  "village": "Huez Village",
+  "slug": "huez-village",
+  "resort": "Alpe d'Huez",
+  "domain": "Grand Domaine",
+  "region": "Oisans",
+  "nearby_activities": [
+    "spas",
+    "ice_skating",
+    "swimming",
+    "cinema",
+    "bowling"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1400,
+  "character": "Original mountain village below Alpe d'Huez at 1,400m. Traditional architecture. Oisans farming history. Quiet, sunny. Gondola up to Alpe d'Huez.",
+  "source_url": "https://www.serre-chevalier.com/en/"
+}

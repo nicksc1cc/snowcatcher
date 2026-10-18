@@ -1,0 +1,71 @@
+{
+  "domain": "Portes du Soleil",
+  "slug": "portes-du-soleil",
+  "region": "Portes du Soleil",
+  "character": "World's largest cross-border ski area — 600km marketed, 12 French and Swiss villages, 2 countries, 1 pass. Home of the Swiss Wall.",
+  "research_status": "properly_sourced",
+  "description": "One of the largest international ski areas in the world — 650km of pistes, 196 lifts, linking 12 resorts across France and Switzerland (Avoriaz, Morzine, Les Gets, Châtel, Abondance, La Chapelle, Montriond, St-Jean-d'Aulps, Morgins, Champéry, Champoussin, Les Crosets). 150km of Swiss runs. Known for: cross-border skiing (passport not needed within domain), Avoriaz (car-free, futuristic, horse-drawn transport), Morzine (traditional market town, valley base), Les Gets (family-friendly), Châtel (lively farming village), and Morgins/Champéry (Swiss side charm). The domain stretches from the Dranse valley to the Swiss Valais. Snow-sure above 1,600m.",
+  "sources": [
+    "https://skiallday.app/resorts/portes-du-soleil",
+    "https://snowstash.com/europe/switzerland/les-portes-du-soleil",
+    "https://snowsportsnews.com/newsrepository/2026/september/portes-du-soleil-sets-out-expanded-offer-for-winter-2026-27",
+    "https://en.portesdusoleil.com/"
+  ],
+  "stats": {
+    "pistes_km_marketed": 600,
+    "pistes_km_independent_skiresort": 580,
+    "pistes_km_independent_skiallday": 396,
+    "pistes_count": 307,
+    "pistes_green": 39,
+    "blue": 130,
+    "red": 105,
+    "black": 33,
+    "lifts_marketed": 208,
+    "lifts_independent": 163,
+    "highest_point_m": 2466,
+    "lowest_point_m": 985,
+    "vertical_drop_m": 1481,
+    "villages": 12,
+    "season_opens": "28 Nov 2026",
+    "season_closes": "18 Apr 2027",
+    "nearest_airport": "Geneva (80 km / ~1 hour)"
+  },
+  "weather_snow": {
+    "annual_snowfall_cm": "320-430 at altitude",
+    "microclimate": "Between Lake Geneva and Mont Blanc — moisture-laden systems",
+    "snowmaking_covers": "Morzine (1,000m), Morgins, key valley connections",
+    "chatel_avg_at_2200m": "400 cm per year",
+    "snow_reliability": "7/10 — Avoriaz (1,800m) most reliable, Swiss side lower altitude closes earlier"
+  },
+  "iconic_run": "Swiss Wall (Chavanette) — legendary steep, ungroomed black run",
+  "key_facts": [
+    "Largest cross-border ski area in the Alps",
+    "5 disconnected piste networks, not one single connected area",
+    "Core loop (Avoriaz-Morzine-Chatel-Champery-Crosets-Champoussin-Morgins) = 271.6 km connected",
+    "Les Gets + Morzine Pleney is a separate network via shuttle",
+    "Geneva 80 km — one of the most accessible large domains from a major airport"
+  ],
+  "source_url": "https://www.portesdusoleil.com/en/",
+  "name": "Portes du Soleil",
+  "statistics": {
+    "total_pistes_km": 650,
+    "total_lifts": 196,
+    "highest_point": 2466,
+    "lowest_point": 1000,
+    "vertical_drop": 1466,
+    "snow_reliable_above": 1600
+  },
+  "lift_pass_pricing": {
+    "currency": "EUR",
+    "adult_6day_high": 369,
+    "note": "Portes du Soleil pass includes both French and Swiss sides. Avoriaz-only pass also available. Cross-border pass recommended for staying more than 2 days.",
+    "source_url": "https://www.portesdusoleil.com/en/ski-passes/"
+  },
+  "suitability": {
+    "beginners": "Excellent — Les Gets beginners area (Chavannes), Avoriaz nursery slopes at 1,800m, Morzine's Pleney sector. Swiss side Morgins has gentle greens.",
+    "intermediates": "World-class for intermediates — 650km of mainly blue and red runs. The Swiss side (Champéry, Morgins) has long, gentle valley runs back to village. The French side has more challenging reds.",
+    "advanced": "Good — Swiss Wall (Wall de la Ratache), Avoriaz's Chavanette/Lindarets area. The Hauts-Forts face. St-Jean-d'Aulps Roc d'Enfer.",
+    "families": "One of the best family domains in the world. Avoriaz car-free (horse-drawn carriages), Aquariaz tropical spa, 10+ toboggan runs, kids clubs. Les Gets has an activities lake and golf course in summer. Morzine has full town services all year."
+  },
+  "piste_map_url": "https://www.portesdusoleil.com/en/piste-map"
+}

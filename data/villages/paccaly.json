@@ -1,0 +1,19 @@
+{
+  "village": "Paccaly",
+  "slug": "paccaly",
+  "resort": "La Clusaz",
+  "domain": "La Clusaz",
+  "region": "Aravis",
+  "nearby_activities": [
+    "spas",
+    "swimming",
+    "ice_skating",
+    "market",
+    "paragliding"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 1200,
+  "character": "La Clusaz hamlet near the village centre.",
+  "activities_nearby": "La Clusaz shops and lifts nearby.",
+  "source_url": "https://www.laclusaz.com/en/"
+}

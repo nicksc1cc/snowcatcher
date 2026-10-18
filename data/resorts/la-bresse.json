@@ -1,0 +1,43 @@
+{
+  "resort": "La Bresse",
+  "slug": "la-bresse",
+  "domain": "La Bresse Hohneck",
+  "region": "Vosges",
+  "altitude": 900,
+  "character": "Largest ski resort in the Vosges massif. 30 runs, 21km, 15 lifts. Hohneck summit (1,363m). Night skiing (Tue/Fri 5-9pm, \u20ac15). Snowpark, 70% snowmaking. Blueberry picking in summer. Bike park. Lac des Corbeaux glacial lake.",
+  "research_status": "properly_sourced",
+  "description": "La Bresse Hohneck is the largest ski resort in the Vosges, on the slopes of the Hohneck summit (1,363m). 30 runs (4 green, 8 blue, 12 red, 6 black), 15 lifts, 70% snowmaking. 3 sectors: Le Hohneck (panoramic reds, guided off-piste), La Vologne (family heart, snowpark, beginner zone), and a small linked domain. Night skiing Tuesday and Friday evenings (5-9pm, \u20ac15). Bike park with 7 downhill runs in summer. Lac des Corbeaux glacial lake loop walk. Blueberry picking on high meadows. Craft beer bar 'La Corne du Diable'. Nordic spa at Bains de Bien-\u00catre. Day pass ~\u20ac42 adult.",
+  "sources": [
+    "https://vacances-la-bresse.fr/en/actualites/ski-la-bresse-hohneck-guide-complet",
+    "https://vacances-la-bresse.fr/en/actualites/que-faire-la-bresse"
+  ],
+  "stats": {
+    "altitude_resort": 900,
+    "altitude_top": 1363,
+    "vertical_drop": 450,
+    "pistes_km": 21,
+    "runs": 30,
+    "green": 4,
+    "blue": 8,
+    "red": 12,
+    "black": 6,
+    "lifts": 15,
+    "snowmaking_pct": 70
+  },
+  "non_ski_activities": {
+    "night_skiing": "Tuesday and Friday 5-9pm. 3 lit trails. \u20ac15. Family atmosphere, magical valley views.",
+    "bike_park": "One of the best bike parks in the Vosges. Summer lift access. DH and enduro lines. 7 runs.",
+    "hohneck_summit": "1,363m \u2014 iconic Vosges summit. Views to the Alps on clear days. Hiking trails from La Bresse or La Schlucht.",
+    "lac_des_corbeaux": "Glacial lake at 887m. 30-45 min forest walk. Free shuttle in summer. Swimming prohibited.",
+    "blueberry_picking": "High meadow wild blueberries \u2014 a local summer tradition.",
+    "spa": "Bains de Bien-\u00catre \u2014 Nordic spa with sauna, outdoor nordic bath, massages.",
+    "other": "Snowpark (La Vologne), cross-country skiing (Marcairie plateau), dog sledding, tree climbing park (age 3+), craft beer bar 'La Corne du Diable', Thursday producer market."
+  },
+  "best_for": {
+    "families": 8,
+    "beginners": 8,
+    "intermediates": 8,
+    "value": 8,
+    "biking": 8
+  }
+}

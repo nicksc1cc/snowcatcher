@@ -1,0 +1,27 @@
+{
+  "village": "Le Lac",
+  "slug": "le-lac",
+  "altitude": 2100,
+  "resort": "Tignes",
+  "domain": "Espace Killy",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "spas",
+    "ice_diving",
+    "ice_driving",
+    "toboggan",
+    "paragliding",
+    "snorkelling",
+    "fat_biking",
+    "cinema",
+    "snowpark",
+    "events"
+  ],
+  "character": "Main resort centre of Tignes. Around the frozen lake. Most shops, restaurants, nightlife. 4 cinema screens, casino, ice diving in the lake. Ski-in/ski-out throughout. Lively, high-altitude, snow-sure. Boiler-maker apres.",
+  "dining": "Wide selection \u2014 Savoyard, pizza, creperie, French. Piste-side and village restaurants.",
+  "shopping": "Supermarket, bakery, sports shops, fashion, pharmacy, post office, banks.",
+  "apres_scene": "Le Loft, The Saloon, Les Caveaux (nightclub). Lively resort centre. Live music.",
+  "activities_nearby": "Ice diving in frozen lake (Tignes is world-famous for this). 4-screen cinema. Casino. Ice rink. Indoor pool. Bowling. Paragliding. Snowpark. Espace Killy (300km). Grande Motte glacier (year-round).",
+  "source_url": "https://www.valdisere.com/en/village-guide/"
+}

@@ -1,0 +1,15 @@
+{
+  "village": "Orgeix",
+  "slug": "orgeix",
+  "resort": "Ax-les-Thermes",
+  "domain": "Ax 3 Domaines",
+  "region": "Pyr\u00e9n\u00e9es",
+  "nearby_activities": [
+    "natural_hot_springs",
+    "spa"
+  ],
+  "research_status": "properly_sourced",
+  "altitude": 850,
+  "character": "Valley village near Ax-les-Thermes. Traditional.",
+  "source_url": "https://www.lespyrenees.com/"
+}

@@ -1,0 +1,19 @@
+{
+  "village": "Flaine Forum",
+  "slug": "flaine-forum",
+  "altitude": 1600,
+  "resort": "Flaine",
+  "domain": "Le Grand Massif",
+  "region": "Grand Massif",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "art",
+    "swimming",
+    "ice_skating",
+    "spa",
+    "cinema"
+  ],
+  "character": "Main Flaine village \u2014 1,600m. Car-free, pedestrian-only. Modernist architecture (Marcel Breuer, 1960s). Large outdoor sculptures (Le Centaure, La Grande Main). Ski-in/ski-out. Cinema, pool, ice rink, shops. 265km Grand Massif access.",
+  "activities_nearby": "Grand Massif (265km). Ice rink. Cinema. Swimming pool. Outdoor sculpture trail. Snowshoeing. Paragliding. Hiking (summer \u2014 Cirque de Flaine).",
+  "source_url": "https://www.alpedhuez.com/en/"
+}

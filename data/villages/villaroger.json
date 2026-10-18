@@ -1,0 +1,28 @@
+{
+  "village": "Villaroger",
+  "slug": "villaroger",
+  "altitude": 1200,
+  "resort": "Les Arcs",
+  "domain": "Paradiski",
+  "region": "Tarentaise",
+  "research_status": "properly_sourced",
+  "resort_activities": [
+    "ice_skating",
+    "swimming",
+    "wellness",
+    "spas",
+    "toboggan_run",
+    "ice_cave",
+    "paragliding",
+    "dog_sledding",
+    "snowmobiling",
+    "helicopter",
+    "snowshoeing",
+    "pedestrian_lifts"
+  ],
+  "character": "Small valley hamlet at the bottom of the Aiguille Rouge descent (2,000m vertical fall). Last village on the road from Bourg-Saint-Maurice up to Arc 2000. Quiet, year-round community with basic services.",
+  "dining": "One restaurant/bar. Local.",
+  "shopping": "Small convenience store.",
+  "activities_nearby": "Bottom of the legendary Aiguille Rouge run (7km, 2,000m vertical). Hiking, cycling.",
+  "source_url": "https://cirkelsupply.com/blogs/news/a-village-by-village-guide-to-les-arcs"
+}
