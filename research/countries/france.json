@@ -16,9 +16,21 @@
       ],
       "seasonal": true,
       "guidance": "Millions of skier days for the latest completed season",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 56.1,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "exact",
+      "scope_note": "",
+      "sources": [
+        {
+          "url": "https://www.connexionfrance.com/news/france-returns-to-top-of-global-ski-destinations/818461",
+          "title": "France ski season 2025-2026: third-best on record as Alps lead",
+          "source_type": "news",
+          "excerpt": "France recorded 56.1million skier-days, up 2.4% from the previous season",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "skier_days_history": {
       "expects": "table",
@@ -27,9 +39,60 @@
       ],
       "seasonal": false,
       "guidance": "Rows: season, skier_days_millions. Back to 2008/09",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": [
+        {
+          "season": "2008-2009",
+          "skier_days_millions": 58.6
+        },
+        {
+          "season": "2012-2013",
+          "skier_days_millions": 57.6
+        },
+        {
+          "season": "2023-2024",
+          "skier_days_millions": 51.9
+        },
+        {
+          "season": "2024-2025",
+          "skier_days_millions": 54.8
+        },
+        {
+          "season": "2025-2026",
+          "skier_days_millions": 56.1
+        }
+      ],
+      "status": "found",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "France 54,8 millions (+5,5 %) / États-Unis 61,5 / Autriche 51,8",
+          "retrieved": "2026-10-18"
+        },
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "France 51,9, Autriche 50,1",
+          "retrieved": "2026-10-18"
+        },
+        {
+          "url": "https://www.connexionfrance.com/news/france-returns-to-top-of-global-ski-destinations/818461",
+          "title": "France ski season 2025-2026: third-best on record",
+          "source_type": "news",
+          "excerpt": "third best on record after 2008/2009 with 58.6million skier-days and 2012/2013 with 57.6million",
+          "retrieved": "2026-10-18"
+        },
+        {
+          "url": "https://www.connexionfrance.com/news/france-returns-to-top-of-global-ski-destinations/818461",
+          "title": "France ski season 2025-2026: third-best on record",
+          "source_type": "news",
+          "excerpt": "France recorded 56.1million skier-days, up 2.4% from the previous season",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "2023-2024 (51.9M) and 2024-2025 (54.8M) from DSF Indicators 2025 PDF. Earlier years from Connexion."
     },
     "world_rank": {
       "expects": "integer",
@@ -38,9 +101,21 @@
       ],
       "seasonal": true,
       "guidance": "Rank by skier days",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 1,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "exact",
+      "scope_note": "Rank by skier days among all countries",
+      "sources": [
+        {
+          "url": "https://www.connexionfrance.com/news/france-returns-to-top-of-global-ski-destinations/818461",
+          "title": "France ski season 2025-2026: third-best on record as Alps lead",
+          "source_type": "news",
+          "excerpt": "France was ahead of Austria, which recorded 53.7million skier-days, and the US, with 52.6million",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "peer_comparison": {
       "expects": "table",
@@ -49,9 +124,35 @@
       ],
       "seasonal": true,
       "guidance": "Rows: country, skier_days_millions, season",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": [
+        {
+          "country": "France",
+          "skier_days_millions": 56.1,
+          "season": "2025-2026"
+        },
+        {
+          "country": "Austria",
+          "skier_days_millions": 53.7,
+          "season": "2025-2026"
+        },
+        {
+          "country": "United States",
+          "skier_days_millions": 52.6,
+          "season": "2025-2026"
+        }
+      ],
+      "status": "found",
+      "season": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "France 51,9 ... Autriche 50,1 ... Italie 33 ... Japon 24,4 ... Suisse 23,1 ... Canada 17,9",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "2023-2024 data from DSF Indicators PDF. 2025-2026 top 3 from Connexion article."
     },
     "ski_area_count": {
       "expects": "integer",
@@ -60,9 +161,21 @@
       ],
       "seasonal": true,
       "guidance": "scope_note MUST state the definition used",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 200,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "approximate",
+      "scope_note": "DSF member domaines skiables (ski areas). Not individual resorts or sites.",
+      "sources": [
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "Cette fréquentation se répartit sur environ 200 domaines skiables de toutes tailles",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "lift_count": {
       "expects": "integer",
@@ -71,9 +184,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 2956,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "exact",
+      "scope_note": "Lift installations on DSF member domains. Source cites DSF data.",
+      "sources": [
+        {
+          "url": "https://skiallday.app/resorts/france",
+          "title": "Skiing in France: Resorts, Terrain and Measured Guides | SkiAllDay",
+          "source_type": "secondary_guide",
+          "excerpt": "lift park of 2,956 installations that Domaines Skiables de France puts at roughly 15% of the world total",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Secondary source citing DSF. Seek DSF primary source for verification."
     },
     "lift_count_history": {
       "expects": "table",
@@ -82,9 +207,27 @@
       ],
       "seasonal": false,
       "guidance": "Rows: year, lifts",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": [
+        {
+          "year": 2010,
+          "lifts": 3700
+        },
+        {
+          "year": 2025,
+          "lifts": 2956
+        }
+      ],
+      "status": "found",
+      "sources": [
+        {
+          "url": "https://skiallday.app/resorts/france",
+          "title": "Skiing in France: Resorts, Terrain and Measured Guides | SkiAllDay",
+          "source_type": "secondary_guide",
+          "excerpt": "France counted 3,700 lifts in 2010 and 2,956 in 2025, a fall of 25%",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Only two data points found. Fill intermediate years from DSF primary source."
     },
     "drag_lift_count": {
       "expects": "integer",
@@ -93,9 +236,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 1837,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "exact",
+      "scope_note": "",
+      "sources": [
+        {
+          "url": "https://skiallday.app/resorts/france",
+          "title": "Skiing in France: Resorts, Terrain and Measured Guides | SkiAllDay",
+          "source_type": "secondary_guide",
+          "excerpt": "Drag lifts are still 1,837 of the total",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Secondary source. Seek DSF primary for exact breakdown."
     },
     "average_lift_age_years": {
       "expects": "number",
@@ -104,9 +259,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 34,
+      "status": "found",
+      "season": "2025-2026",
+      "qualifier": "exact",
+      "scope_note": "Mean age of French ski lift installations. Source: Alti-Mag / DSF data.",
+      "sources": [
+        {
+          "url": "https://www.alti-mag.com/domaines-skiables/avoriaz-avoriaz",
+          "title": "Domaine skiable d'Avoriaz Montriond - Alti-Mag",
+          "source_type": "secondary_guide",
+          "excerpt": "En moyenne, le parc des remontées mécaniques est vieux de 34 ans en France",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Also confirmed on Alti-Mag's tariff comparison page: Âge moyen des RM, 34 ans"
     },
     "snowmaking_coverage_pct": {
       "expects": "number",
@@ -115,9 +282,21 @@
       ],
       "seasonal": true,
       "guidance": "Share of pistes covered",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 40,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "exact",
+      "scope_note": "Share of total piste surface covered by snowmaking on DSF member domains",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "TAUX DE COUVERTURE DES DOMAINES SKIABLES France : 40 % Autriche : 75 % Suisse : 54 % Italie du nord : 90 %",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Le Point article also confirms 40% figure citing DSF."
     },
     "foreign_visitor_share_pct": {
       "expects": "number",
@@ -126,9 +305,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 33,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "approximate",
+      "scope_note": "DSF member domains",
+      "sources": [
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "1 skieur sur 3 est étranger",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "visitor_origin": {
       "expects": "table",
@@ -138,8 +329,13 @@
       "seasonal": true,
       "guidance": "Rows: nationality, share_pct",
       "value": null,
-      "status": "not_researched",
-      "sources": []
+      "status": "not_found",
+      "sources": [],
+      "searched": [
+        "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+        "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html"
+      ],
+      "notes": "DSF PDF contains provenance chart but table extraction from PDF is incomplete. Indicator report page mentions visitor origin infographic. Need direct data extract. Stats from Connexion article: 'About 70% French, 30% foreign'. TourMag: '1 skier on 3 foreign, mostly nearby Europeans'."
     },
     "top_resorts_by_attendance": {
       "expects": "list",
@@ -149,8 +345,13 @@
       "seasonal": true,
       "guidance": "In rank order",
       "value": null,
-      "status": "not_researched",
-      "sources": []
+      "status": "not_found",
+      "sources": [],
+      "searched": [
+        "https://www.sno.co.uk/ski-holidays/france/",
+        "https://www.alti-mag.com/tarifs-forfaits-de-ski"
+      ],
+      "notes": "Multiple sources list most popular or most visited by Brits (Val d'Isere, Tignes, Val Thorens, La Plagne, Meribel) but none provide a definitive national skier-day ranking. DSF PDF shows attendance concentration data (15 largest = 42%) without naming the resorts. Need DSF member ranking data."
     },
     "attendance_share_by_range": {
       "expects": "table",
@@ -159,9 +360,36 @@
       ],
       "seasonal": true,
       "guidance": "Rows: range, share_pct",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": [
+        {
+          "range": "113 smallest stations",
+          "share_pct": 7
+        },
+        {
+          "range": "Moyennes stations (medium)",
+          "share_pct": 12
+        },
+        {
+          "range": "Grandes stations (large)",
+          "share_pct": 39
+        },
+        {
+          "range": "15 largest stations",
+          "share_pct": 42
+        }
+      ],
+      "status": "found",
+      "season": "2024-2025",
+      "sources": [
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "113 plus petites stations réalisent 7%, 15 plus grandes réalisent 42%",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "From DSF indicators via TourMag article. Also matches DSF PDF."
     },
     "attendance_concentration": {
       "expects": "text",
@@ -170,9 +398,20 @@
       ],
       "seasonal": true,
       "guidance": "e.g. share of attendance in the 15 largest resorts",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": "The 15 largest stations account for 42% of national attendance. The 113 smallest stations account for 7%.",
+      "status": "found",
+      "season": "2024-2025",
+      "scope_note": "DSF member domains, season 2024-2025",
+      "sources": [
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "les 15 plus grandes réalisent 42% de la fréquentation nationale",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "lift_revenue_eur": {
       "expects": "number",
@@ -181,9 +420,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 1920000000,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "exact",
+      "scope_note": "DSF member domain lift revenue, constant euros",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "2025 1920 54",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "From revenue/frequency table: 1,920M constant €"
     },
     "employment_direct": {
       "expects": "integer",
@@ -192,9 +443,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 18500,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "exact",
+      "scope_note": "Direct salaried employees of DSF member ski area operators",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "+ 18 500 salariés, permanents et saisonniers",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "employment_total": {
       "expects": "integer",
@@ -203,9 +466,28 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 120000,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "approximate",
+      "scope_note": "Total jobs dependent on ski area opening (direct + induced in station)",
+      "sources": [
+        {
+          "url": "https://www.domaines-skiables.fr/smedia/filer_private/84/f1/84f19265-7bd8-4fff-99e3-84cf1268f4f3/indicateurs-et-analyses-2025.pdf",
+          "title": "Indicateurs et Analyses 2025",
+          "source_type": "industry_body",
+          "excerpt": "Plus de 120 000 emplois dépendent de l'ouverture du domaine skiable",
+          "retrieved": "2026-10-18"
+        },
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "120.000 emplois au total se répartissent entre commerces, hébergements, restauration, moniteurs de ski",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": ""
     },
     "tourist_beds_total": {
       "expects": "integer",
@@ -214,9 +496,21 @@
       ],
       "seasonal": true,
       "guidance": "",
-      "value": null,
-      "status": "not_researched",
-      "sources": []
+      "value": 1300000,
+      "status": "found",
+      "season": "2024-2025",
+      "qualifier": "approximate",
+      "scope_note": "Alpes du Nord (1M) + Alpes du Sud (100K) + Pyrénées (200K). Excludes Massif Central, Jura, Vosges.",
+      "sources": [
+        {
+          "url": "https://www.tourmag.com/Ski-en-France-le-panorama-complet-et-les-chiffres-cles-de-2025-_a129923.html",
+          "title": "Ski en France : le panorama complet et les chiffres clés de 2025 !",
+          "source_type": "industry_body",
+          "excerpt": "1 million de lits dans les stations des Alpes du Nord, 100.000 lits dans les Alpes du Sud et 200.000 dans les Pyrénées",
+          "retrieved": "2026-10-18"
+        }
+      ],
+      "notes": "Excludes other massifs. Total French tourist beds higher."
     }
   },
   "02_geography": {
