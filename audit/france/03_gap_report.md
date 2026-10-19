@@ -27,12 +27,10 @@ Ranked by decision impact, then by how many travellers each helps, how distincti
 **Evidence:** good. France Montagnes and Domaines Skiables de France publish range level figures; resort counts and altitudes can be compiled from operators.
 **Uncertain:** range level averages hide large differences within a range. The text must say so.
 
-### 2. Why France, and when not
+### 2. What France does differently
 **Questions:** CC01 to CC09, CV02, CV03 (11 questions; 9 score 0, none above 1).
-**Why it matters:** the first decision a traveller makes. A page that never says what France does differently, or when Austria, Italy or Switzerland would suit better, cannot be trusted on anything else.
-**What to build:** a short comparative section with a table on consistent measures: size of the largest linked areas, share of skiing above 1,800 m, typical six day pass price, resort type mix, and journey from the UK. Then a plain account of where another country is the better choice.
-**Evidence:** mixed. Area sizes and pass prices are checkable; claims about atmosphere or apres across countries are easy to make and hard to support, so they stay out unless sourced.
-**Uncertain:** cross country price comparisons need the same season and the same pass type.
+**Decision (19 October):** no detailed comparison with other countries. A short passage on what defines French skiing (very large linked areas, high purpose built resorts with skiing from the door, villages older than skiing) and one line on when a traveller might look elsewhere. No comparison table.
+**Evidence:** the defining traits are checkable from French sources; cross country claims stay out.
 
 ### 3. What a week costs
 **Questions:** CV01 to CV09, CC05, CC06, FA12, TA11 (13 questions; all score 0).
