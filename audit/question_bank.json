@@ -1,0 +1,1621 @@
+{
+ "version": 1,
+ "about": "Traveller question bank for country pages. Templates use {country}. Scores are kept per country.",
+ "levels": [
+  "country",
+  "range",
+  "domain",
+  "resort",
+  "village"
+ ],
+ "dimensions": {
+  "country_choice": "Why this country over its neighbours",
+  "scale": "Skiing scale: small area, resort or linked domain",
+  "terrain_ability": "Useful terrain for each level",
+  "snowboard": "Flat connections, drag lifts, parks, freeride",
+  "snow": "Elevation, season, aspect, history, limits",
+  "cost": "Total holiday cost, not lift pass alone",
+  "family": "Lessons, childcare, beginner terrain, daily logistics",
+  "social": "Apres, nightlife, restaurants, group atmosphere",
+  "offpiste": "Freeride, touring, guiding, access",
+  "travel": "Journey time, transfers, trains, buses, car dependency",
+  "character": "Traditional village, purpose built station, dispersed area",
+  "nonski": "Spas, activities, sightseeing, poor weather options",
+  "crowds": "Peak week pressure, queues, connections, navigation",
+  "practical": "Safety, medical, accessibility, rules"
+ },
+ "questions": [
+  {
+   "id": "CC01",
+   "category": "Country choice",
+   "template": "What makes {country} different from its main rivals for a ski holiday?",
+   "audience": "all",
+   "dimension": "country_choice",
+   "level": "country"
+  },
+  {
+   "id": "CC02",
+   "category": "Country choice",
+   "template": "Is {country} better for big linked ski areas, long pistes or high altitude skiing?",
+   "audience": "all",
+   "dimension": "scale",
+   "level": "country"
+  },
+  {
+   "id": "CC03",
+   "category": "Country choice",
+   "template": "Is {country} good for beginners, intermediates, experts and mixed ability groups?",
+   "audience": "all",
+   "dimension": "terrain_ability",
+   "level": "country"
+  },
+  {
+   "id": "CC04",
+   "category": "Country choice",
+   "template": "Is {country} a good destination for snowboarders, not just skiers?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "country"
+  },
+  {
+   "id": "CC05",
+   "category": "Country choice",
+   "template": "Does {country} offer good value once accommodation, passes, food, equipment and transport are included?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CC06",
+   "category": "Country choice",
+   "template": "Are holidays in {country} better suited to self catering, catered chalets or hotels?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CC07",
+   "category": "Country choice",
+   "template": "How much does the experience vary between purpose built resorts and traditional villages?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "CC08",
+   "category": "Country choice",
+   "template": "Is {country} a good choice for a first ski holiday?",
+   "audience": "first timers",
+   "dimension": "terrain_ability",
+   "level": "country"
+  },
+  {
+   "id": "CC09",
+   "category": "Country choice",
+   "template": "When might a neighbouring country be a better fit?",
+   "audience": "all",
+   "dimension": "country_choice",
+   "level": "country"
+  },
+  {
+   "id": "TR01",
+   "category": "Timing",
+   "template": "When does the ski season usually start and finish?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "TR02",
+   "category": "Timing",
+   "template": "Which regions and elevations suit early season skiing?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "TR03",
+   "category": "Timing",
+   "template": "Where should travellers look for late season skiing in April or May?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "TR04",
+   "category": "Timing",
+   "template": "How does snow reliability differ between the main ranges?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "TR05",
+   "category": "Timing",
+   "template": "Which areas are most exposed to warm spells, rain or inconsistent snowfall?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "TR06",
+   "category": "Timing",
+   "template": "How do Christmas, New Year, February half term and Easter affect prices and crowds?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "country"
+  },
+  {
+   "id": "TR07",
+   "category": "Timing",
+   "template": "Is January a better choice for quieter slopes or lower prices?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "country"
+  },
+  {
+   "id": "TR08",
+   "category": "Timing",
+   "template": "Which periods give the best balance of snow, daylight, cost and crowds?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "country"
+  },
+  {
+   "id": "TR09",
+   "category": "Timing",
+   "template": "How should travellers read snowfall, snow depth and altitude rather than one reliability score?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "CV01",
+   "category": "Cost",
+   "template": "Which ranges and resort types tend to give the lowest cost holidays?",
+   "audience": "budget",
+   "dimension": "cost",
+   "level": "range"
+  },
+  {
+   "id": "CV02",
+   "category": "Cost",
+   "template": "How do lift pass prices compare across small areas and large linked domains?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV03",
+   "category": "Cost",
+   "template": "How much more expensive are high altitude or famous resorts?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV04",
+   "category": "Cost",
+   "template": "Where can a group save money without losing the skiing it wants?",
+   "audience": "groups",
+   "dimension": "cost",
+   "level": "range"
+  },
+  {
+   "id": "CV05",
+   "category": "Cost",
+   "template": "How do self catering, catered chalets and hotels compare in total cost?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV06",
+   "category": "Cost",
+   "template": "How expensive are food, drinks, rental, lessons and mountain restaurants?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV07",
+   "category": "Cost",
+   "template": "What extra costs come from transfers, parking, tolls and resort buses?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV08",
+   "category": "Cost",
+   "template": "Is a large linked area worth paying more for if the group skis the same terrain?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "CV09",
+   "category": "Cost",
+   "template": "Which destinations give good value for families, students, groups or solo travellers?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "range"
+  },
+  {
+   "id": "RG01",
+   "category": "Ranges",
+   "template": "What are the main ski mountain ranges, and where are they?",
+   "audience": "all",
+   "dimension": "scale",
+   "level": "country"
+  },
+  {
+   "id": "RG02",
+   "category": "Ranges",
+   "template": "How do the Northern Alps differ from the Southern Alps?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "RG03",
+   "category": "Ranges",
+   "template": "What is the practical difference between the Alps and the Pyrenees?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "RG04",
+   "category": "Ranges",
+   "template": "Which ranges are dominated by big downhill domains, and which suit smaller resorts or Nordic skiing?",
+   "audience": "all",
+   "dimension": "scale",
+   "level": "range"
+  },
+  {
+   "id": "RG05",
+   "category": "Ranges",
+   "template": "Which ranges have the most high altitude skiing?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "RG06",
+   "category": "Ranges",
+   "template": "Where are the most extensive linked lift networks?",
+   "audience": "all",
+   "dimension": "scale",
+   "level": "range"
+  },
+  {
+   "id": "RG07",
+   "category": "Ranges",
+   "template": "Which ranges tend to have quieter slopes or smaller resorts?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "range"
+  },
+  {
+   "id": "RG08",
+   "category": "Ranges",
+   "template": "Where are the traditional villages and where are the purpose built stations?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "RG09",
+   "category": "Ranges",
+   "template": "Which regions have the strongest apres, nightlife and restaurants?",
+   "audience": "groups",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "RG10",
+   "category": "Ranges",
+   "template": "Which ranges are best for families and beginner groups?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "range"
+  },
+  {
+   "id": "RG11",
+   "category": "Ranges",
+   "template": "Which areas have the best terrain for advanced and off piste skiers?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "RG12",
+   "category": "Ranges",
+   "template": "Which regions are most convenient from the UK?",
+   "audience": "UK travellers",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "RG13",
+   "category": "Ranges",
+   "template": "Which ranges are easiest to reach by train or public transport?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "RG14",
+   "category": "Ranges",
+   "template": "Which are realistic for a weekend rather than a full week?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "RG15",
+   "category": "Ranges",
+   "template": "Where can skiing be combined with spas, towns, regional food or other activities?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "RG16",
+   "category": "Ranges",
+   "template": "Which ranges suit people who want a quieter, less commercial mountain?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "RG17",
+   "category": "Ranges",
+   "template": "What do travellers give up by choosing a smaller or lower area over a major Alpine domain?",
+   "audience": "all",
+   "dimension": "scale",
+   "level": "range"
+  },
+  {
+   "id": "SK01",
+   "category": "Piste skiers",
+   "template": "Which areas offer long, continuous top to bottom descents?",
+   "audience": "piste skiers",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "SK02",
+   "category": "Piste skiers",
+   "template": "Where are the best groomed blue and red runs?",
+   "audience": "intermediates",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "SK03",
+   "category": "Piste skiers",
+   "template": "Which areas have enough variety for a week without repeating runs?",
+   "audience": "piste skiers",
+   "dimension": "scale",
+   "level": "domain"
+  },
+  {
+   "id": "SK04",
+   "category": "Piste skiers",
+   "template": "Where can advanced skiers find sustained steep pistes?",
+   "audience": "advanced",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "SK05",
+   "category": "Piste skiers",
+   "template": "Which domains have the best variety of scenery and terrain?",
+   "audience": "piste skiers",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "SK06",
+   "category": "Piste skiers",
+   "template": "How easy is it to cross a large domain without hard connections or long traverses?",
+   "audience": "piste skiers",
+   "dimension": "crowds",
+   "level": "domain"
+  },
+  {
+   "id": "SK07",
+   "category": "Piste skiers",
+   "template": "Which areas suit people who want a lot of vertical each day?",
+   "audience": "piste skiers",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "SB01",
+   "category": "Snowboarders",
+   "template": "Which resorts have the best terrain for snowboarding?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "range"
+  },
+  {
+   "id": "SB02",
+   "category": "Snowboarders",
+   "template": "How much flat terrain, skating and traversing is involved in getting around?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "SB03",
+   "category": "Snowboarders",
+   "template": "Are there long flat run outs or connecting pistes that are awkward on a board?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "SB04",
+   "category": "Snowboarders",
+   "template": "Which lifts suit snowboarders, and where are drag lifts unavoidable?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "SB05",
+   "category": "Snowboarders",
+   "template": "Which resorts have snowparks, halfpipes or freestyle areas?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "range"
+  },
+  {
+   "id": "SB06",
+   "category": "Snowboarders",
+   "template": "Where can snowboarders find natural freeride terrain?",
+   "audience": "snowboarders",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "SB07",
+   "category": "Snowboarders",
+   "template": "Which areas have good tree riding when visibility is poor?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "range"
+  },
+  {
+   "id": "SB08",
+   "category": "Snowboarders",
+   "template": "Which destinations mix pistes, powder, parks and off piste well?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "range"
+  },
+  {
+   "id": "SB09",
+   "category": "Snowboarders",
+   "template": "Is there enough variety for a group of snowboarders for a full week?",
+   "audience": "snowboarders",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "MX01",
+   "category": "Mixed groups",
+   "template": "Can skiers and snowboarders comfortably use the same domain?",
+   "audience": "mixed groups",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "MX02",
+   "category": "Mixed groups",
+   "template": "Are there connections that frustrate snowboarders but suit skiers?",
+   "audience": "mixed groups",
+   "dimension": "snowboard",
+   "level": "domain"
+  },
+  {
+   "id": "MX03",
+   "category": "Mixed groups",
+   "template": "Can a mixed group meet easily for lunch or at the end of the day?",
+   "audience": "mixed groups",
+   "dimension": "crowds",
+   "level": "domain"
+  },
+  {
+   "id": "MX04",
+   "category": "Mixed groups",
+   "template": "Is there enough for the strongest riders without leaving beginners behind?",
+   "audience": "mixed groups",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "MX05",
+   "category": "Mixed groups",
+   "template": "Are there convenient intermediate meeting points?",
+   "audience": "mixed groups",
+   "dimension": "crowds",
+   "level": "resort"
+  },
+  {
+   "id": "MX06",
+   "category": "Mixed groups",
+   "template": "Are there enough non skiing activities for someone taking a day off?",
+   "audience": "mixed groups",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "AB01",
+   "category": "Ability",
+   "template": "First timers: is there a dedicated beginner area, are nursery slopes easy to reach, are there enough gentle runs for a week?",
+   "audience": "first timers",
+   "dimension": "terrain_ability",
+   "level": "resort"
+  },
+  {
+   "id": "AB02",
+   "category": "Ability",
+   "template": "Early intermediates: can they move from blues to manageable reds without being forced onto hard routes?",
+   "audience": "early intermediates",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB03",
+   "category": "Ability",
+   "template": "Confident intermediates: are there enough varied reds and long descents to improve?",
+   "audience": "intermediates",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB04",
+   "category": "Ability",
+   "template": "Advanced piste skiers: are there sustained steep runs, hard reds and blacks?",
+   "audience": "advanced",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB05",
+   "category": "Ability",
+   "template": "Experts: is there steep couloir, mogul, freeride or guided terrain?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "domain"
+  },
+  {
+   "id": "AB06",
+   "category": "Ability",
+   "template": "Mixed ability: can levels ski independently and still meet up?",
+   "audience": "mixed ability",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB07",
+   "category": "Ability",
+   "template": "Returning skiers: is the terrain forgiving enough to rebuild confidence?",
+   "audience": "returning skiers",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB08",
+   "category": "Ability",
+   "template": "Are ski schools, group lessons, private tuition and coaching available?",
+   "audience": "learners",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "AB09",
+   "category": "Ability",
+   "template": "Are piste colour grades consistent enough to compare areas?",
+   "audience": "all",
+   "dimension": "terrain_ability",
+   "level": "country"
+  },
+  {
+   "id": "AB10",
+   "category": "Ability",
+   "template": "Does the headline number of pistes hide a lack of terrain for a given level?",
+   "audience": "all",
+   "dimension": "terrain_ability",
+   "level": "country"
+  },
+  {
+   "id": "AB11",
+   "category": "Ability",
+   "template": "How much of the area can the group's weakest member use?",
+   "audience": "mixed ability",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB12",
+   "category": "Ability",
+   "template": "Can beginners reach mountain restaurants and scenic routes without hard pistes?",
+   "audience": "beginners",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB13",
+   "category": "Ability",
+   "template": "How much terrain is genuinely useful for each level, not just classified by colour?",
+   "audience": "all",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "AB14",
+   "category": "Ability",
+   "template": "Are there progression routes for a learner over five or six days?",
+   "audience": "learners",
+   "dimension": "terrain_ability",
+   "level": "resort"
+  },
+  {
+   "id": "AB15",
+   "category": "Ability",
+   "template": "Do beginner slopes stay usable when conditions deteriorate?",
+   "audience": "beginners",
+   "dimension": "snow",
+   "level": "resort"
+  },
+  {
+   "id": "FA01",
+   "category": "Families",
+   "template": "Which areas are best for families with young children?",
+   "audience": "families with young children",
+   "dimension": "family",
+   "level": "range"
+  },
+  {
+   "id": "FA02",
+   "category": "Families",
+   "template": "Which suit families with teenagers who want harder skiing?",
+   "audience": "families with teenagers",
+   "dimension": "family",
+   "level": "range"
+  },
+  {
+   "id": "FA03",
+   "category": "Families",
+   "template": "Are nursery areas separated from faster traffic?",
+   "audience": "families with young children",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA04",
+   "category": "Families",
+   "template": "How easy is it to arrange ski school, rental and passes together?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA05",
+   "category": "Families",
+   "template": "Are lessons available in English, and how should that be checked?",
+   "audience": "UK families",
+   "dimension": "family",
+   "level": "country"
+  },
+  {
+   "id": "FA06",
+   "category": "Families",
+   "template": "Can parents ski independently while children are in lessons?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA07",
+   "category": "Families",
+   "template": "Can children ski back to the accommodation, or are buses and lifts needed?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA08",
+   "category": "Families",
+   "template": "Are childcare, creches and non ski activities available for younger children?",
+   "audience": "families with young children",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA09",
+   "category": "Families",
+   "template": "Which areas have pools, sledging, skating, climbing or other activities?",
+   "audience": "families",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "FA10",
+   "category": "Families",
+   "template": "Can non skiing family members enjoy the resort?",
+   "audience": "families",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "FA11",
+   "category": "Families",
+   "template": "Are there family friendly restaurants and affordable meals?",
+   "audience": "families",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "FA12",
+   "category": "Families",
+   "template": "How expensive is a family holiday with passes, lessons, rental and childcare included?",
+   "audience": "families",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "FA13",
+   "category": "Families",
+   "template": "Are accommodation and restaurants close enough to avoid daily friction?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "resort"
+  },
+  {
+   "id": "FA14",
+   "category": "Families",
+   "template": "Which areas suit families with mixed abilities or children of different ages?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "range"
+  },
+  {
+   "id": "FA15",
+   "category": "Families",
+   "template": "Are there recognised family schemes, and what do their criteria guarantee?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "country"
+  },
+  {
+   "id": "SO01",
+   "category": "Solo travellers",
+   "template": "Is it easy to meet other skiers or snowboarders?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "SO02",
+   "category": "Solo travellers",
+   "template": "Are there group lessons, guided days, social events or shared accommodation?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "SO03",
+   "category": "Solo travellers",
+   "template": "Are there activities and restaurants that work for someone alone?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "SO04",
+   "category": "Solo travellers",
+   "template": "Is the resort practical without a car?",
+   "audience": "solo",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "SO05",
+   "category": "Solo travellers",
+   "template": "Can solo travellers find people of similar ability to ski with?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "SO06",
+   "category": "Solo travellers",
+   "template": "Does the destination feel lively outside peak weeks?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "CP01",
+   "category": "Couples",
+   "template": "Can both enjoy it if they ski at different levels?",
+   "audience": "couples",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "CP02",
+   "category": "Couples",
+   "template": "Is there a choice of restaurants, bars, spas and non ski activities?",
+   "audience": "couples",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "CP03",
+   "category": "Couples",
+   "template": "Is it an intimate village or a lively resort?",
+   "audience": "couples",
+   "dimension": "character",
+   "level": "resort"
+  },
+  {
+   "id": "CP04",
+   "category": "Couples",
+   "template": "Is it worth paying for a view, spa or lift access?",
+   "audience": "couples",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "CP05",
+   "category": "Couples",
+   "template": "Can a non skier enjoy a full week?",
+   "audience": "couples",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "GF01",
+   "category": "Friends",
+   "template": "Can the group find accommodation for its size and budget?",
+   "audience": "friends",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "GF02",
+   "category": "Friends",
+   "template": "Is there terrain for different abilities and interests?",
+   "audience": "friends",
+   "dimension": "terrain_ability",
+   "level": "domain"
+  },
+  {
+   "id": "GF03",
+   "category": "Friends",
+   "template": "Are there convenient places to meet on and off the mountain?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "GF04",
+   "category": "Friends",
+   "template": "Is the apres lively, and when does it start?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "GF05",
+   "category": "Friends",
+   "template": "Are there late bars, clubs or live music?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "GF06",
+   "category": "Friends",
+   "template": "Can the group find good value food and drink?",
+   "audience": "friends",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "GF07",
+   "category": "Friends",
+   "template": "Does it suit serious skiing by day and nightlife after?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "GF08",
+   "category": "Friends",
+   "template": "Are large self catering chalets or apartments easy to find?",
+   "audience": "friends",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "OP01",
+   "category": "Off piste",
+   "template": "Which regions are particularly good for off piste skiing?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "OP02",
+   "category": "Off piste",
+   "template": "Which areas have extensive lift accessed freeride terrain?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "domain"
+  },
+  {
+   "id": "OP03",
+   "category": "Off piste",
+   "template": "Where is tree skiing available, and where is it limited by the tree line?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "OP04",
+   "category": "Off piste",
+   "template": "Which destinations are known for steep, technical terrain?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "OP05",
+   "category": "Off piste",
+   "template": "Where are the strongest options for guided off piste days?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "resort"
+  },
+  {
+   "id": "OP06",
+   "category": "Off piste",
+   "template": "Which resorts offer ski touring routes or backcountry access?",
+   "audience": "tourers",
+   "dimension": "offpiste",
+   "level": "resort"
+  },
+  {
+   "id": "OP07",
+   "category": "Off piste",
+   "template": "What is the difference between lift accessed off piste, touring and mountaineering?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "country"
+  },
+  {
+   "id": "OP08",
+   "category": "Off piste",
+   "template": "Which resorts have parks, jumps, rails and freestyle facilities?",
+   "audience": "freestyle",
+   "dimension": "snowboard",
+   "level": "resort"
+  },
+  {
+   "id": "OP09",
+   "category": "Off piste",
+   "template": "Where can advanced riders find variety without a guide every day?",
+   "audience": "advanced",
+   "dimension": "offpiste",
+   "level": "domain"
+  },
+  {
+   "id": "OP10",
+   "category": "Off piste",
+   "template": "How much do altitude, aspect and geography shape conditions?",
+   "audience": "experts",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "OP11",
+   "category": "Off piste",
+   "template": "What are the options when visibility is poor or there is no fresh snow?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "range"
+  },
+  {
+   "id": "OP12",
+   "category": "Off piste",
+   "template": "What safety services, guiding and avalanche information apply?",
+   "audience": "experts",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "OP13",
+   "category": "Off piste",
+   "template": "Which terrain is reached directly from lifts and which needs hiking or touring?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "domain"
+  },
+  {
+   "id": "OP14",
+   "category": "Off piste",
+   "template": "What makes a resort suit an expert freerider rather than just having a big piste map?",
+   "audience": "experts",
+   "dimension": "offpiste",
+   "level": "country"
+  },
+  {
+   "id": "AP01",
+   "category": "Atmosphere",
+   "template": "Which resorts are known for lively slope side apres?",
+   "audience": "groups",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "AP02",
+   "category": "Atmosphere",
+   "template": "Where are the late bars and clubs?",
+   "audience": "groups",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "AP03",
+   "category": "Atmosphere",
+   "template": "Which areas have relaxed wine bars and good restaurants rather than party nightlife?",
+   "audience": "couples",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "AP04",
+   "category": "Atmosphere",
+   "template": "Where is there a strong DJ or live music scene?",
+   "audience": "groups",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "AP05",
+   "category": "Atmosphere",
+   "template": "Which destinations feel liveliest for groups of friends?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "AP06",
+   "category": "Atmosphere",
+   "template": "Where can couples have a quieter evening?",
+   "audience": "couples",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "AP07",
+   "category": "Atmosphere",
+   "template": "Which resorts stay lively all season rather than only at peak times?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "AP08",
+   "category": "Atmosphere",
+   "template": "How does the atmosphere differ between purpose built stations and villages?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "AP09",
+   "category": "Atmosphere",
+   "template": "Which destinations have strong local food and regional specialities?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "AP10",
+   "category": "Atmosphere",
+   "template": "Where are mountain restaurants an important part of the experience?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "domain"
+  },
+  {
+   "id": "AP11",
+   "category": "Atmosphere",
+   "template": "Can non skiers enjoy the town without a lift pass?",
+   "audience": "non skiers",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "AP12",
+   "category": "Atmosphere",
+   "template": "Which places balance skiing, food, nightlife and rest?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "AP13",
+   "category": "Atmosphere",
+   "template": "How much does the resort quieten after the lifts close?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "TA01",
+   "category": "Transport",
+   "template": "Which ski areas are easiest to reach from the UK?",
+   "audience": "UK travellers",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "TA02",
+   "category": "Transport",
+   "template": "Which airports serve the main ranges and domains?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "TA03",
+   "category": "Transport",
+   "template": "How long is the transfer from airport to resort in normal conditions?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "domain"
+  },
+  {
+   "id": "TA04",
+   "category": "Transport",
+   "template": "Which destinations can be reached by train, and how much onward travel is needed?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "range"
+  },
+  {
+   "id": "TA05",
+   "category": "Transport",
+   "template": "Are direct or overnight trains practical?",
+   "audience": "UK travellers",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "TA06",
+   "category": "Transport",
+   "template": "Which resorts work well without a car?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "TA07",
+   "category": "Transport",
+   "template": "Where is driving needed to reach accommodation, lifts or restaurants?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "TA08",
+   "category": "Transport",
+   "template": "How difficult is winter driving, including chains and tyres?",
+   "audience": "drivers",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "TA09",
+   "category": "Transport",
+   "template": "How do Saturday changeovers, traffic and school holidays affect road journeys?",
+   "audience": "drivers",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "TA10",
+   "category": "Transport",
+   "template": "Are airport transfers available for solo travellers and small groups?",
+   "audience": "solo",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "TA11",
+   "category": "Transport",
+   "template": "How does the full journey cost compare with a cheaper resort and a longer transfer?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "TA12",
+   "category": "Transport",
+   "template": "Are there reliable local buses between villages and lift stations?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "TA13",
+   "category": "Transport",
+   "template": "Can travellers arrive late and still reach their accommodation?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "TA14",
+   "category": "Transport",
+   "template": "How easy is it to carry skis or boards on public transport?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "TA15",
+   "category": "Transport",
+   "template": "What are the options for people with limited mobility?",
+   "audience": "limited mobility",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "AC01",
+   "category": "Accommodation",
+   "template": "Is accommodation generally ski in ski out, near lifts or shuttle dependent?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "AC02",
+   "category": "Accommodation",
+   "template": "How much does location affect price and convenience?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "AC03",
+   "category": "Accommodation",
+   "template": "What is the difference between staying in a village and a purpose built station?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "AC04",
+   "category": "Accommodation",
+   "template": "Are there supermarkets, bakeries and affordable restaurants nearby?",
+   "audience": "self caterers",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "AC05",
+   "category": "Accommodation",
+   "template": "Is self catering practical without a car?",
+   "audience": "self caterers",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "AC06",
+   "category": "Accommodation",
+   "template": "Are there enough larger properties for groups and families?",
+   "audience": "groups",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "AC07",
+   "category": "Accommodation",
+   "template": "What accommodation suits solo travellers?",
+   "audience": "solo",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "AC08",
+   "category": "Accommodation",
+   "template": "How easy is it to rent equipment close to the lifts?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "AC09",
+   "category": "Accommodation",
+   "template": "Can passes and equipment be booked together, and is there a real saving?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "resort"
+  },
+  {
+   "id": "AC10",
+   "category": "Accommodation",
+   "template": "Are there lockers, changing rooms and places to leave equipment?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "AC11",
+   "category": "Accommodation",
+   "template": "What happens when a lift or link closes and the group is in another village?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "domain"
+  },
+  {
+   "id": "AC12",
+   "category": "Accommodation",
+   "template": "What logistical problems should first time visitors understand?",
+   "audience": "first timers",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "SN01",
+   "category": "Snow",
+   "template": "How does elevation affect snow reliability across the ranges?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "SN02",
+   "category": "Snow",
+   "template": "How do north and south facing slopes differ?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN03",
+   "category": "Snow",
+   "template": "Which areas have a wide range of altitude and aspect for variable weather?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "domain"
+  },
+  {
+   "id": "SN04",
+   "category": "Snow",
+   "template": "How do snowmaking and grooming affect reliability?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN05",
+   "category": "Snow",
+   "template": "What is the difference between a high resort and a high ski area?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN06",
+   "category": "Snow",
+   "template": "Can a resort have a high summit but vulnerable lower runs?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN07",
+   "category": "Snow",
+   "template": "How often do wind, poor visibility or storms disrupt skiing in each region?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "SN08",
+   "category": "Snow",
+   "template": "Which areas keep skiing during warm spells?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "SN09",
+   "category": "Snow",
+   "template": "How have opening dates, snow cover and season length changed?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN10",
+   "category": "Snow",
+   "template": "What evidence supports claims about future snow reliability?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "country"
+  },
+  {
+   "id": "SN11",
+   "category": "Snow",
+   "template": "How should travellers choose between sunny and low or cold and high?",
+   "audience": "all",
+   "dimension": "snow",
+   "level": "range"
+  },
+  {
+   "id": "NS01",
+   "category": "Beyond downhill",
+   "template": "Which areas have extensive cross country skiing and marked Nordic trails?",
+   "audience": "Nordic skiers",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "NS02",
+   "category": "Beyond downhill",
+   "template": "Where can travellers try snowshoeing, touring or winter hiking?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "NS03",
+   "category": "Beyond downhill",
+   "template": "Which destinations have thermal baths, spas and wellness?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "NS04",
+   "category": "Beyond downhill",
+   "template": "Where are scenic villages, food markets or cultural sights?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "NS05",
+   "category": "Beyond downhill",
+   "template": "Which areas have sledging, skating, dog sledding or other snow activities?",
+   "audience": "families",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "NS06",
+   "category": "Beyond downhill",
+   "template": "Can a non skier reach viewpoints or restaurants by lift?",
+   "audience": "non skiers",
+   "dimension": "nonski",
+   "level": "domain"
+  },
+  {
+   "id": "NS07",
+   "category": "Beyond downhill",
+   "template": "Which destinations work for a group where some ski and some do not?",
+   "audience": "mixed groups",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "NS08",
+   "category": "Beyond downhill",
+   "template": "Are there activities for bad weather days?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "NS09",
+   "category": "Beyond downhill",
+   "template": "Which regions combine skiing with towns, lakes or other attractions?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "PR01",
+   "category": "Practical",
+   "template": "Which resorts suit people with limited mobility?",
+   "audience": "limited mobility",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "PR02",
+   "category": "Practical",
+   "template": "Are there accessible lifts, adapted ski schools or specialist equipment?",
+   "audience": "limited mobility",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "PR03",
+   "category": "Practical",
+   "template": "How easy is it to get medical help in a resort?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR04",
+   "category": "Practical",
+   "template": "Where are the nearest larger medical facilities?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "PR05",
+   "category": "Practical",
+   "template": "What insurance matters for piste, off piste and touring?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR06",
+   "category": "Practical",
+   "template": "What should travellers know about mountain safety and rescue?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR07",
+   "category": "Practical",
+   "template": "How do local rules, pass conditions and insurance affect off piste skiing?",
+   "audience": "experts",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR08",
+   "category": "Practical",
+   "template": "What should first timers know about local terminology, lifts and ski schools?",
+   "audience": "first timers",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR09",
+   "category": "Practical",
+   "template": "What matters when travelling with pets?",
+   "audience": "pet owners",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "PR10",
+   "category": "Practical",
+   "template": "What are the trade offs for travellers who want a low stress holiday rather than maximum terrain?",
+   "audience": "all",
+   "dimension": "crowds",
+   "level": "country"
+  }
+ ]
+}
