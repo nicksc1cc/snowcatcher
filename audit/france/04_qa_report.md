@@ -62,3 +62,11 @@ Rendered checks: desktop at 1300 px and mobile at 390 px were inspected as scree
 ## Dependencies for lower level pages
 
 89 questions belong on domain, resort or village pages and are unchanged; see `coverage.csv`, action type `later`.
+
+## Final pass and publication (19 October 2026)
+
+- Gaps closed with sources: accommodation mix and spending shares, Calais to Albertville distance, time and tolls, February Saturday traffic, Geneva transfer times, verified 2026/27 opening dates (replacing the legacy season windows), drag lift share and snowparks for snowboarders, après (La Folie Douce, La Clusaz, Risoul), adapted skiing, English speaking ESF instructors, thermal spa towns, base against top altitude and aspect.
+- Editorial pass on every section: repeated facts removed, unsupported lines cut, instructions to readers rewritten as description, no em dashes or hyphenated compounds in the rendered page.
+- Home page figures aligned with the France page (19 linked areas, six ranges, 56.1 million skier days).
+- Merged to `main` as `bddc761` and deployed by GitHub Pages; the new headings and the area pages were confirmed on the live site.
+- Still unverified: resort base altitudes behind the band chart, linked area piste km. Still open: après and accommodation by range, snow detail by range (wind, storms), pets.
