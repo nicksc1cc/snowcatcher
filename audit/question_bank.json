@@ -1616,6 +1616,302 @@
    "audience": "all",
    "dimension": "crowds",
    "level": "country"
+  },
+  {
+   "id": "AC13",
+   "category": "Accommodation",
+   "template": "What are the main accommodation types in {country}'s ski resorts, and how common is each?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC14",
+   "category": "Accommodation",
+   "template": "Are catered chalets still widely available, and who runs them?",
+   "audience": "UK travellers",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC15",
+   "category": "Accommodation",
+   "template": "How do hotels, apartments and holiday residences compare in comfort, service and price?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC16",
+   "category": "Accommodation",
+   "template": "Where are the luxury and palace properties concentrated?",
+   "audience": "luxury",
+   "dimension": "cost",
+   "level": "range"
+  },
+  {
+   "id": "AC17",
+   "category": "Accommodation",
+   "template": "What does a ski in ski out claim mean in practice, and how far are lifts from typical lodgings?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "AC18",
+   "category": "Accommodation",
+   "template": "What is the difference between staying in a high station, a lower village and a valley town?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "AC19",
+   "category": "Accommodation",
+   "template": "How do accommodation prices vary across the season and between ranges?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC20",
+   "category": "Accommodation",
+   "template": "What does a realistic week of accommodation cost for a family, couple or group, with stated assumptions?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC21",
+   "category": "Accommodation",
+   "template": "What charges appear on top of the advertised price: tourist tax, cleaning, linen, deposits?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC22",
+   "category": "Accommodation",
+   "template": "What are the usual arrival days and minimum stays?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "AC23",
+   "category": "Accommodation",
+   "template": "How large are typical apartments for the number of beds advertised?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "AC24",
+   "category": "Accommodation",
+   "template": "Which accommodation suits disabled travellers, and how is accessibility labelled?",
+   "audience": "limited mobility",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "AC25",
+   "category": "Accommodation",
+   "template": "How old and well insulated is the typical building stock?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "AC26",
+   "category": "Accommodation",
+   "template": "Are pools, spas and children's clubs common in residences?",
+   "audience": "families",
+   "dimension": "nonski",
+   "level": "resort"
+  },
+  {
+   "id": "FD01",
+   "category": "Food and dining",
+   "template": "How wide is the restaurant choice, and how does it vary by resort type?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "FD02",
+   "category": "Food and dining",
+   "template": "What does eating out cost, on the mountain and in the village?",
+   "audience": "all",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "FD03",
+   "category": "Food and dining",
+   "template": "What are the regional dishes and cheeses in each range?",
+   "audience": "all",
+   "dimension": "nonski",
+   "level": "range"
+  },
+  {
+   "id": "FD04",
+   "category": "Food and dining",
+   "template": "Where is fine dining concentrated?",
+   "audience": "couples",
+   "dimension": "social",
+   "level": "range"
+  },
+  {
+   "id": "FD05",
+   "category": "Food and dining",
+   "template": "How do mountain restaurants work: table service, self service, booking?",
+   "audience": "all",
+   "dimension": "social",
+   "level": "domain"
+  },
+  {
+   "id": "FD06",
+   "category": "Food and dining",
+   "template": "Which resorts suit people who want to eat out every night?",
+   "audience": "couples",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "FD07",
+   "category": "Food and dining",
+   "template": "How well are vegetarian and special diets catered for?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "DL01",
+   "category": "Daily living",
+   "template": "Are there supermarkets, bakeries and food shops in resort, and how do prices compare with the valley?",
+   "audience": "self caterers",
+   "dimension": "cost",
+   "level": "country"
+  },
+  {
+   "id": "DL02",
+   "category": "Daily living",
+   "template": "Can groceries be pre-ordered or delivered to the accommodation?",
+   "audience": "self caterers",
+   "dimension": "practical",
+   "level": "country"
+  },
+  {
+   "id": "DL03",
+   "category": "Daily living",
+   "template": "How do people get around within a resort: shuttles, lifts, on foot?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "resort"
+  },
+  {
+   "id": "DL04",
+   "category": "Daily living",
+   "template": "What happens on changeover day: check in times, luggage, traffic?",
+   "audience": "all",
+   "dimension": "travel",
+   "level": "country"
+  },
+  {
+   "id": "DL05",
+   "category": "Daily living",
+   "template": "Where are pharmacies, doctors and other everyday services?",
+   "audience": "all",
+   "dimension": "practical",
+   "level": "resort"
+  },
+  {
+   "id": "RT01",
+   "category": "Resort type",
+   "template": "What distinguishes a purpose built station, a traditional village and a hybrid resort?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "RT02",
+   "category": "Resort type",
+   "template": "How does resort type affect snow access, evenings, shopping and car use?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "RT03",
+   "category": "Resort type",
+   "template": "Which resorts are hybrids, with a high purpose built core and older villages below?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "range"
+  },
+  {
+   "id": "RT04",
+   "category": "Resort type",
+   "template": "Where does the evening atmosphere happen relative to the accommodation?",
+   "audience": "groups",
+   "dimension": "social",
+   "level": "resort"
+  },
+  {
+   "id": "RT05",
+   "category": "Resort type",
+   "template": "What do satellite villages offer, and what do they trade off?",
+   "audience": "all",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "TI01",
+   "category": "Traveller fit",
+   "template": "Which accommodation and resort types suit families with young children?",
+   "audience": "families",
+   "dimension": "family",
+   "level": "country"
+  },
+  {
+   "id": "TI02",
+   "category": "Traveller fit",
+   "template": "Which suit couples?",
+   "audience": "couples",
+   "dimension": "character",
+   "level": "country"
+  },
+  {
+   "id": "TI03",
+   "category": "Traveller fit",
+   "template": "Which suit solo travellers?",
+   "audience": "solo",
+   "dimension": "social",
+   "level": "country"
+  },
+  {
+   "id": "TI04",
+   "category": "Traveller fit",
+   "template": "Which suit groups of friends?",
+   "audience": "friends",
+   "dimension": "social",
+   "level": "country"
+  },
+  {
+   "id": "TI05",
+   "category": "Traveller fit",
+   "template": "Which suit non skiers?",
+   "audience": "non skiers",
+   "dimension": "nonski",
+   "level": "country"
+  },
+  {
+   "id": "TI06",
+   "category": "Traveller fit",
+   "template": "How does accommodation location change the day for skiers and snowboarders?",
+   "audience": "skiers and snowboarders",
+   "dimension": "snowboard",
+   "level": "country"
   }
  ]
 }
