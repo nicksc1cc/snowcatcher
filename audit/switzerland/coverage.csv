@@ -1,0 +1,140 @@
+id,category,question,level,score,evidence,france_score
+CC01,Country choice,What makes Switzerland different from its main rivals for a ski holiday?,country,3,What sets Swiss skiing apart,3
+CC02,Country choice,"Is Switzerland better for big linked ski areas, long pistes or high altitude skiing?",country,3,"Ranges table, linked areas, altitude bands",3
+CC03,Country choice,"Is Switzerland good for beginners, intermediates, experts and mixed ability groups?",country,2,Who: first timers to experts,2
+CC04,Country choice,"Is Switzerland a good destination for snowboarders, not just skiers?",country,2,"Who: snowboarders; Laax Superpipe, drag lift counts",1
+CC05,Country choice,"Does Switzerland offer good value once accommodation, passes, food, equipment and transport are included?",country,2,Cost section; no lodging totals,2
+CC06,Country choice,"Are holidays in Switzerland better suited to self catering, catered chalets or hotels?",country,2,"Stay: hotel and apartment overnights, second homes",2
+CC07,Country choice,How much does the experience vary between purpose built resorts and traditional villages?,country,2,Three kinds of resort table,3
+CC08,Country choice,Is Switzerland a good choice for a first ski holiday?,country,1,Who: first timers,2
+CC09,Country choice,When might a neighbouring country be a better fit?,country,0,Not covered,0
+TR01,Timing,When does the ski season usually start and finish?,country,3,When to go; seasons list,2
+TR02,Timing,Which regions and elevations suit early season skiing?,range,3,Glaciers row and opening dates,2
+TR03,Timing,Where should travellers look for late season skiing in April or May?,range,2,"Glaciers into May, high resorts to late April",2
+TR04,Timing,How does snow reliability differ between the main ranges?,range,2,Peaks chart and range tops,2
+TR05,Timing,"Which areas are most exposed to warm spells, rain or inconsistent snowfall?",range,2,"Altitude section, Prealps and Jura watch for",2
+TR06,Timing,"How do Christmas, New Year, February half term and Easter affect prices and crowds?",country,3,Holiday waves and pinch week,3
+TR07,Timing,Is January a better choice for quieter slopes or lower prices?,country,3,Quiet windows 2027,3
+TR08,Timing,"Which periods give the best balance of snow, daylight, cost and crowds?",country,2,When to go,2
+TR09,Timing,"How should travellers read snowfall, snow depth and altitude rather than one reliability score?",country,2,Altitude: top lift against base,2
+CV01,Cost,Which ranges and resort types tend to give the lowest cost holidays?,range,3,Range day pass averages,2
+CV02,Cost,How do lift pass prices compare across small areas and large linked domains?,country,3,Per km chart,3
+CV03,Cost,How much more expensive are high altitude or famous resorts?,country,3,"Holidu index, Zermatt price",3
+CV04,Cost,Where can a group save money without losing the skiing it wants?,range,2,"Magic Pass, Prealps prices",1
+CV05,Cost,"How do self catering, catered chalets and hotels compare in total cost?",country,0,No like for like lodging comparison,1
+CV06,Cost,"How expensive are food, drinks, rental, lessons and mountain restaurants?",country,2,"Restaurants, ski school; no rental prices",2
+CV07,Cost,"What extra costs come from transfers, parking, tolls and resort buses?",country,2,"Vignette, tourist tax, luggage forwarding",0
+CV08,Cost,Is a large linked area worth paying more for if the group skis the same terrain?,country,3,Per km argument,3
+CV09,Cost,"Which destinations give good value for families, students, groups or solo travellers?",range,1,Who section patterns,1
+RG01,Ranges,"What are the main ski mountain ranges, and where are they?",country,3,"Map, table, range articles",3
+RG02,Ranges,How do the Northern Alps differ from the Southern Alps?,range,3,Range articles compare the four high ranges,3
+RG03,Ranges,What is the practical difference between the Alps and the Pyrenees?,range,2,High Alps against Prealps and Jura,3
+RG04,Ranges,"Which ranges are dominated by big downhill domains, and which suit smaller resorts or Nordic skiing?",range,3,Table and range leads,3
+RG05,Ranges,Which ranges have the most high altitude skiing?,range,3,Peaks chart and altitude bands,3
+RG06,Ranges,Where are the most extensive linked lift networks?,range,3,Linked areas by range,3
+RG07,Ranges,Which ranges tend to have quieter slopes or smaller resorts?,range,2,"Prealps, Jura, small valley resorts",2
+RG08,Ranges,Where are the traditional villages and where are the purpose built stations?,range,1,Car free villages; no purpose built stations named,2
+RG09,Ranges,"Which regions have the strongest apres, nightlife and restaurants?",range,2,Apres resorts named,1
+RG10,Ranges,Which ranges are best for families and beginner groups?,range,2,Range suits lines,2
+RG11,Ranges,Which areas have the best terrain for advanced and off piste skiers?,range,2,Pennine and central suits; experts,2
+RG12,Ranges,Which regions are most convenient from the UK?,range,2,Getting there per range,2
+RG13,Ranges,Which ranges are easiest to reach by train or public transport?,range,3,Train times per range,2
+RG14,Ranges,Which are realistic for a weekend rather than a full week?,range,1,Prealps for day trips,2
+RG15,Ranges,"Where can skiing be combined with spas, towns, regional food or other activities?",range,2,Spas and food,2
+RG16,Ranges,"Which ranges suit people who want a quieter, less commercial mountain?",range,2,"Prealps, Jura, small valleys",3
+RG17,Ranges,What do travellers give up by choosing a smaller or lower area over a major Alpine domain?,range,2,Watch for lines,3
+SB01,Snowboarders,Which resorts have the best terrain for snowboarding?,range,2,Laax,1
+SB05,Snowboarders,"Which resorts have snowparks, halfpipes or freestyle areas?",range,2,Superpipe,0
+SB06,Snowboarders,Where can snowboarders find natural freeride terrain?,range,1,Freeride resorts named,0
+SB07,Snowboarders,Which areas have good tree riding when visibility is poor?,range,0,Not covered,0
+SB08,Snowboarders,"Which destinations mix pistes, powder, parks and off piste well?",range,1,Laax parks and terrain,0
+AB09,Ability,Are piste colour grades consistent enough to compare areas?,country,3,Grading and ski routes,3
+AB10,Ability,Does the headline number of pistes hide a lack of terrain for a given level?,country,2,Measured against advertised km,1
+FA01,Families,Which areas are best for families with young children?,range,2,Family Destination list,2
+FA02,Families,Which suit families with teenagers who want harder skiing?,range,2,Teenagers,2
+FA05,Families,"Are lessons available in English, and how should that be checked?",country,0,Not covered,0
+FA12,Families,"How expensive is a family holiday with passes, lessons, rental and childcare included?",country,1,Ski school price only,1
+FA14,Families,Which areas suit families with mixed abilities or children of different ages?,range,1,Mixed ability groups,1
+FA15,Families,"Are there recognised family schemes, and what do their criteria guarantee?",country,3,Family Destination label and criteria,3
+SO01,Solo travellers,Is it easy to meet other skiers or snowboarders?,range,1,Solo travellers,2
+GF07,Friends,Does it suit serious skiing by day and nightlife after?,range,2,Couples and friends,2
+OP01,Off piste,Which regions are particularly good for off piste skiing?,range,2,Experts and freeriders,2
+OP03,Off piste,"Where is tree skiing available, and where is it limited by the tree line?",range,0,Not covered,0
+OP04,Off piste,"Which destinations are known for steep, technical terrain?",range,2,"Verbier, Bec des Rosses, Engelberg, Gemsstock",1
+OP07,Off piste,"What is the difference between lift accessed off piste, touring and mountaineering?",country,1,Ski routes against off piste,1
+OP10,Off piste,"How much do altitude, aspect and geography shape conditions?",range,2,Altitude section; no aspect,1
+OP11,Off piste,What are the options when visibility is poor or there is no fresh snow?,range,1,"Rail viewpoints, spas",0
+OP12,Off piste,"What safety services, guiding and avalanche information apply?",country,3,"SLF bulletin, deaths, Rega",3
+OP14,Off piste,What makes a resort suit an expert freerider rather than just having a big piste map?,country,1,Experts paragraph,0
+AP01,Atmosphere,Which resorts are known for lively slope side apres?,range,2,Apres resorts,1
+AP03,Atmosphere,Which areas have relaxed wine bars and good restaurants rather than party nightlife?,range,1,Village evenings,1
+AP05,Atmosphere,Which destinations feel liveliest for groups of friends?,range,2,Liveliest resorts,1
+AP06,Atmosphere,Where can couples have a quieter evening?,range,1,Couples line,1
+AP08,Atmosphere,How does the atmosphere differ between purpose built stations and villages?,country,2,Resort types table,3
+AP09,Atmosphere,Which destinations have strong local food and regional specialities?,range,3,Food by language region,3
+AP12,Atmosphere,"Which places balance skiing, food, nightlife and rest?",range,1,Couples and friends,1
+TA01,Transport,Which ski areas are easiest to reach from the UK?,range,2,Train and road times,2
+TA02,Transport,Which airports serve the main ranges and domains?,range,3,Airports and train times,3
+TA04,Transport,"Which destinations can be reached by train, and how much onward travel is needed?",range,3,"Train times, car free arrivals",3
+TA05,Transport,Are direct or overnight trains practical?,country,2,London by rail via Paris,2
+TA08,Transport,"How difficult is winter driving, including chains and tyres?",country,2,Winter driving,2
+TA09,Transport,"How do Saturday changeovers, traffic and school holidays affect road journeys?",country,0,Not covered,0
+TA10,Transport,Are airport transfers available for solo travellers and small groups?,country,0,Not covered,0
+TA11,Transport,How does the full journey cost compare with a cheaper resort and a longer transfer?,country,0,Not covered,0
+TA14,Transport,How easy is it to carry skis or boards on public transport?,country,3,SBB luggage and skis,1
+TA15,Transport,What are the options for people with limited mobility?,country,0,Not covered,0
+AC01,Accommodation,"Is accommodation generally ski in ski out, near lifts or shuttle dependent?",range,1,Resort types table,3
+AC03,Accommodation,What is the difference between staying in a village and a purpose built station?,country,2,Car free village against resort town,3
+AC12,Accommodation,What logistical problems should first time visitors understand?,country,2,Car free logistics,2
+SN01,Snow,How does elevation affect snow reliability across the ranges?,range,3,Altitude section and bands,3
+SN02,Snow,How do north and south facing slopes differ?,country,0,Not covered,0
+SN04,Snow,How do snowmaking and grooming affect reliability?,country,3,"Snowmaking 54%, comparison",2
+SN05,Snow,What is the difference between a high resort and a high ski area?,country,3,Top lift against village height,0
+SN06,Snow,Can a resort have a high summit but vulnerable lower runs?,country,3,"Grindelwald, Flumserberg low runs",2
+SN07,Snow,"How often do wind, poor visibility or storms disrupt skiing in each region?",range,0,Not covered,0
+SN08,Snow,Which areas keep skiing during warm spells?,range,2,Altitude results 2025/26,2
+SN09,Snow,"How have opening dates, snow cover and season length changed?",country,3,"SLF season study, Zermatt summer 2026",3
+SN10,Snow,What evidence supports claims about future snow reliability?,country,1,Snow study only,0
+SN11,Snow,How should travellers choose between sunny and low or cold and high?,range,1,Altitude section,2
+NS01,Beyond downhill,Which areas have extensive cross country skiing and marked Nordic trails?,range,2,"Engadin, Jura",3
+NS02,Beyond downhill,"Where can travellers try snowshoeing, touring or winter hiking?",range,1,Sledging,1
+NS03,Beyond downhill,"Which destinations have thermal baths, spas and wellness?",range,3,"Leukerbad, Vals, Scuol, Bad Ragaz",0
+NS04,Beyond downhill,"Where are scenic villages, food markets or cultural sights?",range,1,Rail viewpoints,2
+NS07,Beyond downhill,Which destinations work for a group where some ski and some do not?,range,2,"Wengernalpbahn, viewpoints, spas",1
+NS09,Beyond downhill,"Which regions combine skiing with towns, lakes or other attractions?",range,1,Spas and trains,1
+PR03,Practical,How easy is it to get medical help in a resort?,country,1,Emergency numbers,2
+PR05,Practical,"What insurance matters for piste, off piste and touring?",country,2,Rega and travel insurance,2
+PR06,Practical,What should travellers know about mountain safety and rescue?,country,3,Rescue and Rega,3
+PR07,Practical,"How do local rules, pass conditions and insurance affect off piste skiing?",country,2,Ski routes and off piste,2
+PR08,Practical,"What should first timers know about local terminology, lifts and ski schools?",country,2,Words to know,2
+PR09,Practical,What matters when travelling with pets?,country,0,Not covered,0
+PR10,Practical,What are the trade offs for travellers who want a low stress holiday rather than maximum terrain?,country,1,"Car free villages, trains",1
+AC13,Accommodation,"What are the main accommodation types in Switzerland's ski resorts, and how common is each?",country,2,"Hotel and apartment overnights, second homes",3
+AC14,Accommodation,"Are catered chalets still widely available, and who runs them?",country,0,Not covered,3
+AC15,Accommodation,"How do hotels, apartments and holiday residences compare in comfort, service and price?",country,1,Hotel types named,2
+AC16,Accommodation,Where are the luxury and palace properties concentrated?,range,0,Not covered,3
+AC18,Accommodation,"What is the difference between staying in a high station, a lower village and a valley town?",country,1,Resort types table,3
+AC19,Accommodation,How do accommodation prices vary across the season and between ranges?,country,0,Not covered: no reliable price data,2
+AC20,Accommodation,"What does a realistic week of accommodation cost for a family, couple or group, with stated assumptions?",country,0,Not covered: no reliable price data,2
+AC21,Accommodation,"What charges appear on top of the advertised price: tourist tax, cleaning, linen, deposits?",country,3,Tourist tax and guest cards,3
+AC22,Accommodation,What are the usual arrival days and minimum stays?,country,0,Not covered,1
+AC23,Accommodation,How large are typical apartments for the number of beds advertised?,country,0,Not covered,2
+AC24,Accommodation,"Which accommodation suits disabled travellers, and how is accessibility labelled?",country,0,Not covered,2
+AC25,Accommodation,How old and well insulated is the typical building stock?,country,0,Not covered,3
+FD01,Food and dining,"How wide is the restaurant choice, and how does it vary by resort type?",range,1,Village evenings,1
+FD02,Food and dining,"What does eating out cost, on the mountain and in the village?",country,3,HolidayCheck summit restaurant prices,3
+FD03,Food and dining,What are the regional dishes and cheeses in each range?,range,3,Food by region,3
+FD04,Food and dining,Where is fine dining concentrated?,range,0,Not covered,1
+DL01,Daily living,"Are there supermarkets, bakeries and food shops in resort, and how do prices compare with the valley?",country,1,Self catering line,2
+DL02,Daily living,Can groceries be pre-ordered or delivered to the accommodation?,country,0,Not covered,2
+DL04,Daily living,"What happens on changeover day: check in times, luggage, traffic?",country,0,Not covered,1
+RT01,Resort type,"What distinguishes a purpose built station, a traditional village and a hybrid resort?",country,2,Resort types table,3
+RT02,Resort type,"How does resort type affect snow access, evenings, shopping and car use?",country,2,Resort types table,3
+RT03,Resort type,"Which resorts are hybrids, with a high purpose built core and older villages below?",range,0,Not covered,3
+RT05,Resort type,"What do satellite villages offer, and what do they trade off?",country,1,Small valley resort column,2
+TI01,Traveller fit,Which accommodation and resort types suit families with young children?,country,2,Families,2
+TI02,Traveller fit,Which suit couples?,country,2,Couples,2
+TI03,Traveller fit,Which suit solo travellers?,country,2,Solo travellers,2
+TI04,Traveller fit,Which suit groups of friends?,country,2,Friends,2
+TI05,Traveller fit,Which suit non skiers?,country,1,Non skiers via trains and spas,1
+TI06,Traveller fit,How does accommodation location change the day for skiers and snowboarders?,country,2,Car free distance to lifts,1
