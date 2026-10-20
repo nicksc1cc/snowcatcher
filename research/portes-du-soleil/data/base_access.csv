@@ -1,0 +1,15 @@
+# Minimum lift rides from each base to reach the first lift of the target area. OpenStreetMap graph, snapshot 2026-10-20, village transfers and riding gondolas down allowed. FIRST PASS: verify against the official map.
+base,start_lifts,lifts_to_avoriaz,lifts_to_les_crosets,lifts_to_super_chatel,lifts_to_planachaux_champery,lifts_to_les_gets,lifts_to_torgon,lifts_to_first_lift_topping_2000m,ski_back_to_start_lift,note
+Les Gets,Chavannes gondola; Mont Chéry gondola,4,6,8,6,0,9,6,"Chavannes yes; Mont Chéry yes",Route to Avoriaz crosses Morzine town
+Morzine,Pléney gondola; Super-Morzine gondola; Nyon cable car,2,4,6,4,1,7,4,"Pléney yes; Super-Morzine no; Nyon no",No piste reaches the Super-Morzine or Nyon bases in the model
+Avoriaz,Tour chair (village),0,2,4,2,4,5,1,yes,Avoriaz to Les Gets includes riding a gondola down to Morzine
+Montriond (Ardent),Ardent gondola,2,3,5,3,5,6,3,yes,
+Les Lindarets,Lindarets chair,1,2,4,2,4,5,2,yes,
+Châtel,Super-Châtel gondola; Linga chair,4,5,0,5,7,2,2,"Super-Châtel no; Linga yes",Check the Super-Châtel return run against the official map
+Pré la Joux,Pré la Joux chair,3,4,3,4,6,6,2,yes,
+La Chapelle d'Abondance (Panthiaz),Panthiaz gondola,11,10,4,11,15,2,9,no,No piste back to Panthiaz; Crêt Béni side not linked
+Torgon,Tronchey chair,9,8,2,9,13,0,7,yes,
+Morgins,Foilleuse gondola; Corbeau chair,5,4,2,5,9,3,3,yes,Two sides joined through the village
+Champoussin,Aiguille des Champeys chair,3,2,3,3,7,4,1,yes,
+Les Crosets,Crosets chair,1,0,3,1,5,4,1,yes,
+Champéry,Croix de Culet cable car,2,1,4,0,6,5,2,no,Return by the Grand Paradis side then bus or walk; to verify
