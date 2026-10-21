@@ -36,3 +36,15 @@
 4. Build snow history and source metadata, or omit numeric snow claims until complete.
 5. Update production page data and generate a claim-to-copy report.
 6. Build, inspect rendered HTML and mobile layout, then request publication approval.
+
+
+## Map-data capture update — 21 October 2026
+
+- [x] Identify the public Lumiplan map-service pattern and the map ID used by a public integration.
+- [x] Add a script to capture timestamped static POI metadata and dynamic status separately, with a merged inventory CSV.
+- [ ] Run the capture against the live endpoint and inspect response shape and counts.
+- [ ] Confirm that the map ID matches the current official iframe and that static data includes the expected five-core plus Saint-Colomban inventory.
+- [ ] Join named lifts and trails to dated spatial geometry; record match rates and unmatched items.
+- [ ] Build a graph from spatial geometry and test it against the current official map. The POI inventory by itself is not evidence of connectivity.
+
+The capture script is committed, but it has **not** been executed in this session. No snapshot date, item count, route edge or route matrix has been inferred from the existence of the endpoint.
