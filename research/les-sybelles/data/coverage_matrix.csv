@@ -7,5 +7,5 @@ Pass value,full/local passes and age bands,10,3,4,3,blocked,Adult 6-day 2026/27 
 Access and bases,rail/road and base differences,10,2,2,6,partial,Do not publish unverified transfer times or winter timetables
 Ability and traveller fit,terrain and link grades,16,3,6,7,blocked,No ability matrix until route graph is verified
 Comparison,comparable area and price metrics,8,2,3,3,partial,Need matched source/method for domain size and price
-Food, après and non-skiing,6,1,1,4,deferred,Keep resort-specific venues on Level 4/5 pages
+"Food, après and non-skiing",domain-level patterns,6,1,1,4,deferred,Keep resort-specific venues on Level 4/5 pages
 Research method and freshness,source definitions and update triggers,6,5,1,0,partial,Current sources and conflicts documented
