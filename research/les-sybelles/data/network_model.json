@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "domain_id": "les-sybelles",
+  "created": "2026-10-21",
+  "status": "research model, not production-ready",
+  "rules": {
+    "connected_means": "A continuous route exists by ski lifts and marked pistes; a shared brand or pass does not by itself count as a physical link.",
+    "counts": "No lift-ride counts, fastest routes or ability matrices until the lift/piste graph is reproducible and checked against the official 2026/27 map.",
+    "data_types": "Operator-reported, independent-reported, map-derived and modelled values must remain separate."
+  },
+  "groups": [
+    {
+      "id": "main-core",
+      "name": "Main connected core",
+      "sector_ids": [
+        "le-corbier",
+        "la-toussuire",
+        "saint-jean-d-arves",
+        "saint-sorlin-d-arves",
+        "les-bottieres"
+      ],
+      "status": "operator-described connected group",
+      "evidence_ids": [
+        "S004"
+      ],
+      "note": "The group is named by the Saint-Sorlin official ski-area page. Pairwise lift/piste edges and route dependencies still require a map audit."
+    },
+    {
+      "id": "saint-colomban",
+      "name": "Saint-Colomban-des-Villards",
+      "sector_ids": [
+        "saint-colomban"
+      ],
+      "status": "connection disputed / likely disconnected from main core",
+      "evidence_ids": [
+        "S005",
+        "S023",
+        "S025"
+      ],
+      "note": "An independent resort guide says the ski link was no longer maintained from winter 2025-26; current official map and pass terms need confirmation."
+    }
+  ],
+  "sectors": [
+    {
+      "id": "le-corbier",
+      "name": "Le Corbier",
+      "base_elevation_m": 1550,
+      "upper_landmark_m": 2265,
+      "network_group": "main-core",
+      "status": "partial",
+      "evidence_ids": [
+        "S004"
+      ],
+      "notes": "1550 m resort elevation; 2265 m is Pointe du Corbier, not yet confirmed as the highest lift-served point."
+    },
+    {
+      "id": "la-toussuire",
+      "name": "La Toussuire",
+      "base_elevation_m": 1800,
+      "upper_landmark_m": 2431,
+      "network_group": "main-core",
+      "status": "partial",
+      "evidence_ids": [
+        "S004",
+        "S006"
+      ],
+      "notes": "1800 m resort elevation; 2431 m is the Ouillon landmark. Do not label as lift-top without map verification."
+    },
+    {
+      "id": "saint-jean-d-arves",
+      "name": "Saint-Jean-d’Arves",
+      "base_elevation_m": 1550,
+      "upper_landmark_m": null,
+      "network_group": "main-core",
+      "status": "partial",
+      "evidence_ids": [
+        "S004"
+      ],
+      "notes": "Officially listed as part of the five-resort core; sector lift range not yet established."
+    },
+    {
+      "id": "saint-sorlin-d-arves",
+      "name": "Saint-Sorlin-d’Arves",
+      "base_elevation_m": 1500,
+      "upper_landmark_m": 2620,
+      "network_group": "main-core",
+      "status": "sector-range-reported",
+      "evidence_ids": [
+        "S007",
+        "S008",
+        "S009"
+      ],
+      "notes": "Official sector page reports 1500–2620 m, 41 marked pistes and 18 lifts."
+    },
+    {
+      "id": "les-bottieres",
+      "name": "Les Bottières",
+      "base_elevation_m": 1300,
+      "upper_landmark_m": null,
+      "network_group": "main-core",
+      "status": "partial",
+      "evidence_ids": [
+        "S004",
+        "S006"
+      ],
+      "notes": "1300 m resort elevation; exact lift top and lift/piste edges not yet verified."
+    },
+    {
+      "id": "saint-colomban",
+      "name": "Saint-Colomban-des-Villards",
+      "base_elevation_m": 1100,
+      "upper_landmark_m": 2233,
+      "network_group": "saint-colomban",
+      "status": "connection-disputed",
+      "evidence_ids": [
+        "S005",
+        "S012",
+        "S023"
+      ],
+      "notes": "Local area information gives 1100–2233 m; current relationship to the full Sybelles pass is unresolved."
+    }
+  ],
+  "edges": [],
+  "edge_policy": "Populate edges only from a dated lift/piste graph and cross-check each against the official map. Each edge must carry from_node, to_node, type, name, direction, easiest_piste_grade, lift_dependency, source, confidence and verification_status."
+}
