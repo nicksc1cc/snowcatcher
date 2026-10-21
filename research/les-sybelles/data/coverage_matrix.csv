@@ -1,0 +1,11 @@
+section,question_scope,priority_1_total,verified_claims,conflicting_or_incomplete,unresearched,publication_status,notes
+Domain overview,identity and advertised size,8,3,3,2,partial,310 km is operator-published; count definitions conflict
+Network and connectivity,core sectors and links,18,4,8,6,blocked,Current map and Saint-Colomban link/pass status must be verified
+Sector comparison,base/top elevation and terrain split,24,5,8,11,blocked,Only some sector facts verified; no consistent mapped grade/drag-lift model yet
+Snow and weather,seasonal history and current status,12,2,3,7,blocked,No numerical snow history published; live conditions linked to operator
+Pass value,full/local passes and age bands,10,3,4,3,blocked,Adult 6-day 2026/27 price needs official checkout confirmation
+Access and bases,rail/road and base differences,10,2,2,6,partial,Do not publish unverified transfer times or winter timetables
+Ability and traveller fit,terrain and link grades,16,3,6,7,blocked,No ability matrix until route graph is verified
+Comparison,comparable area and price metrics,8,2,3,3,partial,Need matched source/method for domain size and price
+Food, après and non-skiing,6,1,1,4,deferred,Keep resort-specific venues on Level 4/5 pages
+Research method and freshness,source definitions and update triggers,6,5,1,0,partial,Current sources and conflicts documented
