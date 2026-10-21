@@ -1,0 +1,859 @@
+{
+ "type": "object",
+ "keys": {
+  "_about": {
+   "type": "string"
+  },
+  "slug": {
+   "type": "string"
+  },
+  "permalink": {
+   "type": "string"
+  },
+  "nav": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "title": {
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "crumbs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "label": {
+      "type": "string"
+     },
+     "href": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "hero": {
+   "type": "object",
+   "keys": {
+    "photo": {
+     "type": "string"
+    },
+    "lead": {
+     "type": "string"
+    }
+   }
+  },
+  "stats": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "v": {
+      "type": "string"
+     },
+     "t": {
+      "type": "string"
+     },
+     "ev": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "network": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "figs": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "v": {
+        "type": "string"
+       },
+       "t": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "mapTitle": {
+     "type": "string"
+    },
+    "mapHelp": {
+     "type": "string"
+    },
+    "caption": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "sectors": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "base": {
+      "type": "string"
+     },
+     "cc": {
+      "type": "string"
+     },
+     "lat": {
+      "type": "number"
+     },
+     "lon": {
+      "type": "number"
+     },
+     "lo": {
+      "type": "number"
+     },
+     "hi": {
+      "type": "number"
+     },
+     "link": {
+      "type": "string"
+     },
+     "place": {
+      "type": "array",
+      "items": {
+       "type": "number|string"
+      }
+     },
+     "short": {
+      "type": "string",
+      "optional": true
+     }
+    }
+   }
+  },
+  "links": {
+   "type": "array",
+   "items": {
+    "type": "array",
+    "items": {
+     "type": "boolean|string"
+    }
+   }
+  },
+  "mapNotes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "lat": {
+      "type": "number"
+     },
+     "lon": {
+      "type": "number"
+     },
+     "text": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "mapBox": {
+   "type": "object",
+   "keys": {
+    "lon0": {
+     "type": "number"
+    },
+    "lon1": {
+     "type": "number"
+    },
+    "lat0": {
+     "type": "number"
+    },
+    "lat1": {
+     "type": "number"
+    }
+   }
+  },
+  "routes": {
+   "type": "object",
+   "keys": {
+    "h3": {
+     "type": "string"
+    },
+    "intro": {
+     "type": "string"
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "from": {
+        "type": "string"
+       },
+       "to": {
+        "type": "string"
+       },
+       "out": {
+        "type": "number"
+       },
+       "back": {
+        "type": "number"
+       },
+       "grade": {
+        "type": "string"
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "after": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "areas": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "intro": {
+     "type": "string"
+    },
+    "caption": {
+     "type": "string"
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "name": {
+        "type": "string"
+       },
+       "cc": {
+        "type": "string"
+       },
+       "net": {
+        "type": "string"
+       },
+       "lo": {
+        "type": "number"
+       },
+       "hi": {
+        "type": "number"
+       },
+       "easy": {
+        "type": "null|number"
+       },
+       "drag": {
+        "type": "number"
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "note": {
+     "type": "string"
+    }
+   }
+  },
+  "terrain": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "matrixTitle": {
+     "type": "string"
+    },
+    "matrixNote": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "snow": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "heightsTitle": {
+     "type": "string"
+    },
+    "heightsCaption": {
+     "type": "string"
+    },
+    "chartTitle": {
+     "type": "string"
+    },
+    "chartCaption": {
+     "type": "string"
+    },
+    "chartDesc": {
+     "type": "string"
+    },
+    "conditions": {
+     "type": "object",
+     "keys": {
+      "status": {
+       "type": "string"
+      },
+      "items": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "keys": {
+         "dt": {
+          "type": "string"
+         },
+         "dd": {
+          "type": "string"
+         }
+        }
+       }
+      },
+      "safety": {
+       "type": "string"
+      }
+     }
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "pass": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "table": {
+     "type": "object",
+     "keys": {
+      "caption": {
+       "type": "string"
+      },
+      "rows": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "note": {
+       "type": "string"
+      }
+     }
+    },
+    "coverageTitle": {
+     "type": "string"
+    },
+    "coverage": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "label": {
+        "type": "string"
+       },
+       "kind": {
+        "type": "string"
+       },
+       "items": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "scenariosTitle": {
+     "type": "string"
+    },
+    "scenarios": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "who": {
+        "type": "string"
+       },
+       "what": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "after": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "access": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "accessNote": {
+     "type": "string"
+    },
+    "basesH3": {
+     "type": "string"
+    },
+    "basesParas": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "basesCaption": {
+     "type": "string"
+    },
+    "baseCols": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "bases": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "base": {
+        "type": "string"
+       },
+       "v": {
+        "type": "array",
+        "items": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    },
+    "basesNote": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "chapters": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "id": {
+      "type": "string"
+     },
+     "kicker": {
+      "type": "string"
+     },
+     "h2": {
+      "type": "string"
+     },
+     "photo": {
+      "type": "string"
+     },
+     "paras": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "listTitle": {
+      "type": "string"
+     },
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "keys": {
+        "name": {
+         "type": "string"
+        },
+        "where": {
+         "type": "string"
+        },
+        "text": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "note": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "fit": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "intro": {
+     "type": "string"
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "who": {
+        "type": "string"
+       },
+       "fit": {
+        "type": "string"
+       },
+       "why": {
+        "type": "string"
+       },
+       "limit": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "catchesH3": {
+     "type": "string"
+    },
+    "catches": {
+     "type": "string"
+    }
+   }
+  },
+  "compare": {
+   "type": "object",
+   "keys": {
+    "h2": {
+     "type": "string"
+    },
+    "paras": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "caption": {
+     "type": "string"
+    },
+    "cols": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "name": {
+        "type": "string"
+       },
+       "href": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "label": {
+        "type": "string"
+       },
+       "v": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "note": {
+     "type": "string"
+    },
+    "ev": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "explore": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "keys": {
+     "h3": {
+      "type": "string"
+     },
+     "links": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "keys": {
+        "t": {
+         "type": "string"
+        },
+        "u": {
+         "type": "string"
+        }
+       }
+      },
+      "optional": true
+     },
+     "text": {
+      "type": "string",
+      "optional": true
+     }
+    }
+   }
+  },
+  "method": {
+   "type": "object",
+   "keys": {
+    "items": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "keys": {
+       "dt": {
+        "type": "string"
+       },
+       "dd": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "fresh": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "conflictsH3": {
+     "type": "string"
+    },
+    "conflicts": {
+     "type": "string"
+    },
+    "sources": {
+     "type": "string"
+    }
+   }
+  },
+  "breaks": {
+   "type": "object",
+   "keys": {
+    "network": {
+     "type": "object",
+     "keys": {
+      "photo": {
+       "type": "string"
+      }
+     }
+    },
+    "terrain": {
+     "type": "object",
+     "keys": {
+      "photo": {
+       "type": "string"
+      }
+     }
+    },
+    "access": {
+     "type": "object",
+     "keys": {
+      "photo": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  },
+  "photos": {
+   "type": "object",
+   "keys": {
+    "hero": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "caron": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "mottaret": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "belleville": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "powder": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "family": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "village": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "night": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "border": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "wall": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "terrace": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "sleigh": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "cheese": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    }
+   }
+  }
+ }
+}

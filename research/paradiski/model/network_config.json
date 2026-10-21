@@ -1,0 +1,17 @@
+{
+  "_about": "Configuration for db/model/network.js, Paradiski run of 20 October 2026. OpenStreetMap snapshot 2026-10-20T20:31:50Z from overpass-api.de.",
+  "bbox": [45.44, 6.62, 45.63, 6.92],
+  "exclude": [[45.44, 6.87, 45.50, 6.94], [45.612, 6.83, 45.64, 6.89], [45.56, 6.885, 45.60, 6.93]],
+  "_exclude": ["Tignes", "La Rosière", "Sainte-Foy-Tarentaise"],
+  "dropLifts": ["Vanoise Express 2"],
+  "_dropLifts": "The Vanoise Express runs two cabins on parallel tracks; OpenStreetMap maps each as a way, but it is one lift.",
+  "sectors": {
+    "montalbert": [45.534, 6.637], "plagne-centre": [45.508, 6.677], "bellecote": [45.512, 6.698], "champagny": [45.456, 6.693],
+    "montchavin-les-coches": [45.556, 6.735], "peisey-vallandry": [45.553, 6.763], "arc-1600": [45.596, 6.794],
+    "arc-1800": [45.572, 6.781], "arc-2000": [45.570, 6.829], "villaroger": [45.595, 6.864]
+  },
+  "liftSector": { "Grenouilles": "plagne-centre", "Pré-Saint-Esprit": "villaroger", "Comborcière": "villaroger", "Droset": "villaroger", "Rhonaz": "villaroger", "Millerette": "x-outlying" },
+  "_liftSector": "Grenouilles serves Aime 2000, not Montalbert. The Comborcière, Pré-Saint-Esprit, Droset and Rhonaz lifts are on the Villaroger side. Millerette is an isolated drag below Arc 1600 and is kept out of the base table.",
+  "topAbove": 3000,
+  "transfers": []
+}
