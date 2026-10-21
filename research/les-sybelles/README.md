@@ -19,6 +19,10 @@ Les Sybelles is marketed as a 310 km, six-resort ski domain in the Maurienne. It
 - No independent piste-length measurement or reproducible lift/piste graph has yet been verified for this research package. Do not label the advertised 310 km as independently measured.
 - Snowfall history by elevation is not yet modelled or checked against station observations. Do not add a numerical snow-reliability claim until that work is complete.
 
+## Atomic question coverage
+
+The current bank contains 250 destination-specific atomic questions across domain identity, network connections, sector profiles, base access, snow, passes and traveller fit. Question statuses are recorded per item; the bank is not a claim that every question has been researched. Run `python3 research/les-sybelles/scripts/validate_package.py` from the repository root to check CSV/JSON parity, duplicate questions, statuses, priorities and evidence references.
+
 ## Files
 
 - `01_question-triage.md` — Level 3 atomic-question selection and rationale.
