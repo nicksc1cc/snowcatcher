@@ -1,0 +1,7 @@
+sector_id,sector_name,network_status,base_or_low_elevation_m,upper_landmark_or_reported_top_m,pistes,lifts,grade_split,evidence_ids,limitations
+le-corbier,Le Corbier,main connected core,1550,2265,Not verified,Not verified,Not verified,S004,"1550 m is the resort elevation; 2265 m is Pointe du Corbier, not confirmed as lift top."
+la-toussuire,La Toussuire,main connected core,1800,2431,Not verified,Not verified,Not verified,S004;S006,"1800 m resort elevation; 2431 m is the Ouillon landmark, not confirmed as lift top."
+saint-jean-d-arves,Saint-Jean-d’Arves,main connected core,1550,,Not verified,Not verified,Not verified,S004,Sector-specific lift range and counts still needed.
+saint-sorlin-d-arves,Saint-Sorlin-d’Arves,main connected core,1500,2620,41,18,11 green / 16 blue / 9 red / 5 black,S007;S008;S009,Official sector page reports these local-sector figures.
+les-bottieres,Les Bottières,main connected core,1300,,Not verified,Not verified,Not verified,S004;S006,Sector-specific lift range and counts still needed.
+saint-colomban,Saint-Colomban-des-Villards,connection disputed,1100,2233,23 local runs (reported),Not verified,2 green / 13 blue / 6 red / 2 black (reported),S005;S012,Separate local ski area; connection to main network and full-pass validity unresolved.
