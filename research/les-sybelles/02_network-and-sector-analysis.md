@@ -19,6 +19,7 @@ The operator's site also lists Saint-Colomban-des-Villards among six resorts. Ho
 
 - The operator markets 310 km of piste and lists six resort names on its general site.
 - The official ski-map page says the interactive map shows six resorts and current lift/piste status.
+- A current search-indexed result for the Saint-Jean-d'Arves tourist-office brochure page identifies a downloadable 2026–27 Les Sybelles piste map (6.98 MB). The page's currently retrievable body still shows the 2025–26 map, so the actual 2026–27 asset URL remains to be recovered. This is a better lead than the old press kit, but it is not yet inspected map evidence.
 - Saint-Sorlin-d'Arves' official resort page describes the linked ski area as Saint-Sorlin, Saint-Jean-d'Arves, Le Corbier, La Toussuire and Les Bottières; it gives Saint-Sorlin's sector as 1,500–2,620 m with 41 marked pistes and 18 lifts.
 - La Toussuire's official page describes the main five-resort network and gives the wider area as 1,300–2,620 m.
 - The winter 2025–26 press-kit map labels 136 pistes, 68 lifts and an altitude range of 1,100–2,620 m, but that document predates the 2026–27 season and includes Saint-Colomban. Do not mix those totals with the current connected-core count without scope notes.
@@ -37,7 +38,7 @@ The script is intended to save separate static and dynamic JSON snapshots, a com
 
 **Important limitation:** this capture is not a network graph. It does not prove that two sectors are continuously ski-linked, nor does it provide a validated spatial route topology. Use the inventory to check the official names, grades, lengths and endpoint altitudes; use dated spatial geometry from OpenStreetMap or another licensed source to build the graph; then cross-check each inter-sector route on the official piste map. Do not derive lift rides or ability matrices from the inventory alone.
 
-The script has been committed but has not yet been run against the live endpoint in this research session. No API snapshot or graph edges are being claimed as collected.
+The script has been committed but has not yet been run against the live endpoint in this research session. Attempts to open the public Lumiplan API endpoints through the available browser reader were blocked. No API snapshot or graph edges are being claimed as collected.
 
 ## Network questions still open
 
