@@ -15,6 +15,7 @@ Les Sybelles is marketed as a 310 km, six-resort ski domain in the Maurienne. It
 - The operator's public pages advertise 310 km and describe six resorts, while some resort pages describe the core ski area as five resorts.
 - Saint-Colomban-des-Villards is still shown on the operator's wider destination site, but an independent resort guide reports that its ski link with Les Sybelles has not been maintained since winter 2025–26. Treat its 2026–27 connection and full-pass validity as unresolved until the operator confirms them.
 - The operator's ski map and live status page are the primary sources for operational topology. A static map and a live status page answer different questions; neither should be treated as a guarantee that every connection is open on a particular day.
+- A public integration identifies a Lumiplan data-service map ID and static/dynamic POI endpoints. The capture workflow is in `scripts/fetch_official_map.py`; it has been committed but not run in this session. No current API snapshot has yet been verified or added to the evidence register.
 - The current official rates page exposes dynamic products and a “from” price. A third-party 2026–27 price tracker reports €307.20 for an adult six-day pass, but the exact adult product and price should be confirmed in the operator's current checkout before publication.
 - No independent piste-length measurement or reproducible lift/piste graph has yet been verified for this research package. Do not label the advertised 310 km as independently measured.
 - Snowfall history by elevation is not yet modelled or checked against station observations. Do not add a numerical snow-reliability claim until that work is complete.
@@ -26,12 +27,13 @@ The current bank contains 250 destination-specific atomic questions across domai
 ## Files
 
 - `01_question-triage.md` — Level 3 atomic-question selection and rationale.
-- `02_network-and-sector-analysis.md` — known topology, sector model and unresolved network claims.
+- `02_network-and-sector-analysis.md` — known topology, sector model, map-data capture and unresolved network claims.
 - `03_meaning-map.md` — central proposition and narrative progression.
 - `04_publication-qa.md` — current publication gate and next verification actions.
 - `data/question_bank.csv` — destination-specific atomic questions.
 - `data/evidence_register.csv` — claim-level evidence with scope and caveats.
 - `data/coverage_matrix.csv` — section coverage and gaps.
+- `scripts/fetch_official_map.py` — timestamped capture of the public Lumiplan static inventory and live status response.
 
 ## Publication rule
 
