@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "domain_id": "les-sybelles",
   "created": "2026-10-21",
-  "status": "research model, not production-ready",
+  "status": "sector-level network check complete; pairwise lift/piste graph pending",
   "rules": {
     "connected_means": "A continuous route exists by ski lifts and marked pistes; a shared brand or pass does not by itself count as a physical link.",
     "counts": "No lift-ride counts, fastest routes or ability matrices until the lift/piste graph is reproducible and checked against the official 2026/27 map.",
@@ -31,13 +31,13 @@
       "sector_ids": [
         "saint-colomban"
       ],
-      "status": "connection disputed / likely disconnected from main core",
+      "status": "planned reconnection for 2026/27; operational link and pass coverage unverified",
       "evidence_ids": [
         "S005",
-        "S023",
-        "S025"
+        "S028",
+        "S029"
       ],
-      "note": "An independent resort guide says the ski link was no longer maintained from winter 2025-26; current official map and pass terms need confirmation."
+      "note": "The link was not maintained in winter 2025/26. Local-authority updates now say inspections and maintenance are underway for a planned 2026/27 restart, while Saint-Sorlin municipal council minutes still describe the area as closed and the domain as five ski areas. This supports a planned-reconnection status, not a claim that the connection is already operational."
     }
   ],
   "sectors": [
@@ -111,15 +111,25 @@
       "base_elevation_m": 1100,
       "upper_landmark_m": 2233,
       "network_group": "saint-colomban",
-      "status": "connection-disputed",
+      "status": "planned-reconnection-unverified",
       "evidence_ids": [
         "S005",
         "S012",
-        "S023"
+        "S028",
+        "S029"
       ],
-      "notes": "Local area information gives 1100–2233 m; current relationship to the full Sybelles pass is unresolved."
+      "notes": "Local area information gives 1100–2233 m; current relationship to the full Sybelles pass and operational status of the planned 2026/27 reconnection remain unresolved."
     }
   ],
   "edges": [],
-  "edge_policy": "Populate edges only from a dated lift/piste graph and cross-check each against the official map. Each edge must carry from_node, to_node, type, name, direction, easiest_piste_grade, lift_dependency, source, confidence and verification_status."
+  "edge_policy": "Populate edges only from a dated lift/piste graph and cross-check each against the official map. Each edge must carry from_node, to_node, type, name, direction, easiest_piste_grade, lift_dependency, source, confidence and verification_status.",
+  "planned_reconnection": {
+    "status": "maintenance and major inspections reported; operational confirmation pending",
+    "season": "2026/27",
+    "evidence_ids": [
+      "S028",
+      "S029"
+    ],
+    "publication_rule": "Do not draw a connected edge, include Saint-Colomban in route counts, or assert full-pass coverage until the operator confirms the link is open and the pass terms."
+  }
 }
