@@ -23,6 +23,21 @@ The operator's site also lists Saint-Colomban-des-Villards among six resorts. Ho
 - La Toussuire's official page describes the main five-resort network and gives the wider area as 1,300–2,620 m.
 - The winter 2025–26 press-kit map labels 136 pistes, 68 lifts and an altitude range of 1,100–2,620 m, but that document predates the 2026–27 season and includes Saint-Colomban. Do not mix those totals with the current connected-core count without scope notes.
 - Official 2026–27 season messaging advertises opening from 12 December 2026 to 9 April 2027. These are planned dates, not a guarantee that every sector or connection opens on those dates.
+- The public interactive map has a Lumiplan data-service endpoint. A public integration identifies the Les Sybelles map ID as `ec83ba74-a7db-4fb1-9b5e-8c16b7c90a7f` and uses `staticPoiData` and `dynamicPoiData` endpoints. This is a promising way to capture a dated inventory of named lifts, trails, grades, lengths, altitude endpoints and live status. The map ID and response coverage still need validation against the official iframe before this is treated as a current authoritative snapshot.
+
+## Official map data capture — next reproducible step
+
+Run from the `snowcatcher` repository root:
+
+```bash
+python3 research/les-sybelles/scripts/fetch_official_map.py
+```
+
+The script is intended to save separate static and dynamic JSON snapshots, a combined CSV inventory and a timestamped summary under `research/les-sybelles/raw/lumiplan/`. It records the map ID and capture time. The static inventory and live status are kept separate at source, then joined by item ID in the CSV.
+
+**Important limitation:** this capture is not a network graph. It does not prove that two sectors are continuously ski-linked, nor does it provide a validated spatial route topology. Use the inventory to check the official names, grades, lengths and endpoint altitudes; use dated spatial geometry from OpenStreetMap or another licensed source to build the graph; then cross-check each inter-sector route on the official piste map. Do not derive lift rides or ability matrices from the inventory alone.
+
+The script has been committed but has not yet been run against the live endpoint in this research session. No API snapshot or graph edges are being claimed as collected.
 
 ## Network questions still open
 
