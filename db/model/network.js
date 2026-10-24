@@ -20,7 +20,8 @@
 //
 // cfg = { bbox:[s,w,n,e], exclude:[[s,w,n,e],...], sectors:{id:[lat,lon]}, liftSector:{"lift name":id},
 //         transfers:[[label,[lat,lon],[lat,lon]]], topAbove: 2800, dropLifts:["second cabin of a double lift"],
-//         dropWays:[OSM way ids to ignore, such as the passing loops of a funicular] }
+//         dropWays:[OSM way ids to ignore, such as the passing loops of a funicular],
+//         wayOrder:[lift names whose OSM way order (bottom to top) is trusted over the elevation model] }
 // Funiculars (railway=funicular) count as lifts that can be ridden both ways.
 // A lift given a sector id that is not in cfg.sectors (for example "x-outlying") is kept in the graph but
 // left out of every sector's starts, targets and counts.
@@ -70,7 +71,8 @@
     }
     for (const l of lifts) {
       let a = l.g[0], b = l.g[l.g.length - 1], ea = S.elev[a.join()], eb = S.elev[b.join()];
-      if (ea > eb) { [a, b] = [b, a]; [ea, eb] = [eb, ea]; }
+      // near flat lifts where the elevation model disagrees with the mapped direction keep the OSM way order (cfg.wayOrder)
+      if (ea > eb && !(cfg.wayOrder || []).includes(l.name)) { [a, b] = [b, a]; [ea, eb] = [eb, ea]; }
       Object.assign(l, { bot: a, top: b, eBot: Math.round(ea), eTop: Math.round(eb), len: Math.round(l.g.reduce((s2, p, i) => s2 + (i ? dist(l.g[i - 1], p) : 0), 0)) });
     }
     S.raw = { lifts, pistes, osm: j.osm3s && j.osm3s.timestamp_osm_base };
