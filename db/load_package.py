@@ -298,6 +298,9 @@ if props:
         f"({q(p['key'])},{q(p['label'])},{q(p['value_type'])},{q(p['unit'] or None)},{qarr(p['applies_to'].split('|'))},"
         f"{qarr([x for x in p['qualifier_keys'].split('|') if x])},{qarr(p['allowed_methods'].split('|'))},{q(p['definition'] or None)},{q(p['requires_scope'] == 'true')})"
         for p in props) + "\non conflict (key) do nothing;")
+if meta.get("scopes"):
+    add("insert into core.metric_scope (property,key,definition) values\n" + ",\n".join(
+        f"({q(a)},{q(b)},{q(c)})" for a, b, c in meta["scopes"]) + "\non conflict do nothing;")
 for d in meta.get("datasets", []):
     outputs = json.load(open(os.path.join(P, d["outputs_file"]), encoding="utf-8")) if d.get("outputs_file") else None
     add("insert into model.dataset (id,kind,title,place_id,inputs,script_repo,script_path,run_at,status,note,outputs) values "

@@ -290,6 +290,14 @@
     },
     "note": {
      "type": "string"
+    },
+    "nameLabel": {
+     "type": "string",
+     "optional": true
+    },
+    "navLabel": {
+     "type": "string",
+     "optional": true
     }
    }
   },
@@ -796,7 +804,8 @@
      "type": "array",
      "items": {
       "type": "string"
-     }
+     },
+     "optional": true
     },
     "family": {
      "type": "array",
@@ -816,7 +825,8 @@
      "type": "array",
      "items": {
       "type": "string"
-     }
+     },
+     "optional": true
     },
     "border": {
      "type": "array",
@@ -847,6 +857,55 @@
      "optional": true
     },
     "cheese": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "roche": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "aiguille": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "navette": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "arcs": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "belle": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "mazot": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "optional": true
+    },
+    "sun": {
      "type": "array",
      "items": {
       "type": "string"

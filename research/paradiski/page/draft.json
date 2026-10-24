@@ -3,23 +3,63 @@
   "slug": "paradiski",
   "permalink": "france/paradiski/",
   "nav": "france",
-  "name": {"$p": "area:paradiski"},
+  "name": {
+    "$p": "area:paradiski"
+  },
   "title": "Paradiski | Linked ski areas | Snow Catchers",
   "description": "How La Plagne and Les Arcs fit together across the Vanoise Express, which base reaches which side, how the snow changes with height, when the Paradiski pass pays, and what the area is like for boarders, families, food and evenings.",
   "crumbs": [
-    {"label": "France", "href": "/projectsnow/france/"},
-    {"label": "Linked ski areas", "href": "/projectsnow/france/#areas"},
-    {"label": "Northern Alps", "href": "/projectsnow/france/#range-northern-alps"}
+    {
+      "label": "France",
+      "href": "/projectsnow/france/"
+    },
+    {
+      "label": "Linked ski areas",
+      "href": "/projectsnow/france/#areas"
+    },
+    {
+      "label": "Northern Alps",
+      "href": "/projectsnow/france/#range-northern-alps"
+    }
   ],
   "hero": {
     "photo": "hero",
     "lead": "La Plagne and Les Arcs, two of the big resorts of the Tarentaise, sit on facing slopes with a deep valley between them, and since {{f:ve_opened}} the Vanoise Express cable car has carried skiers across it. The operator counts {{f:op_km}} of piste and {{f:op_runs}} runs, from the woods above Villaroger to the Aiguille Rouge at {{f:op_top}}. A single day can begin among the high apartment blocks of Plagne Centre and end on the forest runs above Peisey."
   },
   "stats": [
-    {"v": "{{f:F000071}}", "t": "of linked piste on skiresort.com, the same as the operator's count", "ev": ["P001", "P010", "P011"]},
-    {"v": "{{f:ve_len}}", "t": "the span of the Vanoise Express, {{f:ve_height}} above the valley floor and the only lift between the two resorts", "ev": ["P021", "P020"]},
-    {"v": "{{f:F000073|n}} to {{f:F000074}}", "t": "from the lowest lift at Villaroger to the Aiguille Rouge, on skiresort.com", "ev": ["P010", "P011"]},
-    {"v": "{{f:F000066}}", "t": "for six days, adult, high season 2026/27; the single resort passes cost {{diff:F000066,lp_6d}} to {{diff:F000066,la_6d}} less", "ev": ["P002", "P004"]}
+    {
+      "v": "{{f:F000071}}",
+      "t": "of linked piste on skiresort.com, the same as the operator's count",
+      "ev": [
+        "P001",
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "v": "{{f:ve_len}}",
+      "t": "the span of the Vanoise Express, {{f:ve_height}} above the valley floor and the only lift between the two resorts",
+      "ev": [
+        "P021",
+        "P020"
+      ]
+    },
+    {
+      "v": "{{f:F000073|n}} to {{f:F000074}}",
+      "t": "from the lowest lift at Villaroger to the Aiguille Rouge, on skiresort.com",
+      "ev": [
+        "P010",
+        "P011"
+      ]
+    },
+    {
+      "v": "{{f:F000066}}",
+      "t": "for six days, adult, high season 2026/27; the single resort passes cost {{diff:F000066,lp_6d}} to {{diff:F000066,la_6d}} less",
+      "ev": [
+        "P002",
+        "P004"
+      ]
+    }
   ],
   "network": {
     "h2": "Two resorts and one cable car",
@@ -29,75 +69,714 @@
       "La Plagne also leans on a few lifts within its own bowl. Closing the Bijolin chair on the Montchavin-Les Coches side adds {{f:bijolin_extra}} lift rides in total across the journeys between sectors, and closing the Colosses chair at Plagne Bellecôte adds {{f:colosses_extra}}. The villages of Les Arcs are linked to each other more than one way, so a single closure there costs time rather than access."
     ],
     "figs": [
-      {"v": "{{m:all.plagne-centre.arc-2000}} lift rides", "t": "from the first lifts of Plagne Centre to Arc 2000, and {{m:all.arc-2000.plagne-centre|w}} back"},
-      {"v": "One lift", "t": "joins the two resorts: the Vanoise Express, built for more than {{f:ve_cap}} people a cabin"},
-      {"v": "{{m:all.montalbert.villaroger}} lift rides", "t": "from Montalbert to Villaroger, the longest crossing of the area, and {{m:all.villaroger.montalbert|w}} back"},
-      {"v": "{{f:ve_cut}} pairs", "t": "of sectors lose their link if the Vanoise Express stops"},
-      {"v": "{{f:lp_opened}}", "t": "La Plagne opens with two drag lifts, built to keep the valley villages alive as farming and mining decline"},
-      {"v": "{{f:la_1600}}", "t": "Arc 1600 opens, the first of the Arc villages, designed with Charlotte Perriand"}
+      {
+        "v": "{{m:all.plagne-centre.arc-2000}} lift rides",
+        "t": "from the first lifts of Plagne Centre to Arc 2000, and {{m:all.arc-2000.plagne-centre|w}} back"
+      },
+      {
+        "v": "One lift",
+        "t": "joins the two resorts: the Vanoise Express, built for more than {{f:ve_cap}} people a cabin"
+      },
+      {
+        "v": "{{m:all.montalbert.villaroger}} lift rides",
+        "t": "from Montalbert to Villaroger, the longest crossing of the area, and {{m:all.villaroger.montalbert|w}} back"
+      },
+      {
+        "v": "{{f:ve_cut}} pairs",
+        "t": "of sectors lose their link if the Vanoise Express stops"
+      },
+      {
+        "v": "{{f:lp_opened}}",
+        "t": "La Plagne opens with two drag lifts, built to keep the valley villages alive as farming and mining decline"
+      },
+      {
+        "v": "{{f:la_1600}}",
+        "t": "Arc 1600 opens, the first of the Arc villages, designed with Charlotte Perriand"
+      }
     ],
     "mapTitle": "Explore the network",
     "mapHelp": "Choose a starting point to see how many lift rides it takes to reach each other area, then limit the runs to see what stays within reach.",
     "caption": "Schematic, not to scale, with sectors moved apart for legibility. Built from OpenStreetMap lift and piste data (© OpenStreetMap contributors, snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. An orange link carries routes that no other link replaces when a single lift on it closes. Lift rides are the fewest needed between the lift bases of two areas. The model is being checked against the official 2026/27 piste map.",
-    "ev": ["P020", "P021", "P022", "P023"]
+    "ev": [
+      "P020",
+      "P021",
+      "P022",
+      "P023"
+    ]
   },
   "sectors": [
-    {"id": "montalbert", "name": {"$p": "sector:paradiski.montalbert"}, "base": {"$p": "resort:la-plagne"}, "cc": "FR", "lat": 45.545, "lon": 6.63, "lo": {"$f": "lo.montalbert"}, "hi": {"$f": "hi.montalbert"}, "link": "yes", "place": [0, -20, "middle"]},
-    {"id": "plagne-centre", "name": {"$p": "sector:paradiski.plagne-centre"}, "base": {"$p": "resort:la-plagne"}, "cc": "FR", "lat": 45.505, "lon": 6.66, "lo": {"$f": "lo.plagne-centre"}, "hi": {"$f": "hi.plagne-centre"}, "link": "yes", "place": [-16, 5, "end"]},
-    {"id": "bellecote", "name": {"$p": "sector:paradiski.bellecote"}, "base": {"$p": "resort:la-plagne"}, "cc": "FR", "lat": 45.515, "lon": 6.715, "lo": {"$f": "lo.bellecote"}, "hi": {"$f": "hi.bellecote"}, "link": "yes", "place": [16, 5, "start"], "short": "Bellecôte"},
-    {"id": "champagny", "name": {"$p": "sector:paradiski.champagny"}, "base": {"$p": "resort:la-plagne"}, "cc": "FR", "lat": 45.455, "lon": 6.69, "lo": {"$f": "lo.champagny"}, "hi": {"$f": "hi.champagny"}, "link": "yes", "place": [16, 5, "start"], "short": "Champagny"},
-    {"id": "montchavin-les-coches", "name": {"$p": "sector:paradiski.montchavin-les-coches"}, "base": {"$p": "resort:la-plagne"}, "cc": "FR", "lat": 45.56, "lon": 6.72, "lo": {"$f": "lo.montchavin-les-coches"}, "hi": {"$f": "hi.montchavin-les-coches"}, "link": "yes", "place": [0, -20, "middle"], "short": "Montchavin"},
-    {"id": "peisey-vallandry", "name": {"$p": "sector:paradiski.peisey-vallandry"}, "base": {"$p": "resort:peisey-vallandry"}, "cc": "FR", "lat": 45.553, "lon": 6.775, "lo": {"$f": "lo.peisey-vallandry"}, "hi": {"$f": "hi.peisey-vallandry"}, "link": "yes", "place": [0, 32, "middle"], "short": "Peisey"},
-    {"id": "arc-1600", "name": {"$p": "sector:paradiski.arc-1600"}, "base": {"$p": "resort:les-arcs"}, "cc": "FR", "lat": 45.61, "lon": 6.785, "lo": {"$f": "lo.arc-1600"}, "hi": {"$f": "hi.arc-1600"}, "link": "yes", "place": [0, -20, "middle"]},
-    {"id": "arc-1800", "name": {"$p": "sector:paradiski.arc-1800"}, "base": {"$p": "resort:les-arcs"}, "cc": "FR", "lat": 45.58, "lon": 6.815, "lo": {"$f": "lo.arc-1800"}, "hi": {"$f": "hi.arc-1800"}, "link": "yes", "place": [-16, -10, "end"]},
-    {"id": "arc-2000", "name": {"$p": "sector:paradiski.arc-2000"}, "base": {"$p": "resort:les-arcs"}, "cc": "FR", "lat": 45.565, "lon": 6.865, "lo": {"$f": "lo.arc-2000"}, "hi": {"$f": "hi.arc-2000"}, "link": "yes", "place": [0, 32, "middle"]},
-    {"id": "villaroger", "name": {"$p": "sector:paradiski.villaroger"}, "base": {"$p": "resort:les-arcs"}, "cc": "FR", "lat": 45.605, "lon": 6.885, "lo": {"$f": "lo.villaroger"}, "hi": {"$f": "hi.villaroger"}, "link": "yes", "place": [0, -20, "middle"]}
+    {
+      "id": "montalbert",
+      "name": {
+        "$p": "sector:paradiski.montalbert"
+      },
+      "base": {
+        "$p": "resort:la-plagne"
+      },
+      "cc": "FR",
+      "lat": 45.545,
+      "lon": 6.63,
+      "lo": {
+        "$f": "lo.montalbert"
+      },
+      "hi": {
+        "$f": "hi.montalbert"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        -20,
+        "middle"
+      ]
+    },
+    {
+      "id": "plagne-centre",
+      "name": {
+        "$p": "sector:paradiski.plagne-centre"
+      },
+      "base": {
+        "$p": "resort:la-plagne"
+      },
+      "cc": "FR",
+      "lat": 45.505,
+      "lon": 6.66,
+      "lo": {
+        "$f": "lo.plagne-centre"
+      },
+      "hi": {
+        "$f": "hi.plagne-centre"
+      },
+      "link": "yes",
+      "place": [
+        -16,
+        5,
+        "end"
+      ]
+    },
+    {
+      "id": "bellecote",
+      "name": {
+        "$p": "sector:paradiski.bellecote"
+      },
+      "base": {
+        "$p": "resort:la-plagne"
+      },
+      "cc": "FR",
+      "lat": 45.515,
+      "lon": 6.715,
+      "lo": {
+        "$f": "lo.bellecote"
+      },
+      "hi": {
+        "$f": "hi.bellecote"
+      },
+      "link": "yes",
+      "place": [
+        16,
+        5,
+        "start"
+      ],
+      "short": "Bellecôte"
+    },
+    {
+      "id": "champagny",
+      "name": {
+        "$p": "sector:paradiski.champagny"
+      },
+      "base": {
+        "$p": "resort:la-plagne"
+      },
+      "cc": "FR",
+      "lat": 45.455,
+      "lon": 6.69,
+      "lo": {
+        "$f": "lo.champagny"
+      },
+      "hi": {
+        "$f": "hi.champagny"
+      },
+      "link": "yes",
+      "place": [
+        16,
+        5,
+        "start"
+      ],
+      "short": "Champagny"
+    },
+    {
+      "id": "montchavin-les-coches",
+      "name": {
+        "$p": "sector:paradiski.montchavin-les-coches"
+      },
+      "base": {
+        "$p": "resort:la-plagne"
+      },
+      "cc": "FR",
+      "lat": 45.56,
+      "lon": 6.72,
+      "lo": {
+        "$f": "lo.montchavin-les-coches"
+      },
+      "hi": {
+        "$f": "hi.montchavin-les-coches"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        -20,
+        "middle"
+      ],
+      "short": "Montchavin"
+    },
+    {
+      "id": "peisey-vallandry",
+      "name": {
+        "$p": "sector:paradiski.peisey-vallandry"
+      },
+      "base": {
+        "$p": "resort:peisey-vallandry"
+      },
+      "cc": "FR",
+      "lat": 45.553,
+      "lon": 6.775,
+      "lo": {
+        "$f": "lo.peisey-vallandry"
+      },
+      "hi": {
+        "$f": "hi.peisey-vallandry"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        32,
+        "middle"
+      ],
+      "short": "Peisey"
+    },
+    {
+      "id": "arc-1600",
+      "name": {
+        "$p": "sector:paradiski.arc-1600"
+      },
+      "base": {
+        "$p": "resort:les-arcs"
+      },
+      "cc": "FR",
+      "lat": 45.61,
+      "lon": 6.785,
+      "lo": {
+        "$f": "lo.arc-1600"
+      },
+      "hi": {
+        "$f": "hi.arc-1600"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        -20,
+        "middle"
+      ]
+    },
+    {
+      "id": "arc-1800",
+      "name": {
+        "$p": "sector:paradiski.arc-1800"
+      },
+      "base": {
+        "$p": "resort:les-arcs"
+      },
+      "cc": "FR",
+      "lat": 45.58,
+      "lon": 6.815,
+      "lo": {
+        "$f": "lo.arc-1800"
+      },
+      "hi": {
+        "$f": "hi.arc-1800"
+      },
+      "link": "yes",
+      "place": [
+        -16,
+        -10,
+        "end"
+      ]
+    },
+    {
+      "id": "arc-2000",
+      "name": {
+        "$p": "sector:paradiski.arc-2000"
+      },
+      "base": {
+        "$p": "resort:les-arcs"
+      },
+      "cc": "FR",
+      "lat": 45.565,
+      "lon": 6.865,
+      "lo": {
+        "$f": "lo.arc-2000"
+      },
+      "hi": {
+        "$f": "hi.arc-2000"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        32,
+        "middle"
+      ]
+    },
+    {
+      "id": "villaroger",
+      "name": {
+        "$p": "sector:paradiski.villaroger"
+      },
+      "base": {
+        "$p": "resort:les-arcs"
+      },
+      "cc": "FR",
+      "lat": 45.605,
+      "lon": 6.885,
+      "lo": {
+        "$f": "lo.villaroger"
+      },
+      "hi": {
+        "$f": "hi.villaroger"
+      },
+      "link": "yes",
+      "place": [
+        0,
+        -20,
+        "middle"
+      ]
+    }
   ],
   "links": [
-    ["montalbert", "plagne-centre", "lift", true, "Montalbert gondola"],
-    ["plagne-centre", "bellecote", "lift", false, ""],
-    ["plagne-centre", "champagny", "lift", false, ""],
-    ["bellecote", "champagny", "lift", false, ""],
-    ["bellecote", "montchavin-les-coches", "lift", false, "Lac Noir and Bijolin"],
-    ["montchavin-les-coches", "peisey-vallandry", "lift", true, "Vanoise Express"],
-    ["peisey-vallandry", "arc-1800", "lift", true, "Peisey chair"],
-    ["arc-1600", "arc-1800", "lift", false, ""],
-    ["arc-1800", "arc-2000", "lift", false, "Transarc"],
-    ["arc-2000", "villaroger", "lift", false, ""]
+    [
+      "montalbert",
+      "plagne-centre",
+      "lift",
+      true,
+      "Montalbert gondola"
+    ],
+    [
+      "plagne-centre",
+      "bellecote",
+      "lift",
+      false,
+      ""
+    ],
+    [
+      "plagne-centre",
+      "champagny",
+      "lift",
+      false,
+      ""
+    ],
+    [
+      "bellecote",
+      "champagny",
+      "lift",
+      false,
+      ""
+    ],
+    [
+      "bellecote",
+      "montchavin-les-coches",
+      "lift",
+      false,
+      "Lac Noir and Bijolin"
+    ],
+    [
+      "montchavin-les-coches",
+      "peisey-vallandry",
+      "lift",
+      true,
+      "Vanoise Express"
+    ],
+    [
+      "peisey-vallandry",
+      "arc-1800",
+      "lift",
+      true,
+      "Peisey chair"
+    ],
+    [
+      "arc-1600",
+      "arc-1800",
+      "lift",
+      false,
+      ""
+    ],
+    [
+      "arc-1800",
+      "arc-2000",
+      "lift",
+      false,
+      "Transarc"
+    ],
+    [
+      "arc-2000",
+      "villaroger",
+      "lift",
+      false,
+      ""
+    ]
   ],
   "mapNotes": [
-    {"lat": 45.582, "lon": 6.893, "text": "Aiguille Rouge"},
-    {"lat": 45.487, "lon": 6.722, "text": "Roche de Mio"}
+    {
+      "lat": 45.582,
+      "lon": 6.893,
+      "text": "Aiguille Rouge"
+    },
+    {
+      "lat": 45.487,
+      "lon": 6.722,
+      "text": "Roche de Mio"
+    }
   ],
-  "mapBox": {"lon0": 6.58, "lon1": 6.92, "lat0": 45.43, "lat1": 45.63},
+  "mapBox": {
+    "lon0": 6.58,
+    "lon1": 6.92,
+    "lat0": 45.43,
+    "lat1": 45.63
+  },
   "routes": {
     "h3": "Five sample days",
     "intro": "Each trip is counted in lift rides out and back, from the first lift base in each area, with the easiest grade of run that makes it in the map data. The counts start lower than the base table further down, which starts in the village. Time on the pistes, in queues and on foot is not included.",
     "rows": [
-      {"from": "Plagne Centre", "to": "Arc 2000", "out": {"$m": ["all", "plagne-centre", "arc-2000"]}, "back": {"$m": ["all", "arc-2000", "plagne-centre"]}, "grade": "Green and blue", "note": "Out over the Arpette and the Vanoise Express, home by the Bijolin and Colosses chairs."},
-      {"from": "Plagne Bellecôte", "to": "Arc 1800", "out": {"$m": ["all", "bellecote", "arc-1800"]}, "back": {"$m": ["all", "arc-1800", "bellecote"]}, "grade": "Green and blue", "note": "Out on the Vanoise Express and the Peisey chair; the way home adds the Lac Noir and Bijolin lifts above Montchavin."},
-      {"from": "Montchavin-Les Coches", "to": "Peisey-Vallandry", "out": {"$m": ["all", "montchavin-les-coches", "peisey-vallandry"]}, "back": {"$m": ["all", "peisey-vallandry", "montchavin-les-coches"]}, "grade": "Green and blue", "note": "A single ride on the Vanoise Express each way."},
-      {"from": "Arc 1800", "to": "Plagne Centre", "out": {"$m": ["all", "arc-1800", "plagne-centre"]}, "back": {"$m": ["all", "plagne-centre", "arc-1800"]}, "grade": "Green and blue", "note": "The way back takes one lift ride fewer than the way out."},
-      {"from": "Montalbert", "to": "Villaroger", "out": {"$m": ["all", "montalbert", "villaroger"]}, "back": {"$m": ["all", "villaroger", "montalbert"]}, "grade": "Green and blue", "note": "The two ends of the area: out by the Montalbert gondola and the Vanoise Express, back by the Comborcière chair and the same cable car."}
+      {
+        "from": "Plagne Centre",
+        "to": "Arc 2000",
+        "out": {
+          "$m": [
+            "all",
+            "plagne-centre",
+            "arc-2000"
+          ]
+        },
+        "back": {
+          "$m": [
+            "all",
+            "arc-2000",
+            "plagne-centre"
+          ]
+        },
+        "grade": "Green and blue",
+        "note": "Out over the Arpette and the Vanoise Express, home by the Bijolin and Colosses chairs."
+      },
+      {
+        "from": "Plagne Bellecôte",
+        "to": "Arc 1800",
+        "out": {
+          "$m": [
+            "all",
+            "bellecote",
+            "arc-1800"
+          ]
+        },
+        "back": {
+          "$m": [
+            "all",
+            "arc-1800",
+            "bellecote"
+          ]
+        },
+        "grade": "Green and blue",
+        "note": "Out on the Vanoise Express and the Peisey chair; the way home adds the Lac Noir and Bijolin lifts above Montchavin."
+      },
+      {
+        "from": "Montchavin-Les Coches",
+        "to": "Peisey-Vallandry",
+        "out": {
+          "$m": [
+            "all",
+            "montchavin-les-coches",
+            "peisey-vallandry"
+          ]
+        },
+        "back": {
+          "$m": [
+            "all",
+            "peisey-vallandry",
+            "montchavin-les-coches"
+          ]
+        },
+        "grade": "Green and blue",
+        "note": "A single ride on the Vanoise Express each way."
+      },
+      {
+        "from": "Arc 1800",
+        "to": "Plagne Centre",
+        "out": {
+          "$m": [
+            "all",
+            "arc-1800",
+            "plagne-centre"
+          ]
+        },
+        "back": {
+          "$m": [
+            "all",
+            "plagne-centre",
+            "arc-1800"
+          ]
+        },
+        "grade": "Green and blue",
+        "note": "The way back takes one lift ride fewer than the way out."
+      },
+      {
+        "from": "Montalbert",
+        "to": "Villaroger",
+        "out": {
+          "$m": [
+            "all",
+            "montalbert",
+            "villaroger"
+          ]
+        },
+        "back": {
+          "$m": [
+            "all",
+            "villaroger",
+            "montalbert"
+          ]
+        },
+        "grade": "Green and blue",
+        "note": "The two ends of the area: out by the Montalbert gondola and the Vanoise Express, back by the Comborcière chair and the same cable car."
+      }
     ],
     "after": "Every one of these days works on green and blue runs alone. Only from Champagny-en-Vanoise does a black run save a lift ride, and only on the way to the Les Arcs side.",
-    "ev": ["P020"]
+    "ev": [
+      "P020"
+    ]
   },
   "areas": {
     "h2": "The ten sectors compared",
     "intro": "The pass covers villages built for skiing high on the mountain, such as Belle Plagne and Arc 2000, and older villages lower down, such as Montchavin, Champagny, Peisey and Villaroger, whose lowest lifts start between {{f:lo.villaroger|n}} and {{f:lo.peisey-vallandry}}. Where a sector sits relative to the Vanoise Express decides how quickly the other resort can be reached.",
     "caption": "Sectors on the Paradiski pass",
+    "nameLabel": "Sector",
+    "navLabel": "Sectors",
     "rows": [
-      {"name": {"$p": "sector:paradiski.montalbert"}, "cc": {"$p": "country:fr"}, "net": "Linked to Plagne Centre by one gondola", "lo": {"$f": "lo.montalbert"}, "hi": {"$f": "hi.montalbert"}, "easy": {"$f": "easy.montalbert"}, "drag": {"$f": "drag.montalbert"}, "note": "The highest share of drag lifts in the area."},
-      {"name": {"$p": "sector:paradiski.plagne-centre"}, "cc": {"$p": "country:fr"}, "net": "Linked, the hub of La Plagne", "lo": {"$f": "lo.plagne-centre"}, "hi": {"$f": "hi.plagne-centre"}, "easy": {"$f": "easy.plagne-centre"}, "drag": {"$f": "drag.plagne-centre"}, "note": "More lifts than any other sector, and nearly half its main lifts are drags."},
-      {"name": {"$p": "sector:paradiski.bellecote"}, "cc": {"$p": "country:fr"}, "net": "Linked, below the Roche de Mio and the glacier", "lo": {"$f": "lo.bellecote"}, "hi": {"$f": "hi.bellecote"}, "easy": {"$f": "easy.bellecote"}, "drag": {"$f": "drag.bellecote"}, "note": "The highest share of green and blue in the area, and the Glaciers gondola."},
-      {"name": {"$p": "sector:paradiski.champagny"}, "cc": {"$p": "country:fr"}, "net": "Linked over the ridge from Plagne Centre", "lo": {"$f": "lo.champagny"}, "hi": {"$f": "hi.champagny"}, "easy": {"$f": "easy.champagny"}, "drag": {"$f": "drag.champagny"}, "note": "The lowest share of green and blue in the area."},
-      {"name": {"$p": "sector:paradiski.montchavin-les-coches"}, "cc": {"$p": "country:fr"}, "net": "Linked; La Plagne end of the Vanoise Express", "lo": {"$f": "lo.montchavin-les-coches"}, "hi": {"$f": "hi.montchavin-les-coches"}, "easy": {"$f": "easy.montchavin-les-coches"}, "drag": {"$f": "drag.montchavin-les-coches"}, "note": "The lowest lift base in La Plagne."},
-      {"name": {"$p": "sector:paradiski.peisey-vallandry"}, "cc": {"$p": "country:fr"}, "net": "Linked; Les Arcs end of the Vanoise Express", "lo": {"$f": "lo.peisey-vallandry"}, "hi": {"$f": "hi.peisey-vallandry"}, "easy": {"$f": "easy.peisey-vallandry"}, "drag": {"$f": "drag.peisey-vallandry"}, "note": "A gondola with {{f:lonzagne_cap|w}} seats a cabin replaces the Lonzagne lift from Peisey village this Christmas."},
-      {"name": {"$p": "sector:paradiski.arc-1600"}, "cc": {"$p": "country:fr"}, "net": "Linked; top of the funicular from Bourg-Saint-Maurice", "lo": {"$f": "lo.arc-1600"}, "hi": {"$f": "hi.arc-1600"}, "easy": {"$f": "easy.arc-1600"}, "drag": {"$f": "drag.arc-1600"}, "note": "The first of the Arc villages, opened in {{f:la_1600}}, with the SPARK snowpark."},
-      {"name": {"$p": "sector:paradiski.arc-1800"}, "cc": {"$p": "country:fr"}, "net": "Linked, the centre of Les Arcs", "lo": {"$f": "lo.arc-1800"}, "hi": {"$f": "hi.arc-1800"}, "easy": {"$f": "easy.arc-1800"}, "drag": {"$f": "drag.arc-1800"}, "note": "The fewest drag lifts of any sector."},
-      {"name": {"$p": "sector:paradiski.arc-2000"}, "cc": {"$p": "country:fr"}, "net": "Linked, the highest village of Les Arcs", "lo": {"$f": "lo.arc-2000"}, "hi": {"$f": "hi.arc-2000"}, "easy": {"$f": "easy.arc-2000"}, "drag": {"$f": "drag.arc-2000"}, "note": "The Aiguille Rouge cable car reaches the highest lift top in the area."},
-      {"name": {"$p": "sector:paradiski.villaroger"}, "cc": {"$p": "country:fr"}, "net": "Linked, below the Aiguille Rouge", "lo": {"$f": "lo.villaroger"}, "hi": {"$f": "hi.villaroger"}, "easy": {"$f": "easy.villaroger"}, "drag": {"$f": "drag.villaroger"}, "note": "The lowest lift base in the area, at the foot of the long run from the Aiguille Rouge."}
+      {
+        "name": {
+          "$p": "sector:paradiski.montalbert"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked to Plagne Centre by one gondola",
+        "lo": {
+          "$f": "lo.montalbert"
+        },
+        "hi": {
+          "$f": "hi.montalbert"
+        },
+        "easy": {
+          "$f": "easy.montalbert"
+        },
+        "drag": {
+          "$f": "drag.montalbert"
+        },
+        "note": "The highest share of drag lifts in the area."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.plagne-centre"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked, the hub of La Plagne",
+        "lo": {
+          "$f": "lo.plagne-centre"
+        },
+        "hi": {
+          "$f": "hi.plagne-centre"
+        },
+        "easy": {
+          "$f": "easy.plagne-centre"
+        },
+        "drag": {
+          "$f": "drag.plagne-centre"
+        },
+        "note": "More lifts than any other sector, and nearly half its main lifts are drags."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.bellecote"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked, below the Roche de Mio and the glacier",
+        "lo": {
+          "$f": "lo.bellecote"
+        },
+        "hi": {
+          "$f": "hi.bellecote"
+        },
+        "easy": {
+          "$f": "easy.bellecote"
+        },
+        "drag": {
+          "$f": "drag.bellecote"
+        },
+        "note": "The highest share of green and blue in the area, and the Glaciers gondola."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.champagny"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked over the ridge from Plagne Centre",
+        "lo": {
+          "$f": "lo.champagny"
+        },
+        "hi": {
+          "$f": "hi.champagny"
+        },
+        "easy": {
+          "$f": "easy.champagny"
+        },
+        "drag": {
+          "$f": "drag.champagny"
+        },
+        "note": "The lowest share of green and blue in the area."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.montchavin-les-coches"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked; La Plagne end of the Vanoise Express",
+        "lo": {
+          "$f": "lo.montchavin-les-coches"
+        },
+        "hi": {
+          "$f": "hi.montchavin-les-coches"
+        },
+        "easy": {
+          "$f": "easy.montchavin-les-coches"
+        },
+        "drag": {
+          "$f": "drag.montchavin-les-coches"
+        },
+        "note": "The lowest lift base in La Plagne."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.peisey-vallandry"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked; Les Arcs end of the Vanoise Express",
+        "lo": {
+          "$f": "lo.peisey-vallandry"
+        },
+        "hi": {
+          "$f": "hi.peisey-vallandry"
+        },
+        "easy": {
+          "$f": "easy.peisey-vallandry"
+        },
+        "drag": {
+          "$f": "drag.peisey-vallandry"
+        },
+        "note": "A gondola with {{f:lonzagne_cap|w}} seats a cabin replaces the Lonzagne lift from Peisey village this Christmas."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.arc-1600"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked; top of the funicular from Bourg-Saint-Maurice",
+        "lo": {
+          "$f": "lo.arc-1600"
+        },
+        "hi": {
+          "$f": "hi.arc-1600"
+        },
+        "easy": {
+          "$f": "easy.arc-1600"
+        },
+        "drag": {
+          "$f": "drag.arc-1600"
+        },
+        "note": "The first of the Arc villages, opened in {{f:la_1600}}, with the SPARK snowpark."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.arc-1800"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked, the centre of Les Arcs",
+        "lo": {
+          "$f": "lo.arc-1800"
+        },
+        "hi": {
+          "$f": "hi.arc-1800"
+        },
+        "easy": {
+          "$f": "easy.arc-1800"
+        },
+        "drag": {
+          "$f": "drag.arc-1800"
+        },
+        "note": "The fewest drag lifts of any sector."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.arc-2000"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked, the highest village of Les Arcs",
+        "lo": {
+          "$f": "lo.arc-2000"
+        },
+        "hi": {
+          "$f": "hi.arc-2000"
+        },
+        "easy": {
+          "$f": "easy.arc-2000"
+        },
+        "drag": {
+          "$f": "drag.arc-2000"
+        },
+        "note": "The Aiguille Rouge cable car reaches the highest lift top in the area."
+      },
+      {
+        "name": {
+          "$p": "sector:paradiski.villaroger"
+        },
+        "cc": {
+          "$p": "country:fr"
+        },
+        "net": "Linked, below the Aiguille Rouge",
+        "lo": {
+          "$f": "lo.villaroger"
+        },
+        "hi": {
+          "$f": "hi.villaroger"
+        },
+        "easy": {
+          "$f": "easy.villaroger"
+        },
+        "drag": {
+          "$f": "drag.villaroger"
+        },
+        "note": "The lowest lift base in the area, at the foot of the long run from the Aiguille Rouge."
+      }
     ],
     "note": "From the OpenStreetMap lift and piste data (snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. Green and blue is the share of mapped piste length; drag lifts include platters and T bars as a share of the main lifts. Mapped piste is incomplete, so the shares are useful for comparing sectors but not as totals, and they are being checked against the official 2026/27 piste map."
   },
@@ -111,7 +790,15 @@
     ],
     "matrixTitle": "Lift rides between the areas, and the grade they need",
     "matrixNote": "Rows are where the day starts, columns where it goes. Every cell can be reached on green and blue runs and shows the fewest lift rides on those runs. From the OpenStreetMap piste grades, snapshot 24 October 2026; untagged or wrongly tagged runs can distort the result, and each one is being checked against the official map.",
-    "ev": ["P003", "P004", "P010", "P011", "P020", "P023", "P024"]
+    "ev": [
+      "P003",
+      "P004",
+      "P010",
+      "P011",
+      "P020",
+      "P023",
+      "P024"
+    ]
   },
   "snow": {
     "h2": "Height decides the snow",
@@ -129,13 +816,28 @@
     "conditions": {
       "status": "<b>No conditions are reported here yet.</b> Both resorts are due to open on {{f:lp_opens}}. Until live data arrives, the official sources below give open lifts, pistes and forecasts.",
       "items": [
-        {"dt": "Lifts and pistes open", "dd": "<a href=\"https://en.la-plagne.com/opening-dates\">La Plagne</a> and <a href=\"https://www.lesarcs.com/en\">Les Arcs</a>"},
-        {"dt": "Mountain forecast", "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France mountain weather</a>"},
-        {"dt": "Avalanche danger", "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France bulletins</a> for the Savoie massifs, published daily in winter"}
+        {
+          "dt": "Lifts and pistes open",
+          "dd": "<a href=\"https://en.la-plagne.com/opening-dates\">La Plagne</a> and <a href=\"https://www.lesarcs.com/en\">Les Arcs</a>"
+        },
+        {
+          "dt": "Mountain forecast",
+          "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France mountain weather</a>"
+        },
+        {
+          "dt": "Avalanche danger",
+          "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France bulletins</a> for the Savoie massifs, published daily in winter"
+        }
       ],
       "safety": "Terrain beyond the marked pistes is not controlled. The avalanche bulletin and local advice take precedence over anything on this page."
     },
-    "ev": ["P003", "P004", "P005", "P020", "P030"]
+    "ev": [
+      "P003",
+      "P004",
+      "P005",
+      "P020",
+      "P030"
+    ]
   },
   "pass": {
     "h2": "Does the Paradiski pass pay?",
@@ -146,29 +848,85 @@
     "table": {
       "caption": "Single resort pass against Paradiski pass, adult, 2026/27",
       "rows": [
-        ["La Plagne, six days", "{{f:lp_6d}}", "{{f:F000066}}", "{{diff:F000066,lp_6d}}"],
-        ["Les Arcs and Peisey-Vallandry, six days", "{{f:la_6d}}", "{{f:F000066}}", "{{diff:F000066,la_6d}}"],
-        ["La Plagne, one day", "{{f:lp_1d}}", "{{f:F000065}}", "{{diff:F000065,lp_1d}}"],
-        ["Les Arcs and Peisey-Vallandry, one day", "{{f:la_1d}}", "{{f:F000065}}", "{{diff:F000065,la_1d}}"]
+        [
+          "La Plagne, six days",
+          "{{f:lp_6d}}",
+          "{{f:F000066}}",
+          "{{diff:F000066,lp_6d}}"
+        ],
+        [
+          "Les Arcs and Peisey-Vallandry, six days",
+          "{{f:la_6d}}",
+          "{{f:F000066}}",
+          "{{diff:F000066,la_6d}}"
+        ],
+        [
+          "La Plagne, one day",
+          "{{f:lp_1d}}",
+          "{{f:F000065}}",
+          "{{diff:F000065,lp_1d}}"
+        ],
+        [
+          "Les Arcs and Peisey-Vallandry, one day",
+          "{{f:la_1d}}",
+          "{{f:F000065}}",
+          "{{diff:F000065,la_1d}}"
+        ]
       ],
       "note": "Sources: <a href=\"https://guide-ski.fr/?p=1230\">Guide Ski</a> for La Plagne, <a href=\"https://www.lesarcs-peiseyvallandry.com/en/forfaits_offre\">Les Arcs and Peisey-Vallandry</a>, and <a href=\"https://www.alti-mag.com/tarifs-forfaits-de-ski/tarifs-forfaits-ski-alpes/tarifs-forfaits-ski-alpes-du-nord\">Alti-Mag</a> for the Paradiski pass, at the same prices the two resorts publish."
     },
     "coverageTitle": "What the pass covers",
     "coverage": [
-      {"label": "Linked both ways by lift and piste", "kind": "yes", "items": ["La Plagne, with Montalbert, Champagny-en-Vanoise and Montchavin-Les Coches", "Les Arcs, with Arc 1600, Arc 1800, Arc 1950, Arc 2000 and Villaroger", "Peisey-Vallandry"]},
-      {"label": "Reached from the valley by funicular", "kind": "oneway", "items": ["Bourg-Saint-Maurice, by the Arc en Ciel funicular to Arc 1600"]}
+      {
+        "label": "Linked both ways by lift and piste",
+        "kind": "yes",
+        "items": [
+          "La Plagne, with Montalbert, Champagny-en-Vanoise and Montchavin-Les Coches",
+          "Les Arcs, with Arc 1600, Arc 1800, Arc 1950, Arc 2000 and Villaroger",
+          "Peisey-Vallandry"
+        ]
+      },
+      {
+        "label": "Reached from the valley by funicular",
+        "kind": "oneway",
+        "items": [
+          "Bourg-Saint-Maurice, by the Arc en Ciel funicular to Arc 1600"
+        ]
+      }
     ],
     "scenariosTitle": "Which pass for which trip",
     "scenarios": [
-      {"who": "A week in La Plagne", "what": "The Paradiski pass costs {{diff:F000066,lp_6d}} more, and from Plagne Bellecôte, Arc 1800 is {{m:all.bellecote.arc-1800|w}} lift rides away."},
-      {"who": "A week in Les Arcs", "what": "The Paradiski pass costs {{diff:F000066,la_6d}} more; from Arc 1800, Plagne Centre takes {{m:all.arc-1800.plagne-centre|w}} lift rides, so La Plagne is a full day out."},
-      {"who": "Families", "what": "A child's six day Paradiski pass costs {{f:par_c6d}}. The Pack Famille takes {{f:family_pack}} off each pass when two adults and at least two children buy four Paradiski passes of six to eight days together."},
-      {"who": "Early season", "what": "From {{f:lp_red_start|dm}} to {{f:lp_red_end|dm}} the six day La Plagne pass falls to {{f:lp_red6}}."},
-      {"who": "Late season", "what": "After {{f:ve_closes|dm}} the Vanoise Express has stopped, and a local pass covers all the skiing that can be reached on skis."},
-      {"who": "Extras", "what": "The Premium pass from Les Arcs costs {{diff:prem_6d,F000066}} more than the standard Paradiski week and includes unlimited sledging on the Luge 1800 and the Luge 2000."}
+      {
+        "who": "A week in La Plagne",
+        "what": "The Paradiski pass costs {{diff:F000066,lp_6d}} more, and from Plagne Bellecôte, Arc 1800 is {{m:all.bellecote.arc-1800|w}} lift rides away."
+      },
+      {
+        "who": "A week in Les Arcs",
+        "what": "The Paradiski pass costs {{diff:F000066,la_6d}} more; from Arc 1800, Plagne Centre takes {{m:all.arc-1800.plagne-centre|w}} lift rides, so La Plagne is a full day out."
+      },
+      {
+        "who": "Families",
+        "what": "A child's six day Paradiski pass costs {{f:par_c6d}}. The Pack Famille takes {{f:family_pack}} off each pass when two adults and at least two children buy four Paradiski passes of six to eight days together."
+      },
+      {
+        "who": "Early season",
+        "what": "From {{f:lp_red_start|dm}} to {{f:lp_red_end|dm}} the six day La Plagne pass falls to {{f:lp_red6}}."
+      },
+      {
+        "who": "Late season",
+        "what": "After {{f:ve_closes|dm}} the Vanoise Express has stopped, and a local pass covers all the skiing that can be reached on skis."
+      },
+      {
+        "who": "Extras",
+        "what": "The Premium pass from Les Arcs costs {{diff:prem_6d,F000066}} more than the standard Paradiski week and includes unlimited sledging on the Luge 1800 and the Luge 2000."
+      }
     ],
     "after": "On the La Plagne prices, children are 5 to 12 and seniors 65 to 74, and both pay the child rate. The season opens on {{f:lp_opens}}.",
-    "ev": ["P002", "P003", "P004"]
+    "ev": [
+      "P002",
+      "P003",
+      "P004"
+    ]
   },
   "access": {
     "h2": "Getting there and choosing a base",
@@ -183,21 +941,191 @@
       "The corners pay for their quiet in lifts. From Montalbert, Arc 2000 takes {{f:b.montalbert.arc-2000|w}} lift rides, and from Villaroger, Plagne Centre takes {{f:b.villaroger.plagne-centre|w}}. Arc 2000 is the base for the highest skiing, with a lift top above 3,000 m {{f:b.arc-2000.top3000|w}} rides from the village."
     ],
     "basesCaption": "Lift rides from each base",
-    "baseCols": ["To Plagne Centre", "To Arc 1800", "To Arc 2000", "To a lift top above 3,000 m"],
+    "baseCols": [
+      "To Plagne Centre",
+      "To Arc 1800",
+      "To Arc 2000",
+      "To a lift top above 3,000 m"
+    ],
     "bases": [
-      {"base": "Plagne Centre", "v": [{"$f": "b.plagne-centre.plagne-centre"}, {"$f": "b.plagne-centre.arc-1800"}, {"$f": "b.plagne-centre.arc-2000"}, {"$f": "b.plagne-centre.top3000"}]},
-      {"base": "Plagne Bellecôte", "v": [{"$f": "b.bellecote.plagne-centre"}, {"$f": "b.bellecote.arc-1800"}, {"$f": "b.bellecote.arc-2000"}, {"$f": "b.bellecote.top3000"}]},
-      {"base": "Montchavin-Les Coches", "v": [{"$f": "b.montchavin-les-coches.plagne-centre"}, {"$f": "b.montchavin-les-coches.arc-1800"}, {"$f": "b.montchavin-les-coches.arc-2000"}, {"$f": "b.montchavin-les-coches.top3000"}]},
-      {"base": "Peisey-Vallandry", "v": [{"$f": "b.peisey-vallandry.plagne-centre"}, {"$f": "b.peisey-vallandry.arc-1800"}, {"$f": "b.peisey-vallandry.arc-2000"}, {"$f": "b.peisey-vallandry.top3000"}]},
-      {"base": "Arc 1800", "v": [{"$f": "b.arc-1800.plagne-centre"}, {"$f": "b.arc-1800.arc-1800"}, {"$f": "b.arc-1800.arc-2000"}, {"$f": "b.arc-1800.top3000"}]},
-      {"base": "Arc 2000", "v": [{"$f": "b.arc-2000.plagne-centre"}, {"$f": "b.arc-2000.arc-1800"}, {"$f": "b.arc-2000.arc-2000"}, {"$f": "b.arc-2000.top3000"}]},
-      {"base": "Arc 1600", "v": [{"$f": "b.arc-1600.plagne-centre"}, {"$f": "b.arc-1600.arc-1800"}, {"$f": "b.arc-1600.arc-2000"}, {"$f": "b.arc-1600.top3000"}]},
-      {"base": "Montalbert", "v": [{"$f": "b.montalbert.plagne-centre"}, {"$f": "b.montalbert.arc-1800"}, {"$f": "b.montalbert.arc-2000"}, {"$f": "b.montalbert.top3000"}]},
-      {"base": "Champagny-en-Vanoise", "v": [{"$f": "b.champagny.plagne-centre"}, {"$f": "b.champagny.arc-1800"}, {"$f": "b.champagny.arc-2000"}, {"$f": "b.champagny.top3000"}]},
-      {"base": "Villaroger", "v": [{"$f": "b.villaroger.plagne-centre"}, {"$f": "b.villaroger.arc-1800"}, {"$f": "b.villaroger.arc-2000"}, {"$f": "b.villaroger.top3000"}]}
+      {
+        "base": "Plagne Centre",
+        "v": [
+          {
+            "$f": "b.plagne-centre.plagne-centre"
+          },
+          {
+            "$f": "b.plagne-centre.arc-1800"
+          },
+          {
+            "$f": "b.plagne-centre.arc-2000"
+          },
+          {
+            "$f": "b.plagne-centre.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Plagne Bellecôte",
+        "v": [
+          {
+            "$f": "b.bellecote.plagne-centre"
+          },
+          {
+            "$f": "b.bellecote.arc-1800"
+          },
+          {
+            "$f": "b.bellecote.arc-2000"
+          },
+          {
+            "$f": "b.bellecote.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Montchavin-Les Coches",
+        "v": [
+          {
+            "$f": "b.montchavin-les-coches.plagne-centre"
+          },
+          {
+            "$f": "b.montchavin-les-coches.arc-1800"
+          },
+          {
+            "$f": "b.montchavin-les-coches.arc-2000"
+          },
+          {
+            "$f": "b.montchavin-les-coches.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Peisey-Vallandry",
+        "v": [
+          {
+            "$f": "b.peisey-vallandry.plagne-centre"
+          },
+          {
+            "$f": "b.peisey-vallandry.arc-1800"
+          },
+          {
+            "$f": "b.peisey-vallandry.arc-2000"
+          },
+          {
+            "$f": "b.peisey-vallandry.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Arc 1800",
+        "v": [
+          {
+            "$f": "b.arc-1800.plagne-centre"
+          },
+          {
+            "$f": "b.arc-1800.arc-1800"
+          },
+          {
+            "$f": "b.arc-1800.arc-2000"
+          },
+          {
+            "$f": "b.arc-1800.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Arc 2000",
+        "v": [
+          {
+            "$f": "b.arc-2000.plagne-centre"
+          },
+          {
+            "$f": "b.arc-2000.arc-1800"
+          },
+          {
+            "$f": "b.arc-2000.arc-2000"
+          },
+          {
+            "$f": "b.arc-2000.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Arc 1600",
+        "v": [
+          {
+            "$f": "b.arc-1600.plagne-centre"
+          },
+          {
+            "$f": "b.arc-1600.arc-1800"
+          },
+          {
+            "$f": "b.arc-1600.arc-2000"
+          },
+          {
+            "$f": "b.arc-1600.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Montalbert",
+        "v": [
+          {
+            "$f": "b.montalbert.plagne-centre"
+          },
+          {
+            "$f": "b.montalbert.arc-1800"
+          },
+          {
+            "$f": "b.montalbert.arc-2000"
+          },
+          {
+            "$f": "b.montalbert.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Champagny-en-Vanoise",
+        "v": [
+          {
+            "$f": "b.champagny.plagne-centre"
+          },
+          {
+            "$f": "b.champagny.arc-1800"
+          },
+          {
+            "$f": "b.champagny.arc-2000"
+          },
+          {
+            "$f": "b.champagny.top3000"
+          }
+        ]
+      },
+      {
+        "base": "Villaroger",
+        "v": [
+          {
+            "$f": "b.villaroger.plagne-centre"
+          },
+          {
+            "$f": "b.villaroger.arc-1800"
+          },
+          {
+            "$f": "b.villaroger.arc-2000"
+          },
+          {
+            "$f": "b.villaroger.top3000"
+          }
+        ]
+      }
     ],
     "basesNote": "Fewest lift rides from the village lifts before reaching the first lift of each area, on the OpenStreetMap model. Times are not included.",
-    "ev": ["P020", "P040", "P041", "P003"]
+    "ev": [
+      "P020",
+      "P040",
+      "P041",
+      "P003"
+    ]
   },
   "chapters": [
     {
@@ -212,12 +1140,36 @@
       ],
       "listTitle": "Parks and places to ride",
       "items": [
-        {"place": "poi:spark-snowpark", "where": "Arc 1600", "text": "The snowpark of Les Arcs, in the oldest of the Arc villages."},
-        {"place": "poi:col-de-la-chal-boardercross", "where": "Col de la Chal, Arc 2000", "text": "A boardercross on the high side of Les Arcs."},
-        {"place": "poi:riders-nation", "where": "La Plagne", "text": "The main snowpark of La Plagne."},
-        {"place": "poi:funslope-la-plagne", "where": "Plagne Bellecôte", "text": "Described by Guide Ski as the longest of its kind in Europe."},
-        {"place": "poi:champagny-boardercross", "where": "Champagny-en-Vanoise", "text": "One of two in La Plagne, and a way down to the Roc des Blanchets."},
-        {"place": "poi:montchavin-boardercross", "where": "Montchavin-Les Coches", "text": "The second boardercross of La Plagne."}
+        {
+          "place": "poi:spark-snowpark",
+          "where": "Arc 1600",
+          "text": "The snowpark of Les Arcs, in the oldest of the Arc villages."
+        },
+        {
+          "place": "poi:col-de-la-chal-boardercross",
+          "where": "Col de la Chal, Arc 2000",
+          "text": "A boardercross on the high side of Les Arcs."
+        },
+        {
+          "place": "poi:riders-nation",
+          "where": "La Plagne",
+          "text": "The main snowpark of La Plagne."
+        },
+        {
+          "place": "poi:funslope-la-plagne",
+          "where": "Plagne Bellecôte",
+          "text": "Described by Guide Ski as the longest of its kind in Europe."
+        },
+        {
+          "place": "poi:champagny-boardercross",
+          "where": "Champagny-en-Vanoise",
+          "text": "One of two in La Plagne, and a way down to the Roc des Blanchets."
+        },
+        {
+          "place": "poi:montchavin-boardercross",
+          "where": "Montchavin-Les Coches",
+          "text": "The second boardercross of La Plagne."
+        }
       ],
       "note": "Parks: <a href=\"https://guide-ski.fr/?p=4292\">Guide Ski for Les Arcs</a> and <a href=\"https://guide-ski.fr/?p=1230\">for La Plagne</a>; the Champagny boardercross route: <a href=\"https://www.igluski.com/blog/post/best-mountain-restaurants-la-plagne\">Iglu Ski</a>; the Aiguille Rouge run: <a href=\"https://www.lesarcs.com/en/node/2770/aiguille-rouge\">Les Arcs</a>. Drag lift shares from OpenStreetMap. Park layouts change every season."
     },
@@ -234,13 +1186,41 @@
       ],
       "listTitle": "For children",
       "items": [
-        {"place": "poi:coolski-belle-plagne", "where": "Near Belle Plagne", "text": "Learner area with free lifts and marked circuits."},
-        {"place": "poi:buffalo-kids", "where": "La Plagne", "text": "A play area on the snow for children."},
-        {"place": "poi:family-spa-belle-plagne", "where": "Belle Plagne", "text": "A spa for children and adults with an outdoor pool."},
-        {"place": "poi:la-plagne-bobsleigh", "where": "La Plagne", "text": "The Olympic track, the only one in France."},
-        {"place": "poi:piste-des-minis", "where": "Arc 1800", "text": "A slope for the smallest skiers."},
-        {"place": "poi:foret-des-pitchouns", "where": "Vallandry", "text": "A learner area among the trees."},
-        {"place": "poi:luge-1800", "where": "Arc 1800", "text": "A sledging run, unlimited on the Premium pass."}
+        {
+          "place": "poi:coolski-belle-plagne",
+          "where": "Near Belle Plagne",
+          "text": "Learner area with free lifts and marked circuits."
+        },
+        {
+          "place": "poi:buffalo-kids",
+          "where": "La Plagne",
+          "text": "A play area on the snow for children."
+        },
+        {
+          "place": "poi:family-spa-belle-plagne",
+          "where": "Belle Plagne",
+          "text": "A spa for children and adults with an outdoor pool."
+        },
+        {
+          "place": "poi:la-plagne-bobsleigh",
+          "where": "La Plagne",
+          "text": "The Olympic track, the only one in France."
+        },
+        {
+          "place": "poi:piste-des-minis",
+          "where": "Arc 1800",
+          "text": "A slope for the smallest skiers."
+        },
+        {
+          "place": "poi:foret-des-pitchouns",
+          "where": "Vallandry",
+          "text": "A learner area among the trees."
+        },
+        {
+          "place": "poi:luge-1800",
+          "where": "Arc 1800",
+          "text": "A sledging run, unlimited on the Premium pass."
+        }
       ],
       "note": "Sources: <a href=\"https://www.france.fr/fr/article/label-ski-famille-plus/\">France.fr on Famille Plus</a> (updated October 2023), <a href=\"https://guide-ski.fr/?p=1230\">Guide Ski for La Plagne</a> and <a href=\"https://guide-ski.fr/?p=4292\">for Les Arcs</a>, <a href=\"https://www.inthesnow.com/la-plagne/for-families/\">InTheSnow</a> (2022) and <a href=\"https://www.lesarcs-peiseyvallandry.com/en/forfaits_offre\">Les Arcs lift passes</a>. Ages and opening times are best checked when booking."
     },
@@ -256,16 +1236,56 @@
       ],
       "listTitle": "Tables worth the detour",
       "items": [
-        {"place": "poi:roc-des-blanchets", "where": "Between Belle Plagne and Champagny", "text": "A south facing terrace above the valley."},
-        {"place": "poi:chalet-des-colosses", "where": "Plagne Bellecôte", "text": "Vegetarian dishes alongside fondue and tartiflette."},
-        {"place": "poi:les-inversens", "where": "Roche de Mio", "text": "A large terrace for groups."},
-        {"place": "poi:chalet-de-la-roche", "where": "Plagne 1500", "text": "Pizza at the foot of the bobsleigh track."},
-        {"place": "poi:chalet-des-verdons-sud", "where": "Champagny-en-Vanoise", "text": "Raclette and boîte chaude in a Savoyard chalet."},
-        {"place": "poi:chalet-du-friolin", "where": "Montchavin", "text": "Traditional cooking and wines chosen by its merchant."},
-        {"place": "poi:les-chalets-de-l-arc", "where": "Arc 2000", "text": "Bread and pastries baked on site."},
-        {"place": "poi:belliou-la-fumee", "where": "Les Arcs", "text": "Cooking over a fire in an old hunting lodge."},
-        {"place": "poi:l-ancolie-nancroix", "where": "Nancroix", "text": "Reached off piste with a guide; booking essential."},
-        {"place": "poi:la-ferme-villaroger", "where": "Le Pré, Villaroger", "text": "Fondue after the run from the Aiguille Rouge."}
+        {
+          "place": "poi:roc-des-blanchets",
+          "where": "Between Belle Plagne and Champagny",
+          "text": "A south facing terrace above the valley."
+        },
+        {
+          "place": "poi:chalet-des-colosses",
+          "where": "Plagne Bellecôte",
+          "text": "Vegetarian dishes alongside fondue and tartiflette."
+        },
+        {
+          "place": "poi:les-inversens",
+          "where": "Roche de Mio",
+          "text": "A large terrace for groups."
+        },
+        {
+          "place": "poi:chalet-de-la-roche",
+          "where": "Plagne 1500",
+          "text": "Pizza at the foot of the bobsleigh track."
+        },
+        {
+          "place": "poi:chalet-des-verdons-sud",
+          "where": "Champagny-en-Vanoise",
+          "text": "Raclette and boîte chaude in a Savoyard chalet."
+        },
+        {
+          "place": "poi:chalet-du-friolin",
+          "where": "Montchavin",
+          "text": "Traditional cooking and wines chosen by its merchant."
+        },
+        {
+          "place": "poi:les-chalets-de-l-arc",
+          "where": "Arc 2000",
+          "text": "Bread and pastries baked on site."
+        },
+        {
+          "place": "poi:belliou-la-fumee",
+          "where": "Les Arcs",
+          "text": "Cooking over a fire in an old hunting lodge."
+        },
+        {
+          "place": "poi:l-ancolie-nancroix",
+          "where": "Nancroix",
+          "text": "Reached off piste with a guide; booking essential."
+        },
+        {
+          "place": "poi:la-ferme-villaroger",
+          "where": "Le Pré, Villaroger",
+          "text": "Fondue after the run from the Aiguille Rouge."
+        }
       ],
       "note": "Michelin 2026: <a href=\"https://presse.explore-savoie.com/les-tables-distinguees-2026/\">Savoie tourism</a>. Restaurants: <a href=\"https://www.igluski.com/blog/post/best-mountain-restaurants-la-plagne\">Iglu Ski</a> for La Plagne and <a href=\"https://snowcarbon.co.uk/ski-resorts/les-arcs/les-arcs-eat-drink-party\">Snowcarbon</a> for Les Arcs. Restaurants change hands and menus each season."
     },
@@ -281,14 +1301,46 @@
       ],
       "listTitle": "Where the evenings start",
       "items": [
-        {"place": "poi:la-folie-douce-les-arcs", "where": "Villards gondola, Arc 1800", "text": "A show from 2 pm and DJs from 3 to 5 pm."},
-        {"place": "poi:el-latino-loco", "where": "Arc 2000", "text": "Live music and fajitas."},
-        {"place": "poi:the-wool-socks-pub", "where": "Arc 1950", "text": "An Irish pub on the snow."},
-        {"place": "poi:le-carre-les-arcs", "where": "Les Arcs", "text": "The club for dancing until morning."},
-        {"place": "poi:monicas-pub", "where": "Plagne Soleil", "text": "By the Bergerie lift, reached from the Ecartés blue."},
-        {"place": "poi:igloo-igloo", "where": "Plagne Centre", "text": "Live music and DJ sets."},
-        {"place": "poi:bar-fort-colorado", "where": "Plagne Centre", "text": "A bar on the snow by the Colorado chair."},
-        {"place": "poi:la-mine-bar", "where": "Plagne 1800", "text": "A pub with live music and sport."}
+        {
+          "place": "poi:la-folie-douce-les-arcs",
+          "where": "Villards gondola, Arc 1800",
+          "text": "A show from 2 pm and DJs from 3 to 5 pm."
+        },
+        {
+          "place": "poi:el-latino-loco",
+          "where": "Arc 2000",
+          "text": "Live music and fajitas."
+        },
+        {
+          "place": "poi:the-wool-socks-pub",
+          "where": "Arc 1950",
+          "text": "An Irish pub on the snow."
+        },
+        {
+          "place": "poi:le-carre-les-arcs",
+          "where": "Les Arcs",
+          "text": "The club for dancing until morning."
+        },
+        {
+          "place": "poi:monicas-pub",
+          "where": "Plagne Soleil",
+          "text": "By the Bergerie lift, reached from the Ecartés blue."
+        },
+        {
+          "place": "poi:igloo-igloo",
+          "where": "Plagne Centre",
+          "text": "Live music and DJ sets."
+        },
+        {
+          "place": "poi:bar-fort-colorado",
+          "where": "Plagne Centre",
+          "text": "A bar on the snow by the Colorado chair."
+        },
+        {
+          "place": "poi:la-mine-bar",
+          "where": "Plagne 1800",
+          "text": "A pub with live music and sport."
+        }
       ],
       "note": "Sources: <a href=\"https://www.seelaplagne.com/news/la-folie-douce-lands-in-la-plagne-winter-201920-la-plagne-region-729376\">See La Plagne on La Folie Douce</a> (October 2019), <a href=\"https://snowcarbon.co.uk/ski-resorts/les-arcs/les-arcs-eat-drink-party\">Snowcarbon</a> for Les Arcs and <a href=\"https://www.seelaplagne.com/nightlife/apres/apres-ski-in-la-plagne\">See La Plagne</a> for La Plagne (October 2026). Bars open and close from season to season."
     }
@@ -297,19 +1349,84 @@
     "h2": "Who it suits",
     "intro": "How the area suits different kinds of trip, on the evidence gathered so far.",
     "rows": [
-      {"who": "Exploring a large network", "fit": "Good fit", "why": "Ten sectors share one pass, all linked by lift and piste, with the Vanoise Express between the two resorts.", "limit": "Everything between the two halves depends on one cable car, and Montalbert to Villaroger takes {{m:all.montalbert.villaroger|w}} lift rides."},
-      {"who": "Intermediates who want variety", "fit": "Good fit", "why": "Green and blue reach every sector in the map data, and reds never shorten a journey.", "limit": "From the corners, crossing to the other resort takes most of a day."},
-      {"who": "Groups of mixed ability", "fit": "Good fit", "why": "From Plagne Bellecôte both resorts are close, so a group can split and meet again for lunch.", "limit": "A meeting point on the wrong side of the cable car can mean a long way home."},
-      {"who": "First timers", "fit": "Good fit", "why": "CoolSki areas with free lifts in La Plagne, and learner areas in Arc 1800, Arc 2000 and Vallandry.", "limit": "The Paradiski pass is wasted on a first week; the local passes cost {{diff:F000066,lp_6d}} to {{diff:F000066,la_6d}} less."},
-      {"who": "Families", "fit": "Good fit", "why": "Famille Plus in Montalbert and Montchavin, the Pack Famille discount, and play areas and pools in both resorts.", "limit": "Prices for lessons and childcare vary by village and are best checked when booking."},
-      {"who": "Snowboarders", "fit": "Mixed", "why": "Parks and boardercross in both resorts, and few drags in Arc 1800 and Plagne Bellecôte.", "limit": "Drags make up {{f:drag.montalbert}} of the main lifts in Montalbert and {{f:drag.plagne-centre}} in Plagne Centre."},
-      {"who": "Experts", "fit": "Mixed", "why": "{{f:la_black}} black runs in Les Arcs and Peisey-Vallandry and the long descent from the Aiguille Rouge to Villaroger.", "limit": "skiresort.com rates only {{f:F000077}} of the piste as difficult."},
-      {"who": "Putting snow first", "fit": "Mixed", "why": "Arc 2000 and Plagne Bellecôte ski high, and the Aiguille Rouge and Glaciers lifts reach above 3,000 m.", "limit": "At 1,600 m all of the last five modelled seasons were poor, and the low sectors of La Plagne close a week early."},
-      {"who": "Travelling without a car", "fit": "Good fit", "why": "The ski train calls at Aime-la-Plagne and Bourg-Saint-Maurice, and the funicular from Bourg to Arc 1600 is free on the day of arrival.", "limit": "2026/27 timetables have not yet been checked."},
-      {"who": "Preferring a smaller area", "fit": "Mixed", "why": "Local passes cover La Plagne, or Les Arcs and Peisey-Vallandry, on their own.", "limit": "Each half is a large area in itself."},
-      {"who": "Food lovers", "fit": "Mixed", "why": "Farm cooking, sunny terraces and a lunch reached off piste at L'Ancolie.", "limit": "There is no Michelin star in the area in the 2026 guide."},
-      {"who": "Looking for après", "fit": "Good fit", "why": "La Folie Douce above Arc 1800 and busy bars in Arc 2000, Arc 1950 and Plagne Soleil.", "limit": "The evenings are spread thinly across many villages."},
-      {"who": "Non skiers", "fit": "Mixed", "why": "The Olympic bobsleigh track, sledging runs, pools in Arc 1800 and Belle Plagne, and the Vanoise Express itself.", "limit": "Each activity is paid for separately unless it comes with the Premium pass."}
+      {
+        "who": "Exploring a large network",
+        "fit": "Good fit",
+        "why": "Ten sectors share one pass, all linked by lift and piste, with the Vanoise Express between the two resorts.",
+        "limit": "Everything between the two halves depends on one cable car, and Montalbert to Villaroger takes {{m:all.montalbert.villaroger|w}} lift rides."
+      },
+      {
+        "who": "Intermediates who want variety",
+        "fit": "Good fit",
+        "why": "Green and blue reach every sector in the map data, and reds never shorten a journey.",
+        "limit": "From the corners, crossing to the other resort takes most of a day."
+      },
+      {
+        "who": "Groups of mixed ability",
+        "fit": "Good fit",
+        "why": "From Plagne Bellecôte both resorts are close, so a group can split and meet again for lunch.",
+        "limit": "A meeting point on the wrong side of the cable car can mean a long way home."
+      },
+      {
+        "who": "First timers",
+        "fit": "Good fit",
+        "why": "CoolSki areas with free lifts in La Plagne, and learner areas in Arc 1800, Arc 2000 and Vallandry.",
+        "limit": "The Paradiski pass is wasted on a first week; the local passes cost {{diff:F000066,lp_6d}} to {{diff:F000066,la_6d}} less."
+      },
+      {
+        "who": "Families",
+        "fit": "Good fit",
+        "why": "Famille Plus in Montalbert and Montchavin, the Pack Famille discount, and play areas and pools in both resorts.",
+        "limit": "Prices for lessons and childcare vary by village and are best checked when booking."
+      },
+      {
+        "who": "Snowboarders",
+        "fit": "Mixed",
+        "why": "Parks and boardercross in both resorts, and few drags in Arc 1800 and Plagne Bellecôte.",
+        "limit": "Drags make up {{f:drag.montalbert}} of the main lifts in Montalbert and {{f:drag.plagne-centre}} in Plagne Centre."
+      },
+      {
+        "who": "Experts",
+        "fit": "Mixed",
+        "why": "{{f:la_black}} black runs in Les Arcs and Peisey-Vallandry and the long descent from the Aiguille Rouge to Villaroger.",
+        "limit": "skiresort.com rates only {{f:F000077}} of the piste as difficult."
+      },
+      {
+        "who": "Putting snow first",
+        "fit": "Mixed",
+        "why": "Arc 2000 and Plagne Bellecôte ski high, and the Aiguille Rouge and Glaciers lifts reach above 3,000 m.",
+        "limit": "At 1,600 m all of the last five modelled seasons were poor, and the low sectors of La Plagne close a week early."
+      },
+      {
+        "who": "Travelling without a car",
+        "fit": "Good fit",
+        "why": "The ski train calls at Aime-la-Plagne and Bourg-Saint-Maurice, and the funicular from Bourg to Arc 1600 is free on the day of arrival.",
+        "limit": "2026/27 timetables have not yet been checked."
+      },
+      {
+        "who": "Preferring a smaller area",
+        "fit": "Mixed",
+        "why": "Local passes cover La Plagne, or Les Arcs and Peisey-Vallandry, on their own.",
+        "limit": "Each half is a large area in itself."
+      },
+      {
+        "who": "Food lovers",
+        "fit": "Mixed",
+        "why": "Farm cooking, sunny terraces and a lunch reached off piste at L'Ancolie.",
+        "limit": "There is no Michelin star in the area in the 2026 guide."
+      },
+      {
+        "who": "Looking for après",
+        "fit": "Good fit",
+        "why": "La Folie Douce above Arc 1800 and busy bars in Arc 2000, Arc 1950 and Plagne Soleil.",
+        "limit": "The evenings are spread thinly across many villages."
+      },
+      {
+        "who": "Non skiers",
+        "fit": "Mixed",
+        "why": "The Olympic bobsleigh track, sledging runs, pools in Arc 1800 and Belle Plagne, and the Vanoise Express itself.",
+        "limit": "Each activity is paid for separately unless it comes with the Premium pass."
+      }
     ],
     "catchesH3": "The catches",
     "catches": "The catches come from the shape of the area. Everything between the two resorts hangs on the Vanoise Express, which stops a week before the season ends, and from the corners the far side is a long day away: Montalbert to Villaroger takes {{m:all.montalbert.villaroger|w}} lift rides. The older sectors of La Plagne lean on drag lifts, and the lower villages have lost the most snow, with all of the last five modelled seasons at 1,600 m in the lowest third."
@@ -322,79 +1439,328 @@
     ],
     "caption": "Four linked areas of Savoie",
     "cols": [
-      {"name": {"$p": "area:paradiski"}, "href": ""},
-      {"name": {"$p": "area:les-3-vallees"}, "href": "/projectsnow/france/les-3-vallees/"},
-      {"name": {"$p": "area:tignes-val-disere"}, "href": "/projectsnow/france/tignes-val-disere/"},
-      {"name": {"$p": "area:les-sybelles"}, "href": "/projectsnow/france/les-sybelles/"}
+      {
+        "name": {
+          "$p": "area:paradiski"
+        },
+        "href": ""
+      },
+      {
+        "name": {
+          "$p": "area:les-3-vallees"
+        },
+        "href": "/projectsnow/france/les-3-vallees/"
+      },
+      {
+        "name": {
+          "$p": "area:tignes-val-disere"
+        },
+        "href": "/projectsnow/france/tignes-val-disere/"
+      },
+      {
+        "name": {
+          "$p": "area:les-sybelles"
+        },
+        "href": "/projectsnow/france/les-sybelles/"
+      }
     ],
     "rows": [
-      {"label": "Piste", "v": ["{{f:F000071}}", "{{f:F000002}}", "{{f:F000080}}", "{{f:F000089}}"]},
-      {"label": "Lifts", "v": ["{{f:F000072}}", "{{f:F000005}}", "{{f:F000081}}", "{{f:F000090}}"]},
-      {"label": "Lift heights", "v": ["{{f:F000073|n}} to {{f:F000074}}", "{{f:F000019|n}} to {{f:F000021}}", "{{f:F000082|n}} to {{f:F000083}}", "{{f:F000091|n}} to {{f:F000092}}"]},
-      {"label": "Easy, intermediate, difficult", "v": ["{{f:F000075|n}}, {{f:F000076|n}}, {{f:F000077}}", "{{f:F000015|n}}, {{f:F000016|n}}, {{f:F000017}}", "{{f:F000084|n}}, {{f:F000085|n}}, {{f:F000086}}", "{{f:F000093|n}}, {{f:F000094|n}}, {{f:F000095}}"]},
-      {"label": "Day ticket, adult, high season", "v": ["{{f:F000065}}", "{{f:F000056}}", "{{f:F000067}}", "{{f:F000069}}"]},
-      {"label": "Six days, adult, high season", "v": ["{{f:F000066}}", "{{f:F000057}}", "{{f:F000068}}", "{{f:F000070}}"]},
-      {"label": "Snowfall at 1,600 m, typical season 1991 to 2020", "v": ["{{f:s1600}}", "{{f:F000098}}", "{{f:F000105}}", "{{f:F000106}}"]},
-      {"label": "Road from Geneva airport", "v": ["{{f:F000078|n}} to {{f:F000079}}", "{{f:F000107|n}} to {{f:F000108}}", "{{f:F000087|n}} to {{f:F000088}}", "{{f:F000096|n}} to {{f:F000097}}"]},
-      {"label": "How it links", "v": ["Two resorts joined by the Vanoise Express", "Three valleys joined by lift; Orelle and Brides by gondola", "Two resorts sharing one area", "Six villages meeting at the Ouillon summit"]}
+      {
+        "label": "Piste",
+        "v": [
+          "{{f:F000071}}",
+          "{{f:F000002}}",
+          "{{f:F000080}}",
+          "{{f:F000089}}"
+        ]
+      },
+      {
+        "label": "Lifts",
+        "v": [
+          "{{f:F000072}}",
+          "{{f:F000005}}",
+          "{{f:F000081}}",
+          "{{f:F000090}}"
+        ]
+      },
+      {
+        "label": "Lift heights",
+        "v": [
+          "{{f:F000073|n}} to {{f:F000074}}",
+          "{{f:F000019|n}} to {{f:F000021}}",
+          "{{f:F000082|n}} to {{f:F000083}}",
+          "{{f:F000091|n}} to {{f:F000092}}"
+        ]
+      },
+      {
+        "label": "Easy, intermediate, difficult",
+        "v": [
+          "{{f:F000075|n}}, {{f:F000076|n}}, {{f:F000077}}",
+          "{{f:F000015|n}}, {{f:F000016|n}}, {{f:F000017}}",
+          "{{f:F000084|n}}, {{f:F000085|n}}, {{f:F000086}}",
+          "{{f:F000093|n}}, {{f:F000094|n}}, {{f:F000095}}"
+        ]
+      },
+      {
+        "label": "Day ticket, adult, high season",
+        "v": [
+          "{{f:F000065}}",
+          "{{f:F000056}}",
+          "{{f:F000067}}",
+          "{{f:F000069}}"
+        ]
+      },
+      {
+        "label": "Six days, adult, high season",
+        "v": [
+          "{{f:F000066}}",
+          "{{f:F000057}}",
+          "{{f:F000068}}",
+          "{{f:F000070}}"
+        ]
+      },
+      {
+        "label": "Snowfall at 1,600 m, typical season 1991 to 2020",
+        "v": [
+          "{{f:s1600}}",
+          "{{f:F000098}}",
+          "{{f:F000105}}",
+          "{{f:F000106}}"
+        ]
+      },
+      {
+        "label": "Road from Geneva airport",
+        "v": [
+          "{{f:F000078|n}} to {{f:F000079}}",
+          "{{f:F000107|n}} to {{f:F000108}}",
+          "{{f:F000087|n}} to {{f:F000088}}",
+          "{{f:F000096|n}} to {{f:F000097}}"
+        ]
+      },
+      {
+        "label": "How it links",
+        "v": [
+          "Two resorts joined by the Vanoise Express",
+          "Three valleys joined by lift; Orelle and Brides by gondola",
+          "Two resorts sharing one area",
+          "Six villages meeting at the Ouillon summit"
+        ]
+      }
     ],
     "note": "Size, lifts, heights and grade split: skiresort.com listings for <a href=\"https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/\">La Plagne</a> and <a href=\"https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/\">Les Arcs and Peisey-Vallandry</a> (added together for Paradiski), <a href=\"https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/\">Les 3 Vallées</a>, <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/\">Tignes Val d'Isère</a> and <a href=\"https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/\">Les Sybelles</a>, retrieved 20 October 2026. Prices: <a href=\"https://www.alti-mag.com/tarifs-forfaits-de-ski/tarifs-forfaits-ski-alpes/tarifs-forfaits-ski-alpes-du-nord\">Alti-Mag</a>, 2026/27 high season, indicative. Snowfall: ERA5 via the Open-Meteo historical weather API, one grid cell per area adjusted to 1,600 m; the cells are about 20 to 30 km across, so the figures describe regions, not single resorts. Road: fastest route from Geneva airport to the main villages by the OSRM router, Plagne Centre and Arc 1800 for Paradiski.",
-    "ev": ["P010", "P011", "P030", "P040"]
+    "ev": [
+      "P010",
+      "P011",
+      "P030",
+      "P040"
+    ]
   },
   "explore": [
-    {"h3": "Official information", "links": [
-      {"t": "Paradiski", "u": "https://www.paradiski.com/en"},
-      {"t": "La Plagne lift passes", "u": "https://www.skipass-laplagne.com/en/tarifs-publics"},
-      {"t": "Les Arcs and Peisey-Vallandry lift passes", "u": "https://www.lesarcs-peiseyvallandry.com/en/forfaits_offre"},
-      {"t": "La Plagne opening dates", "u": "https://en.la-plagne.com/opening-dates"},
-      {"t": "Les Arcs", "u": "https://www.lesarcs.com/en"}
-    ]},
-    {"h3": "On Snow Catchers", "links": [
-      {"t": "Skiing in France", "u": "/projectsnow/france/"},
-      {"t": "Les 3 Vallées", "u": "/projectsnow/france/les-3-vallees/"},
-      {"t": "Tignes Val d'Isère", "u": "/projectsnow/france/tignes-val-disere/"},
-      {"t": "Les Sybelles", "u": "/projectsnow/france/les-sybelles/"},
-      {"t": "Portes du Soleil", "u": "/projectsnow/france/portes-du-soleil/"}
-    ]},
-    {"h3": "Resorts and villages", "text": "Pages for La Plagne, Les Arcs, Peisey-Vallandry and their villages come next, with the runs, ski schools, restaurants and places to stay that this page leaves out."}
+    {
+      "h3": "Official information",
+      "links": [
+        {
+          "t": "Paradiski",
+          "u": "https://www.paradiski.com/en"
+        },
+        {
+          "t": "La Plagne lift passes",
+          "u": "https://www.skipass-laplagne.com/en/tarifs-publics"
+        },
+        {
+          "t": "Les Arcs and Peisey-Vallandry lift passes",
+          "u": "https://www.lesarcs-peiseyvallandry.com/en/forfaits_offre"
+        },
+        {
+          "t": "La Plagne opening dates",
+          "u": "https://en.la-plagne.com/opening-dates"
+        },
+        {
+          "t": "Les Arcs",
+          "u": "https://www.lesarcs.com/en"
+        }
+      ]
+    },
+    {
+      "h3": "On Snow Catchers",
+      "links": [
+        {
+          "t": "Skiing in France",
+          "u": "/projectsnow/france/"
+        },
+        {
+          "t": "Les 3 Vallées",
+          "u": "/projectsnow/france/les-3-vallees/"
+        },
+        {
+          "t": "Tignes Val d'Isère",
+          "u": "/projectsnow/france/tignes-val-disere/"
+        },
+        {
+          "t": "Les Sybelles",
+          "u": "/projectsnow/france/les-sybelles/"
+        },
+        {
+          "t": "Portes du Soleil",
+          "u": "/projectsnow/france/portes-du-soleil/"
+        }
+      ]
+    },
+    {
+      "h3": "Resorts and villages",
+      "text": "Pages for La Plagne, Les Arcs, Peisey-Vallandry and their villages come next, with the runs, ski schools, restaurants and places to stay that this page leaves out."
+    }
   ],
   "method": {
     "items": [
-      {"dt": "Which resorts count", "dd": "The three resorts the operator names, La Plagne, Les Arcs and Peisey-Vallandry, split into the ten sectors that a skier meets on the ground. Sharing the pass is recorded separately from being linked by lift and piste."},
-      {"dt": "How links were checked", "dd": "A sector counts as linked only when a route of lifts and pistes reaches it in the OpenStreetMap data. Drag lifts run one way and gondolas may be ridden down. The Vanoise Express runs two cabins on parallel tracks and is counted as one lift. A link is critical when closing one lift on it cuts routes that no other lift replaces. Tignes, La Rosière and Sainte-Foy-Tarentaise are left out of the model. The model has not yet been checked against the official 2026/27 piste map."},
-      {"dt": "Piste totals", "dd": "Operator and measured figures are both shown and never averaged. Mapped piste from OpenStreetMap is used only to compare sectors and grades."},
-      {"dt": "Comparisons", "dd": "The four areas compared use the same source for each row, so a figure can be set against its neighbour."}
+      {
+        "dt": "Which resorts count",
+        "dd": "The three resorts the operator names, La Plagne, Les Arcs and Peisey-Vallandry, split into the ten sectors that a skier meets on the ground. Sharing the pass is recorded separately from being linked by lift and piste."
+      },
+      {
+        "dt": "How links were checked",
+        "dd": "A sector counts as linked only when a route of lifts and pistes reaches it in the OpenStreetMap data. Drag lifts run one way and gondolas may be ridden down. The Vanoise Express runs two cabins on parallel tracks and is counted as one lift. A link is critical when closing one lift on it cuts routes that no other lift replaces. Tignes, La Rosière and Sainte-Foy-Tarentaise are left out of the model. The model has not yet been checked against the official 2026/27 piste map."
+      },
+      {
+        "dt": "Piste totals",
+        "dd": "Operator and measured figures are both shown and never averaged. Mapped piste from OpenStreetMap is used only to compare sectors and grades."
+      },
+      {
+        "dt": "Comparisons",
+        "dd": "The four areas compared use the same source for each row, so a figure can be set against its neighbour."
+      }
     ],
     "fresh": [
-      ["Lift pass prices", "2026/27 season", "Operator, Guide Ski, Alti-Mag", "24 Oct 2026"],
-      ["Season dates", "2026/27 season", "Operator and Guide Ski", "24 Oct 2026"],
-      ["Run and lift counts, size, altitude", "Current listings", "Operator, Guide Ski and skiresort.com", "24 Oct 2026"],
-      ["Network, bases, routes, sector comparison", "Map snapshot", "Derived from OpenStreetMap", "24 Oct 2026"],
-      ["Snowfall", "1950/51 to 2025/26", "Reanalysis model", "24 Oct 2026"],
-      ["Train and funicular", "2026/27 announcements; timetables not checked", "Seat 61 and Guide Ski", "24 Oct 2026"],
-      ["Comparison with other areas", "Current listings", "skiresort.com, Alti-Mag, model, router", "20 Oct 2026"],
-      ["Restaurants, bars, parks and family facilities", "Current guides; some from 2019 to 2023", "Guides, tourist offices and press", "24 Oct 2026"],
-      ["Michelin stars", "2026 guide", "Savoie tourism", "24 Oct 2026"],
-      ["Visitor reviews", "Not yet analysed", "None", "Not started"],
-      ["Current conditions", "Not shown on this page", "Linked to operators and forecasters", "Links checked 24 Oct 2026"]
+      [
+        "Lift pass prices",
+        "2026/27 season",
+        "Operator, Guide Ski, Alti-Mag",
+        "24 Oct 2026"
+      ],
+      [
+        "Season dates",
+        "2026/27 season",
+        "Operator and Guide Ski",
+        "24 Oct 2026"
+      ],
+      [
+        "Run and lift counts, size, altitude",
+        "Current listings",
+        "Operator, Guide Ski and skiresort.com",
+        "24 Oct 2026"
+      ],
+      [
+        "Network, bases, routes, sector comparison",
+        "Map snapshot",
+        "Derived from OpenStreetMap",
+        "24 Oct 2026"
+      ],
+      [
+        "Snowfall",
+        "1950/51 to 2025/26",
+        "Reanalysis model",
+        "24 Oct 2026"
+      ],
+      [
+        "Train and funicular",
+        "2026/27 announcements; timetables not checked",
+        "Seat 61 and Guide Ski",
+        "24 Oct 2026"
+      ],
+      [
+        "Comparison with other areas",
+        "Current listings",
+        "skiresort.com, Alti-Mag, model, router",
+        "20 Oct 2026"
+      ],
+      [
+        "Restaurants, bars, parks and family facilities",
+        "Current guides; some from 2019 to 2023",
+        "Guides, tourist offices and press",
+        "24 Oct 2026"
+      ],
+      [
+        "Michelin stars",
+        "2026 guide",
+        "Savoie tourism",
+        "24 Oct 2026"
+      ],
+      [
+        "Visitor reviews",
+        "Not yet analysed",
+        "None",
+        "Not started"
+      ],
+      [
+        "Current conditions",
+        "Not shown on this page",
+        "Linked to operators and forecasters",
+        "Links checked 24 Oct 2026"
+      ]
     ],
     "conflictsH3": "Figures that do not agree",
     "conflicts": "skiresort.com counts {{f:F000072}} lifts across Paradiski, while Guide Ski gives {{f:lp_lifts}} for La Plagne and {{f:la_lifts}} for Les Arcs and Peisey-Vallandry. The elevation model puts the Aiguille Rouge cable car at {{f:hi.arc-2000}} against the operator's {{f:op_top}}, and the Glaciers gondola at {{f:hi.bellecote}} against {{f:lp_top}}. The mapped piste comes to {{f:m_km}}, against {{f:F000071}} on the listings. The modelled snowfall at 1,600 m is {{f:s1600}} on this page, while an earlier run for the same grid cell gave a slightly higher figure, and the difference is being checked. This page names each source alongside its figure.",
     "sources": "Research of 24 October 2026. Size, runs and resorts: <a href=\"https://www.paradiski.com/en\">Paradiski</a>. Lifts, runs, season dates, parks and passes: <a href=\"https://guide-ski.fr/?p=1230\">Guide Ski for La Plagne</a>, <a href=\"https://guide-ski.fr/?p=4292\">Guide Ski for Les Arcs</a>, <a href=\"https://www.skipass-laplagne.com/en/tarifs-publics\">La Plagne lift passes</a> and <a href=\"https://www.lesarcs-peiseyvallandry.com/en/forfaits_offre\">Les Arcs lift passes</a>. Measured size and grades: skiresort.com for <a href=\"https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/\">La Plagne</a> and <a href=\"https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/\">Les Arcs</a>. History and the Vanoise Express: Wikipedia on <a href=\"https://en.wikipedia.org/wiki/La_Plagne\">La Plagne</a>, <a href=\"https://en.wikipedia.org/wiki/Les_Arcs\">Les Arcs</a> and <a href=\"https://en.wikipedia.org/wiki/Vanoise_Express\">the Vanoise Express</a>. Network, bases, routes and lift heights: a graph of {{f:m_lifts}} lifts and {{f:m_sections}} piste sections from <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> (© OpenStreetMap contributors, ODbL), with heights from the Copernicus 90 m elevation model via <a href=\"https://open-meteo.com/en/docs/elevation-api\">Open-Meteo</a>. Snowfall: ERA5 reanalysis via the <a href=\"https://open-meteo.com/en/docs/historical-weather-api\">Open-Meteo historical weather API</a> (CC BY 4.0). Road distances: <a href=\"https://project-osrm.org/\">OSRM</a>. Facts from operators, measurements, model results and estimates are kept apart in the research files, and conflicting figures are listed above rather than averaged."
   },
   "breaks": {
-    "network": {"photo": "roche"},
-    "terrain": {"photo": "aiguille"},
-    "access": {"photo": "navette"}
+    "network": {
+      "photo": "roche"
+    },
+    "terrain": {
+      "photo": "aiguille"
+    },
+    "access": {
+      "photo": "navette"
+    }
   },
   "photos": {
-    "hero": ["La Plagne from Montagne de l'Arc, 2018.jpg", "DimiTalen", "CC0", "La Plagne seen from the Montagne de l'Arc"],
-    "roche": ["Télécabine Roche de Mio entre Belle Plagne et Bellecôte (février 2024).JPG", "Florian Pépellin", "CC BY-SA 4.0", "The Roche de Mio gondola between Belle Plagne and Bellecôte"],
-    "aiguille": ["View of Mont Blanc from the Aiguille Rouge slope, Les Arcs, 2015.jpg", "DimiTalen", "CC0", "Mont Blanc seen from the slopes of the Aiguille Rouge above Les Arcs"],
-    "navette": ["Navette Autocar Gare d'Aime arrivé à Belle Plagne en hiver (février 2024).JPG", "Florian Pépellin", "CC BY-SA 4.0", "The shuttle bus from Aime station arriving in Belle Plagne in winter"],
-    "arcs": ["Domaine skiable des Arcs sous Aiguille Rouge (hiver 2023).JPG", "Florian Pépellin", "CC BY-SA 4.0", "The Les Arcs ski area below the Aiguille Rouge"],
-    "belle": ["Belle Plagne seen from Colosses.jpg", "DimiTalen", "CC0", "Belle Plagne seen from the Colosses"],
-    "mazot": ["Restaurant Le Mazot, Arc 1950, 2018.jpg", "DimiTalen", "CC0", "Restaurant Le Mazot in Arc 1950"],
-    "sun": ["Woman basking in the sun, Arc 1950, 2018.jpg", "DimiTalen", "CC0", "Sunshine on a terrace in Arc 1950"]
+    "hero": [
+      "La Plagne from Montagne de l'Arc, 2018.jpg",
+      "DimiTalen",
+      "CC0",
+      "La Plagne seen from the Montagne de l'Arc"
+    ],
+    "roche": [
+      "Télécabine Roche de Mio entre Belle Plagne et Bellecôte (février 2024).JPG",
+      "Florian Pépellin",
+      "CC BY-SA 4.0",
+      "The Roche de Mio gondola between Belle Plagne and Bellecôte"
+    ],
+    "aiguille": [
+      "View of Mont Blanc from the Aiguille Rouge slope, Les Arcs, 2015.jpg",
+      "DimiTalen",
+      "CC0",
+      "Mont Blanc seen from the slopes of the Aiguille Rouge above Les Arcs"
+    ],
+    "navette": [
+      "Navette Autocar Gare d'Aime arrivé à Belle Plagne en hiver (février 2024).JPG",
+      "Florian Pépellin",
+      "CC BY-SA 4.0",
+      "The shuttle bus from Aime station arriving in Belle Plagne in winter"
+    ],
+    "arcs": [
+      "Domaine skiable des Arcs sous Aiguille Rouge (hiver 2023).JPG",
+      "Florian Pépellin",
+      "CC BY-SA 4.0",
+      "The Les Arcs ski area below the Aiguille Rouge"
+    ],
+    "belle": [
+      "Belle Plagne seen from Colosses.jpg",
+      "DimiTalen",
+      "CC0",
+      "Belle Plagne seen from the Colosses"
+    ],
+    "mazot": [
+      "Restaurant Le Mazot, Arc 1950, 2018.jpg",
+      "DimiTalen",
+      "CC0",
+      "Restaurant Le Mazot in Arc 1950"
+    ],
+    "sun": [
+      "Woman basking in the sun, Arc 1950, 2018.jpg",
+      "DimiTalen",
+      "CC0",
+      "Sunshine on a terrace in Arc 1950"
+    ]
   }
 }
