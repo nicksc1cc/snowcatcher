@@ -33,16 +33,18 @@ Read this before starting work on a Snow Catchers page. Last updated 24 October 
 |---|---|---|
 | Tignes Val d'Isère text | Run `research/tignes-val-disere/out/revisions_2026-10-24.sql` in the Supabase SQL editor. It should end with 374 rows and hash c4c82a7d52f3a50957222ff4b4eca36d. | Claude approves page:area:tignes-val-disere so the database matches the live page. |
 | Family pass property | Run: `update core.property set definition = 'Discount when a family buys the stated number of passes together; the fact note says whether it is per pass or off the total' where key = 'family_pack_discount_eur';` | Nothing further. |
-| Paradiski snowfall | Decide whether F000361 (288 cm) supersedes F000104 (290 cm), both snowfall at 1,600 m for the Paradiski cell. | Claude writes the SQL. |
+| Évasion Mont Blanc review | Read the draft (loaded as page:area:evasion-mont-blanc, status review; see `research/evasion-mont-blanc/README.md`). | On Nick's word, Claude approves it and pushes the page to projectsnow. |
 | GitHub secret | Add SUPABASE_PUBLISHABLE_KEY to the projectsnow repository secrets if not already done. | Needed for the publish from database workflow. |
 
 ## Checks still open
 
-- Network models for Les 3 Vallées, Paradiski and Tignes Val d'Isère are to be checked against the official 2026/27 piste maps (critical lifts, black run shortcuts, base tables).
+- Network models for Les 3 Vallées, Paradiski, Tignes Val d'Isère and Évasion Mont Blanc are to be checked against the official 2026/27 piste maps (critical lifts, black run shortcuts, base tables).
 - 2026/27 bus timetables from Bourg-Saint-Maurice, Aime and Moûtiers are not checked.
 
 ## Linked domain queue, by size
 
 Published: Les 3 Vallées (600 km), Portes du Soleil (600 km), Paradiski (425 km), Tignes Val d'Isère (300 km). Les Sybelles (310 km) has an earlier page.
 
-Next, from `projectsnow/src/data/linked_domains.json`: Évasion Mont Blanc (445 km), Via Lattea (400 km), Grand Massif (265 km), Alpe d'Huez Grand Domaine (250 km), Serre Chevalier (250 km), Espace Diamant (192 km), then the smaller areas.
+Drafted, awaiting review: Évasion Mont Blanc (445 km).
+
+Next, from `projectsnow/src/data/linked_domains.json`: Via Lattea (400 km), Grand Massif (265 km), Alpe d'Huez Grand Domaine (250 km), Serre Chevalier (250 km), Espace Diamant (192 km), then the smaller areas.

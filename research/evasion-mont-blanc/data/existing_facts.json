@@ -1,0 +1,86 @@
+[
+{
+"id": "F000002",
+"value_num": 600,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000005",
+"value_num": 159,
+"value_text": null,
+"unit": "count",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000015",
+"value_num": 56,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000016",
+"value_num": 34,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000017",
+"value_num": 10,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000019",
+"value_num": 1100,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000021",
+"value_num": 3230,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000056",
+"value_num": 84.2,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-3-vallees"
+},
+{
+"id": "F000057",
+"value_num": 421,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-3-vallees"
+},
+{
+"id": "F000098",
+"value_num": 279,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.25.6.5"
+},
+{
+"id": "F000107",
+"value_num": 130,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000108",
+"value_num": 160,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+}
+]

@@ -1,0 +1,120 @@
+{
+ "page_id": "page:area:evasion-mont-blanc",
+ "place_id": "area:evasion-mont-blanc",
+ "template": "l3-domain",
+ "level": 3,
+ "canonical_path": "/france/evasion-mont-blanc/",
+ "retrieved": "2026-10-24",
+ "sector_prefix": "sector:evasion-mont-blanc.",
+ "network": {
+  "dataset": "ds:emb-network-2026-10-24",
+  "file": "model/network.json"
+ },
+ "snow": {
+  "dataset": "ds:emb-era5-snow-2026-10-24",
+  "cell": "cell:era5.45.75.6.75",
+  "file": "data/snow_era5_seasons.csv"
+ },
+ "datasets": [
+  {
+   "id": "ds:emb-network-2026-10-24",
+   "kind": "network",
+   "title": "Évasion Mont Blanc lift and piste network, OpenStreetMap snapshot 2026-10-24",
+   "place_id": "area:evasion-mont-blanc",
+   "inputs": {
+    "osm_snapshot": "2026-10-24T22:31:35Z",
+    "overpass": "overpass-api.de",
+    "elevation": "Copernicus GLO-90 via Open-Meteo",
+    "config": "research/evasion-mont-blanc/model/network_config.json"
+   },
+   "script_path": "db/model/network.js",
+   "run_at": "2026-10-24T22:31:35Z",
+   "outputs_file": "model/network.json",
+   "note": "0/1 BFS on lift rides; two separate networks; the Charmots drag keeps its mapped direction (cfg.wayOrder)"
+  },
+  {
+   "id": "ds:emb-era5-snow-2026-10-24",
+   "kind": "snow",
+   "title": "ERA5 seasonal snowfall, cell 45.75 N 6.75 E, 1950/51 to 2025/26",
+   "place_id": "area:evasion-mont-blanc",
+   "inputs": {
+    "api": "Open-Meteo historical weather",
+    "cell": "45.75,6.75",
+    "elevations_m": [
+     1600,
+     2100,
+     2600
+    ],
+    "months": "November to April"
+   },
+   "script_path": "research/evasion-mont-blanc/data/snow_era5_seasons.csv",
+   "run_at": "2026-10-24T23:00:00Z"
+  },
+  {
+   "id": "ds:emb-osrm-2026-10-24",
+   "kind": "routing",
+   "title": "OSRM road distances to the Évasion Mont Blanc villages",
+   "place_id": "area:evasion-mont-blanc",
+   "inputs": {
+    "router": "router.project-osrm.org",
+    "from": [
+     "poi:gva",
+     "poi:lys",
+     "poi:cmf",
+     "poi:sallanches-station",
+     "poi:le-fayet-station"
+    ]
+   },
+   "run_at": "2026-10-24T23:05:00Z"
+  },
+  {
+   "id": "ds:geneva-era5-compare-2026-10-20",
+   "kind": "snow",
+   "title": "ERA5 seasonal snowfall, Geneva area comparison cells",
+   "place_id": "area:portes-du-soleil",
+   "inputs": {
+    "api": "Open-Meteo historical weather",
+    "cells": [
+     "46.25,6.75",
+     "46.0,6.75"
+    ],
+    "elevations_m": [
+     1600
+    ],
+    "months": "November to April"
+   },
+   "script_path": "research/portes-du-soleil/data/evidence_register.csv",
+   "run_at": "2026-10-20T12:00:00Z"
+  },
+  {
+   "id": "ds:geneva-osrm-compare-2026-10-20",
+   "kind": "routing",
+   "title": "OSRM road distances from Geneva airport, Portes du Soleil and Grand Massif villages",
+   "place_id": "area:portes-du-soleil",
+   "inputs": {
+    "router": "router.project-osrm.org",
+    "from": [
+     "poi:gva"
+    ]
+   },
+   "script_path": "research/portes-du-soleil/data/evidence_register.csv",
+   "run_at": "2026-10-20T12:00:00Z"
+  }
+ ],
+ "existing_places": [
+  "area:les-3-vallees",
+  "area:portes-du-soleil",
+  "country:fr",
+  "range:northern-alps",
+  "cell:era5.45.25.6.5",
+  "poi:gva",
+  "poi:lys",
+  "poi:cmf",
+  "pass:les-3-vallees"
+ ],
+ "existing_place_names": {
+  "area:les-3-vallees": "Les 3 Vallées",
+  "area:portes-du-soleil": "Portes du Soleil",
+  "country:fr": "France"
+ }
+}

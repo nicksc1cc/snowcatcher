@@ -1,0 +1,17 @@
+{
+  "_about": "Configuration for db/model/network.js, Évasion Mont Blanc run of 24 October 2026. OpenStreetMap snapshot 2026-10-24T22:31:35Z from overpass-api.de.",
+  "bbox": [45.80, 6.50, 45.93, 6.735],
+  "exclude": [[45.70, 6.40, 45.84, 6.60], [45.70, 6.655, 45.82, 6.80], [45.875, 6.725, 45.95, 6.80], [45.905, 6.57, 45.93, 6.61], [45.88, 6.40, 45.95, 6.50]],
+  "_exclude": "Espace Diamant and Les Saisies to the south west, Les Contamines (on the pass but not linked), Saint-Gervais Le Prarion (linked with Les Houches), Cordon, and the Balme sector of La Clusaz.",
+  "sectors": {
+    "rochebrune": [45.835, 6.625], "mont-d-arbois": [45.853, 6.645], "princesse": [45.876, 6.648], "saint-gervais": [45.876, 6.69],
+    "saint-nicolas": [45.853, 6.715], "jaillet": [45.866, 6.60], "combloux": [45.89, 6.615], "la-giettaz": [45.872, 6.53]
+  },
+  "liftSector": {"Chamois": "mont-d-arbois", "Rocharbois": "mont-d-arbois", "Princesse": "princesse", "Petit Bois": "princesse",
+                 "Pattes": "x-outlying", "Le Valléen": "x-outlying", "Ascenseur des Thermes": "x-outlying", "Bouchet": "x-outlying", "Mowgli": "x-outlying"},
+  "_liftSector": "The Chamois gondola and Rocharbois cable car carry Megève centre to Mont d'Arbois. The two Princesse gondolas and the Petit Bois drag make up the Princesse sector above Demi-Quartier. Beginner drags in the villages, the Valléen gondola from Le Fayet and the Thermes lift stay in the graph but are not used as starts, so that each base starts at its main lifts.",
+  "wayOrder": ["TKE1 des Charmots"],
+  "_wayOrder": "The near flat Charmots drag, the link from La Giettaz towards Le Jaillet, runs east as mapped; the elevation model has its ends ten metres the wrong way round.",
+  "transfers": [],
+  "topAbove": 2000
+}
