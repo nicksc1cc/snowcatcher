@@ -1,10 +1,10 @@
 {
  "facts": 117,
  "next_fact": 490,
- "blocks": 370,
- "list_items": 25,
+ "blocks": 374,
+ "list_items": 32,
  "media": 8,
- "places": 48,
+ "places": 55,
  "typed_figures": [
   [
    "stats.3.t",
@@ -240,6 +240,14 @@
   ],
   [
    "access.accessNote",
+   "2026"
+  ],
+  [
+   "access.accessNote",
+   "2026"
+  ],
+  [
+   "access.accessNote",
    "27"
   ],
   [
@@ -251,8 +259,24 @@
    "3,000 m"
   ],
   [
+   "chapters.0.paras.0",
+   "2026"
+  ],
+  [
    "chapters.0.note",
    "2024"
+  ],
+  [
+   "chapters.0.note",
+   "2026"
+  ],
+  [
+   "chapters.0.note",
+   "2024"
+  ],
+  [
+   "chapters.0.note",
+   "2026"
   ],
   [
    "chapters.1.paras.0",
@@ -285,6 +309,10 @@
   [
    "chapters.3.note",
    "2021"
+  ],
+  [
+   "chapters.3.note",
+   "2026"
   ],
   [
    "fit.rows.3.why",

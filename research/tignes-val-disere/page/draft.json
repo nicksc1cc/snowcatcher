@@ -1,386 +1,1592 @@
 {
-  "_about": "Level 3 linked domain page content. Every figure traces to the evidence register in snowcatcher research/tignes-val-disere (data/evidence_register.csv); ev lists the record IDs behind each block. Network figures come from an OpenStreetMap model and must be checked against the official 2026/27 piste map.",
-  "slug": "tignes-val-disere",
-  "permalink": "france/tignes-val-disere/",
-  "nav": "france",
-  "name": {"$p": "area:tignes-val-disere"},
-  "title": "Tignes Val d'Isère | Linked ski areas | Snow Catchers",
-  "description": "How Tignes and Val d'Isère fit together across the Tovière and Bellevarde ridge, which base reaches which side, how the snow changes with height, what the single area pass costs, and what the area is like for boarders, families, food and evenings.",
-  "crumbs": [
-    {"label": "France", "href": "/projectsnow/france/"},
-    {"label": "Linked ski areas", "href": "/projectsnow/france/#areas"},
-    {"label": "Northern Alps", "href": "/projectsnow/france/#range-northern-alps"}
-  ],
-  "hero": {
-    "photo": "hero",
-    "lead": "Tignes and Val d'Isère share the head of the Isère valley, joined over the ridge of Tovière and Bellevarde into one area that the operator puts at {{f:op_km}} of piste. Its lifts climb from Les Brévières at {{f:op_low}} to the Grande Motte cable car at {{f:op_high}}. Tignes was built for skiing after its old village vanished under the Chevril reservoir in {{f:tg_flooded}}, and in {{f:vi_olympic}} Val d'Isère staged the Olympic men's downhill on the Face de Bellevarde."
+ "_about": "Level 3 linked domain page content. Every figure traces to the evidence register in snowcatcher research/tignes-val-disere (data/evidence_register.csv); ev lists the record IDs behind each block. Network figures come from an OpenStreetMap model and must be checked against the official 2026/27 piste map.",
+ "slug": "tignes-val-disere",
+ "permalink": "france/tignes-val-disere/",
+ "nav": "france",
+ "name": {
+  "$p": "area:tignes-val-disere"
+ },
+ "title": "Tignes Val d'Isère | Linked ski areas | Snow Catchers",
+ "description": "How Tignes and Val d'Isère fit together across the Tovière and Bellevarde ridge, which base reaches which side, how the snow changes with height, what the single area pass costs, and what the area is like for boarders, families, food and evenings.",
+ "crumbs": [
+  {
+   "label": "France",
+   "href": "/projectsnow/france/"
   },
-  "stats": [
-    {"v": "{{f:F000080}}", "t": "of linked piste on skiresort.com, the same as the operator's count", "ev": ["T003", "T010"]},
-    {"v": "{{f:F000082|n}} to {{f:F000083}}", "t": "from Les Brévières to the top of the Grande Motte cable car, on skiresort.com", "ev": ["T003", "T010"]},
-    {"v": "{{f:F000086}}", "t": "of the piste rated difficult on skiresort.com, the highest share of the four Savoie areas on this site", "ev": ["T010"]},
-    {"v": "{{f:F000068}}", "t": "for six days, adult, high season 2026/27; neither resort sells a week pass of its own", "ev": ["T001"]}
+  {
+   "label": "Linked ski areas",
+   "href": "/projectsnow/france/#areas"
+  },
+  {
+   "label": "Northern Alps",
+   "href": "/projectsnow/france/#range-northern-alps"
+  }
+ ],
+ "hero": {
+  "photo": "hero",
+  "lead": "Tignes and Val d'Isère share the head of the Isère valley, joined over the ridge of Tovière and Bellevarde into one area that the operator puts at {{f:op_km}} of piste. Its lifts climb from Les Brévières at {{f:op_low}} to the Grande Motte cable car at {{f:op_high}}. Tignes was built for skiing after its old village vanished under the Chevril reservoir in {{f:tg_flooded}}, and in {{f:vi_olympic}} Val d'Isère staged the Olympic men's downhill on the Face de Bellevarde."
+ },
+ "stats": [
+  {
+   "v": "{{f:F000080}}",
+   "t": "of linked piste on skiresort.com, the same as the operator's count",
+   "ev": [
+    "T003",
+    "T010"
+   ]
+  },
+  {
+   "v": "{{f:F000082|n}} to {{f:F000083}}",
+   "t": "from Les Brévières to the top of the Grande Motte cable car, on skiresort.com",
+   "ev": [
+    "T003",
+    "T010"
+   ]
+  },
+  {
+   "v": "{{f:F000086}}",
+   "t": "of the piste rated difficult on skiresort.com, the highest share of the four Savoie areas on this site",
+   "ev": [
+    "T010"
+   ]
+  },
+  {
+   "v": "{{f:F000068}}",
+   "t": "for six days, adult, high season 2026/27; neither resort sells a week pass of its own",
+   "ev": [
+    "T001"
+   ]
+  }
+ ],
+ "network": {
+  "h2": "Two resorts over one ridge",
+  "paras": [
+   "Tignes fills the upper bowl of its valley, from Les Brévières and Tignes 1800 near the Chevril dam up to Le Lac, Le Lavachet and Val Claret around the lake, with the Grande Motte glacier above them. Val d'Isère lies over the ridge to the east, strung out from La Daille through the village to Le Fornet, with Bellevarde and Solaise on either side of it. Lifts from both resorts reach the ridge between Tovière and Bellevarde, and in the map data a skier from Val Claret reaches La Daille in one lift ride and comes back in one.",
+   "The link is broad. In the model no single lift closure separates the two resorts, and the worst closures add lift rides rather than cut journeys. Closing the Olympique or the Solaise gondola in the centre of Val d'Isère adds {{f:olympique_extra}} lift rides in total across the journeys between sectors, and closing the Tommeuses chair, the main way up from La Daille to Tignes, adds {{f:tommeuses_extra}}.",
+   "Le Fornet is the exception. Its lifts climb to the Pissaillas glacier, but the only lift out of the sector towards the rest of the area is the Leissières chair to Solaise. If it stops, Le Fornet can still be reached on skis but none of the other {{f:leissieres_cut|w}} sectors can be reached from it by lift."
   ],
+  "figs": [
+   {
+    "v": "{{m:all.val-claret.la-daille}} lift ride",
+    "t": "from Val Claret to La Daille, and {{m:all.la-daille.val-claret|w}} back"
+   },
+   {
+    "v": "{{m:all.brevieres.le-fornet}} lift rides",
+    "t": "from Les Brévières to Le Fornet, the longest crossing of the area, and {{m:all.le-fornet.brevieres|w}} back"
+   },
+   {
+    "v": "{{f:pn_minutes}} minutes",
+    "t": "on the Perce-Neige funicular, through the mountain from Val Claret towards the Grande Motte"
+   },
+   {
+    "v": "One chair",
+    "t": "links Le Fornet to the rest of the area: the Leissières, up to Solaise"
+   },
+   {
+    "v": "{{f:tg_flooded}}",
+    "t": "the old village of Tignes disappears under the Chevril reservoir"
+   },
+   {
+    "v": "{{f:vi_olympic}}",
+    "t": "Val d'Isère stages the Olympic downhill, super G and giant slalom on the Face de Bellevarde, and Tignes the freestyle"
+   }
+  ],
+  "mapTitle": "Explore the network",
+  "mapHelp": "Choose a starting point to see how many lift rides it takes to reach each other area, then limit the runs to see what stays within reach.",
+  "caption": "Schematic, not to scale, with sectors moved apart for legibility. Built from OpenStreetMap lift and piste data (© OpenStreetMap contributors, snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. An orange link carries routes that no other link replaces when a single lift on it closes. Lift rides are the fewest needed between the lift bases of two areas. The model is being checked against the official 2026/27 piste map.",
+  "ev": [
+   "T020",
+   "T021",
+   "T022",
+   "T003"
+  ]
+ },
+ "sectors": [
+  {
+   "id": "brevieres",
+   "name": {
+    "$p": "sector:tignes-val-disere.brevieres"
+   },
+   "base": {
+    "$p": "resort:tignes"
+   },
+   "cc": "FR",
+   "lat": 45.508,
+   "lon": 6.905,
+   "lo": {
+    "$f": "lo.brevieres"
+   },
+   "hi": {
+    "$f": "hi.brevieres"
+   },
+   "link": "yes",
+   "place": [
+    0,
+    -20,
+    "middle"
+   ],
+   "short": "Brévières"
+  },
+  {
+   "id": "le-lac",
+   "name": {
+    "$p": "sector:tignes-val-disere.le-lac"
+   },
+   "base": {
+    "$p": "resort:tignes"
+   },
+   "cc": "FR",
+   "lat": 45.475,
+   "lon": 6.895,
+   "lo": {
+    "$f": "lo.le-lac"
+   },
+   "hi": {
+    "$f": "hi.le-lac"
+   },
+   "link": "yes",
+   "place": [
+    -16,
+    5,
+    "end"
+   ],
+   "short": "Le Lac"
+  },
+  {
+   "id": "val-claret",
+   "name": {
+    "$p": "sector:tignes-val-disere.val-claret"
+   },
+   "base": {
+    "$p": "resort:tignes"
+   },
+   "cc": "FR",
+   "lat": 45.448,
+   "lon": 6.9,
+   "lo": {
+    "$f": "lo.val-claret"
+   },
+   "hi": {
+    "$f": "hi.val-claret"
+   },
+   "link": "yes",
+   "place": [
+    -16,
+    5,
+    "end"
+   ]
+  },
+  {
+   "id": "grande-motte",
+   "name": {
+    "$p": "sector:tignes-val-disere.grande-motte"
+   },
+   "base": {
+    "$p": "resort:tignes"
+   },
+   "cc": "FR",
+   "lat": 45.415,
+   "lon": 6.905,
+   "lo": {
+    "$f": "lo.grande-motte"
+   },
+   "hi": {
+    "$f": "hi.grande-motte"
+   },
+   "link": "yes",
+   "place": [
+    0,
+    32,
+    "middle"
+   ]
+  },
+  {
+   "id": "la-daille",
+   "name": {
+    "$p": "sector:tignes-val-disere.la-daille"
+   },
+   "base": {
+    "$p": "resort:val-disere"
+   },
+   "cc": "FR",
+   "lat": 45.47,
+   "lon": 6.96,
+   "lo": {
+    "$f": "lo.la-daille"
+   },
+   "hi": {
+    "$f": "hi.la-daille"
+   },
+   "link": "yes",
+   "place": [
+    0,
+    -20,
+    "middle"
+   ]
+  },
+  {
+   "id": "val-disere",
+   "name": {
+    "$p": "sector:tignes-val-disere.val-disere"
+   },
+   "base": {
+    "$p": "resort:val-disere"
+   },
+   "cc": "FR",
+   "lat": 45.448,
+   "lon": 6.985,
+   "lo": {
+    "$f": "lo.val-disere"
+   },
+   "hi": {
+    "$f": "hi.val-disere"
+   },
+   "link": "yes",
+   "place": [
+    16,
+    5,
+    "start"
+   ]
+  },
+  {
+   "id": "solaise",
+   "name": {
+    "$p": "sector:tignes-val-disere.solaise"
+   },
+   "base": {
+    "$p": "resort:val-disere"
+   },
+   "cc": "FR",
+   "lat": 45.422,
+   "lon": 6.985,
+   "lo": {
+    "$f": "lo.solaise"
+   },
+   "hi": {
+    "$f": "hi.solaise"
+   },
+   "link": "yes",
+   "place": [
+    0,
+    32,
+    "middle"
+   ]
+  },
+  {
+   "id": "le-fornet",
+   "name": {
+    "$p": "sector:tignes-val-disere.le-fornet"
+   },
+   "base": {
+    "$p": "resort:val-disere"
+   },
+   "cc": "FR",
+   "lat": 45.44,
+   "lon": 7.03,
+   "lo": {
+    "$f": "lo.le-fornet"
+   },
+   "hi": {
+    "$f": "hi.le-fornet"
+   },
+   "link": "yes",
+   "place": [
+    0,
+    -20,
+    "middle"
+   ]
+  }
+ ],
+ "links": [
+  [
+   "brevieres",
+   "le-lac",
+   "lift",
+   false,
+   "Chaudannes and Aiguille Rouge chairs"
+  ],
+  [
+   "le-lac",
+   "val-claret",
+   "lift",
+   false,
+   ""
+  ],
+  [
+   "val-claret",
+   "grande-motte",
+   "lift",
+   false,
+   "Perce-Neige funicular"
+  ],
+  [
+   "le-lac",
+   "la-daille",
+   "lift",
+   false,
+   "Tovière"
+  ],
+  [
+   "val-claret",
+   "la-daille",
+   "lift",
+   false,
+   "Fresse and Tommeuses chairs"
+  ],
+  [
+   "la-daille",
+   "val-disere",
+   "lift",
+   false,
+   "Funival and Daille gondola"
+  ],
+  [
+   "val-disere",
+   "solaise",
+   "lift",
+   false,
+   "Solaise gondola"
+  ],
+  [
+   "val-disere",
+   "le-fornet",
+   "lift",
+   false,
+   "Laisinant chair and the Fornet cable car"
+  ],
+  [
+   "solaise",
+   "le-fornet",
+   "lift",
+   true,
+   "Leissières chair"
+  ]
+ ],
+ "mapNotes": [
+  {
+   "lat": 45.462,
+   "lon": 6.93,
+   "text": "Tovière ridge"
+  },
+  {
+   "lat": 45.437,
+   "lon": 6.952,
+   "text": "Bellevarde"
+  }
+ ],
+ "mapBox": {
+  "lon0": 6.86,
+  "lon1": 7.06,
+  "lat0": 45.405,
+  "lat1": 45.515
+ },
+ "routes": {
+  "h3": "Five sample days",
+  "intro": "Each trip is counted in lift rides out and back, from the first lift base in each area, with the easiest grade of run that makes it in the map data. The counts start lower than the base table further down, which starts in the village. Time on the pistes, in queues and on foot is not included.",
+  "rows": [
+   {
+    "from": "Val Claret",
+    "to": "La Daille",
+    "out": {
+     "$m": [
+      "all",
+      "val-claret",
+      "la-daille"
+     ]
+    },
+    "back": {
+     "$m": [
+      "all",
+      "la-daille",
+      "val-claret"
+     ]
+    },
+    "grade": "Green and blue",
+    "note": "Out on the Fresse chair, back on the Tommeuses: one lift each way across the ridge."
+   },
+   {
+    "from": "Val d'Isère",
+    "to": "Grande Motte",
+    "out": {
+     "$m": [
+      "all",
+      "val-disere",
+      "grande-motte"
+     ]
+    },
+    "back": {
+     "$m": [
+      "all",
+      "grande-motte",
+      "val-disere"
+     ]
+    },
+    "grade": "Green and blue",
+    "note": "Out by the Fontaine and Tommeuses chairs and the Perce-Neige funicular, home by the Fresse chair and the Funival."
+   },
+   {
+    "from": "Tignes Le Lac",
+    "to": "Val d'Isère",
+    "out": {
+     "$m": [
+      "all",
+      "le-lac",
+      "val-disere"
+     ]
+    },
+    "back": {
+     "$m": [
+      "all",
+      "val-disere",
+      "le-lac"
+     ]
+    },
+    "grade": "Black",
+    "note": "The way out works on green and blue; coming back in the same number of rides needs a black, and otherwise takes {{m:red.val-disere.le-lac|w}}."
+   },
+   {
+    "from": "Val Claret",
+    "to": "Le Fornet",
+    "out": {
+     "$m": [
+      "all",
+      "val-claret",
+      "le-fornet"
+     ]
+    },
+    "back": {
+     "$m": [
+      "all",
+      "le-fornet",
+      "val-claret"
+     ]
+    },
+    "grade": "Red",
+    "note": "On green and blue alone each way takes {{m:easy.val-claret.le-fornet|w}} lift rides."
+   },
+   {
+    "from": "Les Brévières",
+    "to": "Le Fornet",
+    "out": {
+     "$m": [
+      "all",
+      "brevieres",
+      "le-fornet"
+     ]
+    },
+    "back": {
+     "$m": [
+      "all",
+      "le-fornet",
+      "brevieres"
+     ]
+    },
+    "grade": "Black",
+    "note": "The two ends of the area. Without blacks the way home takes {{m:red.le-fornet.brevieres|w}} lift rides, and on green and blue alone {{m:easy.le-fornet.brevieres|w}}."
+   }
+  ],
+  "after": "Most crossings between the two resorts work on green and blue. The hard grades matter on the way back into Tignes Le Lac and Les Brévières, where the fewest lift rides use a black run.",
+  "ev": [
+   "T020"
+  ]
+ },
+ "areas": {
+  "h2": "The eight sectors compared",
+  "intro": "Most of Tignes starts high, with Le Lac at {{f:lo.le-lac}} and Val Claret at {{f:lo.val-claret}}, while the lowest lifts of Les Brévières, La Daille and Val d'Isère start at {{f:lo.brevieres}}, {{f:lo.la-daille}} and {{f:lo.val-disere}}. Where a sector sits on the ridge decides how quickly the other resort can be reached.",
+  "caption": "Sectors on the Tignes Val d'Isère pass",
+  "nameLabel": "Sector",
+  "navLabel": "Sectors",
+  "rows": [
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.brevieres"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked to Tignes Le Lac",
+    "lo": {
+     "$f": "lo.brevieres"
+    },
+    "hi": {
+     "$f": "hi.brevieres"
+    },
+    "easy": {
+     "$f": "easy.brevieres"
+    },
+    "drag": {
+     "$f": "drag.brevieres"
+    },
+    "note": "The lowest lift base in the area, below the Chevril dam."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.le-lac"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked, the centre of Tignes",
+    "lo": {
+     "$f": "lo.le-lac"
+    },
+    "hi": {
+     "$f": "hi.le-lac"
+    },
+    "easy": {
+     "$f": "easy.le-lac"
+    },
+    "drag": {
+     "$f": "drag.le-lac"
+    },
+    "note": "One lift ride from Val Claret, La Daille and Les Brévières."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.val-claret"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked, head of the Tignes valley",
+    "lo": {
+     "$f": "lo.val-claret"
+    },
+    "hi": {
+     "$f": "hi.val-claret"
+    },
+    "easy": {
+     "$f": "easy.val-claret"
+    },
+    "drag": {
+     "$f": "drag.val-claret"
+    },
+    "note": "Start of the Perce-Neige funicular, with the Tignes snowpark above."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.grande-motte"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked by the Perce-Neige funicular",
+    "lo": {
+     "$f": "lo.grande-motte"
+    },
+    "hi": {
+     "$f": "hi.grande-motte"
+    },
+    "easy": {
+     "$f": "easy.grande-motte"
+    },
+    "drag": {
+     "$f": "drag.grande-motte"
+    },
+    "note": "The highest lifts in the area, most of them drags on the glacier."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.la-daille"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked to Tignes over the ridge",
+    "lo": {
+     "$f": "lo.la-daille"
+    },
+    "hi": {
+     "$f": "hi.la-daille"
+    },
+    "easy": {
+     "$f": "easy.la-daille"
+    },
+    "drag": {
+     "$f": "drag.la-daille"
+    },
+    "note": "The Funival and the Daille gondola climb to Bellevarde; La Folie Douce stands on the gondola."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.val-disere"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked, the centre of Val d'Isère",
+    "lo": {
+     "$f": "lo.val-disere"
+    },
+    "hi": {
+     "$f": "hi.val-disere"
+    },
+    "easy": {
+     "$f": "easy.val-disere"
+    },
+    "drag": {
+     "$f": "drag.val-disere"
+    },
+    "note": "Bellevarde and the Face, the Olympic downhill run."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.solaise"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked by the Solaise gondola",
+    "lo": {
+     "$f": "lo.solaise"
+    },
+    "hi": {
+     "$f": "hi.solaise"
+    },
+    "easy": {
+     "$f": "easy.solaise"
+    },
+    "drag": {
+     "$f": "drag.solaise"
+    },
+    "note": "Ski Tranquille slow zones on the plateau."
+   },
+   {
+    "name": {
+     "$p": "sector:tignes-val-disere.le-fornet"
+    },
+    "cc": {
+     "$p": "country:fr"
+    },
+    "net": "Linked to Solaise by one chair",
+    "lo": {
+     "$f": "lo.le-fornet"
+    },
+    "hi": {
+     "$f": "hi.le-fornet"
+    },
+    "easy": {
+     "$f": "easy.le-fornet"
+    },
+    "drag": {
+     "$f": "drag.le-fornet"
+    },
+    "note": "Reaches the Pissaillas glacier; the Leissières chair is its only lift out."
+   }
+  ],
+  "note": "From the OpenStreetMap lift and piste data (snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. Green and blue is the share of mapped piste length; drag lifts include platters and T bars as a share of the main lifts. Mapped piste is incomplete, so the shares are useful for comparing sectors but not as totals, and they are being checked against the official 2026/27 piste map."
+ },
+ "terrain": {
+  "h2": "Blacks on the way home",
+  "paras": [
+   "The operator counts {{f:runs_total}} runs: {{f:runs_green}} green, {{f:runs_blue}} blue, {{f:runs_red}} red and {{f:runs_black}} black. skiresort.com measures {{f:F000084}} of the piste as easy, {{f:F000085}} as intermediate and {{f:F000086}} as difficult, the highest difficult share of the four Savoie areas on this site.",
+   "Green and blue reach every sector in the map data, but the way round can be long. Between the centres of the two resorts the easy routes cost at most one extra lift ride, while Solaise and Le Fornet are another matter: from Tignes Le Lac, Le Fornet takes {{m:easy.le-lac.le-fornet|w}} lift rides on green and blue against {{m:all.le-lac.le-fornet|w}} with every run allowed.",
+   "Black runs matter more here than in the other big Savoie areas. Coming back into Tignes Le Lac and Les Brévières from Val d'Isère, the fewest lift rides use a black run, and staying on reds costs one more ride: from the village of Val d'Isère, Tignes Le Lac takes {{m:all.val-disere.le-lac|w}} lift rides with a black and {{m:red.val-disere.le-lac|w}} without.",
+   "The steepest skiing is on the Val d'Isère side. The Face de Bellevarde, the Olympic downhill of {{f:vi_olympic}}, runs from the Rocher de Bellevarde to the village, and the Oreiller-Killy red drops about {{f:ok_drop}} over just over {{f:ok_len}} to La Daille. On the Tignes side the Grande Motte glacier runs fall about {{f:gm_drop}} to Val Claret when they are fully open."
+  ],
+  "matrixTitle": "Lift rides between the areas, and the grade they need",
+  "matrixNote": "Rows are where the day starts, columns where it goes. Every cell can be reached on green and blue runs and shows the fewest lift rides on those runs; allowing reds and blacks shortens some journeys, as the explorer above shows. From the OpenStreetMap piste grades, snapshot 24 October 2026; untagged or wrongly tagged runs can distort the result, and each one is being checked against the official map.",
+  "ev": [
+   "T003",
+   "T004",
+   "T010",
+   "T020",
+   "T022"
+  ]
+ },
+ "snow": {
+  "h2": "Height holds the season",
+  "paras": [
+   "Most of the skiing starts high. Tignes Le Lac and Val Claret have their lowest lifts at {{f:lo.le-lac}} and {{f:lo.val-claret}}, and on the elevation model the Grande Motte lifts start at {{f:lo.grande-motte}} and climb to {{f:hi.grande-motte}}. The low ground is limited to Les Brévières, La Daille and the village of Val d'Isère, whose lowest lifts start between {{f:lo.brevieres|n}} and {{f:lo.val-disere}}.",
+   "The weather model behind the snowfall figures covers the whole area with one grid cell, so it cannot tell Tignes from Val d'Isère, but it shows plainly what height does. In a typical season between 1991 and 2020, about {{f:F000105}} of snow fell at 1,600 m, {{f:s2100}} at 2,100 m and {{f:s2600}} at 2,600 m.",
+   "The lower slopes have lost the most. At 1,600 m the typical season fell from {{f:s1600_old}} in 1961 to 1990 to {{f:F000105}} in 1991 to 2020, and four of the last five seasons sat in the lowest third of the 76 year record. At 2,600 m the fall was smaller, from {{f:s2600_old}} to {{f:s2600}}, though three of the last five seasons were that poor.",
+   "Height still sets the calendar. Tignes opens on {{f:open_tignes|dm}}, a week before the link to Val d'Isère on {{f:open_linked|dm}}, and the whole area runs to {{f:close_linked|dm}}, later than the linked areas of Les 3 Vallées and Paradiski. The model gives snowfall rather than depth on the ground, and measured depths from weather stations are still being collected."
+  ],
+  "heightsTitle": "Lift heights by sector",
+  "heightsCaption": "Lowest lift base to highest lift top in each sector. From OpenStreetMap lift positions and the Copernicus 90 m elevation model, which reads a little low on the highest summits.",
+  "chartTitle": "Seasonal snowfall at three heights, 1950 to 2026",
+  "chartCaption": "Modelled snowfall from November to April, from the ERA5 reanalysis via the Open-Meteo historical weather API, for the grid cell at 45.5 N, 7.0 E adjusted to each height. Dots are single seasons; lines are 11 season running means. These are model values, not measurements on a piste.",
+  "chartDesc": "Modelled snowfall from November to April. Dots are single seasons; lines are 11 season running means. Median 1991 to 2020: {{f:F000105}} at 1,600 m, {{f:s2100}} at 2,100 m, {{f:s2600}} at 2,600 m.",
+  "conditions": {
+   "status": "<b>No conditions are reported here yet.</b> Tignes is due to open on {{f:open_tignes}} and the linked area on {{f:open_linked}}. Until live data arrives, the official sources below give open lifts, pistes and forecasts.",
+   "items": [
+    {
+     "dt": "Lifts and pistes open",
+     "dd": "<a href=\"https://en.tignes.net\">Tignes</a> and <a href=\"https://www.valdisere.com/en/\">Val d'Isère</a>"
+    },
+    {
+     "dt": "Mountain forecast",
+     "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France mountain weather</a>"
+    },
+    {
+     "dt": "Avalanche danger",
+     "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France bulletins</a> for the Savoie massifs, published daily in winter"
+    }
+   ],
+   "safety": "Terrain beyond the marked pistes is not controlled. The avalanche bulletin and local advice take precedence over anything on this page."
+  },
+  "ev": [
+   "T003",
+   "T004",
+   "T020",
+   "T030"
+  ]
+ },
+ "pass": {
+  "h2": "One pass for the week",
+  "paras": [
+   "Neither resort sells a week pass of its own. Six days in high season cost {{f:F000068}} on the Tignes Val d'Isère pass, while the local passes of Tignes and Val d'Isère are sold by the half day or the day, at {{f:tg_1d}} and {{f:vi_1d}} for a day against {{f:F000067}} for the whole area.",
+   "For a week the choice is made, and the question becomes when to go. From {{f:red1_start|dm}} to {{f:red1_end|dm}} and from {{f:red2_start|dm}} to {{f:red2_end|dm}} a day on the whole area costs {{f:early_1d}}, and a day on one resort {{f:tg_1d_early}}."
+  ],
+  "table": {
+   "caption": "Local day pass against the area day pass, adult, 2026/27",
+   "rows": [
+    [
+     "Tignes, one day",
+     "{{f:tg_1d}}",
+     "{{f:F000067}}",
+     "{{diff:F000067,tg_1d}}"
+    ],
+    [
+     "Val d'Isère, one day",
+     "{{f:vi_1d}}",
+     "{{f:F000067}}",
+     "{{diff:F000067,vi_1d}}"
+    ],
+    [
+     "Tignes, one day, early and late season",
+     "{{f:tg_1d_early}}",
+     "{{f:early_1d}}",
+     "{{diff:early_1d,tg_1d_early}}"
+    ],
+    [
+     "Val d'Isère, one day, early and late season",
+     "{{f:vi_1d_early}}",
+     "{{f:early_1d}}",
+     "{{diff:early_1d,vi_1d_early}}"
+    ]
+   ],
+   "note": "Sources: the <a href=\"https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf\">Tignes Val d'Isère rate sheet</a> and <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>."
+  },
+  "coverageTitle": "What the pass covers",
+  "coverage": [
+   {
+    "label": "Linked both ways by lift and piste",
+    "kind": "yes",
+    "items": [
+     "Tignes: Les Brévières, Tignes 1800, Le Lac, Le Lavachet and Val Claret",
+     "The Grande Motte glacier",
+     "Val d'Isère: La Daille, the village, Solaise and Le Fornet"
+    ]
+   }
+  ],
+  "scenariosTitle": "Which pass for which trip",
+  "scenarios": [
+   {
+    "who": "A week in either resort",
+    "what": "The only six day pass covers the whole area, at {{f:F000068}} for an adult and {{f:child_6d}} for children of 8 to 18 and seniors of 65 to 74."
+   },
+   {
+    "who": "Families",
+    "what": "Children under 8 ski free, and four or more passes of six days or longer bought together, for two adults and at least two children, take {{f:family_pack}} off the total."
+   },
+   {
+    "who": "Early and late season",
+    "what": "From {{f:red1_start|dm}} to {{f:red1_end|dm}} and from {{f:red2_start|dm}} to {{f:red2_end|dm}} a day on the whole area costs {{f:early_1d}}; Tignes alone opens a week earlier, on {{f:open_tignes|dm}}."
+   },
+   {
+    "who": "Rest days",
+    "what": "Passes of six days or more include unlimited entry to Le Lagon in Tignes, and two entries to the Centre Aquasportif in Val d'Isère."
+   },
+   {
+    "who": "A single day",
+    "what": "A day on one resort costs {{diff:F000067,tg_1d}} less than a day on the whole area."
+   },
+   {
+    "who": "Over 75",
+    "what": "Skiers aged 75 and over ride free, subject to the conditions at the ticket office."
+   }
+  ],
+  "after": "Adults are 19 to 64; children of 8 to 18 and seniors of 65 to 74 pay the reduced rate. High season runs from {{f:high_start|dm}} to {{f:high_end|dm}}.",
+  "ev": [
+   "T001",
+   "T003",
+   "T004"
+  ]
+ },
+ "access": {
+  "h2": "Getting there and choosing a base",
+  "paras": [
+   "By the fastest road, Geneva airport is {{f:gva_brev}} from Les Brévières and {{f:gva_fornet}} from Le Fornet, Lyon airport {{f:lys_min|n}} to {{f:lys_max}} and Chambéry {{f:cmf_min|n}} to {{f:cmf_max}}. Every route climbs from Bourg-Saint-Maurice on the D902 past the Chevril dam, and the Col de l'Iseran beyond Val d'Isère is closed to traffic in winter, so there is no way in from the Maurienne.",
+   "Bourg-Saint-Maurice is the railway station, {{f:bsm_min|n}} to {{f:bsm_max}} from the villages by road, and the Eurostar ski service from London calls there on winter Saturdays. Regional buses run from the station to both resorts, and some long distance coaches stop at La Daille, where free shuttles run to the centre of Val d'Isère.",
+   "Tignes and Val d'Isère fall under the Loi Montagne, which from November to March requires winter tyres on all four wheels or snow chains in the car. Both resorts charge for parking in garages and car parks, while Les Brévières has a free open car park for day visitors, according to skiresort.com. Alps2Alps, a transfer company, warns that Saturday changeovers bring long queues on the single lane stretches of the D902, and advises leaving the resort many hours before a Saturday flight."
+  ],
+  "accessNote": "Road distances are the fastest route by the OSRM router on OpenStreetMap data, without traffic or snow. The ski train as reported by <a href=\"https://www.seat61.com/trains-and-routes/eurostar-ski-train.htm\">Seat 61</a>; roads and buses by <a href=\"https://guide-ski.fr/?p=450\">Guide Ski</a>. Winter equipment rules: <a href=\"https://www.allopneus.com/guide-pratique/auto/conseils-pneu/loi-montagne-savoie\">Allopneus</a> (October 2026); parking: <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/test-result/arrival-parking/\">skiresort.com</a>; Saturday traffic: <a href=\"https://www.alps2alps.com/blog/geneva-to-val-disere-transfer-cost\">Alps2Alps</a> (August 2026), a transfer company. 2026/27 bus timetables have not yet been checked.",
+  "basesH3": "How far each base reaches",
+  "basesParas": [
+   "Tignes Le Lac and Val Claret are the best placed bases. From Val Claret, Val d'Isère is {{f:b.val-claret.val-disere|w}} lift rides away and a lift top above 3,000 m only {{f:b.val-claret.top3000|w}}, by the Perce-Neige funicular. From the village of Val d'Isère, Tignes Le Lac is {{f:b.val-disere.le-lac|w}} lift rides away.",
+   "Les Brévières and Le Fornet are quieter, and further from the rest of the area by lift. From Les Brévières, Val d'Isère takes {{f:b.brevieres.val-disere|w}} lift rides and Le Fornet {{f:b.brevieres.le-fornet|w}}; from Le Fornet, Tignes Le Lac takes {{f:b.le-fornet.le-lac|w}}."
+  ],
+  "basesCaption": "Lift rides from each base",
+  "baseCols": [
+   "To Tignes Le Lac",
+   "To Val d'Isère",
+   "To Le Fornet",
+   "To a lift top above 3,000 m"
+  ],
+  "bases": [
+   {
+    "base": "Val Claret",
+    "v": [
+     {
+      "$f": "b.val-claret.le-lac"
+     },
+     {
+      "$f": "b.val-claret.val-disere"
+     },
+     {
+      "$f": "b.val-claret.le-fornet"
+     },
+     {
+      "$f": "b.val-claret.top3000"
+     }
+    ]
+   },
+   {
+    "base": "Tignes Le Lac",
+    "v": [
+     {
+      "$f": "b.le-lac.le-lac"
+     },
+     {
+      "$f": "b.le-lac.val-disere"
+     },
+     {
+      "$f": "b.le-lac.le-fornet"
+     },
+     {
+      "$f": "b.le-lac.top3000"
+     }
+    ]
+   },
+   {
+    "base": "Val d'Isère",
+    "v": [
+     {
+      "$f": "b.val-disere.le-lac"
+     },
+     {
+      "$f": "b.val-disere.val-disere"
+     },
+     {
+      "$f": "b.val-disere.le-fornet"
+     },
+     {
+      "$f": "b.val-disere.top3000"
+     }
+    ]
+   },
+   {
+    "base": "La Daille",
+    "v": [
+     {
+      "$f": "b.la-daille.le-lac"
+     },
+     {
+      "$f": "b.la-daille.val-disere"
+     },
+     {
+      "$f": "b.la-daille.le-fornet"
+     },
+     {
+      "$f": "b.la-daille.top3000"
+     }
+    ]
+   },
+   {
+    "base": "Les Brévières",
+    "v": [
+     {
+      "$f": "b.brevieres.le-lac"
+     },
+     {
+      "$f": "b.brevieres.val-disere"
+     },
+     {
+      "$f": "b.brevieres.le-fornet"
+     },
+     {
+      "$f": "b.brevieres.top3000"
+     }
+    ]
+   },
+   {
+    "base": "Le Fornet",
+    "v": [
+     {
+      "$f": "b.le-fornet.le-lac"
+     },
+     {
+      "$f": "b.le-fornet.val-disere"
+     },
+     {
+      "$f": "b.le-fornet.le-fornet"
+     },
+     {
+      "$f": "b.le-fornet.top3000"
+     }
+    ]
+   }
+  ],
+  "basesNote": "Fewest lift rides from the village lifts before reaching the first lift of each area, on the OpenStreetMap model, counting the Perce-Neige and Funival funiculars as lifts and the walk along the Val Claret snow front. Times are not included.",
+  "ev": [
+   "T020",
+   "T040",
+   "T041",
+   "T004"
+  ]
+ },
+ "chapters": [
+  {
+   "id": "snowboard",
+   "kicker": "Snowboarders",
+   "h2": "Riding Tignes Val d'Isère on a board",
+   "photo": "glacier",
+   "paras": [
+    "Each resort keeps its own park. Tignes has its snowpark at the top of the Grattalu chair above Val Claret, with kickers, rails and boxes for beginners and intermediates and a free airbag, a halfpipe at the foot of the Lanches chair, and an expert boardercross in the same Palet sector. Val d'Isère's Val Park fills the middle of the Bellevarde bowl below the Mont Blanc chair, with kickers graded from green to black. In 2026 the Grande Motte glacier also opened for a month of summer skiing from late June, though SnowStash reports that most of it was on leftover winter snow.",
+    "Tignes keeps its off piste close to the lifts. See Tignes points to the trees off the Aiguille Percée chair above Les Brévières for days when the light goes flat, but warns that without a guide it is easy to end up stranded at the bottom. Higher up, a small bowl to the left of the Double M lift and the edges of the Grande Motte runs hold soft snow after a fall. Ski New Gen puts the Vallon de la Sache among its five favourite Tignes routes, a short hike from the chairs near the Aiguille Percée, with open ground and narrow couloirs all the way down to Les Brévières.",
+    "Val d'Isère has the better known routes. Ultimate France calls the Tour du Charvet, reached from the Grand Pré chair on Bellevarde, a good first off piste route for competent riders, and it runs through the Vanoise National Park. Above Le Fornet the Montet drag leads to the Col Pers, which the same guide rates suitable for every off piste level, and to the much steeper Pointe Pers. For poor visibility it recommends the steep, spaced trees below the Le Fornet cable car, and the Danaïdes woods above Le Laisinant offer jumps and drops between cliffs.",
+    "Drag lifts are scarce in the villages and common on the glacier. In the map data {{f:m_drags}} of the {{f:m_main}} main lifts are drags; they make up {{f:drag.grande-motte}} of the main lifts on the Grande Motte and {{f:drag.le-fornet}} in Le Fornet, against {{f:drag.val-claret}} in Val Claret. All of the terrain beyond the markers is uncontrolled, so the avalanche bulletin and a local guide come first."
+   ],
+   "listTitle": "Parks and places to ride",
+   "items": [
+    {
+     "place": "poi:tignes-snowpark",
+     "where": "Grattalu chair, Val Claret",
+     "text": "Kickers, rails and boxes, with a free airbag."
+    },
+    {
+     "place": "poi:tignes-halfpipe",
+     "where": "Lanches chair, Val Claret",
+     "text": "A halfpipe in the same sector as the snowpark."
+    },
+    {
+     "place": "poi:tignes-boardercross",
+     "where": "Palet sector, Tignes",
+     "text": "An expert boardercross."
+    },
+    {
+     "place": "poi:val-park",
+     "where": "Bellevarde bowl, Val d'Isère",
+     "text": "Kickers graded from green to black."
+    },
+    {
+     "place": "poi:vallon-de-la-sache",
+     "where": "Aiguille Percée to Les Brévières",
+     "text": "Open ground and narrow couloirs down to the lowest village."
+    },
+    {
+     "place": "poi:tour-du-charvet",
+     "where": "Grand Pré chair, Bellevarde",
+     "text": "A first off piste route, through the Vanoise National Park."
+    },
+    {
+     "place": "poi:le-fornet-trees",
+     "where": "Below the Le Fornet cable car",
+     "text": "Steep, well spaced trees for days of poor light."
+    },
+    {
+     "place": "poi:les-danaides",
+     "where": "Solaise, above Le Laisinant",
+     "text": "Trees, jumps and drops between cliffs."
+    }
+   ],
+   "note": "Parks: <a href=\"https://seetignes.com/ski-area/snowparks\">See Tignes</a> (October 2024) and <a href=\"https://guide-ski.fr/?p=170\">Guide Ski</a>. Off piste: <a href=\"https://www.seetignes.com/ski-area/off-piste\">See Tignes</a> (October 2026), <a href=\"https://www.skinewgen.com/?p=110550\">Ski New Gen</a> and <a href=\"https://www.ultimatefrance.com/?p=8576\">Ultimate France</a> (December 2024). Summer skiing: <a href=\"https://snowstash.com/news/2026/07/tignes-grande-motte-glacier-summer-skiing\">SnowStash</a> (July 2026). Drag lift shares from OpenStreetMap. Park layouts change every season, and off piste routes need a guide and the day's avalanche bulletin."
+  },
+  {
+   "id": "families",
+   "kicker": "Families",
+   "h2": "Holidays with children",
+   "photo": "village1800",
+   "paras": [
+    "Tignes and Val d'Isère both carry the Famille Plus label for family resorts, and the pass is generous to the young: children under 8 ski free, and a family buying four week passes together saves {{f:family_pack}} on the total.",
+    "Tignes makes the first days easy. Free beginner lifts run at Le Lac, Le Lavachet and Val Claret, the Bollin chair at Val Claret is free, and four free sledging areas sit at Le Lac, Le Lavachet, Tignes 1800 and Les Brévières. The Expédition Cobra snow luge runs about {{f:cobra_len}} down from Palafour and is not recommended for children under 13, and passes of six days or more include unlimited entry to the Lagon pool.",
+    "Val d'Isère has a free drag to the green Savonnette run at the foot of the main snow front, Ski Tranquille slow zones at Solaise and Bellevarde, a snow garden for the youngest, and the Centre Aquasportif with a sports pool and a leisure pool. Free shuttles link La Daille, Le Fornet and Legettaz to the centre.",
+    "For a base, Tignes Le Lac has the highest share of green and blue in the map data, {{f:easy.le-lac}}, and sits one lift ride from Val Claret, La Daille and Les Brévières."
+   ],
+   "listTitle": "For children",
+   "items": [
+    {
+     "place": "poi:tignes-beginner-lifts",
+     "where": "Le Lac, Le Lavachet and Val Claret",
+     "text": "Free lifts for learners."
+    },
+    {
+     "place": "poi:expedition-cobra",
+     "where": "Tignes Le Lac",
+     "text": "A snow luge run from Palafour."
+    },
+    {
+     "place": "poi:le-lagon",
+     "where": "Tignes",
+     "text": "Pool and wellness centre, unlimited on six day passes."
+    },
+    {
+     "place": "poi:savonnette",
+     "where": "Val d'Isère",
+     "text": "A free drag to a green run on the snow front."
+    },
+    {
+     "place": "poi:ski-tranquille",
+     "where": "Solaise and Bellevarde",
+     "text": "Slow zones for nervous skiers."
+    },
+    {
+     "place": "poi:centre-aquasportif",
+     "where": "Val d'Isère",
+     "text": "A sports pool and a leisure pool."
+    }
+   ],
+   "note": "Sources: <a href=\"https://www.france.fr/fr/article/label-ski-famille-plus/\">France.fr on Famille Plus</a> (updated October 2023), <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>. Ages and opening times are best checked when booking."
+  },
+  {
+   "id": "food",
+   "kicker": "Food",
+   "h2": "Eating on the mountain",
+   "photo": "village",
+   "paras": [
+    "Each resort has one Michelin star in the 2026 guide: Ursus in Tignes, where Clément Bouvier cooks, and La Table de l'Ours in Val d'Isère, Antoine Gras's restaurant in the Barmes de l'Ours hotel.",
+    "On the Val d'Isère side, Le Signal at the top of the Le Fornet cable car has a sun terrace, a log fire and a yurt for cold days. La Peau de Vache, halfway down La Face, is known for burgers big enough for two, and Le Refuge de Solaise serves gourmet food in a glass conservatory below the top of the Solaise gondola. Down in the village, La Baraque on the main street has live folk music and a following among locals.",
+    "In Tignes, L'Alpage des Chaudannes and Lo Soli share the top of the Chaudannes chair above Le Lac and Le Lavachet. The first serves Savoyard dishes and Savoie wines on a sun terrace, and the second offers table service alongside a self service counter. In Val Claret, La Taverne des Neiges by the Bollin and Fresse chairs looks up at the Grande Motte, and Snowcarbon recommends Le Panoramic mainly for its views.",
+    "Down in the villages, Snowcarbon recommends Le Coeur des Neiges at Le Lac for tartiflette around fire pits, Le Caveau in Val Claret for home style Savoyard cooking, and Bazurto, also in Val Claret, for Colombian cooking on a special occasion. Les Brévières has the most traditional setting, with L'Armailly in a handsome chalet, and the restaurants at the foot of its slopes fill up at lunchtime."
+   ],
+   "listTitle": "Tables worth the detour",
+   "items": [
+    {
+     "place": "poi:ursus",
+     "where": "Tignes",
+     "text": "One Michelin star, chef Clément Bouvier."
+    },
+    {
+     "place": "poi:la-table-de-l-ours",
+     "where": "Val d'Isère",
+     "text": "One Michelin star, chef Antoine Gras."
+    },
+    {
+     "place": "poi:le-signal-le-fornet",
+     "where": "Top of the Le Fornet cable car",
+     "text": "Sun terrace, log fire and a yurt."
+    },
+    {
+     "place": "poi:la-peau-de-vache",
+     "where": "La Face, Bellevarde",
+     "text": "Burgers big enough for two."
+    },
+    {
+     "place": "poi:le-refuge-de-solaise",
+     "where": "Solaise",
+     "text": "Gourmet cooking in a glass conservatory."
+    },
+    {
+     "place": "poi:l-alpage-des-chaudannes",
+     "where": "Chaudannes chair, Tignes",
+     "text": "Savoyard dishes and Savoie wines."
+    },
+    {
+     "place": "poi:la-taverne-des-neiges",
+     "where": "Val Claret",
+     "text": "Pizza and Savoyard dishes facing the Grande Motte."
+    },
+    {
+     "place": "poi:la-baraque",
+     "where": "Val d'Isère",
+     "text": "Live folk music on the main street."
+    },
+    {
+     "place": "poi:lo-soli",
+     "where": "Chaudannes chair, Tignes",
+     "text": "Table service and self service on a sun terrace."
+    },
+    {
+     "place": "poi:l-armailly",
+     "where": "Les Brévières",
+     "text": "Traditional cooking in a handsome chalet."
+    }
+   ],
+   "note": "Michelin 2026: <a href=\"https://presse.explore-savoie.com/les-tables-distinguees-2026/\">Savoie tourism</a>. Restaurants: <a href=\"https://snowcarbon.co.uk/ski-resorts/val-disere/restaurants-apres-ski-nightlife\">Snowcarbon</a> for Val d'Isère and for <a href=\"https://www.snowcarbon.co.uk/ski-resorts/tignes/tignes-eat-drink-party\">Tignes</a>, and <a href=\"https://www.seetignes.com/restaurants/mountain/\">See Tignes</a>. Restaurants change hands and menus each season."
+  },
+  {
+   "id": "apres",
+   "kicker": "Après",
+   "h2": "Après and evenings",
+   "photo": "night",
+   "paras": [
+    "La Folie Douce on the Daille gondola above La Daille was opened by Luc Reversade in {{f:folie_opened}}, and once enlarged it is credited with inventing open air après clubbing. Its afternoons run to live bands, DJs and cabaret until the lifts close.",
+    "In Val d'Isère, Cocorico beside the main lift by the bus turning circle keeps the afternoon going, with La Doudoune in its basement open until five in the morning, and Dick's Tea Bar in the centre, opened in {{f:dicks_opened}}, takes over late at night.",
+    "Tignes spreads its evenings between Le Lac and Val Claret. The Loop Bar at Le Lac can be skied to from the Trolles slope, and Strike, in the old bowling alley, claims to be the largest club in the Alps. In Val Claret, the Drop Zone has the biggest south facing terrace in Tignes by Iglu Ski's account, and the Melting Pot stays open until four in the morning.",
+    "The smaller villages are quieter. Le Lavachet has Le Brasero, a ski in, ski out bar with live music and burgers, and See Tignes describes the hamlet as local in feel and good for après. Les Brévières has a laid back scene built around its restaurants, and with no shuttle buses to the other villages, most people stay put once the lifts close."
+   ],
+   "listTitle": "Where the evenings start",
+   "items": [
+    {
+     "place": "poi:la-folie-douce-val-disere",
+     "where": "Daille gondola, La Daille",
+     "text": "Live bands, DJs and cabaret every afternoon."
+    },
+    {
+     "place": "poi:cocorico-val-disere",
+     "where": "Snow front, Val d'Isère",
+     "text": "A short walk from the bus stop."
+    },
+    {
+     "place": "poi:dicks-tea-bar",
+     "where": "Val d'Isère",
+     "text": "The late night club, open from 10.30 pm."
+    },
+    {
+     "place": "poi:loop-bar",
+     "where": "Tignes Le Lac",
+     "text": "Live music and a sun terrace off the Trolles slope."
+    },
+    {
+     "place": "poi:strike-tignes",
+     "where": "Tignes Le Lac",
+     "text": "A club in the old bowling alley."
+    },
+    {
+     "place": "poi:drop-zone",
+     "where": "Val Claret",
+     "text": "A big south facing terrace."
+    },
+    {
+     "place": "poi:melting-pot",
+     "where": "Val Claret",
+     "text": "Drum and bass and electro until 4 am."
+    },
+    {
+     "place": "poi:le-brasero",
+     "where": "Le Lavachet",
+     "text": "Ski in, ski out, with live music and burgers."
+    }
+   ],
+   "note": "Sources: <a href=\"https://www.mon-sejour-en-montagne.com/histoires-et-anecdotes/la-folie-douce-a-val-d-isere-ce-restaurant-d-altitude-devenu-le-haut-lieu-de-la-fete-sur-les-pistes/\">Mon séjour en montagne on La Folie Douce</a> (September 2023), <a href=\"https://snowcarbon.co.uk/ski-resorts/val-disere/restaurants-apres-ski-nightlife\">Snowcarbon</a> and <a href=\"https://www.aluxurytravelblog.com/2021/11/25/apres-ski-bars-in-val-disere/\">A Luxury Travel Blog</a> (2021) for Val d'Isère, and <a href=\"https://www.igluski.com/blog/post/best-apres-ski-bars-and-nightlife-hotspots-in-tignes\">Iglu Ski</a> and <a href=\"https://www.seetignes.com/tignes-le-lavachet\">See Tignes</a> on <a href=\"https://www.seetignes.com/tignes-les-brevieres\">its villages</a> (October 2026) for Tignes. Bars open and close from season to season."
+  }
+ ],
+ "fit": {
+  "h2": "Who it suits",
+  "intro": "How the area suits different kinds of trip, on the evidence gathered so far.",
+  "rows": [
+   {
+    "who": "Exploring a large network",
+    "fit": "Good fit",
+    "why": "Two resorts linked by several lifts over one ridge, with no single closure that cuts them apart.",
+    "limit": "Les Brévières to Le Fornet takes {{m:all.brevieres.le-fornet|w}} lift rides each way."
+   },
+   {
+    "who": "Intermediates who want variety",
+    "fit": "Good fit",
+    "why": "Green and blue reach every sector in the map data, and the centres of the two resorts are close on easy runs.",
+    "limit": "Solaise and Le Fornet are a long way round on green and blue."
+   },
+   {
+    "who": "Groups of mixed ability",
+    "fit": "Mixed",
+    "why": "Val Claret and La Daille are one lift ride apart, so a group can split across the ridge and meet again.",
+    "limit": "The quickest ways back into Tignes Le Lac use black runs."
+   },
+   {
+    "who": "First timers",
+    "fit": "Good fit",
+    "why": "Free beginner lifts in Tignes, a free drag to a green run in Val d'Isère, and children under 8 ski free.",
+    "limit": "Neither resort sells a week pass of its own, so a first week pays for the whole area."
+   },
+   {
+    "who": "Families",
+    "fit": "Good fit",
+    "why": "Famille Plus in both resorts, a family discount on week passes and pool entry included.",
+    "limit": "Prices for lessons and childcare vary by village and are best checked when booking."
+   },
+   {
+    "who": "Snowboarders",
+    "fit": "Good fit",
+    "why": "A snowpark, a halfpipe and a boardercross in Tignes, and Val Park on Bellevarde.",
+    "limit": "Drags make up {{f:drag.grande-motte}} of the main lifts on the glacier."
+   },
+   {
+    "who": "Experts",
+    "fit": "Good fit",
+    "why": "{{f:runs_black}} black runs, the Face de Bellevarde and the highest difficult share of the Savoie areas on this site.",
+    "limit": "Off piste terrain is not controlled; the avalanche bulletin and a guide come first."
+   },
+   {
+    "who": "Putting snow first",
+    "fit": "Good fit",
+    "why": "Tignes Le Lac and Val Claret start at {{f:lo.le-lac}} and {{f:lo.val-claret}}, and the season runs to {{f:close_linked|dm}}.",
+    "limit": "At 1,600 m modelled snowfall has fallen, and four of the last five seasons were poor there."
+   },
+   {
+    "who": "Travelling without a car",
+    "fit": "Mixed",
+    "why": "The ski train reaches Bourg-Saint-Maurice, with buses on to both resorts.",
+    "limit": "The last stretch is a bus ride up the valley, and 2026/27 timetables have not yet been checked."
+   },
+   {
+    "who": "Preferring a smaller area",
+    "fit": "Mixed",
+    "why": "Day passes for Tignes or Val d'Isère alone.",
+    "limit": "There is no local week pass."
+   },
+   {
+    "who": "Food lovers",
+    "fit": "Good fit",
+    "why": "A Michelin star in each resort and mountain tables from Le Fornet to the Chaudannes.",
+    "limit": "The best known tables are expensive and book up."
+   },
+   {
+    "who": "Looking for après",
+    "fit": "Good fit",
+    "why": "The original Folie Douce, late clubs in both resorts and busy bars in Val Claret.",
+    "limit": "The two resorts are a bus ride apart in the evening."
+   },
+   {
+    "who": "Non skiers",
+    "fit": "Mixed",
+    "why": "Pools in both resorts, sledging areas in Tignes and the snow luge.",
+    "limit": "Each activity is paid for separately unless it comes with a week pass."
+   }
+  ],
+  "catchesH3": "The catches",
+  "catches": "The six day pass is the dearest of the four Savoie areas on this site, and neither resort offers a cheaper week of its own. The fewest lift rides back into Tignes Le Lac and Les Brévières from Val d'Isère use black runs, and Le Fornet depends on a single chair. Lower down, the modelled snow has thinned, with four of the last five seasons at 1,600 m in the lowest third."
+ },
+ "compare": {
+  "h2": "The other large areas of Savoie",
+  "paras": [
+   "Set against its neighbours, Tignes Val d'Isère is smaller than Les 3 Vallées and Paradiski, with {{f:F000080}} of piste against {{f:F000002}} and {{f:F000071}}, but it climbs highest, to {{f:F000083}}, and has the largest share of difficult piste, {{f:F000086}}.",
+   "Its day ticket matches Paradiski's at {{f:F000067}}, but its six day pass is the dearest of the four at {{f:F000068}}. In the weather model it has the least snow of the four at 1,600 m, which matters less where Tignes Le Lac and Val Claret start at {{f:lo.le-lac}} and {{f:lo.val-claret}}."
+  ],
+  "caption": "Four linked areas of Savoie",
+  "cols": [
+   {
+    "name": {
+     "$p": "area:tignes-val-disere"
+    },
+    "href": ""
+   },
+   {
+    "name": {
+     "$p": "area:les-3-vallees"
+    },
+    "href": "/projectsnow/france/les-3-vallees/"
+   },
+   {
+    "name": {
+     "$p": "area:paradiski"
+    },
+    "href": "/projectsnow/france/paradiski/"
+   },
+   {
+    "name": {
+     "$p": "area:les-sybelles"
+    },
+    "href": "/projectsnow/france/les-sybelles/"
+   }
+  ],
+  "rows": [
+   {
+    "label": "Piste",
+    "v": [
+     "{{f:F000080}}",
+     "{{f:F000002}}",
+     "{{f:F000071}}",
+     "{{f:F000089}}"
+    ]
+   },
+   {
+    "label": "Lifts",
+    "v": [
+     "{{f:F000081}}",
+     "{{f:F000005}}",
+     "{{f:F000072}}",
+     "{{f:F000090}}"
+    ]
+   },
+   {
+    "label": "Lift heights",
+    "v": [
+     "{{f:F000082|n}} to {{f:F000083}}",
+     "{{f:F000019|n}} to {{f:F000021}}",
+     "{{f:F000073|n}} to {{f:F000074}}",
+     "{{f:F000091|n}} to {{f:F000092}}"
+    ]
+   },
+   {
+    "label": "Easy, intermediate, difficult",
+    "v": [
+     "{{f:F000084|n}}, {{f:F000085|n}}, {{f:F000086}}",
+     "{{f:F000015|n}}, {{f:F000016|n}}, {{f:F000017}}",
+     "{{f:F000075|n}}, {{f:F000076|n}}, {{f:F000077}}",
+     "{{f:F000093|n}}, {{f:F000094|n}}, {{f:F000095}}"
+    ]
+   },
+   {
+    "label": "Day ticket, adult, high season",
+    "v": [
+     "{{f:F000067}}",
+     "{{f:F000056}}",
+     "{{f:F000065}}",
+     "{{f:F000069}}"
+    ]
+   },
+   {
+    "label": "Six days, adult, high season",
+    "v": [
+     "{{f:F000068}}",
+     "{{f:F000057}}",
+     "{{f:F000066}}",
+     "{{f:F000070}}"
+    ]
+   },
+   {
+    "label": "Snowfall at 1,600 m, typical season 1991 to 2020",
+    "v": [
+     "{{f:F000105}}",
+     "{{f:F000098}}",
+     "{{f:F000361}}",
+     "{{f:F000106}}"
+    ]
+   },
+   {
+    "label": "Road from Geneva airport",
+    "v": [
+     "{{f:F000087|n}} to {{f:F000088}}",
+     "{{f:F000107|n}} to {{f:F000108}}",
+     "{{f:F000078|n}} to {{f:F000079}}",
+     "{{f:F000096|n}} to {{f:F000097}}"
+    ]
+   },
+   {
+    "label": "How it links",
+    "v": [
+     "Two resorts sharing one area",
+     "Three valleys joined by lift; Orelle and Brides by gondola",
+     "Two resorts joined by the Vanoise Express",
+     "Six villages meeting at the Ouillon summit"
+    ]
+   }
+  ],
+  "note": "Size, lifts, heights and grade split: skiresort.com listings for <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/\">Tignes Val d'Isère</a>, <a href=\"https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/\">Les 3 Vallées</a>, <a href=\"https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/\">La Plagne</a> and <a href=\"https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/\">Les Arcs and Peisey-Vallandry</a> (added together for Paradiski), and <a href=\"https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/\">Les Sybelles</a>, retrieved 20 October 2026. Prices: <a href=\"https://www.alti-mag.com/tarifs-forfaits-de-ski/tarifs-forfaits-ski-alpes/tarifs-forfaits-ski-alpes-du-nord\">Alti-Mag</a>, 2026/27 high season, indicative. Snowfall: ERA5 via the Open-Meteo historical weather API, one grid cell per area adjusted to 1,600 m; the cells are about 20 to 30 km across, so the figures describe regions, not single resorts. Road: fastest route from Geneva airport to the main villages by the OSRM router, Tignes Le Lac and Val d'Isère for this area.",
+  "ev": [
+   "T010",
+   "T030",
+   "T040"
+  ]
+ },
+ "explore": [
+  {
+   "h3": "Official information",
+   "links": [
+    {
+     "t": "Tignes",
+     "u": "https://en.tignes.net"
+    },
+    {
+     "t": "Tignes lift passes",
+     "u": "https://en.tignes.net/skiing/ski-pass-you-need"
+    },
+    {
+     "t": "Val d'Isère",
+     "u": "https://www.valdisere.com/en/"
+    },
+    {
+     "t": "Val d'Isère lift passes",
+     "u": "https://www.valdisere.com/en/prepare-for-your-stay/buy-my-skipass/"
+    },
+    {
+     "t": "2026/27 rate sheet",
+     "u": "https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf"
+    }
+   ]
+  },
+  {
+   "h3": "On Snow Catchers",
+   "links": [
+    {
+     "t": "Skiing in France",
+     "u": "/projectsnow/france/"
+    },
+    {
+     "t": "Les 3 Vallées",
+     "u": "/projectsnow/france/les-3-vallees/"
+    },
+    {
+     "t": "Paradiski",
+     "u": "/projectsnow/france/paradiski/"
+    },
+    {
+     "t": "Les Sybelles",
+     "u": "/projectsnow/france/les-sybelles/"
+    },
+    {
+     "t": "Portes du Soleil",
+     "u": "/projectsnow/france/portes-du-soleil/"
+    }
+   ]
+  },
+  {
+   "h3": "Resorts and villages",
+   "text": "Pages for Tignes, Val d'Isère and their villages come next, with the runs, ski schools, restaurants and places to stay that this page leaves out."
+  }
+ ],
+ "method": {
+  "items": [
+   {
+    "dt": "Which resorts count",
+    "dd": "Tignes and Val d'Isère, the two resorts on the Tignes Val d'Isère pass, split into the eight sectors that a skier meets on the ground. Sharing the pass is recorded separately from being linked by lift and piste."
+   },
+   {
+    "dt": "How links were checked",
+    "dd": "A sector counts as linked only when a route of lifts and pistes reaches it in the OpenStreetMap data. Drag lifts run one way, gondolas and the two funiculars may be ridden down, and the walks from the underground Perce-Neige stations and along the Val Claret snow front are added by hand. A link is critical when closing one lift on it cuts routes that no other lift replaces. The model has not yet been checked against the official 2026/27 piste map."
+   },
+   {
+    "dt": "Piste totals",
+    "dd": "Operator and measured figures are both shown and never averaged. Mapped piste from OpenStreetMap is used only to compare sectors and grades."
+   },
+   {
+    "dt": "Comparisons",
+    "dd": "The four areas compared use the same source for each row, so a figure can be set against its neighbour."
+   }
+  ],
+  "fresh": [
+   [
+    "Lift pass prices",
+    "2026/27 season",
+    "Rate sheet and Guide Ski",
+    "24 Oct 2026"
+   ],
+   [
+    "Season dates",
+    "2026/27 season",
+    "Guide Ski",
+    "24 Oct 2026"
+   ],
+   [
+    "Run and lift counts, size, altitude",
+    "Current listings",
+    "Guide Ski and skiresort.com",
+    "24 Oct 2026"
+   ],
+   [
+    "Network, bases, routes, sector comparison",
+    "Map snapshot",
+    "Derived from OpenStreetMap",
+    "24 Oct 2026"
+   ],
+   [
+    "Snowfall",
+    "1950/51 to 2025/26",
+    "Reanalysis model",
+    "24 Oct 2026"
+   ],
+   [
+    "Train and buses",
+    "2026/27 announcements; timetables not checked",
+    "Seat 61 and Guide Ski",
+    "24 Oct 2026"
+   ],
+   [
+    "Comparison with other areas",
+    "Current listings",
+    "skiresort.com, Alti-Mag, model, router",
+    "20 Oct 2026"
+   ],
+   [
+    "Restaurants, bars, parks and family facilities",
+    "Current guides; some from 2021 to 2024",
+    "Guides, tourist offices and press",
+    "24 Oct 2026"
+   ],
+   [
+    "Michelin stars",
+    "2026 guide",
+    "Savoie tourism",
+    "24 Oct 2026"
+   ],
+   [
+    "Visitor reviews",
+    "Not yet analysed",
+    "None",
+    "Not started"
+   ],
+   [
+    "Current conditions",
+    "Not shown on this page",
+    "Linked to operators and forecasters",
+    "Links checked 24 Oct 2026"
+   ]
+  ],
+  "conflictsH3": "Figures that do not agree",
+  "conflicts": "Guide Ski's Tignes page counts {{f:op_lifts74}} lifts on the official sheet and its Val d'Isère page {{f:op_lifts71}}, while skiresort.com lists {{f:F000081}}. The elevation model puts the top of the Grande Motte cable car at {{f:hi.grande-motte}} against the published {{f:op_high}}. The mapped piste comes to {{f:m_km}}, against {{f:op_km}} from the operator. This page names each source alongside its figure.",
+  "sources": "Research of 24 October 2026. Size, runs, lifts, season dates, parks and passes: <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>, and the <a href=\"https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf\">2026/27 rate sheet</a>. Measured size and grades: <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/\">skiresort.com</a>. History: Wikipedia on <a href=\"https://en.wikipedia.org/wiki/Tignes\">Tignes</a> and <a href=\"https://en.wikipedia.org/wiki/Val-d%27Is%C3%A8re\">Val d'Isère</a>. Network, bases, routes and lift heights: a graph of {{f:m_lifts}} lifts and {{f:m_sections}} piste sections from <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> (© OpenStreetMap contributors, ODbL), with heights from the Copernicus 90 m elevation model via <a href=\"https://open-meteo.com/en/docs/elevation-api\">Open-Meteo</a>. Snowfall: ERA5 reanalysis via the <a href=\"https://open-meteo.com/en/docs/historical-weather-api\">Open-Meteo historical weather API</a> (CC BY 4.0). Road distances: <a href=\"https://project-osrm.org/\">OSRM</a>. Facts from operators, measurements, model results and estimates are kept apart in the research files, and conflicting figures are listed above rather than averaged."
+ },
+ "breaks": {
   "network": {
-    "h2": "Two resorts over one ridge",
-    "paras": [
-      "Tignes fills the upper bowl of its valley, from Les Brévières and Tignes 1800 near the Chevril dam up to Le Lac, Le Lavachet and Val Claret around the lake, with the Grande Motte glacier above them. Val d'Isère lies over the ridge to the east, strung out from La Daille through the village to Le Fornet, with Bellevarde and Solaise on either side of it. Lifts from both resorts reach the ridge between Tovière and Bellevarde, and in the map data a skier from Val Claret reaches La Daille in one lift ride and comes back in one.",
-      "The link is broad. In the model no single lift closure separates the two resorts, and the worst closures add lift rides rather than cut journeys. Closing the Olympique or the Solaise gondola in the centre of Val d'Isère adds {{f:olympique_extra}} lift rides in total across the journeys between sectors, and closing the Tommeuses chair, the main way up from La Daille to Tignes, adds {{f:tommeuses_extra}}.",
-      "Le Fornet is the exception. Its lifts climb to the Pissaillas glacier, but the only lift out of the sector towards the rest of the area is the Leissières chair to Solaise. If it stops, Le Fornet can still be reached on skis but none of the other {{f:leissieres_cut|w}} sectors can be reached from it by lift."
-    ],
-    "figs": [
-      {"v": "{{m:all.val-claret.la-daille}} lift ride", "t": "from Val Claret to La Daille, and {{m:all.la-daille.val-claret|w}} back"},
-      {"v": "{{m:all.brevieres.le-fornet}} lift rides", "t": "from Les Brévières to Le Fornet, the longest crossing of the area, and {{m:all.le-fornet.brevieres|w}} back"},
-      {"v": "{{f:pn_minutes}} minutes", "t": "on the Perce-Neige funicular, through the mountain from Val Claret towards the Grande Motte"},
-      {"v": "One chair", "t": "links Le Fornet to the rest of the area: the Leissières, up to Solaise"},
-      {"v": "{{f:tg_flooded}}", "t": "the old village of Tignes disappears under the Chevril reservoir"},
-      {"v": "{{f:vi_olympic}}", "t": "Val d'Isère stages the Olympic downhill, super G and giant slalom on the Face de Bellevarde, and Tignes the freestyle"}
-    ],
-    "mapTitle": "Explore the network",
-    "mapHelp": "Choose a starting point to see how many lift rides it takes to reach each other area, then limit the runs to see what stays within reach.",
-    "caption": "Schematic, not to scale, with sectors moved apart for legibility. Built from OpenStreetMap lift and piste data (© OpenStreetMap contributors, snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. An orange link carries routes that no other link replaces when a single lift on it closes. Lift rides are the fewest needed between the lift bases of two areas. The model is being checked against the official 2026/27 piste map.",
-    "ev": ["T020", "T021", "T022", "T003"]
-  },
-  "sectors": [
-    {"id": "brevieres", "name": {"$p": "sector:tignes-val-disere.brevieres"}, "base": {"$p": "resort:tignes"}, "cc": "FR", "lat": 45.508, "lon": 6.905, "lo": {"$f": "lo.brevieres"}, "hi": {"$f": "hi.brevieres"}, "link": "yes", "place": [0, -20, "middle"], "short": "Brévières"},
-    {"id": "le-lac", "name": {"$p": "sector:tignes-val-disere.le-lac"}, "base": {"$p": "resort:tignes"}, "cc": "FR", "lat": 45.475, "lon": 6.895, "lo": {"$f": "lo.le-lac"}, "hi": {"$f": "hi.le-lac"}, "link": "yes", "place": [-16, 5, "end"], "short": "Le Lac"},
-    {"id": "val-claret", "name": {"$p": "sector:tignes-val-disere.val-claret"}, "base": {"$p": "resort:tignes"}, "cc": "FR", "lat": 45.448, "lon": 6.900, "lo": {"$f": "lo.val-claret"}, "hi": {"$f": "hi.val-claret"}, "link": "yes", "place": [-16, 5, "end"]},
-    {"id": "grande-motte", "name": {"$p": "sector:tignes-val-disere.grande-motte"}, "base": {"$p": "resort:tignes"}, "cc": "FR", "lat": 45.415, "lon": 6.905, "lo": {"$f": "lo.grande-motte"}, "hi": {"$f": "hi.grande-motte"}, "link": "yes", "place": [0, 32, "middle"]},
-    {"id": "la-daille", "name": {"$p": "sector:tignes-val-disere.la-daille"}, "base": {"$p": "resort:val-disere"}, "cc": "FR", "lat": 45.470, "lon": 6.960, "lo": {"$f": "lo.la-daille"}, "hi": {"$f": "hi.la-daille"}, "link": "yes", "place": [0, -20, "middle"]},
-    {"id": "val-disere", "name": {"$p": "sector:tignes-val-disere.val-disere"}, "base": {"$p": "resort:val-disere"}, "cc": "FR", "lat": 45.448, "lon": 6.985, "lo": {"$f": "lo.val-disere"}, "hi": {"$f": "hi.val-disere"}, "link": "yes", "place": [16, 5, "start"]},
-    {"id": "solaise", "name": {"$p": "sector:tignes-val-disere.solaise"}, "base": {"$p": "resort:val-disere"}, "cc": "FR", "lat": 45.422, "lon": 6.985, "lo": {"$f": "lo.solaise"}, "hi": {"$f": "hi.solaise"}, "link": "yes", "place": [0, 32, "middle"]},
-    {"id": "le-fornet", "name": {"$p": "sector:tignes-val-disere.le-fornet"}, "base": {"$p": "resort:val-disere"}, "cc": "FR", "lat": 45.440, "lon": 7.030, "lo": {"$f": "lo.le-fornet"}, "hi": {"$f": "hi.le-fornet"}, "link": "yes", "place": [0, -20, "middle"]}
-  ],
-  "links": [
-    ["brevieres", "le-lac", "lift", false, "Chaudannes and Aiguille Rouge chairs"],
-    ["le-lac", "val-claret", "lift", false, ""],
-    ["val-claret", "grande-motte", "lift", false, "Perce-Neige funicular"],
-    ["le-lac", "la-daille", "lift", false, "Tovière"],
-    ["val-claret", "la-daille", "lift", false, "Fresse and Tommeuses chairs"],
-    ["la-daille", "val-disere", "lift", false, "Funival and Daille gondola"],
-    ["val-disere", "solaise", "lift", false, "Solaise gondola"],
-    ["val-disere", "le-fornet", "lift", false, "Laisinant chair and the Fornet cable car"],
-    ["solaise", "le-fornet", "lift", true, "Leissières chair"]
-  ],
-  "mapNotes": [
-    {"lat": 45.462, "lon": 6.930, "text": "Tovière ridge"},
-    {"lat": 45.437, "lon": 6.952, "text": "Bellevarde"}
-  ],
-  "mapBox": {"lon0": 6.86, "lon1": 7.06, "lat0": 45.405, "lat1": 45.515},
-  "routes": {
-    "h3": "Five sample days",
-    "intro": "Each trip is counted in lift rides out and back, from the first lift base in each area, with the easiest grade of run that makes it in the map data. The counts start lower than the base table further down, which starts in the village. Time on the pistes, in queues and on foot is not included.",
-    "rows": [
-      {"from": "Val Claret", "to": "La Daille", "out": {"$m": ["all", "val-claret", "la-daille"]}, "back": {"$m": ["all", "la-daille", "val-claret"]}, "grade": "Green and blue", "note": "Out on the Fresse chair, back on the Tommeuses: one lift each way across the ridge."},
-      {"from": "Val d'Isère", "to": "Grande Motte", "out": {"$m": ["all", "val-disere", "grande-motte"]}, "back": {"$m": ["all", "grande-motte", "val-disere"]}, "grade": "Green and blue", "note": "Out by the Fontaine and Tommeuses chairs and the Perce-Neige funicular, home by the Fresse chair and the Funival."},
-      {"from": "Tignes Le Lac", "to": "Val d'Isère", "out": {"$m": ["all", "le-lac", "val-disere"]}, "back": {"$m": ["all", "val-disere", "le-lac"]}, "grade": "Black", "note": "The way out works on green and blue; coming back in the same number of rides needs a black, and otherwise takes {{m:red.val-disere.le-lac|w}}."},
-      {"from": "Val Claret", "to": "Le Fornet", "out": {"$m": ["all", "val-claret", "le-fornet"]}, "back": {"$m": ["all", "le-fornet", "val-claret"]}, "grade": "Red", "note": "On green and blue alone each way takes {{m:easy.val-claret.le-fornet|w}} lift rides."},
-      {"from": "Les Brévières", "to": "Le Fornet", "out": {"$m": ["all", "brevieres", "le-fornet"]}, "back": {"$m": ["all", "le-fornet", "brevieres"]}, "grade": "Black", "note": "The two ends of the area. Without blacks the way home takes {{m:red.le-fornet.brevieres|w}} lift rides, and on green and blue alone {{m:easy.le-fornet.brevieres|w}}."}
-    ],
-    "after": "Most crossings between the two resorts work on green and blue. The hard grades matter on the way back into Tignes Le Lac and Les Brévières, where the fewest lift rides use a black run.",
-    "ev": ["T020"]
-  },
-  "areas": {
-    "h2": "The eight sectors compared",
-    "intro": "Most of Tignes starts high, with Le Lac at {{f:lo.le-lac}} and Val Claret at {{f:lo.val-claret}}, while the lowest lifts of Les Brévières, La Daille and Val d'Isère start at {{f:lo.brevieres}}, {{f:lo.la-daille}} and {{f:lo.val-disere}}. Where a sector sits on the ridge decides how quickly the other resort can be reached.",
-    "caption": "Sectors on the Tignes Val d'Isère pass",
-    "nameLabel": "Sector",
-    "navLabel": "Sectors",
-    "rows": [
-      {"name": {"$p": "sector:tignes-val-disere.brevieres"}, "cc": {"$p": "country:fr"}, "net": "Linked to Tignes Le Lac", "lo": {"$f": "lo.brevieres"}, "hi": {"$f": "hi.brevieres"}, "easy": {"$f": "easy.brevieres"}, "drag": {"$f": "drag.brevieres"}, "note": "The lowest lift base in the area, below the Chevril dam."},
-      {"name": {"$p": "sector:tignes-val-disere.le-lac"}, "cc": {"$p": "country:fr"}, "net": "Linked, the centre of Tignes", "lo": {"$f": "lo.le-lac"}, "hi": {"$f": "hi.le-lac"}, "easy": {"$f": "easy.le-lac"}, "drag": {"$f": "drag.le-lac"}, "note": "One lift ride from Val Claret, La Daille and Les Brévières."},
-      {"name": {"$p": "sector:tignes-val-disere.val-claret"}, "cc": {"$p": "country:fr"}, "net": "Linked, head of the Tignes valley", "lo": {"$f": "lo.val-claret"}, "hi": {"$f": "hi.val-claret"}, "easy": {"$f": "easy.val-claret"}, "drag": {"$f": "drag.val-claret"}, "note": "Start of the Perce-Neige funicular, with the Tignes snowpark above."},
-      {"name": {"$p": "sector:tignes-val-disere.grande-motte"}, "cc": {"$p": "country:fr"}, "net": "Linked by the Perce-Neige funicular", "lo": {"$f": "lo.grande-motte"}, "hi": {"$f": "hi.grande-motte"}, "easy": {"$f": "easy.grande-motte"}, "drag": {"$f": "drag.grande-motte"}, "note": "The highest lifts in the area, most of them drags on the glacier."},
-      {"name": {"$p": "sector:tignes-val-disere.la-daille"}, "cc": {"$p": "country:fr"}, "net": "Linked to Tignes over the ridge", "lo": {"$f": "lo.la-daille"}, "hi": {"$f": "hi.la-daille"}, "easy": {"$f": "easy.la-daille"}, "drag": {"$f": "drag.la-daille"}, "note": "The Funival and the Daille gondola climb to Bellevarde; La Folie Douce stands on the gondola."},
-      {"name": {"$p": "sector:tignes-val-disere.val-disere"}, "cc": {"$p": "country:fr"}, "net": "Linked, the centre of Val d'Isère", "lo": {"$f": "lo.val-disere"}, "hi": {"$f": "hi.val-disere"}, "easy": {"$f": "easy.val-disere"}, "drag": {"$f": "drag.val-disere"}, "note": "Bellevarde and the Face, the Olympic downhill run."},
-      {"name": {"$p": "sector:tignes-val-disere.solaise"}, "cc": {"$p": "country:fr"}, "net": "Linked by the Solaise gondola", "lo": {"$f": "lo.solaise"}, "hi": {"$f": "hi.solaise"}, "easy": {"$f": "easy.solaise"}, "drag": {"$f": "drag.solaise"}, "note": "Ski Tranquille slow zones on the plateau."},
-      {"name": {"$p": "sector:tignes-val-disere.le-fornet"}, "cc": {"$p": "country:fr"}, "net": "Linked to Solaise by one chair", "lo": {"$f": "lo.le-fornet"}, "hi": {"$f": "hi.le-fornet"}, "easy": {"$f": "easy.le-fornet"}, "drag": {"$f": "drag.le-fornet"}, "note": "Reaches the Pissaillas glacier; the Leissières chair is its only lift out."}
-    ],
-    "note": "From the OpenStreetMap lift and piste data (snapshot 24 October 2026) with heights from the Copernicus 90 m elevation model. Green and blue is the share of mapped piste length; drag lifts include platters and T bars as a share of the main lifts. Mapped piste is incomplete, so the shares are useful for comparing sectors but not as totals, and they are being checked against the official 2026/27 piste map."
+   "photo": "bellevarde"
   },
   "terrain": {
-    "h2": "Blacks on the way home",
-    "paras": [
-      "The operator counts {{f:runs_total}} runs: {{f:runs_green}} green, {{f:runs_blue}} blue, {{f:runs_red}} red and {{f:runs_black}} black. skiresort.com measures {{f:F000084}} of the piste as easy, {{f:F000085}} as intermediate and {{f:F000086}} as difficult, the highest difficult share of the four Savoie areas on this site.",
-      "Green and blue reach every sector in the map data, but the way round can be long. Between the centres of the two resorts the easy routes cost at most one extra lift ride, while Solaise and Le Fornet are another matter: from Tignes Le Lac, Le Fornet takes {{m:easy.le-lac.le-fornet|w}} lift rides on green and blue against {{m:all.le-lac.le-fornet|w}} with every run allowed.",
-      "Black runs matter more here than in the other big Savoie areas. Coming back into Tignes Le Lac and Les Brévières from Val d'Isère, the fewest lift rides use a black run, and staying on reds costs one more ride: from the village of Val d'Isère, Tignes Le Lac takes {{m:all.val-disere.le-lac|w}} lift rides with a black and {{m:red.val-disere.le-lac|w}} without.",
-      "The steepest skiing is on the Val d'Isère side. The Face de Bellevarde, the Olympic downhill of {{f:vi_olympic}}, runs from the Rocher de Bellevarde to the village, and the Oreiller-Killy red drops about {{f:ok_drop}} over just over {{f:ok_len}} to La Daille. On the Tignes side the Grande Motte glacier runs fall about {{f:gm_drop}} to Val Claret when they are fully open."
-    ],
-    "matrixTitle": "Lift rides between the areas, and the grade they need",
-    "matrixNote": "Rows are where the day starts, columns where it goes. Every cell can be reached on green and blue runs and shows the fewest lift rides on those runs; allowing reds and blacks shortens some journeys, as the explorer above shows. From the OpenStreetMap piste grades, snapshot 24 October 2026; untagged or wrongly tagged runs can distort the result, and each one is being checked against the official map.",
-    "ev": ["T003", "T004", "T010", "T020", "T022"]
-  },
-  "snow": {
-    "h2": "Height holds the season",
-    "paras": [
-      "Most of the skiing starts high. Tignes Le Lac and Val Claret have their lowest lifts at {{f:lo.le-lac}} and {{f:lo.val-claret}}, and on the elevation model the Grande Motte lifts start at {{f:lo.grande-motte}} and climb to {{f:hi.grande-motte}}. The low ground is limited to Les Brévières, La Daille and the village of Val d'Isère, whose lowest lifts start between {{f:lo.brevieres|n}} and {{f:lo.val-disere}}.",
-      "The weather model behind the snowfall figures covers the whole area with one grid cell, so it cannot tell Tignes from Val d'Isère, but it shows plainly what height does. In a typical season between 1991 and 2020, about {{f:F000105}} of snow fell at 1,600 m, {{f:s2100}} at 2,100 m and {{f:s2600}} at 2,600 m.",
-      "The lower slopes have lost the most. At 1,600 m the typical season fell from {{f:s1600_old}} in 1961 to 1990 to {{f:F000105}} in 1991 to 2020, and four of the last five seasons sat in the lowest third of the 76 year record. At 2,600 m the fall was smaller, from {{f:s2600_old}} to {{f:s2600}}, though three of the last five seasons were that poor.",
-      "Height still sets the calendar. Tignes opens on {{f:open_tignes|dm}}, a week before the link to Val d'Isère on {{f:open_linked|dm}}, and the whole area runs to {{f:close_linked|dm}}, later than the linked areas of Les 3 Vallées and Paradiski. The model gives snowfall rather than depth on the ground, and measured depths from weather stations are still being collected."
-    ],
-    "heightsTitle": "Lift heights by sector",
-    "heightsCaption": "Lowest lift base to highest lift top in each sector. From OpenStreetMap lift positions and the Copernicus 90 m elevation model, which reads a little low on the highest summits.",
-    "chartTitle": "Seasonal snowfall at three heights, 1950 to 2026",
-    "chartCaption": "Modelled snowfall from November to April, from the ERA5 reanalysis via the Open-Meteo historical weather API, for the grid cell at 45.5 N, 7.0 E adjusted to each height. Dots are single seasons; lines are 11 season running means. These are model values, not measurements on a piste.",
-    "chartDesc": "Modelled snowfall from November to April. Dots are single seasons; lines are 11 season running means. Median 1991 to 2020: {{f:F000105}} at 1,600 m, {{f:s2100}} at 2,100 m, {{f:s2600}} at 2,600 m.",
-    "conditions": {
-      "status": "<b>No conditions are reported here yet.</b> Tignes is due to open on {{f:open_tignes}} and the linked area on {{f:open_linked}}. Until live data arrives, the official sources below give open lifts, pistes and forecasts.",
-      "items": [
-        {"dt": "Lifts and pistes open", "dd": "<a href=\"https://en.tignes.net\">Tignes</a> and <a href=\"https://www.valdisere.com/en/\">Val d'Isère</a>"},
-        {"dt": "Mountain forecast", "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France mountain weather</a>"},
-        {"dt": "Avalanche danger", "dd": "<a href=\"https://meteofrance.com/meteo-montagne\">Météo-France bulletins</a> for the Savoie massifs, published daily in winter"}
-      ],
-      "safety": "Terrain beyond the marked pistes is not controlled. The avalanche bulletin and local advice take precedence over anything on this page."
-    },
-    "ev": ["T003", "T004", "T020", "T030"]
-  },
-  "pass": {
-    "h2": "One pass for the week",
-    "paras": [
-      "Neither resort sells a week pass of its own. Six days in high season cost {{f:F000068}} on the Tignes Val d'Isère pass, while the local passes of Tignes and Val d'Isère are sold by the half day or the day, at {{f:tg_1d}} and {{f:vi_1d}} for a day against {{f:F000067}} for the whole area.",
-      "For a week the choice is made, and the question becomes when to go. From {{f:red1_start|dm}} to {{f:red1_end|dm}} and from {{f:red2_start|dm}} to {{f:red2_end|dm}} a day on the whole area costs {{f:early_1d}}, and a day on one resort {{f:tg_1d_early}}."
-    ],
-    "table": {
-      "caption": "Local day pass against the area day pass, adult, 2026/27",
-      "rows": [
-        ["Tignes, one day", "{{f:tg_1d}}", "{{f:F000067}}", "{{diff:F000067,tg_1d}}"],
-        ["Val d'Isère, one day", "{{f:vi_1d}}", "{{f:F000067}}", "{{diff:F000067,vi_1d}}"],
-        ["Tignes, one day, early and late season", "{{f:tg_1d_early}}", "{{f:early_1d}}", "{{diff:early_1d,tg_1d_early}}"],
-        ["Val d'Isère, one day, early and late season", "{{f:vi_1d_early}}", "{{f:early_1d}}", "{{diff:early_1d,vi_1d_early}}"]
-      ],
-      "note": "Sources: the <a href=\"https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf\">Tignes Val d'Isère rate sheet</a> and <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>."
-    },
-    "coverageTitle": "What the pass covers",
-    "coverage": [
-      {"label": "Linked both ways by lift and piste", "kind": "yes", "items": ["Tignes: Les Brévières, Tignes 1800, Le Lac, Le Lavachet and Val Claret", "The Grande Motte glacier", "Val d'Isère: La Daille, the village, Solaise and Le Fornet"]}
-    ],
-    "scenariosTitle": "Which pass for which trip",
-    "scenarios": [
-      {"who": "A week in either resort", "what": "The only six day pass covers the whole area, at {{f:F000068}} for an adult and {{f:child_6d}} for children of 8 to 18 and seniors of 65 to 74."},
-      {"who": "Families", "what": "Children under 8 ski free, and four or more passes of six days or longer bought together, for two adults and at least two children, take {{f:family_pack}} off the total."},
-      {"who": "Early and late season", "what": "From {{f:red1_start|dm}} to {{f:red1_end|dm}} and from {{f:red2_start|dm}} to {{f:red2_end|dm}} a day on the whole area costs {{f:early_1d}}; Tignes alone opens a week earlier, on {{f:open_tignes|dm}}."},
-      {"who": "Rest days", "what": "Passes of six days or more include unlimited entry to Le Lagon in Tignes, and two entries to the Centre Aquasportif in Val d'Isère."},
-      {"who": "A single day", "what": "A day on one resort costs {{diff:F000067,tg_1d}} less than a day on the whole area."},
-      {"who": "Over 75", "what": "Skiers aged 75 and over ride free, subject to the conditions at the ticket office."}
-    ],
-    "after": "Adults are 19 to 64; children of 8 to 18 and seniors of 65 to 74 pay the reduced rate. High season runs from {{f:high_start|dm}} to {{f:high_end|dm}}.",
-    "ev": ["T001", "T003", "T004"]
+   "photo": "face"
   },
   "access": {
-    "h2": "Getting there and choosing a base",
-    "paras": [
-      "By the fastest road, Geneva airport is {{f:gva_brev}} from Les Brévières and {{f:gva_fornet}} from Le Fornet, Lyon airport {{f:lys_min|n}} to {{f:lys_max}} and Chambéry {{f:cmf_min|n}} to {{f:cmf_max}}. Every route climbs from Bourg-Saint-Maurice on the D902 past the Chevril dam, and the Col de l'Iseran beyond Val d'Isère is closed to traffic in winter, so there is no way in from the Maurienne.",
-      "Bourg-Saint-Maurice is the railway station, {{f:bsm_min|n}} to {{f:bsm_max}} from the villages by road, and the Eurostar ski service from London calls there on winter Saturdays. Regional buses run from the station to both resorts, and some long distance coaches stop at La Daille, where free shuttles run to the centre of Val d'Isère."
-    ],
-    "accessNote": "Road distances are the fastest route by the OSRM router on OpenStreetMap data, without traffic or snow. The ski train as reported by <a href=\"https://www.seat61.com/trains-and-routes/eurostar-ski-train.htm\">Seat 61</a>; roads and buses by <a href=\"https://guide-ski.fr/?p=450\">Guide Ski</a>. 2026/27 bus timetables have not yet been checked.",
-    "basesH3": "How far each base reaches",
-    "basesParas": [
-      "Tignes Le Lac and Val Claret are the best placed bases. From Val Claret, Val d'Isère is {{f:b.val-claret.val-disere|w}} lift rides away and a lift top above 3,000 m only {{f:b.val-claret.top3000|w}}, by the Perce-Neige funicular. From the village of Val d'Isère, Tignes Le Lac is {{f:b.val-disere.le-lac|w}} lift rides away.",
-      "Les Brévières and Le Fornet pay for their quiet in lifts. From Les Brévières, Val d'Isère takes {{f:b.brevieres.val-disere|w}} lift rides and Le Fornet {{f:b.brevieres.le-fornet|w}}; from Le Fornet, Tignes Le Lac takes {{f:b.le-fornet.le-lac|w}}."
-    ],
-    "basesCaption": "Lift rides from each base",
-    "baseCols": ["To Tignes Le Lac", "To Val d'Isère", "To Le Fornet", "To a lift top above 3,000 m"],
-    "bases": [
-      {"base": "Val Claret", "v": [{"$f": "b.val-claret.le-lac"}, {"$f": "b.val-claret.val-disere"}, {"$f": "b.val-claret.le-fornet"}, {"$f": "b.val-claret.top3000"}]},
-      {"base": "Tignes Le Lac", "v": [{"$f": "b.le-lac.le-lac"}, {"$f": "b.le-lac.val-disere"}, {"$f": "b.le-lac.le-fornet"}, {"$f": "b.le-lac.top3000"}]},
-      {"base": "Val d'Isère", "v": [{"$f": "b.val-disere.le-lac"}, {"$f": "b.val-disere.val-disere"}, {"$f": "b.val-disere.le-fornet"}, {"$f": "b.val-disere.top3000"}]},
-      {"base": "La Daille", "v": [{"$f": "b.la-daille.le-lac"}, {"$f": "b.la-daille.val-disere"}, {"$f": "b.la-daille.le-fornet"}, {"$f": "b.la-daille.top3000"}]},
-      {"base": "Les Brévières", "v": [{"$f": "b.brevieres.le-lac"}, {"$f": "b.brevieres.val-disere"}, {"$f": "b.brevieres.le-fornet"}, {"$f": "b.brevieres.top3000"}]},
-      {"base": "Le Fornet", "v": [{"$f": "b.le-fornet.le-lac"}, {"$f": "b.le-fornet.val-disere"}, {"$f": "b.le-fornet.le-fornet"}, {"$f": "b.le-fornet.top3000"}]}
-    ],
-    "basesNote": "Fewest lift rides from the village lifts before reaching the first lift of each area, on the OpenStreetMap model, counting the Perce-Neige and Funival funiculars as lifts and the walk along the Val Claret snow front. Times are not included.",
-    "ev": ["T020", "T040", "T041", "T004"]
-  },
-  "chapters": [
-    {
-      "id": "snowboard",
-      "kicker": "Snowboarders",
-      "h2": "Riding Tignes Val d'Isère on a board",
-      "photo": "glacier",
-      "paras": [
-        "Each resort keeps its own park. Tignes has its snowpark at the top of the Grattalu chair above Val Claret, with kickers, rails and boxes for beginners and intermediates and a free airbag, a halfpipe at the foot of the Lanches chair, and an expert boardercross in the same Palet sector. Val d'Isère's Val Park fills the middle of the Bellevarde bowl below the Mont Blanc chair, with kickers graded from green to black.",
-        "Drag lifts are scarce in the villages and common on the glacier. In the map data {{f:m_drags}} of the {{f:m_main}} main lifts are drags; they make up {{f:drag.grande-motte}} of the main lifts on the Grande Motte and {{f:drag.le-fornet}} in Le Fornet, against {{f:drag.val-claret}} in Val Claret.",
-        "Away from the parks, terrain beyond the markers is not controlled, so the avalanche bulletin and a local guide come first."
-      ],
-      "listTitle": "Parks and places to ride",
-      "items": [
-        {"place": "poi:tignes-snowpark", "where": "Grattalu chair, Val Claret", "text": "Kickers, rails and boxes, with a free airbag."},
-        {"place": "poi:tignes-halfpipe", "where": "Lanches chair, Val Claret", "text": "A halfpipe, rare among French resorts."},
-        {"place": "poi:tignes-boardercross", "where": "Palet sector, Tignes", "text": "An expert boardercross."},
-        {"place": "poi:val-park", "where": "Bellevarde bowl, Val d'Isère", "text": "Kickers graded from green to black."}
-      ],
-      "note": "Parks: <a href=\"https://seetignes.com/ski-area/snowparks\">See Tignes</a> (October 2024) and <a href=\"https://guide-ski.fr/?p=170\">Guide Ski</a>. Drag lift shares from OpenStreetMap. Park layouts change every season."
-    },
-    {
-      "id": "families",
-      "kicker": "Families",
-      "h2": "Holidays with children",
-      "photo": "village1800",
-      "paras": [
-        "Tignes and Val d'Isère both carry the Famille Plus label for family resorts, and the pass is generous to the young: children under 8 ski free, and a family buying four week passes together saves {{f:family_pack}} on the total.",
-        "Tignes makes the first days easy. Free beginner lifts run at Le Lac, Le Lavachet and Val Claret, the Bollin chair at Val Claret is free, and four free sledging areas sit at Le Lac, Le Lavachet, Tignes 1800 and Les Brévières. The Expédition Cobra snow luge runs about {{f:cobra_len}} down from Palafour and is not recommended for children under 13, and passes of six days or more include unlimited entry to the Lagon pool.",
-        "Val d'Isère has a free drag to the green Savonnette run at the foot of the main snow front, Ski Tranquille slow zones at Solaise and Bellevarde, a snow garden for the youngest, and the Centre Aquasportif with a sports pool and a leisure pool. Free shuttles link La Daille, Le Fornet and Legettaz to the centre.",
-        "For a base, Tignes Le Lac has the highest share of green and blue in the map data, {{f:easy.le-lac}}, and sits one lift ride from Val Claret, La Daille and Les Brévières."
-      ],
-      "listTitle": "For children",
-      "items": [
-        {"place": "poi:tignes-beginner-lifts", "where": "Le Lac, Le Lavachet and Val Claret", "text": "Free lifts for learners."},
-        {"place": "poi:expedition-cobra", "where": "Tignes Le Lac", "text": "A snow luge run from Palafour."},
-        {"place": "poi:le-lagon", "where": "Tignes", "text": "Pool and wellness centre, unlimited on six day passes."},
-        {"place": "poi:savonnette", "where": "Val d'Isère", "text": "A free drag to a green run on the snow front."},
-        {"place": "poi:ski-tranquille", "where": "Solaise and Bellevarde", "text": "Slow zones for nervous skiers."},
-        {"place": "poi:centre-aquasportif", "where": "Val d'Isère", "text": "A sports pool and a leisure pool."}
-      ],
-      "note": "Sources: <a href=\"https://www.france.fr/fr/article/label-ski-famille-plus/\">France.fr on Famille Plus</a> (updated October 2023), <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>. Ages and opening times are best checked when booking."
-    },
-    {
-      "id": "food",
-      "kicker": "Food",
-      "h2": "Eating on the mountain",
-      "photo": "village",
-      "paras": [
-        "Each resort has one Michelin star in the 2026 guide: Ursus in Tignes, where Clément Bouvier cooks, and La Table de l'Ours in Val d'Isère, Antoine Gras's restaurant in the Barmes de l'Ours hotel.",
-        "On the Val d'Isère side, Le Signal at the top of the Le Fornet cable car has a sun terrace, a log fire and a yurt for cold days. La Peau de Vache, halfway down La Face, is known for burgers big enough for two, and Le Refuge de Solaise serves gourmet food in a glass conservatory below the top of the Solaise gondola. Down in the village, La Baraque on the main street has live folk music and a following among locals.",
-        "In Tignes, L'Alpage des Chaudannes at the top of the Chaudannes chair, above Le Lac and Le Lavachet, serves Savoyard dishes and Savoie wines on a sun terrace. In Val Claret, La Taverne des Neiges by the Bollin and Fresse chairs looks up at the Grande Motte."
-      ],
-      "listTitle": "Tables worth the detour",
-      "items": [
-        {"place": "poi:ursus", "where": "Tignes", "text": "One Michelin star, chef Clément Bouvier."},
-        {"place": "poi:la-table-de-l-ours", "where": "Val d'Isère", "text": "One Michelin star, chef Antoine Gras."},
-        {"place": "poi:le-signal-le-fornet", "where": "Top of the Le Fornet cable car", "text": "Sun terrace, log fire and a yurt."},
-        {"place": "poi:la-peau-de-vache", "where": "La Face, Bellevarde", "text": "Burgers big enough for two."},
-        {"place": "poi:le-refuge-de-solaise", "where": "Solaise", "text": "Gourmet cooking in a glass conservatory."},
-        {"place": "poi:l-alpage-des-chaudannes", "where": "Chaudannes chair, Tignes", "text": "Savoyard dishes and Savoie wines."},
-        {"place": "poi:la-taverne-des-neiges", "where": "Val Claret", "text": "Pizza and Savoyard dishes facing the Grande Motte."},
-        {"place": "poi:la-baraque", "where": "Val d'Isère", "text": "Live folk music on the main street."}
-      ],
-      "note": "Michelin 2026: <a href=\"https://presse.explore-savoie.com/les-tables-distinguees-2026/\">Savoie tourism</a>. Restaurants: <a href=\"https://snowcarbon.co.uk/ski-resorts/val-disere/restaurants-apres-ski-nightlife\">Snowcarbon</a> for Val d'Isère and <a href=\"https://www.seetignes.com/restaurants/mountain/\">See Tignes</a> for Tignes. Restaurants change hands and menus each season."
-    },
-    {
-      "id": "apres",
-      "kicker": "Après",
-      "h2": "Après and evenings",
-      "photo": "night",
-      "paras": [
-        "La Folie Douce on the Daille gondola above La Daille was opened by Luc Reversade in {{f:folie_opened}}, and once enlarged it is credited with inventing open air après clubbing. Its afternoons run to live bands, DJs and cabaret until the lifts close.",
-        "In Val d'Isère, Cocorico beside the main lift by the bus turning circle keeps the afternoon going, with La Doudoune in its basement open until five in the morning, and Dick's Tea Bar in the centre, opened in {{f:dicks_opened}}, takes over late at night.",
-        "Tignes spreads its evenings between Le Lac and Val Claret. The Loop Bar at Le Lac can be skied to from the Trolles slope, and Strike, in the old bowling alley, claims to be the largest club in the Alps. In Val Claret, the Drop Zone has the biggest south facing terrace in Tignes by Iglu Ski's account, and the Melting Pot stays open until four in the morning."
-      ],
-      "listTitle": "Where the evenings start",
-      "items": [
-        {"place": "poi:la-folie-douce-val-disere", "where": "Daille gondola, La Daille", "text": "Live bands, DJs and cabaret every afternoon."},
-        {"place": "poi:cocorico-val-disere", "where": "Snow front, Val d'Isère", "text": "A short walk from the bus stop."},
-        {"place": "poi:dicks-tea-bar", "where": "Val d'Isère", "text": "The late night club, open from 10.30 pm."},
-        {"place": "poi:loop-bar", "where": "Tignes Le Lac", "text": "Live music and a sun terrace off the Trolles slope."},
-        {"place": "poi:strike-tignes", "where": "Tignes Le Lac", "text": "A club in the old bowling alley."},
-        {"place": "poi:drop-zone", "where": "Val Claret", "text": "A big south facing terrace."},
-        {"place": "poi:melting-pot", "where": "Val Claret", "text": "Drum and bass and electro until 4 am."}
-      ],
-      "note": "Sources: <a href=\"https://www.mon-sejour-en-montagne.com/histoires-et-anecdotes/la-folie-douce-a-val-d-isere-ce-restaurant-d-altitude-devenu-le-haut-lieu-de-la-fete-sur-les-pistes/\">Mon séjour en montagne on La Folie Douce</a> (September 2023), <a href=\"https://snowcarbon.co.uk/ski-resorts/val-disere/restaurants-apres-ski-nightlife\">Snowcarbon</a> and <a href=\"https://www.aluxurytravelblog.com/2021/11/25/apres-ski-bars-in-val-disere/\">A Luxury Travel Blog</a> (2021) for Val d'Isère, and <a href=\"https://www.igluski.com/blog/post/best-apres-ski-bars-and-nightlife-hotspots-in-tignes\">Iglu Ski</a> for Tignes. Bars open and close from season to season."
-    }
-  ],
-  "fit": {
-    "h2": "Who it suits",
-    "intro": "How the area suits different kinds of trip, on the evidence gathered so far.",
-    "rows": [
-      {"who": "Exploring a large network", "fit": "Good fit", "why": "Two resorts linked by several lifts over one ridge, with no single closure that cuts them apart.", "limit": "Les Brévières to Le Fornet takes {{m:all.brevieres.le-fornet|w}} lift rides each way."},
-      {"who": "Intermediates who want variety", "fit": "Good fit", "why": "Green and blue reach every sector in the map data, and the centres of the two resorts are close on easy runs.", "limit": "Solaise and Le Fornet are a long way round on green and blue."},
-      {"who": "Groups of mixed ability", "fit": "Mixed", "why": "Val Claret and La Daille are one lift ride apart, so a group can split across the ridge and meet again.", "limit": "The quickest ways back into Tignes Le Lac use black runs."},
-      {"who": "First timers", "fit": "Good fit", "why": "Free beginner lifts in Tignes, a free drag to a green run in Val d'Isère, and children under 8 ski free.", "limit": "Neither resort sells a week pass of its own, so a first week pays for the whole area."},
-      {"who": "Families", "fit": "Good fit", "why": "Famille Plus in both resorts, a family discount on week passes and pool entry included.", "limit": "Prices for lessons and childcare vary by village and are best checked when booking."},
-      {"who": "Snowboarders", "fit": "Good fit", "why": "A snowpark, a halfpipe and a boardercross in Tignes, and Val Park on Bellevarde.", "limit": "Drags make up {{f:drag.grande-motte}} of the main lifts on the glacier."},
-      {"who": "Experts", "fit": "Good fit", "why": "{{f:runs_black}} black runs, the Face de Bellevarde and the highest difficult share of the Savoie areas on this site.", "limit": "Off piste terrain is not controlled; the avalanche bulletin and a guide come first."},
-      {"who": "Putting snow first", "fit": "Good fit", "why": "Tignes Le Lac and Val Claret start at {{f:lo.le-lac}} and {{f:lo.val-claret}}, and the season runs to {{f:close_linked|dm}}.", "limit": "At 1,600 m modelled snowfall has fallen, and four of the last five seasons were poor there."},
-      {"who": "Travelling without a car", "fit": "Mixed", "why": "The ski train reaches Bourg-Saint-Maurice, with buses on to both resorts.", "limit": "The last stretch is a bus ride up the valley, and 2026/27 timetables have not yet been checked."},
-      {"who": "Preferring a smaller area", "fit": "Mixed", "why": "Day passes for Tignes or Val d'Isère alone.", "limit": "There is no local week pass."},
-      {"who": "Food lovers", "fit": "Good fit", "why": "A Michelin star in each resort and mountain tables from Le Fornet to the Chaudannes.", "limit": "The best known tables are expensive and book up."},
-      {"who": "Looking for après", "fit": "Good fit", "why": "The original Folie Douce, late clubs in both resorts and busy bars in Val Claret.", "limit": "The two resorts are a bus ride apart in the evening."},
-      {"who": "Non skiers", "fit": "Mixed", "why": "Pools in both resorts, sledging areas in Tignes and the snow luge.", "limit": "Each activity is paid for separately unless it comes with a week pass."}
-    ],
-    "catchesH3": "The catches",
-    "catches": "The catches are price and the hard way home. The six day pass is the dearest of the four Savoie areas on this site, and neither resort offers a cheaper week of its own. The fewest lift rides back into Tignes Le Lac and Les Brévières from Val d'Isère use black runs, and Le Fornet hangs on a single chair. Lower down, the modelled snow has thinned, with four of the last five seasons at 1,600 m in the lowest third."
-  },
-  "compare": {
-    "h2": "The other large areas of Savoie",
-    "paras": [
-      "Set against its neighbours, Tignes Val d'Isère is smaller than Les 3 Vallées and Paradiski, with {{f:F000080}} of piste against {{f:F000002}} and {{f:F000071}}, but it climbs highest, to {{f:F000083}}, and has the largest share of difficult piste, {{f:F000086}}.",
-      "Its day ticket matches Paradiski's at {{f:F000067}}, but its six day pass is the dearest of the four at {{f:F000068}}. In the weather model it has the least snow of the four at 1,600 m, which matters less where Tignes Le Lac and Val Claret start at {{f:lo.le-lac}} and {{f:lo.val-claret}}."
-    ],
-    "caption": "Four linked areas of Savoie",
-    "cols": [
-      {"name": {"$p": "area:tignes-val-disere"}, "href": ""},
-      {"name": {"$p": "area:les-3-vallees"}, "href": "/projectsnow/france/les-3-vallees/"},
-      {"name": {"$p": "area:paradiski"}, "href": "/projectsnow/france/paradiski/"},
-      {"name": {"$p": "area:les-sybelles"}, "href": "/projectsnow/france/les-sybelles/"}
-    ],
-    "rows": [
-      {"label": "Piste", "v": ["{{f:F000080}}", "{{f:F000002}}", "{{f:F000071}}", "{{f:F000089}}"]},
-      {"label": "Lifts", "v": ["{{f:F000081}}", "{{f:F000005}}", "{{f:F000072}}", "{{f:F000090}}"]},
-      {"label": "Lift heights", "v": ["{{f:F000082|n}} to {{f:F000083}}", "{{f:F000019|n}} to {{f:F000021}}", "{{f:F000073|n}} to {{f:F000074}}", "{{f:F000091|n}} to {{f:F000092}}"]},
-      {"label": "Easy, intermediate, difficult", "v": ["{{f:F000084|n}}, {{f:F000085|n}}, {{f:F000086}}", "{{f:F000015|n}}, {{f:F000016|n}}, {{f:F000017}}", "{{f:F000075|n}}, {{f:F000076|n}}, {{f:F000077}}", "{{f:F000093|n}}, {{f:F000094|n}}, {{f:F000095}}"]},
-      {"label": "Day ticket, adult, high season", "v": ["{{f:F000067}}", "{{f:F000056}}", "{{f:F000065}}", "{{f:F000069}}"]},
-      {"label": "Six days, adult, high season", "v": ["{{f:F000068}}", "{{f:F000057}}", "{{f:F000066}}", "{{f:F000070}}"]},
-      {"label": "Snowfall at 1,600 m, typical season 1991 to 2020", "v": ["{{f:F000105}}", "{{f:F000098}}", "{{f:F000361}}", "{{f:F000106}}"]},
-      {"label": "Road from Geneva airport", "v": ["{{f:F000087|n}} to {{f:F000088}}", "{{f:F000107|n}} to {{f:F000108}}", "{{f:F000078|n}} to {{f:F000079}}", "{{f:F000096|n}} to {{f:F000097}}"]},
-      {"label": "How it links", "v": ["Two resorts sharing one area", "Three valleys joined by lift; Orelle and Brides by gondola", "Two resorts joined by the Vanoise Express", "Six villages meeting at the Ouillon summit"]}
-    ],
-    "note": "Size, lifts, heights and grade split: skiresort.com listings for <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/\">Tignes Val d'Isère</a>, <a href=\"https://www.skiresort.com/en/ski-resort/les-3-vallees-val-thorens-les-menuires-meribel-courchevel/\">Les 3 Vallées</a>, <a href=\"https://www.skiresort.com/en/ski-resort/la-plagne-paradiski/\">La Plagne</a> and <a href=\"https://www.skiresort.com/en/ski-resort/les-arcs-peisey-vallandry-paradiski/\">Les Arcs and Peisey-Vallandry</a> (added together for Paradiski), and <a href=\"https://www.skiresort.com/en/ski-resort/les-sybelles-le-corbier-la-toussuire-les-bottieres-st-sorlin-st-jean-darves/\">Les Sybelles</a>, retrieved 20 October 2026. Prices: <a href=\"https://www.alti-mag.com/tarifs-forfaits-de-ski/tarifs-forfaits-ski-alpes/tarifs-forfaits-ski-alpes-du-nord\">Alti-Mag</a>, 2026/27 high season, indicative. Snowfall: ERA5 via the Open-Meteo historical weather API, one grid cell per area adjusted to 1,600 m; the cells are about 20 to 30 km across, so the figures describe regions, not single resorts. Road: fastest route from Geneva airport to the main villages by the OSRM router, Tignes Le Lac and Val d'Isère for this area.",
-    "ev": ["T010", "T030", "T040"]
-  },
-  "explore": [
-    {"h3": "Official information", "links": [
-      {"t": "Tignes", "u": "https://en.tignes.net"},
-      {"t": "Tignes lift passes", "u": "https://en.tignes.net/skiing/ski-pass-you-need"},
-      {"t": "Val d'Isère", "u": "https://www.valdisere.com/en/"},
-      {"t": "Val d'Isère lift passes", "u": "https://www.valdisere.com/en/prepare-for-your-stay/buy-my-skipass/"},
-      {"t": "2026/27 rate sheet", "u": "https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf"}
-    ]},
-    {"h3": "On Snow Catchers", "links": [
-      {"t": "Skiing in France", "u": "/projectsnow/france/"},
-      {"t": "Les 3 Vallées", "u": "/projectsnow/france/les-3-vallees/"},
-      {"t": "Paradiski", "u": "/projectsnow/france/paradiski/"},
-      {"t": "Les Sybelles", "u": "/projectsnow/france/les-sybelles/"},
-      {"t": "Portes du Soleil", "u": "/projectsnow/france/portes-du-soleil/"}
-    ]},
-    {"h3": "Resorts and villages", "text": "Pages for Tignes, Val d'Isère and their villages come next, with the runs, ski schools, restaurants and places to stay that this page leaves out."}
-  ],
-  "method": {
-    "items": [
-      {"dt": "Which resorts count", "dd": "Tignes and Val d'Isère, the two resorts on the Tignes Val d'Isère pass, split into the eight sectors that a skier meets on the ground. Sharing the pass is recorded separately from being linked by lift and piste."},
-      {"dt": "How links were checked", "dd": "A sector counts as linked only when a route of lifts and pistes reaches it in the OpenStreetMap data. Drag lifts run one way, gondolas and the two funiculars may be ridden down, and the walks from the underground Perce-Neige stations and along the Val Claret snow front are added by hand. A link is critical when closing one lift on it cuts routes that no other lift replaces. The model has not yet been checked against the official 2026/27 piste map."},
-      {"dt": "Piste totals", "dd": "Operator and measured figures are both shown and never averaged. Mapped piste from OpenStreetMap is used only to compare sectors and grades."},
-      {"dt": "Comparisons", "dd": "The four areas compared use the same source for each row, so a figure can be set against its neighbour."}
-    ],
-    "fresh": [
-      ["Lift pass prices", "2026/27 season", "Rate sheet and Guide Ski", "24 Oct 2026"],
-      ["Season dates", "2026/27 season", "Guide Ski", "24 Oct 2026"],
-      ["Run and lift counts, size, altitude", "Current listings", "Guide Ski and skiresort.com", "24 Oct 2026"],
-      ["Network, bases, routes, sector comparison", "Map snapshot", "Derived from OpenStreetMap", "24 Oct 2026"],
-      ["Snowfall", "1950/51 to 2025/26", "Reanalysis model", "24 Oct 2026"],
-      ["Train and buses", "2026/27 announcements; timetables not checked", "Seat 61 and Guide Ski", "24 Oct 2026"],
-      ["Comparison with other areas", "Current listings", "skiresort.com, Alti-Mag, model, router", "20 Oct 2026"],
-      ["Restaurants, bars, parks and family facilities", "Current guides; some from 2021 to 2024", "Guides, tourist offices and press", "24 Oct 2026"],
-      ["Michelin stars", "2026 guide", "Savoie tourism", "24 Oct 2026"],
-      ["Visitor reviews", "Not yet analysed", "None", "Not started"],
-      ["Current conditions", "Not shown on this page", "Linked to operators and forecasters", "Links checked 24 Oct 2026"]
-    ],
-    "conflictsH3": "Figures that do not agree",
-    "conflicts": "Guide Ski's Tignes page counts {{f:op_lifts74}} lifts on the official sheet and its Val d'Isère page {{f:op_lifts71}}, while skiresort.com lists {{f:F000081}}. The elevation model puts the top of the Grande Motte cable car at {{f:hi.grande-motte}} against the published {{f:op_high}}. The mapped piste comes to {{f:m_km}}, against {{f:op_km}} from the operator. This page names each source alongside its figure.",
-    "sources": "Research of 24 October 2026. Size, runs, lifts, season dates, parks and passes: <a href=\"https://guide-ski.fr/?p=170\">Guide Ski for Tignes</a> and <a href=\"https://guide-ski.fr/?p=450\">for Val d'Isère</a>, and the <a href=\"https://www.tignes.co.uk/2026-2027-SkiPassPrices.pdf\">2026/27 rate sheet</a>. Measured size and grades: <a href=\"https://www.skiresort.com/en/ski-resort/tignes-val-disere/\">skiresort.com</a>. History: Wikipedia on <a href=\"https://en.wikipedia.org/wiki/Tignes\">Tignes</a> and <a href=\"https://en.wikipedia.org/wiki/Val-d%27Is%C3%A8re\">Val d'Isère</a>. Network, bases, routes and lift heights: a graph of {{f:m_lifts}} lifts and {{f:m_sections}} piste sections from <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> (© OpenStreetMap contributors, ODbL), with heights from the Copernicus 90 m elevation model via <a href=\"https://open-meteo.com/en/docs/elevation-api\">Open-Meteo</a>. Snowfall: ERA5 reanalysis via the <a href=\"https://open-meteo.com/en/docs/historical-weather-api\">Open-Meteo historical weather API</a> (CC BY 4.0). Road distances: <a href=\"https://project-osrm.org/\">OSRM</a>. Facts from operators, measurements, model results and estimates are kept apart in the research files, and conflicting figures are listed above rather than averaged."
-  },
-  "breaks": {
-    "network": {"photo": "bellevarde"},
-    "terrain": {"photo": "face"},
-    "access": {"photo": "chevril"}
-  },
-  "photos": {
-    "hero": ["2017-01 Grande Motte Tignes 01.jpg", "Antoine Lamielle", "CC BY-SA 4.0", "The Grande Motte above Tignes in January"],
-    "bellevarde": ["Rocher de Bellevarde enneigé depuis Tignes 1800 (février 2026).JPG", "Florian Pépellin", "CC BY-SA 4.0", "The Rocher de Bellevarde under snow, seen from Tignes 1800"],
-    "face": ["La Face de Bellevarde, Val d'Isère, Savoie, France 1994-03.jpg", "Charles J. Sharp", "CC BY-SA 4.0", "The Face de Bellevarde above Val d'Isère"],
-    "chevril": ["Lac du Chevril depuis le barrage en hiver (février 2026).JPG", "Florian Pépellin", "CC BY-SA 4.0", "The Lac du Chevril seen from the dam in winter"],
-    "glacier": ["2017-01 Grande Motte Tignes 03.jpg", "Antoine Lamielle", "CC BY-SA 4.0", "The Grande Motte in winter"],
-    "village1800": ["Tignes 1800 sous Grande Paréi en hiver (février 2026).JPG", "Florian Pépellin", "CC BY-SA 4.0", "Tignes 1800 below the Grande Paréi in winter"],
-    "village": ["Hiver-vi.jpg", "Val d'Isère Tourisme", "CC BY-SA 4.0", "Val d'Isère in winter"],
-    "night": ["Val d'Isère - IMG 20110309 183041 (5523726158).jpg", "Kai Hendry from Singapore, Malaysia", "CC BY 2.0", "Val d'Isère in the early evening"]
+   "photo": "chevril"
   }
+ },
+ "photos": {
+  "hero": [
+   "2017-01 Grande Motte Tignes 01.jpg",
+   "Antoine Lamielle",
+   "CC BY-SA 4.0",
+   "The Grande Motte above Tignes in January"
+  ],
+  "bellevarde": [
+   "Rocher de Bellevarde enneigé depuis Tignes 1800 (février 2026).JPG",
+   "Florian Pépellin",
+   "CC BY-SA 4.0",
+   "The Rocher de Bellevarde under snow, seen from Tignes 1800"
+  ],
+  "face": [
+   "La Face de Bellevarde, Val d'Isère, Savoie, France 1994-03.jpg",
+   "Charles J. Sharp",
+   "CC BY-SA 4.0",
+   "The Face de Bellevarde above Val d'Isère"
+  ],
+  "chevril": [
+   "Lac du Chevril depuis le barrage en hiver (février 2026).JPG",
+   "Florian Pépellin",
+   "CC BY-SA 4.0",
+   "The Lac du Chevril seen from the dam in winter"
+  ],
+  "glacier": [
+   "2017-01 Grande Motte Tignes 03.jpg",
+   "Antoine Lamielle",
+   "CC BY-SA 4.0",
+   "The Grande Motte in winter"
+  ],
+  "village1800": [
+   "Tignes 1800 sous Grande Paréi en hiver (février 2026).JPG",
+   "Florian Pépellin",
+   "CC BY-SA 4.0",
+   "Tignes 1800 below the Grande Paréi in winter"
+  ],
+  "village": [
+   "Hiver-vi.jpg",
+   "Val d'Isère Tourisme",
+   "CC BY-SA 4.0",
+   "Val d'Isère in winter"
+  ],
+  "night": [
+   "Val d'Isère - IMG 20110309 183041 (5523726158).jpg",
+   "Kai Hendry from Singapore, Malaysia",
+   "CC BY 2.0",
+   "Val d'Isère in the early evening"
+  ]
+ }
 }

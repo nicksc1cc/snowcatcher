@@ -5,7 +5,7 @@ Started 24 October 2026 for the Snow Catchers Level 3 page (france/tignes-val-di
 | File | Contents |
 |---|---|
 | package.json | Page, place, datasets and the files the loader reads |
-| data/evidence_register.csv | Sources T001 to T064 |
+| data/evidence_register.csv | Sources T001 to T073 |
 | data/places.csv | Resorts, the eight sectors, lifts, passes and the places named on the page |
 | data/facts.csv | Facts written by scripts/make_data.py; model facts come from the network run |
 | data/snow_era5_seasons.csv | ERA5 seasonal snowfall, cell 45.5 N 7.0 E, 1950/51 to 2025/26 |
@@ -18,6 +18,10 @@ Started 24 October 2026 for the Snow Catchers Level 3 page (france/tignes-val-di
 ## Status
 
 Loaded into the database on 24 October 2026 as drafts: 117 facts (F000373 to F000489, all draft), 370 blocks and 25 list items (review), 8 photos and 48 places (draft), three datasets (draft) and page:area:tignes-val-disere (review). A dry run of approve_page inside a rolled back transaction rendered the page with the same hash as the local preview (97f4e048f06650104bc65fa72a984642).
+
+## Revision of 24 October 2026 (evening)
+
+The four chapters and the access section were brought up to the depth of the Portes du Soleil page: off piste and tree riding (T065 to T068), more Tignes restaurants and après in Le Lavachet and Les Brévières (T069, T070), winter tyre rules, parking and Saturday traffic (T071 to T073). No new facts. Seven new places and seven list items were loaded, and the halfpipe blurb was corrected. The block and layout updates were cancelled by Supabase and are in a single SQL file for Nick to run; afterwards the blocks should hash to c4c82a7d52f3a50957222ff4b4eca36d (374 rows) and the render to 562ef45e317465c131c307c6950dccee.
 
 ## Model notes
 
