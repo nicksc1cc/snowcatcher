@@ -82,10 +82,10 @@ def check_shape(v, s, path):
             check_shape(x, s["items"], f"{path}.{i}")
 
 
-check_shape(draft, contract, "page")
+# the contract is checked on the rendered page, after references are resolved (see below)
 
 # ---------------------------------------------------------------- sources, places, properties
-STYPE = {"operator": "operator", "independent": "listing", "derived": "open_data", "model": "model",
+STYPE = {"operator": "operator", "guide": "guide", "independent": "listing", "derived": "open_data", "model": "model",
          "press": "press", "tourism": "tourism", "internal": "internal"}
 REG = {r["id"]: r for r in rd("data/evidence_register.csv")}
 sources, src_of = {}, {}
@@ -266,6 +266,8 @@ try:
 except KeyError as e:
     problems.append(f"render failed: missing {e}")
     rendered = None
+if rendered is not None:
+    check_shape(rendered, contract, "page")
 
 if problems:
     print("PROBLEMS")

@@ -1,0 +1,24 @@
+{
+  "page_id": "page:area:paradiski",
+  "place_id": "area:paradiski",
+  "template": "l3-domain",
+  "level": 3,
+  "canonical_path": "/france/paradiski/",
+  "retrieved": "2026-10-24",
+  "sector_prefix": "sector:paradiski.",
+  "network": {"dataset": "ds:paradiski-network-2026-10-24", "file": "model/network.json"},
+  "snow": {"dataset": "ds:paradiski-era5-snow-2026-10-24", "cell": "cell:era5.45.5.6.75", "file": "data/snow_era5_seasons.csv"},
+  "datasets": [
+    {"id": "ds:paradiski-network-2026-10-24", "kind": "network", "title": "Paradiski lift and piste network, OpenStreetMap snapshot 2026-10-24", "place_id": "area:paradiski",
+     "inputs": {"osm_snapshot": "2026-10-24T10:30:35Z", "overpass": "overpass-api.de", "elevation": "Copernicus GLO-90 via Open-Meteo", "config": "research/paradiski/model/network_config.json"},
+     "script_path": "db/model/network.js", "run_at": "2026-10-24T10:30:35Z", "outputs_file": "model/network.json",
+     "note": "0/1 BFS on lift rides; Vanoise Express 2 dropped as the second cabin of one lift; Millerette drag outside the base table"},
+    {"id": "ds:paradiski-era5-snow-2026-10-24", "kind": "snow", "title": "ERA5 seasonal snowfall, cell 45.5 N 6.75 E, 1950/51 to 2025/26", "place_id": "area:paradiski",
+     "inputs": {"api": "Open-Meteo historical weather", "cell": "45.5,6.75", "elevations_m": [1600, 2100, 2600], "months": "November to April"},
+     "script_path": "research/paradiski/data/snow_era5_seasons.csv", "run_at": "2026-10-24T11:00:00Z"},
+    {"id": "ds:paradiski-osrm-2026-10-24", "kind": "routing", "title": "OSRM road distances to Paradiski villages", "place_id": "area:paradiski",
+     "inputs": {"router": "router.project-osrm.org", "from": ["poi:gva", "poi:lys", "poi:cmf"]}, "run_at": "2026-10-24T11:30:00Z"}
+  ],
+  "existing_places": ["area:paradiski", "area:les-3-vallees", "area:tignes-val-disere", "area:les-sybelles", "country:fr", "pass:paradiski", "cell:era5.45.5.6.75", "poi:gva", "poi:lys", "poi:cmf"],
+  "existing_place_names": {"area:paradiski": "Paradiski", "area:les-3-vallees": "Les 3 Vallées", "area:tignes-val-disere": "Tignes Val d'Isère", "area:les-sybelles": "Les Sybelles", "country:fr": "France"}
+}

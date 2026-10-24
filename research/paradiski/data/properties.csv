@@ -1,0 +1,3 @@
+key,label,value_type,unit,applies_to,qualifier_keys,allowed_methods,definition,requires_scope
+sector_pairs_cut_count,Sector pairs cut,number,count,lift,,modelled,Ordered pairs of sectors that can no longer reach each other when this lift closes,false
+extra_lift_rides_count,Extra lift rides,number,count,lift,,modelled,Lift rides added across all sector pairs when this lift closes,false
