@@ -1,0 +1,24 @@
+{
+  "page_id": "page:area:tignes-val-disere",
+  "place_id": "area:tignes-val-disere",
+  "template": "l3-domain",
+  "level": 3,
+  "canonical_path": "/france/tignes-val-disere/",
+  "retrieved": "2026-10-24",
+  "sector_prefix": "sector:tignes-val-disere.",
+  "network": {"dataset": "ds:tvi-network-2026-10-24", "file": "model/network.json"},
+  "snow": {"dataset": "ds:tvi-era5-snow-2026-10-24", "cell": "cell:era5.45.5.7.0", "file": "data/snow_era5_seasons.csv"},
+  "datasets": [
+    {"id": "ds:tvi-network-2026-10-24", "kind": "network", "title": "Tignes Val d'Isère lift and piste network, OpenStreetMap snapshot 2026-10-24", "place_id": "area:tignes-val-disere",
+     "inputs": {"osm_snapshot": "2026-10-24T11:32:51Z", "overpass": "overpass-api.de", "elevation": "Copernicus GLO-90 via Open-Meteo", "config": "research/tignes-val-disere/model/network_config.json"},
+     "script_path": "db/model/network.js", "run_at": "2026-10-24T11:32:51Z", "outputs_file": "model/network.json",
+     "note": "0/1 BFS on lift rides; Perce-Neige and Funival funiculars counted as lifts; hand walks at the Perce-Neige stations and along the Val Claret snow front"},
+    {"id": "ds:tvi-era5-snow-2026-10-24", "kind": "snow", "title": "ERA5 seasonal snowfall, cell 45.5 N 7.0 E, 1950/51 to 2025/26", "place_id": "area:tignes-val-disere",
+     "inputs": {"api": "Open-Meteo historical weather", "cell": "45.5,7.0", "elevations_m": [1600, 2100, 2600], "months": "November to April"},
+     "script_path": "research/tignes-val-disere/data/snow_era5_seasons.csv", "run_at": "2026-10-24T13:00:00Z"},
+    {"id": "ds:tvi-osrm-2026-10-24", "kind": "routing", "title": "OSRM road distances to Tignes and Val d'Isère villages", "place_id": "area:tignes-val-disere",
+     "inputs": {"router": "router.project-osrm.org", "from": ["poi:gva", "poi:lys", "poi:cmf", "poi:bourg-saint-maurice-station"]}, "run_at": "2026-10-24T13:10:00Z"}
+  ],
+  "existing_places": ["area:tignes-val-disere", "area:les-3-vallees", "area:paradiski", "area:les-sybelles", "country:fr", "pass:tignes-val-disere", "cell:era5.45.5.7.0", "poi:gva", "poi:lys", "poi:cmf"],
+  "existing_place_names": {"area:tignes-val-disere": "Tignes Val d'Isère", "area:paradiski": "Paradiski", "area:les-3-vallees": "Les 3 Vallées", "area:les-sybelles": "Les Sybelles", "country:fr": "France"}
+}

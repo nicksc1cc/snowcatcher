@@ -19,14 +19,16 @@
 //    200 m of the sector's lowest main lift (the village lifts)
 //
 // cfg = { bbox:[s,w,n,e], exclude:[[s,w,n,e],...], sectors:{id:[lat,lon]}, liftSector:{"lift name":id},
-//         transfers:[[label,[lat,lon],[lat,lon]]], topAbove: 2800, dropLifts:["second cabin of a double lift"] }
+//         transfers:[[label,[lat,lon],[lat,lon]]], topAbove: 2800, dropLifts:["second cabin of a double lift"],
+//         dropWays:[OSM way ids to ignore, such as the passing loops of a funicular] }
+// Funiculars (railway=funicular) count as lifts that can be ridden both ways.
 // A lift given a sector id that is not in cfg.sectors (for example "x-outlying") is kept in the graph but
 // left out of every sector's starts, targets and counts.
 (() => {
   const R = 6371000, rad = Math.PI / 180;
   const dist = (a, b) => { const x = (b[1] - a[1]) * rad * Math.cos((a[0] + b[0]) / 2 * rad), y = (b[0] - a[0]) * rad; return R * Math.hypot(x, y); };
-  const MAIN = new Set(["cable_car", "gondola", "mixed_lift", "chair_lift", "drag_lift", "t-bar", "j-bar", "platter"]);
-  const DOWN = new Set(["cable_car", "gondola", "mixed_lift"]);
+  const MAIN = new Set(["funicular", "cable_car", "gondola", "mixed_lift", "chair_lift", "drag_lift", "t-bar", "j-bar", "platter"]);
+  const DOWN = new Set(["funicular", "cable_car", "gondola", "mixed_lift"]);
   const DRAG = new Set(["drag_lift", "t-bar", "j-bar", "platter"]);
   const SKIP = new Set(["goods", "station", "pylon", "zip_line", "construction", "proposed", "disused"]);
   const EASY = new Set(["novice", "easy"]), RED = new Set(["novice", "easy", "intermediate"]);
@@ -34,7 +36,7 @@
 
   S.fetch = async (cfg) => {
     const [s, w, n, e] = cfg.bbox;
-    const q = `[out:json][timeout:180];(way["aerialway"](${s},${w},${n},${e});way["piste:type"="downhill"](${s},${w},${n},${e}););out body geom;`;
+    const q = `[out:json][timeout:180];(way["aerialway"](${s},${w},${n},${e});way["piste:type"="downhill"](${s},${w},${n},${e});way["railway"="funicular"](${s},${w},${n},${e}););out body geom;`;
     const r = await fetch("https://overpass-api.de/api/interpreter", { method: "POST", body: "data=" + encodeURIComponent(q) });
     const j = await r.json();
     const out = (p) => (cfg.exclude || []).some(([a, b, c, d]) => p[0] >= a && p[0] <= c && p[1] >= b && p[1] <= d);
@@ -42,6 +44,14 @@
     const lifts = [], pistes = [];
     for (const wy of ways) {
       const g = wy.geometry.map((p) => [p.lat, p.lon]), t = wy.tags || {};
+      if ((cfg.dropWays || []).includes(wy.id)) continue;
+      if (t.railway === "funicular") {
+        // funiculars mapped in several ways (bridge, tunnel) are joined end to end under one name
+        const prev = lifts.find((l) => l.type === "funicular" && l.name === (t.name || "") && [l.g[0], l.g[l.g.length - 1]].some((p) => (p[0] === g[0][0] && p[1] === g[0][1]) || (p[0] === g[g.length - 1][0] && p[1] === g[g.length - 1][1])));
+        if (prev) { const pe = prev.g[prev.g.length - 1]; prev.g = (pe[0] === g[0][0] && pe[1] === g[0][1]) ? prev.g.concat(g.slice(1)) : g.concat(prev.g.slice(1)); }
+        else if (!out(g[0])) lifts.push({ id: wy.id, name: t.name || `funicular ${wy.id}`, type: "funicular", g });
+        continue;
+      }
       if (t.aerialway && !SKIP.has(t.aerialway)) { if (!out(g[0]) && !(cfg.dropLifts || []).includes(t.name)) lifts.push({ id: wy.id, name: t.name || `${t.aerialway} ${wy.id}`, type: t.aerialway, g }); }
       else if (t["piste:type"] === "downhill" && wy.nodes && !out(g[Math.floor(g.length / 2)])) {
         if (g.length > 1 && !(g[0][0] === g[g.length - 1][0] && g[0][1] === g[g.length - 1][1] && t.area === "yes"))

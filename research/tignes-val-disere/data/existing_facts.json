@@ -1,0 +1,338 @@
+[
+{
+"id": "F000002",
+"value_num": 600,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000005",
+"value_num": 159,
+"value_text": null,
+"unit": "count",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000015",
+"value_num": 56,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000016",
+"value_num": 34,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000017",
+"value_num": 10,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000019",
+"value_num": 1100,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000021",
+"value_num": 3230,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000056",
+"value_num": 84.2,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-3-vallees"
+},
+{
+"id": "F000057",
+"value_num": 421,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-3-vallees"
+},
+{
+"id": "F000065",
+"value_num": 78,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:paradiski"
+},
+{
+"id": "F000066",
+"value_num": 412,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:paradiski"
+},
+{
+"id": "F000071",
+"value_num": 425,
+"value_text": null,
+"unit": "km",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000072",
+"value_num": 126,
+"value_text": null,
+"unit": "count",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000073",
+"value_num": 1200,
+"value_text": null,
+"unit": "m",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000074",
+"value_num": 3226,
+"value_text": null,
+"unit": "m",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000075",
+"value_num": 57,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000076",
+"value_num": 30,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000077",
+"value_num": 12,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000078",
+"value_num": 157,
+"value_text": null,
+"unit": "km",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000079",
+"value_num": 160,
+"value_text": null,
+"unit": "km",
+"place_id": "area:paradiski"
+},
+{
+"id": "F000080",
+"value_num": 300,
+"value_text": null,
+"unit": "km",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000081",
+"value_num": 80,
+"value_text": null,
+"unit": "count",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000082",
+"value_num": 1550,
+"value_text": null,
+"unit": "m",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000083",
+"value_num": 3456,
+"value_text": null,
+"unit": "m",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000084",
+"value_num": 55,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000085",
+"value_num": 25,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000086",
+"value_num": 20,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000087",
+"value_num": 181,
+"value_text": null,
+"unit": "km",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000088",
+"value_num": 183,
+"value_text": null,
+"unit": "km",
+"place_id": "area:tignes-val-disere"
+},
+{
+"id": "F000089",
+"value_num": 275,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000090",
+"value_num": 61,
+"value_text": null,
+"unit": "count",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000091",
+"value_num": 1100,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000092",
+"value_num": 2620,
+"value_text": null,
+"unit": "m",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000093",
+"value_num": 21,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000094",
+"value_num": 71,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000095",
+"value_num": 8,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000096",
+"value_num": 178,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000097",
+"value_num": 189,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-sybelles"
+},
+{
+"id": "F000098",
+"value_num": 279,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.25.6.5"
+},
+{
+"id": "F000105",
+"value_num": 263,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.5.7.0"
+},
+{
+"id": "F000106",
+"value_num": 426,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.25.6.25"
+},
+{
+"id": "F000107",
+"value_num": 130,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000108",
+"value_num": 160,
+"value_text": null,
+"unit": "km",
+"place_id": "area:les-3-vallees"
+},
+{
+"id": "F000067",
+"value_num": 78,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:tignes-val-disere"
+},
+{
+"id": "F000068",
+"value_num": 468,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:tignes-val-disere"
+},
+{
+"id": "F000069",
+"value_num": 60.5,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-sybelles"
+},
+{
+"id": "F000070",
+"value_num": 307.2,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:les-sybelles"
+},
+{
+"id": "F000361",
+"value_num": 288,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.5.6.75"
+}
+]

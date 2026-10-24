@@ -1,0 +1,22 @@
+{
+  "_about": "Configuration for db/model/network.js, Tignes Val d'Isère run of 24 October 2026. OpenStreetMap snapshot 2026-10-24T11:32:51Z from overpass-api.de.",
+  "bbox": [45.38, 6.85, 45.53, 7.08],
+  "exclude": [],
+  "dropWays": [1104054318, 1104054319, 224880916],
+  "_dropWays": "Two passing loops of the Perce-Neige funicular and the short Brévières inclined lift.",
+  "sectors": {
+    "brevieres": [45.502, 6.922], "le-lac": [45.469, 6.905], "val-claret": [45.453, 6.898], "grande-motte": [45.425, 6.890],
+    "la-daille": [45.462, 6.955], "val-disere": [45.447, 6.978], "solaise": [45.430, 6.998], "le-fornet": [45.436, 7.018]
+  },
+  "liftSector": { "TSD6 Aiguille Rouge": "brevieres", "TSD6 Marais": "brevieres" },
+  "_liftSector": "The Aiguille Rouge and Marais chairs above Tignes 1800 are counted with Les Brévières and Tignes 1800.",
+  "transfers": [
+    ["Perce-Neige lower station to the Val Claret snow front", [45.4519623, 6.8988963], [45.4522407, 6.8975957]],
+    ["Perce-Neige upper station to the Grande Motte cable car", [45.4239024, 6.8918523], [45.4233091, 6.8904986]],
+    ["Val Claret snow front", [45.4522407, 6.8975957], [45.4546991, 6.901047]],
+    ["Val Claret snow front", [45.4522407, 6.8975957], [45.4540407, 6.8968576]],
+    ["Val Claret snow front", [45.4522407, 6.8975957], [45.4529107, 6.8985442]]
+  ],
+  "_transfers": "The underground Perce-Neige stations lie more than 80 m from the mapped pistes, and the lift bases along the Val Claret snow front are joined on foot.",
+  "topAbove": 3000
+}
