@@ -1,0 +1,160 @@
+[
+ {
+  "id": "budget-snowboarders",
+  "title": "Snowboarders on a budget",
+  "note": "Riding at intermediate level, few drags and flats, cheap passes. Needs at least 30 km an intermediate can reach.",
+  "weights": {
+   "skiing.intermediate": 3,
+   "value": 3,
+   "apres": 1
+  },
+  "filters": {
+   "km_intermediate": [
+    ">=",
+    30
+   ]
+  },
+  "require": [
+   "value"
+  ],
+  "show": [
+   "km_intermediate",
+   "day_pass_eur",
+   "six_day_pass_eur",
+   "flat_pct_intermediate"
+  ]
+ },
+ {
+  "id": "mixed-group-families",
+  "title": "Families with skiers and non skiers",
+  "note": "Children's lessons and gentle terrain, plus things to do off the slopes. Needs at least 15 km of beginner terrain.",
+  "weights": {
+   "families": 3,
+   "non_skiers": 3,
+   "skiing.beginner": 2,
+   "ease": 1,
+   "value": 1
+  },
+  "filters": {
+   "km_beginner": [
+    ">=",
+    15
+   ]
+  },
+  "require": [
+   "families",
+   "non_skiers"
+  ],
+  "show": [
+   "km_beginner",
+   "ski_schools",
+   "spas",
+   "pools",
+   "walk_km"
+  ]
+ },
+ {
+  "id": "weekend-from-geneva",
+  "title": "A weekend from Geneva",
+  "note": "Within 90 minutes of Geneva airport by road, scored on skiing, value and ease.",
+  "weights": {
+   "skiing.intermediate": 3,
+   "value": 2,
+   "ease": 2
+  },
+  "filters": {
+   "gva_min": [
+    "<=",
+    90
+   ],
+   "km_intermediate": [
+    ">=",
+    20
+   ]
+  },
+  "require": [
+   "value"
+  ],
+  "show": [
+   "gva_min",
+   "km_intermediate",
+   "day_pass_eur"
+  ]
+ },
+ {
+  "id": "best-small-resort-beginners",
+  "title": "Best small resorts for beginners",
+  "note": "Resorts with under 60 km of mapped piste, scored for beginners on terrain, price and ease.",
+  "weights": {
+   "skiing.beginner": 3,
+   "value": 2,
+   "ease": 2,
+   "families": 1
+  },
+  "filters": {
+   "km_all": [
+    "<=",
+    60
+   ],
+   "km_beginner": [
+    ">=",
+    8
+   ]
+  },
+  "require": [
+   "value"
+  ],
+  "show": [
+   "km_beginner",
+   "km_all",
+   "day_pass_eur",
+   "airport_min"
+  ]
+ },
+ {
+  "id": "big-domain-experts",
+  "title": "Big domains for advanced skiers",
+  "note": "Scored on advanced terrain and size.",
+  "weights": {
+   "skiing.advanced": 3,
+   "size": 2
+  },
+  "filters": {
+   "km_advanced": [
+    ">=",
+    60
+   ]
+  },
+  "require": [],
+  "show": [
+   "km_advanced",
+   "km_all",
+   "six_day_pass_eur"
+  ]
+ },
+ {
+  "id": "village-life",
+  "title": "Lively villages for a week",
+  "note": "Food shops, restaurants and bars, with enough skiing for an intermediate.",
+  "weights": {
+   "village": 3,
+   "apres": 2,
+   "skiing.intermediate": 1
+  },
+  "filters": {
+   "km_intermediate": [
+    ">=",
+    40
+   ]
+  },
+  "require": [
+   "village"
+  ],
+  "show": [
+   "food_shops",
+   "restaurants",
+   "bars",
+   "km_intermediate"
+  ]
+ }
+]
