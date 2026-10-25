@@ -21,15 +21,15 @@ Size and number of snow parks, with enough riding around them. 113 resorts quali
 | Rank | Resort | Score | Parks | Park area ha | Intermediate km |
 |---|---|---|---|---|---|
 | 1 | Avoriaz 1800 | 8.8 | 7 | 53.8 | 210.9 |
-| 2 | Val Thorens | 8.6 | 7 | 37.3 | 391.2 |
-| 3 | Les Menuires | 8.6 | 7 | 37.3 | 391.2 |
-| 4 | Tignes | 7.7 | 10 | 22.2 | 143.5 |
-| 5 | Morzine | 7.0 | 5 | 23.3 | 285.7 |
-| 6 | Val d'Isère | 6.3 | 5 | 15.5 | 142.4 |
-| 7 | Courchevel | 6.2 | 5 | 17.5 | 391.2 |
-| 8 | Méribel | 5.4 | 2 | 16.7 | 391.2 |
-| 9 | Valloire | 5.1 | 4 | 12.9 | 99.8 |
-| 10 | Peisey Vallandry | 5.0 | 4 | 7.5 | 328.3 |
+| 2 | Val Thorens | 8.3 | 7 | 37.3 | 391.2 |
+| 3 | Tignes | 7.4 | 10 | 22.2 | 143.5 |
+| 4 | Les Menuires | 7.1 | 7 | 37.3 | 391.2 |
+| 5 | Morzine | 6.0 | 5 | 23.3 | 285.7 |
+| 6 | Val d'Isère | 6.0 | 5 | 15.5 | 142.4 |
+| 7 | Courchevel | 5.9 | 5 | 17.5 | 391.2 |
+| 8 | Méribel | 5.2 | 2 | 16.7 | 391.2 |
+| 9 | Les 2 Alpes | 4.6 | 2 | 11.7 | 78.4 |
+| 10 | Valloire | 4.1 | 4 | 12.9 | 99.8 |
 
 ## Foodies
 
@@ -74,20 +74,20 @@ Cheap passes for the skiing on offer. Accommodation, pint and meal prices are st
 
 ## Party animals
 
-Bars on the mountain and in the village, and bars and clubs open late. 61 resorts qualified.
+Reputation in nine independent guides, named bars, nightclubs and slope après venues, festivals, and mapped bars. 79 resorts qualified.
 
-| Rank | Resort | Score | Bars | Late bars | Intermediate km |
-|---|---|---|---|---|---|
-| 1 | Montriond | 8.8 | 27 | 1 | 285.7 |
-| 2 | Morzine | 8.8 | 27 | 1 | 285.7 |
-| 3 | Val Thorens | 8.7 | 16 | 3 | 391.2 |
-| 4 | Méribel | 8.6 | 22 | 1 | 391.2 |
-| 5 | Les Menuires | 8.5 | 21 | 1 | 391.2 |
-| 6 | Peisey Vallandry | 8.3 | 18 | 1 | 328.3 |
-| 7 | Val d'Isère | 8.2 | 22 | 2 | 142.4 |
-| 8 | Montchavin les Coches | 8.2 | 27 | 0 | 328.3 |
-| 9 | Les Arcs | 8.1 | 12 | 2 | 328.3 |
-| 10 | Champagny en Vanoise | 7.8 | 14 | 2 | 328.3 |
+| Rank | Resort | Score | Guides naming it | Reputation points | Named venues | Nightclubs | Slope après |
+|---|---|---|---|---|---|---|---|
+| 1 | Méribel | 7.6 | 8 | 4.1 | 11 | 2 | 3 |
+| 2 | Val Thorens | 7.5 | 9 | 4.9 | 6 | 1 | 1 |
+| 3 | Val d'Isère | 6.8 | 8 | 5.3 | 15 | 1 | 1 |
+| 4 | Les 2 Alpes | 6.6 | 6 | 3.6 | 13 | 2 | 3 |
+| 5 | Courchevel | 6.5 | 5 | 2.5 | 6 | 2 | 2 |
+| 6 | Tignes | 6.2 | 6 | 3.5 | 6 | 0 | 1 |
+| 7 | Avoriaz 1800 | 6.1 | 6 | 2.3 | 6 | 1 | 1 |
+| 8 | L'Alpe d'Huez | 5.5 | 3 | 1.7 | 5 | 1 | 1 |
+| 9 | Morzine | 4.8 | 3 | 1.2 | 6 | 0 | 0 |
+| 10 | Megève | 4.7 | 2 | 1 | 3 | 2 | 1 |
 
 ## Large groups
 
@@ -95,16 +95,16 @@ Terrain for every level at once, plenty of places to stay and eat, and easy to r
 
 | Rank | Resort | Score | Beginner km | Advanced km | Places to stay mapped | Restaurants |
 |---|---|---|---|---|---|---|
-| 1 | Val Thorens | 9.4 | 310.1 | 191.4 | 107 | 91 |
-| 2 | Montriond | 9.3 | 145.8 | 124.6 | 104 | 130 |
-| 3 | Morzine | 9.3 | 145.8 | 124.6 | 133 | 138 |
-| 4 | La Plagne | 9.1 | 218 | 121 | 51 | 85 |
-| 5 | Avoriaz 1800 | 8.9 | 95 | 92 | 42 | 78 |
-| 6 | Les Arcs | 8.8 | 218 | 121 | 36 | 100 |
-| 7 | Les Gets | 8.7 | 52 | 40.3 | 105 | 81 |
-| 8 | Les Menuires | 8.7 | 310.1 | 191.4 | 23 | 124 |
-| 9 | Peisey Vallandry | 8.6 | 218 | 121 | 32 | 118 |
-| 10 | Courchevel | 8.6 | 310.1 | 191.4 | 21 | 90 |
+| 1 | Val Thorens | 9.2 | 310.1 | 191.4 | 107 | 91 |
+| 2 | Avoriaz 1800 | 8.8 | 95 | 92 | 42 | 78 |
+| 3 | Morzine | 8.6 | 145.8 | 124.6 | 133 | 138 |
+| 4 | La Plagne | 8.4 | 218 | 121 | 51 | 85 |
+| 5 | Méribel | 8.4 | 310.1 | 191.4 | 21 | 113 |
+| 6 | Courchevel | 8.4 | 310.1 | 191.4 | 21 | 90 |
+| 7 | Val d'Isère | 8.2 | 92.6 | 97.8 | 35 | 77 |
+| 8 | Montriond | 8.2 | 145.8 | 124.6 | 104 | 130 |
+| 9 | Les Arcs | 8.1 | 218 | 121 | 36 | 100 |
+| 10 | Tignes | 8.1 | 92.1 | 97.8 | 18 | 64 |
 
 ## Adventurers
 
@@ -129,16 +129,16 @@ Riding at intermediate level, few drags and flats, cheap passes. Needs at least 
 
 | Rank | Resort | Score | Intermediate km | Day pass € | 6 day pass € | Flat % |
 |---|---|---|---|---|---|---|
-| 1 | Valloire | 6.8 | 99.8 | 54.9 | 278.5 | n/a |
-| 2 | Morzine | 6.7 | 285.7 | 56 | 312 | n/a |
-| 3 | Valmeinier | 6.6 | 99.8 | 54.9 | 278.5 | n/a |
-| 4 | Oz-en-Oisans | 6.6 | 68 | 49.5 | 221.5 | n/a |
-| 5 | Praz sur Arly | 6.6 | 151.5 | 45 | 260 | n/a |
-| 6 | Flumet | 6.6 | 151.5 | 45 | 260 | n/a |
-| 7 | Vaujany | 6.6 | 68 | 49.5 | 221.5 | n/a |
-| 8 | Notre Dame de Bellecombe | 6.5 | 151.5 | 45 | 260 | n/a |
-| 9 | Châtel | 6.5 | 210.9 | 55 | 281 | n/a |
-| 10 | Crest Voland | 6.4 | 151.5 | 45 | 260 | n/a |
+| 1 | Valloire | 6.1 | 99.8 | 54.9 | 278.5 | n/a |
+| 2 | Valmeinier | 6.0 | 99.8 | 54.9 | 278.5 | n/a |
+| 3 | Flumet | 6.0 | 151.5 | 45 | 260 | n/a |
+| 4 | Morzine | 6.0 | 285.7 | 56 | 312 | n/a |
+| 5 | Oz-en-Oisans | 6.0 | 68 | 49.5 | 221.5 | n/a |
+| 6 | Praz sur Arly | 6.0 | 151.5 | 45 | 260 | n/a |
+| 7 | Vaujany | 6.0 | 68 | 49.5 | 221.5 | n/a |
+| 8 | Notre Dame de Bellecombe | 5.9 | 151.5 | 45 | 260 | n/a |
+| 9 | Crest Voland | 5.8 | 151.5 | 45 | 260 | n/a |
+| 10 | Les 2 Alpes | 5.8 | 78.4 | 68 | 333 | n/a |
 
 ## Families with skiers and non skiers
 

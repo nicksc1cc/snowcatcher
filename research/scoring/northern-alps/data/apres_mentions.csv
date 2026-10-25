@@ -1,0 +1,77 @@
+source,slug,rank,venues,clubs,slope_venues
+A,val-d-isere,1,Folie Douce;Cocorico;Le Petit Danois;Le Coin des Amis;Dick's Tea Bar;Doudoune Club,Doudoune Club,Folie Douce
+A,val-thorens,2,Folie Douce;Bar 360;The Frog;Saloon Bar;Malaysia,Malaysia,Folie Douce
+A,tignes,3,Folie Douce;Cocorico;Loop Bar;Cave du Loop;Melting Pot,,Folie Douce
+A,les-2-alpes,4,Pano Bar;Umbrella Bar;Le Spot;Smithy's Tavern;Boris Bistro;Avalanche;Le Patinoire,Avalanche,Pano Bar
+A,morzine,5,Le Tremplin;The Cavern;L'Opera;Coyote;Tibetan,,
+A,meribel,6,Le Rond Point;Copina;Folie Douce;Jack's Bar;O'Sullivans,,Folie Douce;Le Rond Point
+A,l-alpe-d-huez,7,Folie Douce;Smithy's Tavern;L'Igloo;Sphere Bar;Underground Bar,L'Igloo,Folie Douce
+A,la-plagne,8,La Bergerie;Le Saloon;Bar La Mine;Spitting Feathers;Igloo Igloo,,
+A,chamonix-mont-blanc,9,Chambre Neuf;La Terrasse;Micro Brasserie de Chamonix;Monkey Bar;South Bar;L'Amnesia,L'Amnesia,
+A,avoriaz-1800,10,Folie Douce;Happy Hours;Le Shooters;The Place,,Folie Douce
+B,val-d-isere,1,La Folie Douce;Dick's Tea Bar;La Fruitière;Bar of the Ouillette,,La Folie Douce
+B,les-2-alpes,2,Le Pano;L'Avalanche,L'Avalanche,Le Pano
+B,l-alpe-d-huez,3,La Folie Douce;L'Igloo,L'Igloo,La Folie Douce
+B,tignes,4,Loop Bar;Melting Pot;Blue Girl,,
+B,val-thorens,5,La Folie Douce;Le Saloon,,La Folie Douce
+B,courchevel,6,Le P'tit Drink;Rocky's Bubble Bar,,
+B,meribel,7,Le Rond Point;Dick's Tea Bar,,Le Rond Point
+B,chamonix-mont-blanc,8,Chambre Neuf;The Jekyll,,
+B,avoriaz-1800,9,La Folie Douce;Shooters;Le Yak,Le Yak,La Folie Douce
+B,morzine,10,Le Tremplin;Dixie Bar,,
+C,val-thorens,,La Folie Douce;Malaysia;Le Saloon Bar,Malaysia,La Folie Douce
+C,avoriaz-1800,,Le Yeti;La Folie Douce,,La Folie Douce
+C,val-d-isere,,Cocorico,,
+C,tignes,,Le Loop Bar,,
+D,val-d-isere,3,,,
+D,meribel,4,Rond-Point,,Rond-Point
+D,val-thorens,7,,,
+E,tignes,,Folie Douce,,Folie Douce
+E,les-arcs,,,,
+E,les-2-alpes,,L'Avalanche,L'Avalanche,
+E,val-thorens,,La Folie Douce,,La Folie Douce
+E,courchevel,,La Grange;Les Caves,La Grange;Les Caves,
+E,avoriaz-1800,,Le Yak;Shooters,Le Yak,
+E,meribel,,Saints Pères;La Folie Douce,Saints Pères,La Folie Douce
+E,chamonix-mont-blanc,,Möo Bar;Élévation 1904,,
+E,megeve,,Palo Alto;La Folie Douce,Palo Alto,La Folie Douce
+F,val-thorens,,360 Bar,,
+F,val-d-isere,,La Doudoune;La Folie Douce,La Doudoune,La Folie Douce
+F,courchevel,,Les Caves;Cap Horn,Les Caves,Cap Horn
+F,meribel,,Sully's;Le Monchu,Sully's,Le Monchu
+F,avoriaz-1800,,Yak Club,Yak Club,
+F,chamonix-mont-blanc,,L'Amnesia Club,L'Amnesia Club,
+F,megeve,,Rendez-vous Club,Rendez-vous Club,
+F,les-gets,,L'Igloo,L'Igloo,
+F,les-2-alpes,,L'Avalanche;Pano Bar;Le Diable au Cœur;Le Patachon,L'Avalanche,Pano Bar;Le Diable au Cœur;Le Patachon
+G,val-d-isere,,Le Signal;La Folie Douce;Dick's Tea Bar,,La Folie Douce
+G,val-thorens,,Frog and Roast Beef;Malaysia,Malaysia,
+G,meribel,,La Chaudanne;Sully's;Folie Douce,Sully's,Folie Douce
+G,morzine,,The Cavern,,
+H,val-d-isere,,,,
+H,val-thorens,,,,
+H,les-2-alpes,,,,
+H,saint-francois-longchamp,,,,
+H,meribel,,Rond Point;Folie Douce,,Rond Point;Folie Douce
+H,tignes,,Folie Douce,,Folie Douce
+H,courchevel,,Folie Douce,,Folie Douce
+H,la-clusaz,,full moon party,,
+I,tignes,,,,
+I,les-2-alpes,,Pano Bar;K-ré Shooter Lounge Bar;Rhumerie;Brézilien;Maya;Avalanche Club,Rhumerie;Avalanche Club,Pano Bar
+I,val-thorens,,La Folie Douce;Malaysia,Malaysia,La Folie Douce
+I,meribel,,La Folie Douce;Le Rond Point;Le Poste de Secours,,La Folie Douce;Le Rond Point
+I,val-d-isere,,Pub Moris;Victor's;Petit Danois;Le Saloon;L'Underground;Le Lodge;Café Face;La Doudoune,La Doudoune,
+I,courchevel,,Les Caves,Les Caves,
+I,avoriaz-1800,,Le Yak;Shooters,Le Yak,
+I,chamonix-mont-blanc,,Möo Bar;Chambre 9;Elevation 1904;Amnésia,Amnésia,
+I,l-alpe-d-huez,,Underground bar,,
+J,val-d-isere,,La Folie Douce,,La Folie Douce
+J,tignes,,La Folie Douce,,La Folie Douce
+J,val-thorens,,La Folie Douce,,La Folie Douce
+J,meribel,,La Folie Douce,,La Folie Douce
+J,courchevel,,La Folie Douce,,La Folie Douce
+J,l-alpe-d-huez,,La Folie Douce,,La Folie Douce
+J,saint-gervais,,La Folie Douce,,La Folie Douce
+J,megeve,,La Folie Douce,,La Folie Douce
+J,avoriaz-1800,,La Folie Douce,,La Folie Douce
+J,les-arcs,,La Folie Douce,,La Folie Douce

@@ -60,6 +60,34 @@ def load():
     return resorts, m, m2, acc, prices
 
 
+def load_apres():
+    """Reputation, named venues, clubs, slope venues and events from the guides in data/apres_sources.csv."""
+    import re, unicodedata
+    def key(v):
+        v = unicodedata.normalize("NFD", v).encode("ascii", "ignore").decode().lower()
+        v = re.sub(r"\b(la|le|les|l|the|bar|club|nightclub)\b", " ", v.replace("'", " "))
+        return re.sub(r"[^a-z0-9]+", "", v)
+    out = {}
+    if not os.path.exists(P("data", "apres_mentions.csv")):
+        return out
+    for r in csv.DictReader(open(P("data", "apres_mentions.csv"))):
+        o = out.setdefault(r["slug"], {"rep": 0.0, "sources": set(), "venues": {}, "clubs": {}, "slope": {}, "events": 0})
+        if r["source"] != "J":
+            o["sources"].add(r["source"])
+            o["rep"] += (11 - int(r["rank"])) / 10 if r["rank"] else 0.5
+        for col, dest in (("venues", "venues"), ("clubs", "clubs"), ("slope_venues", "slope")):
+            for v in filter(None, (x.strip() for x in r[col].split(";"))):
+                o[dest].setdefault(key(v), v)
+        for v in filter(None, (x.strip() for x in r["slope_venues"].split(";"))):
+            o["venues"].setdefault(key(v), v)
+    for r in csv.DictReader(open(P("data", "apres_events.csv"))):
+        out.setdefault(r["slug"], {"rep": 0.0, "sources": set(), "venues": {}, "clubs": {}, "slope": {}, "events": 0})["events"] += 1
+    return out
+
+
+APRES = load_apres()
+
+
 def score_resort(r, m, x, a, pr):
     raw, sc = {}, {}
     km = {lv: num(m.get("km_" + lv)) for lv in LEVELS}
@@ -98,7 +126,15 @@ def score_resort(r, m, x, a, pr):
     bars = (num(m.get("bar_village")) or 0) + (num(m.get("bar_mountain")) or 0)
     rest = (num(m.get("restaurant_village")) or 0) + (num(m.get("restaurant_mountain")) or 0)
     raw.update({"bars": bars, "restaurants": rest, "late_bars": num(m.get("late"))})
-    sc["apres"] = mean([(sq(bars, 0, 30), 2), (sq(num(m.get("late")), 0, 6), 1), (sq(rest, 0, 80), 2)])
+    ap = APRES.get(r["slug"])
+    raw["apres_sources"] = len(ap["sources"]) if ap else 0
+    raw["apres_reputation"] = round(ap["rep"], 1) if ap else 0
+    raw["named_venues"] = len(ap["venues"]) if ap else 0
+    raw["clubs"] = len(ap["clubs"]) if ap else 0
+    raw["slope_apres"] = len(ap["slope"]) if ap else 0
+    raw["apres_events"] = ap["events"] if ap else 0
+    sc["apres"] = mean([(sq(raw["apres_reputation"], 0, 5), 4), (sq(raw["named_venues"], 0, 20), 2), (lin(raw["clubs"], 0, 4), 2),
+                        (lin(raw["slope_apres"], 0, 4), 1), (lin(raw["apres_events"], 0, 1), 1), (sq(bars, 0, 30), 1)])
     # audience measures built from the parts above
     raw["drag_pct"] = num(m.get("drag_pct"))
     raw["vertical_m"], raw["top_m"] = num(m.get("vertical_m")), num(m.get("top_m"))
@@ -141,7 +177,7 @@ def score_resort(r, m, x, a, pr):
 LABEL = {"km_beginner": "Beginner km", "km_intermediate": "Intermediate km", "km_advanced": "Advanced km", "km_all": "Mapped km",
          "day_pass_eur": "Day pass €", "six_day_pass_eur": "6 day pass €", "airport_min": "Minutes from Geneva or Lyon",
          "gva_min": "Minutes from Geneva", "ski_schools": "Ski schools", "spas": "Spas", "pools": "Pools", "walk_km": "Winter walks km",
-         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
+         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "apres_sources": "Guides naming it", "apres_reputation": "Reputation points", "named_venues": "Named venues", "clubs": "Nightclubs", "slope_apres": "Slope après", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
 
 
 def fmt(v):
