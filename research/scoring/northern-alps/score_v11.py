@@ -57,6 +57,10 @@ def load():
     prices = {}
     for r in csv.DictReader(open(P("data", "altimag_prices.csv"))):
         prices.setdefault(r["slug"], []).append(r)
+    # local passes for resorts whose only listed pass covers a larger linked domain (data/local_passes.csv)
+    if os.path.exists(P("data", "local_passes.csv")):
+        for r in csv.DictReader(open(P("data", "local_passes.csv"))):
+            prices.setdefault(r["slug"], []).append(r)
     return resorts, m, m2, acc, prices
 
 
@@ -144,6 +148,14 @@ def load_offpiste():
 OFFPISTE, OFFMAP = load_offpiste()
 
 
+# value anchors by size band (mapped piste km): (day pass worst, best), (six day pass worst, best) in euros
+VALUE_BANDS = {
+    "large": ((85, 55), (470, 280)),    # 200 km or more
+    "medium": ((75, 45), (400, 220)),   # 60 to 200 km
+    "small": ((55, 20), (280, 120)),    # under 60 km
+}
+
+
 def score_resort(r, m, x, a, pr):
     raw, sc = {}, {}
     km = {lv: num(m.get("km_" + lv)) for lv in LEVELS}
@@ -177,7 +189,11 @@ def score_resort(r, m, x, a, pr):
     sixes = [num(p["six_day_eur"]) for p in pr if num(p["six_day_eur"])]
     raw["day_pass_eur"] = min(days) if days else None
     raw["six_day_pass_eur"] = min(sixes) if sixes else None
-    sc["value"] = mean([(lin(raw["day_pass_eur"], 85, 20), 1), (lin(raw["six_day_pass_eur"], 470, 120), 1)])
+    # value is scored against resorts of a similar size, so a big domain is compared with big domains
+    band = "large" if kmall >= 200 else "medium" if kmall >= 60 else "small"
+    (d_hi, d_lo), (s_hi, s_lo) = VALUE_BANDS[band]
+    raw["size_band"] = band
+    sc["value"] = mean([(lin(raw["day_pass_eur"], d_hi, d_lo), 1), (lin(raw["six_day_pass_eur"], s_hi, s_lo), 1)])
     # après and food
     bars = (num(m.get("bar_village")) or 0) + (num(m.get("bar_mountain")) or 0)
     rest = (num(m.get("restaurant_village")) or 0) + (num(m.get("restaurant_mountain")) or 0)

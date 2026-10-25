@@ -6,16 +6,16 @@ Gentle terrain near the base, ski schools and childcare, sledging and an ice rin
 
 | Rank | Resort | Score | Beginner km | Ski schools | Childcare | Sledge km | Day pass € |
 |---|---|---|---|---|---|---|---|
-| 1 | Peisey Vallandry | 7.8 | 218 | 2 | 2 | 4.1 | 78 |
-| 2 | La Plagne | 7.7 | 218 | 8 | 1 | 4.1 | 78 |
-| 3 | Val Cenis | 7.5 | 54.8 | 3 | 2 | 0.8 | 50 |
-| 4 | Avoriaz 1800 | 7.5 | 95 | 5 | 3 | 1.8 | 59 |
-| 5 | Les Contamines Montjoie | 7.4 | 29 | 2 | 2 | 0.1 | 55.8 |
-| 6 | Les Gets | 7.4 | 52 | 3 | 0 | 1.8 | 56 |
-| 7 | L'Alpe d'Huez | 7.3 | 63.3 | 1 | 1 | 1.7 | 68 |
-| 8 | Morzine | 7.3 | 145.8 | 3 | 1 | 1.8 | 56 |
-| 9 | Les 2 Alpes | 7.3 | 79.4 | 3 | 1 | 1.3 | 68 |
-| 10 | Praz sur Arly | 7.2 | 31.8 | 1 | 0 | 1.8 | 45 |
+| 1 | La Plagne | 8.2 | 218 | 8 | 1 | 4.1 | 68 |
+| 2 | Peisey Vallandry | 7.9 | 218 | 2 | 2 | 4.1 | 78 |
+| 3 | Avoriaz 1800 | 7.8 | 95 | 5 | 3 | 1.8 | 59 |
+| 4 | Morzine | 7.8 | 145.8 | 3 | 1 | 1.8 | 56 |
+| 5 | Val Cenis | 7.7 | 54.8 | 3 | 2 | 0.8 | 50 |
+| 6 | Les Contamines Montjoie | 7.5 | 29 | 2 | 2 | 0.1 | 55.8 |
+| 7 | Praz sur Arly | 7.5 | 31.8 | 1 | 0 | 1.8 | 45 |
+| 8 | Montriond | 7.5 | 145.8 | 3 | 1 | 1.8 | 59 |
+| 9 | Les Gets | 7.5 | 52 | 3 | 0 | 1.8 | 56 |
+| 10 | Courchevel | 7.3 | 310.1 | 1 | 1 | 6.1 | 72 |
 
 ## Snowboarders
 
@@ -91,16 +91,16 @@ Cheap passes for the skiing on offer. Accommodation, pint and meal prices are st
 
 | Rank | Resort | Score | Day pass € | 6 day pass € | Intermediate km |
 |---|---|---|---|---|---|
-| 1 | Habère-Poche | 7.8 | 28 | 144 | 20 |
-| 2 | Alpe du Grand-Serre | 7.2 | 33 | n/a | 33.1 |
-| 3 | Les Karellis | 7.2 | 36 | 191 | 26.3 |
-| 4 | Praz de Lys Sommand | 7.0 | 37.5 | 187.5 | 35 |
-| 5 | Arêches Beaufort | 6.6 | 41 | 214 | 30.4 |
-| 6 | Oz-en-Oisans | 6.6 | 49.5 | 221.5 | 68 |
-| 7 | Vaujany | 6.6 | 49.5 | 221.5 | 68 |
-| 8 | Saint-Jean d'Aulps / Espace Roc d'Enfer | 6.5 | 41.5 | 211 | 22.6 |
-| 9 | Flumet | 6.5 | 45 | 260 | 151.5 |
-| 10 | Praz sur Arly | 6.5 | 45 | 260 | 151.5 |
+| 1 | Châtel | 9.6 | 55 | 281 | 210.9 |
+| 2 | Oz-en-Oisans | 8.9 | 49.5 | 221.5 | 68 |
+| 3 | Vaujany | 8.9 | 49.5 | 221.5 | 68 |
+| 4 | Morzine | 8.9 | 56 | 312 | 285.7 |
+| 5 | Flumet | 8.7 | 45 | 260 | 151.5 |
+| 6 | Praz sur Arly | 8.7 | 45 | 260 | 151.5 |
+| 7 | Notre Dame de Bellecombe | 8.7 | 45 | 260 | 151.5 |
+| 8 | Crest Voland | 8.7 | 45 | 260 | 151.5 |
+| 9 | Termignon | 7.9 | 50 | 258.5 | 60.8 |
+| 10 | Val Cenis | 7.9 | 50 | 258.5 | 60.8 |
 
 ## Party animals
 
@@ -159,16 +159,16 @@ Riding at intermediate level, few drags and flats, cheap passes. Needs at least 
 
 | Rank | Resort | Score | Intermediate km | Day pass € | 6 day pass € | Flat % |
 |---|---|---|---|---|---|---|
-| 1 | Valloire | 6.2 | 99.8 | 54.9 | 278.5 | 5 |
-| 2 | Valmeinier | 6.1 | 99.8 | 54.9 | 278.5 | 5 |
-| 3 | Oz-en-Oisans | 6.1 | 68 | 49.5 | 221.5 | 6 |
-| 4 | Vaujany | 6.1 | 68 | 49.5 | 221.5 | 6 |
-| 5 | Flumet | 6.1 | 151.5 | 45 | 260 | 7 |
-| 6 | Praz sur Arly | 6.0 | 151.5 | 45 | 260 | 7 |
-| 7 | Morzine | 6.0 | 285.7 | 56 | 312 | 7 |
-| 8 | Notre Dame de Bellecombe | 6.0 | 151.5 | 45 | 260 | 7 |
-| 9 | Crest Voland | 6.0 | 151.5 | 45 | 260 | 7 |
-| 10 | Les 2 Alpes | 5.9 | 78.4 | 68 | 333 | 6 |
+| 1 | Morzine | 8.0 | 285.7 | 56 | 312 | 7 |
+| 2 | Châtel | 7.8 | 210.9 | 55 | 281 | 7 |
+| 3 | Les Menuires | 7.6 | 391.2 | 64 | 320 | 5 |
+| 4 | Megève | 7.4 | 169.2 | 65 | 324.5 | 5 |
+| 5 | Oz-en-Oisans | 7.3 | 68 | 49.5 | 221.5 | 6 |
+| 6 | Saint-Martin de Belleville | 7.3 | 391.2 | 64 | 320 | 5 |
+| 7 | Vaujany | 7.3 | 68 | 49.5 | 221.5 | 6 |
+| 8 | Flumet | 7.3 | 151.5 | 45 | 260 | 7 |
+| 9 | Praz sur Arly | 7.3 | 151.5 | 45 | 260 | 7 |
+| 10 | Notre Dame de Bellecombe | 7.2 | 151.5 | 45 | 260 | 7 |
 
 ## Families with skiers and non skiers
 
@@ -176,16 +176,16 @@ Children's lessons and gentle terrain, plus things to do off the slopes. Needs a
 
 | Rank | Resort | Score | Beginner km | Ski schools | Spas | Pools | Winter walks km |
 |---|---|---|---|---|---|---|---|
-| 1 | Peisey Vallandry | 7.9 | 218 | 2 | 1 | 10 | 4.1 |
-| 2 | La Plagne | 7.7 | 218 | 8 | 1 | 2 | 1 |
-| 3 | L'Alpe d'Huez | 7.4 | 63.3 | 1 | 0 | 4 | 3.2 |
-| 4 | Valloire | 7.4 | 73.4 | 2 | 2 | 3 | 19.2 |
-| 5 | Val Cenis | 7.4 | 54.8 | 3 | 0 | 3 | 0.2 |
-| 6 | Les Gets | 7.3 | 52 | 3 | 0 | 32 | 0 |
-| 7 | Les 2 Alpes | 7.3 | 79.4 | 3 | 0 | 4 | 0 |
-| 8 | Morzine | 7.2 | 145.8 | 3 | 0 | 30 | 0 |
-| 9 | Courchevel | 7.2 | 310.1 | 1 | 0 | 5 | 6.6 |
-| 10 | Méribel | 7.1 | 310.1 | 1 | 0 | 2 | 10.4 |
+| 1 | La Plagne | 8.1 | 218 | 8 | 1 | 2 | 1 |
+| 2 | Peisey Vallandry | 8.1 | 218 | 2 | 1 | 10 | 4.1 |
+| 3 | Morzine | 7.7 | 145.8 | 3 | 0 | 30 | 0 |
+| 4 | Val Cenis | 7.6 | 54.8 | 3 | 0 | 3 | 0.2 |
+| 5 | Valloire | 7.6 | 73.4 | 2 | 2 | 3 | 19.2 |
+| 6 | Courchevel | 7.5 | 310.1 | 1 | 0 | 5 | 6.6 |
+| 7 | Les Gets | 7.4 | 52 | 3 | 0 | 32 | 0 |
+| 8 | L'Alpe d'Huez | 7.4 | 63.3 | 1 | 0 | 4 | 3.2 |
+| 9 | Montriond | 7.4 | 145.8 | 3 | 0 | 30 | 0 |
+| 10 | Praz sur Arly | 7.4 | 31.8 | 1 | 0 | 12 | 11.6 |
 
 ## A weekend from Geneva
 
@@ -193,16 +193,16 @@ Within 90 minutes of Geneva airport by road, scored on skiing, value and ease. 1
 
 | Rank | Resort | Score | Minutes from Geneva | Intermediate km | Day pass € |
 |---|---|---|---|---|---|
-| 1 | Saint-Gervais | 7.0 | 79 | 128.5 | 65 |
-| 2 | Les Carroz d'Araches | 6.8 | 72 | 131.7 | 58.5 |
-| 3 | La Clusaz | 6.7 | 75 | 79.2 | 56.5 |
-| 4 | Megève | 6.6 | 85 | 169.2 | 65 |
-| 5 | Morillon | 6.5 | 74 | 131.7 | 58.5 |
-| 6 | Samoëns | 6.5 | 80 | 131.7 | 58.5 |
-| 7 | Les Gets | 6.5 | 82 | 82.7 | 56 |
-| 8 | Saint-Jean d'Aulps / Espace Roc d'Enfer | 6.3 | 88 | 22.6 | 41.5 |
-| 9 | Combloux | 6.2 | 79 | 63.5 | 52.5 |
-| 10 | Le Grand Bornand | 6.1 | 73 | 33.9 | 52 |
+| 1 | Megève | 7.7 | 85 | 169.2 | 65 |
+| 2 | La Clusaz | 7.1 | 75 | 79.2 | 56.5 |
+| 3 | Saint-Gervais | 7.0 | 79 | 128.5 | 65 |
+| 4 | Les Carroz d'Araches | 6.9 | 72 | 131.7 | 58.5 |
+| 5 | Combloux | 6.8 | 79 | 63.5 | 52.5 |
+| 6 | Les Gets | 6.8 | 82 | 82.7 | 56 |
+| 7 | Morillon | 6.7 | 74 | 131.7 | 58.5 |
+| 8 | Samoëns | 6.6 | 80 | 131.7 | 58.5 |
+| 9 | Manigod | 6.2 | 77 | 79.2 | 56.5 |
+| 10 | Saint-Jean d'Aulps / Espace Roc d'Enfer | 5.5 | 88 | 22.6 | 41.5 |
 
 ## Best small resorts for beginners
 
@@ -210,16 +210,16 @@ Resorts with under 60 km of mapped piste, scored for beginners on terrain, price
 
 | Rank | Resort | Score | Beginner km | Mapped km | Day pass € | Minutes from Geneva or Lyon |
 |---|---|---|---|---|---|---|
-| 1 | Valfréjus | 7.2 | 20.8 | 34.5 | 43.6 | 136 |
-| 2 | Le Grand Bornand | 6.8 | 35.4 | 54.3 | 52 | 73 |
-| 3 | Sainte-Foy Tarentaise | 6.8 | 12 | 22.6 | 46 | 155 |
-| 4 | Chamrousse | 6.6 | 21.6 | 45.1 | 45.5 | 100 |
-| 5 | Villard de Lans / Corrençon | 6.6 | 41 | 59.2 | 46 | 90 |
-| 6 | Les 7 Laux | 6.5 | 21.1 | 55.9 | 45 | 101 |
-| 7 | Les Karellis | 6.5 | 16.1 | 42 | 36 | 126 |
-| 8 | Aussois | 6.5 | 13.8 | 29.3 | 41 | 135 |
-| 9 | Lans en Vercors | 6.4 | 15.1 | 21.2 | 27 | 82 |
-| 10 | Alpe du Grand-Serre | 6.3 | 22.7 | 37 | 33 | 122 |
+| 1 | Valfréjus | 6.3 | 20.8 | 34.5 | 43.6 | 136 |
+| 2 | Le Semnoz | 6.3 | 10.4 | 15.9 | 18.5 | 75 |
+| 3 | Lans en Vercors | 6.3 | 15.1 | 21.2 | 27 | 82 |
+| 4 | Bellevaux – Hirmentaz | 6.0 | 10.2 | 22.1 | 28 | 72 |
+| 5 | Alpe du Grand-Serre | 5.9 | 22.7 | 37 | 33 | 122 |
+| 6 | Les Karellis | 5.9 | 16.1 | 42 | 36 | 126 |
+| 7 | Aussois | 5.7 | 13.8 | 29.3 | 41 | 135 |
+| 8 | Chamrousse | 5.7 | 21.6 | 45.1 | 45.5 | 100 |
+| 9 | Sainte-Foy Tarentaise | 5.7 | 12 | 22.6 | 46 | 155 |
+| 10 | Le Grand Bornand | 5.7 | 35.4 | 54.3 | 52 | 73 |
 
 ## Big domains for advanced skiers
 
@@ -227,14 +227,14 @@ Scored on advanced terrain and size. 35 resorts qualified.
 
 | Rank | Resort | Score | Advanced km | Mapped km | 6 day pass € |
 |---|---|---|---|---|---|
-| 1 | Courchevel | 9.6 | 191.4 | 511.7 | 421 |
-| 2 | Les Menuires | 9.6 | 191.4 | 511.7 | 421 |
+| 1 | Courchevel | 9.6 | 191.4 | 511.7 | 415.5 |
+| 2 | Les Menuires | 9.6 | 191.4 | 511.7 | 320 |
 | 3 | Méribel | 9.6 | 191.4 | 511.7 | 421 |
 | 4 | Orelle | 9.6 | 191.4 | 511.7 | 367.5 |
-| 5 | Saint-Martin de Belleville | 9.6 | 191.4 | 511.7 | 421 |
+| 5 | Saint-Martin de Belleville | 9.6 | 191.4 | 511.7 | 320 |
 | 6 | Val Thorens | 9.3 | 191.4 | 511.7 | 367.5 |
-| 7 | Champagny en Vanoise | 9.2 | 121 | 371.6 | 412 |
-| 8 | Montchavin les Coches | 9.2 | 121 | 371.6 | 412 |
+| 7 | Champagny en Vanoise | 9.2 | 121 | 371.6 | 348 |
+| 8 | Montchavin les Coches | 9.2 | 121 | 371.6 | 348 |
 | 9 | Peisey Vallandry | 9.2 | 121 | 371.6 | 412 |
 | 10 | Les Arcs | 9.2 | 121 | 371.6 | 412 |
 

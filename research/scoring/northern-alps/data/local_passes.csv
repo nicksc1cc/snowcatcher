@@ -1,0 +1,7 @@
+slug,domain,day_eur,six_day_eur,price_season,source,url,updated,note
+la-plagne,La Plagne,68,348,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/la-plagne/forfaits-de-ski.html,2026-10-23,La Plagne only; week pass taken as six days per the page's note
+montchavin-les-coches,La Plagne,68,348,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/la-plagne/forfaits-de-ski.html,2026-10-23,same La Plagne pass; Montchavin page shows 72 and 370 updated 2026-06-30 (see price_conflicts.csv)
+champagny-en-vanoise,La Plagne,68,348,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/la-plagne/forfaits-de-ski.html,2026-10-23,same La Plagne pass; Champagny page prices date from 2022 and are not used
+courchevel,Vallée de Courchevel,72,415.5,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/courchevel/forfaits-de-ski.html,2026-05-13,Courchevel valley only; week pass length not stated
+les-menuires,Les Menuires – Saint-Martin,64,320,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/les-menuires/forfaits-de-ski.html,2026-10-23,low confidence: the page also carries an old validity note; week pass length not stated
+saint-martin-de-belleville,Les Menuires – Saint-Martin,64,320,2026/27,Skiinfo,https://www.skiinfo.fr/alpes-du-nord/les-menuires/forfaits-de-ski.html,2026-10-23,same pass as Les Menuires; low confidence
