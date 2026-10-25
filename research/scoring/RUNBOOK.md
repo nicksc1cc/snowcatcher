@@ -19,10 +19,11 @@ const m1 = SCBulk.measure(resorts)      // km by level, lifts, drags, vertical, 
 await SCBulk.extra(bbox, 6)             // trails, piste outlines, leisure, culture, shops, schools, hire
 await SCBulk.demTiles(50, 13)           // piste gradient from AWS terrarium tiles: flat and steep km
 const m2 = SCBulk.measure2(resorts)     // capacity, flat and steep km by level, trails and facilities
+const op = await SCBulk.offpiste(bbox, 1, resorts)   // glaciers and mapped freeride routes near reachable lift tops
 const acc = await SCBulk.access(resorts, airports)   // OSRM road time
 ```
 
-Copy the results into `data/measures_raw.csv`, `data/measures2.json` and `data/access.csv`.
+Copy the results into `data/measures_raw.csv`, `data/measures2.json`, `data/offpiste_map.json` and `data/access.csv`.
 
 Known limits: Overpass is often busy (502, 504, 429) and the browser slows hidden pages, so keep the browser pane visible. The Open-Meteo elevation API allows about 5,000 points an hour, so gradients use the terrarium tiles instead (DEMTiles in bulk.js).
 
@@ -33,6 +34,7 @@ Known limits: Overpass is often busy (502, 504, 429) and the browser slows hidde
 | data/altimag_prices.csv | Day, six day and season pass for every pass listed at the station | Alti-Mag station pages |
 | data/parks.json | Snow park count and area within 6 km | OpenStreetMap, to be checked against resort park pages |
 | data/apres_sources.csv, apres_mentions.csv, apres_verdicts.csv, apres_events.csv | Après reputation, named venues, clubs, slope après, guide verdicts, festivals | Nine guides, Snowcarbon resort pages, La Folie Douce |
+| data/offpiste_sources.csv, offpiste_mentions.csv, offpiste_domains.csv | Guides naming each resort for off piste and the routes they name. Credit a route to the village whose lifts reach it, not the heading it sits under, and note the move. A domain named without a village gives each member half a mention | Thirteen guides in English and French, Powderhounds Best for Powder and Secret Stashes lists |
 | data/michelin_2026.csv | Stars and Bib Gourmand | Michelin area pages |
 | data/gaultmillau.csv | Toques and scores | Gault&Millau via Alti-Mag, Gault&Millau Savoie |
 

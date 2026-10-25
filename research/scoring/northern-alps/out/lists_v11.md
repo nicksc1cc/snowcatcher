@@ -138,20 +138,20 @@ Terrain for every level at once, plenty of places to stay and eat, and easy to r
 
 ## Adventurers
 
-Big terrain, steep slopes, vertical and height, off piste and a large linked area. 57 resorts qualified.
+Off piste reputation and named routes, glaciers by lift, steep terrain and vertical. Needs at least 10 km of advanced piste. 73 resorts qualified.
 
-| Rank | Resort | Score | Advanced km | Vertical m | Steep km | Top m |
-|---|---|---|---|---|---|---|
-| 1 | Méribel | 8.8 | 191.4 | 1894 | 12.8 | 3211 |
-| 2 | Courchevel | 8.8 | 191.4 | 1742 | 12.8 | 3211 |
-| 3 | Les Menuires | 8.6 | 191.4 | 1541 | 12.8 | 3211 |
-| 4 | Orelle | 8.5 | 191.4 | 2314 | 12.8 | 3211 |
-| 5 | Saint-Martin de Belleville | 8.2 | 191.4 | 1832 | 12.8 | 3211 |
-| 6 | Val Thorens | 8.2 | 191.4 | 1119 | 12.8 | 3211 |
-| 7 | Peisey Vallandry | 8.2 | 121 | 1848 | 7.2 | 3131 |
-| 8 | Les Arcs | 7.8 | 121 | 1466 | 7.2 | 3131 |
-| 9 | Montchavin les Coches | 7.8 | 121 | 1927 | 7.2 | 3131 |
-| 10 | La Plagne | 7.7 | 121 | 1315 | 7.2 | 3131 |
+| Rank | Resort | Score | Off piste guides | Named routes | Glacier ha | Vertical m | Steep km |
+|---|---|---|---|---|---|---|---|
+| 1 | Tignes | 8.3 | 11 | 17 | n/a | 1345 | 8.1 |
+| 2 | Val d'Isère | 8.3 | 9 | 11 | n/a | 1577 | 8.1 |
+| 3 | L'Alpe d'Huez | 7.8 | 8 | 9 | n/a | 1627 | 5.4 |
+| 4 | Les Arcs | 7.8 | 6 | 10 | n/a | 1466 | 7.2 |
+| 5 | Val Thorens | 7.6 | 5 | 9 | n/a | 1119 | 12.8 |
+| 6 | Courchevel | 7.5 | 4.5 | 6 | n/a | 1742 | 12.8 |
+| 7 | Chamonix Mont-Blanc | 7.4 | 10 | 12 | n/a | 2603 | 4.2 |
+| 8 | La Plagne | 6.8 | 3 | 9 | n/a | 1315 | 7.2 |
+| 9 | Argentière | 6.1 | 8 | 4 | n/a | 1521 | 1.8 |
+| 10 | Méribel | 5.7 | 1.5 | 1 | n/a | 1894 | 12.8 |
 
 ## Snowboarders on a budget
 

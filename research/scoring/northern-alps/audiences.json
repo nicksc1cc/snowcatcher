@@ -190,26 +190,28 @@
  {
   "id": "adventurers",
   "title": "Adventurers",
-  "note": "Big terrain, steep slopes, vertical and height, off piste and a large linked area.",
+  "note": "Off piste reputation and named routes, glaciers by lift, steep terrain and vertical. Needs at least 10 km of advanced piste.",
   "weights": {
+   "offpiste": 5,
    "adventure": 3,
-   "size": 2,
    "skiing.advanced": 1
   },
   "filters": {
    "km_advanced": [
     ">=",
-    20
+    10
    ]
   },
   "require": [
-   "adventure"
+   "adventure",
+   "offpiste"
   ],
   "show": [
-   "km_advanced",
+   "offpiste_guides",
+   "offpiste_routes",
+   "glacier_ha",
    "vertical_m",
-   "steep_km",
-   "top_m"
+   "steep_km"
   ]
  }
 ]

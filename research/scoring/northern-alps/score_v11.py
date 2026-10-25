@@ -115,6 +115,35 @@ def load_food():
 FOOD = load_food()
 
 
+def load_offpiste():
+    """Off piste reputation from the guides in data/offpiste_sources.csv, plus map checks from SCBulk.offpiste.
+
+    guides: each source naming the resort counts 1; a domain named without a village counts 0.5 for each
+    member (data/offpiste_domains.csv). routes: distinct named routes across all guides."""
+    import re, unicodedata
+    key = lambda v: re.sub(r"[^a-z0-9]+", "", unicodedata.normalize("NFD", v).encode("ascii", "ignore").decode().lower())
+    out = {}
+    blank = lambda: {"guides": {}, "routes": {}}
+    if os.path.exists(P("data", "offpiste_mentions.csv")):
+        for r in csv.DictReader(open(P("data", "offpiste_mentions.csv"))):
+            o = out.setdefault(r["slug"], blank())
+            o["guides"][r["source"]] = 1.0
+            for v in filter(None, (x.strip() for x in r["routes"].split(";"))):
+                o["routes"].setdefault(key(v), v)
+    if os.path.exists(P("data", "offpiste_domains.csv")):
+        for r in csv.DictReader(open(P("data", "offpiste_domains.csv"))):
+            for slug in r["members"].split(";"):
+                o = out.setdefault(slug, blank())
+                o["guides"].setdefault(r["source"], 0.5)
+    mp = {}
+    if os.path.exists(P("data", "offpiste_map.json")):
+        mp = {r["slug"]: r for r in json.load(open(P("data", "offpiste_map.json")))}
+    return out, mp
+
+
+OFFPISTE, OFFMAP = load_offpiste()
+
+
 def score_resort(r, m, x, a, pr):
     raw, sc = {}, {}
     km = {lv: num(m.get("km_" + lv)) for lv in LEVELS}
@@ -182,6 +211,15 @@ def score_resort(r, m, x, a, pr):
     raw["steep_km"] = num(x.get("steep_km")) if x else None
     sc["adventure"] = mean([(lin(km["advanced"], 0, 150), 2), (lin(raw["vertical_m"], 500, 2200), 2), (lin(raw["top_m"], 1800, 3400), 1),
                             (lin(raw["steep_km"], 0, 30), 2), (lin(num(m.get("resilience_lost_pct")), 80, 0), 1)])
+    # off piste: guide reputation and named routes, glaciers and mapped freeride routes reachable by lift
+    op, om = OFFPISTE.get(r["slug"], {"guides": {}, "routes": {}}), OFFMAP.get(r["slug"])
+    raw["offpiste_guides"] = round(sum(op["guides"].values()), 1)
+    raw["offpiste_routes"] = len(op["routes"])
+    parts = [(sq(raw["offpiste_guides"], 0, 8), 3), (sq(raw["offpiste_routes"], 0, 15), 2)]
+    if om:
+        raw["glacier_ha"], raw["glacier_tops"], raw["freeride_km"] = om["glacier_ha"], om["glacier_tops"], om["freeride_km"]
+        parts += [(sq(om["glacier_ha"], 0, 2000), 1), (sq(om["freeride_km"], 0, 30), 1)]
+    sc["offpiste"] = mean(parts)
     pk = PARKS.get(r["slug"])
     if pk:
         raw["parks"], raw["park_area_ha"] = pk["parks"], pk["area_ha"]
@@ -211,7 +249,7 @@ def score_resort(r, m, x, a, pr):
 LABEL = {"km_beginner": "Beginner km", "km_intermediate": "Intermediate km", "km_advanced": "Advanced km", "km_all": "Mapped km",
          "day_pass_eur": "Day pass €", "six_day_pass_eur": "6 day pass €", "airport_min": "Minutes from Geneva or Lyon",
          "gva_min": "Minutes from Geneva", "ski_schools": "Ski schools", "spas": "Spas", "pools": "Pools", "walk_km": "Winter walks km",
-         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "apres_sources": "Guides naming it", "apres_reputation": "Reputation points", "named_venues": "Named venues", "clubs": "Nightclubs", "slope_apres": "Slope après", "michelin_stars": "Michelin stars", "bib_gourmand": "Bib Gourmand", "gm_toqued": "Gault&Millau listed", "gm_toques": "Toques", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
+         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "apres_sources": "Guides naming it", "apres_reputation": "Reputation points", "named_venues": "Named venues", "clubs": "Nightclubs", "slope_apres": "Slope après", "michelin_stars": "Michelin stars", "bib_gourmand": "Bib Gourmand", "gm_toqued": "Gault&Millau listed", "gm_toques": "Toques", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %", "offpiste_guides": "Off piste guides", "offpiste_routes": "Named routes", "glacier_ha": "Glacier ha", "freeride_km": "Freeride km"}
 
 
 def fmt(v):
