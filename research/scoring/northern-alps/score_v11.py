@@ -72,7 +72,7 @@ def load_apres():
         return out
     for r in csv.DictReader(open(P("data", "apres_mentions.csv"))):
         o = out.setdefault(r["slug"], {"rep": 0.0, "sources": set(), "venues": {}, "clubs": {}, "slope": {}, "events": 0})
-        if r["source"] != "J":
+        if r["source"] not in ("J", "K"):
             o["sources"].add(r["source"])
             o["rep"] += (11 - int(r["rank"])) / 10 if r["rank"] else 0.5
         for col, dest in (("venues", "venues"), ("clubs", "clubs"), ("slope_venues", "slope")):
@@ -80,6 +80,11 @@ def load_apres():
                 o[dest].setdefault(key(v), v)
         for v in filter(None, (x.strip() for x in r["slope_venues"].split(";"))):
             o["venues"].setdefault(key(v), v)
+    if os.path.exists(P("data", "apres_verdicts.csv")):
+        for r in csv.DictReader(open(P("data", "apres_verdicts.csv"))):
+            o = out.setdefault(r["slug"], {"rep": 0.0, "sources": set(), "venues": {}, "clubs": {}, "slope": {}, "events": 0})
+            o["rep"] += {"lively": 1.0, "moderate": 0.5, "quiet": 0.0}[r["verdict"]]
+            o["verdict"] = r["verdict"]
     for r in csv.DictReader(open(P("data", "apres_events.csv"))):
         out.setdefault(r["slug"], {"rep": 0.0, "sources": set(), "venues": {}, "clubs": {}, "slope": {}, "events": 0})["events"] += 1
     return out

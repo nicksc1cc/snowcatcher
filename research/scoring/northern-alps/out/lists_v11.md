@@ -22,14 +22,14 @@ Size and number of snow parks, with enough riding around them. 113 resorts quali
 |---|---|---|---|---|---|
 | 1 | Avoriaz 1800 | 8.8 | 7 | 53.8 | 210.9 |
 | 2 | Val Thorens | 8.3 | 7 | 37.3 | 391.2 |
-| 3 | Tignes | 7.4 | 10 | 22.2 | 143.5 |
-| 4 | Les Menuires | 7.1 | 7 | 37.3 | 391.2 |
+| 3 | Les Menuires | 7.4 | 7 | 37.3 | 391.2 |
+| 4 | Tignes | 7.4 | 10 | 22.2 | 143.5 |
 | 5 | Morzine | 6.0 | 5 | 23.3 | 285.7 |
 | 6 | Val d'Isère | 6.0 | 5 | 15.5 | 142.4 |
 | 7 | Courchevel | 5.9 | 5 | 17.5 | 391.2 |
 | 8 | Méribel | 5.2 | 2 | 16.7 | 391.2 |
 | 9 | Les 2 Alpes | 4.6 | 2 | 11.7 | 78.4 |
-| 10 | Valloire | 4.1 | 4 | 12.9 | 99.8 |
+| 10 | La Rosière | 4.3 | 7 | 4.7 | 113.8 |
 
 ## Foodies
 
@@ -86,8 +86,8 @@ Reputation in nine independent guides, named bars, nightclubs and slope après v
 | 6 | Tignes | 6.2 | 6 | 3.5 | 6 | 0 | 1 |
 | 7 | Avoriaz 1800 | 6.1 | 6 | 2.3 | 6 | 1 | 1 |
 | 8 | L'Alpe d'Huez | 5.5 | 3 | 1.7 | 5 | 1 | 1 |
-| 9 | Morzine | 4.8 | 3 | 1.2 | 6 | 0 | 0 |
-| 10 | Megève | 4.7 | 2 | 1 | 3 | 2 | 1 |
+| 9 | Les Arcs | 5.1 | 1 | 1 | 4 | 1 | 2 |
+| 10 | Morzine | 4.8 | 3 | 1.2 | 6 | 0 | 0 |
 
 ## Large groups
 
@@ -104,7 +104,7 @@ Terrain for every level at once, plenty of places to stay and eat, and easy to r
 | 7 | Megève | 7.5 | 67 | 129.5 | 17 | 61 |
 | 8 | Tignes | 7.5 | 92.1 | 97.8 | 18 | 64 |
 | 9 | La Plagne | 7.4 | 218 | 121 | 51 | 85 |
-| 10 | L'Alpe d'Huez | 7.3 | 63.3 | 74.7 | 33 | 45 |
+| 10 | Les Arcs | 7.3 | 218 | 121 | 36 | 100 |
 
 ## Adventurers
 
