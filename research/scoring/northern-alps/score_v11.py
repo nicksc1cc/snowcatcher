@@ -115,7 +115,7 @@ def score_resort(r, m, x, a, pr):
     pk = PARKS.get(r["slug"])
     if pk:
         raw["parks"], raw["park_area_ha"] = pk["parks"], pk["area_ha"]
-        sc["parks"] = mean([(lin(pk["parks"], 0, 3), 2), (sq(pk["area_ha"], 0, 15), 2)])
+        sc["parks"] = mean([(lin(pk["parks"], 0, 8), 1), (sq(pk["area_ha"], 0, 50), 2)])
     # families, non skiers and village life from OpenStreetMap features
     if x:
         poi = x.get("poi", {})

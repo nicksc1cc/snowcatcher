@@ -16,10 +16,20 @@ Few drags and few flat stretches, enough terrain at intermediate level, parks an
 
 ## Park rats
 
-Size and number of snow parks, with enough riding around them. 0 resorts qualified.
+Size and number of snow parks, with enough riding around them. 113 resorts qualified.
 
 | Rank | Resort | Score | Parks | Park area ha | Intermediate km |
 |---|---|---|---|---|---|
+| 1 | Avoriaz 1800 | 8.8 | 7 | 53.8 | 210.9 |
+| 2 | Val Thorens | 8.6 | 7 | 37.3 | 391.2 |
+| 3 | Les Menuires | 8.6 | 7 | 37.3 | 391.2 |
+| 4 | Tignes | 7.7 | 10 | 22.2 | 143.5 |
+| 5 | Morzine | 7.0 | 5 | 23.3 | 285.7 |
+| 6 | Val d'Isère | 6.3 | 5 | 15.5 | 142.4 |
+| 7 | Courchevel | 6.2 | 5 | 17.5 | 391.2 |
+| 8 | Méribel | 5.4 | 2 | 16.7 | 391.2 |
+| 9 | Valloire | 5.1 | 4 | 12.9 | 99.8 |
+| 10 | Peisey Vallandry | 5.0 | 4 | 7.5 | 328.3 |
 
 ## Foodies
 
