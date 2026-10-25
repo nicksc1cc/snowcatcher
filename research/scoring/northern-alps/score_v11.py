@@ -331,6 +331,20 @@ def main():
         for i, (sv, name, lead, raw) in enumerate(cand, 1):
             aud[name2slug[name]][L["id"]] = {"score": round(sv / 10, 1), "rank": i, "of": n}
     json.dump(aud, open(P("out", "audience_scores_v11.json"), "w"), ensure_ascii=False, indent=1)
+    # the eight scores shown in a resort page hero, in a fixed order; the three highest are marked top
+    HERO = [("beginners", "Beginners"), ("families", "Families"), ("adventurers", "Experts & Off Piste"), ("snowboarders", "Snowboarders"),
+            ("park-rats", "Park rats"), ("non-skiers", "Non skiers"), ("party", "Après"), ("foodies", "Foodies")]
+    hero = {}
+    for slug, v in aud.items():
+        items = [{"id": k, "label": lab, "score": v[k]["score"]} for k, lab in HERO if k in v]
+        if len(items) < len(HERO):
+            continue
+        for i in sorted(range(len(items)), key=lambda i: -items[i]["score"])[:3]:
+            items[i]["top"] = True
+        for it in items:
+            it["score"] = f'{it["score"]:.1f}'
+        hero[slug] = {"method": "v1.1", "range": "northern-alps", "items": items}
+    json.dump(hero, open(P("out", "hero_scores_v11.json"), "w"), ensure_ascii=False, indent=1)
     print(len(rows), "resorts;", len(recipes), "lists")
 
 

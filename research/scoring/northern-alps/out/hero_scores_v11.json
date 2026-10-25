@@ -1,0 +1,2942 @@
+{
+ "alpe-du-grand-serre": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "4.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "0.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "3.6",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "0.7"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "2.8"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "0.2"
+   }
+  ]
+ },
+ "areches-beaufort": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "5.5",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "4.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.2"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.7"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "4.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.3"
+   }
+  ]
+ },
+ "auris-en-oisans": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.8"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.0"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.9"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.7"
+   }
+  ]
+ },
+ "avoriaz-1800": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.6",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "8.4",
+    "top": true
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.7"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "6.1"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.6"
+   }
+  ]
+ },
+ "champagny-en-vanoise": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.5"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.4"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.6"
+   }
+  ]
+ },
+ "chamrousse": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.9"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.0"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.9"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.4"
+   }
+  ]
+ },
+ "chatel": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.9",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.1"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "4.9"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.0"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.6"
+   }
+  ]
+ },
+ "combloux": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.5"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.9"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.7"
+   }
+  ]
+ },
+ "courchevel": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.7"
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.3"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.3",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "6.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "8.6",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "6.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "9.6",
+    "top": true
+   }
+  ]
+ },
+ "crest-voland": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.5"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.0"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.3"
+   }
+  ]
+ },
+ "flaine": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.5"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.3"
+   }
+  ]
+ },
+ "flumet": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.2"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.7"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.4"
+   }
+  ]
+ },
+ "hauteluce": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.0"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.3"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.6"
+   }
+  ]
+ },
+ "l-alpe-d-huez": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.0"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.5"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.7"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "8.0",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "5.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "la-chapelle-d-abondance": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "5.0",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "4.3",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "0.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "3.8"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.1"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.1"
+   }
+  ]
+ },
+ "la-clusaz": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.2",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.6"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.0"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "4.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.7"
+   }
+  ]
+ },
+ "la-plagne": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "8.2",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "8.2",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "6.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "4.3"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "la-rosiere": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.0"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "4.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.0"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.3"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.0"
+   }
+  ]
+ },
+ "la-toussuire": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.3"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.1"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.4"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.8"
+   }
+  ]
+ },
+ "le-corbier": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.9"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.2",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.4"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.5"
+   }
+  ]
+ },
+ "le-grand-bornand": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.8"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.6"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.3"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.5"
+   }
+  ]
+ },
+ "les-2-alpes": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "5.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.0"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "5.1"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "6.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.6"
+   }
+  ]
+ },
+ "les-7-laux": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.1",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "4.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.9"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.1"
+   }
+  ]
+ },
+ "les-arcs": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.2"
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.6"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "8.0",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "5.1"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "les-carroz-d-araches": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.5"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.5"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.5"
+   }
+  ]
+ },
+ "les-contamines-montjoie": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.6",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.8"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.0",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.3"
+   }
+  ]
+ },
+ "les-gets": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "3.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.9"
+   }
+  ]
+ },
+ "les-menuires": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.9"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "6.2"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.7",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.5"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "4.0"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.5"
+   }
+  ]
+ },
+ "les-saisies": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.4",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.0"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "manigod": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.2",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.1",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "3.8"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.3"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.9"
+   }
+  ]
+ },
+ "megeve": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.8"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.7"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "8.0",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "4.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "7.6",
+    "top": true
+   }
+  ]
+ },
+ "meribel": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.3"
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.0"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "6.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "5.7"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "7.6",
+    "top": true
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.5"
+   }
+  ]
+ },
+ "montchavin-les-coches": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.1"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "4.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.5"
+   }
+  ]
+ },
+ "montriond": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.7"
+   }
+  ]
+ },
+ "morillon": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.9"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.1"
+   }
+  ]
+ },
+ "morzine": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.3"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "6.1"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.1"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "4.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.4"
+   }
+  ]
+ },
+ "notre-dame-de-bellecombe": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.6"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.1"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.9"
+   }
+  ]
+ },
+ "orelle": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "5.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.4",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.9"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "4.9"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.1"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.4"
+   }
+  ]
+ },
+ "oz-en-oisans": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.6"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.2"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.6"
+   }
+  ]
+ },
+ "peisey-vallandry": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.7"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "4.2"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "8.0",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "praz-de-lys-sommand": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "4.5",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "4.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "3.6"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "0.7"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.6",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.8"
+   }
+  ]
+ },
+ "praz-sur-arly": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.7"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.6"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.0"
+   }
+  ]
+ },
+ "saint-francois-longchamp": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.0",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "3.7"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.2"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.3"
+   }
+  ]
+ },
+ "saint-gervais": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.5"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.8"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "3.5"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.8"
+   }
+  ]
+ },
+ "saint-jean-d-arves": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.4",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.6"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.1",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.0"
+   }
+  ]
+ },
+ "saint-martin-de-belleville": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "5.3"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.5"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.1"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "2.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.4"
+   }
+  ]
+ },
+ "saint-sorlin-d-arves": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.6",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.4"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.1"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.4"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.6"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.5"
+   }
+  ]
+ },
+ "samoens": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.6"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.9"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.0"
+   }
+  ]
+ },
+ "termignon": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.5",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.4"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.1"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.2"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.9"
+   }
+  ]
+ },
+ "tignes": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.8"
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.6"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.4",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "7.5",
+    "top": true
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.2"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "6.2"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "6.1"
+   }
+  ]
+ },
+ "val-cenis": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.7"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.2"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "4.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.8",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.3"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.0"
+   }
+  ]
+ },
+ "val-d-isere": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.0",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.2"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.1",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "6.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.0"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "6.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "5.5"
+   }
+  ]
+ },
+ "val-thorens": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.0"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "7.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "8.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "8.3",
+    "top": true
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.1"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "7.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "6.0"
+   }
+  ]
+ },
+ "valfrejus": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.7",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.4",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.3"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.8"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.5"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.3"
+   }
+  ]
+ },
+ "valloire": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.3"
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.3"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.8",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "4.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.5"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "4.2"
+   }
+  ]
+ },
+ "valmeinier": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.9",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "7.1",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.9"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.2"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.2"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.4"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "2.0"
+   }
+  ]
+ },
+ "valmorel": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "7.2",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "2.1"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "5.1",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "2.3"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.1"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.4"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.6"
+   }
+  ]
+ },
+ "vaujany": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.1",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.3",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "4.9"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.6"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "4.9"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.7"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.5"
+   }
+  ]
+ },
+ "villard-de-lans": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "5.8",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "1.6"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "4.2"
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "0.8"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "6.3",
+    "top": true
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "0.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "3.6"
+   }
+  ]
+ },
+ "villard-reculas": {
+  "method": "v1.1",
+  "range": "northern-alps",
+  "items": [
+   {
+    "id": "beginners",
+    "label": "Beginners",
+    "score": "6.9",
+    "top": true
+   },
+   {
+    "id": "families",
+    "label": "Families",
+    "score": "6.0",
+    "top": true
+   },
+   {
+    "id": "adventurers",
+    "label": "Experts & Off Piste",
+    "score": "3.5"
+   },
+   {
+    "id": "snowboarders",
+    "label": "Snowboarders",
+    "score": "6.5",
+    "top": true
+   },
+   {
+    "id": "park-rats",
+    "label": "Park rats",
+    "score": "1.9"
+   },
+   {
+    "id": "non-skiers",
+    "label": "Non skiers",
+    "score": "5.9"
+   },
+   {
+    "id": "party",
+    "label": "Après",
+    "score": "1.8"
+   },
+   {
+    "id": "foodies",
+    "label": "Foodies",
+    "score": "1.1"
+   }
+  ]
+ }
+}
