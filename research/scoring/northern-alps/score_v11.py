@@ -345,6 +345,20 @@ def main():
             it["score"] = f'{it["score"]:.1f}'
         hero[slug] = {"method": "v1.1", "range": "northern-alps", "items": items}
     json.dump(hero, open(P("out", "hero_scores_v11.json"), "w"), ensure_ascii=False, indent=1)
+    # compact facts for resort pages: terrain, lifts and the cheapest passes, with their sources
+    facts = {}
+    for x in rows:
+        r = x["raw"]
+        passes = []
+        for p in PR.get(x["slug"], []):
+            if (x["slug"], p["domain"]) in NOT_AT_BASE:
+                continue
+            passes.append({"pass": p["domain"], "day_eur": num(p.get("day_eur")), "six_day_eur": num(p.get("six_day_eur")),
+                           "season": p.get("price_season"), "source": p.get("source") or "Alti-Mag", "url": p.get("url") or ""})
+        facts[x["slug"]] = {k: r.get(k) for k in ("km_beginner", "km_intermediate", "km_advanced", "km_all", "vertical_m", "top_m",
+                                                   "drag_pct", "parks", "airport_min", "gva_min", "ski_schools", "restaurants", "bars")}
+        facts[x["slug"]]["passes"] = sorted(passes, key=lambda p: p["six_day_eur"] or 9999)
+    json.dump(facts, open(P("out", "resort_facts_v11.json"), "w"), ensure_ascii=False, indent=1)
     print(len(rows), "resorts;", len(recipes), "lists")
 
 

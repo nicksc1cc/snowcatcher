@@ -60,3 +60,15 @@ writes `out/scores_v11.csv` (every measure score and raw value) and `out/lists_v
 ## A new range or country
 
 Copy `northern-alps/config.json` and change the station list source, bbox, airports, currency and school holidays. Country specific sources to find: a station list with prices (Austria and Switzerland: Bergfex or skiresort.info), après guides, food guides (Gault&Millau publishes in Austria and Switzerland too) and tourist bed counts.
+
+## 6. Feeding the site (v1.1, 25 October 2026)
+
+`score_v11.py` also writes:
+
+- `out/audience_scores_v11.json`: every resort's score and rank for each audience
+- `out/hero_scores_v11.json`: the eight hero scores per resort, fixed order (Beginners, Families, Experts & Off Piste, Snowboarders, Park rats, Non skiers, Après, Foodies), top three marked
+- `out/resort_facts_v11.json`: terrain, lift and pass facts per resort for resort pages
+
+Copy the hero file to `projectsnow/src/_data/resortScores.json` and the facts file to `projectsnow/src/data/scoring/resort_facts.json`, then follow `projectsnow/src/data/l4-copy/README.md`.
+
+Changes in v1.1: value is scored against resorts of a similar size (`VALUE_BANDS`: under 60 km, 60 to 200 km, 200 km and over); local passes for villages whose only listed pass covers a bigger domain go in `data/local_passes.csv`, with conflicts in `data/price_conflicts.csv`; a Beginners audience was added and Adventurers renamed Experts & Off Piste.
