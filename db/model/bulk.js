@@ -41,27 +41,27 @@
   };
   const S = (window.SCBulk = { raw: null, elev: {}, log: [] });
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-  const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
+  const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter"];
   async function overpass(q) {
-    for (let k = 0; k < 6; k++) {
+    for (let k = 0; k < 10; k++) {
       const u = OVERPASS[k % OVERPASS.length];
-      try { const r = await fetch(u, { method: "POST", body: "data=" + encodeURIComponent(q) }); const t = await r.text(); if (r.ok && t.startsWith("{")) return JSON.parse(t); S.log.push("overpass " + r.status + " " + u); }
+      try { const r = await fetch(u, { method: "POST", body: "data=" + encodeURIComponent(q), signal: AbortSignal.timeout(240000) }); const t = await r.text(); if (r.ok && t.startsWith("{")) return JSON.parse(t); S.log.push("overpass " + r.status + " " + u); }
       catch (e) { S.log.push("overpass " + e); }
-      await sleep(20000);
+      await sleep(30000 + 15000 * k);
     }
     throw new Error("overpass failed");
   }
 
   S.fetch = async (bbox, tiles = 4) => {
     const [s, w, n, e] = bbox, dl = (n - s) / tiles, dw = (e - w) / tiles;
-    const ways = new Map(), nodes = new Map(); let osm = null;
+    S.tiles = S.tiles || {}; const ways = new Map(), nodes = new Map(); let osm = null;
     for (let i = 0; i < tiles; i++) for (let j = 0; j < tiles; j++) {
       const b = [s + i * dl, w + j * dw, s + (i + 1) * dl, w + (j + 1) * dw].map((x) => x.toFixed(4)).join(",");
       const q = `[out:json][timeout:180];(way["aerialway"](${b});way["piste:type"="downhill"](${b});way["railway"="funicular"](${b}););out body geom;
         (nwr["amenity"~"^(bar|pub|nightclub|restaurant)$"](${b});nwr["tourism"~"^(hotel|apartment|chalet|guest_house|hostel)$"](${b}););out tags center;`;
-      const j2 = await overpass(q); osm = osm || (j2.osm3s && j2.osm3s.timestamp_osm_base);
+      const tk = b; const j2 = S.tiles[tk] || (S.tiles[tk] = await overpass(q)); osm = osm || (j2.osm3s && j2.osm3s.timestamp_osm_base);
       for (const x of j2.elements) { if (x.type === "way" && x.geometry) ways.set(x.id, x); else nodes.set(x.type + x.id, x); }
-      S.log.push(`tile ${i},${j}: ${j2.elements.length}`); await sleep(3000);
+      S.log.push(`tile ${i},${j}: ${j2.elements.length}`); await sleep(5000);
     }
     const lifts = [], pistes = [], venues = [], beds = [];
     for (const wy of ways.values()) {
