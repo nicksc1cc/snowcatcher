@@ -307,6 +307,14 @@ def main():
             md.append(f"| {i} | {name} | {s / 10:.1f} | " + " | ".join(fmt(raw.get(k)) for k in show) + " |")
         md.append("")
     open(P("out", "lists_v11.md"), "w").write("\n".join(md))
+    # every resort's score and rank for each audience, for the resort page hero
+    allr = run_lists(rows, [{**L, "top": 10 ** 6} for L in json.load(open(P("audiences.json")))])
+    aud = {x["slug"]: {} for x in rows}
+    name2slug = {x["name"]: x["slug"] for x in rows}
+    for L, cand, n in allr:
+        for i, (sv, name, lead, raw) in enumerate(cand, 1):
+            aud[name2slug[name]][L["id"]] = {"score": round(sv / 10, 1), "rank": i, "of": n}
+    json.dump(aud, open(P("out", "audience_scores_v11.json"), "w"), ensure_ascii=False, indent=1)
     print(len(rows), "resorts;", len(recipes), "lists")
 
 
