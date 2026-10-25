@@ -127,9 +127,12 @@ def main():
         beds_ok = (m.get("beds_mapped") or 0) >= 10
         sc["ski_in_out"] = mean([scale("bed_to_lift_m", m.get("bed_to_lift_m")), scale("ski_in_out_pct", m.get("ski_in_out_pct"))], [0.6, 0.4]) if mapped and m.get("beds_mapped") else None
         conf["ski_in_out"] = "medium" if beds_ok else "low"
-        times = [v["min"] for v in a.values() if v]
-        raw["access_min"] = min(times) if times else None
-        raw["access_from"] = min(a, key=lambda k: a[k]["min"] if a[k] else 1e9) if times else None
+        # scored on the nearer of the two main airports, Geneva and Lyon; Chambéry and Grenoble are kept as raw values
+        main = {k: v for k, v in a.items() if k in ("gva", "lys") and v}
+        raw["access_min"] = min(v["min"] for v in main.values()) if main else None
+        raw["access_from"] = min(main, key=lambda k: main[k]["min"]) if main else None
+        for k, v in a.items():
+            raw[f"road_{k}_min"] = v["min"] if v else None
         sc["access"] = scale("access_min", raw["access_min"])
         bars = (m.get("bar_village") or 0) + (m.get("bar_mountain") or 0)
         rest = (m.get("restaurant_village") or 0) + (m.get("restaurant_mountain") or 0)
