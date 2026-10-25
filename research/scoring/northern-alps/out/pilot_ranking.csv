@@ -1,0 +1,114 @@
+resort,skiing_beginner,skiing_intermediate,skiing_advanced,getting_there,apres_food,km_beginner,km_intermediate,km_advanced,lifts,drag_pct,vertical_m,critical_lift,resilience_lost_pct,access_min,access_from,bars,restaurants,note
+Abondance,1.7,1.6,1.5,8.3,0.8,6.2,8.5,3.3,8.0,88.0,723.0,Essert,100.0,91,Geneva,0,4,
+Aillons-Margeriaz,2.2,2.0,1.9,8.4,1.2,10.0,11.4,3.9,7.0,71.0,593.0,Combe aux Biches,46.0,89,Geneva,1,3,base moved to lift
+Alpe du Grand-Serre,1.1,1.0,0.7,6.6,0.7,22.7,33.1,14.0,14.0,79.0,411.0,Portes Sud,64.0,122,Lyon,0,3,
+Arêches Beaufort,2.9,2.9,2.7,6.5,3.2,19.1,30.4,15.7,13.0,62.0,1099.0,TSD4 - Grand Mont,100.0,123,Lyon,3,11,
+Argentière,4.0,4.0,4.0,7.8,2.2,7.6,15.4,14.6,11.0,45.0,1521.0,Bochard,42.0,100,Geneva,2,16,
+Auris en Oisans,5.3,5.0,4.9,6.0,3.4,80.4,91.8,74.7,64.0,27.0,1635.0,Auris Express,98.0,132,Lyon,7,30,
+Aussois,3.8,3.6,3.6,5.8,2.6,13.8,17.5,14.3,8.0,50.0,1132.0,Grand Jeu,100.0,135,Lyon,5,14,
+Autrans-Méaudre en Vercors,0.5,0.5,0.5,8.3,2.1,0.0,0.0,0.0,2.0,100.0,83.0,,,90,Lyon,2,14,
+Avoriaz 1800,5.3,5.4,4.9,7.3,4.6,95.0,210.9,92.0,107.0,51.0,1072.0,Chaux Fleurie,50.0,108,Geneva,6,78,
+Bellevaux – Hirmentaz,4.1,4.1,3.9,9.3,1.2,10.2,19.6,9.3,19.0,68.0,500.0,Rhodos,22.0,72,Geneva,1,3,
+Bernex,2.0,1.9,1.9,8.5,0.9,7.1,13.4,8.0,10.0,70.0,852.0,Télésiège du Petit Combet,46.0,87,Geneva,0,6,base moved to lift
+Bessans,1.5,1.4,1.3,4.2,1.7,1.3,1.0,0.0,2.0,100.0,149.0,,,165,Lyon,2,6,
+Bonneval sur Arc,3.9,3.8,3.6,3.8,1.3,13.1,14.4,6.4,10.0,70.0,1107.0,3000,33.0,172,Lyon,0,13,
+Chamonix Mont-Blanc,5.0,4.9,4.9,8.5,7.8,15.8,23.4,25.2,23.0,30.0,2603.0,Planpraz,99.0,87,Geneva,30,71,
+Champagny en Vanoise,6.0,6.0,5.2,6.1,6.3,218.0,328.3,121.0,116.0,29.0,1868.0,Champagny,100.0,130,Lyon,14,59,
+Chamrousse,5.1,5.0,4.8,7.8,2.4,21.6,36.6,20.3,16.0,56.0,636.0,Aiguille,1.0,100,Lyon,2,19,
+Châtel,3.3,4.2,3.6,7.4,5.9,25.3,210.9,92.0,108.0,51.0,1141.0,Gabelou,81.0,106,Geneva,7,52,
+Combloux,3.2,3.1,3.0,8.9,1.5,37.5,63.5,45.7,17.0,47.0,880.0,Beauregard,98.0,79,Geneva,0,16,base moved to lift
+Cordon,3.3,3.3,3.3,9.2,1.8,3.2,8.7,6.7,6.0,100.0,547.0,,0.0,75,Geneva,1,12,base moved to lift
+Courchevel,9.0,9.0,8.6,5.7,5.4,310.1,391.2,191.4,134.0,25.0,1742.0,,0.0,138,Lyon,15,90,
+Crest Voland,4.8,4.4,3.9,7.6,3.4,131.3,151.5,63.3,73.0,59.0,829.0,Nant Rouge,85.0,103,Geneva,3,43,
+Flaine,6.2,6.0,5.7,8.3,3.6,93.6,131.7,74.0,55.0,44.0,891.0,Cascades,11.0,91,Geneva,4,48,
+Flumet,4.4,4.9,4.4,7.9,3.8,31.8,151.5,63.3,75.0,59.0,1079.0,,0.0,97,Geneva,5,48,
+Font d'Urle / Espace Nordique Sud Vercors,0.7,0.5,0.4,6.5,0.5,10.2,6.8,2.0,8.0,100.0,206.0,Cairn,60.0,123,Lyon,0,2,base moved to lift
+Gresse en Vercors,1.8,1.7,1.7,7.6,0.7,6.1,8.7,8.3,10.0,90.0,455.0,Alleyrons,48.0,103,Lyon,0,3,base moved to lift
+Habère-Poche,1.4,1.3,1.2,9.7,1.3,13.3,20.0,9.3,20.0,70.0,661.0,Crêtes,65.0,66,Geneva,1,4,
+Hauteluce,4.0,3.5,3.0,6.7,3.3,131.3,151.5,63.3,73.0,59.0,834.0,Jorets,98.0,120,Geneva,3,40,
+L'Alpe d'Huez,7.8,7.5,7.5,6.3,5.8,63.3,68.0,74.7,65.0,28.0,1627.0,Le Villarais,0.0,127,Lyon,12,45,
+La Chapelle d'Abondance,2.7,2.5,2.2,7.9,3.0,38.4,50.0,21.2,37.0,73.0,992.0,Panthiaz,84.0,98,Geneva,4,26,
+La Clusaz,5.3,5.1,4.8,9.2,4.2,54.9,79.2,40.3,47.0,55.0,1415.0,Balme,29.0,75,Geneva,5,29,
+La Féclaz / Savoie Grand Revard,1.4,1.3,1.2,8.6,2.1,7.2,8.8,4.9,4.0,75.0,222.0,Télésiège de l’Orionde,80.0,86,Lyon,3,11,
+La Giettaz,5.4,5.5,5.5,8.3,0.9,6.5,16.8,18.5,4.0,50.0,673.0,,0.0,91,Geneva,1,1,base moved to lift
+La Norma,4.2,4.0,4.0,5.9,1.9,14.1,18.5,17.2,12.0,50.0,1351.0,Carrelet,34.0,134,Lyon,2,10,
+La Plagne,8.3,8.3,7.5,5.2,5.5,218.0,328.3,121.0,116.0,29.0,1315.0,Funiplagne Grande Rochette,2.0,146,Lyon,17,85,
+La Rosière,4.1,4.5,4.3,4.6,4.3,26.1,113.8,82.3,33.0,36.0,950.0,Fort,75.0,158,Geneva,7,26,
+La station du Granier,2.4,2.3,2.2,8.3,0.0,1.6,1.9,0.8,4.0,100.0,425.0,Frasses,100.0,90,Lyon,0,0,
+La Toussuire,5.9,5.7,5.2,6.4,3.8,85.7,117.8,52.5,59.0,51.0,966.0,Grand Truc,12.0,125,Lyon,1,35,
+Lans en Vercors,1.7,1.5,1.2,8.8,0.5,15.1,16.2,5.5,12.0,100.0,425.0,Trois Buissons,43.0,82,Lyon,0,2,base moved to lift
+Le col d'Ornon,1.1,0.9,0.9,6.3,0.4,0.9,0.0,0.0,1.0,100.0,112.0,,,127,Lyon,0,1,
+Le col de Marcieu,1.3,1.2,1.2,8.0,0.4,2.0,2.4,1.0,3.0,100.0,275.0,Grand Essart,100.0,96,Lyon,0,1,base moved to lift
+Le col de Porte,1.7,1.6,1.5,8.8,1.1,0.9,0.8,0.0,4.0,100.0,307.0,,,81,Lyon,1,2,
+Le col de Rousset,2.1,1.8,1.7,6.4,0.4,9.1,3.1,2.5,7.0,86.0,269.0,Vallon,24.0,125,Lyon,0,1,
+Le col du Barioz,0.1,0.2,0.2,8.0,0.0,0.1,1.5,1.2,2.0,100.0,323.0,Grand Plan,100.0,96,Lyon,0,0,base moved to lift
+Le Collet d'Allevard,3.2,3.1,3.0,7.1,1.2,10.5,15.5,9.4,10.0,60.0,654.0,Grand Collet,19.0,112,Lyon,1,3,
+Le Corbier,6.2,5.9,5.5,6.3,3.6,83.8,117.8,52.5,59.0,51.0,1066.0,Mont Corbier,2.0,126,Lyon,1,31,
+Le Désert d'Entremont,1.1,1.2,1.1,8.2,0.4,1.1,3.5,2.6,3.0,100.0,354.0,Bruyères,100.0,93,Lyon,0,1,base moved to lift
+Le Grand Bornand,5.3,5.0,4.8,9.3,4.2,35.4,33.9,16.5,22.0,45.0,1080.0,Lachat,19.0,73,Geneva,5,28,
+Le Reposoir,2.7,2.6,2.7,9.6,0.9,0.4,0.4,0.8,4.0,100.0,131.0,,0.0,67,Geneva,1,1,
+Le Revard / Savoie Grand Revard,1.3,1.2,1.1,8.6,1.4,4.9,6.9,3.7,3.0,67.0,256.0,Ébats,84.0,86,Lyon,1,6,base moved to lift
+Le Salève,0.0,0.1,0.1,10.0,0.7,0.0,0.7,0.7,1.0,100.0,92.0,Pommier,100.0,45,Geneva,0,3,
+Le Sappey en Chartreuse,1.4,1.3,1.2,8.8,0.8,1.0,0.6,0.0,5.0,100.0,322.0,,,81,Lyon,0,5,
+Le Semnoz,0.7,0.4,0.3,9.2,0.7,10.4,7.7,5.5,9.0,78.0,191.0,Belvédère,100.0,75,Geneva,0,3,base moved to lift
+Les 2 Alpes,7.7,7.2,6.8,6.0,7.3,79.4,78.4,28.4,37.0,38.0,1917.0,Super Diable,1.0,132,Lyon,19,59,
+Les 7 Laux,3.6,3.6,3.5,7.7,1.9,21.1,34.4,28.0,22.0,59.0,1000.0,Gypaète,29.0,101,Lyon,1,13,
+Les Albiez,2.7,2.6,2.5,5.7,1.4,11.0,17.5,9.0,7.0,71.0,512.0,Aplanes,39.0,137,Lyon,1,5,
+Les Arcs,8.2,8.2,7.5,4.8,6.7,218.0,328.3,121.0,116.0,29.0,1466.0,Varet,8.0,153,Lyon,12,100,
+Les Bottières,2.4,3.7,3.2,6.7,2.5,1.9,117.8,52.5,59.0,51.0,1304.0,Lauze,96.0,120,Lyon,1,28,
+Les Brasses,2.6,2.5,2.4,9.2,0.7,7.5,11.5,4.9,11.0,82.0,359.0,Télésiège de la Mouille,23.0,74,Geneva,0,3,
+Les Carroz d'Araches,6.5,6.3,5.9,9.3,5.7,93.6,131.7,74.0,55.0,44.0,1310.0,Kédeuze,0.0,72,Geneva,12,58,
+Les Contamines Montjoie,4.1,4.0,3.8,8.2,2.4,29.0,49.5,32.3,24.0,46.0,1287.0,Montjoie,100.0,93,Geneva,2,20,
+Les Coulmes – col de Romeyère,2.2,2.1,2.1,8.4,0.4,2.0,1.5,0.5,3.0,100.0,144.0,Font,100.0,88,Lyon,0,1,
+Les Gets,5.8,5.7,5.4,8.8,6.6,52.0,82.7,40.3,38.0,29.0,836.0,Rosta,7.0,82,Geneva,11,81,
+Les Houches,5.0,4.9,4.8,8.8,2.6,15.4,22.9,12.8,13.0,31.0,889.0,Prarion,8.0,81,Geneva,6,12,
+Les Karellis,5.3,5.2,5.1,6.3,0.8,16.1,26.3,17.6,13.0,54.0,934.0,Chaudannes,18.0,126,Lyon,0,5,
+Les Menuires,8.5,8.5,8.1,5.0,6.8,310.1,391.2,191.4,134.0,26.0,1541.0,Pointe de la Masse,5.0,150,Lyon,21,124,
+Les Saisies,3.9,3.4,2.9,7.1,3.5,131.3,151.5,63.3,73.0,59.0,469.0,Brichou,58.0,112,Geneva,4,44,
+Les Signaraux,0.9,0.9,0.9,7.6,0.0,0.8,2.6,1.7,1.0,100.0,134.0,Aup,100.0,103,Lyon,0,0,
+Lullin (col du Feu),0.2,0.1,0.1,9.0,0.4,0.6,0.7,0.3,1.0,100.0,75.0,Grange des Bois,100.0,78,Geneva,0,1,
+Lus la Jarjatte,0.5,0.4,0.2,5.9,0.4,5.4,5.1,0.9,4.0,100.0,337.0,Aiguilles,100.0,133,Lyon,0,1,
+Manigod,4.4,4.2,4.0,9.1,2.4,54.9,79.2,40.3,47.0,55.0,977.0,Beauregard,9.0,77,Geneva,2,19,base moved to lift
+Megève,4.6,4.8,4.6,8.6,5.5,67.0,169.2,129.5,71.0,48.0,1253.0,Mont d'Arbois,45.0,85,Geneva,8,61,
+Méribel,8.8,8.8,8.4,6.1,6.9,310.1,391.2,191.4,133.0,26.0,1894.0,Olympic,2.0,131,Lyon,22,113,
+Mont-Saxonnex,1.5,1.5,1.3,9.8,2.2,4.1,5.5,1.7,5.0,100.0,501.0,Mouilles,100.0,63,Geneva,1,3,
+Montchavin les Coches,7.1,7.1,6.4,5.6,6.1,218.0,328.3,121.0,116.0,29.0,1927.0,Peisey,56.0,139,Lyon,27,144,
+Montmin,1.1,1.1,1.1,8.5,0.8,0.9,1.2,0.6,2.0,100.0,78.0,Plan Bois,100.0,87,Geneva,0,5,base moved to lift
+Montriond,5.0,5.0,4.3,8.1,7.1,145.8,285.7,124.6,138.0,46.0,1286.0,Zore,74.0,94,Geneva,27,130,base moved to lift
+Morillon,4.5,4.2,3.9,9.2,3.6,93.6,131.7,74.0,55.0,44.0,1779.0,Morillon,100.0,74,Geneva,7,35,
+Morzine,4.9,4.9,4.2,8.2,7.1,145.8,285.7,124.6,138.0,46.0,1286.0,Proclou,74.0,92,Geneva,27,138,
+Notre Dame de Bellecombe,5.7,5.2,4.7,7.9,3.8,131.3,151.5,63.3,74.0,58.0,913.0,,0.0,98,Geneva,5,49,
+Orelle,6.2,6.2,5.8,6.6,1.4,310.1,391.2,191.4,133.0,26.0,2314.0,Télécabine d'Orelle,100.0,121,Lyon,1,5,base moved to lift
+Oz-en-Oisans,7.6,7.3,7.3,7.2,4.0,62.2,68.0,74.7,64.0,27.0,1914.0,Alpette-Rousses,6.0,110,Lyon,9,42,base moved to lift
+Passy Plaine Joux,1.1,1.0,0.8,8.2,0.7,4.1,3.9,1.0,5.0,80.0,298.0,Barmus,43.0,93,Geneva,0,3,
+Peisey Vallandry,8.6,8.6,7.8,5.3,6.6,218.0,328.3,121.0,116.0,29.0,1848.0,Grizzly,1.0,145,Lyon,18,118,
+Pralognan la Vanoise,4.7,4.5,4.5,5.6,2.1,13.0,12.3,9.6,13.0,62.0,947.0,Isertan,8.0,139,Lyon,3,11,
+Praz de Lys Sommand,3.4,3.5,3.2,8.5,1.0,13.7,35.0,16.1,21.0,71.0,687.0,Haut Fleury,20.0,87,Geneva,0,7,
+Praz sur Arly,2.6,3.2,2.6,8.3,4.4,31.8,151.5,63.3,73.0,59.0,1031.0,Crêt du Midi,87.0,91,Geneva,3,30,
+Romme (Nancy-sur-Cluses),1.8,1.9,1.9,9.1,0.4,0.7,3.3,3.1,4.0,100.0,343.0,Grand Tour,32.0,77,Geneva,0,1,
+Saint-Colomban des Villards,3.6,3.5,3.9,7.1,1.8,10.8,13.7,52.5,59.0,51.0,1497.0,Charmette,96.0,112,Lyon,0,23,
+Saint-François Longchamp,4.9,4.5,4.0,6.9,2.4,93.4,91.2,28.6,40.0,55.0,1129.0,Marquis,100.0,116,Lyon,1,24,
+Saint-Gervais,5.1,5.0,4.8,8.9,4.4,75.1,128.5,96.6,65.0,42.0,1718.0,L'Alpin,87.0,79,Geneva,12,47,
+Saint-Hilaire du Touvet,0.6,0.6,0.6,8.1,0.7,2.6,4.6,2.5,5.0,100.0,361.0,Sauzet,68.0,95,Lyon,0,3,
+Saint-Jean d'Arves,5.6,5.4,4.9,6.1,2.9,83.8,117.8,52.5,59.0,51.0,1023.0,Mont Corbier,2.0,130,Lyon,2,32,base moved to lift
+Saint-Jean d'Aulps / Espace Roc d'Enfer,3.2,3.4,3.3,8.4,1.9,4.8,22.6,17.9,12.0,58.0,849.0,Têtes,85.0,88,Geneva,2,10,base moved to lift
+Saint-Martin de Belleville,6.7,6.7,6.3,6.1,5.2,310.1,391.2,191.4,133.0,26.0,1832.0,Saint Martin Express,100.0,130,Lyon,13,86,
+Saint-Pierre de Chartreuse,3.2,3.1,3.1,8.8,0.8,1.0,1.4,0.5,4.0,100.0,132.0,,0.0,82,Lyon,0,4,base moved to lift
+Saint-Sorlin d'Arves,6.3,6.0,5.6,5.9,3.4,83.8,117.8,52.5,60.0,52.0,1081.0,Blanchards,0.0,133,Lyon,5,35,
+Sainte-Foy Tarentaise,5.3,5.3,5.1,4.7,1.4,12.0,22.0,10.2,4.0,0.0,1079.0,Arpettaz,91.0,155,Lyon,0,14,base moved to lift
+Samoëns,4.6,4.3,4.0,8.9,4.7,93.6,131.7,74.0,55.0,44.0,1768.0,Grand Massif Express,100.0,80,Geneva,16,50,base moved to lift
+Sixt-Fer-à-Cheval,2.8,2.8,2.8,8.6,1.7,3.5,6.5,7.9,6.0,67.0,701.0,Pralet,48.0,86,Geneva,2,6,
+Termignon,4.2,3.9,3.6,5.3,2.9,54.8,60.8,26.6,30.0,43.0,1402.0,Roches Blanches,100.0,145,Lyon,3,28,
+Thollon-les-Mémises,1.8,1.8,1.8,8.4,0.8,4.7,12.7,11.8,14.0,71.0,829.0,Télésiège du Parchet,51.0,88,Geneva,0,5,base moved to lift
+Tignes,7.0,6.8,6.5,3.7,6.3,92.1,143.5,97.8,66.0,26.0,1345.0,Merles,27.0,174,Lyon,19,64,
+Val Cenis,5.7,5.4,5.1,4.7,3.5,54.8,60.8,26.6,30.0,43.0,1279.0,Solert,29.0,155,Lyon,6,36,
+Val d'Isère,7.6,7.4,7.2,3.3,7.2,92.6,142.4,97.8,66.0,26.0,1577.0,Grand Pré,4.0,180,Lyon,22,77,
+Val Thorens,7.9,7.9,7.5,5.0,7.3,310.1,391.2,191.4,133.0,26.0,1119.0,Pointe de la Masse,5.0,150,Lyon,16,91,
+Valfréjus,4.6,4.5,4.3,5.8,2.1,20.8,31.6,13.7,8.0,38.0,1143.0,Punta Bagna,63.0,136,Lyon,2,13,
+Valloire,6.8,6.5,6.2,6.0,4.3,73.4,99.8,50.0,27.0,30.0,1309.0,Cornafond,10.0,132,Lyon,9,55,
+Vallorcine,3.9,3.9,3.8,7.4,1.0,13.6,28.7,16.5,12.0,67.0,986.0,Autannes,7.0,107,Geneva,0,7,
+Valmeinier,5.6,5.3,5.0,6.2,3.7,73.4,99.8,50.0,27.0,30.0,1211.0,Grandes Drozes,72.0,129,Lyon,7,37,
+Valmorel,6.2,5.8,5.6,3.9,4.7,54.0,54.8,28.6,40.0,55.0,1311.0,Mottet,18.0,169,Lyon,6,41,
+Vaujany,6.7,7.1,7.1,6.8,3.7,10.2,68.0,74.7,64.0,27.0,2137.0,Alpette-Rousses,6.0,118,Lyon,7,38,
+Villard de Lans / Corrençon,4.7,4.3,4.1,8.3,1.4,41.0,30.9,18.1,19.0,53.0,902.0,Crêtes,14.0,90,Lyon,0,15,base moved to lift
+Villard-Reculas,7.8,7.4,7.5,6.5,3.9,62.2,68.0,74.7,64.0,27.0,1786.0,Le Villarais,0.0,123,Lyon,10,36,
