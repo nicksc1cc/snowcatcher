@@ -136,7 +136,7 @@ Terrain for every level at once, plenty of places to stay and eat, and easy to r
 | 9 | La Plagne | 7.5 | 218 | 121 | 51 | 85 |
 | 10 | Les Arcs | 7.4 | 218 | 121 | 36 | 100 |
 
-## Adventurers
+## Experts & Off Piste
 
 Off piste reputation and named routes, glaciers by lift, steep terrain and vertical. Needs at least 10 km of advanced piste. 73 resorts qualified.
 
@@ -152,6 +152,23 @@ Off piste reputation and named routes, glaciers by lift, steep terrain and verti
 | 8 | La Plagne | 6.6 | 3 | 9 | 58 | 1315 | 7.2 |
 | 9 | Méribel | 6.4 | 1.5 | 1 | 617 | 1894 | 12.8 |
 | 10 | Les Menuires | 6.2 | 1.5 | 1 | 617 | 1541 | 12.8 |
+
+## Beginners
+
+Plenty of green and blue terrain, few drags and flat stretches, ski schools nearby and fair prices. 79 resorts qualified.
+
+| Rank | Resort | Score | Beginner km | Ski schools | Day pass € | Drag % |
+|---|---|---|---|---|---|---|
+| 1 | La Plagne | 8.2 | 218 | 8 | 68 | 29 |
+| 2 | Valmeinier | 7.9 | 73.4 | 1 | 54.9 | 30 |
+| 3 | Les Menuires | 7.9 | 310.1 | 0 | 64 | 26 |
+| 4 | Valloire | 7.8 | 73.4 | 2 | 54.9 | 30 |
+| 5 | Morzine | 7.8 | 145.8 | 3 | 56 | 46 |
+| 6 | Saint-Martin de Belleville | 7.8 | 310.1 | 0 | 64 | 26 |
+| 7 | Val Cenis | 7.8 | 54.8 | 3 | 50 | 43 |
+| 8 | Oz-en-Oisans | 7.8 | 62.2 | 0 | 49.5 | 27 |
+| 9 | Montchavin les Coches | 7.8 | 218 | 1 | 68 | 29 |
+| 10 | Peisey Vallandry | 7.7 | 218 | 2 | 78 | 29 |
 
 ## Snowboarders on a budget
 

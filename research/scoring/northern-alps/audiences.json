@@ -189,7 +189,7 @@
  },
  {
   "id": "adventurers",
-  "title": "Adventurers",
+  "title": "Experts & Off Piste",
   "note": "Off piste reputation and named routes, glaciers by lift, steep terrain and vertical. Needs at least 10 km of advanced piste.",
   "weights": {
    "offpiste": 5,
@@ -212,6 +212,32 @@
    "glacier_ha",
    "vertical_m",
    "steep_km"
+  ]
+ },
+ {
+  "id": "beginners",
+  "title": "Beginners",
+  "note": "Plenty of green and blue terrain, few drags and flat stretches, ski schools nearby and fair prices.",
+  "weights": {
+   "skiing.beginner": 4,
+   "families": 1,
+   "value": 1,
+   "ease": 1
+  },
+  "filters": {
+   "km_beginner": [
+    ">=",
+    8
+   ]
+  },
+  "require": [
+   "skiing.beginner"
+  ],
+  "show": [
+   "km_beginner",
+   "ski_schools",
+   "day_pass_eur",
+   "drag_pct"
   ]
  }
 ]
