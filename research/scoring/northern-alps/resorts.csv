@@ -1,6 +1,6 @@
 slug,name,lat,lon,osm_ref,base_m,top_m,alpine_km,nordic_km
 abondance,Abondance,46.2807,6.7199,osm village 281243654,930,1690,17,3
-aillons-margeriaz,Aillons-Margeriaz,45.6192,6.0803,osm village 41644904,900,1845,25,4
+aillons-margeriaz,Aillons-Margeriaz,45.60765,6.10093,lift bottom (moved from osm village 41644904),900,1845,25,4
 alpe-du-grand-serre,Alpe du Grand-Serre,45.008,5.845,osm way 549108702 winter_sports,1400,2160,55,16
 areches-beaufort,Arêches Beaufort,45.6881,6.5665,osm way hamlet Arêches,1200,2300,50,30
 argentiere,Argentière,45.9838,6.9299,osm village 285882627,1250,2752,155,15
@@ -9,48 +9,48 @@ aussois,Aussois,45.2275,6.7414,osm village 41644953,1480,2680,55,39
 autrans-meaudre-en-vercors,Autrans-Méaudre en Vercors,45.176,5.5442,osm village 34054973,1040,1610,19,180
 avoriaz-1800,Avoriaz 1800,46.1925,6.7703,osm village 307509261,1800,2276,600,23
 bellevaux-hirmentaz,Bellevaux – Hirmentaz,46.2468,6.5061,osm hamlet 1207259347,1100,1610,25,40
-bernex,Bernex,46.3608,6.6753,osm village 304209650,950,1850,30,7
+bernex,Bernex,46.35596,6.68922,lift bottom (moved from osm village 304209650),950,1850,30,7
 bessans,Bessans,45.3206,6.994,osm village 41644981,1730,1850,3,120
 bonneval-sur-arc,Bonneval sur Arc,45.3717,7.0468,osm village 41645001,1800,3000,32,133
 chamonix-mont-blanc,Chamonix Mont-Blanc,45.9231,6.87,osm town 26696275,1035,3290,155,50
 champagny-en-vanoise,Champagny en Vanoise,45.4552,6.6942,osm village 41645050,1250,3030,425,23
 chamrousse,Chamrousse,45.1108,5.8748,osm village 12782600914,1650,2250,90,49
 chatel,Châtel,46.2672,6.8413,osm village 323186918,1200,2200,600,
-combloux,Combloux,45.8949,6.6448,osm village 540375954,1020,1930,100,5
-cordon,Cordon,45.9222,6.6105,osm village 497492492,870,1540,11,
+combloux,Combloux,45.898,6.63383,lift bottom (moved from osm village 540375954),1020,1930,100,5
+cordon,Cordon,45.91592,6.60021,lift bottom (moved from osm village 497492492),870,1540,11,
 courchevel,Courchevel,45.4141,6.635,osm village 158492994,1500,3230,600,70
 crest-voland,Crest Voland,45.7931,6.5023,osm village 41645096,1210,2050,192,120
 flaine,Flaine,46.0069,6.6904,osm village 2081312463,1600,2480,265,2
 flumet,Flumet,45.8176,6.5143,osm village 41645173,910,2040,192,
-font-d-urle,Font d'Urle / Espace Nordique Sud Vercors,44.8989,5.3218,osm hamlet 250991523,1450,1540,16,132
-gresse-en-vercors,Gresse en Vercors,44.9011,5.5662,osm village 34055087,1200,1760,13,50
+font-d-urle,Font d'Urle / Espace Nordique Sud Vercors,44.90627,5.33056,lift bottom (moved from osm hamlet 250991523),1450,1540,16,132
+gresse-en-vercors,Gresse en Vercors,44.89171,5.54891,lift bottom (moved from osm village 34055087),1200,1760,13,50
 habere-poche,Habère-Poche,46.2486,6.4735,osm village 339169876,950,1600,25,16
 hauteluce,Hauteluce,45.7506,6.5854,osm village 41645224,1140,2050,192,30
 l-alpe-d-huez,L'Alpe d'Huez,45.0924,6.0699,osm village 624027794,1860,3330,245,50
 la-chapelle-d-abondance,La Chapelle d'Abondance,46.2957,6.7883,osm village 1455281357,1000,1800,600,23
 la-clusaz,La Clusaz,45.9044,6.4239,osm village 338321952,1040,2470,125,99
 la-feclaz,La Féclaz / Savoie Grand Revard,45.6448,5.9833,osm hamlet 353309424,1360,1550,20,150
-la-giettaz,La Giettaz,45.8607,6.4958,osm node village sign,1200,1930,100,
+la-giettaz,La Giettaz,45.87858,6.5261,lift bottom (moved from osm node village sign),1200,1930,100,
 la-norma,La Norma,45.2014,6.697,osm village 1154722387,1370,2720,65,
 la-plagne,La Plagne,45.5059,6.6744,osm hamlet 25946493 Plagne Centre,1600,3080,425,57
 la-rosiere,La Rosière,45.6286,6.8478,osm hamlet 9433122754,1850,2790,154,6
 la-station-du-granier,La station du Granier,45.4609,5.9072,osm way winter_sports Le Granier,1000,1420,2,
 la-toussuire,La Toussuire,45.2558,6.2627,osm hamlet 360902497,1700,2580,310,13
-lans-en-vercors,Lans en Vercors,45.1279,5.5885,osm village 34055134,1020,1807,24,40
+lans-en-vercors,Lans en Vercors,45.11889,5.61055,lift bottom (moved from osm village 34055134),1020,1807,24,40
 le-col-d-ornon,Le col d'Ornon,45.011,5.976,osm way 676485850 winter_sports,1370,1850,7,22
-le-col-de-marcieu,Le col de Marcieu,45.346,5.903,osm way 294937387 winter_sports,1050,1300,5,24
+le-col-de-marcieu,Le col de Marcieu,45.35689,5.91788,lift bottom (moved from osm way 294937387 winter_sports),1050,1300,5,24
 le-col-de-porte,Le col de Porte,45.2899,5.767,osm node saddle Col de Porte,1310,1425,5,15
 le-col-de-rousset,Le col de Rousset,44.8399,5.4065,osm locality 289356817,1250,1700,30,20
-le-col-du-barioz,Le col du Barioz,45.3314,6.027,osm node Col du Barioz,1380,1690,2,52
+le-col-du-barioz,Le col du Barioz,45.33329,6.05211,lift bottom (moved from osm node Col du Barioz),1380,1690,2,52
 le-collet-d-allevard,Le Collet d'Allevard,45.3957,6.1111,osm hamlet 282984832,1450,2080,35,
 le-corbier,Le Corbier,45.2394,6.2667,osm winter_sports node 4042749440,1550,2580,310,10
-le-desert-d-entremont,Le Désert d'Entremont,45.471,5.863,osm way 549179138 winter_sports Les Entremonts,1200,1440,10,45
+le-desert-d-entremont,Le Désert d'Entremont,45.45982,5.85746,lift bottom (moved from osm way 549179138 winter_sports Les Entremonts),1200,1440,10,45
 le-grand-bornand,Le Grand Bornand,45.9419,6.4271,osm village 250751010,1300,2100,84,82
 le-reposoir,Le Reposoir,46.0114,6.5348,osm village 281229514,980,1600,5,
-le-revard,Le Revard / Savoie Grand Revard,45.6804,5.9772,osm hamlet 3758013522,1500,1536,10,150
+le-revard,Le Revard / Savoie Grand Revard,45.68333,5.98831,lift bottom (moved from osm hamlet 3758013522),1500,1536,10,150
 le-saleve,Le Salève,46.1195,6.1719,osm hamlet La Croisette,1160,1360,1,14
 le-sappey-en-chartreuse,Le Sappey en Chartreuse,45.2599,5.7772,osm village 34055186,980,1140,5,25
-le-semnoz,Le Semnoz,45.796,6.102,osm way 601113698 winter_sports,1480,1702,20,35
+le-semnoz,Le Semnoz,45.80287,6.09727,lift bottom (moved from osm way 601113698 winter_sports),1480,1702,20,35
 les-2-alpes,Les 2 Alpes,45.01,6.1238,osm village 253618486 Les Deux Alpes,1650,3500,220,
 les-7-laux,Les 7 Laux,45.2568,5.9954,osm hamlet 27260616 Prapoutel,1350,2370,120,16
 les-albiez,Les Albiez,45.211,6.354,osm way 601114662 winter_sports,1500,2000,35,
@@ -68,18 +68,18 @@ les-saisies,Les Saisies,45.7573,6.5394,osm hamlet 5787647548,1650,2050,192,120
 les-signaraux,Les Signaraux,44.9388,5.7341,osm hamlet 1380562052,1285,1417,2,26
 lullin,Lullin (col du Feu),46.2944,6.5093,osm node saddle Col du Feu,1090,1150,1,16
 lus-la-jarjatte,Lus la Jarjatte,44.6758,5.758,osm hamlet 2098003433 La Jarjatte,1180,1520,7,22
-manigod,Manigod,45.861,6.3697,osm village 359563326,1500,1650,125,16
+manigod,Manigod,45.86013,6.41401,lift bottom (moved from osm village 359563326),1500,1650,125,16
 megeve,Megève,45.8567,6.6179,osm village 26695323,1100,2370,445,38
 meribel,Méribel,45.3971,6.5661,osm node Méribel Centre,1450,3230,600,90
 mont-saxonnex,Mont-Saxonnex,46.0509,6.4793,osm village 353711089,1050,1570,15,
 montchavin-les-coches,Montchavin les Coches,45.5599,6.7366,osm hamlet 7377418501,1400,3020,425,16
-montmin,Montmin,45.8032,6.2649,osm village 365009074,1100,1180,2,
-montriond,Montriond,46.1975,6.6947,osm village 281239390,1200,2250,600,5
+montmin,Montmin,45.80552,6.25033,lift bottom (moved from osm village 365009074),1100,1180,2,
+montriond,Montriond,46.1728,6.70145,lift bottom (moved from osm village 281239390),1200,2250,600,5
 morillon,Morillon,46.0838,6.6773,osm village 291331371,680,2480,265,42
 morzine,Morzine,46.18,6.7091,osm village 26694748,950,2466,600,60
 notre-dame-de-bellecombe,Notre Dame de Bellecombe,45.8084,6.5172,osm village 41645502,1130,2050,192,8
-orelle,Orelle,45.2102,6.5347,osm village 41645524,900,3230,600,1
-oz-en-oisans,Oz-en-Oisans,45.1406,6.0516,osm village 34055251,1350,3330,250,20
+orelle,Orelle,45.20768,6.54615,lift bottom (moved from osm village 41645524),900,3230,600,1
+oz-en-oisans,Oz-en-Oisans,45.12781,6.07116,lift bottom (moved from osm village 34055251),1350,3330,250,20
 passy-plaine-joux,Passy Plaine Joux,45.9512,6.7406,osm hamlet 2319706264,1340,1730,12,5
 peisey-vallandry,Peisey Vallandry,45.5564,6.7622,osm hamlet 673663656 Vallandry,1600,3226,425,56
 pralognan-la-vanoise,Pralognan la Vanoise,45.3818,6.7213,osm village 41645553,1410,2350,25,27
@@ -90,16 +90,16 @@ saint-colomban-des-villards,Saint-Colomban des Villards,45.2938,6.2259,osm villa
 saint-francois-longchamp,Saint-François Longchamp,45.4079,6.3468,osm village 41645638,1600,2520,170,70
 saint-gervais,Saint-Gervais,45.8929,6.7113,osm village 26695130,800,2370,445,25
 saint-hilaire-du-touvet,Saint-Hilaire du Touvet,45.3089,5.8869,osm node village Saint-Hilaire-du-Touvet,950,1330,10,18
-saint-jean-d-arves,Saint-Jean d'Arves,45.2062,6.2731,osm village 41645661,1550,2580,310,
-saint-jean-d-aulps,Saint-Jean d'Aulps / Espace Roc d'Enfer,46.2346,6.6549,osm village 251891119,950,1800,50,
+saint-jean-d-arves,Saint-Jean d'Arves,45.21326,6.26763,lift bottom (moved from osm village 41645661),1550,2580,310,
+saint-jean-d-aulps,Saint-Jean d'Aulps / Espace Roc d'Enfer,46.22609,6.64135,lift bottom (moved from osm village 251891119),950,1800,50,
 saint-martin-de-belleville,Saint-Martin de Belleville,45.3798,6.5046,osm village 7673535398,1400,3230,600,28
-saint-pierre-de-chartreuse,Saint-Pierre de Chartreuse,45.3423,5.8147,osm village 34055375,900,1750,31,40
+saint-pierre-de-chartreuse,Saint-Pierre de Chartreuse,45.31642,5.80254,lift bottom (moved from osm village 34055375),900,1750,31,40
 saint-sorlin-d-arves,Saint-Sorlin d'Arves,45.2214,6.229,osm village 41645767,1530,2580,310,3
-sainte-foy-tarentaise,Sainte-Foy Tarentaise,45.5904,6.8849,osm village 41645780,1550,2620,32,
-samoens,Samoëns,46.0834,6.7269,osm village 1868631511,700,2480,265,42
+sainte-foy-tarentaise,Sainte-Foy Tarentaise,45.57707,6.89398,lift bottom (moved from osm village 41645780),1550,2620,32,
+samoens,Samoëns,46.07653,6.72123,lift bottom (moved from osm village 1868631511),700,2480,265,42
 sixt-fer-a-cheval,Sixt-Fer-à-Cheval,46.0547,6.7754,osm village 3021689144,800,2480,265,42
 termignon,Termignon,45.2769,6.8169,osm village 41645818,1300,2730,125,29
-thollon-les-memises,Thollon-les-Mémises,46.391,6.6989,osm village 1745104432,1000,1870,50,6
+thollon-les-memises,Thollon-les-Mémises,46.39044,6.7172,lift bottom (moved from osm village 1745104432),1000,1870,50,6
 tignes,Tignes,45.4697,6.9076,osm village 26697893,2100,3450,300,2
 val-cenis,Val Cenis,45.2892,6.9116,osm village 41645334 Lanslevillard,1400,2750,125,8
 val-d-isere,Val d'Isère,45.4496,6.9787,osm village 41645843,1850,3450,300,20
@@ -108,7 +108,7 @@ valfrejus,Valfréjus,45.1737,6.6543,osm hamlet 2589055053,1550,2720,65,
 valloire,Valloire,45.165,6.4296,osm village 41645849,1430,2730,160,17
 vallorcine,Vallorcine,46.034,6.9325,osm village 1744292002,1260,2250,30,7
 valmeinier,Valmeinier,45.1853,6.4808,osm village 41645855,1800,2730,160,
-valmorel,Valmorel,45.4638,6.4164,osm relation site Valmorel,1350,2500,165,35
+valmorel,Valmorel,45.4605,6.4425,lift cluster (moved from osm relation site Valmorel),1350,2500,165,35
 vaujany,Vaujany,45.1576,6.0784,osm village 34055455,1250,3330,245,20
-villard-de-lans,Villard de Lans / Corrençon,45.0706,5.5513,osm village 26697376,1030,2050,125,122
+villard-de-lans,Villard de Lans / Corrençon,45.04479,5.55971,lift bottom (moved from osm village 26697376),1030,2050,125,122
 villard-reculas,Villard-Reculas,45.0915,6.0313,osm village 34055469,1450,3330,245,

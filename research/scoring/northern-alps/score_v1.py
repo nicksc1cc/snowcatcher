@@ -3,7 +3,7 @@
 Inputs (written from the browser run, see README):
   resorts.csv           Alti-Mag station list with the base point used for each resort
   data/snow.json        ERA5 seasonal snowfall at base, middle and top height for each resort
-  data/measures.json    SCBulk.measure output (OpenStreetMap network, venues, accommodation)
+  data/measures_raw.csv SCBulk.measure output (OpenStreetMap network, venues, accommodation)
   data/access.csv       OSRM road time and distance from Geneva, Lyon, Chambéry and Grenoble airports
 Output:
   out/measures.csv      raw value of every measure for every resort
@@ -59,10 +59,24 @@ def mean(xs, w=None):
     return round(sum(x * k for x, k in pairs) / sum(k for _, k in pairs), 1)
 
 
+def at_height(bands, h):
+    """Seasonal snowfall at height h, interpolated between the two nearest bands (clamped at the ends)."""
+    hs = sorted(int(k) for k in bands)
+    h = min(max(h, hs[0]), hs[-1])
+    lo = max(x for x in hs if x <= h)
+    hi = min(x for x in hs if x >= h)
+    w = 0 if hi == lo else (h - lo) / (hi - lo)
+    A, B = bands[str(lo)], bands[str(hi)]
+    return {y: A[y] * (1 - w) + B[y] * w for y in A if y in B}
+
+
 def main():
     resorts = list(csv.DictReader(open(P("resorts.csv"))))
-    snow = json.load(open(P("data", "snow.json")))
-    meas = {m["slug"]: m for m in json.load(open(P("data", "measures.json")))}
+    snow = json.load(open(P("data", "snow_cells.json")))
+    cells = {row["slug"]: row["cell"] for row in csv.DictReader(open(P("data", "snow_cell_of_resort.csv")))}
+    meas = {}
+    for row in csv.DictReader(open(P("data", "measures_raw.csv"))):
+        meas[row["slug"]] = {k: (None if v == "" else (v if k in ("slug", "critical_lift", "note") else float(v))) for k, v in row.items()}
     acc = {}
     for row in csv.DictReader(open(P("data", "access.csv"))):
         acc[row["slug"]] = {k: {"min": int(row[k + "_min"]), "km": int(row[k + "_km"])} for k in ["gva", "lys", "cmf", "gnb"] if row[k + "_min"]}
@@ -72,25 +86,31 @@ def main():
         raw = {"slug": s, "name": r["name"]}
         sc = {"slug": s, "name": r["name"]}
         conf = {}
-        # snow reliability by level: base, middle and top height
-        sn = snow.get(s)
-        for lv, idx in zip(LEVELS, range(3)):
+        # snow reliability by level: Alti-Mag base height for beginners, the middle for intermediates, the top
+        # for advanced. Seasons are interpolated by height between the ERA5 bands fetched for the resort's cell.
+        cell = cells.get(s)
+        sn = snow.get(cell) if cell else None
+        b, t = int(r["base_m"]), int(r["top_m"])
+        raw["era5_cell"] = cell
+        for lv, h in zip(LEVELS, [b, round((b + t) / 2), t]):
             if not sn:
                 continue
-            el = str(sn["el"][idx])
-            seasons = sn["seasons"][el]
+            seasons = at_height(sn["bands"], h)
             ref = [v for y, v in seasons.items() if 1991 <= int(y) <= 2020]
-            old = [v for y, v in seasons.items() if 1961 <= int(y) <= 1990]
             recent = [v for y, v in seasons.items() if 2021 <= int(y) <= 2025]
             med = statistics.median(ref)
             cv = 100 * statistics.pstdev(ref) / statistics.mean(ref)
-            raw[f"snow_height_{lv}_m"] = sn["el"][idx]
+            raw[f"snow_height_{lv}_m"] = h
             raw[f"snow_median_{lv}_cm"] = round(med)
             raw[f"snow_cv_{lv}_pct"] = round(cv)
-            raw[f"snow_median_1961_1990_{lv}_cm"] = round(statistics.median(old))
             raw[f"snow_recent_below_median_{lv}"] = sum(1 for v in recent if v < med)
             sc[f"snow_reliability.{lv}"] = mean([scale("snow_median_cm", med), scale("snow_cv_pct", cv)], [0.7, 0.3])
-            conf[f"snow_reliability.{lv}"] = "medium"  # reanalysis at about 25 km
+            conf[f"snow_reliability.{lv}"] = "medium"  # reanalysis cell of about 25 km
+        if sn:
+            new = statistics.median([v for y, v in sn["bands"]["1500"].items() if 1991 <= int(y) <= 2020])
+            old = statistics.median(list(sn["old1500"].values()))
+            raw["snow_median_1500_1961_1990_cm"] = round(old)
+            raw["snow_median_1500_1991_2020_cm"] = round(new)
         for k in ["km_beginner", "km_intermediate", "km_advanced", "km_all", "lifts", "drag_pct", "enclosed_pct", "top_m", "bottom_m",
                   "vertical_m", "resilience_lost_pct", "critical_lift", "bar_village", "bar_mountain", "late", "restaurant_village",
                   "restaurant_mountain", "beds_mapped", "bed_to_lift_m", "ski_in_out_pct", "startLifts", "note"]:
