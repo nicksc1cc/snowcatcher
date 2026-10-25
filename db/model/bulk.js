@@ -305,6 +305,58 @@
     return out;
   };
 
+  // ---- off piste terrain from the map (method v1.2) ----
+  // S.offpiste(bbox, tiles, resorts): glaciers and mapped freeride or backcountry routes near the lift tops
+  // a resort can reach at advanced level.
+  //  - glacier_ha: area of glaciers with a vertex within 1,000 m of a reachable main lift top (each glacier once)
+  //  - glacier_tops: reachable main lift tops within 300 m of a glacier vertex
+  //  - freeride_km: downhill ways tagged piste:difficulty=freeride or piste:grooming=backcountry with an end
+  //    within 500 m of a reachable lift top or reachable piste vertex (these ways are left out of S.fetch)
+  S.offpiste = async (bbox, tiles, resorts) => {
+    const [s, w, n, e] = bbox, dl = (n - s) / tiles, dw = (e - w) / tiles;
+    S.otiles = S.otiles || {};
+    const glaciers = new Map(), routes = new Map();
+    for (let i = 0; i < tiles; i++) for (let j = 0; j < tiles; j++) {
+      const b = [s + i * dl, w + j * dw, s + (i + 1) * dl, w + (j + 1) * dw].map((x) => x.toFixed(4)).join(",");
+      const q = `[out:json][timeout:180];(way["natural"="glacier"](${b});relation["natural"="glacier"](${b});way["piste:type"="downhill"]["piste:difficulty"="freeride"](${b});way["piste:type"="downhill"]["piste:grooming"="backcountry"](${b}););out body geom;`;
+      const j2 = S.otiles[b] || (S.otiles[b] = await overpass(q));
+      for (const x of j2.elements) {
+        const t = x.tags || {};
+        if (t.natural === "glacier") {
+          if (glaciers.has(x.type + x.id)) continue;
+          const rings = x.type === "way" ? [x.geometry || []] : (x.members || []).filter((m) => m.role === "outer" && m.geometry).map((m) => m.geometry);
+          let a = 0; const pts = [];
+          for (const r of rings) { const p2 = r.map((p) => [p.lat, p.lon]); if (p2.length < 3) continue; const lat0 = p2[0][0] * rad, kx = R * rad * Math.cos(lat0), ky = R * rad; let s2 = 0; for (let k = 0; k < p2.length; k++) { const [y1, x1] = p2[k], [y2, x2] = p2[(k + 1) % p2.length]; s2 += (x1 * kx) * (y2 * ky) - (x2 * kx) * (y1 * ky); } a += Math.abs(s2) / 2; p2.forEach((q, k) => { if (k % 2 === 0) pts.push(q); }); }
+          if (a > 0) glaciers.set(x.type + x.id, { ha: a / 10000, pts });
+        } else if (x.type === "way" && x.geometry) {
+          const g = x.geometry.map((p) => [p.lat, p.lon]); let km = 0; for (let k = 1; k < g.length; k++) km += dist(g[k - 1], g[k]) / 1000;
+          routes.set(x.id, { g, km, name: t["piste:name"] || t.name || "" });
+        }
+      }
+      if (!S.otiles[b].cached) await sleep(5000); S.otiles[b].cached = true;
+    }
+    S.oraw = { glaciers: [...glaciers.values()], routes: [...routes.values()] };
+    const G = S.G, { lifts, pistes } = S.raw, out = [];
+    for (const [slug, lat, lon] of resorts) {
+      const pt = [lat, lon];
+      let st = lifts.map((l, i) => i).filter((i) => MAIN.has(lifts[i].type) && dist(lifts[i].bot, pt) <= 1500);
+      if (!st.length) { const cand = lifts.map((l, i) => [dist(l.bot, pt), i]).filter(([dd, i]) => MAIN.has(lifts[i].type) && dd <= 5000).sort((a, b) => a[0] - b[0]); if (cand.length) st = [cand[0][1]]; }
+      const rec = { slug, glacier_ha: 0, glacier_tops: 0, freeride_km: 0, freeride_routes: 0 };
+      if (st.length) {
+        const d = bfs(G, st.map((i) => G.L[i][0]), null);
+        const tops = lifts.map((l, i) => i).filter((i) => MAIN.has(lifts[i].type) && isFinite(d[G.L[i][0]])).map((i) => lifts[i].top);
+        const near = (q, pts, m) => pts.some((p) => Math.abs(p[0] - q[0]) < 0.02 && dist(p, q) <= m);
+        for (const gl of S.oraw.glaciers) if (tops.some((t) => near(t, gl.pts, 1000))) rec.glacier_ha += gl.ha;
+        rec.glacier_tops = tops.filter((t) => S.oraw.glaciers.some((gl) => near(t, gl.pts, 300))).length;
+        const reachPts = [...tops]; pistes.forEach((p, pi) => { if (isFinite(d[G.P[pi][0]])) p.g.forEach((q, k) => { if (k % 3 === 0) reachPts.push(q); }); });
+        for (const r of S.oraw.routes) if (near(r.g[0], reachPts, 500) || near(r.g[r.g.length - 1], reachPts, 500)) { rec.freeride_km += r.km; rec.freeride_routes++; }
+        rec.glacier_ha = Math.round(rec.glacier_ha); rec.freeride_km = Math.round(rec.freeride_km * 10) / 10;
+      }
+      out.push(rec);
+    }
+    return out;
+  };
+
   S.access = async (resorts, from) => {
     // from: {key: [lat, lon]}; OSRM table, all resorts per origin
     const res = {};
