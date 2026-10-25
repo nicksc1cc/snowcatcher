@@ -14,6 +14,7 @@ import csv, json, math, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 P = lambda *a: os.path.join(HERE, *a)
 LEVELS = ["beginner", "intermediate", "advanced"]
+PARKS = json.load(open(P("data", "parks.json"))) if os.path.exists(P("data", "parks.json")) else {}
 NOT_AT_BASE = {("megeve", "Les Portes du Mont-Blanc"), ("saint-gervais", "Les Houches – Saint-Gervais")}
 NEED_KM = {"beginner": 25, "intermediate": 100, "advanced": 120}
 
@@ -98,6 +99,23 @@ def score_resort(r, m, x, a, pr):
     rest = (num(m.get("restaurant_village")) or 0) + (num(m.get("restaurant_mountain")) or 0)
     raw.update({"bars": bars, "restaurants": rest, "late_bars": num(m.get("late"))})
     sc["apres"] = mean([(sq(bars, 0, 30), 2), (sq(num(m.get("late")), 0, 6), 1), (sq(rest, 0, 80), 2)])
+    # audience measures built from the parts above
+    raw["drag_pct"] = num(m.get("drag_pct"))
+    raw["vertical_m"], raw["top_m"] = num(m.get("vertical_m")), num(m.get("top_m"))
+    raw["beds_mapped"] = num(m.get("beds_mapped"))
+    raw["restaurants_mountain"] = num(m.get("restaurant_mountain"))
+    flat_i = num(x.get("flat_pct_intermediate")) if x else None
+    sc["board"] = mean([(lin(raw["drag_pct"], 70, 0), 2), (lin(flat_i, 25, 3), 2), (lin(km["intermediate"], 0, 80), 1)]) if flat_i is not None else None
+    sc["food"] = mean([(sq(num(m.get("restaurant_village")), 0, 40), 2), (sq(raw["restaurants_mountain"], 0, 40), 2)])
+    sc["mixed_ability"] = mean([(lin(km["beginner"], 0, 30), 1), (lin(km["intermediate"], 0, 80), 1), (lin(km["advanced"], 0, 60), 1)])
+    sc["beds"] = sq(raw["beds_mapped"], 0, 60)
+    raw["steep_km"] = num(x.get("steep_km")) if x else None
+    sc["adventure"] = mean([(lin(km["advanced"], 0, 150), 2), (lin(raw["vertical_m"], 500, 2200), 2), (lin(raw["top_m"], 1800, 3400), 1),
+                            (lin(raw["steep_km"], 0, 30), 2), (lin(num(m.get("resilience_lost_pct")), 80, 0), 1)])
+    pk = PARKS.get(r["slug"])
+    if pk:
+        raw["parks"], raw["park_area_ha"] = pk["parks"], pk["area_ha"]
+        sc["parks"] = mean([(lin(pk["parks"], 0, 3), 2), (sq(pk["area_ha"], 0, 15), 2)])
     # families, non skiers and village life from OpenStreetMap features
     if x:
         poi = x.get("poi", {})
@@ -123,7 +141,7 @@ def score_resort(r, m, x, a, pr):
 LABEL = {"km_beginner": "Beginner km", "km_intermediate": "Intermediate km", "km_advanced": "Advanced km", "km_all": "Mapped km",
          "day_pass_eur": "Day pass €", "six_day_pass_eur": "6 day pass €", "airport_min": "Minutes from Geneva or Lyon",
          "gva_min": "Minutes from Geneva", "ski_schools": "Ski schools", "spas": "Spas", "pools": "Pools", "walk_km": "Winter walks km",
-         "food_shops": "Food shops", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
+         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
 
 
 def fmt(v):
@@ -171,7 +189,7 @@ def main():
         w.writerow(["slug", "name"] + ["score." + k for k in keys] + rkeys)
         for x in rows:
             w.writerow([x["slug"], x["name"]] + [x["sc"].get(k) for k in keys] + [x["raw"].get(k) for k in rkeys])
-    recipes = json.load(open(P("lists.json")))
+    recipes = json.load(open(P("audiences.json"))) + json.load(open(P("lists.json")))
     md = ["# Lists, method v1.1 (pilot, snow not yet scored)", ""]
     for L, top, n in run_lists(rows, recipes):
         show = L.get("show", ["km_intermediate", "day_pass_eur", "airport_min"])
