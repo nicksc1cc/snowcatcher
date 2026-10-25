@@ -142,16 +142,16 @@ Off piste reputation and named routes, glaciers by lift, steep terrain and verti
 
 | Rank | Resort | Score | Off piste guides | Named routes | Glacier ha | Vertical m | Steep km |
 |---|---|---|---|---|---|---|---|
-| 1 | Tignes | 8.3 | 11 | 17 | n/a | 1345 | 8.1 |
-| 2 | Val d'Isère | 8.3 | 9 | 11 | n/a | 1577 | 8.1 |
-| 3 | L'Alpe d'Huez | 7.8 | 8 | 9 | n/a | 1627 | 5.4 |
-| 4 | Les Arcs | 7.8 | 6 | 10 | n/a | 1466 | 7.2 |
-| 5 | Val Thorens | 7.6 | 5 | 9 | n/a | 1119 | 12.8 |
-| 6 | Courchevel | 7.5 | 4.5 | 6 | n/a | 1742 | 12.8 |
-| 7 | Chamonix Mont-Blanc | 7.4 | 10 | 12 | n/a | 2603 | 4.2 |
-| 8 | La Plagne | 6.8 | 3 | 9 | n/a | 1315 | 7.2 |
-| 9 | Argentière | 6.1 | 8 | 4 | n/a | 1521 | 1.8 |
-| 10 | Méribel | 5.7 | 1.5 | 1 | n/a | 1894 | 12.8 |
+| 1 | Val d'Isère | 7.9 | 9 | 11 | 307 | 1577 | 8.1 |
+| 2 | Tignes | 7.9 | 11 | 17 | 307 | 1345 | 8.1 |
+| 3 | Courchevel | 7.6 | 4.5 | 6 | 617 | 1742 | 12.8 |
+| 4 | Val Thorens | 7.6 | 5 | 9 | 617 | 1119 | 12.8 |
+| 5 | Les Arcs | 7.3 | 6 | 10 | 58 | 1466 | 7.2 |
+| 6 | Chamonix Mont-Blanc | 7.1 | 10 | 12 | 620 | 2603 | 4.2 |
+| 7 | L'Alpe d'Huez | 7.0 | 8 | 9 | 61 | 1627 | 5.4 |
+| 8 | La Plagne | 6.6 | 3 | 9 | 58 | 1315 | 7.2 |
+| 9 | Méribel | 6.4 | 1.5 | 1 | 617 | 1894 | 12.8 |
+| 10 | Les Menuires | 6.2 | 1.5 | 1 | 617 | 1541 | 12.8 |
 
 ## Snowboarders on a budget
 

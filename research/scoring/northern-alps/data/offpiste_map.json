@@ -1,0 +1,793 @@
+[
+{
+"slug": "abondance",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "aillons-margeriaz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1.2,
+"freeride_routes": 2
+},
+{
+"slug": "alpe-du-grand-serre",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1.6,
+"freeride_routes": 1
+},
+{
+"slug": "areches-beaufort",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 5.1,
+"freeride_routes": 7
+},
+{
+"slug": "argentiere",
+"glacier_ha": 292,
+"glacier_tops": 1,
+"freeride_km": 8,
+"freeride_routes": 8
+},
+{
+"slug": "auris-en-oisans",
+"glacier_ha": 61,
+"glacier_tops": 1,
+"freeride_km": 16.8,
+"freeride_routes": 11
+},
+{
+"slug": "aussois",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "autrans-meaudre-en-vercors",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "avoriaz-1800",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 14.8,
+"freeride_routes": 22
+},
+{
+"slug": "bellevaux-hirmentaz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.1,
+"freeride_routes": 1
+},
+{
+"slug": "bernex",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.1,
+"freeride_routes": 1
+},
+{
+"slug": "bessans",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "bonneval-sur-arc",
+"glacier_ha": 151,
+"glacier_tops": 0,
+"freeride_km": 0.1,
+"freeride_routes": 1
+},
+{
+"slug": "chamonix-mont-blanc",
+"glacier_ha": 620,
+"glacier_tops": 1,
+"freeride_km": 25.4,
+"freeride_routes": 7
+},
+{
+"slug": "champagny-en-vanoise",
+"glacier_ha": 58,
+"glacier_tops": 1,
+"freeride_km": 47.4,
+"freeride_routes": 57
+},
+{
+"slug": "chamrousse",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1.5,
+"freeride_routes": 5
+},
+{
+"slug": "chatel",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 14.8,
+"freeride_routes": 22
+},
+{
+"slug": "combloux",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 6.5,
+"freeride_routes": 10
+},
+{
+"slug": "cordon",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "courchevel",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "crest-voland",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "flaine",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 15.7,
+"freeride_routes": 14
+},
+{
+"slug": "flumet",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "font-d-urle",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "gresse-en-vercors",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1.4,
+"freeride_routes": 1
+},
+{
+"slug": "habere-poche",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.1,
+"freeride_routes": 1
+},
+{
+"slug": "hauteluce",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "l-alpe-d-huez",
+"glacier_ha": 61,
+"glacier_tops": 1,
+"freeride_km": 16.8,
+"freeride_routes": 11
+},
+{
+"slug": "la-chapelle-d-abondance",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.1,
+"freeride_routes": 2
+},
+{
+"slug": "la-clusaz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "la-feclaz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "la-giettaz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 6.3,
+"freeride_routes": 9
+},
+{
+"slug": "la-norma",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 3.6,
+"freeride_routes": 8
+},
+{
+"slug": "la-plagne",
+"glacier_ha": 58,
+"glacier_tops": 1,
+"freeride_km": 47.4,
+"freeride_routes": 57
+},
+{
+"slug": "la-rosiere",
+"glacier_ha": 3,
+"glacier_tops": 0,
+"freeride_km": 5.3,
+"freeride_routes": 6
+},
+{
+"slug": "la-station-du-granier",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "la-toussuire",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "lans-en-vercors",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.2,
+"freeride_routes": 2
+},
+{
+"slug": "le-col-d-ornon",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-col-de-marcieu",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-col-de-porte",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-col-de-rousset",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.8,
+"freeride_routes": 3
+},
+{
+"slug": "le-col-du-barioz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-collet-d-allevard",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-corbier",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "le-desert-d-entremont",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-grand-bornand",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 3.6,
+"freeride_routes": 4
+},
+{
+"slug": "le-reposoir",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.6,
+"freeride_routes": 3
+},
+{
+"slug": "le-revard",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-saleve",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-sappey-en-chartreuse",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "le-semnoz",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "les-2-alpes",
+"glacier_ha": 718,
+"glacier_tops": 10,
+"freeride_km": 14.7,
+"freeride_routes": 20
+},
+{
+"slug": "les-7-laux",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 6.7,
+"freeride_routes": 10
+},
+{
+"slug": "les-albiez",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "les-arcs",
+"glacier_ha": 58,
+"glacier_tops": 1,
+"freeride_km": 47.4,
+"freeride_routes": 57
+},
+{
+"slug": "les-bottieres",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "les-brasses",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 5.1,
+"freeride_routes": 7
+},
+{
+"slug": "les-carroz-d-araches",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 15.7,
+"freeride_routes": 14
+},
+{
+"slug": "les-contamines-montjoie",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1.7,
+"freeride_routes": 3
+},
+{
+"slug": "les-coulmes-col-de-romeyere",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "les-gets",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 18,
+"freeride_routes": 11
+},
+{
+"slug": "les-houches",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "les-karellis",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2,
+"freeride_routes": 4
+},
+{
+"slug": "les-menuires",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "les-saisies",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "les-signaraux",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "lullin",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "lus-la-jarjatte",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "manigod",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "megeve",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 17.7,
+"freeride_routes": 24
+},
+{
+"slug": "meribel",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "mont-saxonnex",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.2,
+"freeride_routes": 1
+},
+{
+"slug": "montchavin-les-coches",
+"glacier_ha": 58,
+"glacier_tops": 1,
+"freeride_km": 47.4,
+"freeride_routes": 57
+},
+{
+"slug": "montmin",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "montriond",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 22.3,
+"freeride_routes": 27
+},
+{
+"slug": "morillon",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 15.7,
+"freeride_routes": 14
+},
+{
+"slug": "morzine",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 22.3,
+"freeride_routes": 27
+},
+{
+"slug": "notre-dame-de-bellecombe",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "orelle",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "oz-en-oisans",
+"glacier_ha": 61,
+"glacier_tops": 1,
+"freeride_km": 16.8,
+"freeride_routes": 11
+},
+{
+"slug": "passy-plaine-joux",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.3,
+"freeride_routes": 4
+},
+{
+"slug": "peisey-vallandry",
+"glacier_ha": 58,
+"glacier_tops": 1,
+"freeride_km": 47.4,
+"freeride_routes": 57
+},
+{
+"slug": "pralognan-la-vanoise",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "praz-de-lys-sommand",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.7,
+"freeride_routes": 1
+},
+{
+"slug": "praz-sur-arly",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 9.5,
+"freeride_routes": 15
+},
+{
+"slug": "romme",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 1,
+"freeride_routes": 3
+},
+{
+"slug": "saint-colomban-des-villards",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "saint-francois-longchamp",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 8.2,
+"freeride_routes": 8
+},
+{
+"slug": "saint-gervais",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 11.1,
+"freeride_routes": 14
+},
+{
+"slug": "saint-hilaire-du-touvet",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "saint-jean-d-arves",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "saint-jean-d-aulps",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "saint-martin-de-belleville",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "saint-pierre-de-chartreuse",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0,
+"freeride_routes": 0
+},
+{
+"slug": "saint-sorlin-d-arves",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 10.2,
+"freeride_routes": 8
+},
+{
+"slug": "sainte-foy-tarentaise",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 6,
+"freeride_routes": 6
+},
+{
+"slug": "samoens",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 15.7,
+"freeride_routes": 14
+},
+{
+"slug": "sixt-fer-a-cheval",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.6,
+"freeride_routes": 1
+},
+{
+"slug": "termignon",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.5,
+"freeride_routes": 3
+},
+{
+"slug": "thollon-les-memises",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.4,
+"freeride_routes": 1
+},
+{
+"slug": "tignes",
+"glacier_ha": 307,
+"glacier_tops": 6,
+"freeride_km": 43,
+"freeride_routes": 36
+},
+{
+"slug": "val-cenis",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.5,
+"freeride_routes": 3
+},
+{
+"slug": "val-d-isere",
+"glacier_ha": 307,
+"glacier_tops": 6,
+"freeride_km": 43,
+"freeride_routes": 36
+},
+{
+"slug": "val-thorens",
+"glacier_ha": 617,
+"glacier_tops": 2,
+"freeride_km": 32.5,
+"freeride_routes": 32
+},
+{
+"slug": "valfrejus",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.8,
+"freeride_routes": 3
+},
+{
+"slug": "valloire",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.6,
+"freeride_routes": 2
+},
+{
+"slug": "vallorcine",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 0.3,
+"freeride_routes": 1
+},
+{
+"slug": "valmeinier",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 2.6,
+"freeride_routes": 2
+},
+{
+"slug": "valmorel",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 8.2,
+"freeride_routes": 8
+},
+{
+"slug": "vaujany",
+"glacier_ha": 61,
+"glacier_tops": 1,
+"freeride_km": 16.8,
+"freeride_routes": 11
+},
+{
+"slug": "villard-de-lans",
+"glacier_ha": 0,
+"glacier_tops": 0,
+"freeride_km": 6.3,
+"freeride_routes": 11
+},
+{
+"slug": "villard-reculas",
+"glacier_ha": 61,
+"glacier_tops": 1,
+"freeride_km": 16.8,
+"freeride_routes": 11
+}
+]
