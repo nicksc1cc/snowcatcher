@@ -22,7 +22,7 @@
 //  - resilience: for each main lift within two rides of the starts, the share of reachable advanced km
 //    lost when it closes; the measure is the largest share (lower is better)
 //  - venues: bars and pubs, nightclubs, restaurants. Village = within 1,500 m of the resort point; mountain =
-//    beyond that and within 150 m of a reachable piste or lift. Late bars = nightclubs plus bars whose
+//    beyond that, within 8 km (opts.mountainKm) and within 150 m of a reachable piste or lift. Late bars = nightclubs plus bars whose
 //    opening_hours run past 01:00
 //  - ski in, ski out: accommodation within 1,500 m of the resort point; share within 100 m of a reachable
 //    piste vertex or lift bottom, and the median distance to the nearest start lift bottom
@@ -188,7 +188,7 @@
       const nearZone = (q, m) => { const [a, b] = zk(q).split(":").map(Number); for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) for (const r of zgrid.get(a + i + ":" + (b + j)) || []) if (dist(q, r) <= m) return true; return false; };
       const c = { bar_village: 0, bar_mountain: 0, late: 0, restaurant_village: 0, restaurant_mountain: 0 };
       for (const v of venues) {
-        const dv = dist(v.p, pt), zone = dv <= 1500 ? "village" : (dv <= 25000 && nearZone(v.p, 150) ? "mountain" : null); if (!zone) continue;
+        const dv = dist(v.p, pt), zone = dv <= 1500 ? "village" : (dv <= (opts.mountainKm || 8) * 1000 && nearZone(v.p, 150) ? "mountain" : null); if (!zone) continue;
         if (v.kind === "restaurant") c["restaurant_" + zone]++; else { if (v.kind !== "nightclub") c["bar_" + zone]++; if (zone === "village" && (v.kind === "nightclub" || v.late)) c.late++; }
       }
       Object.assign(rec, c);

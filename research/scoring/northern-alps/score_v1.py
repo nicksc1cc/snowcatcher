@@ -72,7 +72,7 @@ def at_height(bands, h):
 
 def main():
     resorts = list(csv.DictReader(open(P("resorts.csv"))))
-    snow = json.load(open(P("data", "snow_cells.json")))
+    snow = json.load(open(P("data", "snow_cells.json"))) if os.path.exists(P("data", "snow_cells.json")) else {}
     cells = {row["slug"]: row["cell"] for row in csv.DictReader(open(P("data", "snow_cell_of_resort.csv")))}
     meas = {}
     for row in csv.DictReader(open(P("data", "measures_raw.csv"))):
