@@ -33,20 +33,20 @@ Size and number of snow parks, with enough riding around them. 113 resorts quali
 
 ## Foodies
 
-Restaurants in the village and on the mountain, food shops and a village worth eating in. 76 resorts qualified.
+Michelin 2026 stars and Bib Gourmand, Gault&Millau toques, then restaurant and food shop counts. 76 resorts qualified.
 
-| Rank | Resort | Score | Restaurants | Mountain restaurants | Food shops |
-|---|---|---|---|---|---|
-| 1 | Val Thorens | 10.0 | 91 | 47 | n/a |
-| 2 | Les Gets | 9.9 | 81 | 39 | n/a |
-| 3 | Montriond | 9.9 | 130 | 92 | n/a |
-| 4 | Morzine | 9.8 | 138 | 101 | n/a |
-| 5 | La Plagne | 9.7 | 85 | 50 | n/a |
-| 6 | Courchevel | 9.5 | 90 | 58 | n/a |
-| 7 | Avoriaz 1800 | 9.3 | 78 | 48 | n/a |
-| 8 | Les Menuires | 9.2 | 124 | 95 | n/a |
-| 9 | Les Arcs | 9.1 | 100 | 73 | n/a |
-| 10 | Tignes | 8.7 | 64 | 42 | n/a |
+| Rank | Resort | Score | Michelin stars | Bib Gourmand | Toques | Gault&Millau listed | Restaurants |
+|---|---|---|---|---|---|---|---|
+| 1 | Courchevel | 9.4 | 11 | 0 | 30 | 13 | 90 |
+| 2 | Megève | 7.0 | 4 | 1 | 15 | 10 | 61 |
+| 3 | Saint-Martin de Belleville | 5.1 | 2 | 1 | 5 | 3 | 86 |
+| 4 | Chamonix Mont-Blanc | 5.0 | 1 | 1 | 10 | 7 | 71 |
+| 5 | Val Thorens | 4.9 | 1 | 0 | 4 | 2 | 91 |
+| 6 | Tignes | 4.8 | 1 | 0 | 6 | 4 | 64 |
+| 7 | Val d'Isère | 4.7 | 1 | 0 | 5.5 | 3 | 77 |
+| 8 | Saint-Gervais | 4.6 | 1 | 0 | 6.5 | 4 | 47 |
+| 9 | Méribel | 4.5 | 1 | 0 | 4 | 2 | 113 |
+| 10 | Hauteluce | 3.6 | 1 | 0 | 2 | 1 | 40 |
 
 ## Non skiers
 
@@ -95,16 +95,16 @@ Terrain for every level at once, plenty of places to stay and eat, and easy to r
 
 | Rank | Resort | Score | Beginner km | Advanced km | Places to stay mapped | Restaurants |
 |---|---|---|---|---|---|---|
-| 1 | Val Thorens | 9.2 | 310.1 | 191.4 | 107 | 91 |
-| 2 | Avoriaz 1800 | 8.8 | 95 | 92 | 42 | 78 |
-| 3 | Morzine | 8.6 | 145.8 | 124.6 | 133 | 138 |
-| 4 | La Plagne | 8.4 | 218 | 121 | 51 | 85 |
-| 5 | Méribel | 8.4 | 310.1 | 191.4 | 21 | 113 |
-| 6 | Courchevel | 8.4 | 310.1 | 191.4 | 21 | 90 |
-| 7 | Val d'Isère | 8.2 | 92.6 | 97.8 | 35 | 77 |
-| 8 | Montriond | 8.2 | 145.8 | 124.6 | 104 | 130 |
-| 9 | Les Arcs | 8.1 | 218 | 121 | 36 | 100 |
-| 10 | Tignes | 8.1 | 92.1 | 97.8 | 18 | 64 |
+| 1 | Val Thorens | 8.4 | 310.1 | 191.4 | 107 | 91 |
+| 2 | Courchevel | 8.4 | 310.1 | 191.4 | 21 | 90 |
+| 3 | Avoriaz 1800 | 7.9 | 95 | 92 | 42 | 78 |
+| 4 | Méribel | 7.8 | 310.1 | 191.4 | 21 | 113 |
+| 5 | Val d'Isère | 7.7 | 92.6 | 97.8 | 35 | 77 |
+| 6 | Morzine | 7.7 | 145.8 | 124.6 | 133 | 138 |
+| 7 | Megève | 7.5 | 67 | 129.5 | 17 | 61 |
+| 8 | Tignes | 7.5 | 92.1 | 97.8 | 18 | 64 |
+| 9 | La Plagne | 7.4 | 218 | 121 | 51 | 85 |
+| 10 | L'Alpe d'Huez | 7.3 | 63.3 | 74.7 | 33 | 45 |
 
 ## Adventurers
 

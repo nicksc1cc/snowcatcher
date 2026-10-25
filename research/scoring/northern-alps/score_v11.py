@@ -87,6 +87,28 @@ def load_apres():
 
 APRES = load_apres()
 
+def load_food():
+    """Michelin 2026 points (3 stars 10, 2 stars 6, 1 star 3, Bib Gourmand 1) and Gault&Millau toques by resort."""
+    out = {}
+    pts = {"3": 10, "2": 6, "1": 3, "bib": 1}
+    if os.path.exists(P("data", "michelin_2026.csv")):
+        for r in csv.DictReader(open(P("data", "michelin_2026.csv"))):
+            o = out.setdefault(r["slug"], {"michelin": 0, "stars": 0, "bib": 0, "gm": 0.0, "toqued": 0})
+            o["michelin"] += pts[r["distinction"]]
+            if r["distinction"] == "bib":
+                o["bib"] += 1
+            else:
+                o["stars"] += int(r["distinction"])
+    if os.path.exists(P("data", "gaultmillau.csv")):
+        for r in csv.DictReader(open(P("data", "gaultmillau.csv"))):
+            o = out.setdefault(r["slug"], {"michelin": 0, "stars": 0, "bib": 0, "gm": 0.0, "toqued": 0})
+            o["gm"] += float(r["toques"]) if r["guide_year"] == "2026" else 0.5
+            o["toqued"] += 1
+    return out
+
+
+FOOD = load_food()
+
 
 def score_resort(r, m, x, a, pr):
     raw, sc = {}, {}
@@ -142,7 +164,14 @@ def score_resort(r, m, x, a, pr):
     raw["restaurants_mountain"] = num(m.get("restaurant_mountain"))
     flat_i = num(x.get("flat_pct_intermediate")) if x else None
     sc["board"] = mean([(lin(raw["drag_pct"], 70, 0), 2), (lin(flat_i, 25, 3), 2), (lin(km["intermediate"], 0, 80), 1)]) if flat_i is not None else None
-    sc["food"] = mean([(sq(num(m.get("restaurant_village")), 0, 40), 2), (sq(raw["restaurants_mountain"], 0, 40), 2)])
+    fd = FOOD.get(r["slug"], {"michelin": 0, "stars": 0, "bib": 0, "gm": 0, "toqued": 0})
+    raw.update({"michelin_stars": fd["stars"], "bib_gourmand": fd["bib"], "gm_toqued": fd["toqued"], "gm_toques": fd["gm"]})
+    food_shops = None
+    if x:
+        poi = x.get("poi", {})
+        food_shops = sum(poi.get(k, 0) for k in ("shop_bakery", "shop_butcher", "shop_cheese", "shop_deli", "shop_chocolate", "shop_greengrocer"))
+    sc["food"] = mean([(sq(fd["michelin"], 0, 30), 3), (sq(fd["gm"], 0, 40), 3), (sq(num(m.get("restaurant_village")), 0, 40), 1),
+                       (sq(raw["restaurants_mountain"], 0, 40), 1), (sq(food_shops, 0, 8), 1)])
     sc["mixed_ability"] = mean([(lin(km["beginner"], 0, 30), 1), (lin(km["intermediate"], 0, 80), 1), (lin(km["advanced"], 0, 60), 1)])
     sc["beds"] = sq(raw["beds_mapped"], 0, 60)
     raw["steep_km"] = num(x.get("steep_km")) if x else None
@@ -177,7 +206,7 @@ def score_resort(r, m, x, a, pr):
 LABEL = {"km_beginner": "Beginner km", "km_intermediate": "Intermediate km", "km_advanced": "Advanced km", "km_all": "Mapped km",
          "day_pass_eur": "Day pass €", "six_day_pass_eur": "6 day pass €", "airport_min": "Minutes from Geneva or Lyon",
          "gva_min": "Minutes from Geneva", "ski_schools": "Ski schools", "spas": "Spas", "pools": "Pools", "walk_km": "Winter walks km",
-         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "apres_sources": "Guides naming it", "apres_reputation": "Reputation points", "named_venues": "Named venues", "clubs": "Nightclubs", "slope_apres": "Slope après", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
+         "food_shops": "Food shops", "childcare": "Childcare", "sled_km": "Sledge km", "drag_pct": "Drag %", "parks": "Parks", "park_area_ha": "Park area ha", "restaurants_mountain": "Mountain restaurants", "nordic_km": "Cross country km", "culture": "Culture", "late_bars": "Late bars", "apres_sources": "Guides naming it", "apres_reputation": "Reputation points", "named_venues": "Named venues", "clubs": "Nightclubs", "slope_apres": "Slope après", "michelin_stars": "Michelin stars", "bib_gourmand": "Bib Gourmand", "gm_toqued": "Gault&Millau listed", "gm_toques": "Toques", "beds_mapped": "Places to stay mapped", "vertical_m": "Vertical m", "steep_km": "Steep km", "top_m": "Top m", "bars": "Bars", "restaurants": "Restaurants", "flat_pct_intermediate": "Flat %"}
 
 
 def fmt(v):
