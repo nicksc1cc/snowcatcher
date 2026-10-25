@@ -66,8 +66,8 @@
     const lifts = [], pistes = [], venues = [], beds = [];
     for (const wy of ways.values()) {
       const g = wy.geometry.map((p) => [p.lat, p.lon]), t = wy.tags || {};
-      if (t.railway === "funicular") { lifts.push({ id: wy.id, name: t.name || `funicular ${wy.id}`, type: "funicular", g, bubble: true }); continue; }
-      if (t.aerialway && !SKIP.has(t.aerialway)) { lifts.push({ id: wy.id, name: t.name || `${t.aerialway} ${wy.id}`, type: t.aerialway, g, bubble: t["aerialway:bubble"] === "yes" }); continue; }
+      if (t.railway === "funicular") { lifts.push({ id: wy.id, name: t.name || `funicular ${wy.id}`, type: "funicular", g, bubble: true, cap: +t["aerialway:capacity"] || null }); continue; }
+      if (t.aerialway && !SKIP.has(t.aerialway)) { lifts.push({ id: wy.id, name: t.name || `${t.aerialway} ${wy.id}`, type: t.aerialway, g, bubble: t["aerialway:bubble"] === "yes", cap: +t["aerialway:capacity"] || null }); continue; }
       if (t["piste:type"] === "downhill" && wy.nodes && g.length > 1 && !(t.area === "yes")) {
         if (t["piste:grooming"] === "backcountry" || t.disused === "yes") continue;
         let km = 0; for (let k = 1; k < g.length; k++) km += dist(g[k - 1], g[k]) / 1000;
@@ -195,6 +195,111 @@
       const startBots = st.map((i) => lifts[i].bot), bd = [], near100 = [];
       for (const b of beds) { if (dist(b.p, pt) > 1500) continue; bd.push(Math.min(...startBots.map((q) => dist(b.p, q)))); near100.push(nearZone(b.p, 100)); }
       rec.beds_mapped = bd.length; rec.bed_to_lift_m = bd.length ? Math.round(median(bd)) : null; rec.ski_in_out_pct = bd.length ? Math.round(100 * near100.filter(Boolean).length / bd.length) : null;
+      out.push(rec);
+    }
+    return out;
+  };
+
+  // ---- extra features for families, activities, non skiers, width and gradient (method v1.1) ----
+  // S.extra(bbox, tiles): winter trails, piste outlines, leisure, culture, shops, schools and hire
+  S.extra = async (bbox, tiles = 6) => {
+    const [s, w, n, e] = bbox, dl = (n - s) / tiles, dw = (e - w) / tiles;
+    S.xtiles = S.xtiles || {};
+    const trails = [], areas = [], pois = [];
+    for (let i = 0; i < tiles; i++) for (let j = 0; j < tiles; j++) {
+      const b = [s + i * dl, w + j * dw, s + (i + 1) * dl, w + (j + 1) * dw].map((x) => x.toFixed(4)).join(",");
+      const q = `[out:json][timeout:180];(way["piste:type"~"^(sled|nordic|hike|snowshoe|skitour|playground)$"](${b});way["piste:type"="downhill"]["area"="yes"](${b});relation["piste:type"="downhill"]["type"="multipolygon"](${b}););out body geom;
+        (nwr["leisure"~"^(ice_rink|swimming_pool|spa|sports_centre|fitness_centre|playground|water_park|sauna)$"](${b});nwr["amenity"~"^(cinema|theatre|spa|casino|ski_school|ski_rental|kindergarten|childcare|library)$"](${b});nwr["tourism"~"^(museum|attraction|gallery|zoo)$"](${b});nwr["shop"~"^(ski|sports|bakery|butcher|supermarket|convenience|cheese|deli|chocolate|greengrocer)$"](${b}););out tags center;`;
+      const j2 = S.xtiles[b] || (S.xtiles[b] = await overpass(q));
+      for (const x of j2.elements) {
+        const t = x.tags || {};
+        if (x.type === "way" && x.geometry && t["piste:type"] && t["piste:type"] !== "downhill") {
+          const g = x.geometry.map((p) => [p.lat, p.lon]); let km = 0; for (let k = 1; k < g.length; k++) km += dist(g[k - 1], g[k]) / 1000;
+          trails.push({ kind: t["piste:type"], g, km });
+        } else if ((x.type === "way" || x.type === "relation") && t["piste:type"] === "downhill") {
+          const rings = x.type === "way" ? [x.geometry || []] : (x.members || []).filter((m) => m.role === "outer" && m.geometry).map((m) => m.geometry);
+          let a = 0, c = [0, 0], nn = 0;
+          for (const r of rings) { const pts = r.map((p) => [p.lat, p.lon]); if (pts.length < 3) continue; const lat0 = pts[0][0] * rad, kx = R * rad * Math.cos(lat0), ky = R * rad; let s2 = 0; for (let k = 0; k < pts.length; k++) { const [y1, x1] = pts[k], [y2, x2] = pts[(k + 1) % pts.length]; s2 += (x1 * kx) * (y2 * ky) - (x2 * kx) * (y1 * ky); c[0] += y1; c[1] += x1; nn++; } a += Math.abs(s2) / 2; }
+          if (a > 0 && nn) areas.push({ m2: a, c: [c[0] / nn, c[1] / nn], diff: t["piste:difficulty"] || "" });
+        } else {
+          const p = x.type === "node" ? [x.lat, x.lon] : x.center ? [x.center.lat, x.center.lon] : null; if (!p) continue;
+          const kind = t.leisure || t.amenity || t.tourism || (t.shop ? "shop_" + t.shop : "");
+          if (kind === "swimming_pool" && (t.access === "private" || t.access === "customers")) continue;
+          pois.push({ kind, p });
+        }
+      }
+      S.log.push(`extra ${i},${j}: ${j2.elements.length}`); await sleep(4000);
+    }
+    S.xraw = { trails, areas, pois };
+    return { trails: trails.length, areas: areas.length, pois: pois.length };
+  };
+
+  // S.dem(stepM): heights along every piste way, about every stepM metres (Copernicus 90 m via Open-Meteo)
+  S.dem = async (stepM = 100) => {
+    S.pelev = S.pelev || {};
+    const want = [];
+    S.raw.pistes.forEach((p) => {
+      const keep = [p.g[0]]; let acc = 0;
+      for (let k = 1; k < p.g.length; k++) { acc += dist(p.g[k - 1], p.g[k]); if (acc >= stepM || k === p.g.length - 1) { keep.push(p.g[k]); acc = 0; } }
+      p.samp = keep; keep.forEach((q) => { const key = q[0].toFixed(5) + "," + q[1].toFixed(5); if (!(key in S.pelev) && !(key in S.elev)) want.push(key); });
+    });
+    const uniq = [...new Set(want)];
+    for (let i = 0; i < uniq.length; i += 100) {
+      const chunk = uniq.slice(i, i + 100);
+      const u = `https://api.open-meteo.com/v1/elevation?latitude=${chunk.map((k) => k.split(",")[0]).join(",")}&longitude=${chunk.map((k) => k.split(",")[1]).join(",")}`;
+      let ej = null; for (let t = 0; t < 8 && !ej; t++) { const r = await fetch(u); if (r.ok) ej = await r.json(); else await sleep(65000); }
+      if (!ej) throw new Error("elevation failed at " + i);
+      chunk.forEach((k, j) => (S.pelev[k] = ej.elevation[j])); S.demDone = i + chunk.length; await sleep(400);
+    }
+    // per piste: km under 3% gradient, km over 30% (about 17 degrees), mean gradient
+    S.raw.pistes.forEach((p) => {
+      let flat = 0, steep = 0, len = 0, drop = 0;
+      for (let k = 1; k < p.samp.length; k++) {
+        const a = p.samp[k - 1], b = p.samp[k], ka = a[0].toFixed(5) + "," + a[1].toFixed(5), kb = b[0].toFixed(5) + "," + b[1].toFixed(5);
+        const ea = S.pelev[ka] ?? S.elev[a.join()], eb = S.pelev[kb] ?? S.elev[b.join()]; const dd = dist(a, b); if (ea == null || eb == null || dd < 20) continue;
+        const gr = Math.abs(ea - eb) / dd; len += dd; drop += Math.abs(ea - eb); if (gr < 0.03) flat += dd; if (gr > 0.30) steep += dd;
+      }
+      p.flatKm = flat / 1000; p.steepKm = steep / 1000; p.grad = len ? drop / len : null;
+    });
+    return { points: uniq.length };
+  };
+
+  const CAPDEF = { drag_lift: 800, "t-bar": 1000, "j-bar": 700, platter: 800, chair_lift: 1800, gondola: 2000, cable_car: 800, mixed_lift: 2500, funicular: 1500 };
+  // S.measure2(resorts): capacity, flat and steep km, width, winter trails and facilities around each base
+  S.measure2 = (resorts, opts = {}) => {
+    const G = S.G, { lifts, pistes } = S.raw, X = S.xraw || { trails: [], areas: [], pois: [] }, out = [];
+    const near = opts.nearKm || 6;
+    for (const [slug, lat, lon] of resorts) {
+      const pt = [lat, lon];
+      let st = lifts.map((l, i) => i).filter((i) => MAIN.has(lifts[i].type) && dist(lifts[i].bot, pt) <= 1500);
+      if (!st.length) { const cand = lifts.map((l, i) => [dist(l.bot, pt), i]).filter(([dd, i]) => MAIN.has(lifts[i].type) && dd <= 5000).sort((a, b) => a[0] - b[0]); if (cand.length) st = [cand[0][1]]; }
+      const rec = { slug };
+      if (st.length) {
+        const starts = st.map((i) => G.L[i][0]);
+        const dAdv = bfs(G, starts, null);
+        const reach = lifts.map((l, i) => i).filter((i) => MAIN.has(lifts[i].type) && isFinite(dAdv[G.L[i][0]]));
+        const tagged = reach.filter((i) => lifts[i].cap);
+        rec.cap_tagged_pct = reach.length ? Math.round(100 * tagged.length / reach.length) : null;
+        rec.cap_est_ph = Math.round(reach.reduce((a, i) => a + (lifts[i].cap || CAPDEF[lifts[i].type] || 1000), 0));
+        for (const [lv, cfg] of Object.entries(LEVEL)) {
+          const d = lv === "advanced" ? dAdv : bfs(G, starts, cfg.use); let fl = 0, stp = 0, km = 0, gsum = 0;
+          pistes.forEach((p, pi) => { if (!isFinite(d[G.P[pi][0]]) || !(lv === "advanced" ? true : cfg.use.has(p.diff))) return; fl += p.flatKm || 0; stp += p.steepKm || 0; km += p.km; if (p.grad != null) gsum += p.grad * p.km; });
+          rec["flat_km_" + lv] = Math.round(fl * 10) / 10; rec["flat_pct_" + lv] = km ? Math.round(100 * fl / km) : null;
+          if (lv === "beginner") rec.grad_beginner_pct = km ? Math.round(100 * gsum / km) : null;
+          if (lv === "advanced") rec.steep_km = Math.round(stp * 10) / 10;
+        }
+        // piste outlines near reachable pistes: mapped area and average width where outlined
+        const reachMid = []; pistes.forEach((p, pi) => { if (isFinite(dAdv[G.P[pi][0]])) reachMid.push(p.g[Math.floor(p.g.length / 2)]); });
+        const zc = 0.005, zg = new Map(), zk = (q) => Math.floor(q[0] / zc) + ":" + Math.floor(q[1] / zc); reachMid.forEach((q) => { const k = zk(q); if (!zg.has(k)) zg.set(k, []); zg.get(k).push(q); });
+        const nz = (q, m) => { const [a, b] = zk(q).split(":").map(Number); for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) for (const r of zg.get(a + i + ":" + (b + j)) || []) if (dist(q, r) <= m) return true; return false; };
+        let am = 0, ae = 0; for (const a of X.areas) if (nz(a.c, 400)) { am += a.m2; if (a.diff === "novice" || a.diff === "easy") ae += a.m2; }
+        rec.piste_area_ha = Math.round(am / 1e4); rec.piste_area_easy_ha = Math.round(ae / 1e4);
+      }
+      // within near km of the base
+      const tk = {}; for (const t of X.trails) { if (dist(t.g[Math.floor(t.g.length / 2)], pt) <= near * 1000) tk[t.kind] = (tk[t.kind] || 0) + t.km; }
+      for (const k of ["sled", "nordic", "hike", "snowshoe", "skitour", "playground"]) rec["trail_km_" + k] = Math.round((tk[k] || 0) * 10) / 10;
+      const pc = {}; for (const p of X.pois) { const dd = dist(p.p, pt); const lim = p.kind.startsWith("shop_") || ["ski_school", "ski_rental", "kindergarten", "childcare", "playground", "library"].includes(p.kind) ? 1500 : near * 1000; if (dd <= lim) pc[p.kind] = (pc[p.kind] || 0) + 1; }
+      rec.poi = pc;
       out.push(rec);
     }
     return out;
