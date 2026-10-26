@@ -1,0 +1,376 @@
+"""Write page/draft.json for the Grand Massif. Usage: python3 scripts/make_draft.py (from research/grand-massif)"""
+import json
+
+A = "area:grand-massif"
+S = lambda s: {"$p": "sector:grand-massif." + s}
+F = lambda n: {"$f": n}
+FR = {"$p": "country:fr"}
+
+
+def a(url, text):
+    return f'<a href="{url}">{text}</a>'
+
+
+AM = a("https://www.alti-mag.com/domaines-skiables/le-grand-massif", "Alti-Mag")
+AMV = a("https://www.alti-mag.com/domaines-skiables/villages-grand-massif", "Alti-Mag for the Villages")
+FLP = a("https://www.flaine.com/en/winter/skiing-snowsports/ski-passes/ski-passes.htm", "the Flaine tourist office")
+FLF = a("https://www.flaine.com/en/freeride-fun-zones/page/2/", "the Flaine tourist office")
+SAM = a("https://www.samoens.com/en/samoens-grand-massif-area/", "the Samoëns tourist office")
+GSF = a("https://guide-ski.fr/?p=7797", "Guide Ski for Flaine")
+GSS = a("https://guide-ski.fr/?p=10423", "Guide Ski for Sixt")
+SR = a("https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/", "skiresort.com")
+SRP = a("https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/test-result/snow-park/", "skiresort.com")
+SIF = a("https://www.skiinfo.fr/alpes-du-nord/flaine/forfaits-de-ski.html", "Skiinfo for Flaine")
+SIS = a("https://www.skiinfo.fr/alpes-du-nord/samoens/forfaits-de-ski.html", "for Samoëns")
+SIC = a("https://www.skiinfo.fr/alpes-du-nord/les-carroz/forfaits-de-ski.html", "for Les Carroz")
+SIX = a("https://www.skiinfo.fr/alpes-du-nord/sixt-fer-a-cheval/forfaits-de-ski.html", "for Sixt")
+SIN = a("https://www.skiinfo.fr/news/le-grand-massif-flaine-vs-les-carroz", "Skiinfo")
+MS = a("https://www.mon-sejour-en-montagne.com/experience/skier-14-km-dans-une-reserve-naturelle-l-experience-unique-de-la-piste-des-cascades/", "Mon séjour en montagne")
+AAS = a("https://alpineanswers.co.uk/ski-resorts/france/resort-guide-flaine-samoens", "Alpine Answers for Samoëns")
+AAC = a("https://alpineanswers.co.uk/ski-resorts/france/resort-guide-flaine-les-carroz", "for Les Carroz")
+ERN = a("https://www.ernalow.co.uk/en-gb/france/morillon", "Ernalow for Morillon")
+IGL = a("https://www.igluski.com/blog/post/flaine-best-apres-nightlife", "Iglu Ski")
+SKI = a("https://ski-i.com/france/samoens/apres-ski", "Ski Independence")
+JEFF = a("https://explore.samoens.com/en/bars/lapres-ski-chez-jeff", "the Samoëns tourist office")
+MOL = a("https://www.haute-savoie-tourisme.org/180925-le-chalet-des-molliets", "Haute-Savoie tourism")
+MICH = a("https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurants", "the Michelin Guide")
+GM = a("https://www.alti-mag.com/alti-miam/quelles-sont-les-meilleures-tables-des-alpes-selon-le-gault-et-millau", "Gault&Millau via Alti-Mag")
+WF = a("https://en.wikipedia.org/wiki/Flaine", "Flaine")
+WG = a("https://en.wikipedia.org/wiki/Grand_Massif", "the Grand Massif")
+WS = a("https://en.wikipedia.org/wiki/Samo%C3%ABns", "Samoëns")
+WJ = a("https://en.wikipedia.org/wiki/Ja%C3%BFsinia", "the Jaÿsinia")
+ALT = a("https://www.altibus.com/en/arriving-by-train/cluses", "Altibus")
+LC = a("https://lescarroz.com/en/domaine-skiable/les-carroz-ski-area-les-carroz-daraches", "the Les Carroz tourist office")
+LOI = a("https://www.allopneus.com/guide-pratique/auto/conseils-pneu/loi-montagne-haute-savoie", "Allopneus")
+OM = a("https://open-meteo.com/en/docs/historical-weather-api", "Open-Meteo")
+
+d = {
+ "_about": "Level 3 linked domain page content. Every figure traces to the evidence register in snowcatcher research/grand-massif (data/evidence_register.csv); ev lists the record IDs behind each block. Network figures come from an OpenStreetMap model.",
+ "slug": "grand-massif",
+ "permalink": "france/grand-massif/",
+ "nav": "france",
+ "name": {"$p": A},
+ "title": "Grand Massif | Linked ski areas | Snow Catchers",
+ "description": "How Flaine, Les Carroz, Morillon, Samoëns and Sixt share one lift network, which base reaches which slopes, how much snow falls at the height of the bowl and of the villages, which pass to buy, and what the area is like for boarders, families, food and evenings.",
+ "crumbs": [{"label": "France", "href": "/projectsnow/france/"}, {"label": "Linked ski areas", "href": "/projectsnow/france/#areas"},
+            {"label": "Northern Alps", "href": "/projectsnow/france/#range-northern-alps"}],
+ "hero": {"photo": "hero", "lead": "The Grand Massif joins five resorts on one lift network above the Arve and Giffre valleys of Haute-Savoie, from the purpose built bowl of Flaine down to the old stone villages of Samoëns and Morillon near the valley floor. Alti-Mag counts {{f:op_km}} of piste between {{f:op_low|n}} and {{f:op_high}}, and the longest run, the Piste des Cascades, carries skiers {{f:casc_km}} from the top of Flaine to Sixt-Fer-à-Cheval. Flaine and Samoëns were first linked through the Combe de Vernant in {{f:y_link}}, and the five resorts have shared one network since {{f:y_formed}}."},
+ "stats": [
+  {"v": "{{f:op_km}}", "t": "of piste across five linked resorts, the figure Alti-Mag and skiresort.com share", "ev": ["G002", "G005"]},
+  {"v": "{{f:op_low|n}} to {{f:op_high}}", "t": "from the valley floor at Morillon to the top of the Grandes Platières cable car above Flaine", "ev": ["G002"]},
+  {"v": "{{f:casc_km}}", "t": "down the Piste des Cascades from the Grandes Platières to Sixt, with the skibus back to Samoëns", "ev": ["G011", "G012", "G016"]},
+  {"v": "{{f:F000533}}", "t": "for six days, adult, 2026/27, or {{f:vil_6d}} for the four villages without Flaine", "ev": ["G002", "G003"]}],
+ "network": {
+  "h2": "Five resorts round one high bowl",
+  "paras": [
+   "Flaine sits in a limestone bowl at the southern end of the area, its lifts climbing from {{f:lo.flaine}} to {{f:hi.flaine}} at the top of the Grandes Platières cable car. Les Carroz lies west of it on a sunny shelf above the Arve, Morillon and Samoëns lie north in the Giffre valley, and Sixt sits furthest east at the head of the same valley. The five meet on the high ground between Flaine and the Tête des Saix, where the lifts from Les Carroz, Morillon and Samoëns top out between {{f:hi.samoens|n}} and {{f:hi.morillon}} above the Saix plateau.",
+   "Each valley village has one main way up. Samoëns climbs from the edge of the village to Samoëns 1600 by the Grand Massif Express gondola, opened in {{f:y_gme}}, with the Vercland gondola as a second way in further up the valley. Morillon rides its gondola to Morillon 1100 and then the Sairon chair, and Les Carroz has the Kédeuze gondola. In the map data a closed Kédeuze gondola leaves Les Carroz village with no lift route to any of the other {{f:cut.kedeuze|w}} resorts, and the Morillon gondola and the Sairon chair hold the same place for Morillon, so on a windy day the bus or the car is the way round.",
+   "Sixt is the exception. Its four short drags serve the beginner slopes at Salvagny and do not link to the rest by lift. The way in on skis is the Piste des Cascades, {{f:casc_km}} from the top of Flaine through a nature reserve to the village, and the way out is the free skibus to the Grand Massif Express in Samoëns, about eight kilometres down the valley. The Cascades ends below 800 m and needs snow all the way down, and Mon séjour en montagne reports that it stayed shut through 2023/24 and opened on less than a tenth of the days the season before.",
+   "Skiing here began in the valley villages. Les Carroz opened its first lift in {{f:y_carroz_lift}} and Samoëns its first in {{f:y_samoens_lift}}. Éric and Sylvie Boissonnas found the site of Flaine in {{f:y_site}} and asked the Bauhaus architect Marcel Breuer to design a resort, which opened in {{f:y_flaine}}. The Combe de Vernant joined Flaine to Samoëns in {{f:y_link}}, and the Grand Massif took its present shape in {{f:y_formed}}. The newest big lifts are the Coulouvrier chair above Morillon, built for {{f:y_coulouvrier}}, and the ten seat Vercland gondola, ready for {{f:y_vercland}}."],
+  "figs": [
+   {"v": "{{m:all.samoens.flaine}} lift rides", "t": "from Samoëns village to Flaine, and {{m:all.flaine.samoens|w}} back"},
+   {"v": "{{m:all.carroz.flaine}} lift rides", "t": "from Les Carroz to Flaine, by the Kédeuze gondola and the Tête des Saix chair"},
+   {"v": "{{f:casc_km}}", "t": "down the Piste des Cascades to Sixt, with no lift back"},
+   {"v": "{{m:all.morillon.sixt}} lift rides", "t": "from Morillon to Sixt, the longest trip between villages"},
+   {"v": "{{f:y_link}}", "t": "the Combe de Vernant links Samoëns and Flaine"},
+   {"v": "{{f:y_gme}}", "t": "the Grand Massif Express opens above Samoëns"}],
+  "mapTitle": "Explore the network",
+  "mapHelp": "Choose a starting point to see how many lift rides it takes to reach each other resort, then limit the runs to see what stays within reach.",
+  "caption": "Schematic, not to scale, with the resorts moved apart for legibility. Drawn from OpenStreetMap lift and piste data (© OpenStreetMap contributors, October 2026) with heights from the Copernicus 90 m elevation model. Lift rides are the fewest needed from the village lifts of one resort to the first lift of another. The dotted line is the free skibus between Sixt and Samoëns; the Cascades runs one way, from Flaine to Sixt.",
+  "ev": ["G002", "G011", "G012", "G014", "G015", "G016", "G017", "G034"]},
+ "sectors": [
+  {"id": "flaine", "name": S("flaine"), "base": {"$p": "resort:flaine"}, "cc": "FR", "lat": 46.000, "lon": 6.695, "lo": F("lo.flaine"), "hi": F("hi.flaine"), "link": "yes", "place": [0, 32, "middle"]},
+  {"id": "carroz", "name": S("carroz"), "base": {"$p": "resort:les-carroz"}, "cc": "FR", "lat": 46.030, "lon": 6.645, "lo": F("lo.carroz"), "hi": F("hi.carroz"), "link": "yes", "place": [-16, 5, "end"]},
+  {"id": "morillon", "name": S("morillon"), "base": {"$p": "resort:morillon"}, "cc": "FR", "lat": 46.072, "lon": 6.672, "lo": F("lo.morillon"), "hi": F("hi.morillon"), "link": "yes", "place": [0, -20, "middle"]},
+  {"id": "samoens", "name": S("samoens"), "base": {"$p": "resort:samoens"}, "cc": "FR", "lat": 46.065, "lon": 6.715, "lo": F("lo.samoens"), "hi": F("hi.samoens"), "link": "yes", "place": [0, -20, "middle"]},
+  {"id": "sixt", "name": S("sixt"), "base": {"$p": "resort:sixt"}, "cc": "FR", "lat": 46.045, "lon": 6.770, "lo": F("lo.sixt"), "hi": F("hi.sixt"), "link": "yes", "place": [16, 5, "start"]}],
+ "links": [
+  ["carroz", "flaine", "lift", False, "Tête des Saix chair from Les Molliets; back by the Grand Vans chair and the pistes"],
+  ["carroz", "morillon", "lift", False, "Gron chair one way, Sairon chair the other"],
+  ["carroz", "samoens", "lift", False, "Over the Tête des Saix to the Saix plateau"],
+  ["morillon", "samoens", "lift", False, "Coulouvrier chair; the Vercland gondola the other way"],
+  ["samoens", "flaine", "lift", False, "Chariande Express to Flaine; back by the Grandes Platières and the Combe de Vernant"],
+  ["flaine", "sixt", "lift", False, "Piste des Cascades, one way"],
+  ["sixt", "samoens", "village", False, "Free skibus to the Grand Massif Express"]],
+ "mapNotes": [{"lat": 45.988, "lon": 6.712, "text": "Grandes Platières"}, {"lat": 46.032, "lon": 6.688, "text": "Tête des Saix"}],
+ "mapBox": {"lon0": 6.60, "lon1": 6.80, "lat0": 45.97, "lat1": 46.10},
+ "routes": {
+  "h3": "Six sample days",
+  "intro": "Each trip is counted in lift rides out and back from the village lifts, with the easiest grade of run that makes it in the map data. Time on the pistes, in queues, on foot and on the bus is not included.",
+  "rows": [
+   {"from": "Samoëns", "to": "Flaine", "out": {"$m": ["all", "samoens", "flaine"]}, "back": {"$m": ["all", "flaine", "samoens"]}, "grade": "Red home, or blue with more lifts",
+    "note": "Up the Grand Massif Express and the Chariande Express; home by the Grandes Platières and the Combe de Vernant, or on blue by the Grand Vans and Corbalanche chairs."},
+   {"from": "Les Carroz", "to": "Flaine", "out": {"$m": ["all", "carroz", "flaine"]}, "back": {"$m": ["all", "flaine", "carroz"]}, "grade": "Green and blue",
+    "note": "Kédeuze gondola and Tête des Saix chair out; home by the Grand Vans chair and down to Les Molliets."},
+   {"from": "Morillon", "to": "Samoëns", "out": {"$m": ["all", "morillon", "samoens"]}, "back": {"$m": ["all", "samoens", "morillon"]}, "grade": "Green and blue",
+    "note": "Out by the gondola, the Sairon chair and the Coulouvrier chair; home from Samoëns by the Vercland gondola and the runs down to Morillon."},
+   {"from": "Les Carroz", "to": "Morillon", "out": {"$m": ["all", "carroz", "morillon"]}, "back": {"$m": ["all", "morillon", "carroz"]}, "grade": "Green and blue",
+    "note": "Kédeuze gondola and the Gron chair out; the gondola and the Sairon chair home."},
+   {"from": "Flaine", "to": "Sixt", "out": {"$m": ["all", "flaine", "sixt"]}, "back": {"$m": ["all", "sixt", "flaine"]}, "grade": "Red",
+    "note": "Up the Grandes Platières and down the Cascades; home by the skibus to Samoëns, the Grand Massif Express and the Chariande Express."},
+   {"from": "Morillon", "to": "Sixt", "out": {"$m": ["all", "morillon", "sixt"]}, "back": {"$m": ["all", "sixt", "morillon"]}, "grade": "Red, or blue with one more lift",
+    "note": "Over the Saix plateau to Samoëns 1600 and down to the valley, then the skibus; home by the skibus and the Vercland gondola."}],
+  "after": "Green and blue reach every resort from every other in the map data. The reds that matter are the Cascades, graded red for its length, and the quick way from Flaine down the Combe de Vernant: on blue the trip from Flaine to Samoëns takes {{m:easy.flaine.samoens|w}} lift rides instead of {{m:all.flaine.samoens|w}}.",
+  "ev": ["G016", "G034"]},
+ "areas": {
+  "h2": "The five resorts compared",
+  "intro": "The five resorts start at very different heights. Morillon's gondola leaves the village at {{f:lo.morillon}} and the Grand Massif Express leaves Samoëns at {{f:lo.samoens}}, while Flaine's lifts start at {{f:lo.flaine}}, far above the top of anything at Sixt. Only Flaine climbs past {{f:hi.morillon}} in the map data: the Grandes Platières cable car and the Diamant Noir chair both reach {{f:hi.flaine}}.",
+  "caption": "The five resorts of the Grand Massif",
+  "nameLabel": "Resort",
+  "navLabel": "Resorts",
+  "rows": [
+   {"name": S("flaine"), "cc": FR, "net": "Linked; the high bowl at the centre of the area", "lo": F("lo.flaine"), "hi": F("hi.flaine"), "easy": F("easy.flaine"), "drag": F("drag.flaine"),
+    "note": "A car free Forum at the foot of the Grandes Platières cable car, with Flaine Forêt, Montsoleil and Le Hameau above it on free shuttles."},
+   {"name": S("carroz"), "cc": FR, "net": "Linked to Flaine by the Tête des Saix chair", "lo": F("lo.carroz"), "hi": F("hi.carroz"), "easy": F("easy.carroz"), "drag": F("drag.carroz"),
+    "note": "A lived in village on a sunny shelf; the Kédeuze gondola is its only lift into the area."},
+   {"name": S("morillon"), "cc": FR, "net": "Linked over the Saix plateau", "lo": F("lo.morillon"), "hi": F("hi.morillon"), "easy": F("easy.morillon"), "drag": F("drag.morillon"),
+    "note": "A gondola from the village to Morillon 1100, a car free station at Les Esserts, then the Sairon chair."},
+   {"name": S("samoens"), "cc": FR, "net": "Linked to Flaine and the Saix plateau", "lo": F("lo.samoens"), "hi": F("hi.samoens"), "easy": F("easy.samoens"), "drag": F("drag.samoens"),
+    "note": "The Grand Massif Express from the village and the Vercland gondola up the valley both reach Samoëns 1600."},
+   {"name": S("sixt"), "cc": FR, "net": "Reached on skis by the Cascades; skibus back", "lo": F("lo.sixt"), "hi": F("hi.sixt"), "easy": F("easy.sixt"), "drag": F("drag.sixt"),
+    "note": "Four drags on the Salvagny beginner slopes; the share of easy run counts the lower Cascades, which is red."}],
+  "note": "Lift heights are the lowest lift base and highest lift top in each resort, from OpenStreetMap lift positions and the Copernicus 90 m elevation model. Easy is the share of piste length graded green or blue in OpenStreetMap; drags are the share of the main lifts."},
+ "terrain": {
+  "h2": "Blue miles, a few steep corners",
+  "paras": [
+   "Alti-Mag counts {{f:runs_total}} runs: {{f:runs_green}} green, {{f:runs_blue}} blue, {{f:runs_red}} red and {{f:runs_black}} black. skiresort.com measures {{f:F000527}} of the piste as easy, {{f:F000528}} as intermediate and {{f:F000529}} as difficult, so this is a big intermediate area with its steepest skiing gathered high above Flaine.",
+   "Green and blue reach every resort from every other in the map data. The quick routes are sometimes red: from Flaine the fastest way to Samoëns runs down the Combe de Vernant, and on blue the same trip takes {{m:easy.flaine.samoens|w}} lift rides instead of {{m:all.flaine.samoens|w}}. From Flaine to Morillon the gap is {{m:easy.flaine.morillon|w}} against {{m:all.flaine.morillon|w}}.",
+   "The long runs give the place its character. Guide Ski describes the Serpentine as a blue of about seven kilometres from the top of Flaine and the Faust as a red with two sustained walls, and below the Tête des Saix the Marvel run threads spruce forest towards Morillon. The Cascades is the longest of all, regraded from blue to red for its length rather than its pitch, and drops about seventeen hundred metres to Sixt.",
+   "The steep ground is high and close to Flaine. The Combe de Gers, marked but never groomed, falls about eight hundred metres on north facing slopes below the Gers drag, with the Onyx and Jais lines down it. The Diamant Noir chair, the Lindars and the Combe de Véret above the bowl give more ungroomed black ground, and Alpine Answers points to the trees above Les Carroz on days of poor light.",
+   "Drags are a large part of the lift fleet. In the map data {{f:m_drags}} of the {{f:m_main}} main lifts are drags, against {{f:drag.morillon}} of the main lifts at Morillon, where the Coulouvrier and Sairon chairs do most of the climbing."],
+  "matrixTitle": "Lift rides between the resorts, and the grade they need",
+  "matrixNote": "Rows are where the day starts, columns where it goes. Each cell shows the fewest lift rides from the village lifts, on green and blue where that works, from the OpenStreetMap piste grades of October 2026. Sixt and Samoëns are joined by the free skibus, which counts as no lift ride.",
+  "ev": ["G002", "G005", "G010", "G011", "G016", "G018", "G022", "G034"]},
+ "snow": {
+  "h2": "A snowy bowl above low villages",
+  "paras": [
+   "The Samoëns tourist office describes most of the slopes as facing north, and Alpine Answers credits the open slopes above Samoëns with holding their snow. The weather model behind the snowfall figures covers the whole area with one grid cell, at 46.0 N 6.75 E, and adjusts it to three heights.",
+   "At the middle height the cell is generous. A typical season between 1991 and 2020 brought {{f:s1600}} of snow at 1,600 m, more than the cells of the Portes du Soleil ({{f:F000628}}), Évasion Mont Blanc ({{f:F000622}}) and La Clusaz ({{f:cl_snow}}) at the same height. At 2,100 m, close to the top of the Flaine bowl, the typical season brought {{f:s2100}}, against {{f:s2100_old}} in 1961 to 1990.",
+   "The valley villages are another matter. At 1,100 m, the height of Morillon 1100 and Les Carroz, a typical season brought {{f:s1100}} in 1991 to 2020 against {{f:s1100_old}} in 1961 to 1990, and three of the five lowest seasons in the 76 year record came in a row, from 2022/23 to 2024/25. Samoëns and Morillon lie lower still, close to {{f:lo.samoens|n}} m, so the runs home to the valley are the first to suffer in a poor winter. The high ground held up: at 2,100 m the season of 2023/24 brought more snow than the typical season of 1991 to 2020.",
+   "The season follows the height. Flaine opens first, on {{f:open_flaine|dm}}, and closes last, on {{f:close_flaine|dm}}; the whole Grand Massif runs from {{f:open_all|dm}} to {{f:close_all|dm}}. Alti-Mag closes the Villages area a week earlier, on {{f:close_villages|dm}}, and the Salvagny slopes at Sixt run only until {{f:close_sixt|dm}}."],
+  "heightsTitle": "Lift heights by resort",
+  "heightsCaption": "Lowest lift base to highest lift top in each resort, from OpenStreetMap lift positions and the Copernicus 90 m elevation model.",
+  "chartTitle": "Seasonal snowfall at three heights, 1950 to 2026",
+  "chartCaption": "Snowfall from November to April in the ERA5 reanalysis, via the Open-Meteo historical weather API, for the grid cell at 46.0 N, 6.75 E adjusted to each height. Dots are single seasons; lines are 11 season running means. These are weather model values for the cell, not depths on a piste.",
+  "chartDesc": "Snowfall from November to April in the weather model. Median 1991 to 2020: {{f:s1100}} at 1,100 m, {{f:s1600}} at 1,600 m, {{f:s2100}} at 2,100 m.",
+  "conditions": {
+   "status": "<b>No conditions are reported here yet.</b> Flaine is due to open on {{f:open_flaine}} and the whole area on {{f:open_all}}. Until live data arrives, the official sources below give open lifts, pistes and forecasts.",
+   "items": [
+    {"dt": "Lifts and pistes open", "dd": a("https://www.grand-massif.com/en/", "Le Grand Massif") + ", " + a("https://www.flaine.com/en/", "Flaine") + " and " + a("https://www.samoens.com/en/", "Samoëns")},
+    {"dt": "Mountain forecast", "dd": a("https://meteofrance.com/meteo-montagne/flaine/741121", "Météo-France for Flaine")},
+    {"dt": "Avalanche danger", "dd": a("https://meteofrance.com/meteo-montagne", "Météo-France bulletins") + " for the Haute-Savoie massifs, published daily in winter"}],
+   "safety": "Terrain beyond the marked pistes is not controlled. The avalanche bulletin and local advice take precedence over anything on this page."},
+  "ev": ["G001", "G002", "G003", "G011", "G012", "G017", "G033", "G038"]},
+ "pass": {
+  "h2": "Which pass, and where to buy it",
+  "paras": [
+   "The Grand Massif pass covers all five resorts. A day costs {{f:gm_1d}} at the ticket office and six days {{f:F000533}}, and the Flaine tourist office lists a discount on passes of six days and more booked by the end of October.",
+   "Two smaller passes cost less. The Villages pass covers Les Carroz, Morillon, Samoëns and Sixt without Flaine, {{f:vil_km}} of piste by Alti-Mag's count, for {{f:vil_6d}} for six days, {{diff:F000533,vil_6d}} less than the full pass. The Flaine pass covers Flaine alone for {{f:fl_1d}} a day. Each suits a stay at one end of the area; only the full pass takes in the Cascades, which starts in Flaine and finishes in Sixt.",
+   "Children under {{f:free_under|n}} and adults of 75 and over ski free by the day at the ticket office with proof of age, and pay {{f:gm_mini}} for two to seven days. Beginners in Flaine can buy a pass for the gentle lifts at {{f:beg_1d}} a day, and Sixt sells its own beginner day at {{f:sixt_1d}}. Walkers ride the Grandes Platières cable car to the top for {{f:ped}} return."],
+  "table": {"caption": "Local passes against the full pass, adult, 2026/27",
+            "rows": [["Villages, one day", "{{f:vil_1d}}", "{{f:gm_1d}}", "{{diff:gm_1d,vil_1d}}"],
+                     ["Villages, six days", "{{f:vil_6d}}", "{{f:F000533}}", "{{diff:F000533,vil_6d}}"],
+                     ["Flaine, one day", "{{f:fl_1d}}", "{{f:gm_1d}}", "{{diff:gm_1d,fl_1d}}"],
+                     ["Flaine, four hours", "{{f:fl_4h}}", "{{f:gm_4h}}", "{{diff:gm_4h,fl_4h}}"]],
+            "note": "Sources: " + FLP + ", " + AM + " and " + AMV + "."},
+  "coverageTitle": "What the pass covers",
+  "coverage": [
+   {"label": "Linked both ways by lift and piste", "kind": "yes", "items": ["Flaine: Forum, Forêt, Montsoleil and Le Hameau", "Les Carroz and Les Molliets", "Morillon and Morillon 1100", "Samoëns, Samoëns 1600 and Vercland"]},
+   {"label": "Linked one way", "kind": "oneway", "items": ["Sixt-Fer-à-Cheval, down the Cascades from Flaine; back by the free skibus to Samoëns"]},
+   {"label": "Left out of the Villages pass", "kind": "pass", "items": ["Flaine and the Grandes Platières, where the Cascades starts"]}],
+  "scenariosTitle": "Which pass for which trip",
+  "scenarios": [
+   {"who": "A week in Flaine", "what": "The full pass at {{f:F000533}} for six days; the Flaine pass at {{f:fl_1d}} a day suits a short stay in the bowl."},
+   {"who": "A week in Samoëns, Morillon or Les Carroz", "what": "The Villages pass at {{f:vil_6d}} covers {{f:vil_km}} of piste; the full pass adds Flaine and the Cascades for {{diff:F000533,vil_6d}} more."},
+   {"who": "Families", "what": "Children under {{f:free_under|n}} ski free by the day and pay {{f:gm_mini}} for two to seven days; a child's day on the full pass costs {{f:gm_child_1d}}."},
+   {"who": "First days on skis", "what": "The Flaine beginner pass at {{f:beg_1d}} a day, or Sixt's beginner day at {{f:sixt_1d}}."},
+   {"who": "Half days", "what": "Four consecutive hours cost {{f:gm_4h}} on the full pass and {{f:fl_4h}} in Flaine."},
+   {"who": "A season", "what": "The season pass costs {{f:gm_season}}, or {{f:gm_season_promo}} bought by 15 November."}],
+  "after": "Walkers can ride the Grandes Platières cable car for {{f:ped}} return, and the gondolas of the Giffre valley for {{f:giffre_ped}}.",
+  "ev": ["G001", "G002", "G003", "G011", "G013"]},
+ "access": {
+  "h2": "Getting there and choosing a base",
+  "paras": [
+   "By the fastest road Geneva airport is {{f:F000642}} from Les Carroz and {{f:F000643}} from Flaine, Lyon airport {{f:lys_min|n}} to {{f:lys_max}} away and Chambéry {{f:cmf_min|n}} to {{f:cmf_max}}. The A40 motorway runs up the Arve valley to Cluses, where one road climbs south to Les Carroz and Flaine and another follows the Giffre east to Morillon, Samoëns and Sixt.",
+   "Cluses station is the way in by train. Altibus runs the Les Carroz Flaine Express from the bus station just outside it and line Y94 up the valley to Samoëns and Sixt; Les Carroz is about ten kilometres from the station and Flaine about thirty, and Guide Ski notes that the Flaine buses run by reservation in winter. Free skibuses join Samoëns, its two gondolas and Sixt, and in Flaine free shuttles link Forêt, Les Gérats, Le Hameau and the Col de Pierre Carrée to the Forum.",
+   "Under the Loi Montagne, winter tyres or chains carried in the car are required from November to March in the listed mountain communes of Haute-Savoie. The Grand Massif Express car park in Samoëns has {{f:gme_park}} spaces and charges in winter, the Vercland car park has {{f:ver_park}} free spaces, and Les Carroz has about {{f:carroz_park}} free spaces at the foot of its slopes."],
+  "accessNote": "Road distances are the fastest route by the OSRM router on OpenStreetMap data, without traffic or snow. Buses: " + ALT + " and " + GSF + ". Winter equipment rules: " + LOI + " (October 2026). Parking: " + SAM + " and " + SIN + ".",
+  "basesH3": "How far each base reaches",
+  "basesParas": [
+   "Samoëns 1600 is the hub. From the top of the Grand Massif Express, Flaine, Les Carroz and Morillon 1100 are each {{f:b.samoens-1600.flaine|w}} lift ride away, and a lift top above 2,400 m is {{f:b.samoens-1600.top2400|w}}.",
+   "Flaine is the base for the high skiing: the Grandes Platières is {{f:b.flaine.top2400|w}} lift rides from the village lifts. The other villages are further: Les Carroz needs {{f:b.flaine.carroz|w}} rides and Morillon 1100 {{f:b.flaine.morillon-1100|w}}.",
+   "The valley villages trade a first lift for their charm. Samoëns village is {{f:b.samoens.samoens-1600|w}} gondola ride from Samoëns 1600 and Morillon village {{f:b.morillon.morillon-1100|w}} from Morillon 1100, while Morillon village is {{f:b.morillon.top2400|w}} lift rides from the top of the area. Sixt has no lift into the area, so the skibus to Samoëns comes first."],
+  "basesCaption": "Lift rides from each base",
+  "baseCols": ["To Flaine", "To Les Carroz", "To Samoëns 1600", "To Morillon 1100", "To Sixt", "To a lift top above 2,400 m"],
+  "bases": [{"base": label, "v": [F(f"b.{key}.{c}") for c in ["flaine", "carroz", "samoens-1600", "morillon-1100", "sixt", "top2400"]]}
+            for label, key in [("Flaine Forum", "flaine"), ("Flaine Forêt, by the Gérats chair", "flaine-foret"), ("Les Carroz, by the Kédeuze gondola", "carroz"),
+                               ("Morillon village", "morillon"), ("Morillon 1100", "morillon-1100"), ("Samoëns village, by the Grand Massif Express", "samoens"),
+                               ("Vercland", "vercland"), ("Samoëns 1600", "samoens-1600"), ("Sixt", "sixt")]],
+  "basesNote": "Fewest lift rides from the base's own lifts before reaching the first lift of each area, on the OpenStreetMap lift and piste network. A zero to Sixt from Samoëns is the free skibus; from Flaine, Sixt is reached down the Cascades. Times are not included.",
+  "ev": ["G010", "G011", "G012", "G020", "G030", "G032", "G034", "G040"]},
+ "chapters": [
+  {"id": "snowboard", "kicker": "Snowboarders", "h2": "Riding the Grand Massif on a board", "photo": "frontdeneige",
+   "paras": [
+    "Flaine is the freestyle centre. skiresort.com lists the Jam Park at the Aujon drag, with kickers, rails, boxes, a hip and waves, and the Flaine tourist office adds Ze Quartz Park on the Émeraude run, the Funny Slope under the Grands Vans chair and Urban'z, a zone of jumps and modules near the Ballacha drag. A boardercross with banked turns completes the set. Morillon keeps a small Kids Park at the Esserts chair for first rides.",
+    "After fresh snow the bowl above Flaine is the place to be. The Combe de Gers is marked but never groomed, about eight hundred metres of north facing slope with the Onyx and Jais lines, and the tourist office points to Agate, Diamant Noir and the Combe de Véret as a gentler way into ungroomed snow. Guide Ski names Gers, Lindars, Véret and Diamant Noir as the off piste sectors, each open only when snow, wind and the avalanche risk allow.",
+    "Drags are the catch. In the map data {{f:drag.flaine}} of Flaine's main lifts and {{f:drag.carroz}} at Les Carroz are drags, and the Gers drag that serves the combe is a long pull. Morillon is easier going, with drags only {{f:drag.morillon}} of its main lifts, and the long blues through the trees above Morillon and Les Carroz suit a board on a flat light day.",
+    "The Flaine tourist office announces avalanche control the evening before on its social pages, and asks riders beyond the markers to carry a shovel, probe and transceiver, never to go alone and to go with a guide or instructor."],
+   "listTitle": "Parks and places to ride",
+   "items": [
+    {"place": "poi:jam-park-flaine", "where": "Aujon drag, Flaine", "text": "Kickers, rails, boxes, a hip and waves."},
+    {"place": "poi:quartz-park", "where": "Émeraude run, Flaine", "text": "Flaine's freestyle park."},
+    {"place": "poi:funny-slope", "where": "Under the Grands Vans chair", "text": "A fun zone beside the chair."},
+    {"place": "poi:urbanz", "where": "Near the Ballacha drag, Flaine", "text": "Jumps and modules."},
+    {"place": "poi:kids-park-morillon", "where": "Esserts chair, Morillon 1100", "text": "A small park for children."},
+    {"place": "poi:combe-de-gers", "where": "Below the Gers drag", "text": "An ungroomed north facing combe with the Onyx and Jais lines."},
+    {"place": "poi:diamant-noir", "where": "Top of Flaine", "text": "Ungroomed black ground under the Diamant Noir chair."},
+    {"place": "poi:combe-de-veret", "where": "Véret drag, Flaine", "text": "A gentler ungroomed line."}],
+   "note": "Parks and off piste: " + SRP + ", " + FLF + " and " + GSF + ". Drag shares from OpenStreetMap. Terrain beyond the markers is not controlled; the avalanche bulletin and a local guide come first."},
+  {"id": "families", "kicker": "Families", "h2": "Holidays with children", "photo": "plateau",
+   "paras": [
+    "The learning slopes are high and wide. Samoëns 1600, at the top of the Grand Massif Express, has {{f:s1600_lifts|w}} beginner lifts, a covered carpet and the green Septi Snake, one of the largest learning areas in Haute-Savoie by the tourist office's account, and the ski school meets at the gondola. Morillon 1100 has the sunny Plateau des Esserts and the Marvel run through the spruce, and Flaine has the Pré, Michalet and Bissac carpets by the Front de Neige.",
+    "Three of the villages carry the Famille Plus label. Les Carroz has held it since {{f:y_fplus_carroz}}, with a nursery from three months, children's ski clubs, a toboggan run, bowling and the Aquacîme spa, and a covered carpet and a free nursery slope in the village centre. Samoëns and Morillon hold it too, and Morillon's ski school takes children from age {{f:club_age|n}} in its Piou-Piou club.",
+    "Children under {{f:free_under|n}} ski free by the day and pay {{f:gm_mini}} for two to seven days, which keeps the cost down for young families. Morillon 1100 is a car free cluster of flats at the foot of the lifts, and in Flaine the Forum is closed to cars, with the beginner lifts a few steps from the flats.",
+    "Off the slopes, the Lac Bleu at Morillon has snowshoe walks, pony rides and cross country trails. Sixt's Salvagny slopes, two greens and four blues with snowmaking across the beginner area, are a quiet place for a first star, and the valley Nordic trail runs about {{f:nordic_giffre}} along the Giffre when snow allows."],
+   "listTitle": "For children",
+   "items": [
+    {"place": "poi:samoens-1600-learning", "where": "Top of the Grand Massif Express", "text": "Seven beginner lifts, a covered carpet and the Septi Snake."},
+    {"place": "poi:plateau-des-esserts", "where": "Morillon 1100", "text": "Wide and sunny, with the Marvel run below."},
+    {"place": "poi:flaine-front-de-neige", "where": "Flaine Front de Neige", "text": "The Pré, Michalet and Bissac carpets, on the beginner pass."},
+    {"place": "poi:les-carroz-village-slope", "where": "Les Carroz centre", "text": "A covered carpet and a free nursery slope."},
+    {"place": "poi:aquacime", "where": "Les Carroz", "text": "A spa for the end of the day."},
+    {"place": "poi:lac-bleu-morillon", "where": "Morillon", "text": "Snowshoes, ponies and cross country trails."},
+    {"place": "poi:salvagny-beginners", "where": "Sixt", "text": "Two greens and four blues, with snowmaking."}],
+   "note": "Sources: " + SAM + ", " + LC + ", " + SIN + ", " + ERN + ", " + GSS + " and " + FLP + "."},
+  {"id": "food", "kicker": "Food and villages", "h2": "Eating in the villages and on the mountain", "photo": "square",
+   "paras": [
+    "Samoëns is the village to stay in for anyone who cares about the place itself. It grew on the skill of its frahans, the stone masons first recorded here in {{f:y_masons}}, whose brotherhood survives as the Société des Maçons, and it is the only ski resort classified by France's national monuments body. The old centre gathers round the Place du Gros-Tilleul and the Grenette hall, and Marie-Louise Cognacq-Jaÿ gave the village the Jaÿsinia, an alpine garden opened in {{f:y_jaysinia}} that holds some four and a half thousand kinds of alpine flower.",
+    "The best tables are in Samoëns too. Le Lodge holds a Michelin Bib Gourmand, Gault&Millau gave a toque to Le 8M des Monts in its 2022 guide, and Le Monde à l'Envers near the main square is the Savoyard address Alpine Answers says to book. In Les Carroz, La Croix de Savoie held a Gault&Millau toque in the same guide.",
+    "On the mountain the Les Carroz side is the strongest. L'Alpage de l'Airon sits by the Kédeuze gondola with a view across to Mont Blanc, Le Chalet des Molliets has a south facing terrace among the pistes on the Flaine road, and L'Igloo at the top of the Morillon chair is the priciest by Alpine Answers' account. Halfway down the Cascades the Gîte du Lac de Gers opens when conditions allow, so it is worth booking.",
+    "Flaine is a different kind of place. Marcel Breuer's concrete Forum and Forêt follow the contours of the bowl, with works by Picasso, Dubuffet and Vasarely set among the buildings, and the Forum is free of cars. Les Carroz is a Savoyard village with people living in it all year, Morillon keeps a church and bakery in the valley below its car free station, and Sixt is a quiet village of hamlets round its old abbey at the foot of the Cirque du Fer-à-Cheval, known for its frozen waterfalls and ice climbing."],
+   "listTitle": "Tables and places worth the detour",
+   "items": [
+    {"place": "poi:le-lodge-samoens", "where": "Samoëns, route de Sixt", "text": "A Michelin Bib Gourmand."},
+    {"place": "poi:le-8m-des-monts", "where": "Samoëns", "text": "A Gault&Millau toque in the 2022 guide."},
+    {"place": "poi:le-monde-a-l-envers", "where": "Samoëns, near the main square", "text": "Savoyard cooking; worth booking."},
+    {"place": "poi:la-croix-de-savoie", "where": "Les Carroz", "text": "A Gault&Millau toque in the 2022 guide."},
+    {"place": "poi:alpage-de-l-airon", "where": "By the Kédeuze gondola", "text": "Traditional cooking with a view to Mont Blanc."},
+    {"place": "poi:chalet-des-molliets", "where": "Les Molliets, on the Flaine road", "text": "Savoyard cooking on a south facing terrace."},
+    {"place": "poi:gite-du-lac-de-gers", "where": "Halfway down the Cascades", "text": "Open when conditions allow; worth booking."},
+    {"place": "poi:jaysinia", "where": "Samoëns", "text": "An alpine garden of some four and a half thousand kinds of flower, now a historic monument."},
+    {"place": "poi:brasserie-du-giffre", "where": "Morillon", "text": "Craft beer brewed in the valley."}],
+   "note": "Sources: " + MICH + " (2026), " + GM + ", " + AAS + " and " + AAC + ", " + MOL + ", " + ERN + ", and Wikipedia for " + WS + ", " + WJ + " and " + WF + ". Sixt: " + GSS + "."},
+  {"id": "apres", "kicker": "Après", "h2": "Après and evenings", "photo": "halle",
+   "paras": [
+    "Flaine has the liveliest evenings. Le Pente à Jules draws a crowd to dance at its late afternoon DJ sets, Le White Pub has bands and sport on a big screen, and Brasserie Les Cimes has live music. In Flaine Forêt the Bam Pub serves food and games early and turns into a club later. Les Caves is the only nightclub, open from eleven at night until five, and Galaxy Bowling keeps its bar open until three.",
+    "Samoëns is lively for a valley village, with about a dozen bars along its old streets by Ski Independence's count. L'Après-Ski Chez Jeff has run a heated outdoor bar with mulled wine and DJs since {{f:y_jeff}}, the Evil Monkey is the pub for a big night, and Vin sur Vin pours wine. Alpine Answers still calls the evenings quiet, which suits a drink before dinner.",
+    "Les Carroz has The Marlow, the sunniest terrace on the square, La Pointe Noire for pool and occasional live music, busiest from about nine, and Carpe Diem and Club 74 for later. Morillon is calm, with Le Potet 2.0 for a beer and pizza without taking the skis off, and Sixt is quiet."],
+   "listTitle": "Where the evenings start",
+   "items": [
+    {"place": "poi:pente-a-jules", "where": "Flaine", "text": "DJ sets from late afternoon."},
+    {"place": "poi:white-pub-flaine", "where": "Flaine", "text": "Bands, beer and sport."},
+    {"place": "poi:bam-pub", "where": "Flaine Forêt", "text": "Food and games, then a club."},
+    {"place": "poi:les-caves-flaine", "where": "Flaine", "text": "The only nightclub, until five."},
+    {"place": "poi:galaxy-bowling", "where": "Flaine", "text": "Bowling and a bar until three."},
+    {"place": "poi:chez-jeff", "where": "Samoëns, avenue Cognacq-Jaÿ", "text": "A heated outdoor bar with mulled wine and DJs."},
+    {"place": "poi:evil-monkey", "where": "Samoëns", "text": "The pub for a big night."},
+    {"place": "poi:the-marlow", "where": "Les Carroz", "text": "The sunniest terrace on the square."},
+    {"place": "poi:pointe-noire", "where": "Les Carroz", "text": "Pool tables, busiest from about nine."},
+    {"place": "poi:le-potet", "where": "Morillon", "text": "Beer and pizza on skis."}],
+   "note": "Sources: " + IGL + ", " + SKI + ", " + JEFF + ", " + AAS + " and " + AAC + ", and " + ERN + "."}],
+ "fit": {
+  "h2": "Who it suits",
+  "intro": "How the area suits different kinds of trip.",
+  "rows": [
+   {"who": "Exploring a large network", "fit": "Good fit", "why": "Five resorts on one lift network, with Flaine, Les Carroz and Morillon 1100 each one lift ride from Samoëns 1600.", "limit": "Sixt is reached on skis only one way, down the Cascades."},
+   {"who": "Intermediates who want variety", "fit": "Good fit", "why": "Green and blue reach every resort, and the long blues through the forest are the area's strength.", "limit": "The quick ways out of Flaine are often red."},
+   {"who": "Groups of mixed ability", "fit": "Good fit", "why": "Samoëns 1600 and the Saix plateau put every level within a lift or two of each other.", "limit": "The steep ground is all around Flaine."},
+   {"who": "First timers", "fit": "Good fit", "why": "Big learning areas at Samoëns 1600, Morillon 1100 and Flaine, and cheap beginner passes in Flaine and Sixt.", "limit": "The village slopes at Samoëns and Morillon are low and need a good winter."},
+   {"who": "Families", "fit": "Good fit", "why": "Free day passes under {{f:free_under|n}}, Famille Plus in three villages and car free stations at Flaine and Morillon 1100.", "limit": "The valley villages start the day with a gondola ride."},
+   {"who": "Snowboarders", "fit": "Mixed", "why": "Parks and a boardercross in Flaine and a big ungroomed bowl above it.", "limit": "Drags are {{f:drag.flaine}} of Flaine's main lifts."},
+   {"who": "Experts", "fit": "Mixed", "why": "The Combe de Gers, Diamant Noir and the Lindars above Flaine.", "limit": "Only {{f:F000529}} of the piste is rated difficult on skiresort.com."},
+   {"who": "Putting snow first", "fit": "Good fit", "why": "The most snowfall at 1,600 m of the four areas compared, and Flaine's lifts start at {{f:lo.flaine}}.", "limit": "The runs home to Samoëns and Morillon depend on a good winter."},
+   {"who": "Travelling without a car", "fit": "Mixed", "why": "Buses from Cluses station to every resort, and free skibuses in the valley.", "limit": "The Flaine buses run by reservation, and the change at Cluses adds time."},
+   {"who": "Preferring a smaller area", "fit": "Good fit", "why": "The Villages pass covers {{f:vil_km}} without Flaine for less.", "limit": "Flaine and the Cascades are then off the pass."},
+   {"who": "Food lovers", "fit": "Mixed", "why": "A Bib Gourmand and good Savoyard cooking in Samoëns, and terraces above Les Carroz.", "limit": "No Michelin stars in the area in the 2026 guide."},
+   {"who": "Looking for après", "fit": "Mixed", "why": "Bars, DJs, bowling and a nightclub in Flaine, and a dozen bars in Samoëns.", "limit": "Morillon and Sixt are quiet."},
+   {"who": "Short trips from Geneva", "fit": "Good fit", "why": "Les Carroz is {{f:F000642}} from Geneva airport by road.", "limit": "Flaine is busy at weekends, as Alpine Answers notes."}],
+  "catchesH3": "The catches",
+  "catches": "Height in the valleys is the main one. Samoëns and Morillon ski from close to {{f:lo.samoens|n}} m, and three of the five lowest seasons in 76 years at 1,100 m came from 2022/23 to 2024/25 in the weather model. Sixt is joined only one way, by the Cascades, which often stays closed. Flaine is busy at weekends, with Geneva so close."},
+ "compare": {
+  "h2": "The other areas around Geneva",
+  "paras": [
+   "Set against its neighbours, the Grand Massif is the middle size: skiresort.com measures {{f:F000523}} of piste, against {{f:F000516}} in the Portes du Soleil, {{f:F000508}} across the two networks of Évasion Mont Blanc and {{f:cl_km}} at La Clusaz. It tops out at {{f:F000526}}, a few metres below La Clusaz and well above the Portes du Soleil and Évasion Mont Blanc.",
+   "Its six day pass, at {{f:F000533}}, costs {{diff:F000533,F000531}} more than the Portes du Soleil, {{diff:F000533,F000535}} more than Évasion Mont Blanc and {{diff:F000533,cl_6d}} more than La Clusaz. Its grid cell has the most snow of the four at 1,600 m in the weather model, and of the three larger areas it is the closest to Geneva."],
+  "caption": "Four ski areas within reach of Geneva",
+  "cols": [{"name": {"$p": A}, "href": ""}, {"name": {"$p": "area:portes-du-soleil"}, "href": "/projectsnow/france/portes-du-soleil/"},
+           {"name": {"$p": "area:evasion-mont-blanc"}, "href": "/projectsnow/france/evasion-mont-blanc/"}, {"name": {"$p": "area:la-clusaz-manigod"}, "href": "/projectsnow/france/la-clusaz-manigod/"}],
+  "rows": [
+   {"label": "Measured piste", "v": ["{{f:F000523}}", "{{f:F000516}}", "{{f:F000508}}", "{{f:cl_km}}"]},
+   {"label": "Lifts", "v": ["{{f:F000524}}", "{{f:F000517}}", "{{f:F000509}}", "{{f:cl_lifts}}"]},
+   {"label": "Lift heights", "v": ["{{f:F000525|n}} to {{f:F000526}}", "{{f:F000518|n}} to {{f:F000519}}", "{{f:F000510|n}} to {{f:F000511}}", "{{f:cl_low|n}} to {{f:cl_high}}"]},
+   {"label": "Easy, intermediate, difficult", "v": ["{{f:F000527|n}}, {{f:F000528|n}}, {{f:F000529}}", "{{f:F000520|n}}, {{f:F000521|n}}, {{f:F000522}}", "{{f:F000512|n}}, {{f:F000513|n}}, {{f:F000514}}", "{{f:cl_easy|n}}, {{f:cl_intermediate|n}}, {{f:cl_difficult}}"]},
+   {"label": "Day ticket, adult, high season", "v": ["{{f:gm_1d}}", "{{f:F000530}}", "{{f:F000534}}", "{{f:cl_1d}}"]},
+   {"label": "Six days, adult, high season", "v": ["{{f:F000533}}", "{{f:F000531}}", "{{f:F000535}}", "{{f:cl_6d}}"]},
+   {"label": "Snowfall at 1,600 m, typical season 1991 to 2020", "v": ["{{f:s1600}}", "{{f:F000628}}", "{{f:F000622}}", "{{f:cl_snow}}"]},
+   {"label": "Road from Geneva airport", "v": ["{{f:F000642|n}} to {{f:F000643}}", "{{f:F000640|n}} to {{f:F000641}}", "{{f:F000630|n}} to {{f:F000631}}", "{{f:cl_gva}}"]},
+   {"label": "How it links", "v": ["Five resorts on one network; Sixt one way by the Cascades", "Two networks joined through Morzine; two resorts by road only", "Two networks on one pass; Les Contamines by road", "La Clusaz and Manigod on one network"]}],
+  "note": "Size, lifts, heights and grade split: skiresort.com for " + a("https://www.skiresort.com/en/ski-resort/le-grand-massif-flaine-les-carroz-morillon-samoens-sixt/", "the Grand Massif") + ", "
+          + a("https://www.skiresort.com/en/ski-resort/les-portes-du-soleil-morzine-avoriaz-les-gets-chatel-morgins-champery/", "the Portes du Soleil") + ", "
+          + a("https://www.skiresort.com/en/ski-resort/megeve-saint-gervais/", "Megève and Saint-Gervais") + " with "
+          + a("https://www.skiresort.com/en/ski-resort/les-portes-du-mont-blanc-combloux-megeve-le-jaillet-la-giettaz/", "Les Portes du Mont-Blanc") + " (added together for Évasion Mont Blanc) and "
+          + a("https://www.skiresort.com/en/ski-resort/la-clusaz-manigod/", "La Clusaz Manigod") + ". Prices: "
+          + a("https://www.alti-mag.com/tarifs-forfaits-de-ski/tarifs-forfaits-ski-alpes/tarifs-forfaits-ski-alpes-du-nord", "Alti-Mag for the Northern Alps") + ", "
+          + a("https://www.alti-mag.com/domaines-skiables/la-clusaz-manigod", "Alti-Mag for La Clusaz") + " and " + FLP + ". Snowfall: ERA5 via " + OM
+          + ", each area's grid cell at 1,600 m. Road: the OSRM router on OpenStreetMap data.",
+  "ev": ["G002", "G005", "G033", "G036", "G037", "G038", "G039"]},
+ "explore": [
+  {"h3": "Official information", "links": [
+   {"t": "Le Grand Massif lift company", "u": "https://www.grand-massif.com/en/"},
+   {"t": "Flaine tourist office", "u": "https://www.flaine.com/en/"},
+   {"t": "Samoëns tourist office", "u": "https://www.samoens.com/en/"},
+   {"t": "Les Carroz tourist office", "u": "https://lescarroz.com/en/"},
+   {"t": "Buses from Cluses station", "u": "https://www.altibus.com/en/arriving-by-train/cluses"}]},
+  {"h3": "On Snow Catchers", "links": [
+   {"t": "Skiing in France", "u": "/projectsnow/france/"},
+   {"t": "Portes du Soleil", "u": "/projectsnow/france/portes-du-soleil/"},
+   {"t": "Les 3 Vallées", "u": "/projectsnow/france/les-3-vallees/"},
+   {"t": "Paradiski", "u": "/projectsnow/france/paradiski/"},
+   {"t": "Tignes Val d'Isère", "u": "/projectsnow/france/tignes-val-disere/"}]},
+  {"h3": "Resorts and villages", "text": "Pages for Flaine, Samoëns, Les Carroz, Morillon and Sixt come next, with the runs, ski schools, restaurants and places to stay that this page leaves out."}],
+ "method": {
+  "items": [
+   {"dt": "Which resorts count", "dd": "Flaine, Les Carroz, Morillon, Samoëns and Sixt-Fer-à-Cheval, the five resorts on the Grand Massif pass, each treated as one area with its upper stations: Samoëns 1600 and Vercland with Samoëns, Morillon 1100 with Morillon, and Flaine Forêt, Montsoleil and Le Hameau with Flaine. Sharing the pass is recorded separately from being linked by lift and piste."},
+   {"dt": "How links were found", "dd": "A resort counts as linked when a route of lifts and pistes reaches it in the OpenStreetMap data. Drags run one way and gondolas and cable cars may be ridden down. Every count starts at the village lifts. The two Sixt chairs that no longer run are left out, and the free skibus from Sixt and Vercland to the Grand Massif Express counts as a link with no lift ride."},
+   {"dt": "Piste totals", "dd": "Operator and measured figures are both shown and never averaged. Piste length from OpenStreetMap is used only to compare resorts and grades."},
+   {"dt": "Comparisons", "dd": "The four areas compared use the same source for each row, so a figure can be set against its neighbour."}],
+  "fresh": [
+   ["Lift pass prices", "2026/27 season", "The Flaine tourist office, Alti-Mag, Guide Ski and Skiinfo", "26 Oct 2026"],
+   ["Season dates", "2026/27 season", "The Flaine tourist office, Alti-Mag and Guide Ski", "26 Oct 2026"],
+   ["Run and lift counts, size, altitude", "Current listings", "Alti-Mag, the Samoëns tourist office, Guide Ski and skiresort.com", "26 Oct 2026"],
+   ["Network, bases, routes, resort comparison", "Map data of 26 October 2026", "Derived from OpenStreetMap", "26 Oct 2026"],
+   ["Snowfall", "1950/51 to 2025/26", "Reanalysis model", "26 Oct 2026"],
+   ["Train and buses", "Current pages", "Altibus and Guide Ski", "26 Oct 2026"],
+   ["Comparison with other areas", "Current listings", "skiresort.com, Alti-Mag, weather model, router", "26 Oct 2026"],
+   ["Restaurants, bars, parks and family facilities", "Current guides; Gault&Millau from 2022", "Guides, tourist offices and press", "26 Oct 2026"],
+   ["Michelin selection", "2026 guide", "The Michelin Guide", "26 Oct 2026"],
+   ["Current conditions", "Not shown on this page", "Linked to the lift company, tourist offices and forecasters", "26 Oct 2026"]],
+  "conflictsH3": "Figures that disagree",
+  "conflicts": "Alti-Mag counts {{f:op_lifts74}} lifts and {{f:runs_total}} runs, the Samoëns tourist office and Guide Ski {{f:ot_lifts62}} lifts and {{f:ot_runs}} runs, Wikipedia {{f:wiki_lifts71}} lifts and skiresort.com {{f:F000524}}; the page uses Alti-Mag's runs and skiresort.com's lifts and grades. Alti-Mag puts the lowest point at {{f:op_low}} and skiresort.com at {{f:F000525}}. Guide Ski opens the Grand Massif on {{f:gs_open|dm}} and the Flaine tourist office on {{f:open_all|dm}}. Skiinfo prices a Grand Massif day at {{f:gm_1d_si}} on weekdays and a week at {{f:gm_week_si}}, and the Villages pass at {{f:vil_1d_si}} a day and {{f:vil_week_si}} a week, against {{f:gm_1d}}, {{f:vil_1d}} and {{f:vil_6d}} from the tourist office and Alti-Mag.",
+  "sources": "Research of 26 October 2026. Size, runs, lifts and passes: " + AM + ", " + AMV + ", " + a("https://www.alti-mag.com/domaines-skiables/flaine", "Alti-Mag for Flaine") + ", " + FLP + ", " + SAM + ", "
+             + GSF + ", " + GSS + ", " + SIF + ", " + SIS + ", " + SIC + " and " + SIX + ", and " + a("https://www.grand-massif.com/en/skipass-prices/", "the lift company") + ". Measured size and grades: " + SR
+             + ". The Cascades: " + MS + ". History: Wikipedia for " + WF + " and " + WG + ". Snowfall: ERA5 via " + OM + ", weather data by Open-Meteo.com. Map: © OpenStreetMap contributors. Photos: Wikimedia Commons."},
+ "breaks": {"network": {"photo": "saix"}, "terrain": {"photo": "agate"}, "access": {"photo": "abbey"}},
+ "photos": {
+  "hero": ["Flaine overview.jpg", "DimiTalen", "CC0", "Flaine's Forum, Forêt, Montsoleil and Le Hameau in their bowl in February"],
+  "saix": ["View toward Samoëns from below Tête des Saix.jpg", "DimiTalen", "CC0", "Looking from below the Tête des Saix towards Samoëns 1600 and the Giffre valley"],
+  "agate": ["Flaines - The Start from Lindars Nord - Agate Slope - panoramio.jpg", "Patrick Nouhailler", "CC BY-SA 3.0", "The top of the Agate run from the Lindars Nord chair above Flaine"],
+  "abbey": ["Abbaye de Sixt Fer-à-Cheval sous la neige.jpg", "OT de Sixt", "CC BY-SA 4.0", "The abbey and church of Sixt-Fer-à-Cheval under snow"],
+  "frontdeneige": ["Flaine Front de neige.jpg", "DimiTalen", "CC0", "The Front de Neige at Flaine on a winter morning"],
+  "plateau": ["Samoëns 1600, Plateau des Saix, 2011.jpg", "DimiTalen", "CC0", "The learning slopes of Samoëns 1600 on the Plateau des Saix"],
+  "square": ["Samoëns - Place du Gros-Tilleul (hiver).jpg", "Xavier Caré", "CC BY-SA 4.0", "The Place du Gros-Tilleul in Samoëns in winter"],
+  "halle": ["Samoëns - Halle (hiver, nuit).jpg", "Xavier Caré", "CC BY-SA 4.0", "The Grenette hall in Samoëns on a winter night"]}
+}
+
+json.dump(d, open("page/draft.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("draft written")

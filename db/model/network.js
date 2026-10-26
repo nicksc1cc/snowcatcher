@@ -21,7 +21,8 @@
 // cfg = { bbox:[s,w,n,e], exclude:[[s,w,n,e],...], sectors:{id:[lat,lon]}, liftSector:{"lift name":id},
 //         transfers:[[label,[lat,lon],[lat,lon]]], topAbove: 2800, dropLifts:["second cabin of a double lift"],
 //         dropWays:[OSM way ids to ignore, such as the passing loops of a funicular],
-//         wayOrder:[lift names whose OSM way order (bottom to top) is trusted over the elevation model] }
+//         wayOrder:[lift names whose OSM way order (bottom to top) is trusted over the elevation model],
+//         matrixFrom:"village" to start every matrix row from the village lifts instead of every main lift base }
 // Funiculars (railway=funicular) count as lifts that can be ridden both ways.
 // A lift given a sector id that is not in cfg.sectors (for example "x-outlying") is kept in the graph but
 // left out of every sector's starts, targets and counts.
@@ -143,10 +144,11 @@
     const main = lifts.map((l) => MAIN.has(l.type));
     const G = graph(cfg, -1);
     const bases = (s) => lifts.map((l, i) => i).filter((i) => sec[i] === s && main[i] && G.L[i]).map((i) => G.L[i][0]);
-    const village = (s) => { const ix = lifts.map((l, i) => i).filter((i) => sec[i] === s && main[i]); if (!ix.length) return []; const lo = ix.reduce((a, i) => (lifts[i].eBot < lifts[a].eBot ? i : a), ix[0]); return ix.filter((i) => dist(lifts[i].bot, lifts[lo].bot) <= 200).map((i) => G.L[i][0]); };
+    const village = (s, g = G) => { const ix = lifts.map((l, i) => i).filter((i) => sec[i] === s && main[i] && g.L[i]); if (!ix.length) return []; const lo = ix.reduce((a, i) => (lifts[i].eBot < lifts[a].eBot ? i : a), ix[0]); return ix.filter((i) => dist(lifts[i].bot, lifts[lo].bot) <= 200).map((i) => g.L[i][0]); };
     const matrix = (g, ability, startOf) => { const m = {}; for (const a of ids) { const r = bfs(g, startOf(a), ability); m[a] = {}; for (const b of ids) if (b !== a) { const t = lifts.map((l, i) => i).filter((i) => sec[i] === b && main[i] && g.L[i]); const v = Math.min(...t.map((i) => r.d[g.L[i][0]])); m[a][b] = isFinite(v) ? v : null; } } return m; };
     const res = { snapshot: S.raw.osm, ids };
-    res.all = matrix(G, "all", bases); res.easy = matrix(G, "easy", bases); res.red = matrix(G, "red", bases);
+    const from = cfg.matrixFrom === "village" ? village : bases;
+    res.all = matrix(G, "all", from); res.easy = matrix(G, "easy", from); res.red = matrix(G, "red", from);
     // base table from the village lifts, with a "top above" column
     const top = cfg.topAbove || 2800;
     res.base = {};
@@ -176,20 +178,20 @@
       res.critical = [];
       lifts.forEach((l, i) => {
         if (!main[i] || l.len < 300) return;
-        const g = graph(cfg, i), m = matrix(g, "all", (s) => lifts.map((x, j) => j).filter((j) => sec[j] === s && main[j] && g.L[j]).map((j) => g.L[j][0]));
+        const g = graph(cfg, i), m = matrix(g, "all", cfg.matrixFrom === "village" ? (s) => village(s, g) : (s) => lifts.map((x, j) => j).filter((j) => sec[j] === s && main[j] && g.L[j]).map((j) => g.L[j][0]));
         let lost = 0, extra = 0;
         for (const a of ids) for (const b of ids) if (a !== b && res.all[a][b] != null) { if (m[a][b] == null) lost++; else extra += m[a][b] - res.all[a][b]; }
         if (lost || extra) res.critical.push([l.name, sec[i], lost, extra]);
       });
       res.critical.sort((x, y) => y[2] - x[2] || y[3] - x[3]);
     }
-    S.last = { cfg, G, sec, main };
+    S.last = { cfg, G, sec, main, village };
     return res;
   };
 
   S.route = (cfg, from, to, ability = "all") => {
     const { G, sec, main } = S.last, lifts = S.raw.lifts;
-    const starts = lifts.map((l, i) => i).filter((i) => sec[i] === from && main[i] && G.L[i]).map((i) => G.L[i][0]);
+    const starts = cfg.matrixFrom === "village" ? S.last.village(from) : lifts.map((l, i) => i).filter((i) => sec[i] === from && main[i] && G.L[i]).map((i) => G.L[i][0]);
     const r = bfs(G, starts, ability);
     const t = lifts.map((l, i) => i).filter((i) => sec[i] === to && main[i] && G.L[i]);
     let best = t.reduce((a, i) => (r.d[G.L[i][0]] < r.d[G.L[a][0]] ? i : a), t[0]), v = G.L[best][0], out = [];

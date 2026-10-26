@@ -1,0 +1,240 @@
+[
+{
+"id": "F000508",
+"value_num": 274,
+"value_text": null,
+"unit": "km",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000509",
+"value_num": 80,
+"value_text": null,
+"unit": "count",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000510",
+"value_num": 850,
+"value_text": null,
+"unit": "m",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000511",
+"value_num": 2353,
+"value_text": null,
+"unit": "m",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000512",
+"value_num": 41,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000513",
+"value_num": 46,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000514",
+"value_num": 13,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000516",
+"value_num": 580,
+"value_text": null,
+"unit": "km",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000517",
+"value_num": 163,
+"value_text": null,
+"unit": "count",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000518",
+"value_num": 985,
+"value_text": null,
+"unit": "m",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000519",
+"value_num": 2254,
+"value_text": null,
+"unit": "m",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000520",
+"value_num": 54,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000521",
+"value_num": 36,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000522",
+"value_num": 10,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000523",
+"value_num": 265,
+"value_text": null,
+"unit": "km",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000524",
+"value_num": 63,
+"value_text": null,
+"unit": "count",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000525",
+"value_num": 697,
+"value_text": null,
+"unit": "m",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000526",
+"value_num": 2480,
+"value_text": null,
+"unit": "m",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000527",
+"value_num": 51,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000528",
+"value_num": 36,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000529",
+"value_num": 13,
+"value_text": null,
+"unit": "pct",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000530",
+"value_num": 73,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:portes-du-soleil"
+},
+{
+"id": "F000531",
+"value_num": 373,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:portes-du-soleil"
+},
+{
+"id": "F000533",
+"value_num": 378,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:grand-massif"
+},
+{
+"id": "F000534",
+"value_num": 65,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:evasion-mont-blanc"
+},
+{
+"id": "F000535",
+"value_num": 324.5,
+"value_text": null,
+"unit": "eur",
+"place_id": "pass:evasion-mont-blanc"
+},
+{
+"id": "F000622",
+"value_num": 362,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.45.75.6.75"
+},
+{
+"id": "F000628",
+"value_num": 285,
+"value_text": null,
+"unit": "cm",
+"place_id": "cell:era5.46.25.6.75"
+},
+{
+"id": "F000630",
+"value_num": 71,
+"value_text": null,
+"unit": "km",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000631",
+"value_num": 85,
+"value_text": null,
+"unit": "km",
+"place_id": "area:evasion-mont-blanc"
+},
+{
+"id": "F000640",
+"value_num": 69,
+"value_text": null,
+"unit": "km",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000641",
+"value_num": 129,
+"value_text": null,
+"unit": "km",
+"place_id": "area:portes-du-soleil"
+},
+{
+"id": "F000642",
+"value_num": 65,
+"value_text": null,
+"unit": "km",
+"place_id": "area:grand-massif"
+},
+{
+"id": "F000643",
+"value_num": 80,
+"value_text": null,
+"unit": "km",
+"place_id": "area:grand-massif"
+}
+]

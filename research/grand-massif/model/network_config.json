@@ -1,0 +1,20 @@
+{
+  "_about": "Configuration for db/model/network.js, Grand Massif run of 26 October 2026. OpenStreetMap snapshot 2026-10-26T21:08:20Z from overpass-api.de.",
+  "bbox": [45.97, 6.58, 46.11, 6.82],
+  "exclude": [],
+  "sectors": {"flaine": [46.000, 6.695], "carroz": [46.035, 6.650], "morillon": [46.070, 6.672], "samoens": [46.055, 6.715], "sixt": [46.050, 6.770]},
+  "_sectors": "Five village sectors agreed with Nick: each lift goes to the nearest village centre point. Samoëns 1600 and Vercland count with Samoëns, Morillon 1100 with Morillon, Flaine Forêt and Montsoleil with Flaine.",
+  "liftSector": {"Chavannes": "x-outlying"},
+  "_liftSector": "The Chavannes drag west of Les Carroz is not part of the Grand Massif.",
+  "dropLifts": ["Vagnys", "Pralet"],
+  "_dropLifts": "The two Sixt chairs closed by 2018 (Guide Ski, Wikipedia) are still mapped.",
+  "transfers": [
+    ["Skibus from Sixt to the Grand Massif Express", [46.0446, 6.7651], [46.0765, 6.7212]],
+    ["Skibus between Vercland and the Grand Massif Express", [46.0721, 6.7006], [46.0765, 6.7212]]
+  ],
+  "_transfers": "No lift leaves Sixt for the rest of the area; the free skibus runs to Samoëns. Both are free skibus links in the valley.",
+  "topAbove": 2400,
+  "matrixFrom": "village",
+  "_matrixFrom": "With five large village sectors, starting at every main lift base makes most cells zero; every row starts from the village lifts instead.",
+  "_extraBases": "A second run (same snapshot) gave Vercland, Morillon 1100 (Sairon, Esserts), Samoëns 1600 (Chariande Express, Chariande 2, Damoiseaux, Demoiselles) and Flaine Forêt (Gérats) their own base rows, with targets Flaine, Les Carroz, Samoëns 1600, Morillon 1100 and Sixt; see basesExtra in the run file."
+}

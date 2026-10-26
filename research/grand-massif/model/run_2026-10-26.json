@@ -1,0 +1,325 @@
+{
+ "snapshot": "2026-10-26T21:08:20Z",
+ "all": {
+  "flaine": {
+   "carroz": 3,
+   "morillon": 3,
+   "samoens": 2,
+   "sixt": 2
+  },
+  "carroz": {
+   "flaine": 2,
+   "morillon": 2,
+   "samoens": 2,
+   "sixt": 3
+  },
+  "morillon": {
+   "flaine": 3,
+   "carroz": 2,
+   "samoens": 3,
+   "sixt": 4
+  },
+  "samoens": {
+   "flaine": 2,
+   "carroz": 2,
+   "morillon": 1,
+   "sixt": 0
+  },
+  "sixt": {
+   "flaine": 2,
+   "carroz": 2,
+   "morillon": 1,
+   "samoens": 0
+  }
+ },
+ "easy_differs_from_all": {
+  "flaine": {
+   "morillon": 4,
+   "samoens": 4,
+   "sixt": 6
+  },
+  "carroz": {
+   "sixt": 4
+  },
+  "morillon": {
+   "sixt": 5
+  }
+ },
+ "red_differs_from_all": {},
+ "base": {
+  "flaine": {
+   "flaine": 0,
+   "carroz": 3,
+   "morillon": 3,
+   "samoens": 2,
+   "sixt": 2,
+   "top2400": 2
+  },
+  "carroz": {
+   "flaine": 2,
+   "carroz": 0,
+   "morillon": 2,
+   "samoens": 2,
+   "sixt": 3,
+   "top2400": 4
+  },
+  "morillon": {
+   "flaine": 3,
+   "carroz": 2,
+   "morillon": 0,
+   "samoens": 3,
+   "sixt": 4,
+   "top2400": 5
+  },
+  "samoens": {
+   "flaine": 2,
+   "carroz": 2,
+   "morillon": 1,
+   "samoens": 0,
+   "sixt": 0,
+   "top2400": 4
+  },
+  "sixt": {
+   "flaine": 2,
+   "carroz": 2,
+   "morillon": 1,
+   "samoens": 0,
+   "sixt": 0,
+   "top2400": 4
+  }
+ },
+ "sectors": {
+  "flaine": {
+   "lifts": 25,
+   "main": 21,
+   "drags": 9,
+   "lo": 1574,
+   "hi": 2465,
+   "km": 66.5,
+   "easyKm": 37.8,
+   "redKm": 24.6,
+   "blackKm": 3.9
+  },
+  "carroz": {
+   "lifts": 18,
+   "main": 12,
+   "drags": 6,
+   "lo": 1155,
+   "hi": 2072,
+   "km": 43.9,
+   "easyKm": 28.9,
+   "redKm": 10.4,
+   "blackKm": 4.5
+  },
+  "morillon": {
+   "lifts": 8,
+   "main": 6,
+   "drags": 1,
+   "lo": 686,
+   "hi": 2098,
+   "km": 22.1,
+   "easyKm": 14.9,
+   "redKm": 7.2,
+   "blackKm": 0
+  },
+  "samoens": {
+   "lifts": 15,
+   "main": 11,
+   "drags": 5,
+   "lo": 697,
+   "hi": 2067,
+   "km": 26.5,
+   "easyKm": 16.2,
+   "redKm": 6.9,
+   "blackKm": 3.4
+  },
+  "sixt": {
+   "lifts": 4,
+   "main": 4,
+   "drags": 4,
+   "lo": 775,
+   "hi": 934,
+   "km": 21.9,
+   "easyKm": 3.5,
+   "redKm": 15.3,
+   "blackKm": 3.1
+  }
+ },
+ "totals": {
+  "lifts": 71,
+  "main": 55,
+  "drags": 26,
+  "pisteWays": 387,
+  "pisteKm": 181
+ },
+ "critical": [
+  [
+   "Cascades",
+   "sixt",
+   4,
+   4
+  ],
+  [
+   "Kédeuze",
+   "carroz",
+   4,
+   0
+  ],
+  [
+   "Morillon",
+   "morillon",
+   4,
+   0
+  ],
+  [
+   "Sairon",
+   "morillon",
+   4,
+   0
+  ],
+  [
+   "Coulouvrier",
+   "morillon",
+   0,
+   6
+  ],
+  [
+   "Tête des Saix",
+   "carroz",
+   0,
+   3
+  ],
+  [
+   "Grand Vans",
+   "flaine",
+   0,
+   1
+  ]
+ ],
+ "highLifts": [
+  [
+   "Diamant Noir",
+   "chair_lift",
+   2070,
+   2465
+  ],
+  [
+   "Lindars Nord",
+   "chair_lift",
+   2190,
+   2442
+  ],
+  [
+   "Grandes Platières",
+   "gondola",
+   1617,
+   2465
+  ]
+ ],
+ "basesExtra": {
+  "flaine": {
+   "flaine": 0,
+   "carroz": 3,
+   "samoens-1600": 3,
+   "morillon-1100": 4,
+   "sixt": 2,
+   "top2400": 2
+  },
+  "carroz": {
+   "flaine": 2,
+   "carroz": 0,
+   "samoens-1600": 2,
+   "morillon-1100": 2,
+   "sixt": 3,
+   "top2400": 4
+  },
+  "morillon": {
+   "flaine": 3,
+   "carroz": 2,
+   "samoens-1600": 3,
+   "morillon-1100": 1,
+   "sixt": 4,
+   "top2400": 5
+  },
+  "samoens": {
+   "flaine": 2,
+   "carroz": 2,
+   "samoens-1600": 1,
+   "morillon-1100": 2,
+   "sixt": 0,
+   "top2400": 4
+  },
+  "sixt": {
+   "flaine": 2,
+   "carroz": 2,
+   "samoens-1600": 1,
+   "morillon-1100": 2,
+   "sixt": 0,
+   "top2400": 4
+  },
+  "vercland": {
+   "flaine": 2,
+   "carroz": 2,
+   "samoens-1600": 1,
+   "morillon-1100": 2,
+   "sixt": 0,
+   "top2400": 4
+  },
+  "morillon-1100": {
+   "flaine": 2,
+   "carroz": 1,
+   "samoens-1600": 2,
+   "morillon-1100": 0,
+   "sixt": 3,
+   "top2400": 4
+  },
+  "samoens-1600": {
+   "flaine": 1,
+   "carroz": 1,
+   "samoens-1600": 0,
+   "morillon-1100": 1,
+   "sixt": 1,
+   "top2400": 3
+  },
+  "flaine-foret": {
+   "flaine": 1,
+   "carroz": 2,
+   "samoens-1600": 3,
+   "morillon-1100": 3,
+   "sixt": 2,
+   "top2400": 2
+  }
+ },
+ "routes_any_base": {
+  "carroz>flaine": [
+   "Tête des Saix"
+  ],
+  "morillon>flaine": [
+   "Coulouvrier"
+  ],
+  "samoens>flaine": [
+   "Chariande Express"
+  ],
+  "sixt>flaine": [
+   "Grand Massif Express",
+   "Chariande Express"
+  ],
+  "flaine>morillon": [
+   "Molliets"
+  ],
+  "flaine>sixt:easy": [
+   "Corbalanche",
+   "Damoiseaux",
+   "Grand Massif Express"
+  ],
+  "morillon>sixt": [
+   "Coulouvrier",
+   "Demoiselles"
+  ]
+ },
+ "cascades_osm": {
+  "ways_named_cascades_km": 10.6,
+  "difficulty": "intermediate"
+ },
+ "notes": "Matrices and base table start from the village lifts (cfg.matrixFrom village). Critical entry for the Sixt Cascades drag is an artifact of the skibus anchor and is not used. basesExtra is a second run (cfg2) with Vercland, Morillon 1100 (Sairon, Esserts), Samoëns 1600 (Chariande Express, Chariande 2, Damoiseaux, Demoiselles) and Flaine Forêt (Gérats) as their own bases; routes_any_base from SCNet.route start at every main lift base in the sector."
+}

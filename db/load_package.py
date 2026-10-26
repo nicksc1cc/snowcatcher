@@ -209,7 +209,7 @@ def build(node, path):
         return node
     if path == ["links"]:
         for i, (a, b, kind, crit, label) in enumerate(node):
-            sector_links.append((sec_prefix + a, sec_prefix + b, "lift_down" if kind == "ride" else "ski", crit, label, i))
+            sector_links.append((sec_prefix + a, sec_prefix + b, {"ride": "lift_down", "village": "bus", "walk": "walk"}.get(kind, "ski"), crit, label, i))
         return {"$links": net_meta["dataset"]}
     if path and path[0] == "photos" and len(path) == 2:
         file, author, lic, alt = node
@@ -257,7 +257,7 @@ ctx = dict(blocks={b["field"]: b["body"] for b in blocks}, facts=BYID, matrices=
            places={**{p["id"]: p for p in places}, **meta.get("existing_place_names", {})},
            media={m["id"]: m for m in media},
            lists={lid: [dict(item_place_id=i["place"], attrs=i["attrs"], blurb=i["blurb"]) for i in L["items"]] for lid, L in lists.items()},
-           links={net_meta["dataset"]: [[a[len(sec_prefix):], b[len(sec_prefix):], "ride" if by == "lift_down" else "lift", c, l]
+           links={net_meta["dataset"]: [[a[len(sec_prefix):], b[len(sec_prefix):], {"lift_down": "ride", "bus": "village", "walk": "village"}.get(by, "lift"), c, l]
                                         for a, b, by, c, l, o in sector_links]} if net_meta else {})
 for k, v in meta.get("existing_place_names", {}).items():
     ctx["places"][k] = {"name": v}

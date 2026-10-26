@@ -1,0 +1,109 @@
+{
+ "page_id": "page:area:grand-massif",
+ "place_id": "area:grand-massif",
+ "template": "l3-domain",
+ "level": 3,
+ "canonical_path": "/france/grand-massif/",
+ "retrieved": "2026-10-26",
+ "sector_prefix": "sector:grand-massif.",
+ "network": {
+  "dataset": "ds:gm-network-2026-10-26",
+  "file": "model/network.json"
+ },
+ "snow": {
+  "dataset": "ds:gm-era5-snow-2026-10-26",
+  "cell": "cell:era5.46.0.6.75",
+  "file": "data/snow_era5_seasons.csv"
+ },
+ "datasets": [
+  {
+   "id": "ds:gm-network-2026-10-26",
+   "kind": "network",
+   "title": "Grand Massif lift and piste network, OpenStreetMap snapshot 2026-10-26",
+   "place_id": "area:grand-massif",
+   "inputs": {
+    "osm_snapshot": "2026-10-26T21:08:20Z",
+    "overpass": "overpass-api.de",
+    "elevation": "Copernicus GLO-90 via Open-Meteo",
+    "config": "research/grand-massif/model/network_config.json"
+   },
+   "script_path": "db/model/network.js",
+   "run_at": "2026-10-26T21:08:20Z",
+   "outputs_file": "model/network.json",
+   "note": "0/1 BFS on lift rides from the village lifts (cfg.matrixFrom village); skibus transfers from Sixt and Vercland to the Grand Massif Express; Vagnys and Pralet chairs dropped as closed"
+  },
+  {
+   "id": "ds:gm-era5-snow-2026-10-26",
+   "kind": "snow",
+   "title": "ERA5 seasonal snowfall, cell 46.0 N 6.75 E, 1950/51 to 2025/26",
+   "place_id": "area:grand-massif",
+   "inputs": {
+    "api": "Open-Meteo historical weather",
+    "cell": "46.0,6.75",
+    "elevations_m": [
+     1100,
+     1600,
+     2100
+    ],
+    "months": "November to April"
+   },
+   "script_path": "research/grand-massif/data/snow_era5_seasons.csv",
+   "run_at": "2026-10-26T21:20:00Z"
+  },
+  {
+   "id": "ds:clusaz-era5-snow-2026-10-26",
+   "kind": "snow",
+   "title": "ERA5 seasonal snowfall at 1,600 m, cell 46.0 N 6.5 E, 1950/51 to 2025/26",
+   "place_id": "area:la-clusaz-manigod",
+   "inputs": {
+    "api": "Open-Meteo historical weather",
+    "cell": "46.0,6.5",
+    "elevations_m": [
+     1600
+    ],
+    "months": "November to April"
+   },
+   "script_path": "research/grand-massif/data/snow_era5_clusaz_1600.json",
+   "run_at": "2026-10-26T21:20:00Z"
+  },
+  {
+   "id": "ds:na-osrm-access-2026-10",
+   "kind": "routing",
+   "title": "OSRM road distances from the airports to the Northern Alps resorts (scoring access table)",
+   "place_id": "area:grand-massif",
+   "inputs": {
+    "router": "router.project-osrm.org",
+    "from": [
+     "poi:gva",
+     "poi:lys",
+     "poi:cmf"
+    ]
+   },
+   "script_path": "research/scoring/northern-alps/data/access.csv",
+   "run_at": "2026-10-23T00:00:00Z"
+  }
+ ],
+ "existing_places": [
+  "area:grand-massif",
+  "pass:grand-massif",
+  "area:portes-du-soleil",
+  "area:evasion-mont-blanc",
+  "pass:portes-du-soleil",
+  "pass:evasion-mont-blanc",
+  "cell:era5.46.0.6.75",
+  "cell:era5.46.25.6.75",
+  "cell:era5.45.75.6.75",
+  "country:fr",
+  "range:northern-alps",
+  "region:haute-savoie",
+  "poi:gva",
+  "poi:lys",
+  "poi:cmf"
+ ],
+ "existing_place_names": {
+  "area:grand-massif": "Grand Massif",
+  "area:portes-du-soleil": "Portes du Soleil",
+  "area:evasion-mont-blanc": "Évasion Mont Blanc",
+  "country:fr": "France"
+ }
+}

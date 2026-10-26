@@ -1,0 +1,67 @@
+id,type,name,subtype,lat,lon,parent,links,aliases
+area:grand-massif,area,Grand Massif,,,,in_range:range:northern-alps,in_country:country:fr;in_region:region:haute-savoie,Le Grand Massif
+area:la-clusaz-manigod,area,La Clusaz Manigod,,45.904,6.424,in_range:range:northern-alps,in_country:country:fr;in_region:region:haute-savoie,La Clusaz|Aravis
+pass:villages-grand-massif,pass,Villages pass,,,,,covers:area:grand-massif,Vill4ges|Grand Massif Villages
+pass:flaine,pass,Flaine pass,,,,,covers:area:grand-massif,
+pass:sixt-beginner,pass,Sixt beginner pass,,,,,covers:area:grand-massif,Sixt Débutant
+pass:la-clusaz-manigod,pass,La Clusaz Manigod pass,,,,,covers:area:la-clusaz-manigod,
+cell:era5.46.0.6.5,cell,ERA5 cell 46.0 N 6.5 E,,46.0,6.5,,serves:area:la-clusaz-manigod,
+resort:flaine,resort,Flaine,,46.006,6.693,in_area:area:grand-massif,in_country:country:fr,
+resort:les-carroz,resort,Les Carroz,,46.025,6.642,in_area:area:grand-massif,in_country:country:fr,Les Carroz d'Arâches|Les Carroz d'Araches
+resort:morillon,resort,Morillon,,46.084,6.677,in_area:area:grand-massif,in_country:country:fr,
+resort:samoens,resort,Samoëns,,46.083,6.727,in_area:area:grand-massif,in_country:country:fr,Samoens
+resort:sixt,resort,Sixt-Fer-à-Cheval,,46.056,6.776,in_area:area:grand-massif,in_country:country:fr,Sixt
+sector:grand-massif.flaine,sector,Flaine,,46.000,6.695,in_area:area:grand-massif,in_resort:resort:flaine,Grandes Platières|Flaine Forum|Flaine Forêt
+sector:grand-massif.carroz,sector,Les Carroz,,46.035,6.650,in_area:area:grand-massif,in_resort:resort:les-carroz,Tête des Saix|Les Molliets
+sector:grand-massif.morillon,sector,Morillon,,46.070,6.672,in_area:area:grand-massif,in_resort:resort:morillon,Morillon 1100|Les Esserts
+sector:grand-massif.samoens,sector,Samoëns,,46.055,6.715,in_area:area:grand-massif,in_resort:resort:samoens,Samoëns 1600|Vercland
+sector:grand-massif.sixt,sector,Sixt,,46.050,6.770,in_area:area:grand-massif,in_resort:resort:sixt,Salvagny
+village:samoens-1600,village,Samoëns 1600,,46.056,6.702,in_resort:resort:samoens,,Plateau des Saix
+village:vercland,village,Vercland,,46.072,6.701,in_resort:resort:samoens,,
+village:morillon-1100,village,Morillon 1100,,46.066,6.672,in_resort:resort:morillon,,Les Esserts
+village:flaine-foret,village,Flaine Forêt,,46.008,6.690,in_resort:resort:flaine,,
+village:salvagny,village,Salvagny,,46.045,6.767,in_resort:resort:sixt,,
+lift:grand-massif.grand-massif-express,lift,Grand Massif Express,gondola,46.0765,6.7212,in_area:area:grand-massif,,
+lift:grand-massif.grandes-platieres,lift,Grandes Platières,cable_car,46.0042,6.6965,in_area:area:grand-massif,,
+lift:grand-massif.kedeuze,lift,Kédeuze,gondola,46.0247,6.6444,in_area:area:grand-massif,,
+lift:grand-massif.morillon,lift,Morillon gondola,gondola,46.0814,6.6806,in_area:area:grand-massif,,
+lift:grand-massif.sairon,lift,Sairon,chair_lift,46.0654,6.6720,in_area:area:grand-massif,,
+lift:grand-massif.coulouvrier,lift,Coulouvrier,chair_lift,46.0537,6.6836,in_area:area:grand-massif,,
+lift:grand-massif.tete-des-saix,lift,Tête des Saix,chair_lift,46.0200,6.6714,in_area:area:grand-massif,,
+lift:grand-massif.vercland,lift,Vercland gondola,gondola,46.0721,6.7006,in_area:area:grand-massif,,
+poi:cluses-station,poi,Cluses station,station,46.061,6.578,,,
+poi:piste-des-cascades,poi,Piste des Cascades,piste,46.020,6.740,in_area:area:grand-massif,,Les Cascades
+poi:combe-de-gers,poi,Combe de Gers,off_piste,46.020,6.722,in_area:area:grand-massif,,
+poi:jam-park-flaine,poi,Jam Park,snowpark,45.999,6.685,in_resort:resort:flaine,,
+poi:quartz-park,poi,Ze Quartz Park,snowpark,46.000,6.700,in_resort:resort:flaine,,
+poi:funny-slope,poi,Funny Slope,snowpark,46.007,6.697,in_resort:resort:flaine,,
+poi:urbanz,poi,Urban'z,snowpark,46.005,6.699,in_resort:resort:flaine,,
+poi:kids-park-morillon,poi,Kids Park,snowpark,46.066,6.671,in_resort:resort:morillon,,
+poi:diamant-noir,poi,Diamant Noir,off_piste,45.993,6.715,in_resort:resort:flaine,,
+poi:combe-de-veret,poi,Combe de Véret,off_piste,46.011,6.702,in_resort:resort:flaine,,
+poi:samoens-1600-learning,poi,Samoëns 1600 learning area,beginner_area,46.056,6.703,in_resort:resort:samoens,,
+poi:flaine-front-de-neige,poi,Flaine beginner lifts,beginner_area,46.004,6.694,in_resort:resort:flaine,,
+poi:plateau-des-esserts,poi,Plateau des Esserts,beginner_area,46.066,6.673,in_resort:resort:morillon,,
+poi:les-carroz-village-slope,poi,Les Carroz village slope,beginner_area,46.024,6.643,in_resort:resort:les-carroz,,
+poi:salvagny-beginners,poi,Salvagny,beginner_area,46.045,6.767,in_resort:resort:sixt,,
+poi:aquacime,poi,Aquacîme,spa,46.025,6.642,in_resort:resort:les-carroz,,
+poi:lac-bleu-morillon,poi,Lac Bleu,lake,46.083,6.682,in_resort:resort:morillon,,
+poi:le-lodge-samoens,poi,Le Lodge,restaurant,46.081,6.728,in_resort:resort:samoens,,
+poi:le-8m-des-monts,poi,Le 8M des Monts,restaurant,46.083,6.727,in_resort:resort:samoens,,
+poi:la-croix-de-savoie,poi,La Croix de Savoie,restaurant,46.022,6.640,in_resort:resort:les-carroz,,
+poi:le-monde-a-l-envers,poi,Le Monde à l'Envers,restaurant,46.083,6.727,in_resort:resort:samoens,,
+poi:chalet-des-molliets,poi,Le Chalet des Molliets,restaurant,46.021,6.671,in_resort:resort:les-carroz,,
+poi:alpage-de-l-airon,poi,L'Alpage de l'Airon,restaurant,46.028,6.650,in_resort:resort:les-carroz,,
+poi:gite-du-lac-de-gers,poi,Gîte du Lac de Gers,restaurant,46.030,6.725,in_area:area:grand-massif,,
+poi:jaysinia,poi,Jaÿsinia,garden,46.082,6.729,in_resort:resort:samoens,,
+poi:brasserie-du-giffre,poi,Brasserie de la Vallée du Giffre,brewery,46.084,6.680,in_resort:resort:morillon,,
+poi:pente-a-jules,poi,Le Pente à Jules,bar,46.004,6.695,in_resort:resort:flaine,,
+poi:white-pub-flaine,poi,Le White Pub,bar,46.004,6.694,in_resort:resort:flaine,,
+poi:les-caves-flaine,poi,Les Caves,club,46.004,6.694,in_resort:resort:flaine,,
+poi:bam-pub,poi,Bam Pub,bar,46.008,6.692,in_resort:resort:flaine,,
+poi:galaxy-bowling,poi,Galaxy Bowling,bowling,46.004,6.694,in_resort:resort:flaine,,
+poi:chez-jeff,poi,L'Après-Ski Chez Jeff,bar,46.082,6.727,in_resort:resort:samoens,,
+poi:evil-monkey,poi,Evil Monkey,bar,46.083,6.727,in_resort:resort:samoens,,
+poi:the-marlow,poi,The Marlow,bar,46.025,6.641,in_resort:resort:les-carroz,,
+poi:le-potet,poi,Le Potet 2.0,bar,46.066,6.673,in_resort:resort:morillon,,
+poi:pointe-noire,poi,La Pointe Noire,bar,46.025,6.641,in_resort:resort:les-carroz,,
