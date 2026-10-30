@@ -1,0 +1,245 @@
+{
+  "resort": "Serre Chevalier",
+  "slug": "serre-chevalier",
+  "region": "Alpes du Sud",
+  "scoring_method": "v1.1",
+  "research_status": "evidence_compiled_measurement_inputs_incomplete",
+  "researched_at": "2026-10-30",
+  "published_facts": {
+    "alpine_km": {
+      "value": 250,
+      "unit": "km",
+      "source": "https://www.serre-chevalier.com/en/ski-area/ski-area",
+      "note": "Current operator figure."
+    },
+    "lifts": {
+      "value": 58,
+      "source": "https://www.serre-chevalier.com/en/ski-area/ski-area",
+      "note": "Current operator figure. Alti-Mag currently reports 70, and older resort material reports 68. Use 58 for published resort facts; independently mapped lift count remains a scoring input."
+    },
+    "runs": {
+      "value": 82,
+      "breakdown": {
+        "green": 15,
+        "blue": 26,
+        "red": 28,
+        "black": 13
+      },
+      "source": "https://www.serre-chevalier.com/en/ski-area/ski-area",
+      "note": "Current operator breakdown."
+    },
+    "altitude_m": {
+      "base": 1200,
+      "top": 2800,
+      "source": "https://www.serre-chevalier.com/en/ski-area/ski-area",
+      "cross_check": "https://www.alti-mag.com/en/domaines-skiables/serre-chevalier"
+    },
+    "high_altitude_pistes": {
+      "value": 80,
+      "unit": "percent",
+      "definition": "Runs above 1800 m",
+      "source": "https://www.serre-chevalier.com/en/ski-area/ski-area"
+    },
+    "cross_country_km": {
+      "value": 45,
+      "source": "https://www.alti-mag.com/en/stations/briancon-serre-chevalier",
+      "note": "Alti-Mag current resort page. Existing research record says 35 km; replace only after checking the official Nordic network map."
+    },
+    "pass_prices_2026_27": {
+      "day_eur": 68,
+      "six_day_eur": 345,
+      "season_eur": 903,
+      "source": "https://www.alti-mag.com/en/domaines-skiables/serre-chevalier",
+      "cross_check": "https://www.serrechevalier-pass.com/en/ski-area"
+    },
+    "season_2026_27": {
+      "opens": "2026-12-05",
+      "closes": "2027-04-18",
+      "source": "https://www.serre-chevalier.com/en/ski-area"
+    },
+    "snowmaking": {
+      "operator_claim": "300+ snow cannons",
+      "source": "https://www.serrechevalier.com/skiing.aspx",
+      "note": "Older operator content; do not use as a current measured input without confirming current installed count."
+    },
+    "terrain_parks": {
+      "features": [
+        "Briancon Big Air",
+        "Chantemerle Snowboard Cross",
+        "Villeneuve Half Pipe Free Ride",
+        "Monetier Carving"
+      ],
+      "source": "https://www.serrechevalier.com/skiing.aspx",
+      "note": "Named park and freestyle features from operator material; park count and area still require mapped verification."
+    }
+  },
+  "valley_structure": {
+    "four_sectors": [
+      {
+        "name": "Briancon",
+        "access": "Prorel gondola",
+        "character": "Fortified historic town with direct lift access"
+      },
+      {
+        "name": "Chantemerle",
+        "commune": "Saint-Chaffrey",
+        "access": "Place du Telepherique"
+      },
+      {
+        "name": "Villeneuve",
+        "commune": "La Salle-les-Alpes",
+        "access": "Aravet and Frejus/Pontillas"
+      },
+      {
+        "name": "Le Monetier-les-Bains",
+        "access": "Pre Chabert"
+      }
+    ],
+    "settlement_count": 13,
+    "source": "https://www.serre-chevalier.com/en/frequently-asked-questions",
+    "note": "Four sectors contain 13 villages and hamlets. Keep sector-level scoring separate from individual settlement content."
+  },
+  "scoring_research": {
+    "skiing": {
+      "evidence": [
+        "250 km marked piste network",
+        "82 runs with 15 green, 26 blue, 28 red and 13 black",
+        "1200 m to 2800 m published altitude range",
+        "80 percent of runs above 1800 m"
+      ],
+      "unavailable_method_inputs": [
+        "Mapped piste kilometres by difficulty",
+        "Mapped lift count at the chosen base",
+        "Drag lift percentage",
+        "Mapped vertical and km per lift",
+        "Flat piste percentage by difficulty",
+        "Steep piste kilometres"
+      ]
+    },
+    "families": {
+      "evidence": [
+        "Operator describes protected family areas and discovery zones",
+        "Official activity listings include ice rink, dog sledding, pools and indoor activities"
+      ],
+      "source": "https://www.serre-chevalier.com/en/activities",
+      "unavailable_method_inputs": [
+        "Mapped ski school count",
+        "Childcare and kindergarten POIs",
+        "Playground count",
+        "Sledging trail kilometres",
+        "Mapped ice rink count"
+      ]
+    },
+    "non_skiers": {
+      "evidence": [
+        "Grands Bains thermal spa at Monetier",
+        "Briancon heritage, museums, cinema, theatre and Olympic ice rink",
+        "Pools and indoor activities across the valley"
+      ],
+      "sources": [
+        "https://www.serre-chevalier.com/en/activities",
+        "https://www.serre-chevalier.com/en/frequently-asked-questions",
+        "https://www.serrechevalier.com/about-the-valley/briancon.aspx"
+      ],
+      "unavailable_method_inputs": [
+        "Mapped POI counts by category",
+        "Mapped winter walking and snowshoe trail kilometres",
+        "Verified Nordic network kilometres"
+      ]
+    },
+    "experts_off_piste": {
+      "evidence": [
+        "Off piste terrain in Cucumelle sector",
+        "Local guide operators advertise named itineraries including Tour du Prorel, La Balme Couloir, Tete des Grands Pres, Vallons des Corneilles and Vallons de la Montagnole",
+        "Guide-led terrain ranges from forest and open alpine slopes to steep couloirs and high mountain routes"
+      ],
+      "sources": [
+        "https://www.alti-mag.com/en/stations/briancon-serre-chevalier",
+        "https://www.esi-generation.com/en/activites/freeride-off-piste-skiing-outing/",
+        "https://guides-serrechevalier.com/activites/freeride/"
+      ],
+      "unavailable_method_inputs": [
+        "Comparable guide-source mention count",
+        "Distinct named route count under the v1.1 rules",
+        "Mapped glacier area and lift-reachable freeride kilometres",
+        "Mapped steep piste kilometres"
+      ]
+    },
+    "snowboarders": {
+      "evidence": [
+        "Official freestyle features include Big Air, snowboard cross and half pipe/free ride",
+        "250 km network with 82 runs"
+      ],
+      "source": "https://www.serrechevalier.com/skiing.aspx",
+      "unavailable_method_inputs": [
+        "Mapped drag lift percentage",
+        "Flat intermediate piste percentage",
+        "Mapped intermediate piste kilometres"
+      ]
+    },
+    "parks": {
+      "evidence": [
+        "Operator identifies four freestyle features across the sectors"
+      ],
+      "source": "https://www.serrechevalier.com/skiing.aspx",
+      "unavailable_method_inputs": [
+        "Consistent park count",
+        "Mapped park area in hectares"
+      ]
+    },
+    "apres": {
+      "evidence": [
+        "Briancon includes nightlife and a named nightclub in resort guide material",
+        "Alti-Mag describes local restaurant and village atmosphere"
+      ],
+      "sources": [
+        "https://www.serrechevalier.com/about-the-valley/briancon.aspx",
+        "https://www.alti-mag.com/en/stations/briancon-serre-chevalier"
+      ],
+      "unavailable_method_inputs": [
+        "Guide ranking and verdict inputs",
+        "Deduplicated named venue, club and slope-apres counts",
+        "Event count under v1.1 source rules"
+      ]
+    },
+    "foodies": {
+      "evidence": [
+        "Official tourism sources identify restaurants and local producers across the valley"
+      ],
+      "source": "https://www.serre-chevalier.com/en/frequently-asked-questions",
+      "unavailable_method_inputs": [
+        "Michelin 2026 distinctions",
+        "Gault and Millau 2026 toques",
+        "Mapped village and mountain restaurant counts",
+        "Mapped specialist food shop counts"
+      ]
+    },
+    "access": {
+      "evidence": [
+        "Briancon has a railway station",
+        "Official FAQ identifies access by train and airports including Turin, Grenoble, Lyon and Marseille"
+      ],
+      "source": "https://www.serre-chevalier.com/en/frequently-asked-questions",
+      "unavailable_method_inputs": [
+        "OSRM road minutes and distances from the same airport set used in the v1.1 range",
+        "Mapped accommodation-to-lift distance",
+        "Ski-in/ski-out accommodation percentage"
+      ]
+    }
+  },
+  "scoring_status": {
+    "hero_scores_calculated": false,
+    "reason": "The v1.1 audience scores depend on measured network, POI, gradient, access, guide and food inputs. Published resort statistics alone are not substitutes for those measures.",
+    "next_calculation_inputs": [
+      "resorts.csv row with a checked OSM base point",
+      "measures_raw.csv row",
+      "measures2.json row",
+      "access.csv row",
+      "altimag_prices.csv row",
+      "parks.json row",
+      "apres_mentions.csv and related verdict/event rows",
+      "offpiste_mentions.csv and offpiste_map.json rows",
+      "michelin_2026.csv and gaultmillau.csv rows"
+    ]
+  }
+}
