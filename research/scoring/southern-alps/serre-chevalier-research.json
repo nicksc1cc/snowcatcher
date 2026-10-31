@@ -3,7 +3,7 @@
   "slug": "serre-chevalier",
   "region": "Alpes du Sud",
   "scoring_method": "v1.1",
-  "research_status": "evidence_compiled_measurement_inputs_incomplete",
+  "research_status": "schema_assessment_complete_numeric_inputs_pending",
   "researched_at": "2026-10-30",
   "published_facts": {
     "alpine_km": {
@@ -225,21 +225,123 @@
         "Mapped accommodation-to-lift distance",
         "Ski-in/ski-out accommodation percentage"
       ]
+    },
+    "assessment_v11": {
+      "method": "Existing score_v11.py and audiences.json. No changes to schema or weights.",
+      "note": "These are evidence-based assessments, not numeric v1.1 outputs. The existing scorer requires mapped piste kilometres, POI counts, gradient, access and guide datasets. Published run counts are not substituted for mapped piste kilometres.",
+      "dimensions": [
+        {
+          "id": "beginners",
+          "weights": {
+            "skiing.beginner": 4,
+            "families": 1,
+            "value": 1,
+            "ease": 1
+          },
+          "assessment": "Positive terrain breadth: 15 green and 26 blue runs, plus protected family and discovery areas. Quality of beginner terrain, drag share, flatness, ski school coverage and access remain to be measured.",
+          "confidence": "medium"
+        },
+        {
+          "id": "families",
+          "weights": {
+            "families": 3,
+            "skiing.beginner": 2,
+            "ease": 2,
+            "value": 1,
+            "non_skiers": 1
+          },
+          "assessment": "Strong valley-wide family proposition. Protected family areas and discovery zones combine with pools, ice rink, dog sledding and indoor activities. The four-sector layout makes accommodation-to-lift convenience village-dependent.",
+          "confidence": "medium-high"
+        },
+        {
+          "id": "adventurers",
+          "weights": {
+            "offpiste": 5,
+            "adventure": 3,
+            "skiing.advanced": 1
+          },
+          "assessment": "Credible expert offer. Named guided routes include Tour du Prorel, La Balme Couloir, Tête des Grands Prés, Vallons des Corneilles and Vallons de la Montagnole. Published summit altitude is 2,800 m with 1,600 m vertical. Guide coverage, steep kilometres, glacier area and lift-reachable freeride kilometres remain to be measured.",
+          "confidence": "medium-high"
+        },
+        {
+          "id": "snowboarders",
+          "weights": {
+            "board": 3,
+            "skiing.intermediate": 2,
+            "parks": 1
+          },
+          "assessment": "Mixed. A 250 km domain and 26 blue plus 28 red runs provide scale; operator material identifies Big Air, snowboard cross and half-pipe/freeride features. Drag lift share and flat intermediate terrain are decisive in this recipe and cannot be inferred from run counts.",
+          "confidence": "medium"
+        },
+        {
+          "id": "park-rats",
+          "weights": {
+            "parks": 4,
+            "board": 1,
+            "apres": 1
+          },
+          "assessment": "Freestyle features are identified across the sectors, including Big Air, snowboard cross and half-pipe/freeride. Current maintained park count and combined area are unverified. These carry most of the recipe weight and could materially change the result.",
+          "confidence": "medium-low"
+        },
+        {
+          "id": "non-skiers",
+          "weights": {
+            "non_skiers": 4,
+            "village": 1,
+            "ease": 1
+          },
+          "assessment": "One of the clearest strengths. Grands Bains thermal spa, Briançon's historic town and cultural offer, pools, ice rink, cinema, theatre, bowling and other indoor activities create a varied non-ski programme. Alti-Mag reports 45 km Nordic trails; verify against the official network map before treating this as a measured input.",
+          "confidence": "high"
+        },
+        {
+          "id": "party",
+          "weights": {
+            "apres": 4,
+            "size": 1
+          },
+          "assessment": "A distributed evening offer across the valley, with Briançon adding town-centre bars and nightlife including a named nightclub. Current evidence does not establish high-intensity party-resort status. Existing scoring requires independent guide rankings, deduplicated venues, clubs, slope venues, events and mapped bars.",
+          "confidence": "medium-low"
+        },
+        {
+          "id": "foodies",
+          "weights": {
+            "food": 4,
+            "village": 1
+          },
+          "assessment": "Four sectors and established settlements create a broad restaurant landscape. However, current 2026 Michelin distinctions, Gault&Millau toques and comparable mapped restaurant and specialist food-shop counts still need verification. General restaurant presence is not enough to award a high score.",
+          "confidence": "low"
+        }
+      ],
+      "additional_components": {
+        "value": {
+          "assessment": "Using the published 2026/27 Alti-Mag prices of €68/day and €345/six days, the existing large-domain v1.1 anchors (€85 to €55 day; €470 to €280 six-day) produce a provisional pass-value component of 56.7/100. This is pass value only, not total trip affordability.",
+          "score": 56.7
+        },
+        "mixed_ability": {
+          "assessment": "The published distribution spans all four grades: 15 green, 26 blue, 28 red and 13 black. Positive evidence for mixed ability, but the formula uses mapped kilometres by grade, not run counts."
+        },
+        "access": {
+          "assessment": "Briançon has rail access and the valley is reachable from regional airports. No v1.1 ease score until comparable drive times, bed-to-lift distance and ski-in/ski-out share are measured."
+        },
+        "village": {
+          "assessment": "Four sectors and 13 settlements create a broad village ecosystem. v1.1 village score still needs mapped food shops, groceries and village restaurants."
+        }
+      }
     }
   },
   "scoring_status": {
     "hero_scores_calculated": false,
-    "reason": "The v1.1 audience scores depend on measured network, POI, gradient, access, guide and food inputs. Published resort statistics alone are not substitutes for those measures.",
-    "next_calculation_inputs": [
-      "resorts.csv row with a checked OSM base point",
-      "measures_raw.csv row",
-      "measures2.json row",
-      "access.csv row",
-      "altimag_prices.csv row",
-      "parks.json row",
-      "apres_mentions.csv and related verdict/event rows",
-      "offpiste_mentions.csv and offpiste_map.json rows",
-      "michelin_2026.csv and gaultmillau.csv rows"
+    "research_assessment_complete": true,
+    "numeric_v11_status": "awaiting_existing_measured_inputs",
+    "reason": "The eight audience recipes have now been assessed against available resort evidence. Numeric scores require the mapped inputs used by the existing v1.1 scorer; substituting published run counts or qualitative descriptions would corrupt the method.",
+    "remaining_inputs": [
+      "Piste kilometres by grade, mapped lift count, drag share, vertical, km per lift, flat share and steep kilometres",
+      "POI counts for family, non-skier, village, restaurant and bar measures",
+      "Airport drive times, bed-to-lift distance and ski-in/ski-out share",
+      "Current maintained park count and area",
+      "Après guide rankings, verdicts, venues, clubs, slope venues and events",
+      "Off-piste guide coverage, distinct routes, glacier area and freeride kilometres",
+      "2026 Michelin and Gault&Millau entries"
     ]
   }
 }
