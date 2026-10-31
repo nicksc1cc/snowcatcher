@@ -55,6 +55,7 @@ LINKED = {
     "grand-tourmalet": ["bareges", "la-mongie-grand-tourmalet"],
     "font-romeu-pyrenees-2000": ["font-romeu", "pyrenees-2000"],
     "les-rousses": ["les-rousses"],
+    "grand-domaine-du-sancy": ["super-besse", "le-mont-dore"],
 }
 
 # Stations Alti-Mag lists separately that belong to another resort.
