@@ -1,0 +1,219 @@
+slug,name,range,department,base_m,top_m,alpine_km,linked_areas,part_of,shared_with,source
+bellefontaine,Bellefontaine,jura,Jura,1030,1255,3,,,,Alti-Mag range page
+foncine-le-haut,Foncine-le-Haut,jura,Jura,900,1030,2,,,,Alti-Mag range page
+hauteville,Hauteville,jura,Ain,850,1240,15,,,,Alti-Mag range page
+les-fourgs,Les Fourgs,jura,Doubs,1085,1303,6,,,,Alti-Mag range page
+les-rousses,Les Rousses,jura,Jura,1110,1679,33,les-rousses,,,Alti-Mag range page
+metabief,Métabief,jura,Doubs,1000,1420,26,,,,Alti-Mag range page
+monts-jura,Monts Jura,jura,Ain,900,1680,36,,,,Alti-Mag range page
+morbier,Morbier,jura,Jura,900,1160,2,,,,Alti-Mag range page
+plateau-de-retord-les-plans-d-hotonnes,Plateau de Retord – Les Plans d'Hotonnes,jura,Ain,900,1350,15,,,,Alti-Mag range page
+brameloup,Brameloup,massif-central,Aveyron,1200,1388,6,,,,Alti-Mag range page
+chalmazel,Chalmazel,massif-central,Loire,1110,1590,12,,,,Alti-Mag range page
+la-croix-de-bauzon,La Croix de Bauzon,massif-central,Ardèche,1250,1509,5,,,,Alti-Mag range page
+la-loge-des-gardes,La Loge des Gardes,massif-central,Allier,1050,1195,2,,,,Alti-Mag range page
+laguiole,Laguiole,massif-central,Aveyron,1200,1407,8,,,,Alti-Mag range page
+le-bleymard-mont-lozere,Le Bleymard – Mont Lozère,massif-central,Lozère,1400,1702,10,,,,Alti-Mag range page
+le-lioran,Le Lioran,massif-central,Cantal,1240,1815,60,,,,Alti-Mag range page
+le-mont-dore,Le Mont-Dore,massif-central,Puy-de-Dôme,1000,1840,41,,,,Alti-Mag range page
+les-estables,Les Estables,massif-central,Haute-Loire,1325,1753,4,,,,Alti-Mag range page
+prat-peyrot-alti-aigoual,Prat-Peyrot – Alti-Aigoual,massif-central,Gard,1200,1567,9,,,,Alti-Mag range page
+super-besse,Super-Besse,massif-central,Puy-de-Dôme,1300,1850,60,,,,Alti-Mag range page
+abondance,Abondance,northern-alps,Haute-Savoie,930,1690,17,portes-du-soleil,,,Alti-Mag range page
+aillons-margeriaz,Aillons-Margeriaz,northern-alps,Savoie,900,1845,25,,,,Alti-Mag range page
+alpe-du-grand-serre,Alpe du Grand-Serre,northern-alps,Isère,1400,2160,55,,,,Alti-Mag range page
+areches-beaufort,Arêches Beaufort,northern-alps,Savoie,1200,2300,50,,,,Alti-Mag range page
+argentiere,Argentière,northern-alps,Haute-Savoie,1250,2752,155,,,,Alti-Mag range page
+auris-en-oisans,Auris en Oisans,northern-alps,Isère,1600,3330,245,alpe-dhuez-grand-domaine,,,Alti-Mag range page
+aussois,Aussois,northern-alps,Savoie,1480,2680,55,,,,Alti-Mag range page
+autrans-meaudre-en-vercors,Autrans-Méaudre en Vercors,northern-alps,Isère,1040,1610,19,,,,Alti-Mag range page
+avoriaz-1800,Avoriaz 1800,northern-alps,Haute-Savoie,1800,2276,600,portes-du-soleil,,,Alti-Mag range page
+bellevaux-hirmentaz,Bellevaux – Hirmentaz,northern-alps,Haute-Savoie,1100,1610,25,hirmentaz-les-haberes,,,Alti-Mag range page
+bernex,Bernex,northern-alps,Haute-Savoie,950,1850,30,,,,Alti-Mag range page
+bessans,Bessans,northern-alps,Savoie,1730,1850,3,,,,Alti-Mag range page
+bonneval-sur-arc,Bonneval sur Arc,northern-alps,Savoie,1800,3000,32,,,,Alti-Mag range page
+chamonix-mont-blanc,Chamonix Mont-Blanc,northern-alps,Haute-Savoie,1035,3290,155,vallorcine-le-tour,,,Alti-Mag range page
+champagny-en-vanoise,Champagny en Vanoise,northern-alps,Savoie,1250,3030,425,paradiski,,,Alti-Mag range page
+chamrousse,Chamrousse,northern-alps,Isère,1650,2250,90,,,,Alti-Mag range page
+chatel,Châtel,northern-alps,Haute-Savoie,1200,2200,600,portes-du-soleil,,,Alti-Mag range page
+combloux,Combloux,northern-alps,Haute-Savoie,1020,1930,100,evasion-mont-blanc,,,Alti-Mag range page
+cordon,Cordon,northern-alps,Haute-Savoie,870,1540,11,,,,Alti-Mag range page
+courchevel,Courchevel,northern-alps,Savoie,1500,3230,600,les-3-vallees,,,Alti-Mag range page
+crest-voland,Crest Voland,northern-alps,Savoie,1210,2050,192,espace-diamant,,,Alti-Mag range page
+flaine,Flaine,northern-alps,Haute-Savoie,1600,2480,265,grand-massif,,,Alti-Mag range page
+flumet,Flumet,northern-alps,Savoie,910,2040,192,espace-diamant,,,Alti-Mag range page
+font-d-urle,Font d'Urle / Espace Nordique Sud Vercors,northern-alps,Drôme,1450,1540,16,,,,Alti-Mag range page
+gresse-en-vercors,Gresse en Vercors,northern-alps,Isère,1200,1760,13,,,,Alti-Mag range page
+habere-poche,Habère-Poche,northern-alps,Haute-Savoie,950,1600,25,hirmentaz-les-haberes,,,Alti-Mag range page
+hauteluce,Hauteluce,northern-alps,Savoie,1140,2050,192,espace-diamant;les-contamines-hauteluce,,,Alti-Mag range page
+l-alpe-d-huez,L'Alpe d'Huez,northern-alps,Isère,1860,3330,245,alpe-dhuez-grand-domaine,,,Alti-Mag range page
+la-chapelle-d-abondance,La Chapelle d'Abondance,northern-alps,Haute-Savoie,1000,1800,600,portes-du-soleil,,,Alti-Mag range page
+la-clusaz,La Clusaz,northern-alps,Haute-Savoie,1040,2470,125,la-clusaz-manigod,,,Alti-Mag range page
+la-feclaz,La Féclaz / Savoie Grand Revard,northern-alps,Savoie,1360,1550,20,,,,Alti-Mag range page
+la-giettaz,La Giettaz,northern-alps,Savoie,1200,1930,100,evasion-mont-blanc,,,Alti-Mag range page
+la-norma,La Norma,northern-alps,Savoie,1370,2720,65,,,,Alti-Mag range page
+la-plagne,La Plagne,northern-alps,Savoie,1600,3080,425,paradiski,,,Alti-Mag range page
+la-rosiere,La Rosière,northern-alps,Savoie,1850,2790,154,espace-san-bernardo,,,Alti-Mag range page
+la-station-du-granier,La station du Granier,northern-alps,Isère,1000,1420,2,,,,Alti-Mag range page
+la-toussuire,La Toussuire,northern-alps,Savoie,1700,2580,310,les-sybelles,,,Alti-Mag range page
+lans-en-vercors,Lans en Vercors,northern-alps,Isère,1020,1807,24,,,,Alti-Mag range page
+le-col-d-ornon,Le col d'Ornon,northern-alps,Isère,1370,1850,7,,,,Alti-Mag range page
+le-col-de-marcieu,Le col de Marcieu,northern-alps,Isère,1050,1300,5,,,,Alti-Mag range page
+le-col-de-porte,Le col de Porte,northern-alps,Isère,1310,1425,5,,,,Alti-Mag range page
+le-col-de-rousset,Le col de Rousset,northern-alps,Drôme,1250,1700,30,,,,Alti-Mag range page
+le-col-du-barioz,Le col du Barioz,northern-alps,Isère,1380,1690,2,,,,Alti-Mag range page
+le-collet-d-allevard,Le Collet d'Allevard,northern-alps,Isère,1450,2080,35,,,,Alti-Mag range page
+le-corbier,Le Corbier,northern-alps,Savoie,1550,2580,310,les-sybelles,,,Alti-Mag range page
+le-desert-d-entremont,Le Désert d'Entremont,northern-alps,Savoie,1200,1440,10,,,,Alti-Mag range page
+le-grand-bornand,Le Grand Bornand,northern-alps,Haute-Savoie,1300,2100,84,,,,Alti-Mag range page
+le-reposoir,Le Reposoir,northern-alps,Haute-Savoie,980,1600,5,,,,Alti-Mag range page
+le-revard,Le Revard / Savoie Grand Revard,northern-alps,Savoie,1500,1536,10,,,,Alti-Mag range page
+le-saleve,Le Salève,northern-alps,Haute-Savoie,1160,1360,1,,,,Alti-Mag range page
+le-sappey-en-chartreuse,Le Sappey en Chartreuse,northern-alps,Isère,980,1140,5,,,,Alti-Mag range page
+le-semnoz,Le Semnoz,northern-alps,Haute-Savoie,1480,1702,20,,,,Alti-Mag range page
+les-2-alpes,Les 2 Alpes,northern-alps,Isère,1650,3500,220,,,,Alti-Mag range page
+les-7-laux,Les 7 Laux,northern-alps,Isère,1350,2370,120,,,,Alti-Mag range page
+les-albiez,Les Albiez,northern-alps,Savoie,1500,2000,35,,,,Alti-Mag range page
+les-arcs,Les Arcs,northern-alps,Savoie,1600,3226,425,paradiski,,,Alti-Mag range page
+les-bottieres,Les Bottières,northern-alps,Savoie,1280,2580,310,les-sybelles,,,Alti-Mag range page
+les-brasses,Les Brasses,northern-alps,Haute-Savoie,880,1500,35,,,,Alti-Mag range page
+les-carroz-d-araches,Les Carroz d'Araches,northern-alps,Haute-Savoie,1140,2480,265,grand-massif,,,Alti-Mag range page
+les-contamines-montjoie,Les Contamines Montjoie,northern-alps,Haute-Savoie,1160,2440,120,les-contamines-hauteluce,,,Alti-Mag range page
+les-coulmes-col-de-romeyere,Les Coulmes – col de Romeyère,northern-alps,Isère,1000,1420,2,,,,Alti-Mag range page
+les-gets,Les Gets,northern-alps,Haute-Savoie,1200,2200,600,portes-du-soleil,,,Alti-Mag range page
+les-houches,Les Houches,northern-alps,Haute-Savoie,1000,1890,55,les-houches-saint-gervais,,,Alti-Mag range page
+les-karellis,Les Karellis,northern-alps,Savoie,1600,2480,60,,,,Alti-Mag range page
+les-menuires,Les Menuires,northern-alps,Savoie,1500,3230,600,les-3-vallees,,,Alti-Mag range page
+les-saisies,Les Saisies,northern-alps,Savoie,1650,2050,192,espace-diamant,,,Alti-Mag range page
+les-signaraux,Les Signaraux,northern-alps,Isère,1285,1417,2,,,,Alti-Mag range page
+lullin,Lullin (col du Feu),northern-alps,Haute-Savoie,1090,1150,1,,,,Alti-Mag range page
+lus-la-jarjatte,Lus la Jarjatte,northern-alps,Isère,1180,1520,7,,,,Alti-Mag range page
+manigod,Manigod,northern-alps,Haute-Savoie,1500,1650,125,la-clusaz-manigod,,,Alti-Mag range page
+megeve,Megève,northern-alps,Haute-Savoie,1100,2370,445,evasion-mont-blanc,,,Alti-Mag range page
+meribel,Méribel,northern-alps,Savoie,1450,3230,600,les-3-vallees,,,Alti-Mag range page
+mont-saxonnex,Mont-Saxonnex,northern-alps,Haute-Savoie,1050,1570,15,,,,Alti-Mag range page
+montchavin-les-coches,Montchavin les Coches,northern-alps,Savoie,1400,3020,425,paradiski,,,Alti-Mag range page
+montmin,Montmin,northern-alps,Haute-Savoie,1100,1180,2,,,,Alti-Mag range page
+montriond,Montriond,northern-alps,Haute-Savoie,1200,2250,600,portes-du-soleil,,,Alti-Mag range page
+morillon,Morillon,northern-alps,Haute-Savoie,680,2480,265,grand-massif,,,Alti-Mag range page
+morzine,Morzine,northern-alps,Haute-Savoie,950,2466,600,portes-du-soleil,,,Alti-Mag range page
+notre-dame-de-bellecombe,Notre Dame de Bellecombe,northern-alps,Savoie,1130,2050,192,espace-diamant,,,Alti-Mag range page
+orelle,Orelle,northern-alps,Savoie,900,3230,600,les-3-vallees,,,Alti-Mag range page
+oz-en-oisans,Oz-en-Oisans,northern-alps,Isère,1350,3330,250,alpe-dhuez-grand-domaine,,,Alti-Mag range page
+passy-plaine-joux,Passy Plaine Joux,northern-alps,Haute-Savoie,1340,1730,12,,,,Alti-Mag range page
+peisey-vallandry,Peisey Vallandry,northern-alps,Savoie,1600,3226,425,paradiski,,,Alti-Mag range page
+pralognan-la-vanoise,Pralognan la Vanoise,northern-alps,Savoie,1410,2350,25,,,,Alti-Mag range page
+praz-de-lys-sommand,Praz de Lys Sommand,northern-alps,Haute-Savoie,1450,1950,55,,,,Alti-Mag range page
+praz-sur-arly,Praz sur Arly,northern-alps,Haute-Savoie,1040,2050,192,espace-diamant,,,Alti-Mag range page
+romme,Romme (Nancy-sur-Cluses),northern-alps,Haute-Savoie,1200,1550,4,,,,Alti-Mag range page
+saint-colomban-des-villards,Saint-Colomban des Villards,northern-alps,Savoie,1100,2580,310,les-sybelles,,,Alti-Mag range page
+saint-francois-longchamp,Saint-François Longchamp,northern-alps,Savoie,1600,2520,170,le-grand-domaine,,,Alti-Mag range page
+saint-gervais,Saint-Gervais,northern-alps,Haute-Savoie,800,2370,445,evasion-mont-blanc;les-houches-saint-gervais,,,Alti-Mag range page
+saint-hilaire-du-touvet,Saint-Hilaire du Touvet,northern-alps,Isère,950,1330,10,,,,Alti-Mag range page
+saint-jean-d-arves,Saint-Jean d'Arves,northern-alps,Savoie,1550,2580,310,les-sybelles,,,Alti-Mag range page
+saint-jean-d-aulps,Saint-Jean d'Aulps / Espace Roc d'Enfer,northern-alps,Haute-Savoie,950,1800,50,portes-du-soleil,,,Alti-Mag range page
+saint-martin-de-belleville,Saint-Martin de Belleville,northern-alps,Savoie,1400,3230,600,les-3-vallees,,,Alti-Mag range page
+saint-pierre-de-chartreuse,Saint-Pierre de Chartreuse,northern-alps,Isère,900,1750,31,,,,Alti-Mag range page
+saint-sorlin-d-arves,Saint-Sorlin d'Arves,northern-alps,Savoie,1530,2580,310,les-sybelles,,,Alti-Mag range page
+sainte-foy-tarentaise,Sainte-Foy Tarentaise,northern-alps,Savoie,1550,2620,32,,,,Alti-Mag range page
+samoens,Samoëns,northern-alps,Haute-Savoie,700,2480,265,grand-massif,,,Alti-Mag range page
+sixt-fer-a-cheval,Sixt-Fer-à-Cheval,northern-alps,Haute-Savoie,800,2480,265,,,,Alti-Mag range page
+termignon,Termignon,northern-alps,Savoie,1300,2730,125,,val-cenis,,Alti-Mag range page
+thollon-les-memises,Thollon-les-Mémises,northern-alps,Haute-Savoie,1000,1870,50,,,,Alti-Mag range page
+tignes,Tignes,northern-alps,Savoie,2100,3450,300,tignes-val-disere,,,Alti-Mag range page
+val-cenis,Val Cenis,northern-alps,Savoie,1400,2750,125,,,,Alti-Mag range page
+val-d-isere,Val d'Isère,northern-alps,Savoie,1850,3450,300,tignes-val-disere,,,Alti-Mag range page
+val-thorens,Val Thorens,northern-alps,Savoie,2300,3230,600,les-3-vallees,,,Alti-Mag range page
+valfrejus,Valfréjus,northern-alps,Savoie,1550,2720,65,,,,Alti-Mag range page
+valloire,Valloire,northern-alps,Savoie,1430,2730,160,galibier-thabor,,,Alti-Mag range page
+vallorcine,Vallorcine,northern-alps,Haute-Savoie,1260,2250,30,vallorcine-le-tour,,,Alti-Mag range page
+valmeinier,Valmeinier,northern-alps,Savoie,1800,2730,160,galibier-thabor,,,Alti-Mag range page
+valmorel,Valmorel,northern-alps,Savoie,1350,2500,165,le-grand-domaine,,,Alti-Mag range page
+vaujany,Vaujany,northern-alps,Isère,1250,3330,245,alpe-dhuez-grand-domaine,,,Alti-Mag range page
+villard-de-lans,Villard de Lans / Corrençon,northern-alps,Isère,1030,2050,125,villard-correncon,,,Alti-Mag range page
+villard-reculas,Villard-Reculas,northern-alps,Isère,1450,3330,245,alpe-dhuez-grand-domaine,,,Alti-Mag range page
+artouste,Artouste,pyrenees,Pyrénées-Atlantiques,1400,2030,27,,,,Alti-Mag range page
+ascou-pailheres,Ascou-Pailhères,pyrenees,Ariège,1500,2060,16,,,,Alti-Mag range page
+ax-les-thermes,Ax-les-Thermes,pyrenees,Ariège,700,2330,80,,,,Alti-Mag range page
+bareges,Barèges,pyrenees,Hautes-Pyrénées,1200,2500,100,grand-tourmalet,,,Alti-Mag range page
+cambre-d-aze,Cambre d'Aze,pyrenees,Pyrénées-Orientales,1640,2380,23,,,,Alti-Mag range page
+camurac,Camurac,pyrenees,Aude,1219,1800,6,,,,Alti-Mag range page
+cauterets,Cauterets,pyrenees,Hautes-Pyrénées,900,2415,36,,,,Alti-Mag range page
+font-romeu,Font Romeu,pyrenees,Pyrénées-Orientales,1750,2200,46,font-romeu-pyrenees-2000,,,Alti-Mag range page
+formigueres,Formiguères,pyrenees,Pyrénées-Orientales,1500,2300,25,,,,Alti-Mag range page
+gavarnie-gedre,Gavarnie-Gèdre,pyrenees,Hautes-Pyrénées,1380,2300,32,,,,Alti-Mag range page
+goulier-neige,Goulier Neige,pyrenees,Ariège,1490,1820,15,,,,Alti-Mag range page
+gourette,Gourette,pyrenees,Pyrénées-Atlantiques,1360,2450,42,,,,Alti-Mag range page
+guzet,Guzet,pyrenees,Ariège,1400,2025,40,,,,Alti-Mag range page
+hautacam,Hautacam,pyrenees,Hautes-Pyrénées,1520,1730,20,,,,Alti-Mag range page
+la-mongie-grand-tourmalet,La Mongie – Grand Tourmalet,pyrenees,Hautes-Pyrénées,1800,2500,100,grand-tourmalet,,,Alti-Mag range page
+la-pierre-saint-martin,La Pierre Saint Martin,pyrenees,Pyrénées-Atlantiques,1650,2150,25,,,,Alti-Mag range page
+le-mourtis,Le Mourtis,pyrenees,Haute-Garonne,1450,1800,23,,,,Alti-Mag range page
+le-somport-candanchu,Le Somport – Candanchú,pyrenees,Pyrénées-Atlantiques,1580,1700,50,,,Spain,Alti-Mag range page
+les-angles,Les Angles,pyrenees,Pyrénées-Orientales,1640,2360,55,,,,Alti-Mag range page
+les-monts-d-olmes,Les Monts d'Olmes,pyrenees,Ariège,1480,1950,21,,,,Alti-Mag range page
+luchon-superbagneres,Luchon-Superbagnères,pyrenees,Haute-Garonne,630,2125,32,,,,Alti-Mag range page
+luz-ardiden,Luz-Ardiden,pyrenees,Hautes-Pyrénées,1700,2470,67,,,,Alti-Mag range page
+mijanes-donezan,Mijanès-Donezan,pyrenees,Ariège,1530,2000,12,,,,Alti-Mag range page
+peyragudes,Peyragudes,pyrenees,Hautes-Pyrénées,1600,2350,63,,,,Alti-Mag range page
+piau-engaly,Piau Engaly,pyrenees,Hautes-Pyrénées,1850,2520,31,,,,Alti-Mag range page
+plateau-de-beille,Plateau de Beille,pyrenees,Ariège,1800,2000,1,,,,Alti-Mag range page
+porte-puymorens,Porté-Puymorens,pyrenees,Pyrénées-Orientales,1640,2470,25,,,,Alti-Mag range page
+pyrenees-2000,Pyrénées 2000,pyrenees,Pyrénées-Orientales,1800,2200,46,font-romeu-pyrenees-2000,,,Alti-Mag range page
+saint-lary,Saint-Lary,pyrenees,Hautes-Pyrénées,830,2470,100,,,,Alti-Mag range page
+val-louron,Val Louron,pyrenees,Hautes-Pyrénées,1450,2050,16,,,,Alti-Mag range page
+abries,Abriès,southern-alps,Hautes-Alpes,1550,2400,21,,,,Alti-Mag range page
+ancelle,Ancelle,southern-alps,Hautes-Alpes,1340,1800,26,,,,Alti-Mag range page
+arvieux-izoard,Arvieux – Izoard,southern-alps,Hautes-Alpes,1550,2105,15,,,,Alti-Mag range page
+auron,Auron,southern-alps,Alpes-Maritimes,1600,2450,135,,,,Alti-Mag range page
+beuil-les-launes,Beuil les Launes,southern-alps,Alpes-Maritimes,1550,2066,90,valberg-beuil,,,Alti-Mag range page
+briancon,Briançon,southern-alps,Hautes-Alpes,1250,2770,250,,serre-chevalier,,Alti-Mag range page
+ceillac,Ceillac,southern-alps,Hautes-Alpes,1630,2450,20,,,,Alti-Mag range page
+chabanon,Chabanon,southern-alps,Alpes-de-Haute-Provence,1530,2030,40,,,,Alti-Mag range page
+chalet-reynard,Chalet Reynard / Mont Ventoux Sud,southern-alps,Vaucluse,1440,1630,5,,,,Alti-Mag range page
+crevoux,Crévoux,southern-alps,Hautes-Alpes,1615,2550,22,,,,Alti-Mag range page
+greolieres-1400,Gréolières 1400,southern-alps,Alpes-Maritimes,1400,1760,30,,,,Alti-Mag range page
+isola-2000,Isola 2000,southern-alps,Alpes-Maritimes,2000,2603,120,,,,Alti-Mag range page
+l-audibergue-la-mouliere,L'Audibergue – La Moulière,southern-alps,Alpes-Maritimes,1280,1630,30,,,,Alti-Mag range page
+la-colmiane,La Colmiane,southern-alps,Alpes-Maritimes,1500,1790,30,,,,Alti-Mag range page
+la-grave,La Grave,southern-alps,Hautes-Alpes,1500,3540,5,,,,Alti-Mag range page
+la-joue-du-loup,La Joue du Loup,southern-alps,Hautes-Alpes,1460,2500,100,devoluy,,,Alti-Mag range page
+laye-en-champsaur,Laye en Champsaur,southern-alps,Hautes-Alpes,1300,1900,10,,,,Alti-Mag range page
+le-chazelet,Le Chazelet,southern-alps,Hautes-Alpes,1740,2170,8,,,,Alti-Mag range page
+le-sauze,Le Sauze,southern-alps,Alpes-de-Haute-Provence,1370,2380,65,,,,Alti-Mag range page
+les-orres,Les Orres,southern-alps,Hautes-Alpes,1650,2700,100,,,,Alti-Mag range page
+molines-en-queyras,Molines-en-Queyras,southern-alps,Hautes-Alpes,1750,2810,32,molines-saint-veran,,,Alti-Mag range page
+mont-serein,Mont Serein / Cap Ventoux Expériences,southern-alps,Vaucluse,1380,1800,12,,,,Alti-Mag range page
+montclar,Montclar,southern-alps,Alpes-de-Haute-Provence,1350,2460,50,,,,Alti-Mag range page
+montgenevre,Montgenèvre,southern-alps,Hautes-Alpes,1850,2590,110,via-lattea,,,Alti-Mag range page
+nevache,Névache,southern-alps,Hautes-Alpes,1600,1730,2,,,,Alti-Mag range page
+orcieres-merlette-1850,Orcières Merlette 1850,southern-alps,Hautes-Alpes,1830,2725,100,,,,Alti-Mag range page
+pelvoux-vallouise,Pelvoux Vallouise,southern-alps,Hautes-Alpes,1250,2230,25,,,,Alti-Mag range page
+pra-loup,Pra Loup,southern-alps,Alpes-de-Haute-Provence,1630,2570,180,espace-lumiere,,,Alti-Mag range page
+puy-saint-vincent,Puy Saint-Vincent,southern-alps,Hautes-Alpes,1400,2660,75,,,,Alti-Mag range page
+reallon,Réallon,southern-alps,Hautes-Alpes,1510,2110,30,,,,Alti-Mag range page
+risoul,Risoul,southern-alps,Hautes-Alpes,1870,2740,180,foret-blanche,,,Alti-Mag range page
+roubion-les-buisses,Roubion les Buisses,southern-alps,Alpes-Maritimes,1410,1920,30,,,,Alti-Mag range page
+saint-leger-les-melezes,Saint-Léger les Mélèzes,southern-alps,Hautes-Alpes,1250,1980,25,,,,Alti-Mag range page
+saint-michel-de-chaillol,Saint-Michel de Chaillol,southern-alps,Hautes-Alpes,1450,1900,13,,,,Alti-Mag range page
+saint-veran,Saint-Véran,southern-alps,Hautes-Alpes,2040,2810,31,molines-saint-veran,,,Alti-Mag range page
+sainte-anne-la-condamine,Sainte-Anne la Condamine,southern-alps,Alpes-de-Haute-Provence,1830,2400,35,,,,Alti-Mag range page
+serre-chevalier,Serre Chevalier,southern-alps,Hautes-Alpes,1350,2770,250,,,,Alti-Mag range page
+serre-eyraud,Serre-Eyraud,southern-alps,Hautes-Alpes,1450,2000,10,,,,Alti-Mag range page
+superdevoluy,Superdévoluy,southern-alps,Hautes-Alpes,1500,2500,100,devoluy,,,Alti-Mag range page
+val-d-allos-la-foux,Val d'Allos – La Foux,southern-alps,Alpes-de-Haute-Provence,1800,2570,180,espace-lumiere,,,Alti-Mag range page
+val-d-allos-le-seignus,Val d'Allos – le Seignus,southern-alps,Alpes-de-Haute-Provence,1480,2420,50,,,,Alti-Mag range page
+val-pelens,Val Pelens,southern-alps,Alpes-Maritimes,1600,1700,3,,,,Alti-Mag range page
+valberg,Valberg,southern-alps,Alpes-Maritimes,1550,2066,90,valberg-beuil,,,Alti-Mag range page
+vars,Vars,southern-alps,Hautes-Alpes,1650,2740,180,foret-blanche,,,Alti-Mag range page
+gerardmer,Gérardmer,vosges,Vosges,670,1140,40,,,,Alti-Mag range page
+la-bresse,La Bresse,vosges,Vosges,350,1340,30,,,,Alti-Mag range page
+la-planche-des-belles-filles,La Planche des Belles Filles,vosges,Haute-Saône,1000,1140,3,,,,Alti-Mag range page
+la-schlucht,La Schlucht,vosges,,1139,1250,2,,,,Alti-Mag range page
+le-ballon-d-alsace,Le Ballon d'Alsace,vosges,,1100,1130,7,,,,Alti-Mag range page
+le-grand-ballon,Le Grand Ballon,vosges,Haut-Rhin,,1310,6,,,,Alti-Mag range page
+le-lac-blanc,Le Lac Blanc,vosges,Haut-Rhin,1140,1210,13,,,,Alti-Mag range page
+le-markstein,Le Markstein,vosges,Haut-Rhin,1200,1250,10,,,,Alti-Mag range page
+le-schnepfenried,Le Schnepfenried,vosges,Haut-Rhin,1080,1240,10,,,,Alti-Mag range page
+mont-champ-du-feu,Mont Champ du Feu,vosges,Bas-Rhin,1000,1060,7,,,,Alti-Mag range page
+ventron,Ventron,vosges,Vosges,875,1105,3,,,,Alti-Mag range page

@@ -1,0 +1,106 @@
+range,name,department,base_m,top_m,alpine_km,nordic_km
+southern-alps,Abriès,Hautes-Alpes,1550,2400,21,70
+southern-alps,Ancelle,Hautes-Alpes,1340,1800,26,19
+southern-alps,Arvieux – Izoard,Hautes-Alpes,1550,2105,15,32
+southern-alps,Auron,Alpes-Maritimes,1600,2450,135,5
+southern-alps,Beuil les Launes,Alpes-Maritimes,1550,2066,90,25
+southern-alps,Briançon,Hautes-Alpes,1250,2770,250,45
+southern-alps,Ceillac,Hautes-Alpes,1630,2450,20,37
+southern-alps,Chabanon,Alpes-de-Haute-Provence,1530,2030,40,8
+southern-alps,Chalet Reynard / Mont Ventoux Sud,Vaucluse,1440,1630,5,
+southern-alps,Crévoux,Hautes-Alpes,1615,2550,22,45
+southern-alps,Gréolières 1400,Alpes-Maritimes,1400,1760,30,30
+southern-alps,Isola 2000,Alpes-Maritimes,2000,2603,120,5
+southern-alps,L'Audibergue – La Moulière,Alpes-Maritimes,1280,1630,30,30
+southern-alps,La Colmiane,Alpes-Maritimes,1500,1790,30,
+southern-alps,La Grave,Hautes-Alpes,1500,3540,5,
+southern-alps,La Joue du Loup,Hautes-Alpes,1460,2500,100,18
+southern-alps,Laye en Champsaur,Hautes-Alpes,1300,1900,10,
+southern-alps,Le Chazelet,Hautes-Alpes,1740,2170,8,6
+southern-alps,Le Sauze,Alpes-de-Haute-Provence,1370,2380,65,
+southern-alps,Les Orres,Hautes-Alpes,1650,2700,100,
+southern-alps,Molines-en-Queyras,Hautes-Alpes,1750,2810,32,36
+southern-alps,Mont Serein / Cap Ventoux Expériences,Vaucluse,1380,1800,12,
+southern-alps,Montclar,Alpes-de-Haute-Provence,1350,2460,50,
+southern-alps,Montgenèvre,Hautes-Alpes,1850,2590,110,80
+southern-alps,Névache,Hautes-Alpes,1600,1730,2,45
+southern-alps,Orcières Merlette 1850,Hautes-Alpes,1830,2725,100,40
+southern-alps,Pelvoux Vallouise,Hautes-Alpes,1250,2230,25,80
+southern-alps,Pra Loup,Alpes-de-Haute-Provence,1630,2570,180,
+southern-alps,Puy Saint-Vincent,Hautes-Alpes,1400,2660,75,28
+southern-alps,Réallon,Hautes-Alpes,1510,2110,30,36
+southern-alps,Risoul,Hautes-Alpes,1870,2740,180,
+southern-alps,Roubion les Buisses,Alpes-Maritimes,1410,1920,30,12
+southern-alps,Saint-Léger les Mélèzes,Hautes-Alpes,1250,1980,25,
+southern-alps,Saint-Michel de Chaillol,Hautes-Alpes,1450,1900,13,
+southern-alps,Saint-Véran,Hautes-Alpes,2040,2810,31,21
+southern-alps,Sainte-Anne la Condamine,Alpes-de-Haute-Provence,1830,2400,35,
+southern-alps,Serre Chevalier,Hautes-Alpes,1350,2770,250,45
+southern-alps,Serre-Eyraud,Hautes-Alpes,1450,2000,10,40
+southern-alps,Superdévoluy,Hautes-Alpes,1500,2500,100,18
+southern-alps,Val d'Allos – La Foux,Alpes-de-Haute-Provence,1800,2570,180,
+southern-alps,Val d'Allos – le Seignus,Alpes-de-Haute-Provence,1480,2420,50,
+southern-alps,Val Pelens,Alpes-Maritimes,1600,1700,3,
+southern-alps,Valberg,Alpes-Maritimes,1550,2066,90,
+southern-alps,Vars,Hautes-Alpes,1650,2740,180,
+pyrenees,Artouste,Pyrénées-Atlantiques,1400,2030,27,
+pyrenees,Ascou-Pailhères,Ariège,1500,2060,16,
+pyrenees,Ax-les-Thermes,Ariège,700,2330,80,
+pyrenees,Barèges,Hautes-Pyrénées,1200,2500,100,
+pyrenees,Cambre d'Aze,Pyrénées-Orientales,1640,2380,23,
+pyrenees,Camurac,Aude,1219,1800,6,
+pyrenees,Cauterets,Hautes-Pyrénées,900,2415,36,36
+pyrenees,Font Romeu,Pyrénées-Orientales,1750,2200,46,111
+pyrenees,Formiguères,Pyrénées-Orientales,1500,2300,25,111
+pyrenees,Gavarnie-Gèdre,Hautes-Pyrénées,1380,2300,32,
+pyrenees,Goulier Neige,Ariège,1490,1820,15,
+pyrenees,Gourette,Pyrénées-Atlantiques,1360,2450,42,
+pyrenees,Guzet,Ariège,1400,2025,40,
+pyrenees,Hautacam,Hautes-Pyrénées,1520,1730,20,11
+pyrenees,La Mongie – Grand Tourmalet,Hautes-Pyrénées,1800,2500,100,
+pyrenees,La Pierre Saint Martin,Pyrénées-Atlantiques,1650,2150,25,13
+pyrenees,Le Mourtis,Haute-Garonne,1450,1800,23,8
+pyrenees,Le Somport – Candanchú,Pyrénées-Atlantiques,1580,1700,50,25
+pyrenees,Les Angles,Pyrénées-Orientales,1640,2360,55,
+pyrenees,Les Monts d'Olmes,Ariège,1480,1950,21,
+pyrenees,Luchon-Superbagnères,Haute-Garonne,630,2125,32,
+pyrenees,Luz-Ardiden,Hautes-Pyrénées,1700,2470,67,
+pyrenees,Mijanès-Donezan,Ariège,1530,2000,12,15
+pyrenees,Peyragudes,Hautes-Pyrénées,1600,2350,63,
+pyrenees,Piau Engaly,Hautes-Pyrénées,1850,2520,31,
+pyrenees,Plateau de Beille,Ariège,1800,2000,1,38
+pyrenees,Porté-Puymorens,Pyrénées-Orientales,1640,2470,25,
+pyrenees,Pyrénées 2000,Pyrénées-Orientales,1800,2200,46,111
+pyrenees,Saint-Lary,Hautes-Pyrénées,830,2470,100,
+pyrenees,Val Louron,Hautes-Pyrénées,1450,2050,16,
+jura,Bellefontaine,Jura,1030,1255,3,74
+jura,Foncine-le-Haut,Jura,900,1030,2,110
+jura,Hauteville,Ain,850,1240,15,53
+jura,Les Fourgs,Doubs,1085,1303,6,84
+jura,Les Rousses,Jura,1110,1679,33,149
+jura,Métabief,Doubs,1000,1420,26,70
+jura,Monts Jura,Ain,900,1680,36,130
+jura,Morbier,Jura,900,1160,2,100
+jura,Plateau de Retord – Les Plans d'Hotonnes,Ain,900,1350,15,150
+vosges,Gérardmer,Vosges,670,1140,40,40
+vosges,La Bresse,Vosges,350,1340,30,50
+vosges,La Planche des Belles Filles,Haute-Saône,1000,1140,3,23
+vosges,La Schlucht,,1139,1250,2,6
+vosges,Le Ballon d'Alsace,,1100,1130,7,40
+vosges,Le Grand Ballon,Haut-Rhin,,1310,6,40
+vosges,Le Lac Blanc,Haut-Rhin,1140,1210,13,30
+vosges,Le Markstein,Haut-Rhin,1200,1250,10,
+vosges,Le Schnepfenried,Haut-Rhin,1080,1240,10,8
+vosges,Mont Champ du Feu,Bas-Rhin,1000,1060,7,80
+vosges,Ventron,Vosges,875,1105,3,7
+massif-central,Brameloup,Aveyron,1200,1388,6,22
+massif-central,Chalmazel,Loire,1110,1590,12,
+massif-central,La Croix de Bauzon,Ardèche,1250,1509,5,16
+massif-central,La Loge des Gardes,Allier,1050,1195,2,21
+massif-central,Laguiole,Aveyron,1200,1407,8,50
+massif-central,Le Bleymard – Mont Lozère,Lozère,1400,1702,10,18
+massif-central,Le Lioran,Cantal,1240,1815,60,45
+massif-central,Le Mont-Dore,Puy-de-Dôme,1000,1840,41,200
+massif-central,Les Estables,Haute-Loire,1325,1753,4,51
+massif-central,Prat-Peyrot – Alti-Aigoual,Gard,1200,1567,9,60
+massif-central,Super-Besse,Puy-de-Dôme,1300,1850,60,200
